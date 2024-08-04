@@ -1,0 +1,13 @@
+{
+	"parent": "kubejs:item/ailinghan_model",
+	"textures": {
+		"layer0": "kubejs:item/ailinghan"
+	},  
+  "display": {
+    "head": {
+      "rotation": [ 0, 0, 0 ],
+      "translation": [ 0, 2, 0],
+      "scale":[ 1.1, 1.1, 0.5 ]
+	}
+  }
+}
