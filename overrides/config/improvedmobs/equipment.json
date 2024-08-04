@@ -913,6 +913,38 @@
     "twilightforest:triple_bow": [
       1,
       0.0
+    ],
+    "kubejs:ruoshui_sword": [
+      -50,
+      1
+    ],
+    "kubejs:yecao_sword": [
+      -50,
+      1
+    ],
+    "kubejs:qixing_sword": [
+      -50,
+      1
+    ],
+    "kubejs:putong_stone_sword": [
+      -20,
+      1
+    ],
+    "kubejs:sixiang_kaitian": [
+      -50,
+      1
+    ],
+    "kubejs:lce_tang": [
+      -50,
+      1
+    ],
+    "kubejs:ailinghan": [
+      -50,
+      1
+    ],
+    "kubejs:jian_li": [
+      -50,
+      1
     ]
   },
   "OFFHAND": {
@@ -1413,6 +1445,14 @@
     "twilightforest:yeti_boots": [
       143,
       6.856
+    ],
+    "spectrum:bedrock_boots": [
+      -50,
+      1
+    ],
+    "gobber2:gobber2_boots_dragon": [
+      -100,
+      1
     ]
   },
   "LEGS": {
@@ -1435,6 +1475,14 @@
     "betternether:nether_ruby_leggings": [
       1,
       10.824
+    ],
+    "gobber2:gobber2_leggings_dragon": [
+      -100,
+      1
+    ],
+    "spectrum:bedrock_leggings": [
+      -50,
+      1
     ],
     "emerald_tools:amethyst_leggings": [
       97,
@@ -1889,6 +1937,14 @@
     "betterend:elytra_armored": [
       1,
       12.624
+    ],
+    "spectrum:bedrock_chestplate": [
+      -50,
+      1
+    ], 
+    "gobber2:gobber2_chestplate_dragon": [
+      -100,
+      1
     ],
     "betterend:elytra_crystalite": [
       101,
@@ -2367,6 +2423,14 @@
     "betterend:crystalite_helmet": [
       101,
       7.192
+    ],
+    "spectrum:bedrock_helmet": [
+      -50,
+      1
+    ],
+    "gobber2:gobber2_helmet_dragon": [
+      -100,
+      1
     ],
     "betterend:terminite_helmet": [
       262,
