@@ -400,6 +400,82 @@ onEvent('recipes', event => {
       "item": 'editenchanting:enchantment_edit_table',
     },
   })
+  event.custom({
+    type: "spectrum:enchanter",
+    "time": 600,
+    "required_experience": 10000,
+    "ingredients": [
+      {
+        "item": 'minecraft:book'//太古合金剑刃
+      },
+      {
+        "item": 'spectrum:spectral_shard_storage_block'//天体块
+      },
+      {
+        "item": 'spectrum:spectral_shard_storage_block'//灵魂之骨
+      },
+      {
+        "item": 'dracomelette:dracomelette'//闪耀之星
+      },
+      {
+        "item": 'dracomelette:dracomelette'//龙之星
+      },
+      {
+        "item": 'spectrum:spectral_shard_storage_block'//永恒水晶
+      },
+      {
+        "item": 'spectrum:spectral_shard_storage_block'//流星碎片
+      },
+      {
+        "item": 'dracomelette:dracomelette'//午夜残片
+      },
+      {
+        "item": 'dracomelette:dracomelette'//风暴之石
+      }
+    ],
+    "result": {
+      "item": "minecraft:enchanted_book",
+      "nbt": "{StoredEnchantments: [{id: \"x_enchant:magic_immune\", lvl: 1s}]}"
+    },
+  })
+  event.custom({
+    type: "spectrum:enchanter",
+    "time": 600,
+    "required_experience": 10000,
+    "ingredients": [
+      {
+        "item": 'minecraft:book'//太古合金剑刃
+      },
+      {
+        "item": 'minecraft:nether_star'//天体块
+      },
+      {
+        "item": 'minecraft:nether_star'//灵魂之骨
+      },
+      {
+        "item": 'dragonloot:dragon_scale'//闪耀之星
+      },
+      {
+        "item": 'dragonloot:dragon_scale'//龙之星
+      },
+      {
+        "item": 'minecraft:nether_star'//永恒水晶
+      },
+      {
+        "item": 'minecraft:nether_star'//流星碎片
+      },
+      {
+        "item": 'dragonloot:dragon_scale'//午夜残片
+      },
+      {
+        "item": 'dragonloot:dragon_scale'//风暴之石
+      }
+    ],
+    "result": {
+      "item": "minecraft:enchanted_book",
+      "nbt": "{StoredEnchantments: [{id: \"gobber2:apotropaic\", lvl: 1s}]}"
+    },
+  })
   /*event.custom({
     type: "spectrum:pedestal",
     "time": 600,

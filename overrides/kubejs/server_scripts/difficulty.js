@@ -485,6 +485,7 @@ onEvent('entity.hurt', event => {
             }else if(player.stages.has('difficulty_yonghen')){
                 let lmd= player.fullNBT.IMDifficulty
                 if(!target.tags.contains('attacked')&& !targetTypes.includes(target.type) && target.type != "botania:doppleganger"){
+                    let result=event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage get`)
                     if (lmd < 50) {
                     event.cancel()
                     target.tags.add('attacked')
@@ -497,8 +498,7 @@ onEvent('entity.hurt', event => {
                         event.cancel()
                         target.tags.add('attacked')
                         target.tags.remove('easy')
-                        result=event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage get`)           
-                        event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result*2.0}`)
+                        event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result + result*2.0}`)
                         target.setMaxHealth(target.maxHealth*(40))
                         target.heal(target.maxHealth * 0.9)
                         target.attack(target.maxHealth * 0.1)
@@ -507,8 +507,7 @@ onEvent('entity.hurt', event => {
                         event.cancel()
                         target.tags.add('attacked')
                         target.tags.remove('easy')
-                        result=event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage get`)           
-                        event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result*1.5}`)
+                        event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result + result*1.5}`)
                         target.setMaxHealth(target.maxHealth*(15))
                         target.heal(target.maxHealth * 0.9)
                         target.attack(target.maxHealth * 0.1)
@@ -518,6 +517,7 @@ onEvent('entity.hurt', event => {
                     target.tags.add('attacked')
                     target.tags.remove('easy')
                     target.setMaxHealth(target.maxHealth*(10))
+                    event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result + result*1}`)
                     target.heal(target.maxHealth * 0.9)
                     target.attack(target.maxHealth * 0.1)
                     }
@@ -526,11 +526,13 @@ onEvent('entity.hurt', event => {
                     target.tags.add('attacked')
                     target.tags.remove('easy')
                     target.setMaxHealth(target.maxHealth*(5))
+                    event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result + result*0.5}`)
                     target.heal(target.maxHealth * 0.9)
                     target.attack(target.maxHealth * 0.1)
                     }
                 }
                 else if(!target.tags.contains('attacked') && targetTypes.includes(target.type)){
+                    let result=event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage get`)
                     if (lmd < 50) {
                         event.cancel()
                         target.tags.add('attacked')
@@ -544,8 +546,7 @@ onEvent('entity.hurt', event => {
                             target.tags.add('attacked')
                             target.tags.remove('easy')
                             target.setMaxHealth(target.maxHealth*(60))
-                            result=event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage get`)           
-                            event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result*3.0}`)
+                            event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result + result*3.0}`)
                             target.heal(target.maxHealth * 0.9)
                             target.attack(target.maxHealth * 0.1)
                         }
@@ -553,8 +554,7 @@ onEvent('entity.hurt', event => {
                             event.cancel()
                             target.tags.add('attacked')
                             target.tags.remove('easy')
-                            result=event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage get`)           
-                            event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result*2.0}`)
+                            event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result + result*2.0}`)
                             target.setMaxHealth(target.maxHealth*(20))
                             target.heal(target.maxHealth * 0.9)
                             target.attack(target.maxHealth * 0.1)
@@ -564,6 +564,7 @@ onEvent('entity.hurt', event => {
                         target.tags.add('attacked')
                         target.tags.remove('easy')
                         target.setMaxHealth(target.maxHealth*(15))
+                        event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result + result*1.5}`)
                         target.heal(target.maxHealth * 0.9)
                         target.attack(target.maxHealth * 0.1)
                         }
@@ -572,6 +573,7 @@ onEvent('entity.hurt', event => {
                         target.tags.add('attacked')
                         target.tags.remove('easy')
                         target.setMaxHealth(target.maxHealth*(10))
+                        event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result + result*1}`)
                         target.heal(target.maxHealth * 0.9)
                         target.attack(target.maxHealth * 0.1)
                         }
