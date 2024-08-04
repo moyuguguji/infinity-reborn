@@ -556,7 +556,7 @@
 					id: "botania:terra_pick"
 					Count: 1b
 					tag: {
-						mana: 999999999
+						mana: 100000000
 						Damage: 0
 					}
 				}

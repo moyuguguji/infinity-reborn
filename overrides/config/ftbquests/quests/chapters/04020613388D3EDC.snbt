@@ -203,6 +203,123 @@
 				table_id: 5136761027295037695L
 			}]
 		}
+		{
+			x: -1.0d
+			y: -4.0d
+			dependencies: ["22B6F7C2D8BD57AA"]
+			id: "3A3CAF636B9CDBC3"
+			tasks: [{
+				id: "259CBCAF79AC5FB5"
+				type: "item"
+				item: {
+					id: "kubejs:yuan_mu_jian_one"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4E491BC7034CE8D7"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5136761027295037695L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.0d
+			dependencies: ["3A3CAF636B9CDBC3"]
+			id: "30FD89984A1E117F"
+			tasks: [{
+				id: "3BC960E5365B0EC5"
+				type: "item"
+				item: {
+					id: "kubejs:yuan_mu_jian_seven"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			subtitle: "木剑传说!"
+			dependencies: ["30FD89984A1E117F"]
+			id: "2C56FBA862475235"
+			tasks: [{
+				id: "187769D36474A55F"
+				type: "item"
+				item: {
+					id: "kubejs:yuan_mu_jian"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5C1AFE07F34509FF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5136761027295037695L
+			}]
+		}
+		{
+			title: "知识学爆"
+			x: -4.0d
+			y: -2.5d
+			invisible: true
+			id: "4DC84D45AC2E252A"
+			tasks: [{
+				id: "3680E106AE8D001A"
+				type: "item"
+				item: {
+					id: "spectrum:knowledge_gem"
+					Count: 1b
+					tag: {
+						stored_experience: 1000000000
+						Enchantments: [
+							{
+								lvl: 5s
+								id: "minecraft:efficiency"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:quick_charge"
+							}
+						]
+					}
+				}
+				consume_items: false
+			}]
+			rewards: [{
+				id: "09C78D865D7B69C4"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5136761027295037695L
+			}]
+		}
+		{
+			title: "我草,我飞起来啦"
+			x: -4.0d
+			y: -1.0d
+			invisible: true
+			id: "41FB3806FAA76823"
+			tasks: [{
+				id: "202D4996ECF774C6"
+				type: "item"
+				item: "spectrum:freigeist"
+			}]
+			rewards: [{
+				id: "1FE9E418B8040D7D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5136761027295037695L
+			}]
+		}
 	]
 	quest_links: [ ]
 }

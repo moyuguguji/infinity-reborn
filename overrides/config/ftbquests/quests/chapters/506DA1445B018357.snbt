@@ -1259,15 +1259,26 @@
 			x: 0.0d
 			y: 2.0d
 			subtitle: "以下内容均非光谱世界已确定更新的内容，仅供参考"
-			description: ["注意，由于这之后的内容作者仅在1.19以及后续版本更新，不确定1.18的未开放内容和1.19正式版内容是否有差距，请根据个人实践结合百科内容进行判断。"]
+			description: [
+				"注意，由于这之后的内容作者仅在1.19以及后续版本更新，不确定1.18的未开放内容和1.19正式版内容是否有差距，请根据个人实践结合百科内容进行判断。"
+				""
+				"从远古遗迹中获得三种水晶母岩,获取望舒琼浆之后在灵魂灌注台中合成缟玛瑙母岩"
+			]
 			dependencies: ["6CD923D48AF77852"]
 			hide: true
 			id: "440073C91F3B1DC0"
-			tasks: [{
-				id: "5AD81B3D4B6E27C7"
-				type: "checkmark"
-				title: "光谱扩展"
-			}]
+			tasks: [
+				{
+					id: "5AD81B3D4B6E27C7"
+					type: "checkmark"
+					title: "光谱扩展"
+				}
+				{
+					id: "1E4D36F2FB718505"
+					type: "item"
+					item: "spectrum:budding_moonstone"
+				}
+			]
 			rewards: [
 				{
 					id: "1BD87EBDC40DFED6"
@@ -1434,12 +1445,20 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "15493738C433A690"
-				type: "advancement"
-				advancement: "spectrum:lategame/craft_resonant_pickaxe"
-				criterion: ""
-			}]
+			rewards: [
+				{
+					id: "15493738C433A690"
+					type: "advancement"
+					advancement: "spectrum:lategame/craft_resonant_pickaxe"
+					criterion: ""
+				}
+				{
+					id: "5E73F0CCDB1A4DB5"
+					type: "advancement"
+					advancement: "spectrum:lategame/create_resonance_enchanted_book"
+					criterion: ""
+				}
+			]
 		}
 		{
 			x: 0.0d
