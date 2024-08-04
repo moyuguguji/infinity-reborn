@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:village",
+    "biomes": "#dnl:gallery_of_illusion",
+    "adapt_noise": true,
+    "spawn_overrides": {},
+    "config": {
+        "start_pool": "dnl:structures/gallery_of_illusion/start",
+        "size": 7
+    }
+}

@@ -1,0 +1,8 @@
+Credit to ruddymuddyclod for making the music!
+
+dungeon_ambient = woodland fountain 
+guardian_ghast = meirah
+phase1_guardian_ghast = meirah inu battle
+phase2_guardian_ghast = sister
+
+all the above music can be found at, https://soundcloud.com/barazoku

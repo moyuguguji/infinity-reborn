@@ -1,0 +1,10 @@
+{
+    "collection": "museumcurator.boss",
+    "name": "museumcurator.boss.the_eye",
+    "relativeTo": "museumcurator.boss.obsidilith",
+    "placement": "after",
+    "items": [
+        "adventurez:prime_eye",
+        "heartytrinkets:orange_heart"
+    ]
+}

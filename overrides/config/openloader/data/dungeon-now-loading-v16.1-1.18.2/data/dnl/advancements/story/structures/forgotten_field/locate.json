@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:poppy"
+    },
+    "title": "失落之原野",
+    "description": "环绕着虞美人的寂静墓原",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/structures/hunters_grave/gray",
+  "criteria": {
+    "locate_forgotten_field": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "dnl:forgotten_field"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "locate_forgotten_field"
+    ]
+  ]
+}

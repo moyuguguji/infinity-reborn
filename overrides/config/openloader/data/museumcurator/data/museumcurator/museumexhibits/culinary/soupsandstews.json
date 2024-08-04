@@ -1,0 +1,12 @@
+{
+  "collection": "museumcurator.collection.culinary",
+  "name": "museumcurator.culinary.soupsandstews",
+  "relativeTo": "museumcurator.culinary.ingredients",
+  "items": [
+    "minecraft:bowl",
+    "minecraft:beetroot_soup",
+    "minecraft:mushroom_stew",
+    "minecraft:rabbit_stew",
+    "minecraft:suspicious_stew"
+  ]
+}

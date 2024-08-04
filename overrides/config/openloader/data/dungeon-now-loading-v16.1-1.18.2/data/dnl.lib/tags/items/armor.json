@@ -1,0 +1,11 @@
+{
+    "values": [
+      "minecraft:turtle_helmet",
+      "#dnl.lib:leather_armor",
+      "#dnl.lib:chainmail_armor",
+      "#dnl.lib:iron_armor",
+      "#dnl.lib:golden_armor",
+      "#dnl.lib:diamond_armor",
+      "#dnl.lib:netherite_armor"
+    ]
+}

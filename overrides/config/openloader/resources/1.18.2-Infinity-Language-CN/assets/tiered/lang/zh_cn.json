@@ -1,0 +1,103 @@
+{
+    "generic.dig_speed": "挖掘速度",
+    "generic.crit_chance": "暴击几率",
+    "generic.durable": "耐久",
+    "generic.range_attack_damage": "远程伤害",
+    "generic.attack_range": "攻击范围",
+    "generic.reach": "触及半径",
+  
+    "tiered:broken.label": "破烂",
+
+    "tiered:common_melee.label": "普通",
+    "tiered:uncommon_melee.label": "不凡",
+    "tiered:rare_melee.label": "稀有",
+    "tiered:epic_melee.label": "史诗",
+    "tiered:legendary_melee.label": "传说",
+    "tiered:unique_melee.label": "神话",
+
+    "tiered:common_tool.label": "普通",
+    "tiered:uncommon_tool.label": "不凡",
+    "tiered:rare_tool.label": "稀有",
+    "tiered:epic_tool.label": "史诗",
+    "tiered:legendary_tool.label": "传说",
+    "tiered:unique_tool.label": "神话",
+    "tiered:phecda_tool.label": "七星·禄存",
+
+    "tiered:common_multi_tool.label": "普通",
+    "tiered:uncommon_multi_tool.label": "不凡",
+    "tiered:rare_multi_tool.label": "稀有",
+    "tiered:epic_multi_tool.label": "史诗",
+    "tiered:legendary_multi_tool.label": "传说",
+    "tiered:unique_multi_tool.label": "神话",
+    "tiered:mizar_multi_tool.label": "七星·开阳",
+
+    "tiered:common_armor.label": "普通",
+    "tiered:uncommon_armor.label": "不凡",
+    "tiered:rare_armor.label": "稀有",
+    "tiered:epic_armor.label": "史诗",
+    "tiered:legendary_armor.label": "传说",
+    "tiered:unique_armor.label": "神话",
+    "tiered:megrez_armor.label": "七星·天权",
+    "tiered:merak_armor.label": "七星·天璇",
+    "tiered:dubhe_armor.label": "七星·天枢",
+    "tiered:alioth_armor.label": "七星·玉衡",
+
+    "tiered:common_ranged.label": "普通",
+    "tiered:uncommon_ranged.label": "不凡",
+    "tiered:rare_ranged.label": "稀有",
+    "tiered:epic_ranged.label": "史诗",
+    "tiered:legendary_ranged.label": "传说",
+    "tiered:unique_ranged.label": "神话",
+    "tiered:alkaid_ranged.label": "七星·瑶光",
+    "tiered:alkaid_ranged1.label": "七星·天玑",
+
+    "tiered:common_ranged1.label": "普通",
+    "tiered:uncommon_ranged1.label": "不凡",
+    "tiered:rare_ranged1.label": "稀有",
+    "tiered:epic_ranged1.label": "史诗",
+    "tiered:legendary_ranged1.label": "传说",
+    "tiered:unique_ranged1.label": "神话",
+    "tiered:alkaid_ranged2.label": "七星·瑶光",
+
+    "tiered:common_fishing.label": "普通",
+    "tiered:uncommon_fishing.label": "不凡",
+    "tiered:rare_fishing.label": "稀有",
+    "tiered:epic_fishing.label": "史诗",
+    "tiered:legendary_fishing.label": "传说",
+    "tiered:unique_fishing.label": "神话",
+
+    "tiered:common_shield.label": "普通",
+    "tiered:uncommon_shield.label": "不凡",
+    "tiered:rare_shield.label": "稀有",
+    "tiered:epic_shield.label": "史诗",
+    "tiered:legendary_shield.label": "传说",
+    "tiered:unique_shield.label": "神话",
+
+    "tiered:sins_gluttony_shield.label": "原罪·暴食",
+    "tiered:sins_greed_shield.label": "原罪·贪婪",
+    "tiered:sins_pride_shield.label": "原罪·傲慢",
+    "tiered:sins_sloth_shield.label": "原罪·懒惰",
+
+    "tiered:sins_lust_melee.label": "原罪·淫奢",
+    "tiered:sins_greed_melee.label": "原罪·贪婪",
+    "tiered:sins_wrath_melee.label": "原罪·愤怒",
+    "tiered:sins_envy_melee.label": "原罪·嫉妒",
+
+    "tiered:infinity_melee.label": "始源·永恒",
+    "tiered:qixing_melee.label": "本源·七星",
+    "tiered:qixing_melee2.label": "本源·禁忌",
+
+    "tiered:meide_qianxun.label": "\u00A7b美德·谦逊",
+    "tiered:meide_qinfen.label": "\u00A7b美德·勤奋",
+    "tiered:meide_jiezhi.label": "\u00A7b美德·节制",
+
+    "tiered:pibei.label" :"诅咒·疲惫",
+    "tiered:fuxiu.label" :"诅咒·腐朽",
+    "tiered:fuxiu_tool.label" :"诅咒·腐朽",
+    "tiered:fuxiu_swords.label" :"诅咒·腐朽",
+  
+    "text.autoconfig.tiered.title": "Tiered 配置",
+    "text.autoconfig.tiered.option.lootContainerModifier": "战利品宝箱调整器",
+  
+    "container.reforge": "重铸台"
+  }

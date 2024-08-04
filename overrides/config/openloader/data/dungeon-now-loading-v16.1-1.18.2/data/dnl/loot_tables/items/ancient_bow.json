@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"古代弓\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"translate\":\"\",\"italic\":false}','{\"text\":\"最大蓄力时:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"9-16 伤害\",\"color\":\"dark_aqua\",\"italic\":false}']},CustomModelData:12001,dnl.item:1b,dnl.ancient_bow:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

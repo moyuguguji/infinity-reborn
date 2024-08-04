@@ -1,0 +1,89 @@
+{
+  "dump_registries": false,
+  "mobifier": {
+    "botania:doppleganger": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "reach-entity-attributes:attack_range": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_damage": "*1.2",
+          "minecraft:generic.armor_toughness": "*1",
+          "additionalentityattributes:lava_visibility": "*1",
+          "stepheightentityattribute:stepheight": "*1",
+          "additionalentityattributes:dig_speed": "*1",
+          "minecraft:generic.max_health": "*1.5",
+          "porting_lib:entity_gravity": "*1",
+          "additionalentityattributes:critical_bonus_damage": "*10",
+          "additionalentityattributes:water_speed": "*1",
+          "additionalentityattributes:lava_speed": "*1",
+          "reach-entity-attributes:reach": "*1",
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "betterend:generic.blindness_resistance": "*1",
+          "porting_lib:swim_speed": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "additionalentityattributes:water_visibility": "*1"
+        }
+      }
+    ],
+    "twilightforest:ur_ghast": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "reach-entity-attributes:attack_range": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "additionalentityattributes:lava_visibility": "*1",
+          "stepheightentityattribute:stepheight": "*1",
+          "additionalentityattributes:dig_speed": "*1",
+          "minecraft:generic.max_health": "*1",
+          "porting_lib:entity_gravity": "*1",
+          "additionalentityattributes:critical_bonus_damage": "*1",
+          "additionalentityattributes:water_speed": "*1",
+          "additionalentityattributes:lava_speed": "*1",
+          "reach-entity-attributes:reach": "*1",
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "betterend:generic.blindness_resistance": "*1",
+          "porting_lib:swim_speed": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "additionalentityattributes:water_visibility": "*1"
+        }
+      }
+    ],
+  "terrarianslimes:king_slime": [
+    {
+      "conditions_to_apply": [],
+      "xp_modifier": "*1",
+      "attribute_modifier": {
+        "reach-entity-attributes:attack_range": "*1",
+        "minecraft:generic.armor": "*1",
+        "minecraft:generic.attack_damage": "*0.7",
+        "minecraft:generic.armor_toughness": "*1",
+        "additionalentityattributes:lava_visibility": "*1",
+        "stepheightentityattribute:stepheight": "*1",
+        "additionalentityattributes:dig_speed": "*1",
+        "minecraft:generic.max_health": "*0.25",
+        "porting_lib:entity_gravity": "*1",
+        "additionalentityattributes:critical_bonus_damage": "*1",
+        "additionalentityattributes:water_speed": "*1",
+        "additionalentityattributes:lava_speed": "*1",
+        "reach-entity-attributes:reach": "*1",
+        "minecraft:generic.movement_speed": "*1",
+        "minecraft:generic.knockback_resistance": "*1",
+        "betterend:generic.blindness_resistance": "*1",
+        "porting_lib:swim_speed": "*1",
+        "minecraft:generic.follow_range": "*1",
+        "minecraft:generic.attack_knockback": "*1",
+        "additionalentityattributes:water_visibility": "*1"
+      }
+    }
+  ]
+   
+  }
+}

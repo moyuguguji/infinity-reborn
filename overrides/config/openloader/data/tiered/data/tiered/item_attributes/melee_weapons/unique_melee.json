@@ -1,0 +1,39 @@
+{
+    "id": "tiered:unique_melee",
+    "verifiers": [
+        {
+            "tag": "tier:4weapon"
+        },
+        {
+            "tag": "tier:5weapon"
+        }
+    ],
+    "weight": 15,
+    "style": {
+        "color": "red"
+    },
+    "attributes": [
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:unique_melee",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.6
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "minecraft:generic.attack_damage",
+            "modifier": {
+                "name": "tiered:unique_melee",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.225
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

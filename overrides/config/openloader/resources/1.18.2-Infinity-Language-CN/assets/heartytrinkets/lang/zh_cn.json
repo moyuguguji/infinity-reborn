@@ -1,0 +1,26 @@
+{
+  "itemGroup.heartytrinkets.item_group" : "心之饰品",
+  "item.heartytrinkets.red_heart" : "迷你红心",
+  "item.heartytrinkets.orange_heart" : "迷你橙心",
+  "item.heartytrinkets.green_heart" : "迷你绿心",
+  "item.heartytrinkets.blue_heart" : "迷你蓝心",
+  "item.heartytrinkets.red_heart_crystal" : "红心水晶",
+  "item.heartytrinkets.orange_heart_crystal" : "橙心水晶",
+  "item.heartytrinkets.green_heart_crystal" : "绿心水晶",
+  "item.heartytrinkets.blue_heart_crystal" : "蓝心水晶",
+  "item.heartytrinkets.canister" : "空罐",
+  "item.heartytrinkets.red_heart_canister" : "红心罐",
+  "item.heartytrinkets.orange_heart_canister" : "橙心罐",
+  "item.heartytrinkets.green_heart_canister" : "绿心罐",
+  "item.heartytrinkets.blue_heart_canister" : "蓝心罐",
+  "item.heartytrinkets.wither_rib" : "凋零骨",
+  "item.heartytrinkets.amethyst_apple" : "紫水晶苹果",
+  "item.heartytrinkets.canister_belt" : "心形罐腰带",
+  "tooltip.heartytrinkets.canisterbelt": "%s + 右键单击以打开！",
+  "text.autoconfig.heartytrinkets.title": "Hearty Trinkets Config",
+  "text.autoconfig.heartytrinkets.option.stackSize": "Heart Canister Stack Size",
+  "text.autoconfig.heartytrinkets.option.witherRibDropChance": "Wither Rib Drop Percentage",
+  "text.autoconfig.heartytrinkets.option.allowPlayerStartingTweaks": "Allow Player Starting Tweaks",
+  "text.autoconfig.heartytrinkets.option.startingHealth": "Players Starting Max Health"
+
+}

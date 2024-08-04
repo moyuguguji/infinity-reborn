@@ -1,0 +1,37 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "terralith:cave/andesite_caves",
+            "required": false
+        },
+        {
+            "id": "terralith:cave/desert_caves",
+            "required": false
+        },
+        {
+            "id": "terralith:cave/diorite_caves",
+            "required": false
+        },
+        {
+            "id": "terralith:cave/fungal_caves",
+            "required": false
+        },
+        {
+            "id": "terralith:cave/granite_caves",
+            "required": false
+        },
+        {
+            "id": "terralith:cave/ice_caves",
+            "required": false
+        },
+        {
+            "id": "terralith:cave/infested_caves",
+            "required": false
+        },
+        {
+            "id": "terralith:cave/thermal_caves",
+            "required": false
+        }
+    ]
+}

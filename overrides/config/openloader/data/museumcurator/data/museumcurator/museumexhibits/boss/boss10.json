@@ -1,0 +1,20 @@
+{
+    "collection": "museumcurator.boss",
+    "name": "museumcurator.boss.ur_ghast",
+    "relativeTo": "museumcurator.boss.voidblossom",
+    "placement": "after",
+    "items": [
+        "twilightforest:ur_ghast_trophy",
+        "twilightforest:fiery_tears",
+        "twilightforest:carminite",
+        "heartytrinkets:orange_heart",
+        "mythicmetals:mythril_ingot",
+        "mythicmetals:orichalcum_ingot",
+        "mythicmetals:adamantite_ingot",
+        "mythicmetals:carmot_ingot",
+        "botania:manasteel_ingot",
+        "mythicmetals:banglum_chunk",
+        "mythicmetals:unobtainium",
+        "minecraft:netherite_ingot"
+    ]
+}

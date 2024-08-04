@@ -1,0 +1,15 @@
+{
+    "name": "dnl:structures/railway_outpost/start",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "location": "dnl:railway_outpost/height_adjust",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:dark_forest",
+        "#dnl:terralith/is_forest_dark"
+    ]
+}

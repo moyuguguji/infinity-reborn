@@ -1,0 +1,18 @@
+{
+  "collection": "museumcurator.collection.architecture",
+  "name": "museumcurator.technology.workbenches",
+  "relativeTo": "museumcurator.architecture.fittingsanddecorations",
+  "items": [
+    "minecraft:crafting_table",
+    "minecraft:furnace",
+    "minecraft:blast_furnace",
+    "minecraft:smithing_table",
+    "minecraft:anvil",
+    "minecraft:chipped_anvil",
+    "minecraft:damaged_anvil",
+    "minecraft:grindstone",
+    "minecraft:stonecutter",
+    "minecraft:cauldron",
+    "minecraft:composter"
+  ]
+}

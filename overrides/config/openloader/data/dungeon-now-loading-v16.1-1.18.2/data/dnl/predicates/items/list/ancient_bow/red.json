@@ -1,0 +1,16 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "nbt": "{dnl.relic.red:1b}"
+      },
+      "offhand": {
+        "items": [
+          "minecraft:ghast_tear"
+        ]
+      }
+    }
+  }
+}

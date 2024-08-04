@@ -1,0 +1,22 @@
+{
+    "collection": "museumcurator.boss",
+    "name": "museumcurator.boss.slime",
+    "items": [
+        "mythicmetals:aquarium_pearl",
+        "terrarianslimes:slime_crown",
+        "mythicmetals:mythril_ingot",
+        "mythicmetals:orichalcum_ingot",
+        "mythicmetals:adamantite_ingot",
+        "mythicmetals:quadrillum_ingot",
+        "mythicmetals:prometheum_ingot",
+        "mythicmetals:platinum_ingot",
+        "mythicmetals:kyber_ingot",
+        "mythicmetals:durasteel_ingot",
+        "mythicmetals:aquarium_ingot",
+        "mythicmetals:silver_ingot",
+        "mythicmetals:runite_ingot",
+        "mythicmetals:banglum_ingot",
+        "mythicmetals:bronze_ingot",
+        "mythicmetals:carmot_ingot"
+    ]
+}

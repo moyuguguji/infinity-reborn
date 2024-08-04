@@ -1,0 +1,58 @@
+{
+    "id": "tiered:rare_multi_tool",
+    "verifiers": [
+        {
+            "tag": "tiered:multi_tool"
+        }
+    ],
+    "weight": 152,
+    "style": {
+        "color": "blue"
+    },
+    "attributes": [
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:rare_multi_tool",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.2
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "minecraft:generic.attack_damage",
+            "modifier": {
+                "name": "tiered:rare_multi_tool",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.18
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "tiered:generic.dig_speed",
+            "modifier": {
+                "name": "tiered:rare_multi_tool",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.15
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "reach-entity-attributes:reach",
+            "modifier": {
+                "name": "tiered:rare_multi_tool",
+                "operation": "ADDITION",
+                "amount": 0.5
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

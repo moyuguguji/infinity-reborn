@@ -1,0 +1,82 @@
+{
+  "name": "dnl:structures/olympus/arena/end_halls",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "dnl:olympus/arena/end_halls/ancient_axe",
+        "processors": "dnl:structures/olympus/path_age"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "dnl:olympus/arena/end_halls/ancient_shield",
+        "processors": "dnl:structures/olympus/path_age"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "dnl:olympus/arena/end_halls/ancient_debris",
+        "processors": "dnl:structures/olympus/path_age"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "dnl:olympus/arena/end_halls/vanishing_curse",
+        "processors": "dnl:structures/olympus/path_age"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "dnl:olympus/arena/end_halls/smithing_table",
+        "processors": "dnl:structures/olympus/path_age",
+        "processors": {
+          "processors": [
+            {
+              "processor_type": "minecraft:rule",
+              "rules": [
+                {
+                  "location_predicate": {
+                    "predicate_type": "minecraft:always_true"
+                  },
+                  "input_predicate": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:stone",
+                    "probability": 0.1
+                  },
+                  "output_state": {
+                    "Name": "minecraft:diamond_ore"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "dnl:olympus/arena/end_halls/anvil",
+        "processors": "dnl:structures/olympus/path_age"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:potion",
+          "nbt": "{dnl.honey_potion:1b}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dnl:items/honey_potion/cure_poison"
+  }
+}

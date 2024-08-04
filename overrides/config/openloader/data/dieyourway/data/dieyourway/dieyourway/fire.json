@@ -1,0 +1,18 @@
+{
+    "damage_condition": {
+        "type": "dieyourway:name",
+        "name": "inFire"
+    },
+    "messages": [
+        "[\"\",%1$s,{\"text\":\" 无法灭火\",\"bold\":true,\"color\":\"dark_red\"}]",
+        "[\"\",%1$s,{\"text\":\" 看起外焦里嫩\",\"bold\":true,\"color\":\"dark_red\"}]",
+        "[\"\",%1$s,{\"text\":\" 火了\",\"bold\":true,\"color\":\"dark_red\"}]",
+        "[\"\",%1$s,{\"text\":\" 成了全熟牛排\",\"bold\":true,\"color\":\"dark_red\"}]",
+        "[\"\",%1$s,{\"text\":\" 无法把火扑灭\",\"bold\":true,\"color\":\"dark_red\"}]"
+    ],
+    "arguments": [
+        {
+            "type": "dieyourway:dead_entity"
+        }
+    ]
+}

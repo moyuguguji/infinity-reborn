@@ -1,0 +1,1167 @@
+{
+	id: "2412CB977AEF6F07"
+	group: "2918506B9F30927F"
+	order_index: 4
+	filename: "2412CB977AEF6F07"
+	title: "实用工具"
+	icon: "infusion_table:infusion_table"
+	subtitle: ["你可能会用到的实用道具"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 3.0d
+			y: 4.0d
+			description: [
+				"一根魔法杖，没什么可说的。"
+				"================================================"
+				"“臭小子，法杖上可没刻画法术，过来好好学！”"
+			]
+			id: "4CE01B41CB79543A"
+			tasks: [{
+				id: "3592622BCD4DF57F"
+				type: "item"
+				item: {
+					id: "arcanus:initiate_wand"
+					Count: 1b
+					tag: {
+						arcanus: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "29FC8A3F9009C589"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			description: [
+				"你可以在世界各地的图书馆找到这种书架，其中摆放者一些前人所创造的魔法术式书，打开他们来学习新的法术！"
+				"你可以输入/spells list 查询已经学习到的术式。"
+				"================================================"
+				"“排列组合题，你猜一共有几种法术？”"
+			]
+			dependencies: ["4CE01B41CB79543A"]
+			id: "3E74F84E21871CDF"
+			tasks: [{
+				id: "717E7ACC4AC81C3F"
+				type: "item"
+				item: "arcanus:fillable_bookshelf"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.0d
+			description: [
+				"随着使用进化成了第二等级的法杖。"
+				"================================================"
+				"“随着不断运用法术，我的技术越来越熟练了。”"
+			]
+			dependencies: ["3E74F84E21871CDF"]
+			id: "56B8727E8BDAA9F6"
+			tasks: [{
+				id: "1008C2821C652D95"
+				type: "item"
+				item: {
+					id: "arcanus:adept_wand"
+					Count: 1b
+					tag: {
+						arcanus: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "6D3A821C7CC8A468"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.0d
+			description: [
+				"如同这法杖的名字一样，你已经是个大魔法师了。"
+				"================================================"
+				"“如果你今年已经三十岁以上了，成为大魔法师会意味着更多事情。”"
+			]
+			dependencies: ["56B8727E8BDAA9F6"]
+			id: "486E5A31F0B505E3"
+			tasks: [{
+				id: "0676650C17C43288"
+				type: "item"
+				item: {
+					id: "arcanus:master_wand"
+					Count: 1b
+					tag: {
+						arcanus: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1CB25EABC0F2E099"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+				{
+					id: "5C3A3F31BE89C8A7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			description: ["抓住他们！"]
+			id: "243729D7CF518F16"
+			tasks: [{
+				id: "25189DC8E6136087"
+				type: "item"
+				item: "gobber2:gobber2_staff_ensnarement"
+			}]
+			rewards: [{
+				id: "059806D03C0CDB4D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.0d
+			description: ["抓住所有人！"]
+			dependencies: ["243729D7CF518F16"]
+			id: "77844EC9A9E7CE84"
+			tasks: [{
+				id: "3CB6E12E1C2D9A2C"
+				type: "item"
+				item: "gobber2:gobber2_staff_hostile_ensnarement"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			description: ["搭配火箭靴/史莱姆弹弓等使用更佳。"]
+			id: "25C519F9D655D18F"
+			tasks: [{
+				id: "10999AA2F6A16773"
+				type: "item"
+				item: {
+					id: "kibe:white_glider"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0A6FF7CD24ACDCD7"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			disable_toast: true
+			x: 8.0d
+			y: 8.0d
+			description: [
+				"骑着扫把游荡在空中，好一副魔女做派。"
+				"疾跑下降，跳跃上升，潜行离开扫把,需要身着魔女帽、魔女衣服、魔女靴子其中之一才能以正常速度飞行，否则飞行极慢。"
+				"================================================"
+				"“那么，请答题，漫步在清澈蓝天之下，如果有人在一旁，定会被吸引住目光，有着闭月羞花般美貌的魔女，究竟是谁呢？那就是身在旅途，编制着我和我们的故事的人，没错，就是我。”"
+			]
+			id: "7D060541F6857083"
+			tasks: [{
+				id: "7CC4D8727BF0AA22"
+				type: "item"
+				item: "majobroom:broom_item"
+			}]
+			rewards: [{
+				id: "312CAC3392687D9D"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 4.0d
+			description: ["获取某些资源的更好方式。"]
+			id: "5672BE9A8530451F"
+			tasks: [{
+				id: "1D991C423ACA3AD3"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_staff_transformation"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3D28390CE86A6684"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			description: [
+				"可以用来测一下伤害。"
+				"================================================"
+				"“在遥远的上古时代（1.18.1的无限），我可是无数玩家变强路上不可或缺的一环呢。”"
+			]
+			id: "4661A5BB254F3C27"
+			tasks: [{
+				id: "2742B32A64AA7C33"
+				type: "item"
+				item: "dummmmmmy:target_dummy_placer"
+			}]
+			rewards: [{
+				id: "6365410C2BFE2842"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 9.0d
+			description: ["沾染了龙族强大的力量，可以使使用时消耗至多三十级的等级且不会损坏。"]
+			id: "0E153DF4E3346FF6"
+			tasks: [{
+				id: "6DC7C55BD607473C"
+				type: "item"
+				item: "dragonloot:dragon_anvil"
+			}]
+			rewards: [{
+				id: "37A49F6FF5863C7D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5136761027295037695L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 9.0d
+			description: [
+				"可以把物品上的附魔扒下来，转移到书上，同时重置附魔惩罚。"
+				"操作步骤：右键放置书→右键放置附魔的物品→打火石右击祛魔台。"
+			]
+			id: "5F9D77CE758AB3D7"
+			tasks: [
+				{
+					id: "62FF6805D48F1C78"
+					type: "item"
+					item: "infusion_table:infusion_table"
+				}
+				{
+					id: "0CE8933BB83554A1"
+					type: "observation"
+					title: "操作步骤：右键放置书→右键放置附魔的物品→打火石右击祛魔台"
+					icon: "infusion_table:infusion_table"
+					timer: 100L
+					observe_type: 0
+					to_observe: "infusion_table:infusion_table"
+				}
+			]
+			rewards: [{
+				id: "5B4A2BD9EF58D704"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			description: ["一下子砍倒一整棵树。"]
+			id: "63F4283D14E9FE7E"
+			tasks: [{
+				id: "490F0448DD155E38"
+				type: "item"
+				item: {
+					id: "treeaxe:wooden_treeaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 5.0d
+			description: [
+				"用于重置本mod的boss结构，即可以再打一次并获取战利品。"
+				"TIP：可适用的的boss：黑曜石之柱、地狱之手、夜巫妖、虚空之花。"
+			]
+			id: "6883AA3F3A30CC91"
+			tasks: [{
+				id: "02871A1F6B45E308"
+				type: "item"
+				item: "bosses_of_mass_destruction:brimstone_nectar"
+			}]
+			rewards: [{
+				id: "6691B30D61BF36A6"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			title: "像婴儿一样的睡眠"
+			x: 1.5d
+			y: 7.0d
+			description: [
+				"睡袋：跳过一个晚上。"
+				"吊床：跳过一个白天。"
+				"绳与钉：放置在方块上用来挂吊床用。"
+			]
+			id: "3E9CE4B17BB1C155"
+			tasks: [
+				{
+					id: "3571410ADC1267D5"
+					type: "item"
+					title: "任意睡袋"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "comforts:sleeping_bags"
+						}
+					}
+				}
+				{
+					id: "76076542D26D3F61"
+					type: "item"
+					title: "任意吊床"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "comforts:hammocks"
+						}
+					}
+				}
+				{
+					id: "402AF1818D0E823D"
+					type: "item"
+					item: "comforts:rope_and_nail"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 9.0d
+			id: "776BA8A87F98905C"
+			tasks: [{
+				id: "4DCC1074022CCB23"
+				type: "item"
+				item: "bosses_of_mass_destruction:mob_ward"
+			}]
+			rewards: [{
+				id: "76FEB56C080CC24B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 8.0d
+			description: ["在大火把里面塞小火把可以抑制附近一定范围内的怪物生成。"]
+			id: "074101B012EFA0D0"
+			tasks: [{
+				id: "6017E9E4B6539CAF"
+				type: "item"
+				item: "kibe:big_torch"
+			}]
+			rewards: [{
+				id: "6B317AEC9604184D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 7.0d
+			description: [
+				"经典的传送石碑。"
+				"空手潜行右键指路石可以对其更名。"
+			]
+			id: "56F69C092532A443"
+			tasks: [{
+				id: "6DE0CC44C0B154CE"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+			rewards: [{
+				id: "5B1D09EAA5F7831A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			icon: "botania:cosmetic_questgiver_mark"
+			disable_toast: true
+			x: 4.5d
+			y: 6.0d
+			description: ["这里只是列举了一部分工具，还有更多的缤纷等待你去探索。"]
+			size: 3.0d
+			id: "4620EC0F432AC2DF"
+			tasks: [{
+				id: "56E6D2B1066E22E9"
+				type: "checkmark"
+				title: "关于工具"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 8.0d
+			id: "1FB3C5BA6934D5CB"
+			tasks: [{
+				id: "6972663FA8E5424A"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "68EA9A5441CD613F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 9.0d
+			description: ["合理储存你的箭矢。"]
+			id: "168A0A6D2F411E7F"
+			tasks: [{
+				id: "606E0EA6A9A96A4A"
+				type: "item"
+				item: "nyfsquiver:basic_quiver"
+			}]
+			rewards: [{
+				id: "01786601642A8AE4"
+				type: "item"
+				item: "minecraft:spectral_arrow"
+				count: 64
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			id: "7DD6C6D47EF550DE"
+			tasks: [{
+				id: "31F3693416F23E37"
+				type: "item"
+				item: "gobber2:gobber2_ring_miner"
+			}]
+			rewards: [{
+				id: "4722D7C03E0E7CC3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 5.0d
+			description: [
+				"可以存储一切液体，包括经验。 且可以挖掉带有液体的储罐。"
+				"单个储罐可以储存16桶液体，摆放多个储罐可合并为一个。"
+				"{image:kubejs:textures/ftbq/kibe.png width:200 height:100 align:1}"
+				"==============================================="
+				"存储经验需要用到[经验地漏]将地漏放置在储罐上方，玩家站在地漏上即可储存经验，将经验花洒放置在储罐下方或侧面可以将储罐中的经验取出，且能用红石控制花洒开关。"
+			]
+			dependencies: ["75B2CE19DA0AF3BF"]
+			id: "4EF5AD0030EED009"
+			tasks: [{
+				id: "67807B4259C2602C"
+				type: "item"
+				item: {
+					id: "kibe:tank"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "260A046D078DD333"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 10.0d
+			description: [
+				"用于同类型装备之间无消耗拷贝附魔。"
+				"可以将某件装备上的附魔无损耗的全部取下，然后将其转移到同种装备上，主要用于拯救耐久低的装备。"
+			]
+			id: "0EDDF9E0B7569322"
+			tasks: [{
+				id: "2BF58A32735D54D6"
+				type: "item"
+				item: "spectrum:enchantment_canvas"
+			}]
+			rewards: [{
+				id: "0E988D9D3C45A9DC"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 7.0d
+			description: [
+				"储罐的升级版，相当于流体版末影箱，与纠缠桶连接。"
+				"缺点是没有普通储罐多个合并为一个的能力。"
+				"================================================"
+				"纠缠桶相当于随身携带版的储罐，可容纳16桶液体，并与同ID的纠缠储罐连接，桶中的液体会实时存在纠缠储罐中。此外还拥有任意放置流体的能力（你可以在空气中放置流体）。"
+			]
+			dependencies: ["75B2CE19DA0AF3BF"]
+			id: "2811B7791BA407FF"
+			tasks: [
+				{
+					id: "56C503BE16111061"
+					type: "item"
+					item: "kibe:entangled_tank"
+				}
+				{
+					id: "177786E49EF8B045"
+					type: "item"
+					item: "kibe:entangled_bucket"
+				}
+			]
+			rewards: [{
+				id: "38D56B34C502CFF4"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.0d
+			description: [
+				"本模组中的核心方块，用于存储经验值。"
+				""
+				"·单个经验存储可以存储2147483647点经验，换算成等级则大于21863级；"
+				""
+				"·可以给经验存储上锁/解锁（即私密/公开）；"
+				""
+				"·破坏XP经验存储时保留存储的经验和锁；"
+				""
+				"·手持红石火把右击经验存储以激活经验收集模式（范围为9×9×5的方块）；"
+				""
+				"·右击经验存储可触发经验修补附魔以修复装备和工具；"
+			]
+			dependencies: ["764919843F362996"]
+			id: "69B493BBB7DD9B09"
+			tasks: [{
+				id: "103D15C516CC7E80"
+				type: "item"
+				item: "xps:block_xp_obelisk"
+			}]
+			rewards: [{
+				id: "1716BC24C6732C6B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			icon: "xps:xp_remover"
+			x: 6.5d
+			y: 3.0d
+			description: [
+				"经验转换器用于存入/取出经验值。"
+				""
+				"注意：经验转换器的堆叠数等于单次使用存入/取出的等级。"
+				"潜行使用该物品以切换模式。"
+			]
+			min_required_tasks: 1
+			id: "764919843F362996"
+			tasks: [
+				{
+					id: "2B291A9280BECE37"
+					type: "item"
+					item: "xps:xp_remover"
+				}
+				{
+					id: "22DCDB9A1F17A184"
+					type: "checkmark"
+					title: "领取手册"
+					disable_toast: true
+				}
+			]
+			rewards: [{
+				id: "522BB67114DACF39"
+				type: "item"
+				item: "xps:handbook"
+			}]
+		}
+		{
+			title: "漏斗升级"
+			x: 7.0d
+			y: 4.0d
+			description: [
+				"现在漏斗经过了强化，可以装配多种配件。"
+				""
+				"过滤升级（提供 27 个物品槽位的白名单/黑名单）；"
+				"速度升级（有 1 级和 2 级）；"
+				"锁定升级（锁定漏斗中的内容）；"
+				"销毁升级（销毁物品）；"
+				"排斥升级（防止吸收掉落的物品）。"
+				"使用扳手潜行右键可以调整漏斗的方向。"
+			]
+			id: "783FC4E2B4A9EF76"
+			tasks: [
+				{
+					id: "58308DFAD8CA617A"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+				{
+					id: "13BB876D63493502"
+					type: "item"
+					item: "hplus:upgrade_base"
+				}
+			]
+			rewards: [{
+				id: "1D9D7C2E0C4A67F6"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 6.0d
+			subtitle: "这个真的很好用"
+			dependencies: ["75B2CE19DA0AF3BF"]
+			id: "692958838A0E6845"
+			tasks: [{
+				id: "58A0436DC43C6D8F"
+				type: "item"
+				item: "kibe:cooler"
+			}]
+			rewards: [{
+				id: "1FA306B68471ADFA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 5.0d
+			subtitle: "用这个做简易刷怪塔很简单"
+			description: [
+				"只能在黑暗环境中对泥土使用，使其转化为诅咒之土。"
+				"TIP：诅咒之土在阳光下会起火，转换为普通泥土；空手潜行右键可以查看当前可刷出的怪物类型，此功能有诸多妙用，自行探索。"
+			]
+			dependencies: ["75B2CE19DA0AF3BF"]
+			id: "615CFF1D6BBF6732"
+			tasks: [{
+				id: "06326828D4CBF574"
+				type: "item"
+				item: "kibe:cursed_seeds"
+			}]
+			rewards: [{
+				id: "442BC059072814D9"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 7.0d
+			subtitle: "配合诅咒之土的好伙伴"
+			description: ["传送带的速度较向量板更慢，适合收集物品时使用。"]
+			dependencies: ["75B2CE19DA0AF3BF"]
+			min_required_tasks: 1
+			id: "2BCE8921C56DFD6B"
+			tasks: [
+				{
+					id: "4699FE9110AFF4F8"
+					type: "item"
+					item: "darkutils:vector_plate"
+				}
+				{
+					id: "59F8A6F6730D9497"
+					type: "item"
+					item: "kibe:regular_conveyor_belt"
+				}
+			]
+			rewards: [{
+				id: "6DE83C95B09C7E23"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			title: "幻化装备"
+			x: 4.5d
+			y: 9.0d
+			description: [
+				"拥有幻化或隐藏武器和护甲的能力;"
+				"幻化台通过紫水晶碎片充能，每幻化一次消耗三分之一的能量;"
+				""
+				"第一个槽位放入要幻化的物品，第二个槽位放入想要幻化成的物品，如要隐藏护甲，可放入虚空碎片。"
+				"幻化不消耗任何物品。"
+			]
+			id: "7C485B0F106CE6BF"
+			tasks: [
+				{
+					id: "7E8803C954F6B4F1"
+					type: "item"
+					item: "transmog:transmogrification_table"
+				}
+				{
+					id: "22CF987DB5802ECF"
+					type: "item"
+					item: "transmog:void_fragment"
+				}
+			]
+			rewards: [{
+				id: "2B0553D9EDB763E5"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 5.0d
+			subtitle: "刷怪塔好伙伴x2"
+			dependencies: ["75B2CE19DA0AF3BF"]
+			id: "0E25E1420827424B"
+			tasks: [{
+				id: "5A9B1C445614F7F4"
+				type: "item"
+				item: "kibe:vacuum_hopper"
+			}]
+			rewards: [{
+				id: "3DE49DFD743CC468"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			title: "稻草傀儡"
+			x: 5.5d
+			y: 9.0d
+			subtitle: "种地小帮手"
+			description: ["一个干草块和一个南瓜摆地上可以得到他。"]
+			id: "6164C15A5FBDC286"
+			tasks: [
+				{
+					id: "1F4E68984DF8D7AA"
+					type: "item"
+					item: "minecraft:hay_block"
+				}
+				{
+					id: "7A8BB2DD1FD74F83"
+					type: "item"
+					item: "minecraft:carved_pumpkin"
+				}
+				{
+					id: "0622AFA9C09B20C7"
+					type: "observation"
+					title: "稻草傀儡"
+					icon: "minecraft:carved_pumpkin"
+					timer: 10L
+					observe_type: 5
+					to_observe: "strawgolem:strawgolem"
+				}
+			]
+			rewards: [{
+				id: "4EA4BBC7A661148F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 9.0d
+			subtitle: "右键使用可以返还一点技能点"
+			id: "388E99FC39230C6C"
+			tasks: [{
+				id: "5855D1BB25450442"
+				type: "item"
+				item: "kubejs:skill_bottle"
+			}]
+			rewards: [{
+				id: "05F1A0F745F98E35"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 8.0d
+			subtitle: "还算可以的位移工具"
+			id: "7C42401925BA1F0B"
+			tasks: [{
+				id: "7786F9AFB97F3431"
+				type: "item"
+				title: "任意钩爪"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "hookshot:hookshots"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3D0669EB718D07C4"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			title: "符文"
+			x: 4.5d
+			y: 3.0d
+			description: ["用来更改纠缠箱/桶/储罐的ID，对着上面那一圈白色使用。"]
+			id: "10392C28A3A418E4"
+			tasks: [{
+				id: "2B07F3CBAC5615E4"
+				type: "item"
+				item: "kibe:light_gray_rune"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.0d
+			subtitle: "弹弹弹,噗叽啪"
+			description: ["倒着起飞，前期不错的赶路工具。"]
+			id: "0363D2DF18E5F504"
+			tasks: [{
+				id: "27C8CA8C4C64575E"
+				type: "item"
+				item: "kibe:slime_sling"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 8.0d
+			description: ["除此之外，还有木制、石制等多种品质的建筑之杖可供选择。"]
+			id: "396A098A4C466A78"
+			tasks: [{
+				id: "3FD1EA311AA280CB"
+				type: "item"
+				item: {
+					id: "staffofbuilding:diamond_builder_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "16898550069EBD69"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 6.0d
+			description: ["可以抓住近乎所有生物，甚至哥布林商人。"]
+			dependencies: ["75B2CE19DA0AF3BF"]
+			id: "006400DA28DBE1F5"
+			tasks: [{
+				id: "109EBF681534FE32"
+				type: "item"
+				item: {
+					id: "kibe:cursed_lasso"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 8.0d
+			description: ["一次性消耗品，可以直接搬走刷怪笼。"]
+			id: "4A023D9359D1137F"
+			tasks: [{
+				id: "1D8AFE3E24B0AD94"
+				type: "item"
+				item: "botania:spawner_mover"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			description: [
+				"可以将任意两个饰品合二为一，使一个饰品栏发挥出两个饰品栏的效果。"
+				"TIP：合并后切记注意是否两种饰品的效果是否均能触发。"
+			]
+			id: "11FC98ED9B72B571"
+			tasks: [{
+				id: "3E221D77E9684709"
+				type: "item"
+				item: "things:empty_agglomeration"
+			}]
+			rewards: [{
+				id: "02EDE3C574F6637B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 8.0d
+			description: [
+				"它为什么会在这里？"
+				"================================================"
+				"“君子动手不动口。”"
+			]
+			id: "0FD31E04F6CC7C5E"
+			tasks: [{
+				id: "4BB0DCFBCA7738B1"
+				type: "item"
+				item: {
+					id: "emerald_tools:amethyst_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			description: ["使用后可以随机传送，范围极大，相当于一次性的哆啦A梦任意门，中后期探索开图很有用。"]
+			id: "626F75BBE6838C5E"
+			tasks: [{
+				id: "54F2506A3F0DFAA1"
+				type: "item"
+				item: "gobber2:gobber2_special_item"
+			}]
+			rewards: [{
+				id: "56918826EC06523E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 7.0d
+			description: ["可以种植在灵魂土上，是一种无成本的经验来源方式（效率也很低就是了）。"]
+			id: "034FC1C2920DA0FD"
+			tasks: [{
+				id: "2178EECAA3DEF8A8"
+				type: "item"
+				item: "xps:xp_berries_seeds"
+			}]
+			rewards: [
+				{
+					id: "641992094BA67DAD"
+					type: "item"
+					item: "xps:xp_berries"
+				}
+				{
+					id: "4C655D1D2DB62CE6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 7.0d
+			description: ["与末影箱功能类似，相同ID的纠缠箱储存的物品相同。"]
+			dependencies: ["75B2CE19DA0AF3BF"]
+			id: "598831BA59D96B49"
+			tasks: [{
+				id: "2F5C6399F403638A"
+				type: "item"
+				item: "kibe:entangled_chest"
+			}]
+			rewards: [{
+				id: "51118453FA35CABB"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.0d
+			description: ["可以无限次使用的随机传送团。"]
+			dependencies: ["626F75BBE6838C5E"]
+			id: "231873086AE99283"
+			tasks: [{
+				id: "5F3A3CC7A642D51F"
+				type: "item"
+				item: "gobber2:gobber2_ring_explorer"
+			}]
+		}
+		{
+			title: "迈向自动化的第一步"
+			x: 8.0d
+			y: 6.0d
+			description: ["kibe（羊肉面饼）和darkutilities（暗黑实用）mod都有很多神奇的东西等着你去发现。"]
+			id: "75B2CE19DA0AF3BF"
+			tasks: [{
+				id: "7556A321281295C0"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 8.0d
+			subtitle: "更贵但是功能更多的建筑手杖"
+			description: ["按y或者长按r打开菜单"]
+			dependencies: ["396A098A4C466A78"]
+			id: "2600F41D9D2F1894"
+			tasks: [{
+				id: "6E25962C6DEE2855"
+				type: "item"
+				item: {
+					id: "wands:diamond_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1D0031DDE68B9AEC"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 10.0d
+			id: "2BCBE78D2AC0D9BB"
+			tasks: [{
+				id: "5E09AF6C5F390B9F"
+				type: "item"
+				item: {
+					id: "extraalchemy:potion_bag"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 10.0d
+			subtitle: "消耗经验值来维持药水效果"
+			id: "0109360B8869A7D8"
+			tasks: [{
+				id: "6580D6EADC8D7944"
+				type: "item"
+				item: "extraalchemy:empty_ring"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.0d
+			subtitle: "原来的扫地机器人,依旧需要作弊权限"
+			id: "13C754C005F5FADD"
+			tasks: [{
+				id: "29A7EF8D4D082D78"
+				type: "item"
+				item: "kubejs:sao_di"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 10.0d
+			subtitle: "如果图书管理员崩溃的话可以试着用这个交易"
+			id: "6CAEEDB86BC4A2C8"
+			tasks: [{
+				id: "683408D0C565C2E8"
+				type: "item"
+				item: "tradingpost:trading_post"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 10.0d
+			subtitle: "右键将范围内的建筑收起"
+			description: [
+				"shift+右键可以查看范围"
+				"跟草原之页合成可以增加高度"
+				"跑图可以增加宽度"
+			]
+			id: "52D50B50D9B22ADA"
+			tasks: [
+				{
+					id: "4578AD69B36DAF40"
+					type: "item"
+					item: {
+						id: "nomadbooks:nomad_book"
+						Count: 1b
+						tag: {
+							nomadbooks: {
+								Height: 1
+								Structure: "nomadbooks:campfire3x1x3"
+								Width: 3
+							}
+						}
+					}
+				}
+				{
+					id: "6B9230A4A7DFC26B"
+					type: "item"
+					item: "nomadbooks:grass_page"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 10.0d
+			subtitle: "漏斗老是放不对?"
+			description: ["shift左键切换模式,右键对着漏斗切换方向"]
+			id: "5EF930699ACBD382"
+			tasks: [{
+				id: "1179BABB231082B6"
+				type: "item"
+				item: "hplus:wrench"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

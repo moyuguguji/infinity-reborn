@@ -1,0 +1,168 @@
+// priority: 0
+
+
+onEvent('item.registry', event => {
+	event.create('difficulty_changer')
+		.displayName("§6难度切换器")
+		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip'))
+		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip1'))
+		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip2'))
+		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip3'))
+		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip4'))
+		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip5'))
+		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip6'))
+		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip7'))
+		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip8'))
+		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip9'))
+		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip10'))
+		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip11'))
+		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip12'))
+		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip13'))
+		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip14'))
+		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip15'))
+		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip16'))
+		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip23'))
+		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip17'))
+		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip18'))
+		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip19'))
+		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip20'))
+		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip21'))
+		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip22'))
+		.rarity(Rarity.EPIC),
+
+		event.create('red_packet')
+			.tooltip(Text.translate('item.kubejs.red_packet.tooltip'))
+			.rarity(Rarity.EPIC)
+
+	event.create('firecracker')
+		.tooltip(Text.translate('item.kubejs.firecracker.tooltip'))
+		.rarity(Rarity.EPIC)
+
+	event.create('chinese_dumpling')
+		.tooltip(Text.translate('item.kubejs.chinese_dumpling.tooltip'))
+		.food((food) => { food.hunger(2).saturation(0.5) })
+		.rarity(Rarity.EPIC)
+
+	event.create('sao_di')
+		.displayName("§6清理扫帚")
+		.tooltip(Text.translate('右键清理掉落物'))
+		.tooltip(Text.translate('§4需要作弊权限'))
+		.rarity(Rarity.EPIC)
+
+	event.create('boss_compass1')
+		.displayName("§6boss罗盘-夜巫妖")
+		.tooltip(Text.translate('右键使用显示最近的boss建筑'))
+		.maxStackSize(1)
+		.rarity(Rarity.EPIC)
+
+	event.create('boss_compass2')
+		.displayName("§6boss罗盘-地狱之手")
+		.tooltip(Text.translate('右键使用显示最近的boss建筑'))
+		.maxStackSize(1)
+		.rarity(Rarity.EPIC)
+
+	event.create('boss_compass3')
+		.displayName("§6boss罗盘-黑曜石之柱")
+		.tooltip(Text.translate('右键使用显示最近的boss建筑'))
+		.maxStackSize(1)
+		.rarity(Rarity.EPIC)
+
+	event.create('boss_compass4')
+		.displayName("§6boss罗盘-虚空之花")
+		.tooltip(Text.translate('右键使用显示最近的boss建筑'))
+		.maxStackSize(1)
+		.rarity(Rarity.EPIC)
+
+	event.create('boss_compass5')
+		.displayName("§6boss罗盘-远古英雄")
+		.tooltip(Text.translate('右键使用显示最近的boss建筑'))
+		.maxStackSize(1)
+		.rarity(Rarity.EPIC)
+
+	event.create('boss_compass6')
+		.displayName("§6boss罗盘-莫德凯撒")
+		.tooltip(Text.translate('右键使用显示最近的boss建筑'))
+		.maxStackSize(1)
+		.rarity(Rarity.EPIC)
+
+	event.create('boss_compass7')
+		.displayName("§6boss罗盘-亚托克斯")
+		.tooltip(Text.translate('右键使用显示最近的boss建筑'))
+		.maxStackSize(1)
+		.rarity(Rarity.EPIC)
+
+	event.create('jing__xin')
+		.displayName("镜心的头")
+		.tooltip(Text.translate('右键有惊喜'))
+		.tooltip(Text.translate('--来自赞助者Jing__Xin'))
+		.maxStackSize(1)
+		.rarity(Rarity.EPIC)
+
+	event.create('x_nuohua')
+		.displayName(" §4琉§6璃§e星§a夜§b溯§3流§d光")
+		.tooltip(Text.translate('右键召唤流星'))
+		.tooltip(Text.translate('--来自赞助者X_nuohua'))
+		.maxStackSize(1)
+		.rarity(Rarity.EPIC)
+
+	event.create('tu_kuai')
+		.displayName("很脏的块")
+		.tooltip(Text.translate('一个不一样的泥土'))
+		.maxStackSize(1)
+		.rarity(Rarity.COMMON)
+
+	event.create('shi_kuai')
+		.displayName("坚硬的圆石")
+		.tooltip(Text.translate('比较坚韧的圆石'))
+		.maxStackSize(1)
+		.rarity(Rarity.COMMON)
+
+	event.create('shi_shen_kuai')
+		.displayName("脆弱的深板岩")
+		.tooltip(Text.translate('这块深板岩看起来很脆弱'))
+		.maxStackSize(1)
+		.rarity(Rarity.COMMON)
+
+	event.create('xiajie_kuai')
+		.displayName("奇怪的地狱岩")
+		.tooltip(Text.translate('他貌似有些奇怪?'))
+		.maxStackSize(1)
+		.rarity(Rarity.COMMON)
+
+	event.create('modi_kuai')
+		.displayName("普通的末地石")
+		.tooltip(Text.translate('这只是个末地石'))
+		.maxStackSize(1)
+		.rarity(Rarity.COMMON)
+
+	event.create('yuan_mu')
+		.displayName("原木")
+		.tooltip(Text.translate('普通的木头'))
+		.maxStackSize(1)
+		.rarity(Rarity.COMMON)
+
+	event.create('mu_ban')
+		.displayName("木板")
+		.tooltip(Text.translate('普通的木板'))
+		.maxStackSize(64)
+		.rarity(Rarity.COMMON)
+
+	event.create('yan_qiu')
+		.displayName("眼球召唤")
+		.tooltip(Text.translate('右键在末地召唤眼球'))
+		.maxStackSize(1)
+		.rarity(Rarity.COMMON)
+
+	event.create('hei_shi')
+		.displayName("黑石傀儡召唤")
+		.tooltip(Text.translate('右键在地狱召唤黑石傀儡'))
+		.maxStackSize(1)
+		.rarity(Rarity.COMMON)
+
+
+})
+onEvent('block.modification', event => {
+	event.modify('yigd:grave', block => {
+		block.destroySpeed = -1
+	})
+})

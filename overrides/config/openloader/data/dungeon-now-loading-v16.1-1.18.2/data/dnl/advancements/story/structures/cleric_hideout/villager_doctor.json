@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_apple"
+    },
+    "title": {
+      "text": "村民医生"
+    },
+    "description": {
+      "text": "虚弱并治愈Z教徒"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/structures/cleric_hideout/cleric_z",
+  "criteria": {
+    "cure cleric z": {
+      "trigger": "minecraft:cured_zombie_villager",
+      "conditions": {
+        "zombie": {
+          "type": "minecraft:zombie_villager",
+          "nbt": "{Tags:[\"dnl.cleric_z\"]}"
+        }
+      }
+    }
+  }
+}

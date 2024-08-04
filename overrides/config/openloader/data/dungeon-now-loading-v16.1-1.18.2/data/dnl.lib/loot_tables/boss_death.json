@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:barrier",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dnl.boss_death:1b,dnl.structure.boss:1b}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

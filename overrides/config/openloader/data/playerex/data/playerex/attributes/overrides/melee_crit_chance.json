@@ -1,0 +1,8 @@
+{
+    "fallbackValue": 0.0,
+    "minValue": 0.0,
+    "maxValue": 0.5,
+    "incrementValue": 0.01,
+    "translationKey": "playerex.attribute.name.melee_crit_chance",
+    "stackingBehaviour": "DIMINISHING"
+}

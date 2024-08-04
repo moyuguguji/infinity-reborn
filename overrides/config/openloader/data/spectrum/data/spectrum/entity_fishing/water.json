@@ -1,0 +1,80 @@
+{
+  "fluid": {
+    "tag": "minecraft:water"
+  },
+  "chance": 0.05,
+  "entities": [
+    {
+      "id": "minecraft:cod",
+      "weight": 5
+    },
+    {
+      "id": "minecraft:salmon",
+      "weight": 5
+    },
+    {
+      "id": "minecraft:pufferfish",
+      "weight": 3
+    },
+    {
+      "id": "minecraft:tropical_fish",
+      "weight": 2
+    },
+    {
+      "id": "minecraft:squid",
+      "weight": 1
+    },
+    {
+      "id": "minecraft:dolphin",
+      "weight": 1
+    },
+    {
+      "id": "minecraft:turtle",
+      "weight": 1
+    },
+    {
+      "id": "minecraft:axolotl",
+      "weight": 1
+    },
+    {
+      "id": "minecraft:drowned",
+      "weight": 1
+    },
+    {
+      "id": "betteranimalsplus:octopus",
+      "weight": 2
+    },
+    {
+      "id": "betteranimalsplus:jellyfish",
+      "weight": 5
+    },
+    {
+      "id": "betteranimalsplus:lamprey",
+      "weight": 3
+    },
+    {
+      "id": "betteranimalsplus:nautilus",
+      "weight": 3
+    },
+    {
+      "id": "betteranimalsplus:piranha",
+      "weight": 5
+    },
+    {
+      "id": "betteranimalsplus:flying_fish",
+      "weight": 3
+    },
+    {
+      "id": "betteranimalsplus:barracuda",
+      "weight": 3
+    },
+    {
+      "id": "betteranimalsplus:eel_saltwater",
+      "weight": 3
+    },
+    {
+      "id": "betteranimalsplus:eel_freshwater",
+      "weight": 3
+    }
+  ]
+}

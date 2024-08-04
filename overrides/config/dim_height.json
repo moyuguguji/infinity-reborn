@@ -1,0 +1,17 @@
+{
+   "overworld": {
+      "bottom": -64,
+      "height": 384,
+      "logical_height": 384
+   },
+   "nether": {
+      "bottom": -64,
+      "height": 384,
+      "logical_height": 128
+   },
+   "end": {
+      "bottom": -64,
+      "height": 384,
+      "logical_height": 256
+   }
+}

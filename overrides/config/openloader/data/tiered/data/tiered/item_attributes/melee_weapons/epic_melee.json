@@ -1,0 +1,42 @@
+{
+    "id": "tiered:epic_melee",
+    "verifiers": [
+        {
+            "tag": "tier:2weapon"
+        },
+        {
+            "tag": "tier:3weapon"
+        },
+        {
+            "tag": "tier:4weapon"
+        }
+    ],
+    "weight": 80,
+    "style": {
+        "color": "dark_purple"
+    },
+    "attributes": [
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:epic_melee",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.2
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "minecraft:generic.attack_damage",
+            "modifier": {
+                "name": "tiered:epic_melee",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.08
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

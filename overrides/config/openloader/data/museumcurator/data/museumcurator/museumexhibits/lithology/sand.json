@@ -1,0 +1,18 @@
+{
+  "collection": "museumcurator.collection.lithology",
+  "name": "museumcurator.lithology.sand",
+  "relativeTo": "museumcurator.lithology.dirt",
+  "items": [
+    "minecraft:sand",
+    "minecraft:sandstone",
+    "minecraft:sandstone_slab",
+    "minecraft:sandstone_stairs",
+    "minecraft:sandstone_wall",
+    "minecraft:cut_sandstone",
+    "minecraft:cut_sandstone_slab",
+    "minecraft:chiseled_sandstone",
+    "minecraft:smooth_sandstone",
+    "minecraft:smooth_sandstone_slab",
+    "minecraft:smooth_sandstone_stairs"
+  ]
+}

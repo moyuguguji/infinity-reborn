@@ -1,0 +1,5 @@
+//Hit F3 + M to edit configs client side in game
+{
+  //How to modify speed of hopper minecarts. disabled - fixes a compatibility issue with carpet extra and hopper minecarts transfer very fast like vanilla. slow - sync speed with hoppers [disabled, slow]
+  "hopper_minecart_speed": "slow"
+}

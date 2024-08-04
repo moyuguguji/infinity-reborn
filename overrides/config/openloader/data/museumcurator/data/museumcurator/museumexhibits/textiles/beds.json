@@ -1,0 +1,23 @@
+{
+  "collection": "museumcurator.collection.textiles",
+  "name": "museumcurator.textiles.beds",
+  "relativeTo": "museumcurator.textiles.carpet",
+  "items": [
+    "minecraft:white_bed",
+    "minecraft:light_gray_bed",
+    "minecraft:gray_bed",
+    "minecraft:black_bed",
+    "minecraft:light_blue_bed",
+    "minecraft:cyan_bed",
+    "minecraft:blue_bed",
+    "minecraft:lime_bed",
+    "minecraft:green_bed",
+    "minecraft:yellow_bed",
+    "minecraft:orange_bed",
+    "minecraft:red_bed",
+    "minecraft:pink_bed",
+    "minecraft:magenta_bed",
+    "minecraft:purple_bed",
+    "minecraft:brown_bed"
+  ]
+}

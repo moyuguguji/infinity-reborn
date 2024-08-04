@@ -1,0 +1,19 @@
+{
+    "collection": "museumcurator.boss",
+    "name": "museumcurator.boss.void_shadow",
+    "relativeTo": "museumcurator.boss.the_eye",
+    "placement": "after",
+    "items": [
+        "adventurez:source_stone",
+        "minecraft:dragon_egg",
+        "minecraft:enchanted_book",
+        "mythicmetals:star_platinum",
+        "mythicmetals:hallowed_ingot",
+        "gobber2:gobber2_ingot",
+        "mythicmetals:metallurgium_ingot",
+        "mythicmetals:banglum_chunk",
+        "mythicmetals:unobtainium",
+        "gobber2:gobber2_ingot_nether",
+        "mythicmetals:stormyx_shell"
+    ]
+}

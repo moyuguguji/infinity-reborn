@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:player_head"
+    },
+    "title": "打卡！",
+    "description": "在地牢的战利品箱中发现一个玩家头颅",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/general/new_start",
+  "criteria": {
+    "find player head": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnl.checkpoint_head:1b}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "find player head"
+    ]
+  ]
+}

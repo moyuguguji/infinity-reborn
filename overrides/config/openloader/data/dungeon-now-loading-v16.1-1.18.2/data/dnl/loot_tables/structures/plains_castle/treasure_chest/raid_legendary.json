@@ -1,0 +1,39 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "dnl:structures/plains_castle/armor/legendary"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "dnl:structures/plains_castle/bow/legendary"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "dnl:structures/plains_castle/sword/legendary"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "dnl:structures/plains_castle/materials/legendary"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "dnl:items/nobility_i"
+                }
+            ]
+        }
+    ]
+}

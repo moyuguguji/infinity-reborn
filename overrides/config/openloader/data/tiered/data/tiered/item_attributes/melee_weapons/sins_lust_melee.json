@@ -1,0 +1,42 @@
+{
+  "id": "tiered:sins_lust_melee",
+  "verifiers": [
+    {
+      "tag": "tier:4weapon"
+    },
+    {
+      "tag": "tier:5weapon"
+    },
+    {
+      "tag": "c:swords"
+    }
+  ],
+  "weight": 7,
+  "style": {
+    "color": "dark_red"
+  },
+  "attributes": [
+    {
+      "type": "minecraft:generic.attack_damage",
+      "modifier": {
+          "name": "tiered:sins_lust",
+          "operation": "MULTIPLY_TOTAL",
+          "amount": 0.4
+      },
+      "optional_equipment_slots": [
+          "MAINHAND"
+      ]
+    },
+    {
+    "type": "minecraft:generic.max_health",
+    "modifier": {
+        "name": "tiered:sins_lust",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": -0.25
+    },
+    "optional_equipment_slots": [
+        "MAINHAND"
+    ]
+    }
+  ]
+}

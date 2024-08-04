@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_strad",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": "Alpha",
+    "description": "那久被忘却的古老音律",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "dnl:story/structures/forgotten_field/out_of_stock",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "item": "minecraft:music_disc_strad",
+          "nbt": "{display:{Lore:['{\"text\":\"C418 - Alpha\",\"color\":\"gray\",\"italic\":false}']},HideFlags:32}"
+        }
+      }
+    }
+  }
+}

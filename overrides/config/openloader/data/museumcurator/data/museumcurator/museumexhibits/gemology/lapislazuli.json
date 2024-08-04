@@ -1,0 +1,10 @@
+{
+  "collection": "museumcurator.collection.gemology",
+  "name": "museumcurator.gemology.lapislazuli",
+  "items": [
+    "minecraft:lapis_ore",
+    "minecraft:deepslate_lapis_ore",
+    "minecraft:lapis_lazuli",
+    "minecraft:lapis_block"
+  ]
+}

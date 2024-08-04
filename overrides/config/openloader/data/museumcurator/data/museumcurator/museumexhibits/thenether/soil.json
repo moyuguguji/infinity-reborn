@@ -1,0 +1,8 @@
+{
+  "collection": "museumcurator.collection.thenether",
+  "name": "museumcurator.thenether.soil",
+  "items": [
+    "minecraft:soul_sand",
+    "minecraft:soul_soil"
+  ]
+}

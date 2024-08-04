@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:village",
+    "biomes": "#dnl:cleric_hideout",
+    "adapt_noise": true,
+    "spawn_overrides": {},
+    "config": {
+        "start_pool": "dnl:structures/cleric_hideout/start",
+        "size": 7
+    }
+}

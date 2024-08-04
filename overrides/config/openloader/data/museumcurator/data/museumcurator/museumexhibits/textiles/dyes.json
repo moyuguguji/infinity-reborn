@@ -1,0 +1,22 @@
+{
+  "collection": "museumcurator.collection.textiles",
+  "name": "museumcurator.textiles.dyes",
+  "items": [
+    "minecraft:white_dye",
+    "minecraft:light_gray_dye",
+    "minecraft:gray_dye",
+    "minecraft:black_dye",
+    "minecraft:light_blue_dye",
+    "minecraft:cyan_dye",
+    "minecraft:blue_dye",
+    "minecraft:lime_dye",
+    "minecraft:green_dye",
+    "minecraft:yellow_dye",
+    "minecraft:orange_dye",
+    "minecraft:red_dye",
+    "minecraft:pink_dye",
+    "minecraft:magenta_dye",
+    "minecraft:purple_dye",
+    "minecraft:brown_dye"
+  ]
+}

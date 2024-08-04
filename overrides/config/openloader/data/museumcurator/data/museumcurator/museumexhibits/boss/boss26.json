@@ -1,0 +1,10 @@
+{
+    "collection": "museumcurator.boss",
+    "name": "museumcurator.boss.hirschgeist",
+    "relativeTo": "museumcurator.boss.moonknight",
+    "placement": "after",
+    "items": [
+        "kubejs:soul_bone",
+        "whisperwoods:hirschgeist_skull"
+    ]
+}

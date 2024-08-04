@@ -1,0 +1,47 @@
+{
+    "id": "tiered:rare_shield",
+    "verifiers": [
+        {
+            "tag": "c:shields"
+        }
+    ],
+    "weight": 152,
+    "style": {
+        "color": "blue"
+    },
+    "attributes": [
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:rare_shield",
+                "operation": "ADDITION",
+                "amount": 200
+            },
+            "optional_equipment_slots": [
+                "OFFHAND"
+            ]
+        },
+        {
+            "type": "mythicmetals:magic_protection",
+            "modifier": {
+                "name": "tiered:rare_shield",
+                "operation": "ADDITION",
+                "amount": 2.0
+            },
+            "optional_equipment_slots": [
+                "OFFHAND"
+            ]
+        },
+        {
+            "type": "playerex:health_regeneration",
+            "modifier": {
+                "name": "tiered:rare_shield",
+                "operation": "ADDITION",
+                "amount": 0.4
+            },
+            "optional_equipment_slots": [
+                "OFFHAND"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+  "globalEnabled": true,
+  "combatCooldown": 16.0,
+  "fadeOutTime": 2.0,
+  "global": {
+    "pieces": {
+      "HEAD": {
+        "transparency": 100,
+        "enchantGlint": true
+      },
+      "FEET": {
+        "transparency": 100,
+        "enchantGlint": true
+      },
+      "CHEST": {
+        "transparency": 100,
+        "enchantGlint": true
+      },
+      "LEGS": {
+        "transparency": 100,
+        "enchantGlint": true
+      }
+    },
+    "showInCombat": true,
+    "showNameTag": true,
+    "showElytra": true,
+    "showShieldGlint": true
+  },
+  "overrides": {}
+}

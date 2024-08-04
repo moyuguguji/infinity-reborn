@@ -1,0 +1,15 @@
+{
+  "collection": "museumcurator.collection.machinery",
+  "name": "museumcurator.machinery.minecarts",
+  "items": [
+    "minecraft:rail",
+    "minecraft:powered_rail",
+    "minecraft:activator_rail",
+    "minecraft:detector_rail",
+    "minecraft:minecart",
+    "minecraft:chest_minecart",
+    "minecraft:furnace_minecart",
+    "minecraft:hopper_minecart",
+    "minecraft:tnt_minecart"
+  ]
+}

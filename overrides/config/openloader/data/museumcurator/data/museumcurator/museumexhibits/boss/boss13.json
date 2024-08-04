@@ -1,0 +1,20 @@
+{
+    "collection": "museumcurator.boss",
+    "name": "museumcurator.boss.returningknight",
+    "relativeTo": "museumcurator.boss.snow_queen",
+    "placement": "after",
+    "items": [
+        "soulsweapons:nightfall",
+        "soulsweapons:lord_soul_rose",
+        "soulsweapons:arkenstone",
+        "soulsweapons:moonstone",
+        "mythicmetals:mythril_ingot",
+        "mythicmetals:orichalcum_ingot",
+        "mythicmetals:adamantite_ingot",
+        "mythicmetals:carmot_ingot",
+        "botania:manasteel_ingot",
+        "mythicmetals:banglum_chunk",
+        "mythicmetals:unobtainium",
+        "minecraft:netherite_ingot"
+    ]
+}

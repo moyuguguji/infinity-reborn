@@ -1,0 +1,29 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Day Stalker Defeated!"},
+        "description": {"text": "Summoned by throwing the Chaos Orb into the sky. Wielding the Dawnbreaker, this goddess is empowered during the day and is slower, but more tankier than her other counterpart. Enraged when Night Prowler is defeated."},
+
+        "icon": {"item": "soulsweapons:dawnbreaker"},
+        "frame": "challenge",
+
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "decaying_king_boss": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+        "entity": {
+        "type": "soulsweapons:day_stalker"
+          }
+        } }
+    },
+ 
+    "rewards": {
+        "experience": 500,
+		"function": "darkbosses:boss_defeated"
+    },
+    "parent": "darkbosses:info_souls_bosses"
+}

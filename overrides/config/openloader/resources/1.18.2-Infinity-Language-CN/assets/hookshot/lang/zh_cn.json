@@ -1,0 +1,49 @@
+{
+  // ModMenu
+  "text.autoconfig.hookshot.title": "抓钩",
+  "text.autoconfig.hookshot.option.useClassicHookshotLogic": "Use Old Hookshot Fire/Retract Logic",
+  "text.autoconfig.hookshot.option.unhookableBlacklist": "Unhookable Tag Acts Like Blacklist",
+  "text.autoconfig.hookshot.option.hookshotCancelsFallDamage": "Hookshot Cancels Fall Damage",
+  "text.autoconfig.hookshot.option.quickModAffectsPullSpeed": "Quick Upgrade Affects Hookshot Pull Speed",
+  "text.autoconfig.hookshot.option.defaultMaxRange": "Unmodified Max Hookshot Range",
+  "text.autoconfig.hookshot.option.defaultMaxSpeed": "Unmodified Max Hookshot Speed",
+  "text.autoconfig.hookshot.option.rangeMultiplier": "Range Upgrade Multiplier",
+  "text.autoconfig.hookshot.option.quickMultiplier": "Quick Upgrade Multiplier",
+  "text.autoconfig.hookshot.option.durabilityMultiplier": "Durability Upgrade Multiplier",
+  "text.autoconfig.hookshot.option.defaultMaxDurability": "Hookshot Durability",
+  "text.autoconfig.hookshot.option.hookshotRepairItem": "Item to Use For Repairing Hookshot",
+
+  // Items
+  "item.hookshot.white_hookshot": "白色抓钩",
+  "item.hookshot.orange_hookshot": "橙色抓钩",
+  "item.hookshot.magenta_hookshot": "洋红色抓钩",
+  "item.hookshot.light_blue_hookshot": "浅蓝色抓钩",
+  "item.hookshot.yellow_hookshot": "黄色抓钩",
+  "item.hookshot.lime_hookshot": "黄绿色抓钩",
+  "item.hookshot.pink_hookshot": "粉色抓钩",
+  "item.hookshot.gray_hookshot": "灰色抓钩",
+  "item.hookshot.light_gray_hookshot": "淡灰色抓钩",
+  "item.hookshot.cyan_hookshot": "青色抓钩",
+  "item.hookshot.purple_hookshot": "紫色抓钩",
+  "item.hookshot.blue_hookshot": "蓝色抓钩",
+  "item.hookshot.brown_hookshot": "棕色抓钩",
+  "item.hookshot.green_hookshot": "绿色抓钩",
+  "item.hookshot.red_hookshot": "红色抓钩",
+  "item.hookshot.black_hookshot": "黑色抓钩",
+
+  // Entities
+  "entity.hookshot.hookshot": "抓钩",
+
+  // Modifiers
+  "hookshot.modifier.durability": "耐久",
+  "hookshot.modifier.automatic": "自动",
+  "hookshot.modifier.swinging": "摆动",
+  "hookshot.modifier.aquatic": "水性",
+  "hookshot.modifier.enderic": "末影",
+  "hookshot.modifier.quick": "快速",
+  "hookshot.modifier.range": "范围",
+  "hookshot.modifier.bleed": "流血",
+
+  // Subtitles
+  "subtitles.hookshot.hookshot_reel": "抓钩卷轴"
+}

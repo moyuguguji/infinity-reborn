@@ -1,0 +1,23 @@
+{
+  "collection": "museumcurator.collection.oceanography",
+  "name": "museumcurator.oceanography.aquaticzoology",
+  "items": [
+    "minecraft:wet_sponge",
+    "minecraft:sponge",
+    "minecraft:sea_pickle",
+    "minecraft:axolotl_bucket",
+    "minecraft:cod",
+    "minecraft:cod_bucket",
+    "minecraft:pufferfish",
+    "minecraft:pufferfish_bucket",
+    "minecraft:salmon",
+    "minecraft:salmon_bucket",
+    "minecraft:tropical_fish",
+    "minecraft:tropical_fish_bucket",
+    "minecraft:ink_sac",
+    "minecraft:glow_ink_sac",
+    "minecraft:nautilus_shell",
+    "minecraft:turtle_egg",
+    "minecraft:scute"
+  ]
+}

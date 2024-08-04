@@ -1,0 +1,18 @@
+{
+  "collection": "museumcurator.collection.machinery",
+  "name": "museumcurator.machinery.redstonemechanisms",
+  "items": [
+    "minecraft:lever",
+    "minecraft:redstone_torch",
+    "minecraft:repeater",
+    "minecraft:comparator",
+    "minecraft:observer",
+    "minecraft:piston",
+    "minecraft:sticky_piston",
+    "minecraft:dispenser",
+    "minecraft:dropper",
+    "minecraft:note_block",
+    "minecraft:daylight_detector",
+    "minecraft:redstone_lamp"
+  ]
+}

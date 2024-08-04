@@ -1,0 +1,80 @@
+{
+    "id": "tiered:unique_shield",
+    "verifiers": [
+        {
+            "tag": "c:shields"
+        }
+    ],
+    "weight": 10,
+    "style": {
+        "color": "red"
+    },
+    "attributes": [
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:unique_shield",
+                "operation": "ADDITION",
+                "amount": 800
+            },
+            "optional_equipment_slots": [
+                "OFFHAND"
+            ]
+        },
+        {
+            "type": "mythicmetals:magic_protection",
+            "modifier": {
+                "name": "tiered:unique_shield",
+                "operation": "ADDITION",
+                "amount": 7.0
+            },
+            "optional_equipment_slots": [
+                "OFFHAND"
+            ]
+        },
+        {
+            "type": "playerex:health_regeneration",
+            "modifier": {
+                "name": "tiered:unique_shield",
+                "operation": "ADDITION",
+                "amount": 10
+            },
+            "optional_equipment_slots": [
+                "OFFHAND"
+            ]
+        },
+        {
+            "type": "playerex:fire_resistance",
+            "modifier": {
+                "name": "tiered:unique_shield",
+                "operation": "ADDITION",
+                "amount": 1.0
+            },
+            "optional_equipment_slots": [
+                "OFFHAND"
+            ]
+        },
+        {
+            "type": "playerex:freeze_resistance",
+            "modifier": {
+                "name": "tiered:unique_shield",
+                "operation": "ADDITION",
+                "amount": 1.0
+            },
+            "optional_equipment_slots": [
+                "OFFHAND"
+            ]
+        },
+        {
+            "type": "playerex:poison_resistance",
+            "modifier": {
+                "name": "tiered:unique_shield",
+                "operation": "ADDITION",
+                "amount": 1.0
+            },
+            "optional_equipment_slots": [
+                "OFFHAND"
+            ]
+        }
+    ]
+}

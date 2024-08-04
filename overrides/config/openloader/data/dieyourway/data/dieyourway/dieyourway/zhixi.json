@@ -1,0 +1,16 @@
+{
+    "damage_condition": {
+        "type": "dieyourway:name",
+        "name": "inWall"
+    },
+    "messages": [
+        "[\"\",%1$s,{\"text\":\" 无法呼吸\",\"bold\":true,\"color\":\"dark_red\"}]",
+        "[\"\",%1$s,{\"text\":\" 被活埋了\",\"bold\":true,\"color\":\"dark_red\"}]",
+        "[\"\",%1$s,{\"text\":\" 给沙子砸死了\",\"bold\":true,\"color\":\"dark_red\"}]"
+    ],
+    "arguments": [
+        {
+            "type": "dieyourway:dead_entity"
+        }
+    ]
+}

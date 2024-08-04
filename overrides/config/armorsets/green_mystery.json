@@ -1,0 +1,64 @@
+{
+  "armorSetName": "green_mystery",
+  "head": {
+    "itemKey": "mcda:green_mystery_armor_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "mcda:green_mystery_armor_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "mcda:green_mystery_armor_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "mcda:green_mystery_armor_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 3,
+  "partialSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:strength",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.knockback_resistance",
+      "value": 2.0,
+      "modifierUUID": "528c9a51-31fa-4e1a-a8e2-d0fbb4320e42",
+      "description": "+20 Knockback_resistance",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:strength",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

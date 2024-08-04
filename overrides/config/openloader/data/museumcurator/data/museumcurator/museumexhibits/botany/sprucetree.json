@@ -1,0 +1,16 @@
+{
+  "collection": "museumcurator.collection.botany",
+  "name": "museumcurator.botany.sprucetree",
+  "relativeTo": "museumcurator.botany.oaktree",
+  "items": [
+    "minecraft:spruce_sapling",
+    "minecraft:spruce_leaves",
+    "minecraft:spruce_log",
+    "minecraft:stripped_spruce_log",
+    "minecraft:spruce_wood",
+    "minecraft:stripped_spruce_wood",
+    "minecraft:spruce_planks",
+    "minecraft:spruce_slab",
+    "minecraft:spruce_stairs"
+  ]
+}

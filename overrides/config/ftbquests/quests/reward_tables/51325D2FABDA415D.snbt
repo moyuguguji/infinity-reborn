@@ -1,0 +1,20 @@
+{
+	id: "51325D2FABDA415D"
+	order_index: 8
+	title: "卡片回收"
+	loot_size: 1
+	rewards: [
+		{ item: "collectorsalbum:legendary_repacked_card_package" }
+		{ item: "collectorsalbum:epic_repacked_card_package" }
+		{ item: "collectorsalbum:rare_repacked_card_package" }
+		{ item: "collectorsalbum:uncommon_repacked_card_package" }
+		{
+			item: {
+				id: "numismatic-overhaul:silver_coin"
+				Count: 1b
+				tag: { }
+			}
+			count: 30
+		}
+	]
+}

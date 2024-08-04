@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " S",
+        "  "
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:iron_sword"
+        }
+    },
+    "result": {
+        "item": "mcdw:sword_iron_sword_var",
+        "count": 1
+    }
+}

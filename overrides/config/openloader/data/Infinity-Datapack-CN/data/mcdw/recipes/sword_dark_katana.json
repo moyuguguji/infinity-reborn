@@ -1,0 +1,27 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "item": "mythicmetals:metallurgium_ingot",
+     "count": 1
+    },
+    {
+      "item": "minecraft:netherite_ingot",
+      "count": 2
+    },
+    {
+      "item": "gobber2:gobber2_ingot_nether",
+     "count": 2
+    },
+    {
+      "item": "mythicmetals:stormyx_ingot",
+      "count": 10
+    }
+  ],
+  "output": {
+    "id": "mcdw:sword_dark_katana",
+      "count": 1
+  },
+  "min_forge_tier": 3,
+  "fuel_per_tick": 800
+}

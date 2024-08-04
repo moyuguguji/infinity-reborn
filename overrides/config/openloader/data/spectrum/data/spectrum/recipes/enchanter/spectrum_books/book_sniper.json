@@ -1,0 +1,47 @@
+{
+  "type": "spectrum:enchanter",
+  "time": 300,
+  "required_experience": 100,
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "spectrum:green_pigment"
+    },
+    {
+      "item": "spectrum:green_pigment"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "spectrum:green_pigment"
+    },
+    {
+      "item": "spectrum:green_pigment"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "result": {
+    "item": "minecraft:enchanted_book",
+    "nbt": "{StoredEnchantments: [{id: \"spectrum:sniper\", lvl: 1s}]}"
+  },
+  "required_advancement": "spectrum:progression/enchantments/sniper",
+  "fabric:load_conditions": [
+    {
+      "condition": "spectrum:enchantments_exist",
+      "values": [
+        "spectrum:sniper"
+      ]
+    }
+  ]
+}

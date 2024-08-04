@@ -1,0 +1,15 @@
+{
+  "name": "dnl:structures/olympus/floor/boss_arena",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "dnl:olympus/boss_arena",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

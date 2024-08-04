@@ -1,0 +1,10 @@
+{
+	chapter_groups: [
+		{ id: "2197A2D4484C1345", title: "目标" }
+		{ id: "2D4526175EFBC1B2", title: "维度探索" }
+		{ id: "0B54634113ED2BBC", title: "魔法世界" }
+		{ id: "2918506B9F30927F", title: "强化自己" }
+		{ id: "4DD3698DF322EEDB", title: "后勤保障" }
+		{ id: "5D8C97B73DA1279B", title: "成就和商店" }
+	]
+}

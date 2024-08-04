@@ -1,0 +1,46 @@
+{
+    "structures": [
+        {
+            "structure": "dnl:cleric_hideout",
+            "weight": 10
+        },
+        {
+            "structure": "dnl:crawlers_lair",
+            "weight": 10
+        },
+        {
+            "structure": "dnl:deep_oasis",
+            "weight": 10
+        },
+        {
+            "structure": "dnl:hivenest",
+            "weight": 9
+        },
+        {
+            "structure": "dnl:hivenest_boss",
+            "weight": 1
+        },
+        {
+            "structure": "dnl:hunters_grave",
+            "weight": 10
+        },
+        {
+            "structure": "dnl:railway_outpost",
+            "weight": 10
+        },
+        {
+            "structure": "dnl:sinkhole",
+            "weight": 10
+        },
+        {
+            "structure": "dnl:watcher_camp",
+            "weight": 10
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 40,
+        "separation": 15,
+        "salt": 1838051012
+    }
+}

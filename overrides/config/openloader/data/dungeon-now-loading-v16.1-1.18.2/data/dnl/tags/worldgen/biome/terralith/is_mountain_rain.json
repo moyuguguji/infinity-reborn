@@ -1,0 +1,25 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "terralith:blooming_plateau",
+            "required": false
+        },
+        {
+            "id": "terralith:painted_mountains",
+            "required": false
+        },
+        {
+            "id": "terralith:stony_spires",
+            "required": false
+        },
+        {
+            "id": "terralith:volcanic_crater",
+            "required": false
+        },
+        {
+            "id": "terralith:volcanic_peaks",
+            "required": false
+        }
+    ]
+}

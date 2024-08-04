@@ -1,0 +1,64 @@
+{
+    "id": "tiered:epic_ranged",
+    "verifiers": [
+        {
+            "tag": "tier:2ranged"
+        },
+        {
+            "tag": "tier:3ranged"
+        },
+        {
+            "tag": "tier:4ranged"
+        }
+    ],
+    "weight": 100,
+    "style": {
+        "color": "dark_purple"
+    },
+    "attributes": [
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:epic_ranged",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.3
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "tiered:generic.range_attack_damage",
+            "modifier": {
+                "name": "tiered:epic_ranged",
+                "operation": "ADDITION",
+                "amount": 2.0
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "minecraft:generic.movement_speed",
+            "modifier": {
+                "name": "tiered:epic_ranged",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.1
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "combatroll:count",
+            "modifier": {
+                "name": "tiered:epic_ranged",
+                "operation": "ADDITION",
+                "amount": 1
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrier",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnl.death:1b,dnl.olympus:1b,dnl.lord_of_olympus:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

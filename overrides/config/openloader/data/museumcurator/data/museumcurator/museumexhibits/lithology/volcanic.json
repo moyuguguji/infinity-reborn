@@ -1,0 +1,12 @@
+{
+  "collection": "museumcurator.collection.lithology",
+  "name": "museumcurator.lithology.volcanic",
+  "relativeTo": "museumcurator.lithology.prismarine",
+  "items": [
+    "minecraft:tuff",
+    "minecraft:lava_bucket",
+    "minecraft:magma_block",
+    "minecraft:obsidian",
+    "minecraft:crying_obsidian"
+  ]
+}

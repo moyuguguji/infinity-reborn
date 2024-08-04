@@ -1,0 +1,4 @@
+
+[Gameplay]
+	#Should there be individual checklists (rather than a single shared checklist)
+	individualChecklists = false

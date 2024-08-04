@@ -1,0 +1,17 @@
+{
+	"presencefootsteps.settings.key": "脚步声设置",
+
+	"key.categories.big_items_duh": "物品缩放",
+	"key.big_items_duh.hold_zoom": "按住可缩放物品",
+	"key.big_items_duh.toggle_zoom": "切换物品缩放",
+
+	"category.modmenu.name": "模组菜单",
+	"key.modmenu.open_menu": "打开模组菜单",
+
+	"text.entityculling.title": "实体渲染机制优化",
+    "key.entityculling.toggle": "调试切换选择",
+
+	"zoomify.key.zoom": "缩放",
+	"zoomify.key.gui": "打开GUI",
+	"zoomify.key.category": "Zoomify"
+}

@@ -1,0 +1,29 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Wither Defeated!"},
+        "description": {"text": "The Wither is spawned by placing 4 blocks of soul sand or soul soil in a T shape and putting 3 wither skeleton skulls on top of the three upper blocks."},
+
+        "icon": {"item": "minecraft:wither_skeleton_skull"},
+        "frame": "challenge",
+
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "wither_boss": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+        "entity": {
+        "type": "minecraft:wither"
+          }
+        } }
+    },
+ 
+    "rewards": {
+        "experience": 500,
+		"function": "darkbosses:boss_defeated"
+    },
+    "parent": "darkbosses:info_vanilla_bosses"
+}

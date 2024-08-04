@@ -1,0 +1,27 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "item": "twilightforest:minoshroom_trophy",
+      "count": 1
+    },
+    {
+      "item": "gobber2:gobber2_ingot",
+     "count": 2
+    },
+    {
+      "item": "twilightforest:fiery_ingot",
+      "count": 7
+    },
+    {
+      "item": "mythicmetals:durasteel_ingot",
+     "count": 1
+    }
+  ],
+  "output": {
+    "id": "mcdw:axe_firebrand",
+      "count": 1
+  },
+  "min_forge_tier": 3,
+  "fuel_per_tick": 800
+}

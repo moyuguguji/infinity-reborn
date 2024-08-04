@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:ghast_tear"
+    },
+    "title": "苦痛之化身",
+    "description": "击败三只苦痛恶魂",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/structures/temple_of_tears/locate",
+  "criteria": {
+    "kill guardian ghasts": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 500
+  }
+}

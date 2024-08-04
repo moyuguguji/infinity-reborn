@@ -1,0 +1,415 @@
+{
+  "mcdw:sword_sponge_striker": {
+    "mcdw:enigma_resonator": 1
+  },
+  "mcdw:sickle_soul_scythe": {
+    "mcdw:soul_siphon": 3,
+    "mcdw:enigma_resonator": 2,
+    "mcdw:critical_hit": 2,
+    "spirit:soul_reaper": 7
+  },
+  "mcdw:bow_hunters_promise": {
+    "mcdw:replenish": 1
+  },
+  "mcdw:spear_whispering_spear": {
+    "mcdw:echo": 3,
+    "mcdw:critical_hit": 2
+  },
+  "mcdw:bow_lost_souls": {
+    "minecraft:multishot": 1
+  },
+  "mcdw:crossbow_lightning_harp_crossbow": {
+    "mcdw:ricochet": 1,
+    "mcdw:enigma_resonator": 2,
+    "minecraft:multishot": 1,
+    "minecraft:piercing": 1,
+    "elementalenchantments:elec_aspect": 2,
+    "mcdw:dynamo": 3
+  },
+  "mcdw:sword_heartstealer": {
+    "mcdw:leeching": 1
+  },
+  "mcdw:bow_echo_of_the_valley": {
+    "mcdw:ricochet": 1
+  },
+  "mcdw:bow_elite_power_bow": {
+    "minecraft:power": 1
+  },
+  "mcdw:sickle_jailors_scythe": {
+    "mcdw:chains": 1
+  },
+  "mcdw:bow_love_spell_bow": {
+    "mcdw:radiance": 1
+  },
+  "mcdw:crossbow_harp_crossbow": {
+    "minecraft:multishot": 1
+  },
+  "mcdw:crossbow_exploding_crossbow": {
+    "mcdw:fuse_shot": 1
+  },
+  "mcdw:axe_cursed": {
+    "mcdw:committed": 1
+  },
+  "mcdw:dagger_swift_striker": {
+    "mcdw:echo": 1,
+    "x_enchant:weakness": 1,
+    "mcdw:critical_hit": 2,
+    "mcdw:ambush": 2,
+    "mcdw:committed": 5
+  },
+  "mcdw:spear_fortune": {
+    "minecraft:looting": 3
+  },
+  "gateofbabylon:stone_dagger": {
+    "fabricenchantments:poison_aspect": 1,
+    "mcdw:ambush": 2
+  },
+  "mcdw:bow_bonebow": {
+    "mcdw:growing": 1
+  },
+  "mcdw:axe_firebrand": {
+    "minecraft:fire_aspect": 1
+  },
+  "mcdw:bow_burst_gale_bow": {
+    "mcdw:charge": 1
+  },
+  "mcdw:crossbow_firebolt_thrower": {
+    "mcdw:chain_reaction": 1
+  },
+  "twilightforest:glass_sword": {
+    "extra_enchantments:incompatibility_curse": 1
+  },
+  "mcdw:crossbow_shadow_crossbow": {
+    "mcdw:shadow_barb": 2,
+    "mcdw:enigma_resonator": 1,
+    "mcdw:shadow_shot": 2
+  },
+  "mcdw:dagger_moon": {
+    "mcdw:enigma_resonator": 1
+  },
+  "mcdw:sword_dancers_sword": {
+    "mcdw:rampaging": 1
+  },
+  "gateofbabylon:netherite_dagger": {
+    "fabricenchantments:poison_aspect": 1,
+    "mcdw:ambush": 2
+  },
+  "mcdw:gauntlet_maulers": {
+    "mcdw:rampaging": 1
+  },
+  "soulsweapons:galeforce": {
+    "extra_enchantments:resonating_shot": 3,
+    "mcdw:void_shot": 1
+  },
+  "mcdw:staff_battlestaff_of_terror": {
+    "mcdw:committed": 1
+  },
+  "mcdw:crossbow_the_slicer": {
+    "minecraft:piercing": 1
+  },
+  "mcdw:sickle_skull_scythe": {
+    "mcdw:freezing": 2,
+    "mcdw:critical_hit": 2,
+    "mcdw:committed": 2
+  },
+  "mcdw:bow_masters_bow": {
+    "minecraft:power": 1
+  },
+  "soulsweapons:whirligig_sawblade": {
+    "x_enchant:weakness": 2,
+    "mcdw:enigma_resonator": 2,
+    "mcdw:critical_hit": 3
+  },
+  "mcdw:sword_hawkbrand": {
+    "mcdw:critical_hit": 1
+  },
+  "gateofbabylon:iron_dagger": {
+    "fabricenchantments:poison_aspect": 1,
+    "mcdw:ambush": 2
+  },
+  "mcdw:crossbow_feral_soul_crossbow": {
+    "mcdw:enigma_resonator": 1
+  },
+  "mcdw:sickle_nightmares_bite": {
+    "mcdw:poison_cloud": 1
+  },
+  "mcdw:bow_twin_bow": {
+    "minecraft:bonus_shot": 1
+  },
+  "mcdw:bow_green_menace": {
+    "mcdw:poison_cloud": 1
+  },
+  "minecraft:air": {
+    "mcdw:enigma_resonator": 1
+  },
+  "betterend:aeternium_sword": {
+    "x_enchant:weakness": 1
+  },
+  "mcdw:sickle_frost_scythe": {
+    "mcdw:freezing": 1
+  },
+  "mcdw:dagger_resolute_tempest_knife": {
+    "mcdw:rushdown": 1,
+    "mcdw:committed": 1
+  },
+  "mcdw:axe_whirlwind": {
+    "mcdw:shockwave": 1
+  },
+  "mcdw:gauntlet_soul_fists": {
+    "mcdw:enigma_resonator": 1
+  },
+  "mcdw:bow_web_bow": {
+    "mcdw:cobweb_shot": 1
+  },
+  "mcdw:spear_cackling_broom": {
+    "mcdw:smiting": 1
+  },
+  "mcdw:bow_red_snake": {
+    "mcdw:fuse_shot": 1
+  },
+  "mcdw:crossbow_burst_crossbow": {
+    "mcdw:enigma_resonator": 1
+  },
+  "mcdw:crossbow_doom_crossbow": {
+    "mcdw:growing": 4
+  },
+  "mcdw:hammer_bone_cudgel": {
+    "mcdw:illagers_bane": 1
+  },
+  "mcdw:crossbow_auto_crossbow": {
+    "mcdw:bonus_shot": 1
+  },
+  "mcdw:crossbow_pride_of_the_piglins": {
+    "minecraft:piercing": 5,
+    "mcdw:growing": 5
+  },
+  "mcdw:whip_vine_whip": {
+    "mcdw:jungle_poison": 1
+  },
+  "mcdw:hammer_stormlander": {
+    "mcdw:thundering": 1
+  },
+  "mcdw:crossbow_nautical_crossbow": {
+    "minecraft:piercing": 1
+  },
+  "mcdw:crossbow_veiled_crossbow": {
+    "mcdw:void_shot": 1,
+    "mcdw:shadow_barb": 2,
+    "mcdw:enigma_resonator": 3,
+    "mcdw:shadow_shot": 2
+  },
+  "mcdw:sword_broadsword": {
+    "mcdw:swirling": 1
+  },
+  "mcdw:dagger_backstabber": {
+    "mcdw:ambush": 1,
+    "farmersdelight:backstabbing": 2
+  },
+  "mcdw:axe_encrusted_anchor": {
+    "mcdw:jungle_poison": 1,
+    "mcdw:gravity": 1
+  },
+  "mcdw:bow_nocturnal_bow": {
+    "mcdw:tempo_theft": 1
+  },
+  "soulsweapons:crucible_sword": {
+    "mcdw:committed": 5
+  },
+  "mcdw:crossbow_voidcaller_crossbow": {
+    "mcdw:gravity": 1
+  },
+  "mcdw:crossbow_dual_crossbow": {
+    "mcdw:dynamo": 1
+  },
+  "mcdw:crossbow_heavy_crossbow": {
+    "mcdw:growing": 2
+  },
+  "mcdw:sword_sinister": {
+    "mcdw:critical_hit": 4,
+    "mcdw:committed": 1
+  },
+  "mcdw:staff_growing_staff": {
+    "mcdw:committed": 1
+  },
+  "mcdw:bow_call_of_the_void": {
+    "mcdw:void_shot": 1,
+    "mcdw:fuse_shot": 1
+  },
+  "mcdw:bow_void_bow": {
+    "mcdw:void_shot": 1
+  },
+  "mcdw:sickle_last_laugh_gold": {
+    "mcdw:prospector": 1
+  },
+  "mcdw:crossbow_imploding_crossbow": {
+    "mcdw:gravity": 1,
+    "mcdw:growing": 4,
+    "mcdw:fuse_shot": 4
+  },
+  "mcdw:bow_phantom_bow": {
+    "mcdw:phantoms_mark": 1,
+    "minecraft:power": 1
+  },
+  "mcdw:dagger_the_end": {
+    "x_enchant:weakness": 3,
+    "mcdw:critical_hit": 2,
+    "mcdw:pain_cycle": 2,
+    "mcdw:committed": 3
+  },
+  "mcdw:crossbow_corrupted_crossbow": {
+    "mcdw:enigma_resonator": 3
+  },
+  "mcdw:sword_obsidian_claymore": {
+    "x_enchant:weakness": 1,
+    "mcdw:critical_hit": 3,
+    "minecraft:fire_aspect": 2
+  },
+  "mcdw:bow_bubble_burster": {
+    "mcdw:ricochet": 1
+  },
+  "mcdw:crossbow_spellbound_crossbow": {
+    "mcdw:enigma_resonator": 1,
+    "mcdw:dynamo": 2
+  },
+  "mcdw:bow_sabrewing": {
+    "mcdw:radiance": 1
+  },
+  "gateofbabylon:diamond_dagger": {
+    "fabricenchantments:poison_aspect": 1,
+    "mcdw:ambush": 2
+  },
+  "mcdw:axe_highland": {
+    "mcdw:stunning": 1
+  },
+  "mcdw:spear_venom_glaive": {
+    "mcdw:poison_cloud": 1
+  },
+  "mcdw:dagger_the_beginning": {
+    "mcdw:guarding_strike": 3,
+    "mcdw:leeching": 3,
+    "mcdw:critical_hit": 3,
+    "extra_enchantments:pain_cycle": 1
+  },
+  "mcdw:spear_grave_bane": {
+    "mcdw:critical_hit": 3,
+    "mcdw:committed": 2
+  },
+  "gateofbabylon:wooden_dagger": {
+    "fabricenchantments:poison_aspect": 1,
+    "mcdw:ambush": 2
+  },
+  "mcdw:sword_nameless_blade": {
+    "mcdw:weakening": 1
+  },
+  "mcdw:bow_haunted_bow": {
+    "minecraft:bonus_shot": 1
+  },
+  "mcdw:crossbow_scatter_crossbow": {
+    "minecraft:multishot": 1
+  },
+  "gateofbabylon:golden_dagger": {
+    "fabricenchantments:poison_aspect": 1,
+    "mcdw:ambush": 2
+  },
+  "mcdw:crossbow_soul_hunter_crossbow": {
+    "mcdw:enigma_resonator": 2
+  },
+  "mcdw:dagger_shear_dagger": {
+    "mcdw:swirling": 1
+  },
+  "mcdw:hammer_flail": {
+    "mcdw:chains": 1
+  },
+  "mcdw:sword_masters_katana": {
+    "mcdw:critical_hit": 4
+  },
+  "mcdw:bow_shivering_bow": {
+    "mcdw:tempo_theft": 1
+  },
+  "mcdw:crossbow_slayer_crossbow": {
+    "mcdw:growing": 3
+  },
+  "mcdw:crossbow_baby_crossbow": {
+    "mcdw:enigma_resonator": 1,
+    "mcdw:growing": 1,
+    "mcdw:dynamo": 3
+  },
+  "mcdw:dagger_eternal_knife": {
+    "mcdw:soul_siphon": 1
+  },
+  "mcdw:crossbow_butterfly_crossbow": {
+    "mcdw:bonus_shot": 1
+  },
+  "mcdw:dagger_fangs_of_frost": {
+    "mcdw:freezing": 1
+  },
+  "mcdw:hammer_suns_grace": {
+    "mcdw:radiance": 1,
+    "mcdw:stunning": 2,
+    "mcdw:shockwave": 2
+  },
+  "mcdw:hammer_gravity": {
+    "mcdw:gravity": 1
+  },
+  "kubejs:sixiang_kaitian": {
+    "mcdw:thundering": 10
+  },
+  "mcdw:sword_the_starless_night": {
+    "x_enchant:weakness": 3,
+    "mcdw:stunning": 2,
+    "mcdw:critical_hit": 3
+  },
+  "mcdw:sword_freezing_foil": {
+    "mcdw:freezing": 1
+  },
+  "mcdw:sword_truthseeker": {
+    "mcdw:committed": 1
+  },
+  "kubejs:huan_lin_ying": {
+    "x_enchant:smart": 2,
+    "extra_enchantments:nausea_curse": 5,
+    "cursery:curse_hungry": 5,
+    "extra_enchantments:incompatibility_curse": 5,
+    "minecraft:binding_curse": 5,
+    "mcda:reckless": 5,
+    "extra_enchantments:slowness_curse": 5,
+    "cursery:curse_illusion": 5,
+    "elementalenchantments:light_curse": 5,
+    "extra_enchantments:blindness_curse": 5,
+    "x_enchant:down_armor": 5,
+    "cursery:curse_anvil": 5,
+    "extra_enchantments:withering_curse": 5,
+    "cursery:curse_poison": 5,
+    "x_enchant:thin": 5,
+    "cursery:curse_laddering": 5,
+    "elementalenchantments:dark_curse": 5,
+    "cursery:curse_heavy_enchant": 5,
+    "elementalenchantments:elec_curse": 5,
+    "elementalenchantments:frost_curse": 5,
+    "extra_enchantments:weakness_curse": 5,
+    "cursery:curse_weakness": 5,
+    "elementalenchantments:fire_curse": 5,
+    "extra_enchantments:zeus_curse": 5,
+    "minecraft:vanishing_curse": 5,
+    "cursery:curse_blindness": 5,
+    "cursery:curse_undead": 5,
+    "x_enchant:halo_effect_-_effect.extraalchemy.crumbling": 5
+  },
+  "mcdw:sword_dark_katana": {
+    "mcdw:critical_hit": 5
+  },
+  "mcdw:dagger_chill_gale_knife": {
+    "mcdw:freezing": 1
+  },
+  "mcdw:sickle_last_laugh_silver": {
+    "mcdw:prospector": 1
+  },
+  "mcdw:dagger_void_touched_blade": {
+    "mcdw:critical_hit": 2
+  },
+  "mcdw:sword_frost_slayer": {
+    "mcdw:weakening": 1,
+    "mcdw:freezing": 3,
+    "mcdw:critical_hit": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collection": "museumcurator.collection.lithology",
+  "name": "museumcurator.lithology.dirt",
+  "relativeTo": "museumcurator.lithology.volcanic",
+  "items": [
+    "minecraft:dirt",
+    "minecraft:coarse_dirt",
+    "minecraft:rooted_dirt",
+    "minecraft:grass_block",
+    "minecraft:podzol",
+    "minecraft:mycelium",
+    "minecraft:gravel",
+    "minecraft:flint"
+  ]
+}

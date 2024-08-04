@@ -1,0 +1,979 @@
+{
+	id: "179173663FF4BF5D"
+	group: "2D4526175EFBC1B2"
+	order_index: 3
+	filename: "179173663FF4BF5D"
+	title: "终末之旅"
+	icon: "minecraft:end_stone"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 25.0d
+		height: 11.0d
+		rotation: 0.0d
+		image: "kubejs:textures/ftbq/modi.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "前往末地"
+			icon: "minecraft:end_stone"
+			x: -3.5d
+			y: -0.5d
+			dependencies: ["6D73385681670306"]
+			id: "0CEDE251E1251429"
+			tasks: [{
+				id: "24463540E25D581C"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [{
+				id: "4B8EF41366579010"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			dependencies: [
+				"7393807F10C36C3E"
+				"3E0D5FF75A4E9B1D"
+				"42113EBA3E66BAD9"
+			]
+			id: "1D1DCE89D27673CC"
+			tasks: [{
+				id: "116EE4F5EB920A59"
+				type: "item"
+				item: "gobber2:gobber2_ingot_end"
+			}]
+			rewards: [{
+				id: "0D47CD0F6305460A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			description: ["合成末影戈伯锭的材料之一。"]
+			dependencies: ["4CC496C6F67ECC1C"]
+			id: "3E0D5FF75A4E9B1D"
+			tasks: [{
+				id: "12CC44811A093F49"
+				type: "item"
+				item: "gobber2:gobber2_glob_end"
+			}]
+			rewards: [{
+				id: "5E5DA8359E2D1F73"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			title: "讨伐：末影龙！"
+			icon: "minecraft:dragon_egg"
+			x: -1.5d
+			y: -0.5d
+			subtitle: "讨伐难度：中等-困难：讨伐建议：这还用建议？"
+			description: [
+				"你每杀死一条末影龙，都会使接下来的末影龙属性更强。"
+				"TIP：本包添加了强化末影龙的mod，在进行讨伐战时你无法创造模式飞行。"
+				"================================================"
+				"你可以使用末地水晶复活末影龙，将四个末地水晶分别放在教堂四方的基岩上即可。"
+				"{image:kubejs:textures/ftbq/fuhuomoyinglong.png width:144 height:90 align:1}"
+			]
+			dependencies: ["0CEDE251E1251429"]
+			id: "302E302BDA7BF0F5"
+			tasks: [{
+				id: "3FDD2477CD16F414"
+				type: "kill"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "62B16B4DC913DFF4"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "16B8117F13A98544"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+			]
+		}
+		{
+			title: "讨伐：眼球！"
+			icon: {
+				id: "adventurez:prime_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.5d
+			y: -2.5d
+			subtitle: "讨伐难度：简单；讨伐建议：创造飞行能力或远程输出能力"
+			description: [
+				"召唤仪式如下，有粒子效果冒出就是正在召唤，请耐心等待"
+				"眼球死后会在死亡地点生成一个传送门，前往虚空之影的所在纬度。"
+				"================================================"
+				"{image:kubejs:textures/ftbq/2022-08-18_18.49.27.png width:200 height:130 align:1}"
+				"{image:kubejs:textures/ftbq/2022-08-18_18.50.23.png width:200 height:130 align:1}"
+				"{image:kubejs:textures/ftbq/2022-08-18_18.53.12.png width:200 height:130 align:1}"
+			]
+			dependencies: ["302E302BDA7BF0F5"]
+			id: "2C5A7460D61847D0"
+			tasks: [{
+				id: "6F7316A0AE9A26CA"
+				type: "advancement"
+				advancement: "adventurez:the_eye_advancement"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "63CA108402139203"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "70796B9488E52917"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -4.0d
+			description: [
+				"合成闪耀之星的材料之一。"
+				"================================================"
+				"“woc，____！”"
+			]
+			dependencies: ["27BDB8EB14207BC2"]
+			id: "6B545BDB254B7A99"
+			tasks: [{
+				id: "16ADE3E888E7708B"
+				type: "item"
+				item: "adventurez:source_stone"
+			}]
+			rewards: [{
+				id: "13E51608C1EAABAE"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			title: "讨伐：虚空之影！"
+			x: -3.5d
+			y: -2.5d
+			subtitle: "讨伐难度：困难；讨伐建议：强大的远程输出能力"
+			description: [
+				"虚空之影的伤害判定在它的下方。"
+				"================================================"
+				"{image:kubejs:textures/ftbq/void.png width:200 height:130 align:1}"
+				"TIP：杀死虚空之影生成的影之宝箱固定刷新出龙蛋和超越原版的附魔，可以通过刷虚空之影的方式获取；虚空之影每隔一段时间便会重生。"
+			]
+			dependencies: ["2C5A7460D61847D0"]
+			id: "27BDB8EB14207BC2"
+			tasks: [{
+				id: "3A6101BABE9E619A"
+				type: "advancement"
+				advancement: "adventurez:void_shadow_advancement"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "39443BD9F022EF63"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "6B284B89D0C64654"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -0.5d
+			subtitle: "只需要寻找12个不同的末影之眼"
+			description: [
+				"末影之眼失落人间，被不同的主人寻获，在不同的气息浸染下，竟分化成了很多不同的形态，这下好了，得收集12种末影之眼才能去找老朋友末影龙“叙叙旧”了。"
+				"================================================"
+				"以上末影之眼的分布结构并不完全精确，实际上一些眼睛会生成在很多遗迹的箱子里，譬如沙漠的法老金字塔也能找到沙漠之眼。"
+				"TIP：本包已经很贴心的为部分眼睛添加了符合设定的合成方式。"
+			]
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			id: "17DFD26338E03804"
+			tasks: [{
+				id: "3AED875EA23228FC"
+				type: "item"
+				item: "minecraft:ender_eye"
+			}]
+			rewards: [{
+				id: "7B4A8ABFCF5CBD7D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -9.0d
+			y: -2.0d
+			description: ["可以在沉船中获得。"]
+			dependencies: ["17DFD26338E03804"]
+			id: "1884C1EA6E2A741F"
+			tasks: [{
+				id: "45595ECCE385C720"
+				type: "item"
+				item: "endrem:black_eye"
+			}]
+			rewards: [{
+				id: "417D74196BA0AD80"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -8.5d
+			y: -3.0d
+			description: ["在雪屋的地下室找到。"]
+			dependencies: ["17DFD26338E03804"]
+			id: "7865FC1ECF5536BF"
+			tasks: [{
+				id: "7A6C5813CE039E20"
+				type: "item"
+				item: "endrem:cold_eye"
+			}]
+			rewards: [{
+				id: "3259C7792BE30360"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -3.0d
+			description: ["在与掠夺者相关的的建筑中可以找到。"]
+			dependencies: ["17DFD26338E03804"]
+			id: "3D39312CAD944538"
+			tasks: [{
+				id: "4370E67335126EEA"
+				type: "item"
+				item: "endrem:corrupted_eye"
+			}]
+			rewards: [{
+				id: "4500064FE1F36B6D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -6.5d
+			y: -3.0d
+			description: ["在废弃矿井和地牢中可以找到。"]
+			dependencies: ["17DFD26338E03804"]
+			id: "67E11848FDD47F00"
+			tasks: [{
+				id: "409D8EB2A9AFF07A"
+				type: "item"
+				item: "endrem:lost_eye"
+			}]
+			rewards: [{
+				id: "670C731D5BF5FD41"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -9.0d
+			y: -1.0d
+			description: ["在下界要塞中可以找到。"]
+			dependencies: ["17DFD26338E03804"]
+			id: "68F2852771AA73F1"
+			tasks: [{
+				id: "33B7C7C0B1C8A8EA"
+				type: "item"
+				item: "endrem:nether_eye"
+			}]
+			rewards: [{
+				id: "622DDB3EC9DEDC78"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -8.0d
+			y: -2.0d
+			description: ["在沙漠神殿中可以找到。"]
+			dependencies: ["17DFD26338E03804"]
+			id: "40E57AAA35093634"
+			tasks: [{
+				id: "79426B2E5D74D234"
+				type: "item"
+				item: "endrem:old_eye"
+			}]
+			rewards: [{
+				id: "5237E37F4EF1321B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -7.0d
+			y: -2.0d
+			description: ["在丛林神殿中可以找到。"]
+			dependencies: ["17DFD26338E03804"]
+			id: "4C0D98F61F6BF673"
+			tasks: [{
+				id: "4DC0FB18CD2B12C7"
+				type: "item"
+				item: "endrem:rogue_eye"
+			}]
+			rewards: [{
+				id: "6099F50B67468D3D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.0d
+			description: ["在猪灵堡垒宝箱中获得。"]
+			dependencies: ["17DFD26338E03804"]
+			id: "4049988A3E8E16CF"
+			tasks: [{
+				id: "69EBAE517D5E055B"
+				type: "item"
+				item: "endrem:cursed_eye"
+			}]
+			rewards: [{
+				id: "773E3414C413CFF9"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -9.0d
+			y: 0.0d
+			description: [
+				"从大师级牧师村民手中购买。"
+				"如果你刚升到五级的牧师交易这颗眼睛的选项是锁住的，别担心，他只是需要一点时间补货。"
+			]
+			dependencies: ["17DFD26338E03804"]
+			id: "10AF6239A78DA517"
+			tasks: [{
+				id: "1F4C57C1A2AC7CBE"
+				type: "item"
+				item: "endrem:evil_eye"
+			}]
+			rewards: [{
+				id: "564F7B29F3A4A6A4"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -8.0d
+			y: 1.0d
+			description: ["通过击杀远古守卫者获得，并非百分百掉落，只有约30%的概率。"]
+			dependencies: ["17DFD26338E03804"]
+			id: "6888241599065DCA"
+			tasks: [{
+				id: "6F983285662A5B6C"
+				type: "item"
+				item: "endrem:guardian_eye"
+			}]
+			rewards: [{
+				id: "6D1886970540850D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.0d
+			description: ["通过击杀唤魔者掉落，不过这位更是重量级，只有约百分之五的概率掉落，新版本中也可图书管理员交易获得。"]
+			dependencies: ["17DFD26338E03804"]
+			id: "52ABC2670DC73315"
+			tasks: [{
+				id: "73DDDB41CACC67BB"
+				type: "item"
+				item: "endrem:magical_eye"
+			}]
+			rewards: [{
+				id: "5E8173E6EF5A6527"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.0d
+			description: ["通过击杀凋灵获得。"]
+			dependencies: ["17DFD26338E03804"]
+			id: "26AACD5EA87A1C40"
+			tasks: [{
+				id: "1A13FCB527224935"
+				type: "item"
+				item: "endrem:wither_eye"
+			}]
+			rewards: [{
+				id: "7F0E96380D39FC0E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -9.0d
+			y: 1.0d
+			description: ["合成获得。"]
+			dependencies: ["17DFD26338E03804"]
+			id: "184C4B3BCC199234"
+			tasks: [{
+				id: "296AB97928095A2B"
+				type: "item"
+				item: "endrem:witch_eye"
+			}]
+			rewards: [{
+				id: "6C856AA7E6A16E09"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -8.5d
+			y: 2.0d
+			description: [
+				"合成获得。"
+				"骷髅马只会在雷暴天的骷髅陷阱中生成，详情可移步mc wiki查询。"
+				"也可以合成植魔里的骷髅病毒，右键已驯服的马，可以变成骷髅马。"
+			]
+			dependencies: ["17DFD26338E03804"]
+			id: "221482499CE97D3A"
+			tasks: [{
+				id: "1262E4C66F01BC4B"
+				type: "item"
+				item: "endrem:undead_eye"
+			}]
+			rewards: [{
+				id: "2D9D2D4C7B824749"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -7.5d
+			y: 2.0d
+			description: ["合成获得。"]
+			dependencies: ["17DFD26338E03804"]
+			id: "06B6DB5020E722E6"
+			tasks: [{
+				id: "0E72B358C086285A"
+				type: "item"
+				item: "endrem:exotic_eye"
+			}]
+			rewards: [{
+				id: "3B57DD9EA0184DB6"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -6.5d
+			y: 2.0d
+			description: ["在附魔时有小概率获得。"]
+			dependencies: ["17DFD26338E03804"]
+			id: "392C5CC343208165"
+			tasks: [{
+				id: "1283B4D01344CB55"
+				type: "item"
+				item: "endrem:cryptic_eye"
+			}]
+			rewards: [{
+				id: "432750A96AB79FE8"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			icon: "minecraft:end_portal_frame"
+			x: -5.5d
+			y: -0.5d
+			description: ["原本的末影之眼彻底摸鱼了，你必须使用16种特殊的末影之眼才能找到末地要塞。"]
+			dependencies: ["17DFD26338E03804"]
+			id: "6D73385681670306"
+			tasks: [{
+				id: "78C501FB0D891896"
+				type: "structure"
+				title: "找到末地要塞"
+				structure: "betterstrongholds:stronghold"
+			}]
+			rewards: [{
+				id: "75407403BA768BA6"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			title: "讨伐：黑曜石之柱！"
+			icon: "bosses_of_mass_destruction:obsidian_heart"
+			x: 0.5d
+			y: -2.5d
+			subtitle: "讨伐难度：困难；讨伐建议：铺好平台或创造飞行能力"
+			description: [
+				"在末地主岛之外找到这样的结构（见下图）"
+				"找到中心的黑曜石祭坛，然后放上末影之眼"
+				"================================================"
+				"{image:kubejs:textures/ftbq/2022-08-18_15.18.30.png width:200 height:130 align:1}"
+			]
+			dependencies: ["302E302BDA7BF0F5"]
+			id: "1700C02AF0373ED2"
+			tasks: [{
+				id: "327D99AFB116FF3A"
+				type: "advancement"
+				advancement: "darkbosses:obsidilith_boss"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "4E040C294F471191"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "1FBD1DAE3BE134A7"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			description: ["合成末影戈伯锭的材料之一。"]
+			dependencies: ["4CC496C6F67ECC1C"]
+			id: "7393807F10C36C3E"
+			tasks: [{
+				id: "048C516EBCF645AB"
+				type: "item"
+				item: "minecraft:chorus_flower"
+			}]
+			rewards: [{
+				id: "61F25FA020211404"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			description: [
+				"把末影碎片在铁砧中使用任意锻锤砸成粉末。"
+				"你也可以使用末影珍珠砸成粉末，只不过需要下界合金锻锤来砸。"
+			]
+			dependencies: ["302E302BDA7BF0F5"]
+			id: "3AB5B6EBE3F49B64"
+			tasks: [{
+				id: "41417E9871B7477E"
+				type: "item"
+				item: "betterend:ender_dust"
+			}]
+			rewards: [{
+				id: "5028C7EBFF462EBE"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			description: ["使用铊锭或铁锭配合末影粉熔炼成终界铁锭。"]
+			dependencies: ["3AB5B6EBE3F49B64"]
+			id: "09B2D3CF286D2AF8"
+			tasks: [{
+				id: "1D87FF0086783A96"
+				type: "item"
+				item: "betterend:terminite_ingot"
+			}]
+			rewards: [{
+				id: "00126A2A722919FD"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.0d
+			description: ["太古合金锭是一个套娃环节，具体可以看合成表"]
+			dependencies: ["09B2D3CF286D2AF8"]
+			id: "2FF672D6D8025BD2"
+			tasks: [{
+				id: "6FE04ADBE4871FFB"
+				type: "item"
+				item: "betterend:aeternium_ingot"
+			}]
+			rewards: [{
+				id: "1541F587235889E6"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			dependencies: ["09B2D3CF286D2AF8"]
+			id: "71B34F5999254754"
+			tasks: [{
+				id: "1298B9C935064495"
+				type: "item"
+				item: {
+					id: "betterend:terminite_anvil"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6F539A577651C464"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			dependencies: [
+				"71B34F5999254754"
+				"2FF672D6D8025BD2"
+			]
+			id: "0B573C25C398FFEE"
+			tasks: [{
+				id: "5CB3DC510FC69ECE"
+				type: "item"
+				item: {
+					id: "betterend:aeternium_anvil"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "349B428F1DD0BC90"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.0d
+			dependencies: ["2FF672D6D8025BD2"]
+			id: "0ACE0FA61EEA47C1"
+			tasks: [{
+				id: "3558E6DA46703DAB"
+				type: "item"
+				item: {
+					id: "betterend:aeternium_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5407651D66C11AA3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			description: ["制作无限之剑剑身的核心材料。"]
+			dependencies: [
+				"0ACE0FA61EEA47C1"
+				"0B573C25C398FFEE"
+			]
+			id: "445741577DD02933"
+			tasks: [{
+				id: "313F03CD19FE09AA"
+				type: "item"
+				item: "betterend:aeternium_sword_blade"
+			}]
+			rewards: [
+				{
+					id: "30C99C9CDB633B6B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "605C12DE713DD4B8"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			description: [
+				"灌注基座仪式可以用于制作一些附魔书。"
+				"TIP：进行灌注仪式要注意摆放物品的方向（合成表上北下南）。"
+			]
+			dependencies: ["302E302BDA7BF0F5"]
+			id: "3072D5AD682F4876"
+			tasks: [
+				{
+					id: "0BBC0E7EBBE3E2E8"
+					type: "item"
+					item: "betterend:infusion_pedestal"
+				}
+				{
+					id: "2BF9C597264D3A2A"
+					type: "item"
+					item: "betterend:quartz_pedestal"
+				}
+			]
+			rewards: [{
+				id: "36B122B80B0912E7"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.0d
+			subtitle: "面板相当高的强力武器。"
+			dependencies: ["1D1DCE89D27673CC"]
+			id: "407C6FBB72BA4DF0"
+			tasks: [{
+				id: "17621813362303B2"
+				type: "item"
+				item: {
+					id: "mcdw:sword_the_starless_night"
+					Count: 1b
+					tag: {
+						swa3: {
+							COLD: {
+								slowDur: 4.5f
+								freezeDur: 4.5f
+								bonusDmg: 2.0f
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "始与末"
+			x: 8.0d
+			y: 0.0d
+			subtitle: "双持始末体验更佳"
+			dependencies: ["1D1DCE89D27673CC"]
+			id: "0BF9D3423404F8BF"
+			tasks: [
+				{
+					id: "600C172617B0210F"
+					type: "item"
+					item: {
+						id: "mcdw:dagger_the_beginning"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0A52C1D027437316"
+					type: "item"
+					item: {
+						id: "mcdw:dagger_the_end"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "末地石砖锻炉（层级4）"
+			icon: "alloy_forgery:end_stone_bricks_forge_controller"
+			x: 0.5d
+			y: -0.5d
+			subtitle: "终级锻造炉"
+			description: [
+				"唯一的4级炉，不仅可以增加部分材料的产量，也是唯一锻造末影戈伯和系列武器的顶级锻造炉"
+				"容量：400000"
+				"效率：375%"
+			]
+			dependencies: ["302E302BDA7BF0F5"]
+			id: "4CC496C6F67ECC1C"
+			tasks: [
+				{
+					id: "25ABBF4B65FAD760"
+					type: "item"
+					item: "alloy_forgery:end_stone_bricks_forge_controller"
+				}
+				{
+					id: "12C1255557220B2C"
+					type: "item"
+					item: "minecraft:end_stone_bricks"
+					count: 24L
+				}
+			]
+			rewards: [
+				{
+					id: "1061D4611D6C211A"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "19FA245F121CCADC"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1552600754727581119L
+				}
+			]
+		}
+		{
+			title: "支线-难得素冶炼炉（层级5）"
+			x: 1.5d
+			y: 1.0d
+			subtitle: "终极之上的顶级存在"
+			description: [
+				"来自肝神的设想，非主线需求。"
+				""
+				"你需要使用4级的锻造炉煅烧出这个造价恐怖的锻炉核心"
+				"容量：1000w"
+				"效率：1000%"
+				""
+				"难得素熔炉的容量，还是效率都远超末地锻炉，它的烧炼速度是石砖锻炉的1000%"
+			]
+			dependencies: ["4CC496C6F67ECC1C"]
+			optional: true
+			id: "1771CFA17FF3A63D"
+			tasks: [
+				{
+					id: "7B6D0E7C9E65482D"
+					type: "item"
+					item: "alloy_forgery:unobtainium_block_forge_controller"
+				}
+				{
+					id: "6C437720235DD5B1"
+					type: "item"
+					item: "mythicmetals:unobtainium_block"
+					count: 15L
+				}
+			]
+			rewards: [
+				{
+					id: "3493BFEF10B6B49F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1552600754727581119L
+				}
+				{
+					id: "1190EC9CBB14E727"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 1552600754727581119L
+				}
+				{
+					id: "6D1DA9FE3202E88E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			description: ["合成末影戈伯锭的主要材料之一。"]
+			dependencies: [
+				"027AAA6A3553F7DB"
+				"4CC496C6F67ECC1C"
+			]
+			hide: true
+			id: "42113EBA3E66BAD9"
+			tasks: [{
+				id: "1A7E73CBE24284E5"
+				type: "item"
+				item: "enderscape:nebulite"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.0d
+			description: ["这本书是BetterEnd（更好的末地）Mod作者撰写的，用于从末地开始生存的玩家及整合包，所以你打不开。"]
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			size: 2.0d
+			id: "4020CD6738C660EB"
+			tasks: [{
+				id: "47892549CD94000C"
+				type: "item"
+				item: "betterend:guidebook"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2C2CA7E5959A1E30"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

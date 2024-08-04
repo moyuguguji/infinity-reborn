@@ -1,0 +1,10 @@
+{
+  "collection": "museumcurator.collection.thenether",
+  "name": "museumcurator.thenether.netherite",
+  "items": [
+    "minecraft:ancient_debris",
+    "minecraft:netherite_scrap",
+    "minecraft:netherite_ingot",
+    "minecraft:netherite_block"
+  ]
+}

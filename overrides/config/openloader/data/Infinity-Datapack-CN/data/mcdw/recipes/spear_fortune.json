@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "mcdw:spear_spear"
+  },
+  "addition": {
+    "item": "mcda:upgrade_core_golden"
+  },
+  "result": {
+    "item": "mcdw:spear_fortune"
+  }
+}

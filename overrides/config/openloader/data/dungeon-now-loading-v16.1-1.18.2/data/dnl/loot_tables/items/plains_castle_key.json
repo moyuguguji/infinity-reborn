@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"原野堡垒钥匙§r\",\"color\":\"gold\",\"italic\":false}'},dnl.item:1b,dnl.key:1b,CustomModelData:16004,dnl.plains_castle_key:1b,dnl.unconvertable:1b,Enchantments:[{}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

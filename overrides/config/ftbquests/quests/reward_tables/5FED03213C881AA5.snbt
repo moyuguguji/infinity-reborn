@@ -1,0 +1,11 @@
+{
+	id: "5FED03213C881AA5"
+	order_index: 10
+	title: "光谱"
+	loot_size: 1
+	rewards: [
+		{ item: "spectrum:topaz_shard", count: 10 }
+		{ item: "minecraft:amethyst_shard", count: 10 }
+		{ item: "spectrum:citrine_shard", count: 10 }
+	]
+}

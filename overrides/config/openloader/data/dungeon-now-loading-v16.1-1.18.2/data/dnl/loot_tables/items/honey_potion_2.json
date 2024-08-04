@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnl.honey_potion:1b,dnl.level:2b,display:{Name:'{\"text\":\"蜂蜜药水 II\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"可用于解毒\",\"color\":\"blue\",\"italic\":false}','{\"translate\":\"\"}','{\"text\":\"当生效后:\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"恢复 7 点生命值\",\"color\":\"blue\",\"italic\":false}']},CustomPotionEffects:[{Id:6b,Amplifier:1b,Duration:0},{Id:10b,Amplifier:0b,Duration:300}],CustomPotionColor:16763190}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+    "collection": "museumcurator.boss",
+    "name": "museumcurator.boss.knightphantom",
+    "relativeTo": "museumcurator.boss.alphayeti",
+    "placement": "after",
+    "items": [
+        "twilightforest:knight_phantom_trophy",
+        "twilightforest:knightmetal_sword",
+        "twilightforest:knightmetal_axe",
+        "twilightforest:knightmetal_pickaxe",
+        "twilightforest:phantom_helmet",
+        "twilightforest:phantom_chestplate",
+        "heartytrinkets:orange_heart",
+        "mythicmetals:mythril_ingot",
+        "mythicmetals:orichalcum_ingot",
+        "mythicmetals:adamantite_ingot",
+        "mythicmetals:prometheum_ingot",
+        "mythicmetals:kyber_ingot",
+        "mythicmetals:durasteel_ingot",
+        "mythicmetals:silver_ingot",
+        "mythicmetals:carmot_ingot",
+        "mythicmetals:aquarium_pearl"
+    ]
+}

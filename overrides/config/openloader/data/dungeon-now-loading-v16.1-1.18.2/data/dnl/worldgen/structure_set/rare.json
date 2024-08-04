@@ -1,0 +1,26 @@
+{
+    "structures": [
+        {
+            "structure": "dnl:forgotten_field",
+            "weight": 10
+        },
+        {
+            "structure": "dnl:gallery_of_illusion",
+            "weight": 10
+        },
+        {
+            "structure": "dnl:olympus",
+            "weight": 8
+        },
+        {
+            "structure": "dnl:temple_of_tears",
+            "weight": 2
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 50,
+        "separation": 20,
+        "salt": 35399710
+    }
+}

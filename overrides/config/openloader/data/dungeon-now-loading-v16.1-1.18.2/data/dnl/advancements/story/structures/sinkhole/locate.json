@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:slime_block"
+    },
+    "title": "史莱姆淤池",
+    "description": "跃下深坑",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/themes/hidden/locate",
+  "criteria": {
+    "locate_sinkhole": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "dnl:sinkhole"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "locate_sinkhole"
+    ]
+  ]
+}

@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_sword",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "宝藏！",
+        "description": "从战利品箱中发现一件极佳附魔物品！",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "dnl:story/structures/plains_castle/loot_treasure_chest",
+    "criteria": {
+        "treasure_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{dnl.castle:1b,dnl.treasure:1b}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "treasure_item"
+        ]
+    ]
+}

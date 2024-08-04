@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:snowy_plains",
+        "#dnl:terralith/is_icy",
+        "#dnl:terralith/is_taiga_snow"
+    ]
+}

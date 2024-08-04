@@ -1,0 +1,14 @@
+{
+  "collection": "museumcurator.collection.oceanography",
+  "name": "museumcurator.oceanography.water",
+  "items": [
+    "minecraft:water_bucket",
+    "minecraft:snowball",
+    "minecraft:snow",
+    "minecraft:snow_block",
+    "minecraft:powder_snow_bucket",
+    "minecraft:ice",
+    "minecraft:packed_ice",
+    "minecraft:blue_ice"
+  ]
+}

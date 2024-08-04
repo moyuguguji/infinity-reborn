@@ -1,0 +1,47 @@
+{
+  "type": "spectrum:enchanter",
+  "time": 300,
+  "required_experience": 100,
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "spectrum:brown_pigment"
+    },
+    {
+      "item": "spectrum:brown_pigment"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "item": "spectrum:neolith"
+    },
+    {
+      "item": "spectrum:brown_pigment"
+    },
+    {
+      "item": "spectrum:brown_pigment"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "item": "spectrum:neolith"
+    }
+  ],
+  "result": {
+    "item": "minecraft:enchanted_book",
+    "nbt": "{StoredEnchantments: [{id: \"spectrum:inertia\", lvl: 1s}]}"
+  },
+  "required_advancement": "spectrum:progression/enchantments/inertia",
+  "fabric:load_conditions": [
+    {
+      "condition": "spectrum:enchantments_exist",
+      "values": [
+        "spectrum:inertia"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "tiered:common_fishing",
+  "verifiers": [
+    {
+      "id": "minecraft:fishing_rod"
+    }
+  ],
+  "weight": 450,
+  "style": {
+    "color": "gray"
+  },
+  "attributes": [
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:common_fishing",
+                "operation": "ADDITION",
+                "amount": 50
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+  ]
+}

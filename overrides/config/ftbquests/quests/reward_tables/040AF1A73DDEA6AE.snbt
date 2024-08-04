@@ -1,0 +1,12 @@
+{
+	id: "040AF1A73DDEA6AE"
+	order_index: 11
+	title: "刷怪"
+	loot_size: 1
+	rewards: [
+		{ item: "kibe:cursed_dirt", count: 5 }
+		{ item: "darkutils:damage_plate_player", count: 5 }
+		{ item: "enchantablespike:diamond_spikes", count: 5 }
+		{ item: "darkutils:vector_plate", count: 5 }
+	]
+}

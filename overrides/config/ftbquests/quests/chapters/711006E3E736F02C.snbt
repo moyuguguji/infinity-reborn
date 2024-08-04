@@ -1,0 +1,790 @@
+{
+	id: "711006E3E736F02C"
+	group: "0B54634113ED2BBC"
+	order_index: 0
+	filename: "711006E3E736F02C"
+	title: "植物魔法"
+	icon: "botania:lexicon"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 33.0d
+		height: 18.0d
+		rotation: 0.0d
+		image: "kubejs:textures/ftbq/zhiwumofa.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -6.0d
+			y: 0.5d
+			description: [
+				"植物魔法百科全书，你会需要的。"
+				"================================================"
+				"“恭喜你发现宝藏！”"
+			]
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			size: 2.0d
+			id: "480B659B63B90B16"
+			tasks: [{
+				id: "45861E6F7B754E9A"
+				type: "item"
+				item: "botania:lexicon"
+			}]
+			rewards: [{
+				id: "4F52477FA429EF47"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -8.0d
+			y: 1.0d
+			description: ["收纳你所采集的所有颜色的神秘花，不论高矮。"]
+			dependencies: ["480B659B63B90B16"]
+			id: "03A11168304BB373"
+			tasks: [{
+				id: "74273B953A53358D"
+				type: "item"
+				item: "botania:flower_bag"
+			}]
+			rewards: [{
+				id: "29293F377F6CD294"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			description: [
+				"最基础也最重要的功能花（也许）。"
+				"使用方法："
+				"把白雏菊放在地上，然后将任意原木或石头（注：不是圆石）将白雏菊围起来，如果出现粒子效果就说明正在转化，请耐心等待"
+				"================================================"
+				"{image:kubejs:textures/ftbq/bcj.png width:200 height:200 align:1}"
+			]
+			dependencies: ["31AF2DC5C9E1BB86"]
+			id: "21853980AEDF8B54"
+			tasks: [{
+				id: "5179838AE7D0D0D9"
+				type: "observation"
+				title: "白雏菊"
+				icon: "botania:pure_daisy"
+				timer: 25L
+				observe_type: 0
+				to_observe: "botania:pure_daisy"
+			}]
+			rewards: [{
+				id: "7F850CFC7C3506F8"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			description: ["储存产能花产出的魔力。"]
+			dependencies: ["79E81F0D0846832B"]
+			id: "3AABC8E7533D2158"
+			tasks: [{
+				id: "3F98D8BA493E8F6A"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+			rewards: [{
+				id: "01B3BBDA73F08B87"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			description: [
+				"用于调节不同的装置。"
+				"================================================"
+				"“每个魔法mod都该有一根法杖，不是吗？”"
+			]
+			dependencies: ["21853980AEDF8B54"]
+			id: "79E81F0D0846832B"
+			tasks: [{
+				id: "276489CFB1905AEE"
+				type: "item"
+				item: {
+					id: "botania:twig_wand"
+					Count: 1b
+					tag: {
+						color1: 6
+						color2: 7
+					}
+				}
+			}]
+			rewards: [{
+				id: "5D87F89BCB883FDC"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			description: [
+				"我所推荐的前期产能花。"
+				"================================================"
+				"“当然没有人规定不能前中后期全用火红莲doge”"
+			]
+			dependencies: ["79E81F0D0846832B"]
+			id: "622651527A5344FC"
+			tasks: [{
+				id: "64AE6E132EEC8D8D"
+				type: "observation"
+				title: "火红莲"
+				icon: "botania:endoflame"
+				timer: 15L
+				observe_type: 0
+				to_observe: "botania:endoflame"
+			}]
+			rewards: [{
+				id: "3C6AA255D40E2557"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			description: ["缓慢但可控的魔力转移方式。"]
+			dependencies: ["79E81F0D0846832B"]
+			id: "20FB30F769472C50"
+			tasks: [{
+				id: "28B1DA1CE84B652E"
+				type: "item"
+				item: "botania:mana_spreader"
+			}]
+			rewards: [{
+				id: "10B583B9D575A1FB"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			description: ["制作花朵，丢完花瓣之后记得丢一个种子。"]
+			dependencies: ["480B659B63B90B16"]
+			id: "31AF2DC5C9E1BB86"
+			tasks: [{
+				id: "25247428EBD98FDB"
+				type: "observation"
+				title: "花药台"
+				icon: "botania:apothecary_default"
+				timer: 25L
+				observe_type: 0
+				to_observe: "botania:apothecary_default"
+			}]
+			rewards: [{
+				id: "489CA6CF1C593F42"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			description: ["合成完时记得丢活石哟。"]
+			dependencies: ["79E81F0D0846832B"]
+			id: "5658863739082F5C"
+			tasks: [{
+				id: "39CE6AC884501DAE"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+			rewards: [{
+				id: "297AFBEBDDBFED84"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			description: ["植魔的基础材料，也是合成戈伯锭的材料之一"]
+			dependencies: ["3AABC8E7533D2158"]
+			id: "64365265717EB081"
+			tasks: [{
+				id: "0E7E37C4BAAECC1B"
+				type: "item"
+				item: "botania:manasteel_ingot"
+			}]
+			rewards: [{
+				id: "1853C19985D12F68"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.5d
+			dependencies: ["3AABC8E7533D2158"]
+			id: "3F50D55847109461"
+			tasks: [{
+				id: "01649B91B91C765C"
+				type: "item"
+				item: "botania:mana_pearl"
+			}]
+			rewards: [{
+				id: "7677CA8B129C41A4"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			dependencies: ["3AABC8E7533D2158"]
+			id: "487E972062D27B28"
+			tasks: [{
+				id: "711E2C9308F726C7"
+				type: "item"
+				item: "botania:mana_diamond"
+			}]
+			rewards: [{
+				id: "5D40E1D0C4833EF7"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			title: "彼方兰"
+			icon: "botania:gourmaryllis"
+			x: 4.0d
+			y: -0.5d
+			description: [
+				"给彼方兰丢出食物来产能。"
+				"================================================"
+				"“养花×，养猪✓”"
+			]
+			dependencies: ["6705C2F5802E6E11"]
+			id: "5922BF1DDE1E062E"
+			tasks: [{
+				id: "6AEEA226FF976C15"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "热爆花"
+			icon: "botania:entropinnyum"
+			x: 5.0d
+			y: 2.0d
+			description: ["利用tnt爆炸来产能。"]
+			dependencies: ["6705C2F5802E6E11"]
+			id: "0BC50F6C1C779650"
+			tasks: [{
+				id: "1A8A696A52CCBEF6"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "贪食花"
+			icon: "botania:kekimurus"
+			x: 6.0d
+			y: 1.0d
+			description: [
+				"“吃掉”摆放在附近的蛋糕来产能。"
+				"================================================"
+				"“蛋糕是个谎言！”"
+			]
+			dependencies: ["6705C2F5802E6E11"]
+			id: "426CD7CD07A2DAEC"
+			tasks: [{
+				id: "60AB4CF66B057406"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "粘球草产能"
+			icon: "botania:narslimmus"
+			x: 5.0d
+			y: -0.5d
+			description: ["吞噬附近的史莱姆来产能。"]
+			dependencies: ["6705C2F5802E6E11"]
+			id: "552F1E0718D4CC49"
+			tasks: [{
+				id: "74E5FFEC691A0ED9"
+				type: "checkmark"
+			}]
+		}
+		{
+			icon: "botania:terra_plate"
+			x: 6.0d
+			y: 4.0d
+			description: [
+				"制作泰拉锭所必须的装置，当然，不止合成泰拉锭。"
+				"================================================"
+				"TIP：下界疣块可以分解成下界疣，下界疣块可以用转换之杖获取；主世界的部分遗迹中也有下界疣和下界疣块的存在。"
+			]
+			dependencies: ["2F32F5B4426C3269"]
+			id: "2C444D2AB54B65C3"
+			tasks: [
+				{
+					id: "2420DD7899B1CE6B"
+					type: "item"
+					item: "botania:terra_plate"
+				}
+				{
+					id: "4C81D82D9114C4B6"
+					type: "item"
+					item: "botania:livingrock"
+					count: 5L
+				}
+				{
+					id: "7833249720404516"
+					type: "item"
+					item: "minecraft:lapis_block"
+					count: 4L
+				}
+				{
+					id: "6FB3D458E3774DC0"
+					type: "observation"
+					title: "泰拉凝聚板需要火花传递魔力！"
+					icon: "botania:terra_plate"
+					timer: 35L
+					observe_type: 0
+					to_observe: "botania:terra_plate"
+				}
+			]
+			rewards: [{
+				id: "328167232FB0013C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			description: [
+				"可以在25*25*25范围内高速传导魔力，使用泰拉凝聚板时基本都要用火花以传递魔力。"
+				"手持火花升级组件右键即可为火花赋予不同的功能。"
+				"================================================"
+				"TIP：猎人村民会出售烈焰棒。"
+			]
+			dependencies: ["622651527A5344FC"]
+			id: "2F32F5B4426C3269"
+			tasks: [{
+				id: "2703A72A7A8DD53B"
+				type: "item"
+				item: "botania:spark"
+			}]
+			rewards: [{
+				id: "523104557995770E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 5.0d
+			description: ["植物魔法的终极材料。"]
+			dependencies: ["2C444D2AB54B65C3"]
+			id: "2A30DF4FD035D7D4"
+			tasks: [{
+				id: "61281CBC45EF823F"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+			}]
+			rewards: [
+				{
+					id: "174076E1D92777F8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+				{
+					id: "24ACAF361F513825"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+			]
+		}
+		{
+			title: "精灵门"
+			icon: "botania:quartz_elven"
+			x: 8.0d
+			y: 4.0d
+			description: [
+				"花费魔力与精灵交易，自然水晶需要放在魔力池的上面，不然激活不了。"
+				"================================================"
+				"“精灵们喜欢吃面包。”"
+			]
+			dependencies: ["2C444D2AB54B65C3"]
+			id: "4D00BB7A0FCE4C32"
+			tasks: [
+				{
+					id: "538249855E868DD4"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "4336F76B8858E529"
+					type: "item"
+					item: "botania:natura_pylon"
+					count: 2L
+				}
+				{
+					id: "134CD35DD9F5D7C4"
+					type: "item"
+					item: "botania:mana_pool"
+					count: 2L
+				}
+				{
+					id: "683A73DBA5461967"
+					type: "item"
+					item: "botania:glimmering_livingwood_log"
+					count: 3L
+				}
+				{
+					id: "74DA03909BC0DEBF"
+					type: "item"
+					item: "botania:livingwood_log"
+					count: 10L
+				}
+			]
+			rewards: [{
+				id: "4EBAC15770972FA2"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			description: ["有一些难度的自动化产能方式（但不多）。"]
+			dependencies: ["622651527A5344FC"]
+			id: "6705C2F5802E6E11"
+			tasks: [{
+				id: "2B5D4862CAF20909"
+				type: "checkmark"
+				title: "更加高效的产能方式"
+			}]
+			rewards: [{
+				id: "7C6EAEB3503D5828"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 6.0d
+			dependencies: ["4D00BB7A0FCE4C32"]
+			id: "651C07BEADA63186"
+			tasks: [{
+				id: "3453EFCE427ED982"
+				type: "item"
+				item: "botania:elementium_ingot"
+			}]
+			rewards: [{
+				id: "2A442E01B8E25478"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 6.0d
+			dependencies: ["4D00BB7A0FCE4C32"]
+			id: "4CB39CC383A4D817"
+			tasks: [{
+				id: "3499BA9DBD8AAF5C"
+				type: "item"
+				item: "botania:dragonstone"
+			}]
+			rewards: [{
+				id: "6A826364FB060612"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 6.0d
+			dependencies: ["4D00BB7A0FCE4C32"]
+			id: "157C30DBEABF819B"
+			tasks: [{
+				id: "62A70D63C04A1850"
+				type: "item"
+				item: "botania:pixie_dust"
+			}]
+			rewards: [{
+				id: "5232474BABFF0EB7"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 4.0d
+			description: ["把植物魔法交给精灵们，用一些魔力交换她们拥有的知识。"]
+			dependencies: ["4D00BB7A0FCE4C32"]
+			id: "2DC6044863690E1F"
+			tasks: [{
+				id: "40D4F06344EEC42C"
+				type: "item"
+				item: {
+					id: "botania:lexicon"
+					Count: 1b
+					tag: {
+						"botania:elven_unlock": 1b
+					}
+				}
+			}]
+			rewards: [{
+				id: "7AD054DC29D11B33"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			title: "盖亚仪式"
+			icon: "botania:gaia_pylon"
+			x: 10.0d
+			y: 2.5d
+			description: [
+				"你需要先搭建与盖亚战斗的场所；以信标为圆心的12格的圆做底面(可以使用盖世六分仪确定圆的范围)，底面和底面之上6层的圆柱体区域内不能有其他方块。"
+				"================================================"
+				"{image:kubejs:textures/ftbq/gaiya.png width:119 height:98 align:1}"
+			]
+			dependencies: [
+				"2DC6044863690E1F"
+				"027AAA6A3553F7DB"
+			]
+			hide: true
+			dependency_requirement: "one_completed"
+			id: "5DEEDE9C790DCA0C"
+			tasks: [
+				{
+					id: "4FEB14D301B2C404"
+					type: "item"
+					item: "minecraft:beacon"
+				}
+				{
+					id: "14EB7209DEA40ED7"
+					type: "item"
+					item: "botania:gaia_pylon"
+					count: 4L
+				}
+				{
+					id: "04A046DD73AD585E"
+					type: "item"
+					item: "botania:terrasteel_ingot"
+				}
+			]
+			rewards: [{
+				id: "472CC5EF7A96F7A7"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			dependencies: ["20FB30F769472C50"]
+			id: "3C4E6C318A1BE1F8"
+			tasks: [{
+				id: "7314FACFFC0F2BE8"
+				type: "item"
+				item: "botania:elven_spreader"
+			}]
+			rewards: [{
+				id: "7F1C127164B1590B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.5d
+			dependencies: ["3C4E6C318A1BE1F8"]
+			id: "26B63991C3327234"
+			tasks: [{
+				id: "4507CA9F5C9D4DC4"
+				type: "item"
+				item: "botania:gaia_spreader"
+			}]
+			rewards: [
+				{
+					id: "1C4500194A180415"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+				{
+					id: "507F11331B55BBAD"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			description: ["如果你是一个小白，透镜学你可以开个创造档慢慢研究。"]
+			dependencies: ["20FB30F769472C50"]
+			id: "4049E9B711DC7755"
+			tasks: [{
+				id: "4E6E724F20F3FAE5"
+				type: "item"
+				item: {
+					id: "botania:lens_power"
+					Count: 1b
+					tag: {
+						compositeLens: {
+							id: "botania:lens_speed"
+							Count: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4CB80F935D9064BA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.0d
+			shape: "square"
+			dependencies: ["2A30DF4FD035D7D4"]
+			size: 2.0d
+			id: "6E56107731E020D4"
+			tasks: [{
+				id: "4E4026681F1533E8"
+				type: "item"
+				item: {
+					id: "botania:terra_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2BBF87F19C5D3936"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5136761027295037695L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.8d
+			shape: "square"
+			dependencies: ["5DEEDE9C790DCA0C"]
+			size: 1.6d
+			id: "131C38F322085224"
+			tasks: [{
+				id: "6D3EE2CBA8D36EC3"
+				type: "kill"
+				icon: "botania:gaia_head"
+				entity: "botania:doppleganger"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "3C3FAC3C87FA8F1D"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "046A787A808068AF"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+				{
+					id: "4E460AE8866B9888"
+					type: "item"
+					item: "botania:dice"
+				}
+			]
+		}
+		{
+			title: "阿卡纳蔷薇"
+			icon: "botania:rosa_arcana"
+			x: 6.0d
+			y: 0.0d
+			description: ["吸取玩家的经验或地上的经验来产能。"]
+			dependencies: ["6705C2F5802E6E11"]
+			id: "45B688454B595552"
+			tasks: [{
+				id: "19CB1422E9FAE1E9"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.5d
+			description: ["用这个代替泰拉锭激活盖亚仪式即可召唤盖亚守护者II。"]
+			dependencies: ["131C38F322085224"]
+			id: "7514522F0DEA0742"
+			tasks: [{
+				id: "220AA4576D44F0A9"
+				type: "item"
+				item: "botania:gaia_ingot"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.5d
+			description: ["用植物酿造台为污血吊坠赋能；赋能后的污血吊坠在佩戴后可以通过消耗魔力的方式提供buff。"]
+			dependencies: ["5658863739082F5C"]
+			id: "0E844F574999BDD5"
+			tasks: [
+				{
+					id: "01DD58C7ACA68675"
+					type: "item"
+					item: "botania:brewery"
+				}
+				{
+					id: "230C3EB1F0E7704F"
+					type: "item"
+					item: "botania:blood_pendant"
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

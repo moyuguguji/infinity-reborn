@@ -1,0 +1,47 @@
+{
+  "id": "tiered:sins_sloth_shield",
+  "verifiers": [
+        {
+            "tag": "c:shield"
+        }
+  ],
+  "weight": 15,
+  "style": {
+    "color": "dark_red"
+  },
+  "attributes": [
+    {
+      "type": "tiered:generic.durable",
+      "modifier": {
+          "name": "tiered:sins_sloth",
+          "operation": "MULTIPLY_TOTAL",
+          "amount": 2
+      },
+      "optional_equipment_slots": [
+          "OFFHAND"
+      ]
+    },
+        {
+            "type": "mythicmetals:magic_protection",
+            "modifier": {
+                "name": "tiered:sins_sloth",
+                "operation": "ADDITION",
+                "amount": 10.0
+            },
+            "optional_equipment_slots": [
+                "OFFHAND"
+            ]
+        },
+    {
+    "type": "generic.attack_speed",
+    "modifier": {
+        "name": "tiered:sins_sloth",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": -0.5
+    },
+    "optional_equipment_slots": [
+        "OFFHAND"
+    ]
+    }
+  ]
+}

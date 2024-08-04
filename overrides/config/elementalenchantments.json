@@ -1,0 +1,17 @@
+{
+  "soundEffects": true,
+  "particles": true,
+  "earthAspectPowerFactorPlayer": 0.175,
+  "earthAspectPowerFactorEntity": 0.05,
+  "frostAspectFrozenTickTime": 150,
+  "windAspectPowerNerf": 15,
+  "windCursePowerFactor": 1.25,
+  "darkAspectPowerNerf": 3.0,
+  "lightAspectPowerNerf": 3.0,
+  "elecAspectSpeedNerf": 1.0,
+  "earthCurseDamage": 2.5,
+  "darkCursePowerNerf": 3.0,
+  "fireCurseOnFireTime": 2,
+  "frostCurseFrozenTickTime": 300,
+  "lightCursePowerNerf": 3.0
+}

@@ -1,0 +1,27 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "item": "mcdw:crossbow_slayer_crossbow",
+     "count": 1
+    },
+    {
+      "item": "gobber2:gobber2_bow_nether",
+      "count": 1
+    },
+    {
+      "item": "gobber2:gobber2_ingot_nether",
+      "count": 6
+    },
+    {
+      "item": "mythicmetals:metallurgium_ingot",
+     "count": 2
+    }
+  ],
+  "output": {
+    "id": "mcdw:crossbow_doom_crossbow",
+      "count": 1
+  },
+  "min_forge_tier": 3,
+  "fuel_per_tick": 800
+}

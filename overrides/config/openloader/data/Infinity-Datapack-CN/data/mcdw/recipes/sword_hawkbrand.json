@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "mcdw:sword_iron_sword_var"
+  },
+  "addition": {
+    "item": "mcda:upgrade_core_highland"
+  },
+  "result": {
+    "item": "mcdw:sword_hawkbrand"
+  }
+}

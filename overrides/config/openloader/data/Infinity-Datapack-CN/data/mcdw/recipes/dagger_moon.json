@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "mcdw:dagger_dagger"
+  },
+  "addition": {
+    "item": "mcda:upgrade_core_soul"
+  },
+  "result": {
+    "item": "mcdw:dagger_moon"
+  }
+}

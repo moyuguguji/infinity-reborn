@@ -1,0 +1,36 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "猎手之逝魂"
+        },
+        "description": {
+            "text": "挑战并于决斗中击败猎手的亡魂"
+        },
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "dnl:story/structures/hunters_grave/locate",
+    "criteria": {
+        "kill hunters ghost": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:skeleton",
+                    "nbt": "{Tags:[\"dnl.hunters_ghost\"]}",
+                    "distance": {
+                        "absolute": {
+                            "min": 0,
+                            "max": 64
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

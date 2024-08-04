@@ -1,0 +1,222 @@
+{
+	/* 
+	   
+	   
+	   ******************************
+	   Bow Zoom Multiplier
+	   - vanilla bow value = .15F
+	   - pretty good value = .45F
+	   - awesome value = .75F
+	   ******************************
+	*/
+	"bowZoomMultiplier": 0.44999998807907104,
+	/* 
+	   
+	   
+	   ******************************
+	   Global Gem Bow Settings
+	   ******************************
+	*/
+	"projectileSpeed": 3.0,
+	"projectileDivergence": 0.0,
+	"projectileRoll": 0.0,
+	"projectilePowerDamageBonus": 0.5,
+	"projectileExtraDamage": 0.0,
+	/* 
+	   
+	   
+	   ******************************
+	   Crafting Grid Repair
+	   - repair amount per item
+	   ******************************
+	*/
+	"enableGridCrafting": true,
+	"woodenRepairAmount": 20,
+	"stoneRepairAmount": 40,
+	"goldRepairAmount": 32,
+	"ironRepairAmount": 60,
+	"copperRepairAmount": 60,
+	"steelRepairAmount": 90,
+	"obsidianRepairAmount": 130,
+	"emeraldRepairAmount": 160,
+	"amethystRepairAmount": 180,
+	"rubyRepairAmount": 180,
+	/* 
+	   
+	   
+	   ******************************
+	   AMETHYST TOOL MATERIAL
+	   ******************************
+	*/
+	"amethystDurability": 840,
+	"amethystMiningSpeed": 8.0,
+	"amethystAttackDamage": 1.5,
+	"amethystMiningLevel": 3,
+	"amethystEnchantability": 25,
+	"amethystEnableSilkTouch": true,
+	"amethystEnableInfinity": true,
+	"amethystEnableUnbreakable": true,
+	/* 
+	   
+	   
+	   ******************************
+	   AMETHYST ARMOR MATERIAL
+	   ******************************
+	*/
+	"amethystDurabilityMultiplier": 29,
+	"amethystArmorEnchantability": 10,
+	"amethystToughness": 2.0,
+	"amethystKnockbackResistance": 0.5,
+	"amethystHeadProtection": 3,
+	"amethystChestProtection": 8,
+	"amethystLeggingsProtection": 6,
+	"amethystBootsProtection": 3,
+	/* 
+	   
+	   
+	   ******************************
+	   COPPER TOOL MATERIAL
+	   ******************************
+	*/
+	"copperDurability": 250,
+	"copperMiningSpeed": 5.5,
+	"copperAttackDamage": 1.5,
+	"copperMiningLevel": 2,
+	"copperEnchantability": 18,
+	/* 
+	   
+	   
+	   ******************************
+	   COPPER ARMOR MATERIAL
+	   ******************************
+	*/
+	"copperDurabilityMultiplier": 24,
+	"copperArmorEnchantability": 4,
+	"copperToughness": 1.0,
+	"copperKnockbackResistance": 0.5,
+	"copperHeadProtection": 2,
+	"copperChestProtection": 6,
+	"copperLeggingsProtection": 5,
+	"copperBootsProtection": 2,
+	/* 
+	   
+	   
+	   ******************************
+	   EMERALD TOOL MATERIAL
+	   ******************************
+	*/
+	"emeraldDurability": 725,
+	"emeraldtMiningSpeed": 8.0,
+	"emeraldAttackDamage": 3.0,
+	"emeraldMiningLevel": 3,
+	"emeraldEnchantability": 10,
+	/* 
+	   
+	   
+	   ******************************
+	   EMERALD ARMOR MATERIAL
+	   ******************************
+	*/
+	"emeraldDurabilityMultiplier": 26,
+	"emeraldArmorEnchantability": 12,
+	"emeraldToughness": 2.0,
+	"emeraldKnockbackResistance": 0.0,
+	"emeraldHeadProtection": 3,
+	"emeraldChestProtection": 8,
+	"emeraldLeggingsProtection": 6,
+	"emeraldBootsProtection": 3,
+	/* 
+	   
+	   
+	   ******************************
+	   RUBY TOOL MATERIAL
+	   ******************************
+	*/
+	"rubyDurability": 960,
+	"rubyMiningSpeed": 8.0,
+	"rubyAttackDamage": 3.0,
+	"rubyMiningLevel": 3,
+	"rubyEnchantability": 10,
+	"rubySpecial": true,
+	/* 
+	   
+	   
+	   ******************************
+	   RUBY ARMOR MATERIAL
+	   ******************************
+	*/
+	"rubyDurabilityMultiplier": 29,
+	"rubyArmorEnchantability": 12,
+	"rubyToughness": 2.0,
+	"rubyKnockbackResistance": 0.0,
+	"rubyHeadProtection": 3,
+	"rubyChestProtection": 8,
+	"rubyLeggingsProtection": 6,
+	"rubyBootsProtection": 3,
+	/* 
+	   
+	   
+	   ******************************
+	   STEEL TOOL MATERIAL
+	   ******************************
+	*/
+	"steelDurability": 512,
+	"steelMiningSpeed": 7.0,
+	"steelAttackDamage": 2.0,
+	"steelMiningLevel": 2,
+	"steelEnchantability": 9,
+	/* 
+	   
+	   
+	   ******************************
+	   STEEL ARMOR MATERIAL
+	   ******************************
+	*/
+	"steelDurabilityMultiplier": 21,
+	"steelArmorEnchantability": 9,
+	"steelToughness": 1.0,
+	"steelKnockbackResistance": 0.5,
+	"steelHeadProtection": 2,
+	"steelChestProtection": 6,
+	"steelLeggingsProtection": 5,
+	"steelBootsProtection": 2,
+	/* 
+	   
+	   
+	   ******************************
+	   OBSIDIAN TOOL MATERIAL
+	   ******************************
+	*/
+	"obsidianDurability": 650,
+	"obsidianMiningSpeed": 5.5,
+	"obsidianAttackDamage": 1.5,
+	"obsidianMiningLevel": 3,
+	"obsidianEnchantability": 4,
+	/* 
+	   
+	   
+	   ******************************
+	   OBSIDIAN ARMOR MATERIAL
+	   ******************************
+	*/
+	"obsidianDurabilityMultiplier": 24,
+	"obsidianArmorEnchantability": 4,
+	"obsidianToughness": 1.0,
+	"obsidianKnockbackResistance": 0.5,
+	"obsidianHeadProtection": 2,
+	"obsidianChestProtection": 6,
+	"obsidianLeggingsProtection": 5,
+	"obsidianBootsProtection": 2,
+	/* 
+	   
+	   
+	   ******************************
+	   RUBY STEEL SWORD MATERIAL
+	   ******************************
+	*/
+	"rubySteelDurability": 1102,
+	"rubySteelMiningSpeed": 8.0,
+	"rubySteelAttackDamage": 3.0,
+	"rubySteelMiningLevel": 3,
+	"rubySteelEnchantability": 12
+}

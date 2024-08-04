@@ -1,0 +1,7 @@
+{
+  "values":[
+    "minecraft:glass",
+    "minecraft:tinted_glass",
+    "#dnl.lib:stained_glass"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:village",
+    "biomes": "#dnl:temple_of_tears",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "config": {
+        "start_pool": "dnl:structures/temple_of_tears/start",
+        "size": 7
+    }
+}

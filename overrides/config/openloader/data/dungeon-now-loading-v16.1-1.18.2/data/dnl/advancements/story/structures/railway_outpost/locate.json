@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:acacia_log"
+    },
+    "title": "铁路前哨站",
+    "description": "发现一个被架着弩的野蛮部族侵占的车站",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/themes/illager/locate",
+  "criteria": {
+    "locate_railway_outpost": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "dnl:railway_outpost"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "locate_railway_outpost"
+    ]
+  ]
+}

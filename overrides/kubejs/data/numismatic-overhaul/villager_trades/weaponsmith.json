@@ -1,0 +1,120 @@
+{
+  "profession": "weaponsmith",
+  "trades": {
+    "novice": [
+      {
+        "type": "numismatic-overhaul:buy_item",
+        "buy": {
+          "item": "minecraft:coal",
+          "count": 15
+        },
+        "price": 200,
+        "max_uses": 8
+      },
+      {
+        "type": "numismatic-overhaul:sell_stack",
+        "sell": {
+          "item": "minecraft:iron_sword",
+          "count": 1
+        },
+        "price": 200,
+        "max_uses": 2
+      },
+      {
+        "type": "numismatic-overhaul:buy_item",
+        "buy": {
+          "item": "minecraft:charcoal",
+          "count": 15
+        },
+        "price": 250,
+        "max_uses": 10
+      }
+    ],
+    "apprentice": [
+      {
+        "type": "numismatic-overhaul:buy_item",
+        "buy": {
+          "item": "minecraft:iron_ingot",
+          "count": 10
+        },
+        "price": 300,
+        "max_uses": 8
+      },
+      {
+        "type": "numismatic-overhaul:enchant_item",
+        "base_price": 1000,
+        "level": 5,
+        "allow_treasure": false,
+        "item": {
+          "item": "minecraft:iron_sword"
+      }}
+    ],
+    "journeyman": [
+      {
+        "type": "numismatic-overhaul:buy_item",
+        "buy": {
+          "item": "minecraft:flint",
+          "count": 16
+        },
+        "price": 400,
+        "max_uses": 8
+      },
+      {
+        "type": "numismatic-overhaul:enchant_item",
+        "base_price": 2000,
+        "level": 10,
+        "allow_treasure": false,
+        "item": {
+          "item": "minecraft:diamond_sword"
+      }}
+    ],
+    "expert": [
+      {
+        "type": "numismatic-overhaul:sell_stack",
+        "sell": {
+          "item": "minecraft:diamond",
+          "count": 5
+        },
+        "price": 800,
+        "max_uses": 4
+      },
+      {
+        "type": "numismatic-overhaul:sell_stack",
+        "sell": {
+          "item": "minecraft:flint_and_steel",
+          "count": 1
+        },
+        "price": 1000,
+        "max_uses": 6
+      },
+      {
+        "type": "numismatic-overhaul:enchant_item",
+        "base_price": 2000,
+        "level": 15,
+        "allow_treasure": false,
+        "item": {
+          "item": "minecraft:diamond_axe"
+      }}
+    ],
+    "master": [
+      {
+        "type": "numismatic-overhaul:buy_item",
+        "buy": {
+          "item": "things:gleaming_compound",
+          "count": 1
+        },
+        "price": 30000,
+        "max_uses": 12
+      },
+      {
+        "type": "numismatic-overhaul:enchant_item",
+        "base_price": 10000,
+        "level": 20,
+        "allow_treasure": false,
+        "item": {
+          "item": "minecraft:netherite_sword"
+      }
+    }
+  ]
+}
+}

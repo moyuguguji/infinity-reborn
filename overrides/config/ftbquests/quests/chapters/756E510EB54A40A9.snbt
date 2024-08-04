@@ -1,0 +1,2962 @@
+{
+	id: "756E510EB54A40A9"
+	group: "2918506B9F30927F"
+	order_index: 0
+	filename: "756E510EB54A40A9"
+	title: "主要武器"
+	icon: {
+		id: "mythicmetals:mythril_sword"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	subtitle: ["战斗力强弱的核心"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "botania:cosmetic_questgiver_mark"
+			disable_toast: true
+			x: -7.5d
+			y: -0.75d
+			description: [
+				"这一章节的目的只是列举了整合包中添加的各种各样的武器，并无要求你如此发展的想法。"
+				""
+				"另外，本章任务中隐藏了一个彩蛋，你能否完成它呢？"
+			]
+			size: 1.5d
+			id: "572CC867C7753983"
+			tasks: [{
+				id: "49ADAF061FB37CA6"
+				type: "checkmark"
+				title: "关于武器"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -1.5d
+			description: ["该武器来自第一代无限整合包"]
+			id: "07A50888B110583B"
+			tasks: [{
+				id: "7B2CCB5742935BE8"
+				type: "item"
+				item: {
+					id: "kubejs:qixing_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5BFA1204B4DA4BE8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "5530E153F290CA5B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -0.5d
+			description: ["该武器来自第一代无限整合包"]
+			id: "78F3185B02B4A80F"
+			tasks: [{
+				id: "5D8825BBD612AE32"
+				type: "item"
+				item: {
+					id: "kubejs:ruoshui_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5407F978E37D58D6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "76E185BDB6E9E153"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -0.5d
+			description: ["该武器来自第一代无限整合包"]
+			id: "5E4A4F7213FA89DC"
+			tasks: [{
+				id: "39CC09C2CAFCB32D"
+				type: "item"
+				item: {
+					id: "kubejs:yecao_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4164306B5218F8EC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "46F56CF4FE90E0F5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: 1.0d
+			id: "551E7CBC05DD5BB9"
+			tasks: [{
+				id: "2DB20B36EB04DC22"
+				type: "item"
+				item: {
+					id: "soulsweapons:bluemoon_shortsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -13.0d
+			y: 1.0d
+			id: "0ADF855C7902BA62"
+			tasks: [{
+				id: "701441C443F434AA"
+				type: "item"
+				item: {
+					id: "soulsweapons:bluemoon_greatsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -14.0d
+			y: 2.0d
+			dependencies: ["551E7CBC05DD5BB9"]
+			id: "640AAEF6FD5EEDED"
+			tasks: [{
+				id: "2664E011C8A4EAFF"
+				type: "item"
+				item: {
+					id: "soulsweapons:moonlight_shortsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -13.0d
+			y: 2.0d
+			dependencies: ["0ADF855C7902BA62"]
+			id: "50EAC9CC34A69B98"
+			tasks: [{
+				id: "392F4DF13B9EB647"
+				type: "item"
+				item: {
+					id: "soulsweapons:moonlight_greatsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -13.5d
+			y: 3.0d
+			description: ["出自游戏：血源诅咒"]
+			dependencies: [
+				"640AAEF6FD5EEDED"
+				"50EAC9CC34A69B98"
+			]
+			id: "1B2EFC2D302D266A"
+			tasks: [{
+				id: "1FA369BE4CE2DE12"
+				type: "item"
+				item: {
+					id: "soulsweapons:pure_moonlight_greatsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7C4040122AFF6D3A"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+				{
+					id: "5D36294235A16A28"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 1.0d
+			description: ["出自游戏“英雄联盟”游戏商店出售的一件装备。"]
+			id: "64AD240125E182FF"
+			tasks: [{
+				id: "648BA22303467B49"
+				type: "item"
+				item: {
+					id: "soulsweapons:bloodthirster"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -12.0d
+			y: 4.0d
+			description: ["出自游戏“英雄联盟”中 暗裔剑魔·亚托克斯的武器。"]
+			id: "47AB1718A6C5A88D"
+			tasks: [{
+				id: "65E17537A2D9EEB6"
+				type: "item"
+				item: {
+					id: "soulsweapons:darkin_blade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: 1.0d
+			id: "5AFF2958DDEA1A48"
+			tasks: [{
+				id: "06E4E5FAAFE61D66"
+				type: "item"
+				item: {
+					id: "soulsweapons:dragon_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -12.0d
+			y: 2.0d
+			description: ["出自游戏：上古卷轴5：天际"]
+			id: "1974B3AC9ABB02C5"
+			tasks: [{
+				id: "082BEE6A6010FEEB"
+				type: "item"
+				item: {
+					id: "soulsweapons:withered_wabbajack"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -12.0d
+			y: 3.0d
+			description: ["出自游戏：血源诅咒"]
+			id: "5D93A9805F229592"
+			tasks: [{
+				id: "2DFC68CC595A1F32"
+				type: "item"
+				item: {
+					id: "soulsweapons:whirligig_sawblade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0F3EFEC608945BB7"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -10.0d
+			y: 2.0d
+			description: ["出自游戏：黑暗之魂III"]
+			id: "36FB95BB4195A3C8"
+			tasks: [{
+				id: "2C5EFD10D6944AC5"
+				type: "item"
+				item: {
+					id: "soulsweapons:dragonslayer_swordspear"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "47C12A83E420D866"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -10.0d
+			y: 4.0d
+			description: ["出自游戏“英雄联盟” 商店出售的一件装备。"]
+			id: "36F5CBBAA821F42C"
+			tasks: [{
+				id: "4056D0824037A096"
+				type: "item"
+				item: {
+					id: "soulsweapons:rageblade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: 3.0d
+			description: ["出自日本漫画“烙印勇士”格斯手中的大剑。"]
+			id: "5BCE51E71528E307"
+			tasks: [{
+				id: "61E12BE149E7905F"
+				type: "item"
+				item: {
+					id: "soulsweapons:guts_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -13.0d
+			y: 4.0d
+			description: ["出自游戏“英雄联盟”中 铁铠冥魂·莫德凯撒的武器。"]
+			id: "73DA573086567330"
+			tasks: [{
+				id: "5E70859B535DF007"
+				type: "item"
+				item: {
+					id: "soulsweapons:nightfall"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -14.0d
+			y: 4.0d
+			description: ["出自游戏“英雄联盟”中 不屈之枪·潘森的武器。"]
+			id: "2145CC71F685B723"
+			tasks: [{
+				id: "5F1B3C98E3DA31AB"
+				type: "item"
+				item: {
+					id: "soulsweapons:comet_spear"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "02DEB7D85B531FEE"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -11.0d
+			y: 4.0d
+			description: ["出自游戏“英雄联盟” 商店出售的一件装备。"]
+			id: "1BF8E42F7BBAD882"
+			tasks: [{
+				id: "6D53F63836661ACC"
+				type: "item"
+				item: {
+					id: "soulsweapons:lich_bane"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: 1.0d
+			description: ["出自游戏“英雄联盟” 商店出售的一件装备。"]
+			id: "09576F86F8FA33A5"
+			tasks: [{
+				id: "1B404AEA785AC778"
+				type: "item"
+				item: {
+					id: "soulsweapons:galeforce"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3B208C3BB093DA98"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -13.0d
+			y: 5.0d
+			description: ["出自北欧神话"]
+			id: "4B290435D5FE6CC7"
+			tasks: [{
+				id: "7570D95E88FB8C7F"
+				type: "item"
+				item: {
+					id: "soulsweapons:draugr"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: 2.0d
+			description: ["出自游戏：上古卷轴5：天际"]
+			id: "37CFE6AB9ED76395"
+			tasks: [{
+				id: "6C233930887817C0"
+				type: "item"
+				item: {
+					id: "soulsweapons:dawnbreaker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -14.0d
+			y: 5.0d
+			id: "360B17764F8AC1CB"
+			tasks: [{
+				id: "19E52E410E5B976B"
+				type: "item"
+				item: {
+					id: "soulsweapons:soul_reaper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: 3.0d
+			description: ["出自游戏“战神系列”中，战神奎托斯的两把武器之一。"]
+			id: "4331FA93AE54496B"
+			tasks: [{
+				id: "658C59A78C2B00F7"
+				type: "item"
+				item: {
+					id: "soulsweapons:leviathan_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1C3F655B78EB5AB1"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+				{
+					id: "31755C784DB99910"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 5.0d
+			description: ["出自北欧神话 传说中的丹麦国王Hrólfr Kraki的宝剑。"]
+			id: "092CFE2943A8027C"
+			tasks: [{
+				id: "672AE65EEBC75535"
+				type: "item"
+				item: {
+					id: "soulsweapons:skofnung"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: 5.0d
+			description: [
+				"雷神之锤——妙尔尼尔"
+				"出自北欧神话中“雷神索尔”手中的武器。"
+			]
+			id: "19DF71C688D0E9D7"
+			tasks: [{
+				id: "17D352E1EED6A787"
+				type: "item"
+				item: {
+					id: "soulsweapons:mjolnir"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "79624FFD495D2DF2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+				{
+					id: "7DE0D01C9ACF7330"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: 5.0d
+			description: [
+				"出自北欧神话中“弗雷”手中的武器。"
+				""
+				"“无论谁掌握了这把剑，这剑便会随着持剑者的希望，独自在战场上飞舞杀戮敌人。”"
+			]
+			id: "7BBC2EEBC3DC5A81"
+			tasks: [{
+				id: "7F8E38082C865C43"
+				type: "item"
+				item: {
+					id: "soulsweapons:freyr_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.0d
+			id: "24EEDB0A0D6638CC"
+			tasks: [{
+				id: "3C4B32494850E5BA"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 2.0d
+			description: ["击杀凋零骷髅百分百掉头。"]
+			id: "22D62AE1340507B4"
+			tasks: [{
+				id: "5BFDE1664BF3C3AC"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_sword_nether"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.0d
+			id: "509160B842FB9FA9"
+			tasks: [{
+				id: "7B293E3FA2E410BE"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_sword_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 4.0d
+			dependencies: [
+				"509160B842FB9FA9"
+				"40D1417233603E7A"
+			]
+			id: "38DA35D368F5135C"
+			tasks: [{
+				id: "267638023E4AF351"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_sword_sniper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.0d
+			id: "3B2E5FDA5218D953"
+			tasks: [{
+				id: "3D969B017FC21F61"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.0d
+			id: "50D26786BA590CEC"
+			tasks: [{
+				id: "56B9F7CD90AB43C8"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_bow_nether"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.0d
+			id: "18615A262A821CF6"
+			tasks: [{
+				id: "26C50E1A5A68B5F5"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_bow_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.0d
+			id: "40D1417233603E7A"
+			tasks: [{
+				id: "00B074C07606A460"
+				type: "item"
+				item: "gobber2:gobber2_staff_sniper"
+			}]
+		}
+		{
+			x: -14.0d
+			y: 6.0d
+			id: "40C74C8932427CBA"
+			tasks: [{
+				id: "18ADAE19136CF487"
+				type: "item"
+				item: {
+					id: "dragonloot:dragon_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -13.0d
+			y: 6.0d
+			id: "3B63A2C76CBCC45A"
+			tasks: [{
+				id: "66365686C3E80D76"
+				type: "item"
+				item: {
+					id: "dragonloot:dragon_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -12.0d
+			y: 6.0d
+			id: "27C32E97458D92C7"
+			tasks: [{
+				id: "0870646C74119AB6"
+				type: "item"
+				item: {
+					id: "dragonloot:dragon_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: 6.0d
+			id: "51C5FB41FE4CA6F3"
+			tasks: [{
+				id: "468A12C656B91820"
+				type: "item"
+				item: {
+					id: "dragonloot:dragon_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: 6.0d
+			id: "7A8DE1C20E2086E0"
+			tasks: [{
+				id: "752F21C1C4636EB4"
+				type: "item"
+				item: {
+					id: "dragonloot:dragon_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			id: "7EDF7EC751260AB6"
+			tasks: [{
+				id: "3533B11A5927FD8D"
+				type: "item"
+				item: {
+					id: "gateofbabylon:gobber_katana"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			id: "3CF0FD8687BFFDA7"
+			tasks: [{
+				id: "3CF811B77B53B65A"
+				type: "item"
+				item: {
+					id: "gateofbabylon:nether_gobber_katana"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.0d
+			id: "4377434A41627083"
+			tasks: [{
+				id: "3348DB47298216F2"
+				type: "item"
+				item: {
+					id: "gateofbabylon:end_gobber_katana"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 5.0d
+			id: "34A625C8B1D1E155"
+			tasks: [{
+				id: "0F18E694C0EA3074"
+				type: "item"
+				item: {
+					id: "gateofbabylon:terra_katana"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			id: "642531D2D6126D13"
+			tasks: [{
+				id: "5736E709792F30DB"
+				type: "item"
+				item: {
+					id: "gateofbabylon:gobber_rapier"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			id: "7693E02F2E9EAA3C"
+			tasks: [{
+				id: "1ED9C2999BC8B8C8"
+				type: "item"
+				item: {
+					id: "gateofbabylon:gobber_broadsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			id: "09753307E2E9727B"
+			tasks: [{
+				id: "77BA739D44E62991"
+				type: "item"
+				item: {
+					id: "gateofbabylon:gobber_spear"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			id: "558548554A8BCC4A"
+			tasks: [{
+				id: "79EB57B80FD9E1F5"
+				type: "item"
+				item: {
+					id: "gateofbabylon:gobber_dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			id: "75E4DF9D4E20A91A"
+			tasks: [{
+				id: "17C5EB1E94B0BFAD"
+				type: "item"
+				item: {
+					id: "gateofbabylon:gobber_rapier_nether"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			id: "6A52BC5A8942AB08"
+			tasks: [{
+				id: "25BFCCE06549621E"
+				type: "item"
+				item: {
+					id: "gateofbabylon:nether_gobber_broadsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			id: "2F34555838AFABB5"
+			tasks: [{
+				id: "23600532689E7312"
+				type: "item"
+				item: {
+					id: "gateofbabylon:nether_gobber_spear"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "61B9CD4AAD3EDDD9"
+			tasks: [{
+				id: "55C00FB01ACDB748"
+				type: "item"
+				item: {
+					id: "gateofbabylon:nether_gobber_dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			id: "5D3C35B310682946"
+			tasks: [{
+				id: "65B5F5F3DBD61B45"
+				type: "item"
+				item: {
+					id: "gateofbabylon:gobber_rapier_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			id: "0CA3A0D88C6F842A"
+			tasks: [{
+				id: "00D139DE47A74626"
+				type: "item"
+				item: {
+					id: "gateofbabylon:end_gobber_broadsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			id: "30A487605427C77C"
+			tasks: [{
+				id: "2FA93CBD07E531AD"
+				type: "item"
+				item: {
+					id: "gateofbabylon:end_gobber_spear"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			id: "3F869D7BC874ED2D"
+			tasks: [{
+				id: "19D45C64D664AF87"
+				type: "item"
+				item: {
+					id: "gateofbabylon:end_gobber_dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			id: "56F26F0F793492AE"
+			tasks: [{
+				id: "6F7357C034580ABF"
+				type: "item"
+				item: {
+					id: "gateofbabylon:terra_rapier"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			id: "3057FD1599F7BD5E"
+			tasks: [{
+				id: "70C5E43149F82F77"
+				type: "item"
+				item: {
+					id: "gateofbabylon:terra_broadsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.0d
+			id: "5106CBCCBD7E64DC"
+			tasks: [{
+				id: "703F218ECDAC727C"
+				type: "item"
+				item: {
+					id: "gateofbabylon:terra_spear"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			id: "26BCD19584BC636F"
+			tasks: [{
+				id: "2F1E24E32EF38A3B"
+				type: "item"
+				item: {
+					id: "gateofbabylon:terra_dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 5.0d
+			id: "19CF33129B597DBA"
+			tasks: [{
+				id: "0BDED73CEA340611"
+				type: "item"
+				item: {
+					id: "gateofbabylon:terra_haladie"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: 7.0d
+			description: ["快准狠！"]
+			id: "72659B9F90B49054"
+			tasks: [{
+				id: "2AA1452142A23E94"
+				type: "item"
+				item: {
+					id: "mcdw:sword_dark_katana"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5C6B776FDFF803AB"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 7.0d
+			description: ["这彻骨的寒冷将会吞噬掉你！"]
+			id: "71BC7C0FBD559562"
+			tasks: [{
+				id: "21F684CCFB481155"
+				type: "item"
+				item: {
+					id: "mcdw:sword_frost_slayer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "07C0249B77E37D21"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -12.0d
+			y: 7.0d
+			description: ["你的破绽太多了！"]
+			id: "5391E44C87539EA7"
+			tasks: [{
+				id: "78D656722A51B1C8"
+				type: "item"
+				item: {
+					id: "mcdw:sword_masters_katana"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7259BF02AB47B603"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 7.0d
+			description: ["必叫你大败而归！"]
+			id: "46FDD437574F8D86"
+			tasks: [{
+				id: "67D2E63098E7D45E"
+				type: "item"
+				item: {
+					id: "mcdw:sword_obsidian_claymore"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5269B70F93A9D851"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -10.0d
+			y: 8.0d
+			description: ["连反抗的勇气都没了么。"]
+			id: "4CD08D99BFF8DDEE"
+			tasks: [{
+				id: "676D2DF687F13620"
+				type: "item"
+				item: {
+					id: "mcdw:sword_sinister"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "446E3264F39DAB83"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 8.0d
+			description: ["你可敢接我一刀？！"]
+			id: "2D218FD71523CED8"
+			tasks: [{
+				id: "2AE2F10446B9D52A"
+				type: "item"
+				item: {
+					id: "mcdw:sword_the_starless_night"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7465C3F8A51E3CB9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "643EBAC84F69E230"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 8.0d
+			subtitle: "双持体验更佳"
+			description: ["小心身后的影子！"]
+			id: "3E1BF3D2B029EC27"
+			tasks: [{
+				id: "535DE1236634A0A9"
+				type: "item"
+				item: {
+					id: "mcdw:dagger_swift_striker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "32C8A6A5942B0391"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "3707949AA9745767"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 8.0d
+			subtitle: "双持始末体验更佳。"
+			description: ["我还不可以倒下！"]
+			id: "7C60EED8E26526D1"
+			tasks: [{
+				id: "2AC70809ED0D0F96"
+				type: "item"
+				item: {
+					id: "mcdw:dagger_the_beginning"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0720F1B75D581726"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "1B340FD8ED396FC7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 8.0d
+			subtitle: "双持始末体验更佳。"
+			description: ["那么古尔丹，代价是什么呢？"]
+			id: "7A187CAB67CF7A5A"
+			tasks: [{
+				id: "49E5726B478F66EF"
+				type: "item"
+				item: {
+					id: "mcdw:dagger_the_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3757CEF2CE8B2030"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "3B7BBB1E5FFC7966"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 8.0d
+			description: ["我会不断的撕开你的伤口，你逃不掉的！"]
+			id: "4883E3C751F09C7F"
+			tasks: [{
+				id: "097A41CBDD7575C6"
+				type: "item"
+				item: {
+					id: "mcdw:sickle_skull_scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "51CA61AA9D3DC117"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 7.0d
+			description: ["你的灵魂可真是美味，成为我力量的养料吧！"]
+			id: "09D9D079435335FD"
+			tasks: [{
+				id: "75EF048856CE3807"
+				type: "item"
+				item: {
+					id: "mcdw:sickle_soul_scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "59E9740CC077DD67"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -9.0d
+			y: 7.0d
+			description: ["吾观尔等，如插标卖首耳！"]
+			id: "0E3B222559921D9B"
+			tasks: [{
+				id: "6466CFE1CAB28E15"
+				type: "item"
+				item: {
+					id: "mcdw:spear_grave_bane"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "11961CCA8259F2EB"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -10.0d
+			y: 7.0d
+			description: ["痛苦的哀嚎不断回响"]
+			id: "184838E027112CE1"
+			tasks: [{
+				id: "051AEA4C19433D09"
+				type: "item"
+				item: {
+					id: "mcdw:spear_whispering_spear"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0B2AA09366BB283E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 5.0d
+			description: ["不受战斗模组限制，左键可发射光束远程攻击"]
+			id: "33B1FB417E1A2B38"
+			tasks: [{
+				id: "3340CC2CA0CC1AEC"
+				type: "item"
+				item: {
+					id: "botania:terra_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3C33E855F790787D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5136761027295037695L
+			}]
+		}
+		{
+			x: -9.0d
+			y: 1.0d
+			id: "364256AFDEBF5256"
+			tasks: [{
+				id: "71AE723FBAB2698B"
+				type: "item"
+				item: {
+					id: "soulsweapons:featherlight"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -9.0d
+			y: 2.0d
+			description: [
+				"出自游戏：毁灭战士：永恒（DOOM Eternal）"
+				"每隔一段时间这把武器伤害会大大增加。"
+				"你会被这把武器的面板欺骗吗？它拥有着恐怖的倍率。绝非看上去那么羸弱。"
+			]
+			id: "6FB3845B4B6EBB6A"
+			tasks: [{
+				id: "17D65192E646870C"
+				type: "item"
+				item: {
+					id: "soulsweapons:crucible_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "13C8EB0F368EEF6C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -9.0d
+			y: 4.0d
+			description: ["出自游戏“英雄联盟”中 影流之镰·凯隐的武器。"]
+			id: "7EFA3E845AB0416B"
+			tasks: [{
+				id: "5A021E0279395E0C"
+				type: "item"
+				item: {
+					id: "soulsweapons:darkin_scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -9.0d
+			y: 3.0d
+			description: ["出自游戏“英雄联盟”中 影流之镰·凯隐的武器。"]
+			id: "182B81205CBD4E87"
+			tasks: [{
+				id: "1700DC7936DC193C"
+				type: "item"
+				item: {
+					id: "soulsweapons:shadow_assassin_scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -9.0d
+			y: 5.0d
+			description: ["出自游戏：战神5：诸神黄昏"]
+			id: "0A26A7BF6B70F479"
+			tasks: [{
+				id: "4075AF0F0CC84C8E"
+				type: "item"
+				item: {
+					id: "soulsweapons:draupnir_spear"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "连弩"
+			x: -7.5d
+			y: 9.0d
+			subtitle: "近程弩"
+			description: [
+				"快到你无法想象的手弩，无论是连射还是蓄力都是很方便的武器"
+				"特点：秒装填、可以不断叠加伤害给下一次射击（20层上限）"
+			]
+			id: "287A848F73684B8C"
+			tasks: [{
+				id: "23175C84B06A8976"
+				type: "item"
+				item: {
+					id: "mcdw:crossbow_dual_crossbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6371FC89EED85CED"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			title: "强弩"
+			x: -10.0d
+			y: 9.0d
+			subtitle: "中程弩"
+			description: [
+				"改造过的机构让它装填速度略快于普通弩，射击伤害也有提升"
+				"特点：非常朴实，简单的机制，不简单的伤害"
+			]
+			id: "0138FF78C99C8369"
+			tasks: [{
+				id: "3D7E74C36013126E"
+				type: "item"
+				item: {
+					id: "mcdw:crossbow_burst_crossbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2ED84BCDFB0CA720"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 9.0d
+			subtitle: "远程弩"
+			description: [
+				"为了提升伤害而不计代价的选择了非常强劲的材料，即使附魔快速装填3也比普通弩更难拉开"
+				"特点：恐怖伤害，非常慢的装填速度，弹道几乎无下坠，远程狙击好手"
+			]
+			id: "04C95B852136829E"
+			tasks: [{
+				id: "1E7D89EC5DE8EDB4"
+				type: "item"
+				title: "重弩"
+				item: {
+					id: "mcdw:crossbow_heavy_crossbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7B9082757D090D2F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -11.0d
+			y: 10.0d
+			description: ["过于平庸的分支"]
+			dependencies: ["0138FF78C99C8369"]
+			id: "3624C88181755DFC"
+			tasks: [{
+				id: "20DC59B074014902"
+				type: "item"
+				item: {
+					id: "mcdw:crossbow_soul_hunter_crossbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1514B75C5D4DADCA"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "36B98FF6DCD04DB7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 10.0d
+			description: ["暗影刺客首选"]
+			dependencies: ["0138FF78C99C8369"]
+			id: "49F570094FB959D6"
+			tasks: [{
+				id: "7A54A1350C5BAAB6"
+				type: "item"
+				item: {
+					id: "mcdw:crossbow_shadow_crossbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "64A9B011E44DC577"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -10.5d
+			y: 11.0d
+			description: ["平庸的分支的顶点"]
+			dependencies: ["3624C88181755DFC"]
+			id: "03FCB075491CC6FC"
+			tasks: [{
+				id: "1FC5904524370BD5"
+				type: "item"
+				item: {
+					id: "mcdw:crossbow_corrupted_crossbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7DA3E46AB1D12F75"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+				{
+					id: "3909BD0A332A9C7D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 11.0d
+			description: ["更加强大的中程刺杀武器，是强弩的顶点"]
+			dependencies: ["49F570094FB959D6"]
+			id: "49C4AF264C34B1FF"
+			tasks: [{
+				id: "393962150CF740E2"
+				type: "item"
+				item: {
+					id: "mcdw:crossbow_veiled_crossbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "67E2EB3C0D5DFCE5"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+				{
+					id: "52D3814E6F1D3F72"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 10.0d
+			description: ["附加强化，让其更加暴力"]
+			dependencies: ["287A848F73684B8C"]
+			id: "28426F4489AD4E48"
+			tasks: [{
+				id: "1A77A958A5EA3365"
+				type: "item"
+				item: {
+					id: "mcdw:crossbow_spellbound_crossbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "474DC7F7A3FDD1D8"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "46D95532D77CDAEA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 11.0d
+			description: ["虽非最高级连弩，但绝对是对单伤害最高的连弩"]
+			dependencies: ["28426F4489AD4E48"]
+			id: "31101B4D6424BE8F"
+			tasks: [{
+				id: "300DF10A28DDEF59"
+				type: "item"
+				item: {
+					id: "mcdw:crossbow_baby_crossbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "509B4A767E112E27"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+				{
+					id: "26B596D7DFA628CA"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 11.0d
+			description: ["作为幼体弩的上位他未必伤害强过下位，他仅仅只是更加适合近身拼杀"]
+			dependencies: ["31101B4D6424BE8F"]
+			id: "5305696051632B12"
+			tasks: [{
+				id: "10BD0C9E5721B5CE"
+				type: "item"
+				item: {
+					id: "mcdw:crossbow_lightning_harp_crossbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "721DD5A99179398F"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+				{
+					id: "1D52C00F85D8C212"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 10.0d
+			description: ["强大的力量并不需要花里胡哨的强化"]
+			dependencies: ["04C95B852136829E"]
+			id: "556CB6BEF3FF4F23"
+			tasks: [{
+				id: "1BBB2FBFFF8F8728"
+				type: "item"
+				item: {
+					id: "mcdw:crossbow_slayer_crossbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6770012805D106B5"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "6F9F4D1A466E2F6F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 11.0d
+			description: ["更加强大的力量需要的也仅仅只是更加纯粹的暴力"]
+			dependencies: ["556CB6BEF3FF4F23"]
+			id: "0E3ABEDC64CA6512"
+			tasks: [{
+				id: "3388A82DD4D5ECEA"
+				type: "item"
+				item: {
+					id: "mcdw:crossbow_doom_crossbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "545ADFC0DF51F660"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+				{
+					id: "324A9CA071631AEC"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 10.0d
+			description: ["顶级的力量，可以粉碎一切阻挡在前面的事物"]
+			dependencies: ["0E3ABEDC64CA6512"]
+			id: "6B4275EAED067A9C"
+			tasks: [{
+				id: "148E05513F7E3EDA"
+				type: "item"
+				item: {
+					id: "mcdw:crossbow_pride_of_the_piglins"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "11CADD6FECCEA29A"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1552600754727581119L
+				}
+				{
+					id: "47410355CB152427"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "7A433C3156E81EE2"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 11.0d
+			description: ["更加强大的力量再拥有范围打击绝对会是很恐怖的"]
+			dependencies: ["0E3ABEDC64CA6512"]
+			id: "2E7548FC6E4568CE"
+			tasks: [{
+				id: "270DEF04929FFC6F"
+				type: "item"
+				item: {
+					id: "mcdw:crossbow_imploding_crossbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4010E566052A447F"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+				{
+					id: "42DC3D8A2556A306"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 7.0d
+			subtitle: "双持体验更佳"
+			description: ["圣光照耀着我！"]
+			id: "37F165DAE9CDCC12"
+			tasks: [{
+				id: "657254ABC10819D1"
+				type: "item"
+				item: {
+					id: "mcdw:hammer_suns_grace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "365743E3D7032DD9"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			title: "他们都得到了加强"
+			x: -6.0d
+			y: 6.0d
+			subtitle: "增强的武器"
+			description: ["这些武器都得到了增强"]
+			id: "5DB2008E845EF9FC"
+			tasks: [{
+				id: "5EF6AD2BB13629FE"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 6.0d
+			id: "34341487B9BFE7B5"
+			tasks: [{
+				id: "209B414D1FDF1278"
+				type: "item"
+				item: {
+					id: "gateofbabylon:netherite_katana"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.0d
+			id: "189437C0EB1D10EF"
+			tasks: [{
+				id: "7E8C9FE1CBF89758"
+				type: "item"
+				item: {
+					id: "gateofbabylon:netherite_dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 6.0d
+			id: "3829DB7E33332C90"
+			tasks: [{
+				id: "4A0DB552A31A79B2"
+				type: "item"
+				item: {
+					id: "gateofbabylon:netherite_spear"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.0d
+			id: "6699E14B831E6F77"
+			tasks: [{
+				id: "23A3BBA7562614B1"
+				type: "item"
+				item: {
+					id: "gateofbabylon:netherite_broadsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 6.0d
+			id: "5B8FD69CFDE26ABF"
+			tasks: [{
+				id: "0E75366B891BB7DA"
+				type: "item"
+				item: {
+					id: "gateofbabylon:netherite_rapier"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 2.5d
+			subtitle: "不失为前期过度的好选择"
+			description: ["变形的特性让其可以不断使用变形更新[天赋]，让你前期节省一大笔开支。"]
+			id: "2830D50EE5EC3229"
+			tasks: [
+				{
+					id: "26762CBAA658C863"
+					type: "item"
+					item: {
+						id: "soulsweapons:holy_greatsword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "177476719F6B0061"
+					type: "item"
+					item: {
+						id: "soulsweapons:kirkhammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "规格外的强大远程武器"
+			x: -7.5d
+			y: 6.5d
+			subtitle: "不要被他们的面板所欺骗"
+			description: [
+				"这两把弓都有独特的机制"
+				"追踪弓：所有在这把弓上的附魔实际效果会比正常等级附魔强一些，如果家底足不失为一种好选择。当然前提是家底真的要足。"
+				"三发弓：这把弓的三连发箭矢都是不受无敌帧影响的，均可同时造成伤害。"
+			]
+			id: "22F2C96C2130885B"
+			tasks: [
+				{
+					id: "30558A8BF046AC88"
+					type: "item"
+					item: {
+						id: "twilightforest:seeker_bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3601D71025027B14"
+					type: "item"
+					item: {
+						id: "twilightforest:triple_bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2FA702B2E6323486"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "2FF5499E8C6FA5CD"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 3.5d
+			subtitle: "变形武器真的很好用"
+			description: ["作为一把不那么贵的武器，在中期也是可以考虑的，至少用着便宜。"]
+			id: "6DE470E4F9D1FA3A"
+			tasks: [
+				{
+					id: "5631EE6809B33944"
+					type: "item"
+					item: {
+						id: "soulsweapons:holy_moonlight_sword"
+						Count: 1b
+						tag: {
+							current_charge: 0
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2D6A5D82D2A6D888"
+					type: "item"
+					item: {
+						id: "soulsweapons:holy_moonlight_greatsword"
+						Count: 1b
+						tag: {
+							current_charge: 0
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 6.0d
+			id: "15BF67DCE2D3C6C1"
+			tasks: [{
+				id: "6E168BDEC2685CC9"
+				type: "item"
+				item: {
+					id: "dragonloot:dragon_trident"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 5.5d
+			subtitle: "并没有40米的大剑"
+			description: ["所有武器中最大的打击面，享受杀戮的快感吧。"]
+			id: "5873A2517F7CE2BD"
+			tasks: [{
+				id: "6346ABC606A5AA22"
+				type: "item"
+				item: {
+					id: "twilightforest:giant_sword"
+					Count: 1b
+					tag: {
+						swa3: { }
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 4.5d
+			subtitle: "玻璃做的剑？你一定是疯了！"
+			description: [
+				"这是一把很恐怖的武器，虽然易碎，但却不是一击就坏。如果你能拿到这把武器，它在你得到的时期拥有强大的威慑力。"
+				"因为过于强大的力量被诅咒了！"
+			]
+			id: "76F89A4D5E66DB15"
+			tasks: [{
+				id: "678751E300A517C5"
+				type: "item"
+				item: {
+					id: "twilightforest:glass_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "永恒之禁忌"
+			x: -7.5d
+			y: -4.5d
+			shape: "diamond"
+			subtitle: "你已解锁了【石剑？】的秘密"
+			description: [
+				"此剑曾是无限贪婪之剑的最初试做品，无法承受狂暴的破坏之力的侵蚀，外表退化成了一把不显眼的石剑模样。僭越的行为导致匠之大道崩坏；此物也因此消散于曾经无限世界的虚空之中。自此无限一代无法制作石器，同时科技发展也受到了制约。星河更替，世界重塑，不知名的存在修复了世界规则，同时禁忌之名得以重现。"
+				""
+				"拥有无限贪婪之剑的弱化版能力。连死亡亦可抹除。"
+				""
+				"他的攻击力虽然不高，但其中蕴含的破坏之力使其造成的伤害并不像他的面板一般孱弱。"
+				""
+				"二代无限纪念武器，拥有独特的攻击方式。"
+				"如果你关掉了战斗模式的mod，他将失去近乎所有的力量                 ————天稽阁主-斩稽"
+			]
+			size: 3.0d
+			invisible: true
+			id: "63254282D8291BC9"
+			tasks: [{
+				id: "59E6B41325A7A956"
+				type: "item"
+				item: {
+					id: "kubejs:putong_stone_sword"
+					Count: 1b
+					tag: {
+						swa3: {
+							LIFESTEAL: {
+								lifesteal: 25.0f
+							}
+							COLD: {
+								slowDur: 10.0f
+								freezeDur: 10.0f
+								bonusDmg: 20.0f
+							}
+							CRIT: {
+								critChance: 1.0f
+							}
+							FIRE: {
+								dur: 20.0f
+								bonusDmg: 20.0f
+							}
+							POISON: {
+								dur: 30.0f
+								bonusDmg: 20.0f
+							}
+						}
+						durable: 1
+						Unbreakable: 1b
+						display: {
+							Name: "{\"text\":\"【无垠星空·原初试作】\",\"italic\":\"false\",\"bold\":\"true\",\"color\":\"gold\"}"
+						}
+						Damage: 0
+						EnchantGiver: {
+							"minecraft:sharpness": 10
+							"gobber2:smithblade": 10
+							"yigd:soulbound": 1
+						}
+						Tiered: {
+							Tier: "tiered:infinity_melee"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "0FA9BBB668AA221E"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 1552600754727581119L
+				}
+				{
+					id: "7E659EA4EFD5ABA0"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 488332073128391457L
+				}
+				{
+					id: "6EE578470B4BD206"
+					type: "item"
+					item: {
+						id: "kubejs:putong_stone_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Tiered: {
+								Tier: "tiered:infinity_melee"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -1.5d
+			subtitle: "一把奇怪的石剑"
+			description: [
+				"怎么会有一把这么昂贵的石剑呢？"
+				"充斥着崩坏之力，诞生于不曾存在的虚空。"
+			]
+			id: "1A48026BFA1C0529"
+			tasks: [{
+				id: "26C2AC2763BFBA33"
+				type: "item"
+				item: {
+					id: "kubejs:putong_stone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0753CCB086DB2B1E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "3D13728F7DA06017"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+			]
+		}
+		{
+			title: "觉醒：禁忌之力"
+			icon: {
+				id: "kubejs:qixing_sword"
+				Count: 1b
+				tag: {
+					swa3: {
+						CRIT: {
+							critChance: 0.17114973f
+						}
+					}
+					durable: -1
+					RepairCost: 1
+					Damage: 0
+					Tiered: {
+						Tier: "tiered:infinity_melee"
+					}
+				}
+			}
+			x: -9.0d
+			y: -2.5d
+			subtitle: "星辰之禁忌"
+			min_required_dependencies: 1
+			dependencies: ["07A50888B110583B"]
+			hide: true
+			can_repeat: true
+			id: "68E38C4497976152"
+			tasks: [
+				{
+					id: "69CD2BFD5D7C9413"
+					type: "item"
+					item: "kubejs:shining_star"
+					consume_items: true
+				}
+				{
+					id: "0BADCA4E6842EC0F"
+					type: "item"
+					item: {
+						id: "kubejs:qixing_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "33165558120279F2"
+				type: "item"
+				item: {
+					id: "kubejs:qixing_sword"
+					Count: 1b
+					tag: {
+						swa3: { }
+						RepairCost: 1
+						Damage: 0
+						Tiered: {
+							Tier: "tiered:qixing_melee2"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "觉醒：禁忌之力"
+			icon: {
+				id: "kubejs:yecao_sword"
+				Count: 1b
+				tag: {
+					swa3: {
+						CRIT: {
+							critChance: 0.28342268f
+						}
+					}
+					Damage: 0
+				}
+			}
+			x: -5.0d
+			y: 0.0d
+			subtitle: "不息之禁忌"
+			min_required_dependencies: 1
+			dependencies: ["5E4A4F7213FA89DC"]
+			hide: true
+			can_repeat: true
+			id: "10D4DF68C4494209"
+			tasks: [
+				{
+					id: "37D37DD5570B343F"
+					type: "item"
+					item: "ringsofascension:ring_growth"
+					consume_items: true
+				}
+				{
+					id: "54F495DE80A35915"
+					type: "item"
+					item: {
+						id: "kubejs:yecao_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "039805DA7DB22F95"
+				type: "item"
+				item: {
+					id: "kubejs:yecao_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Tiered: {
+							Tier: "tiered:qixing_melee2"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "觉醒：禁忌之力"
+			icon: {
+				id: "kubejs:ruoshui_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -10.0d
+			y: 0.0d
+			subtitle: "纯粹之禁忌"
+			min_required_dependencies: 1
+			dependencies: ["78F3185B02B4A80F"]
+			hide: true
+			can_repeat: true
+			id: "1C5E2F15BB9BA908"
+			tasks: [
+				{
+					id: "63D18E33E93D02D1"
+					type: "item"
+					item: "mythicmetals:aquarium_pearl"
+					count: 2L
+					consume_items: true
+				}
+				{
+					id: "2BE853BCE37B207D"
+					type: "item"
+					item: {
+						id: "kubejs:ruoshui_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "29988FA61A6C1C8E"
+				type: "item"
+				item: {
+					id: "kubejs:ruoshui_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Tiered: {
+							Tier: "tiered:qixing_melee2"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "呼应本源"
+			icon: "kubejs:upgrade_poison"
+			x: -5.0d
+			y: -1.0d
+			subtitle: "完全的真我"
+			min_required_dependencies: 1
+			dependencies: ["5E4A4F7213FA89DC"]
+			hide: true
+			can_repeat: true
+			id: "00FB1C8F1F0F019B"
+			tasks: [
+				{
+					id: "13A68ED2691D118D"
+					type: "item"
+					item: {
+						id: "kubejs:yecao_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "02E1B122F90C07CD"
+					type: "item"
+					item: "ringsofascension:ring_growth"
+					consume_items: true
+				}
+				{
+					id: "153CDC46231622E8"
+					type: "item"
+					item: "kubejs:upgrade_poison"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "50AC20EF37553E03"
+				type: "item"
+				item: {
+					id: "kubejs:yecao_sword"
+					Count: 1b
+					tag: {
+						swa3: {
+							POISON: {
+								dur: 25.0f
+								bonusDmg: 25.0f
+							}
+						}
+						Damage: 0
+						Tiered: {
+							Tier: "tiered:qixing_melee2"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "呼应本源"
+			icon: "kubejs:upgrade_frost"
+			x: -10.0d
+			y: -1.0d
+			subtitle: "完全的真我"
+			min_required_dependencies: 1
+			dependencies: ["78F3185B02B4A80F"]
+			hide: true
+			can_repeat: true
+			id: "1E39C172CA72598D"
+			tasks: [
+				{
+					id: "60C9A3A7CD383FD2"
+					type: "item"
+					item: {
+						id: "kubejs:ruoshui_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "6CD8F7061516A74E"
+					type: "item"
+					item: { id: "mythicmetals:aquarium_pearl", Count: 2b }
+					count: 2L
+					consume_items: true
+				}
+				{
+					id: "49AE01F49182570F"
+					type: "item"
+					item: "kubejs:upgrade_frost"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "468B5CFBBD873DAC"
+				type: "item"
+				item: {
+					id: "kubejs:ruoshui_sword"
+					Count: 1b
+					tag: {
+						swa3: {
+							COLD: {
+								slowDur: 25.0f
+								freezeDur: 25.0f
+								bonusDmg: 25.0f
+							}
+						}
+						Damage: 0
+						Tiered: {
+							Tier: "tiered:qixing_melee2"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "呼应本源"
+			icon: "kubejs:upgrade_fire"
+			x: -8.0d
+			y: -2.5d
+			subtitle: "完全的真我"
+			min_required_dependencies: 1
+			dependencies: ["07A50888B110583B"]
+			hide: true
+			can_repeat: true
+			id: "355D7B6DFD279D14"
+			tasks: [
+				{
+					id: "7335158639AC4F23"
+					type: "item"
+					item: {
+						id: "kubejs:qixing_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "5AAA23AF5286969E"
+					type: "item"
+					item: "kubejs:shining_star"
+					consume_items: true
+				}
+				{
+					id: "330692A9E4198FF1"
+					type: "item"
+					item: "kubejs:upgrade_fire"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "71AD6B79232CD6D6"
+				type: "item"
+				item: {
+					id: "kubejs:qixing_sword"
+					Count: 1b
+					tag: {
+						swa3: {
+							FIRE: {
+								dur: 25.0f
+								bonusDmg: 25.0f
+							}
+						}
+						RepairCost: 1
+						Damage: 0
+						Tiered: {
+							Tier: "tiered:qixing_melee2"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "触及禁忌的一丝"
+			icon: {
+				id: "kubejs:putong_stone_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -6.0d
+			y: -2.5d
+			subtitle: "?????"
+			description: ["你还不够资格！"]
+			min_required_dependencies: 1
+			dependencies: ["1A48026BFA1C0529"]
+			hide: true
+			can_repeat: true
+			id: "48FBB308546FEFD9"
+			tasks: [
+				{
+					id: "45C967C0996AA662"
+					type: "item"
+					item: {
+						id: "kubejs:putong_stone_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "47DC347B5791352B"
+					type: "item"
+					item: "adventurez:source_stone"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "4AB8F9F424B90141"
+				type: "item"
+				item: {
+					id: "kubejs:putong_stone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Tiered: {
+							Tier: "tiered:qixing_melee2"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "触及真名的一角"
+			icon: "kubejs:upgrade_crit"
+			x: -7.0d
+			y: -2.5d
+			subtitle: "?????"
+			description: ["你还不够资格！"]
+			min_required_dependencies: 1
+			dependencies: ["1A48026BFA1C0529"]
+			hide: true
+			can_repeat: true
+			id: "0898B6BAAEC57118"
+			tasks: [
+				{
+					id: "054B7A3AD086E868"
+					type: "item"
+					item: {
+						id: "kubejs:putong_stone_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "56D0DCE6D16A5F5F"
+					type: "item"
+					item: "adventurez:source_stone"
+					consume_items: true
+				}
+				{
+					id: "7020C08A1C85CE8D"
+					type: "item"
+					item: "kubejs:upgrade_crit"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "7DC4BC3A5E27360A"
+				type: "item"
+				item: {
+					id: "kubejs:putong_stone_sword"
+					Count: 1b
+					tag: {
+						swa3: {
+							CRIT: {
+								critChance: 1.0f
+							}
+						}
+						Damage: 0
+						Tiered: {
+							Tier: "tiered:qixing_melee2"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.5d
+			description: ["感谢@aolanya、@ZYanHua、@HuanLu、@NanNiang_001对本包的贡献！"]
+			id: "36E6A6481D6A9D4A"
+			tasks: [{
+				id: "5486B71AD2B186B3"
+				type: "item"
+				item: {
+					id: "kubejs:sixiang_kaitian"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 1.5d
+			description: ["某一天Jy突发奇想，把Warframe中的武器加了进来..."]
+			id: "1C9123A8C8FF5BE2"
+			tasks: [{
+				id: "042583017DF075F1"
+				type: "item"
+				item: {
+					id: "kubejs:kreska"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0A26355FC0A3877F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "1A97F684E7A20632"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

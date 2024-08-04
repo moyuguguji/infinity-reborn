@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:yellow_shulker_box"
+    },
+    "title": "蜂香满溢",
+    "description": "在绿叶葱茸的蜂房中用哭泣的黑曜石制作一个蜂香匣。丰富的战利品等待着你！",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/structures/hivenest/craft_honeycomb_ingot",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:yellow_shulker_box",
+            "nbt": "{display:{Name:'{\"text\":\"Hive Chest\",\"color\":\"gold\",\"italic\":false}'}}"
+          }
+        ]
+      }
+    }
+  }
+}
