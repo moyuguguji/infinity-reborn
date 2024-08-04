@@ -491,7 +491,9 @@
     "__comment": [
       "List of blocks mobs shouldn't steal from. You can also add a modid to blacklist whole mods"
     ],
-    "input": []
+    "input": [
+      "spirit:soul_cage"
+    ]
   },
   "Breaking items": {
     "__comment": [
@@ -911,7 +913,7 @@
       "Damage will be multiplied by 1 + difficulty*0.008*x. Set to 0 to disable",
       "Range: > 0.0"
     ],
-    "input": 1.5
+    "input": 15.0
   },
   "Max Damage Increase": {
     "__comment": [
@@ -953,7 +955,7 @@
       "Magic resistance will be increased by difficulty*0.0016*x. Set to 0 to disable",
       "Range: > 0.0"
     ],
-    "input": 1.5
+    "input": 60.0
   },
   "Max Magic Resistance": {
     "__comment": [
@@ -967,7 +969,7 @@
       "Projectile Damage will be multiplied by 1 + difficulty*0.008*x. Set to 0 to disable",
       "Range: > 0.0"
     ],
-    "input": 2.0
+    "input": 40.0
   },
   "Max Projectile Damage": {
     "__comment": [
