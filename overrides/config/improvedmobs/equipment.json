@@ -322,6 +322,38 @@
       728,
       2.176
     ],
+    "kubejs:ailinghan": [
+      -50,
+      1.0
+    ],
+    "kubejs:jian_li": [
+      -50,
+      1.0
+    ],
+    "kubejs:lce_tang": [
+      -50,
+      1.0
+    ],
+    "kubejs:putong_stone_sword": [
+      -20,
+      1.0
+    ],
+    "kubejs:qixing_sword": [
+      -50,
+      1.0
+    ],
+    "kubejs:ruoshui_sword": [
+      -50,
+      1.0
+    ],
+    "kubejs:sixiang_kaitian": [
+      -50,
+      1.0
+    ],
+    "kubejs:yecao_sword": [
+      -50,
+      1.0
+    ],
     "lootgoblins:emerald_crossbow_item": [
       1000,
       0.0
@@ -913,38 +945,6 @@
     "twilightforest:triple_bow": [
       1,
       0.0
-    ],
-    "kubejs:ruoshui_sword": [
-      -50,
-      1
-    ],
-    "kubejs:yecao_sword": [
-      -50,
-      1
-    ],
-    "kubejs:qixing_sword": [
-      -50,
-      1
-    ],
-    "kubejs:putong_stone_sword": [
-      -20,
-      1
-    ],
-    "kubejs:sixiang_kaitian": [
-      -50,
-      1
-    ],
-    "kubejs:lce_tang": [
-      -50,
-      1
-    ],
-    "kubejs:ailinghan": [
-      -50,
-      1
-    ],
-    "kubejs:jian_li": [
-      -50,
-      1
     ]
   },
   "OFFHAND": {
@@ -1053,6 +1053,10 @@
     "emerald_tools:steel_boots": [
       665,
       2.68
+    ],
+    "gobber2:gobber2_boots_dragon": [
+      -100,
+      20.0
     ],
     "kibe:slime_boots": [
       1206,
@@ -1418,6 +1422,10 @@
       931,
       0.552
     ],
+    "spectrum:bedrock_boots": [
+      -50,
+      100.0
+    ],
     "spectrum:emergency_boots": [
       572,
       3.424
@@ -1445,14 +1453,6 @@
     "twilightforest:yeti_boots": [
       143,
       6.856
-    ],
-    "spectrum:bedrock_boots": [
-      -50,
-      1
-    ],
-    "gobber2:gobber2_boots_dragon": [
-      -100,
-      1
     ]
   },
   "LEGS": {
@@ -1475,14 +1475,6 @@
     "betternether:nether_ruby_leggings": [
       1,
       10.824
-    ],
-    "gobber2:gobber2_leggings_dragon": [
-      -100,
-      1
-    ],
-    "spectrum:bedrock_leggings": [
-      -50,
-      1
     ],
     "emerald_tools:amethyst_leggings": [
       97,
@@ -1511,6 +1503,10 @@
     "enderscape:drift_leggings": [
       358,
       5.136
+    ],
+    "gobber2:gobber2_leggings_dragon": [
+      -100,
+      20.0
     ],
     "mcda:archers_leggings": [
       880,
@@ -1892,6 +1888,10 @@
       931,
       0.552
     ],
+    "spectrum:bedrock_leggings": [
+      -50,
+      100.0
+    ],
     "spectrum:emergency_leggings": [
       572,
       3.424
@@ -1938,14 +1938,6 @@
       1,
       12.624
     ],
-    "spectrum:bedrock_chestplate": [
-      -50,
-      1
-    ], 
-    "gobber2:gobber2_chestplate_dragon": [
-      -100,
-      1
-    ],
     "betterend:elytra_crystalite": [
       101,
       7.192
@@ -1985,6 +1977,10 @@
     "emerald_tools:steel_chestplate": [
       665,
       2.68
+    ],
+    "gobber2:gobber2_chestplate_dragon": [
+      -100,
+      20.0
     ],
     "majobroom:majo_cloth": [
       1,
@@ -2378,6 +2374,10 @@
       931,
       0.552
     ],
+    "spectrum:bedrock_chestplate": [
+      -50,
+      100.0
+    ],
     "spectrum:emergency_chestplate": [
       572,
       3.424
@@ -2424,14 +2424,6 @@
       101,
       7.192
     ],
-    "spectrum:bedrock_helmet": [
-      -50,
-      1
-    ],
-    "gobber2:gobber2_helmet_dragon": [
-      -100,
-      1
-    ],
     "betterend:terminite_helmet": [
       262,
       5.904
@@ -2467,6 +2459,10 @@
     "emerald_tools:steel_helmet": [
       665,
       2.68
+    ],
+    "gobber2:gobber2_helmet_dragon": [
+      -100,
+      20.0
     ],
     "majobroom:majo_hat": [
       1,
@@ -2847,6 +2843,10 @@
     "soulsweapons:soul_robes_helmet": [
       931,
       0.552
+    ],
+    "spectrum:bedrock_helmet": [
+      -50,
+      100.0
     ],
     "spectrum:emergency_helmet": [
       572,
