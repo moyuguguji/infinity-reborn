@@ -1,7 +1,7 @@
 {
 	"parent": "kubejs:item/ailinghan_model",
 	"textures": {
-		"layer0": "kubejs:item/ailinghan"
+		"layer0": "kubejs:item/kreska"
 	},  
   "display": {
     "head": {

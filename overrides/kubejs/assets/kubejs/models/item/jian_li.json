@@ -1,7 +1,7 @@
 {
-	"parent": "kubejs:item/ailinghan_model",
+	"parent": "kubejs:item/model_katana",
 	"textures": {
-		"layer0": "kubejs:item/ailinghan"
+		"layer0": "kubejs:item/jian_li"
 	},  
   "display": {
     "head": {
