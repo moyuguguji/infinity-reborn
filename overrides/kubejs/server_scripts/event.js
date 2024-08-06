@@ -327,7 +327,7 @@ onEvent('player.tick', event => {
         player.potionEffects.add('minecraft:night_vision', 240, 0, false, false)
         player.potionEffects.add('minecraft:haste', 20, 1, false, false)
 
-        if (event.player.lastAttackedEntity.id != null && !event.player.lastAttackedEntity.potionEffects.isActive('soulsweapons:bleed')) {
+        if (event.player.lastAttackedEntity != null && !event.player.lastAttackedEntity.potionEffects.isActive('soulsweapons:bleed')) {
             event.player.lastAttackedEntity.potionEffects.add('soulsweapons:bleed', 80, 6)
             //event.server.runCommandSilent(`effect give ${event.player.lastAttackedEntity.id} minecraft:slowness 5 1 true`)
             //event.server.runCommandSilent(`effect give ${event.player.lastAttackedEntity.id} minecraft:weakness 5 1 true`)
