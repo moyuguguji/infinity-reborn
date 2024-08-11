@@ -322,3 +322,53 @@ onEvent("entity.death", event => {
       break;
   }
 })
+onEvent('item.right_click',event =>{
+    let ty = [
+        "minecraft:librarian",
+        "minecraft:toolsmith",
+        "minecraft:weaponsmith",
+        "minecraft:armorer",
+        "minecraft:fisherman",
+        "morevillagers:woodworker",
+        "morevillagers:miner"
+    ]
+    let entity = event.target
+    if (entity.type == "minecraft:villager") {
+        let profession = entity.fullNBT.VillagerData.profession
+    if (ty.includes(profession)) {
+        event.cancel()
+        event.server.tell("\u00A74请使用贸易站交易")
+    }}
+    //event.server.runCommandSilent(`say ${entity}`)
+    if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:shi_lian') {
+        let test = Ingredient.of('@collectorsalbum').getItemIds()
+        for (let index = 0; index < 10; index++) {
+            let random = randomNum(1,test.length)
+            event.player.give(test[random])
+        }
+        event.player.mainHandItem.count -= 1
+    //event.server.runCommandSilent(`say ${test.length}`)
+    }
+})
+onEvent('item.entity_interact',event =>{
+    let ty = [
+        "minecraft:librarian",
+        "minecraft:toolsmith",
+        "minecraft:weaponsmith",
+        "minecraft:armorer",
+        "minecraft:fisherman",
+        "morevillagers:woodworker",
+        "morevillagers:miner"
+    ]
+    let entity = event.target
+    if (entity.type == "minecraft:villager") {
+        let profession = entity.fullNBT.VillagerData.profession
+    if (ty.includes(profession)) {
+        event.cancel()
+        event.server.tell("\u00A74请使用贸易站交易")
+    }
+        //event.server.runCommandSilent(`say ${profession}`)
+        
+    }
+    //event.server.runCommandSilent(`say ${entity.type}`)
+})
