@@ -53,4 +53,10 @@ onEvent('item.registry', event => {
         .rarity(Rarity.COMMON)
         .tooltip('\u00A77隐藏武器')
         .tooltip('\u00A78剑意:攻击额外造成生物护甲值50%的伤害')
+    
+    event.create('shi_lian')
+    .displayName("十连抽卡券")
+    .tooltip("\u00A7e\u00A7l右键抽一次十连")
+    .maxStackSize(10)
+    .rarity(Rarity.UNCOMMON)
 })
