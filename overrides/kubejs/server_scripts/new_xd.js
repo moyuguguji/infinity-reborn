@@ -333,12 +333,13 @@ onEvent('item.right_click',event =>{
         "morevillagers:miner"
     ]
     let entity = event.target
+  if (entity != null) {
     if (entity.type == "minecraft:villager") {
         let profession = entity.fullNBT.VillagerData.profession
     if (ty.includes(profession)) {
         event.cancel()
         event.server.tell("\u00A74请使用贸易站交易")
-    }}
+    }}}
     //event.server.runCommandSilent(`say ${entity}`)
     if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:shi_lian') {
         let test = Ingredient.of('@collectorsalbum').getItemIds()
@@ -361,6 +362,7 @@ onEvent('item.entity_interact',event =>{
         "morevillagers:miner"
     ]
     let entity = event.target
+  if (entity != null) {
     if (entity.type == "minecraft:villager") {
         let profession = entity.fullNBT.VillagerData.profession
     if (ty.includes(profession)) {
@@ -369,6 +371,6 @@ onEvent('item.entity_interact',event =>{
     }
         //event.server.runCommandSilent(`say ${profession}`)
         
-    }
+    }}
     //event.server.runCommandSilent(`say ${entity.type}`)
 })
