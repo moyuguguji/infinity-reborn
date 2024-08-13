@@ -37,6 +37,7 @@ onEvent('recipes', e => {
       B: 'minecraft:stick',
     })
   e.shapeless('4x kubejs:mu_ban', ['kubejs:yuan_mu'])
+  e.shapeless('kubejs:shi_lian', ['6x #card_package'])
   e.shapeless('enchantablespike:diamond_spikes', ['darkutils:damage_plate_player'])
   e.shapeless('darkutils:damage_plate_player', ['enchantablespike:diamond_spikes'])
   e.custom({
