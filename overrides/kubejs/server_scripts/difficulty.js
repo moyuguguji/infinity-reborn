@@ -657,8 +657,16 @@ onEvent('entity.hurt', event => {
                 target.potionEffects.add('extraalchemy:shrinking',1728000,4, false, false)
             }
             if (target.type=='minecraft:enderman') {
-                if (!player.potionEffects.isActive('minecraft:blindness')) {
-                    player.potionEffects.add('minecraft:blindness',100,1,false,false)
+                if (!target.potionEffects.isActive('minecraft:invisibility')) {
+                    target.potionEffects.add('minecraft:invisibility',100,1,false,false)
+                }
+                let random = randomNum(1,4)
+                if (random == 1) {
+                    let randoms = randomNum(-2,2)
+                    let x = target.getX()
+                    let y = target.getY()
+                    let z = target.getZ()
+                    event.server.runCommandSilent(`execute at ${player.profile.name} run tp ${player.profile.name} ${x + randoms} ${y} ${z + randoms}`)
                 }
             }
 
