@@ -403,7 +403,7 @@ onEvent('entity.hurt', event => {
                     let att =event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage get`)
                     let att1 =event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base get`)
                     target.tags.add('easy')
-                    target.setMaxHealth(target.maxHealth%(2))
+                    target.setMaxHealth(target.maxHealth * 0.5)
                     target.tags.remove('attacked')
                     event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${(att - att1) % 2 - att1}`)
                 }
