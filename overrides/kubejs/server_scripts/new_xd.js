@@ -118,6 +118,43 @@ onEvent('recipes', e => {
   })
   e.smithing(Item.of('kubejs:yuan_mu_jian'), Item.of('kubejs:yuan_mu_jian_seven').ignoreNBT(), Item.of('kubejs:yuan_mu_jian_seven').ignoreNBT())
   e.smithing(Item.of('kubejs:mu_jian'), Item.of('kubejs:mu_jian_seven').ignoreNBT(), Item.of('kubejs:mu_jian_seven').ignoreNBT())
+  e.custom({
+    type: "spectrum:enchanter",
+    "time": 400,
+    "required_experience": 10000,
+    "ingredients": [
+      {
+        "item": 'kubejs:yong_hen_star'//太古合金剑柄
+      },
+      {
+        "item": 'soulsweapons:chaos_orb'//混沌珠
+      },
+      {
+        "item": 'adventurez:source_stone'//基岩粉块
+      },
+      {
+        "item": 'soulsweapons:lord_soul_dark'//龙之星
+      },
+      {
+        "item": 'soulsweapons:lord_soul_void'//黑曜石之心
+      },
+      {
+        "item": 'soulsweapons:lord_soul_rose'//源石
+      },
+      {
+        "item": 'soulsweapons:lord_soul_purple'//昏光精粹
+      },
+      {
+        "item": 'soulsweapons:lord_soul_white'//幽匿核心
+      },
+      {
+        "item": 'soulsweapons:lord_soul_red'//黑石傀儡之心
+      }
+    ],
+    "result": {
+      "item": 'kubejs:boss_rush',
+    },
+  })
 })
 onEvent("entity.spawned", event => {
   let targetTypes = [
@@ -341,6 +378,44 @@ onEvent('item.right_click',event =>{
         event.cancel()
         event.server.tell("\u00A74请使用贸易站交易")
     }}}
+
+  if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:boss_rush') {
+    let targetTypes = [
+    "minecraft:wither",
+    "soulsweapons:chaos_monarch",
+    "minecraft:ender_dragon",
+    "twilightforest:naga",
+    "twilightforest:lich",
+    "twilightforest:alpha_yeti",
+    "twilightforest:minoshroom",
+    "twilightforest:snow_queen",
+    "twilightforest:hydra",
+    "twilightforest:ur_ghast",
+    "soulsweapons:moonknight",
+    "soulsweapons:accursed_lord_boss",
+    "soulsweapons:draugr_boss",
+    "adventurez:stone_golem",
+    "adventurez:void_shadow",
+    "adventurez:the_eye",
+    "whisperwoods:hirschgeist",
+    "soulsweapons:night_shade",
+    "terrarianslimes:king_slime",
+    "bosses_of_mass_destruction:lich",
+    "bosses_of_mass_destruction:void_blossom",
+    "bosses_of_mass_destruction:gauntlet",
+    "bosses_of_mass_destruction:obsidilith",
+    "botania:doppleganger",
+    "soulsweapons:returning_knight",
+    "twilightforest:knight_phantom"
+  ]
+    for (let index = 0; index < targetTypes.length; index++) {
+      let  randomx = randomNum(-2, 2);
+      let  randomz = randomNum(-2, 2)
+      let element = targetTypes[index];
+      event.server.runCommandSilent(`execute at ${event.player.profile.name} run summon_eldritch ${element} ${event.player.getX() + randomx} ${event.player.getY()} ${event.player.getZ() + randomz}`)
+    }
+    event.player.mainHandItem.count -= 1
+ }
     //event.server.runCommandSilent(`say ${entity}`)
     if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:shi_lian') {
         let test = Ingredient.of('@collectorsalbum').getItemIds()
