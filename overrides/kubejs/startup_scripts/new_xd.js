@@ -59,4 +59,11 @@ onEvent('item.registry', event => {
     .tooltip("\u00A7e\u00A7l右键抽一次十连")
     .maxStackSize(10)
     .rarity(Rarity.UNCOMMON)
+
+    event.create('boss_rush')
+    .displayName("远古之魂")
+    .tooltip("\u00A7e\u00A7l右键召唤所有boss")
+    .tooltip("\u00A74后果自负!")
+    .maxStackSize(1)
+    .rarity(Rarity.UNCOMMON)
 })
