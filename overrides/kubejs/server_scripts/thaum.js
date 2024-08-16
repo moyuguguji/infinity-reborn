@@ -405,33 +405,33 @@ onEvent('recipes', event => {
     "time": 600,
     "required_experience": 10000,
     "ingredients": [
-      {
-        "item": 'minecraft:book'//太古合金剑刃
-      },
-      {
-        "item": 'spectrum:spectral_shard_storage_block'//天体块
-      },
-      {
-        "item": 'spectrum:spectral_shard_storage_block'//灵魂之骨
-      },
-      {
-        "item": 'dracomelette:dracomelette'//闪耀之星
-      },
-      {
-        "item": 'dracomelette:dracomelette'//龙之星
-      },
-      {
-        "item": 'spectrum:spectral_shard_storage_block'//永恒水晶
-      },
-      {
-        "item": 'spectrum:spectral_shard_storage_block'//流星碎片
-      },
-      {
-        "item": 'dracomelette:dracomelette'//午夜残片
-      },
-      {
-        "item": 'dracomelette:dracomelette'//风暴之石
-      }
+       {
+          "item": 'minecraft:book'//太古合金剑刃
+        },
+        {
+          "item": 'bosses_of_mass_destruction:obsidian_heart'//天体块
+        },
+        {
+          "item": 'adventurez:source_stone'//灵魂之骨
+        },
+        {
+          "item": 'dracomelette:dracomelette'//闪耀之星
+        },
+        {
+          "item": 'dracomelette:dracomelette'//龙之星
+        },
+        {
+          "item": 'bosses_of_mass_destruction:obsidian_heart'//永恒水晶
+        },
+        {
+          "item": 'spectrum:restoration_tea'//流星碎片
+        },
+        {
+          "item": 'dracomelette:dracomelette'//午夜残片
+        },
+        {
+          "item": 'dracomelette:dracomelette'//风暴之石
+        }
     ],
     "result": {
       "item": "minecraft:enchanted_book",
