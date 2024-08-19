@@ -673,5 +673,21 @@ onEvent('entity.hurt', event => {
         }
     }
     }
+})
+onEvent('block.break', event => {
+    let player = event.getPlayer()
+    if (player != null) {
+        if (player.stages.has('difficulty_yonghen')) {
+        let block = event.getBlock()
+        if (block.id == 'bosses_of_mass_destruction:obsidilith_rune') {
+            let entity = event.level.getEntities()
+            entity.forEach(element => {
+                //event.server.tell(`${element.type}`)
+                if (element.type == 'bosses_of_mass_destruction:obsidilith') {
+                    element.heal(element.maxHealth * 0.05)
+                }
+            });
+        }
 
+    }}
 })
