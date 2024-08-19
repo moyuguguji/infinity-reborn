@@ -2,75 +2,75 @@
     "values": {
         "minecraft:ender_dragon": {
             "minecraft:generic.max_health": 500.0,
-            "minecraft:generic.attack_damage": 200.0,
+            "minecraft:generic.attack_damage": 150.0,
             "minecraft:generic.armor": 30.0,
             "minecraft:generic.armor_toughness": 5.0,
             "minecraft:generic.projectile_damage": 100.0
         },
         "minecraft:wither": {
             "minecraft:generic.max_health": 400.0,
-            "minecraft:generic.attack_damage": 120.0,
+            "minecraft:generic.attack_damage": 90.0,
             "minecraft:generic.armor": 25.0,
             "minecraft:generic.armor_toughness": 10.0,
             "minecraft:generic.projectile_damage": 90.0
         },
         "twilightforest:naga": {
             "minecraft:generic.max_health": 100.0,
-            "minecraft:generic.attack_damage": 30.0,
+            "minecraft:generic.attack_damage": 15.0,
             "minecraft:generic.armor": 6.0,
             "minecraft:generic.armor_toughness": 18.0
         },
         "twilightforest:lich": {
             "minecraft:generic.max_health": 125.0,
-            "minecraft:generic.attack_damage": 40.0,
+            "minecraft:generic.attack_damage": 15.0,
             "minecraft:generic.armor_toughness": 12.0,
             "minecraft:generic.projectile_damage": 60.0
         },
         "twilightforest:knight_phantom": {
             "minecraft:generic.max_health": 110.0,
-            "minecraft:generic.attack_damage": 50.0,
+            "minecraft:generic.attack_damage": 22.0,
             "minecraft:generic.armor_toughness": 25.0,
             "minecraft:generic.projectile_damage": 60.0
         },
         "twilightforest:alpha_yeti": {
             "minecraft:generic.max_health": 350.0,
-            "minecraft:generic.attack_damage": 60.0,
+            "minecraft:generic.attack_damage": 30.0,
             "minecraft:generic.armor": 10.0,
             "minecraft:generic.armor_toughness": 11.0,
             "minecraft:generic.projectile_damage": 70.0
         },
         "twilightforest:minoshroom": {
             "minecraft:generic.max_health": 265.0,
-            "minecraft:generic.attack_damage": 50.0,
+            "minecraft:generic.attack_damage": 25.0,
             "minecraft:generic.armor": 10.0,
             "minecraft:generic.armor_toughness": 18.0
         },
         "twilightforest:snow_queen": {
             "minecraft:generic.max_health": 362.0,
-            "minecraft:generic.attack_damage": 60.0,
+            "minecraft:generic.attack_damage": 30.0,
             "minecraft:generic.armor": 15,
             "minecraft:generic.projectile_damage": 40.0
         },
         "twilightforest:hydra": {
             "minecraft:generic.max_health": 400.0,
-            "minecraft:generic.attack_damage": 80.0,
+            "minecraft:generic.attack_damage": 35.0,
             "minecraft:generic.armor": 10.0,
             "minecraft:generic.armor_toughness": 15.0,
             "minecraft:generic.projectile_damage": 75.0
         },
         "twilightforest:armored_giant": {
             "minecraft:generic.max_health": 50.0,
-            "minecraft:generic.attack_damage": 100.0,
+            "minecraft:generic.attack_damage": 30.0,
             "minecraft:generic.armor": 15.0,
             "minecraft:generic.armor_toughness": 18.0,
             "minecraft:generic.projectile_damage": 2.0
         },
         "twilightforest:ur_ghast": {
             "minecraft:generic.max_health": 350.0,
-            "minecraft:generic.attack_damage": 100.0,
+            "minecraft:generic.attack_damage": 50.0,
             "minecraft:generic.armor": 15.0,
             "minecraft:generic.armor_toughness": 20.0,
-            "minecraft:generic.projectile_damage": 100.0
+            "minecraft:generic.projectile_damage": 50.0
         },
         "twilightforest:harbinger_cube": {
             "minecraft:generic.max_health": 50.0,
@@ -102,39 +102,39 @@
         },
         "adventurez:stone_golem": {
             "minecraft:generic.max_health": 520,
-            "minecraft:generic.attack_damage":120.0,
+            "minecraft:generic.attack_damage":100.0,
             "minecraft:generic.armor": 30.0,
             "minecraft:generic.armor_toughness": 10.0,
             "minecraft:generic.projectile_damage": 100.0
         },
         "adventurez:void_shadow": {
             "minecraft:generic.max_health": 600.0,
-            "minecraft:generic.attack_damage":300.0,
+            "minecraft:generic.attack_damage":200.0,
             "minecraft:generic.armor": 30.0,
             "minecraft:generic.armor_toughness": 40.0,
             "minecraft:generic.projectile_damage": 200.0
         },
         "adventurez:void_shade": {
             "minecraft:generic.max_health": 400.0,
-            "minecraft:generic.attack_damage":150.0
+            "minecraft:generic.attack_damage":100.0
         },
         "adventurez:the_eye": {
             "minecraft:generic.max_health": 530.0,
-            "minecraft:generic.attack_damage":260.0,
+            "minecraft:generic.attack_damage":150.0,
             "minecraft:generic.armor": 25.0,
             "minecraft:generic.armor_toughness": 40.0,
             "minecraft:generic.projectile_damage": 80.0
         },
         "whisperwoods:hirschgeist":{
             "minecraft:generic.max_health": 440.0,
-            "minecraft:generic.attack_damage":110.0,
+            "minecraft:generic.attack_damage":70.0,
             "minecraft:generic.armor": 20.0,
             "minecraft:generic.armor_toughness": 20.0,
             "minecraft:generic.projectile_damage": 30.0
         },
         "soulsweapons:night_shade":{
             "minecraft:generic.max_health": 95.0,
-            "minecraft:generic.attack_damage":50.0,
+            "minecraft:generic.attack_damage":15.0,
             "minecraft:generic.armor": 0.0,
             "minecraft:generic.armor_toughness": 0.0
         },
