@@ -112,7 +112,15 @@ onEvent("lootjs", (event) => {
             p.addLoot("endrem:undead_eye");
             p.limitCount([1, 1]);
         });
-
+    
+   event
+        .addEntityLootModifier('minecraft:elder_guardian')
+        .randomChance(0.25)
+        .pool((p) => {
+            p.addLoot('endrem:guardian_eye');
+            p.limitCount([1, 1]);
+        });
+    
     event
         .addEntityLootModifier('soulsweapons:accursed_lord_boss')
         .randomChance(1.0)
