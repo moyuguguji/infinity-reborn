@@ -27,7 +27,6 @@ onEvent('recipes', event =>{
     event.remove({output:'minecraft:wooden_pickaxe'})
     event.remove({output:'minecraft:wooden_axe'})
     event.remove({output:'minecraft:wooden_hoe'})
-    event.remove({output:'minecraft:wooden_sword'})
 
     event.remove({output:'minecraft:stone_shovel'})
     event.remove({output:'minecraft:stone_pickaxe'})
