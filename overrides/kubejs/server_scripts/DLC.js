@@ -43,7 +43,12 @@ onEvent('entity.death', event => {//死亡事件
                 if (entity.type == 'minecraft:creeper') {
                     let random = randomNum(1, 10)
                     if (random == 1) {
-                        event.server.runCommandSilent(`execute at ${player.profile.name} run summon minecraft:tnt ${entity.getX()} ${entity.getY()} ${entity.getZ()}`)
+                        let explosion = entity.block.createExplosion();
+                        // 设置爆炸强度，默认值为3
+                        explosion.strength(5.0);
+                        // 设置是否生成火，默认值为false
+                        explosion.explode();
+                        drawParticle(event,5,"minecraft:spit");
                     }
                 }
                 if (entity.type == 'minecraft:magma_cube') {
