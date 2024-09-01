@@ -21,4 +21,7 @@ onEvent('rei.hide.items', event => {
     tooltip.addAdvanced('bosses_of_mass_destruction:brimstone_nectar',(item, advanced, text) => {
       text.add(2, Text.gold('仅适用于:夜巫妖,虚空之花,地狱之手,黑曜石之柱').bold(true))
     })
+    tooltip.addAdvanced('minecraft:enchanted_book',(item, advanced, text) => {
+      text.add(1,"\u00A7e辉光会燃于其上")
+    })
   })
