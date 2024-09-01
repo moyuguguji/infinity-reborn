@@ -1,0 +1,15 @@
+{
+  "name": "dnl:structures/hivenest_boss/shells",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "dnl:hivenest/shells/boss",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

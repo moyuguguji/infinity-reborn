@@ -1,0 +1,1 @@
+execute if score @s dnl.playerdeath matches ..1 run function dnl:music/stop

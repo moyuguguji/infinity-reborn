@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "波塞冬"
+        },
+        "description": {
+            "text": "击败深渊暗井之护卫者"
+        },
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "dnl:story/structures/deep_oasis/locate",
+    "criteria": {
+        "kill posaidon": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:drowned",
+                    "nbt": "{Tags:[\"posaidon\"]}",
+                    "distance": {
+                        "absolute": {
+                            "min": 0,
+                            "max": 64
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,726 @@
+{
+	id: "03F83E5034E3D8A2"
+	group: ""
+	order_index: 1
+	filename: "03F83E5034E3D8A2"
+	title: "常见问题"
+	icon: "minecraft:writable_book"
+	subtitle: ["新人可以大致看"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "常见问题"
+			icon: "minecraft:written_book"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "都是群里和频道里搜集的问题，问题很多，粗略浏览，记下大概，日后再看"
+			description: [
+				"1、农夫乐事里面的植物有哪些/怎么看我的农夫乐事完成多少了/我农夫乐事为什么完不成还缺啥东西？"
+				"答：看频道公告，农夫乐事进度在游戏内“进度”可以查看，其中一般是缺稻米，稻米在沼泽采集获得或者村庄奖励箱有几率生成。"
+				"2、存档进不去了怎么办/存档崩了怎么回档/内存好大啊怎么清理内存？"
+				"答：打开游戏目录搜索backups,找到存档压缩包复制，粘贴到saves文件夹里面，解压缩并全部替换，就可以回档了；清理早期的备份可以清理磁盘空间。"
+				"3、其他群友说的保护VIII附魔书该去哪里搞？"
+				"答：主世界会生成一种形似巨型蘑菇的多层建筑，其中生成的怪物概率掉落带有保护VIII附魔的皮革装备。"
+				"4：金小麦种子如何获取？"
+				"答：收获普通小麦时概率掉落金小麦种子。"
+				" 5、龙族锄的时运40附魔如何取下？"
+				"答：对其改名后即可进行驱魔获取附魔书，或通过植物魔法中的魔力附魔台进行，详情可查看哔站教程。"
+				"6、怎么防爆/家被苦力怕炸烂了怎么办？"
+				"答：看教程里如何认领区块，认领后的区块自带防爆。"
+				"7、乱安装java不兼容怎么办？"
+				"答：在启动器安装java，一般是使用java17。"
+				"8、如何在主世界寻找凋零骷髅？"
+				"答：在主世界有部分结构中存在凋零骷髅刷怪笼，如天空中的飞艇、丛林中的石砖结构和塔状结构等。"
+				"9、前往地狱所需要的下界石英、地狱岩等如何在主世界获得？"
+				"答：石英（块）可以在部分遗迹中获得；地狱岩可以在下界传送门遗迹里获得；烈焰棒可以找猎人村民（狩猎台转职）购买；地狱疣块可以用gobber（戈伯）mod的转换之杖转换蘑菇块获得。"
+				"10、村民什么时候补货/村民的东西卖光了怎么办？"
+				"答：等村民白天回到工作方块处补货即可，每天最多补货两次。"
+				"11、制作泰拉剑的史莱姆去哪里杀？"
+				"答：洞穴层、丛林群系、冰原群系、绯红森林群系、沙漠群系、诡异森林群系、末地祭坛附近以及击杀史莱姆王。"
+				"12、剑有七星品质吗/剑什么品质最好？"
+				"答：剑并没有设计七星品质，至于神话和几类原罪哪个好要看个人见解。"
+				"13、如何高效获取凋零骷髅头颅？"
+				"答：使用下界戈伯剑击杀凋零骷髅百分百掉落凋零骷髅头。"
+			]
+			size: 5.0d
+			id: "1EB85FA497E2D869"
+			tasks: [
+				{
+					id: "6F4685C67C379526"
+					type: "checkmark"
+					title: "为什么我没有其他的任务:先把新手教程看完"
+				}
+				{
+					id: "480CFC6B2B78F9C2"
+					type: "checkmark"
+					title: "重铸不知道材料可以先试试原版几个矿物"
+				}
+				{
+					id: "3E7738EE4303ED69"
+					type: "checkmark"
+					title: "有一个红色光柱是怎么回事?ftb地图的路径点,背包左上角点进去可以删除"
+				}
+			]
+			rewards: [{
+				id: "3B5CFD0521CD22F2"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3342768205198891787L
+			}]
+		}
+		{
+			title: "关于诅咒"
+			icon: "endrem:cursed_eye"
+			x: 3.0d
+			y: 4.5d
+			subtitle: "由于因为底层代码问题,诅咒杀手无法对没有耐久的装备生效,以下给出两个解决办法"
+			description: [
+				"1.怯魔下来附到正常装备上后用诅咒杀手去除"
+				""
+				"2.丢午夜溶液中赌运气)"
+			]
+			size: 3.0d
+			id: "4BC2B81620A320F0"
+			tasks: [{
+				id: "381AE75A8385EC65"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2F525653D183BD5C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3342768205198891787L
+			}]
+		}
+		{
+			icon: "minecraft:book"
+			x: -3.0d
+			y: 4.5d
+			subtitle: "注意一定要在物品栏中"
+			description: ["按下键盘上的PAGEUP上升,PAGEDN下降,HOME键重置"]
+			size: 3.0d
+			id: "2534BB285586F6FA"
+			tasks: [{
+				id: "5447B29087362448"
+				type: "checkmark"
+				title: "物品栏中的物品过长怎么办"
+			}]
+			rewards: [{
+				id: "083C98A1DFBAF0D8"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3342768205198891787L
+			}]
+		}
+		{
+			icon: {
+				id: "cloudboots:cloud_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.0d
+			y: 1.0d
+			subtitle: "“明明已经在设置中关闭了自动跳跃，怎么还是会自动跳跃？”"
+			description: [
+				"整合包中加装了stepup（抬步）mod。"
+				"打开菜单（默认为R键），点自动爬坡即可切换。"
+				"Setup原版自动抬步：原版的自动跳跃。"
+				"Setup抬步：平滑的自动爬坡，可自动跳跃略有不同。"
+				"Setup禁用：关闭爬坡，手动按空格跳跃。"
+			]
+			hide: true
+			id: "6951FC2BB7B96933"
+			tasks: [{
+				id: "7F0340C24CE18EEA"
+				type: "checkmark"
+				title: "关于自动抬步"
+			}]
+			rewards: [{
+				id: "398CB6EAC7C25265"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3342768205198891787L
+			}]
+		}
+		{
+			title: "《关于游戏流程前期有些任务/物品/方块名字是乱码这回事儿》"
+			icon: "minecraft:yellow_dye"
+			x: 4.0d
+			y: -2.0d
+			description: [
+				"这些物品均为spectrum（光谱世界）mod的东西，在未解锁相关进度前，它们的贴图和建模均为原版样式，名字均为乱码，包括处于物品栏中以及自然世界中。"
+				"============================================================"
+				"“名字长了什么东西都像轻小说”"
+			]
+			hide: true
+			id: "3D65D7CF5700F722"
+			tasks: [{
+				id: "131C0B1052A67862"
+				type: "checkmark"
+				title: "为什么有些物品名字是乱码？"
+			}]
+			rewards: [{
+				id: "22B8363EC0E0DD7F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3342768205198891787L
+			}]
+		}
+		{
+			icon: "minecraft:lectern"
+			x: 3.0d
+			y: 0.0d
+			subtitle: "崩溃可以用贸易站交易"
+			description: [
+				"图书管理员现在在低级不会出现高级附魔"
+				"但是高级时出现的附魔书等级都不低"
+			]
+			id: "4593B1276F36C8EB"
+			tasks: [{
+				id: "7335A71515860FAC"
+				type: "checkmark"
+				title: "该死的图书管理员"
+			}]
+			rewards: [{
+				id: "45DCDFCE1E008644"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3342768205198891787L
+			}]
+		}
+		{
+			icon: "collectorsalbum:mythical_card_package"
+			x: -4.0d
+			y: -2.0d
+			description: [
+				"冒险路途中遇见的宝箱里总是充斥着没有卵用的垃圾废物，但经过你持之以恒的寻找，你还是从宝箱深处发现了一包包颜色各异的卡片。"
+				"撕开卡包，将卡片塞进集卡册，你突然觉得一阵魔力从脚底升起，溢出体外，护佑着你。"
+				"================================================"
+				"TIP：在抽卡界面可以按esc来跳过翻开卡面的过程；在集卡册页面按“A”和“D”键可以快速翻页。"
+			]
+			hide: true
+			id: "4D09C17C8AACAE50"
+			tasks: [{
+				id: "6FD89FB6C2B288D9"
+				type: "checkmark"
+				title: "关于卡牌"
+			}]
+			rewards: [
+				{
+					id: "0E193642BE550646"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 3342768205198891787L
+				}
+				{
+					id: "4A70859203C68A95"
+					type: "item"
+					item: "collectorsalbum:mythical_card_package"
+				}
+				{
+					id: "7323B596F0D9F6C6"
+					type: "item"
+					item: "collectorsalbum:album"
+				}
+			]
+		}
+		{
+			title: "神器碎片"
+			icon: "kubejs:shenqi_ingot"
+			x: -4.0d
+			y: 3.0d
+			description: ["宝箱里，半路上，还有怪物的口袋里都多多少少藏有上古神器的碎片，收集这些碎片可以用于之后打造神器。（合成配方需解锁光谱）"]
+			hide: true
+			id: "7207A57D8788AEF7"
+			tasks: [{
+				id: "195955530A6DDEB1"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "13532CD78600524C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 3342768205198891787L
+				}
+				{
+					id: "047FC3C60CC46991"
+					type: "item"
+					item: "kubejs:shenqi_shard"
+				}
+			]
+		}
+		{
+			title: "月相轮转，昭然若揭"
+			icon: "soulsweapons:moonstone"
+			x: -4.0d
+			y: 0.0d
+			subtitle: " 月亮与地球越是接近，海浪越是生生不息"
+			description: [
+				"时光轮转里，月亮牵动着地球的潮汐。"
+				"当一轮血月高悬时，身居黑暗中的怪物们将会汹涌而出，大举进攻地上世界；汗流浃背，蜷缩在庇护所中的你辗转反侧，难以入睡。"
+				"当月亮转变为蓝色时，植物会响应呼唤，结出更多果实。"
+			]
+			id: "04CA821981E74E22"
+			tasks: [{
+				id: "735BCA498576B256"
+				type: "checkmark"
+				title: "月相"
+			}]
+			rewards: [{
+				id: "15462A79835BFB64"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3342768205198891787L
+			}]
+		}
+		{
+			icon: "spectrum:preservation_bricks"
+			x: 3.0d
+			y: -2.0d
+			description: ["这些要塞都归属于spectrum（光谱世界）mod，需要流程解锁到一定程度才可以进入，我将在【任务】→【魔法世界】→【光谱世界】中详细介绍。"]
+			hide: true
+			id: "012C3E515A961B12"
+			tasks: [{
+				id: "667CE4BBD511426F"
+				type: "checkmark"
+				title: "关于地下的不可破坏的要塞"
+			}]
+			rewards: [{
+				id: "4CAE2E833FF64781"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3342768205198891787L
+			}]
+		}
+		{
+			icon: "collectorsalbum:mythical_diamond_sword_card"
+			x: 3.0d
+			y: 1.0d
+			shape: "circle"
+			description: ["小伙子，伤害太低了，都不能破甲，怪物挨了你的刀子都觉得暖洋洋的很舒服回血去了。"]
+			hide: true
+			id: "420291E053B0605A"
+			tasks: [{
+				id: "67F9B97EFB647B0C"
+				type: "checkmark"
+				title: "为什么打怪不掉血反而加血？"
+			}]
+			rewards: [{
+				id: "557DF3DE45D9E604"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3342768205198891787L
+			}]
+		}
+		{
+			title: "关于鞘翅飞行"
+			icon: {
+				id: "minecraft:elytra"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.0d
+			y: 0.0d
+			subtitle: "更加灵活的飞行"
+			description: ["w加速s减速ad控制左右角度,按l键切换模式"]
+			id: "535EB46F420D82A7"
+			tasks: [{
+				id: "1BDF7C966D2FC94F"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "如果你在这里没有找到你想要的答案"
+			icon: "botania:cosmetic_questgiver_mark"
+			x: 4.0d
+			y: 3.0d
+			subtitle: "可以再去看一遍基础教程"
+			id: "06799909DDB0627E"
+			tasks: [{
+				id: "2AAA8A112A05CA88"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "虚空之影不刷新了怎么办?"
+			icon: "adventurez:source_stone"
+			x: 0.0d
+			y: 4.5d
+			description: ["游戏目录\\saves\\存档名字\\dimensions文件夹中删除voidz文件"]
+			id: "7E8B4BF9F76E1B28"
+			tasks: [{
+				id: "2B7962D3F2EB15C9"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "缩放与翻滚"
+			icon: "minecraft:spyglass"
+			x: -4.0d
+			y: 1.0d
+			description: [
+				"你可以按“C”键来进行聚焦/缩放，然后使用鼠标滚轮调整缩放倍率。"
+				"你可以按“F”键来进行翻滚；在盔甲上附魔“杂技”可以减少翻滚的冷却时间，附魔“连续翻滚”来增加可翻滚的次数。（物品栏左侧蓝色箭头为可翻滚次数和冷却时间的指示器）"
+			]
+			hide: true
+			id: "13D1BF445D68D360"
+			tasks: [{
+				id: "2011864B5D851460"
+				type: "checkmark"
+				title: "选择"
+			}]
+			rewards: [{
+				id: "42107809D713DDD3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3342768205198891787L
+			}]
+		}
+		{
+			icon: "ftbquests:book"
+			x: 0.0d
+			y: 3.0d
+			shape: "hexagon"
+			description: [
+				"仔细看任务的描述！！！（一百遍啊一百遍）"
+				"我认为有必要的基本都写在任务里了，让我发现谁因为没仔细看任务在群里东问西问，指定没你好果汁吃。"
+				"================================================"
+				"“写在双引号里的内容大多为我夹杂私货，乐。”"
+			]
+			hide: true
+			id: "541BE10E4EB093FB"
+			tasks: [{
+				id: "40BF5CD1F7364137"
+				type: "checkmark"
+				title: "关于任务"
+			}]
+			rewards: [{
+				id: "4CC6109BDECEC1B6"
+				type: "item"
+				item: {
+					id: "croptopia:apple_juice"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"好果汁\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "关于【任务】→【奇怪成就】"
+			icon: "minecraft:written_book"
+			x: -4.0d
+			y: 2.0d
+			description: ["有些成就在解锁前处于隐藏状态，想要解锁他们需要完成大章任务，如主世界和地狱。"]
+			hide: true
+			id: "22046D0A7BEF99E6"
+			tasks: [{
+				id: "20C67BC212EB10D7"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2D7D89990FEB3C7F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3342768205198891787L
+			}]
+		}
+		{
+			title: "护甲幻化"
+			icon: {
+				id: "minecraft:chainmail_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 4.0d
+			y: 2.0d
+			description: [
+				"觉得身上的盔甲太丑，想要露出自己精心挑选的皮肤，你可以通过幻化台来对你的盔甲和武器进行幻化或隐藏。"
+				"详细操作方法请查看【实用工具】→【装备幻化】。"
+			]
+			hide: true
+			id: "231C1342CDEA404F"
+			tasks: [{
+				id: "07C82E24A1C72BA5"
+				type: "checkmark"
+				title: "护甲幻化"
+			}]
+			rewards: [{
+				id: "2CA4D81836E34971"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3342768205198891787L
+			}]
+		}
+		{
+			title: "物品词条和品质"
+			x: 4.0d
+			y: 1.0d
+			subtitle: "词条和品质"
+			description: [
+				"在游戏中，你会发现一些装备上带有诸如“暴击”、“吸血”、“火焰伤害”等彩色词条，我将其称之为装备的【天赋】。"
+				"除此之外，装备本身还具备一定的“品质”，如“破烂”，“普通”，“神话”等。"
+				"这些我将会在【任务】→【强化自己】→【炼器宗师】中详细讲解。"
+			]
+			hide: true
+			id: "6FAEAFEF3FB78EB9"
+			tasks: [{
+				id: "630659F64B16C081"
+				type: "checkmark"
+				title: "词条强化"
+				icon: "minecraft:netherite_ingot"
+			}]
+			rewards: [{
+				id: "4F42B3DC8598DE0A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3342768205198891787L
+			}]
+		}
+		{
+			icon: {
+				id: "spectrum:bedrock_chestplate"
+				Count: 1b
+				tag: {
+					Enchantments: [{
+						lvl: 5s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+			x: 4.0d
+			y: 0.0d
+			description: ["本包为相当多盔甲套装添加了套装效果，比如力量等，按“Shift”+“Ctrl”键即可查看。"]
+			hide: true
+			id: "221364DFA4B00CB4"
+			tasks: [{
+				id: "61D073ADBDCDD0A5"
+				type: "checkmark"
+				title: "盔甲套装效果"
+			}]
+			rewards: [{
+				id: "1DF6D14B39C0DA96"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3342768205198891787L
+			}]
+		}
+		{
+			title: "MC百科"
+			icon: "minecraft:bookshelf"
+			x: -3.0d
+			y: -2.0d
+			subtitle: "www.mcmod.cn"
+			description: [
+				"最大的mc中文mod百科！www.mcmod.cn"
+				"百科中收录了很多mod的中文介绍资料，分类科学，内容详实，是每一个中文区mc玩家必备的学习和游玩mod的网站。"
+				"遇到问题你会想到去查一查的，不是吗？"
+			]
+			dependencies: ["367FF564102E04AF"]
+			id: "47835F8BE4D980F2"
+			tasks: [{
+				id: "5603CA70D5EC4A4C"
+				type: "checkmark"
+				title: "已阅"
+			}]
+			rewards: [{
+				id: "3061CC383297241B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3342768205198891787L
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:diamond_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.0d
+			y: -1.0d
+			description: [
+				"整合包里加入了bettercombat（更好的战斗）mod，会影响包括但不限于剑、斧等武器的攻击动作，按切换键可以选择是否用武器采集资源。"
+				"（在R键菜单可以切换关闭或开启，也可以改键）"
+				"================================================"
+				"“很像史诗战斗，不是吗？”"
+			]
+			hide: true
+			id: "30E8DFD6F61E1EA8"
+			tasks: [{
+				id: "0784A263F5858C6A"
+				type: "checkmark"
+				title: "战斗动作与采矿"
+			}]
+			rewards: [{
+				id: "6410259BD258FF3C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3342768205198891787L
+			}]
+		}
+		{
+			title: "关于光影"
+			icon: "minecraft:light"
+			x: 3.0d
+			y: 2.0d
+			description: [
+				"整合包自带光影，且自带汉化。"
+				""
+				"现在你可以使用绝大部分的光影了，不过某些光影需要关闭某些设置才能正常渲染（比如iterationT 3.0.0光影需要关闭泛光才能正常渲染）。"
+				""
+				"推荐使用光影："
+				"[低配]Sildur's Vibrant Shaders"
+				"[中配]ComplementaryShaders或ComplementaryReimagined"
+				"[高配]iterationT 3.0.0、SEUS PTGI 系列光影"
+			]
+			hide: true
+			min_width: 250
+			id: "2DA18F5ADA2A59B7"
+			tasks: [{
+				id: "43D727D7C70F6436"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "4582A5245FA94541"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 3342768205198891787L
+				}
+				{
+					id: "0E1165579B3F7ECC"
+					type: "command"
+					title: "不会使用Iris或Oculus来使用光影？ 点我！"
+					icon: "botania:cosmetic_questgiver_mark"
+					team_reward: false
+					command: "/tellraw @p [{\"text\":\"点我打开如何使用Iris使用光影\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.bilibili.com/video/BV1om4y1v7HT/\"}}] "
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: "botania:red_string"
+			x: 4.0d
+			y: -1.0d
+			description: [
+				"问：我该怎么联机？"
+				"答：自己去b站找教程视频。"
+				""
+				"问：我\\我朋友进去世界怎么掉虚空啊。"
+				"答：房主降低视距，然后再进，进去之后再调整视距。"
+				""
+				"问：为啥我离线账号的朋友进不去。"
+				"答：没在开启局域网设置里关闭在线模式。"
+			]
+			hide: true
+			id: "4D4EC7DD9D79FFDD"
+			tasks: [{
+				id: "4A77434C48A2A464"
+				type: "checkmark"
+				title: "联机问题"
+			}]
+			rewards: [{
+				id: "68809B6042094C14"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3342768205198891787L
+			}]
+		}
+		{
+			title: "关于更真实的第一人称"
+			icon: {
+				id: "adventurez:prime_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.0d
+			y: 2.0d
+			shape: "hexagon"
+			subtitle: "攻速快了会晕"
+			description: [
+				"按下F6启用,你觉得晕了可以按照以下设置"
+				"{image:kubejs:textures/ftbq/1.png width:168 height:96 align:1}"
+				"{image:kubejs:textures/ftbq/2.png width:160 height:70 align:1}"
+				"{image:kubejs:textures/ftbq/3.png width:162 height:71 align:1}"
+			]
+			hide: true
+			id: "6F102163B599B6DE"
+			tasks: [{
+				id: "2E8F462EFC2F9B40"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "296262729E9E4F93"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3342768205198891787L
+			}]
+		}
+		{
+			icon: {
+				id: "charm:atlas"
+				Count: 1b
+				tag: {
+					id: [I;
+						336214034
+						-1063892664
+						-2121773584
+						1226968338
+					]
+				}
+			}
+			x: -4.0d
+			y: -1.0d
+			subtitle: "防炸小帮手"
+			description: ["打开物品栏，左上角【FTB地图】，再左上角【认领区块】，在此页面中左键点击区块即可认领区块，认领过的区块会有防爆功能，且其他玩家无法打开任何容器：在已认领的区块上shift左键可以强制加载区块。 "]
+			hide: true
+			id: "27080451D91F0503"
+			tasks: [{
+				id: "6F77DF28EC9F6EC6"
+				type: "checkmark"
+				title: "领取区块"
+			}]
+			rewards: [{
+				id: "2E2DE11DCC8715E3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3342768205198891787L
+			}]
+		}
+		{
+			title: "右上角通知很多怎么办"
+			icon: "botania:cosmetic_questgiver_mark"
+			x: 3.0d
+			y: -1.0d
+			subtitle: "按i键可以一键清空右上角讯息(包括光谱)"
+			hide: true
+			id: "378B865097AEEA7E"
+			tasks: [{
+				id: "2E8733D2CA205C80"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "20CD0CD52F350CF1"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3342768205198891787L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

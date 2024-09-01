@@ -1,0 +1,31 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "item": "minecraft:obsidian",
+     "count": 10
+    },
+    {
+      "item": "minecraft:netherite_ingot",
+      "count": 2
+    },
+    {
+      "item": "mythicmetals:metallurgium_ingot",
+     "count": 1
+    },
+    {
+      "item": "gobber2:gobber2_ingot_nether",
+      "count": 4
+    },
+    {
+      "item": "minecraft:diamond",
+     "count": 20
+    }
+  ],
+  "output": {
+    "id": "mcdw:sickle_soul_scythe",
+      "count": 1
+  },
+  "min_forge_tier": 3,
+  "fuel_per_tick": 800
+}

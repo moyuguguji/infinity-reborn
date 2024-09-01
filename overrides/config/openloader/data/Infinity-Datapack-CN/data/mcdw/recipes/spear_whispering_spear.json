@@ -1,0 +1,35 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "item": "minecraft:obsidian",
+     "count": 5
+    },
+    {
+      "item": "mythicmetals:mythril_ingot",
+      "count": 2
+    },
+    {
+      "item": "gobber2:gobber2_ingot",
+     "count": 2
+    },
+    {
+      "item": "mcda:upgrade_core_depth",
+      "count": 1
+    },
+    {
+      "item": "twilightforest:knightmetal_ingot",
+     "count": 4
+    },
+    {
+      "item": "twilightforest:knightmetal_sword",
+      "count": 1
+    }
+  ],
+  "output": {
+    "id": "mcdw:spear_whispering_spear",
+      "count": 1
+  },
+  "min_forge_tier": 2,
+  "fuel_per_tick": 400
+}

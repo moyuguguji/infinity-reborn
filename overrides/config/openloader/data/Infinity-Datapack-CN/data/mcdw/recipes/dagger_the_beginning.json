@@ -1,0 +1,31 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "item": "mcdw:dagger_void_touched_blade",
+     "count": 1
+    },
+    {
+      "item": "mythicmetals:celestium_ingot",
+      "count": 1
+    },
+    {
+      "item": "dragonloot:dragon_scale",
+     "count": 2
+    },
+    {
+      "item": "gobber2:gobber2_ingot_end",
+      "count": 5
+    },
+    {
+      "item": "minecraft:nether_star",
+     "count": 2
+    }
+  ],
+  "output": {
+    "id": "mcdw:dagger_the_beginning",
+      "count": 1
+  },
+  "min_forge_tier": 4,
+  "fuel_per_tick": 1200
+}

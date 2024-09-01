@@ -1,0 +1,99 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_axe",
+      "nbt": "{CustomModelData:15002}"
+    },
+    "title": "重拾过往",
+    "description": "制造每种古代工具与武器",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/structures/olympus/reforging_the_artifact",
+  "criteria": {
+    "ancient sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_sword"
+            ],
+            "nbt": "{dnl.ancient_sword:1b}"
+          }
+        ]
+      }
+    },
+    "ancient axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_axe"
+            ],
+            "nbt": "{dnl.ancient_axe:1b}"
+          }
+        ]
+      }
+    },
+    "ancient bow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bow"
+            ],
+            "nbt": "{dnl.ancient_bow:1b}"
+          }
+        ]
+      }
+    },
+    "ancient pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:shield"
+            ],
+            "nbt": "{dnl.ancient_shield:1b}"
+          }
+        ]
+      }
+    },
+    "ancient shield": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_pickaxe"
+            ],
+            "nbt": "{dnl.ancient_pickaxe:1b}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ancient shield"
+    ],
+    [
+      "ancient axe"
+    ],
+    [
+      "ancient bow"
+    ],
+    [
+      "ancient pickaxe"
+    ],
+    [
+      "ancient sword"
+    ]
+  ]
+}

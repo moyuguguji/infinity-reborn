@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:red_mushroom_block"
+    },
+    "title": "死徒之藏身所",
+    "description": "发现一间神秘实验室",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/themes/illager/locate",
+  "criteria": {
+    "locate_cleric_hideout": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "dnl:cleric_hideout"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "locate_cleric_hideout"
+    ]
+  ]
+}

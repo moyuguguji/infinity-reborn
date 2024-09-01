@@ -1,0 +1,36 @@
+{
+    "id": "tiered:rare_fishing",
+    "verifiers": [
+        {
+            "id": "minecraft:fishing_rod"
+        }
+    ],
+    "weight": 150,
+    "style": {
+        "color": "blue"
+    },
+    "attributes": [
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:rare_fishing",
+                "operation": "ADDITION",
+                "amount": 150
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "generic.luck",
+            "modifier": {
+                "name": "tiered:rare_fishing",
+                "operation": "ADDITION",
+                "amount": 1.0
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

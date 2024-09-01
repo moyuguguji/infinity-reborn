@@ -1,0 +1,47 @@
+{
+  "type": "spectrum:enchanter",
+  "time": 300,
+  "required_experience": 100,
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "spectrum:cyan_pigment"
+    },
+    {
+      "item": "spectrum:cyan_pigment"
+    },
+    {
+      "item": "spectrum:paletur_gem"
+    },
+    {
+      "item": "spectrum:mermaids_gem"
+    },
+    {
+      "item": "spectrum:cyan_pigment"
+    },
+    {
+      "item": "spectrum:cyan_pigment"
+    },
+    {
+      "item": "spectrum:paletur_gem"
+    },
+    {
+      "item": "spectrum:mermaids_gem"
+    }
+  ],
+  "result": {
+    "item": "minecraft:enchanted_book",
+    "nbt": "{StoredEnchantments: [{id: \"spectrum:resonance\", lvl: 1s}]}"
+  },
+  "required_advancement": "spectrum:progression/enchantments/resonance",
+  "fabric:load_conditions": [
+    {
+      "condition": "spectrum:enchantments_exist",
+      "values": [
+        "spectrum:resonance"
+      ]
+    }
+  ]
+}

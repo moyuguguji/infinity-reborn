@@ -1,0 +1,42 @@
+{
+    "id": "tiered:legendary_melee",
+    "verifiers": [
+        {
+            "tag": "tier:3weapon"
+        },
+        {
+            "tag": "tier:4weapon"
+        },
+        {
+            "tag": "tier:5weapon"
+        }
+    ],
+    "weight": 35,
+    "style": {
+        "color": "gold"
+    },
+    "attributes": [
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:legendary_melee",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.35
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "minecraft:generic.attack_damage",
+            "modifier": {
+                "name": "tiered:legendary_melee",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.15
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

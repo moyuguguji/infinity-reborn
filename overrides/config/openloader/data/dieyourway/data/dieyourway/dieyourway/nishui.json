@@ -1,0 +1,19 @@
+{
+    "damage_condition": {
+        "type": "dieyourway:name",
+        "name": "drown"
+    },
+    "messages": [
+        "[\"\",%1$s,{\"text\":\" 忘了呼吸\",\"bold\":true,\"color\":\"dark_red\"}]",
+        "[\"\",%1$s,{\"text\":\" 发现了亚特兰蒂斯\",\"bold\":true,\"color\":\"dark_red\"}]",
+        "[\"\",%1$s,{\"text\":\" 试图喝光一整个湖的水\",\"bold\":true,\"color\":\"dark_red\"}]",
+        "[\"\",%1$s,{\"text\":\" 夺得了憋气大赛的冠军\",\"bold\":true,\"color\":\"dark_red\"}]",
+        "[\"\",%1$s,{\"text\":\" 水性很好\",\"bold\":true,\"color\":\"dark_red\"}]",
+        "[\"\",%1$s,{\"text\":\" }可以让一条鲨鱼吃三天\",\"bold\":true,\"color\":\"dark_red\"}]"
+    ],
+    "arguments": [
+        {
+            "type": "dieyourway:dead_entity"
+        }
+    ]
+}

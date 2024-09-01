@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:savanna",
+        "#dnl:terralith/is_savanna"
+    ]
+}

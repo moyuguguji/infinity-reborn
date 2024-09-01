@@ -1,0 +1,36 @@
+{
+    "display": {
+        "title": {
+            "text": "刺骨寒光"
+        },
+        "description": {
+            "text": "击败冷血神箭手"
+        },
+        "icon": {
+          "item": "minecraft:tipped_arrow",
+          "nbt": "{Potion:\"minecraft:slowness\"}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "dnl:story/structures/watcher_camp/locate",
+    "criteria": {
+        "kill frost watcher": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:stray",
+                    "nbt": "{Tags:[\"frost_watcher\"]}",
+                    "distance": {
+                        "absolute": {
+                            "min": 0,
+                            "max": 64
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

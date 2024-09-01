@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{dnl.forbidden_melon_slice:1b}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dnl:items/forbidden_fruits/list/melon_slice"
+  }
+}

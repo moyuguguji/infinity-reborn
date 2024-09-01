@@ -1,0 +1,325 @@
+{
+	id: "04020613388D3EDC"
+	group: "5D8C97B73DA1279B"
+	order_index: 2
+	filename: "04020613388D3EDC"
+	title: "隐藏成就"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.5d
+			y: -1.0d
+			invisible: true
+			id: "2EB7A057A605386C"
+			tasks: [{
+				id: "134E627330A99FC3"
+				type: "item"
+				item: "kubejs:tu_kuai"
+			}]
+			rewards: [{
+				id: "635ABFB31801A542"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5136761027295037695L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			invisible: true
+			id: "4947B1FFC7E9F43E"
+			tasks: [{
+				id: "1173E8564072A1C1"
+				type: "item"
+				item: "kubejs:shi_kuai"
+			}]
+			rewards: [{
+				id: "4B117F0E1B452DDE"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5136761027295037695L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			invisible: true
+			id: "1A1A11980FE6BC25"
+			tasks: [{
+				id: "26424F281A5FF580"
+				type: "item"
+				item: "kubejs:shi_shen_kuai"
+			}]
+			rewards: [{
+				id: "0C5CAF3D92E0E143"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5136761027295037695L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			invisible: true
+			id: "081444D65C467388"
+			tasks: [{
+				id: "6D1485C359B081DC"
+				type: "item"
+				item: "kubejs:xiajie_kuai"
+			}]
+			rewards: [{
+				id: "55FB7C169EB5E64E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5136761027295037695L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			invisible: true
+			id: "2FA067ED6590CE71"
+			tasks: [{
+				id: "587AF51DA9D8D5BE"
+				type: "item"
+				item: "kubejs:modi_kuai"
+			}]
+			rewards: [{
+				id: "4EC9A973F3A442C5"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5136761027295037695L
+			}]
+		}
+		{
+			title: "摸摸小猫"
+			x: -1.0d
+			y: -2.5d
+			subtitle: "猫猫可爱捏"
+			optional: true
+			invisible: true
+			id: "16CCC47CD878429D"
+			tasks: [{
+				id: "55F1FB70564DE6C5"
+				type: "questsadditions:interaction"
+				title: "摸10次猫"
+				entity: "minecraft:cat"
+				nbt: { }
+				value: 10L
+				checkItem: false
+			}]
+			rewards: [
+				{
+					id: "49BEF69091805451"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+				{
+					id: "73059239C1673387"
+					type: "item"
+					item: "artifacts:kitty_slippers"
+				}
+			]
+		}
+		{
+			title: "把怪物们送上天"
+			x: 2.0d
+			y: -2.5d
+			subtitle: "就跟打棒球一样"
+			secret: true
+			id: "698ED742033CF3FD"
+			tasks: [{
+				id: "7DC49265AF7870F0"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 40s
+							id: "elementalenchantments:earth_aspect"
+						}]
+					}
+				}
+			}]
+			rewards: [{
+				id: "4EFFA18EFDBFC841"
+				type: "item"
+				item: {
+					id: "minecraft:stick"
+					Count: 1b
+					tag: {
+						HideFlags: 1
+						Enchantments: [
+							{
+								lvl: 40
+								id: "elementalenchantments:earth_aspect"
+							}
+							{
+								lvl: 20
+								id: "elementalenchantments:wind_curse"
+							}
+						]
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"我 要 飞\"}],\"text\":\"\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			invisible: true
+			id: "3C4E08EC6694E507"
+			tasks: [{
+				id: "0E3E1CD430E1FCBC"
+				type: "item"
+				item: "kubejs:yuan_mu"
+			}]
+			rewards: [{
+				id: "06EEF7186AC835ED"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5136761027295037695L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -4.0d
+			dependencies: ["3C4E08EC6694E507"]
+			id: "22B6F7C2D8BD57AA"
+			tasks: [{
+				id: "372FDB41654459AC"
+				type: "item"
+				item: "kubejs:mu_ban"
+			}]
+			rewards: [{
+				id: "62F1471917900A90"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5136761027295037695L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			dependencies: ["22B6F7C2D8BD57AA"]
+			id: "3A3CAF636B9CDBC3"
+			tasks: [{
+				id: "259CBCAF79AC5FB5"
+				type: "item"
+				item: {
+					id: "kubejs:yuan_mu_jian_one"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4E491BC7034CE8D7"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5136761027295037695L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.0d
+			dependencies: ["3A3CAF636B9CDBC3"]
+			id: "30FD89984A1E117F"
+			tasks: [{
+				id: "3BC960E5365B0EC5"
+				type: "item"
+				item: {
+					id: "kubejs:yuan_mu_jian_seven"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			subtitle: "木剑传说!"
+			dependencies: ["30FD89984A1E117F"]
+			id: "2C56FBA862475235"
+			tasks: [{
+				id: "187769D36474A55F"
+				type: "item"
+				item: {
+					id: "kubejs:yuan_mu_jian"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5C1AFE07F34509FF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5136761027295037695L
+			}]
+		}
+		{
+			title: "知识学爆"
+			x: -4.0d
+			y: -2.5d
+			invisible: true
+			id: "4DC84D45AC2E252A"
+			tasks: [{
+				id: "3680E106AE8D001A"
+				type: "item"
+				item: {
+					id: "spectrum:knowledge_gem"
+					Count: 1b
+					tag: {
+						stored_experience: 1000000000
+						Enchantments: [
+							{
+								lvl: 5s
+								id: "minecraft:efficiency"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:quick_charge"
+							}
+						]
+					}
+				}
+				consume_items: false
+			}]
+			rewards: [{
+				id: "09C78D865D7B69C4"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5136761027295037695L
+			}]
+		}
+		{
+			title: "我草,我飞起来啦"
+			x: -4.0d
+			y: -1.0d
+			invisible: true
+			id: "41FB3806FAA76823"
+			tasks: [{
+				id: "202D4996ECF774C6"
+				type: "item"
+				item: "spectrum:freigeist"
+			}]
+			rewards: [{
+				id: "1FE9E418B8040D7D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5136761027295037695L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

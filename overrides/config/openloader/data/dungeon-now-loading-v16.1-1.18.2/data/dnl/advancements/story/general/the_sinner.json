@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:apple"
+    },
+    "title": "负罪之人",
+    "description": "吃下任意禁果，沦为一名罪人",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/general/new_start",
+  "criteria": {
+    "locate watcher camp": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{dnl.forbidden_fruit:1b}"
+        }
+      }
+    }
+  }
+}

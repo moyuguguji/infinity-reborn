@@ -1,0 +1,51 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "dnl:structures/plains_castle/materials/common"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "quality": 10,
+                    "name": "dnl:structures/plains_castle/sword/rare"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "quality": 10,
+                    "name": "dnl:structures/plains_castle/bow/rare"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "quality": 10,
+                    "name": "dnl:structures/plains_castle/armor/rare"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "dnl:items/nobility_i",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

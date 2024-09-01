@@ -1,0 +1,53 @@
+{
+    "id": "tiered:rare_ranged",
+    "verifiers": [
+        {
+            "tag": "tier:1ranged"
+        },
+        {
+            "tag": "tier:2ranged"
+        },
+        {
+            "tag": "tier:3ranged"
+        }
+    ],
+    "weight": 160,
+    "style": {
+        "color": "blue"
+    },
+    "attributes": [
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:rare_ranged",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.2
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "tiered:generic.range_attack_damage",
+            "modifier": {
+                "name": "tiered:rare_ranged",
+                "operation": "ADDITION",
+                "amount": 1.5
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "minecraft:generic.movement_speed",
+            "modifier": {
+                "name": "tiered:rare_ranged",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.05
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

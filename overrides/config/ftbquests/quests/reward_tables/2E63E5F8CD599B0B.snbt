@@ -1,0 +1,47 @@
+{
+	id: "2E63E5F8CD599B0B"
+	order_index: 1
+	title: "新手奖励"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{ item: "croptopia:the_big_breakfast", random_bonus: 12, weight: 5 }
+		{ item: "minecraft:golden_apple", weight: 5 }
+		{ item: "minecraft:oak_log", random_bonus: 16, weight: 50 }
+		{ item: "minecraft:torch", random_bonus: 64, weight: 50 }
+		{ item: "croptopia:fried_chicken", random_bonus: 5, weight: 55 }
+		{
+			item: {
+				id: "kibe:white_glider"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			only_one: true
+			weight: 10
+		}
+		{
+			item: {
+				id: "piercingpaxels:iron_paxel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			only_one: true
+			weight: 20
+		}
+		{
+			item: {
+				id: "cloudboots:cloud_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			only_one: true
+			weight: 5
+		}
+	]
+}

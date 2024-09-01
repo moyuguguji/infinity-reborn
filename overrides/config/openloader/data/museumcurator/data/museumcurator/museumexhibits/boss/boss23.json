@@ -1,0 +1,21 @@
+{
+    "collection": "museumcurator.boss",
+    "name": "museumcurator.boss.stone_golem",
+    "relativeTo": "museumcurator.boss.ender_dragon",
+    "placement": "after",
+    "items": [
+        "adventurez:stone_golem_heart",
+        "minecraft:ancient_debris",
+        "adventurez:gilded_netherite_fragment",
+        "minecraft:netherite_scrap",
+        "minecraft:blackstone",
+        "mythicmetals:star_platinum",
+        "mythicmetals:hallowed_ingot",
+        "gobber2:gobber2_ingot",
+        "mythicmetals:metallurgium_ingot",
+        "mythicmetals:banglum_chunk",
+        "mythicmetals:unobtainium",
+        "gobber2:gobber2_ingot_nether",
+        "mythicmetals:stormyx_shell"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "damage_condition": {
+        "type": "dieyourway:name",
+        "name": "bleed"
+    },
+    "messages": [
+        "[\"\",%1$s,{\"text\":\" 被放干了血\",\"bold\":true,\"color\":\"dark_red\"}]",
+        "[\"\",%1$s,{\"text\":\" 被迫自愿献血了\",\"bold\":true,\"color\":\"dark_red\"}]",
+        "[\"\",%1$s,{\"text\":\" 重伤不治\",\"bold\":true,\"color\":\"dark_red\"}]",
+        "[\"\",%1$s,{\"text\":\" 流血致死\",\"bold\":true,\"color\":\"dark_red\"}]"
+    ],
+    "arguments": [
+        {
+            "type": "dieyourway:dead_entity"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"史莱姆抛竿\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"史莱姆咒印\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"发射任意种类的黏液球\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"效果随\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"黏液球的种类而变化\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"\"}','{\"text\":\"副手物品消耗:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"1 黏液球\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:14001,dnl.item:1b,dnl.slime_rod:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

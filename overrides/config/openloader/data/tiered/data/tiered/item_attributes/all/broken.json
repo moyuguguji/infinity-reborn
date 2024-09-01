@@ -1,0 +1,50 @@
+{
+  "id": "tiered:broken",
+  "verifiers": [
+    {
+      "tag": "tier:1armor"
+    },
+    {
+      "tag": "tier:1weapon"
+    },
+    {
+      "tag": "tier:1ranged"
+    },
+    {
+      "tag": "c:shovels"
+    },
+    {
+      "tag": "c:pickaxes"
+    },
+    {
+      "tag": "c:hoes"
+    },
+    {
+      "tag": "c:axes"
+    },
+    {
+      "tag": "tiered:multi_tool"
+    }
+  ],
+  "weight": 100,
+  "style": {
+    "color": "dark_gray"
+  },
+  "attributes": [
+    {
+       "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:broken",
+                "operation": "MULTIPLY_BASE",
+                "amount": -0.1
+      },
+      "optional_equipment_slots": [
+        "MAINHAND",
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    }
+  ]
+}

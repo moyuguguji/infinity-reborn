@@ -1,0 +1,21 @@
+{
+  "block.usrg.cobblegenerator": "\u5706\u77F3\u4EA7\u751F\u5668",
+  "block.usrg.claygenerator": "\u9ECF\u571F\u4EA7\u751F\u5668",
+  "block.usrg.dirtgenerator": "\u6CE5\u571F\u4EA7\u751F\u5668",
+  "block.usrg.endgenerator": "\u672B\u5730\u77F3\u4EA7\u751F\u5668",
+  "block.usrg.fungusgenerator": "\u83CC\u4E1D\u4EA7\u751F\u5668",
+  "block.usrg.glowstonegenerator": "\u8367\u77F3\u4EA7\u751F\u5668",
+  "block.usrg.grassgenerator": "\u8349\u4EA7\u751F\u5668",
+  "block.usrg.gravelgenerator": "\u6C99\u783E\u4EA7\u751F\u5668",
+  "block.usrg.icegenerator": "\u51B0\u4EA7\u751F\u5668",
+  "block.usrg.nethergenerator": "\u4E0B\u754C\u5CA9\u4EA7\u751F\u5668",
+  "block.usrg.obsidiangenerator": "\u9ED1\u66DC\u77F3\u4EA7\u751F\u5668",
+  "block.usrg.quartzgenerator": "\u77F3\u82F1\u4EA7\u751F\u5668",
+  "block.usrg.redstonegenerator": "\u7EA2\u77F3\u4EA7\u751F\u5668",
+  "block.usrg.sandgenerator": "\u6C99\u5B50\u4EA7\u751F\u5668",
+  "block.usrg.snowgenerator": "\u96EA\u4EA7\u751F\u5668",
+  "block.usrg.soulgenerator": "\u7075\u9B42\u6C99\u4EA7\u751F\u5668",
+  "block.usrg.oregenerator": "\u77FF\u77F3\u4EA7\u751F\u5668",
+  "_comment": "\u521B\u9020\u6A21\u5F0F\u6807\u7B7E\u9875",
+  "itemGroup.usrg": "\u8D85\u7EA7\u7A7A\u5C9B\u8D44\u6E90\u4EA7\u751F\u5668"
+}

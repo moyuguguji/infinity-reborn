@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:bastion_remnant",
+    "biomes": "#dnl:crawlers_lair",
+    "adapt_noise": false,
+    "spawn_overrides": {},
+    "config": {
+        "start_pool": "dnl:structures/crawlers_lair/start",
+        "size": 7
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "击败夜巫妖！"},
+        "description": {"text": "高塔矗立在寒冷群系之中，夜巫妖在其上俯瞰着冰雪大地。可以使用灵魂之星定位高塔。"},
+
+        "icon": {"item": "bosses_of_mass_destruction:ancient_anima"},
+        "frame": "challenge",
+
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "night_lich_boss": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+        "entity": {
+        "type": "bosses_of_mass_destruction:lich"
+          }
+        } }
+    },
+ 
+    "rewards": {
+        "experience": 500,
+		"function": "darkbosses:boss_defeated"
+    },
+    "parent": "darkbosses:info_bomd_bosses"
+}

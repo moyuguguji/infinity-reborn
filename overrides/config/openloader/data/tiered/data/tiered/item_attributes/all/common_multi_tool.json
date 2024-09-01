@@ -1,0 +1,25 @@
+{
+    "id": "tiered:common_multi_tool",
+    "verifiers": [
+        {
+            "tag": "tiered:multi_tool"
+        }
+    ],
+    "weight": 300,
+    "style": {
+        "color": "gray"
+    },
+    "attributes": [
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:common_multi_tool",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.1
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+  "collection": "museumcurator.collection.gemology",
+  "name": "museumcurator.gemology.redstone",
+  "items": [
+    "minecraft:redstone_ore",
+    "minecraft:deepslate_redstone_ore",
+    "minecraft:redstone",
+    "minecraft:redstone_block"
+  ]
+}

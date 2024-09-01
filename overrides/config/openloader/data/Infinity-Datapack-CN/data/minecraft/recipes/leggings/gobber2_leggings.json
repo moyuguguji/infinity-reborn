@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+      "item": "minecraft:diamond_leggings"
+    },
+    "addition": {
+      "item": "gobber2:gobber2_ingot"
+    },
+    "result": {
+      "item": "gobber2:gobber2_leggings"
+    }
+  }

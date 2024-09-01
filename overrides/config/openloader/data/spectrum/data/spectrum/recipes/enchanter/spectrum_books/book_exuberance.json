@@ -1,0 +1,47 @@
+{
+  "type": "spectrum:enchanter",
+  "time": 300,
+  "required_experience": 100,
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "spectrum:purple_pigment"
+    },
+    {
+      "item": "spectrum:purple_pigment"
+    },
+    {
+      "item": "minecraft:experience_bottle"
+    },
+    {
+      "item": "spectrum:refined_azurite"
+    },
+    {
+      "item": "spectrum:purple_pigment"
+    },
+    {
+      "item": "spectrum:purple_pigment"
+    },
+    {
+      "item": "minecraft:experience_bottle"
+    },
+    {
+      "item": "spectrum:refined_azurite"
+    }
+  ],
+  "result": {
+    "item": "minecraft:enchanted_book",
+    "nbt": "{StoredEnchantments: [{id: \"spectrum:exuberance\", lvl: 1s}]}"
+  },
+  "required_advancement": "spectrum:progression/enchantments/exuberance",
+  "fabric:load_conditions": [
+    {
+      "condition": "spectrum:enchantments_exist",
+      "values": [
+        "spectrum:exuberance"
+      ]
+    }
+  ]
+}

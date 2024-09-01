@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "terralith:bryce_canyon",
+            "required": false
+        },
+        {
+            "id": "terralith:warped_mesa",
+            "required": false
+        },
+        {
+            "id": "terralith:white_mesa",
+            "required": false
+        }
+    ]
+}

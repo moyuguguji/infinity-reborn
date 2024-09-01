@@ -1,0 +1,8 @@
+execute unless entity @s[nbt={HandItems:[{Count:1b}]}] run tag @s add dnl.summon_ghost
+
+scoreboard players add @s[tag=dnl.summon_ghost] dnl.variable 1
+execute at @s[tag=dnl.summon_ghost] run particle minecraft:ash ~ ~2.5 ~ 0.5 0.5 0.5 16 10
+execute at @s[tag=dnl.summon_ghost,scores={dnl.variable=100}] run particle minecraft:flash ~ ~2.5 ~ 0.5 0.5 0.5 16 10
+execute at @s[tag=dnl.summon_ghost,scores={dnl.variable=100}] run playsound entity.enderman.teleport ambient @a[distance=..16] ~ ~ ~ 1.0 2 1
+execute at @s[tag=dnl.summon_ghost,scores={dnl.variable=100}] run summon skeleton ~ ~1 ~ {Silent:1b,Glowing:1b,DeathLootTable:"dnl:structures/hunters_grave/mobs/hunters_ghost",PersistenceRequired:1b,Health:200f,Rotation:[-90F,30F],Tags:["dnl.hunters_ghost","dnl.hunters"],Passengers:[{id:"minecraft:area_effect_cloud",CustomNameVisible:1b,Duration:2147483647,Tags:["dnl.hunter_name"],CustomName:'{"text":"Hunter\'s Ghost","color":"red","bold":true,"italic":false}'}],HandItems:[{id:"minecraft:stone_sword",Count:1b,tag:{display:{Name:'{"text":"Hunter\'s Knife","color":"gold","italic":false}'},Enchantments:[{id:"minecraft:sharpness",lvl:3s},{id:"minecraft:knockback",lvl:2s}]}},{}],HandDropChances:[0.000F,0.085F],ArmorItems:[{},{id:"minecraft:leather_leggings",Count:1b,tag:{Unbreakable:1b,Enchantments:[{}]}},{},{id:"minecraft:leather_helmet",Count:1b,tag:{Unbreakable:1b,Enchantments:[{}]}}],ArmorDropChances:[0.085F,0.000F,0.085F,0.000F],ActiveEffects:[{Id:14b,Amplifier:0b,Duration:32766}],Attributes:[{Name:generic.max_health,Base:200},{Name:generic.follow_range,Base:64}]}
+kill @s[tag=dnl.summon_ghost,scores={dnl.variable=100}]

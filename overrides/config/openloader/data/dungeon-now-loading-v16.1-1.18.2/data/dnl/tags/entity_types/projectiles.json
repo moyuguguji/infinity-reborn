@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:arrow",
+        "minecraft:snowball",
+        "minecraft:egg",
+        "minecraft:trident",
+        "minecraft:ender_pearl",
+        "minecraft:firework_rocket"
+    ]
+}

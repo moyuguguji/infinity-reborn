@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "mcdw:axe_double"
+  },
+  "addition": {
+    "item": "mcda:upgrade_core_depth"
+  },
+  "result": {
+    "item": "mcdw:axe_whirlwind"
+  }
+}

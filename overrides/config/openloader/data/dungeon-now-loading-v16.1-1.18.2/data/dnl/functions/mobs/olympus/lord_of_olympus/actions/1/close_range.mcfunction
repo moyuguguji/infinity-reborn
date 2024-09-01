@@ -1,0 +1,8 @@
+scoreboard players set in math 1
+scoreboard players set in1 math 6
+function rng:range_lcg
+
+execute if score out math matches 1..4 run function dnl:mobs/olympus/lord_of_olympus/weapon/sword
+execute if score out math matches 5..6 run function dnl:mobs/olympus/lord_of_olympus/weapon/bow
+
+scoreboard players reset @s dnl.timer

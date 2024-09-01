@@ -1,0 +1,36 @@
+{
+    "id": "tiered:uncommon_shield",
+    "verifiers": [
+        {
+            "tag": "c:shields"
+        }
+    ],
+    "weight": 350,
+    "style": {
+        "color": "dark_green"
+    },
+    "attributes": [
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:uncommon_shield",
+                "operation": "ADDITION",
+                "amount": 120
+            },
+            "optional_equipment_slots": [
+                "OFFHAND"
+            ]
+        },
+        {
+            "type": "mythicmetals:magic_protection",
+            "modifier": {
+                "name": "tiered:uncommon_shield",
+                "operation": "ADDITION",
+                "amount": 1.5
+            },
+            "optional_equipment_slots": [
+                "OFFHAND"
+            ]
+        }
+    ]
+}

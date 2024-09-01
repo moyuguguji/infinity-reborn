@@ -1,0 +1,1285 @@
+{
+	id: "1D7B20530FC2F4D8"
+	group: "2918506B9F30927F"
+	order_index: 1
+	filename: "1D7B20530FC2F4D8"
+	title: "护甲展示"
+	icon: {
+		id: "gobber2:gobber2_chestplate_dragon"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	subtitle: ["保护自己的核心装备"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "botania:cosmetic_questgiver_mark"
+			disable_toast: true
+			x: 0.0d
+			y: -5.0d
+			description: ["这里只是提供一种发展的思路，并非强制要求如此进行，这是一场自由的旅行，勇敢的追，不是吗？"]
+			id: "57CF4142F2A4B21D"
+			tasks: [{
+				id: "3C5DB2A2E4E53B8C"
+				type: "checkmark"
+				title: "注意"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -7.0d
+			dependencies: ["57CF4142F2A4B21D"]
+			id: "12FB9B6F8A051E54"
+			tasks: [{
+				id: "5A5D376A518349D7"
+				type: "item"
+				item: {
+					id: "minecraft:iron_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -7.0d
+			dependencies: ["57CF4142F2A4B21D"]
+			id: "47B423D5CB2F2CC4"
+			tasks: [{
+				id: "47B77895A3E27BDF"
+				type: "item"
+				item: {
+					id: "emerald_tools:amethyst_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4B7B9BA6519E53B0"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -7.0d
+			dependencies: ["57CF4142F2A4B21D"]
+			id: "74AF819796323889"
+			tasks: [{
+				id: "6076CB7C1475C2A2"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1FCE92A703DB1215"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.0d
+			dependencies: ["57CF4142F2A4B21D"]
+			id: "02BCF8628A332868"
+			tasks: [{
+				id: "1ED9F67FAE0093A3"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "55B3D7083E0BB8CC"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -7.0d
+			dependencies: ["57CF4142F2A4B21D"]
+			id: "2DB591B96B46FBE4"
+			tasks: [{
+				id: "2073BFBE75EBBD38"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_chestplate_nether"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0AE7B02CCB2BF3DB"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -7.0d
+			dependencies: ["57CF4142F2A4B21D"]
+			id: "61BC1772293176B8"
+			tasks: [{
+				id: "767A3F163BFB9521"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_chestplate_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "317630AFD5727BFD"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -7.0d
+			dependencies: ["57CF4142F2A4B21D"]
+			id: "580C162CEE5ED99C"
+			tasks: [{
+				id: "5FDF219B5BAD4A0C"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_chestplate_dragon"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "09D0AB6B8ECCD680"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5136761027295037695L
+			}]
+		}
+		{
+			icon: "mcda:gourdian_armor_helmet"
+			disable_toast: true
+			x: 0.0d
+			y: -1.5d
+			subtitle: "关联的套装均为无法破坏"
+			description: [
+				"本整合包添加了mc地下城mod。"
+				"地下城是mojang开发的一款我的世界背景的动作冒险游戏，更多信息可以百度查询。"
+				"该mod的衣服和武器都有一段小小的描述，遗憾的是，这些描述仅在mc地下城中发挥作用，所以请不要问我穿了XXX套装怎么没有效果，因为确实没有。"
+				"================================================"
+				"“嘿，mojang，你打算什么时候复活Reuben”"
+			]
+			id: "4414FF368FEE1026"
+			tasks: [{
+				id: "5A8940A099180C73"
+				type: "checkmark"
+				title: "关于地下城的装备"
+			}]
+		}
+		{
+			title: "镶金荣光套装"
+			icon: "mcda:gilded_glory_helmet"
+			x: -1.0d
+			y: -0.5d
+			subtitle: "战士高阶套装1"
+			description: ["在你面对死亡时可能有意想不到的好运帮助你"]
+			dependencies: ["4414FF368FEE1026"]
+			id: "2BB3BA3E3B7555A2"
+			tasks: [
+				{
+					id: "37901DD1D6925C20"
+					type: "item"
+					item: "mcda:gilded_glory_helmet"
+				}
+				{
+					id: "42937668DF618296"
+					type: "item"
+					item: "mcda:gilded_glory_chestplate"
+				}
+				{
+					id: "0EFA955302358222"
+					type: "item"
+					item: "mcda:gilded_glory_leggings"
+				}
+				{
+					id: "1870F5CBA273382F"
+					type: "item"
+					item: "mcda:gilded_glory_boots"
+				}
+			]
+			rewards: [{
+				id: "054C5B55895A4A4E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			title: "英雄套装"
+			icon: "mcda:heros_armor_helmet"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "战士传说套装"
+			description: [
+				"村庄英雄（冤大头）的证明。"
+				"拥有不错的防御属性，如果能弄到的话，绝对是很强的装备。"
+			]
+			dependencies: ["4414FF368FEE1026"]
+			id: "5EBDA5ED9BE0209C"
+			tasks: [
+				{
+					id: "60CDB5820F734820"
+					type: "item"
+					item: "mcda:heros_armor_helmet"
+				}
+				{
+					id: "7CFF1588F1FF7DCF"
+					type: "item"
+					item: "mcda:heros_armor_chestplate"
+				}
+				{
+					id: "421914C415B8C096"
+					type: "item"
+					item: "mcda:heros_armor_leggings"
+				}
+				{
+					id: "01245D570BDE8395"
+					type: "item"
+					item: "mcda:heros_armor_boots"
+				}
+			]
+			rewards: [{
+				id: "73A00D2001B2679B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -7.0d
+			dependencies: ["57CF4142F2A4B21D"]
+			id: "5C0643FB931CF32A"
+			tasks: [{
+				id: "09183A92BD404AFE"
+				type: "item"
+				item: {
+					id: "dragonloot:dragon_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "58F29707655018F3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			title: "幽魂套装"
+			icon: "mcda:gourdian_armor_helmet"
+			x: 0.0d
+			y: -2.5d
+			subtitle: "游侠传奇套装"
+			description: ["综合防御与远程伤害的套装，近战伤害加成也不低。游侠首选。"]
+			dependencies: ["4414FF368FEE1026"]
+			id: "1A1D11047F9AAAC8"
+			tasks: [
+				{
+					id: "68453AFB808DD00B"
+					type: "item"
+					item: {
+						id: "mcda:gourdian_armor_helmet"
+						Count: 1b
+						tag: {
+							saa1: { }
+						}
+					}
+				}
+				{
+					id: "77AB696DBB53ED72"
+					type: "item"
+					item: {
+						id: "mcda:gourdian_armor_chestplate"
+						Count: 1b
+						tag: {
+							saa1: { }
+						}
+					}
+				}
+				{
+					id: "459EACC475886662"
+					type: "item"
+					item: {
+						id: "mcda:gourdian_armor_leggings"
+						Count: 1b
+						tag: {
+							saa1: { }
+						}
+					}
+				}
+				{
+					id: "471CD72BDC538ADC"
+					type: "item"
+					item: {
+						id: "mcda:gourdian_armor_boots"
+						Count: 1b
+						tag: {
+							saa1: { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5D6B450CD0D78B9B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5136761027295037695L
+			}]
+		}
+		{
+			title: "泰坦套装"
+			icon: "mcda:titans_shroud_helmet"
+			x: 1.0d
+			y: -0.5d
+			subtitle: "战士高阶套装2"
+			description: ["可以让被你攻击的敌人深陷泥潭"]
+			dependencies: ["4414FF368FEE1026"]
+			id: "67634E2235C94F22"
+			tasks: [
+				{
+					id: "55C6DA4FB0D9971A"
+					type: "item"
+					item: {
+						id: "mcda:titans_shroud_helmet"
+						Count: 1b
+						tag: {
+							saa1: { }
+						}
+					}
+				}
+				{
+					id: "1861248CEBDC6C1A"
+					type: "item"
+					item: {
+						id: "mcda:titans_shroud_chestplate"
+						Count: 1b
+						tag: {
+							saa1: { }
+						}
+					}
+				}
+				{
+					id: "6C2DE9D46F3087EE"
+					type: "item"
+					item: {
+						id: "mcda:titans_shroud_leggings"
+						Count: 1b
+						tag: {
+							saa1: { }
+						}
+					}
+				}
+				{
+					id: "2E105C3A1009B745"
+					type: "item"
+					item: {
+						id: "mcda:titans_shroud_boots"
+						Count: 1b
+						tag: {
+							saa1: { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1EE1342770A9421F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			title: "潜影套装"
+			icon: "mcda:sturdy_shulker_armor_helmet"
+			x: 0.0d
+			y: 1.0d
+			subtitle: "战士传奇套装"
+			description: [
+				"潜影壳般的不动如山，和笨重。"
+				"你将不惧潜影壳的特殊力量，同时你获得了发射潜影弹的能力"
+				"作为一个战士，如果可以获得这套装备，输出和防御都是极其夸张的。"
+			]
+			dependencies: ["4414FF368FEE1026"]
+			id: "0D5F5CA4A14C07BB"
+			tasks: [
+				{
+					id: "19DF69C20E4E443D"
+					type: "item"
+					item: {
+						id: "mcda:sturdy_shulker_armor_helmet"
+						Count: 1b
+						tag: {
+							saa1: { }
+						}
+					}
+				}
+				{
+					id: "22522897BDBC8400"
+					type: "item"
+					item: {
+						id: "mcda:sturdy_shulker_armor_chestplate"
+						Count: 1b
+						tag: {
+							saa1: { }
+						}
+					}
+				}
+				{
+					id: "1C3A000786A89294"
+					type: "item"
+					item: {
+						id: "mcda:sturdy_shulker_armor_leggings"
+						Count: 1b
+						tag: {
+							saa1: { }
+						}
+					}
+				}
+				{
+					id: "51AAC426852B676B"
+					type: "item"
+					item: {
+						id: "mcda:sturdy_shulker_armor_boots"
+						Count: 1b
+						tag: {
+							saa1: { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7CBA2F8897CE5C0B"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5136761027295037695L
+			}]
+		}
+		{
+			title: "暴戾之锋锐"
+			icon: {
+				id: "mcda:white_mystery_armor_helmet"
+				Count: 1b
+				tag: {
+					saa1: { }
+				}
+			}
+			x: -2.0d
+			y: -3.0d
+			subtitle: "其徐如林"
+			description: [
+				"锋锐之加护。"
+				"护甲可获白色未知套装效果。"
+				"更偏向伤害。"
+			]
+			dependencies: ["4414FF368FEE1026"]
+			id: "5F29E996DE713D39"
+			tasks: [
+				{
+					id: "307CCF163C7DEDCB"
+					type: "item"
+					item: "mcda:white_mystery_armor_helmet"
+				}
+				{
+					id: "3F567642A3566504"
+					type: "item"
+					item: "mcda:white_mystery_armor_chestplate"
+				}
+				{
+					id: "0684AF36DA132788"
+					type: "item"
+					item: "mcda:white_mystery_armor_leggings"
+				}
+				{
+					id: "73D3C1CC72D1FDA3"
+					type: "item"
+					item: "mcda:white_mystery_armor_boots"
+				}
+			]
+			rewards: [{
+				id: "02D6CC907180E8AD"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			title: "暴戾之迅猛"
+			icon: {
+				id: "mcda:red_mystery_armor_helmet"
+				Count: 1b
+				tag: {
+					saa1: { }
+				}
+			}
+			x: -1.0d
+			y: -3.5d
+			subtitle: "侵略如火"
+			description: [
+				"迅猛之加护。"
+				"护甲可获红色未知套装效果。"
+				"更偏向攻速。"
+			]
+			dependencies: ["4414FF368FEE1026"]
+			id: "0007D7CFE6FBA264"
+			tasks: [
+				{
+					id: "3979F18964044ED3"
+					type: "item"
+					item: "mcda:red_mystery_armor_helmet"
+				}
+				{
+					id: "6FC27E39AC7C7D4D"
+					type: "item"
+					item: "mcda:red_mystery_armor_chestplate"
+				}
+				{
+					id: "537361877ECDFA04"
+					type: "item"
+					item: "mcda:red_mystery_armor_leggings"
+				}
+				{
+					id: "3CA086551647F09C"
+					type: "item"
+					item: "mcda:red_mystery_armor_boots"
+				}
+			]
+			rewards: [{
+				id: "0CE1E38C50EF8D75"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			title: "均衡之全能"
+			icon: {
+				id: "mcda:purple_mystery_armor_helmet"
+				Count: 1b
+				tag: {
+					saa1: { }
+				}
+			}
+			x: 0.0d
+			y: -3.5d
+			subtitle: "中庸之道"
+			description: [
+				"全能之加护。"
+				"护甲可获紫色未知套装效果。"
+				"全能型加成。"
+			]
+			dependencies: ["4414FF368FEE1026"]
+			id: "77F546172D38C442"
+			tasks: [
+				{
+					id: "45850CB7DD5EBEEE"
+					type: "item"
+					item: "mcda:purple_mystery_armor_helmet"
+				}
+				{
+					id: "1AEF054D31D98D62"
+					type: "item"
+					item: "mcda:purple_mystery_armor_chestplate"
+				}
+				{
+					id: "7CE64A5E1C9AAE18"
+					type: "item"
+					item: "mcda:purple_mystery_armor_leggings"
+				}
+				{
+					id: "7072BDC02D0472FC"
+					type: "item"
+					item: "mcda:purple_mystery_armor_boots"
+				}
+			]
+			rewards: [
+				{
+					id: "618F2A8D3B38DAFF"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "6A69A7D27538395F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+			]
+		}
+		{
+			title: "御守之稳重"
+			icon: {
+				id: "mcda:green_mystery_armor_helmet"
+				Count: 1b
+				tag: {
+					saa1: { }
+				}
+			}
+			x: 2.0d
+			y: -3.0d
+			subtitle: "不动如山"
+			description: [
+				"稳重之加护。"
+				"护甲可获绿色未知套装效果。"
+				"更偏向防护。"
+			]
+			dependencies: ["4414FF368FEE1026"]
+			id: "3618F3541A5E3D40"
+			tasks: [
+				{
+					id: "40C91ED73FF0E4B8"
+					type: "item"
+					item: "mcda:green_mystery_armor_helmet"
+				}
+				{
+					id: "16E5AF1EDF9C8550"
+					type: "item"
+					item: "mcda:green_mystery_armor_chestplate"
+				}
+				{
+					id: "7C08F7347004EC0B"
+					type: "item"
+					item: "mcda:green_mystery_armor_leggings"
+				}
+				{
+					id: "4F4ADEE71D2F7758"
+					type: "item"
+					item: "mcda:green_mystery_armor_boots"
+				}
+			]
+			rewards: [{
+				id: "049E7DF475D786FA"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			title: "御守之矫健"
+			icon: {
+				id: "mcda:blue_mystery_armor_helmet"
+				Count: 1b
+				tag: {
+					saa1: { }
+				}
+			}
+			x: 1.0d
+			y: -3.5d
+			subtitle: "其疾如风"
+			description: [
+				"矫健之加护。"
+				"护甲可获蓝色未知套装效果。"
+				"更偏向移速。"
+			]
+			dependencies: ["4414FF368FEE1026"]
+			id: "3DB820D7D6E9286A"
+			tasks: [
+				{
+					id: "0B85F1B5D74E8126"
+					type: "item"
+					item: "mcda:blue_mystery_armor_helmet"
+				}
+				{
+					id: "491F4F153A2F8D0F"
+					type: "item"
+					item: "mcda:blue_mystery_armor_chestplate"
+				}
+				{
+					id: "2732DD5BCF9FAAC1"
+					type: "item"
+					item: "mcda:blue_mystery_armor_leggings"
+				}
+				{
+					id: "72FC00079E8060C2"
+					type: "item"
+					item: "mcda:blue_mystery_armor_boots"
+				}
+			]
+			rewards: [{
+				id: "47F092A290221BE2"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -7.0d
+			dependencies: ["57CF4142F2A4B21D"]
+			id: "0A831647692D834C"
+			tasks: [{
+				id: "432128712231791D"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "590B65D15123CA30"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -6.5d
+			y: -4.5d
+			dependencies: ["64AE73FA898EE57E"]
+			id: "178B0722C1C4A9D0"
+			tasks: [{
+				id: "3806CC0E2F36DD66"
+				type: "item"
+				item: {
+					id: "twilightforest:fiery_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "这些装备都得到了增强"
+			icon: "botania:cosmetic_questgiver_mark"
+			x: -4.5d
+			y: -3.5d
+			description: ["因为其阶段流程的原因，他们都得到了增强。"]
+			id: "64AE73FA898EE57E"
+			tasks: [{
+				id: "4865A310ABBC5DF7"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -5.5d
+			dependencies: ["64AE73FA898EE57E"]
+			id: "4606C6CFF5659C88"
+			tasks: [{
+				id: "1C012E3DABA9B7D7"
+				type: "item"
+				item: {
+					id: "twilightforest:knightmetal_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: -2.5d
+			description: ["你需要自己设置按键激活这套护甲的特殊力量。"]
+			dependencies: ["64AE73FA898EE57E"]
+			id: "1CE682C34E406F7A"
+			tasks: [{
+				id: "0169E128F968AC48"
+				type: "item"
+				item: {
+					id: "adventurez:stone_golem_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: -3.5d
+			dependencies: ["64AE73FA898EE57E"]
+			id: "61F2A702A9E1F2BC"
+			tasks: [
+				{
+					id: "59D351B0EB8942D3"
+					type: "item"
+					item: {
+						id: "additionaladditions:gilded_netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "34FE6A68AFB99792"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			dependencies: ["64AE73FA898EE57E"]
+			id: "32D2111B1F195CEB"
+			tasks: [{
+				id: "63BEC730173EE3C5"
+				type: "item"
+				item: {
+					id: "mythicmetals:stormyx_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: -3.5d
+			dependencies: ["64AE73FA898EE57E"]
+			id: "2DD4AB92BEEB5FF9"
+			tasks: [{
+				id: "0A9D583EA6F2D95C"
+				type: "item"
+				item: {
+					id: "mythicmetals:metallurgium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.0d
+			dependencies: ["64AE73FA898EE57E"]
+			id: "7568A16E57EC6857"
+			tasks: [{
+				id: "11CACA22DEDA5E54"
+				type: "item"
+				item: {
+					id: "mythicmetals:palladium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -5.0d
+			dependencies: ["64AE73FA898EE57E"]
+			id: "7DF5B5D43C589DD9"
+			tasks: [{
+				id: "04F62DAF7432E72A"
+				type: "item"
+				item: {
+					id: "twilightforest:phantom_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "混沌套装"
+			x: -5.5d
+			y: -3.5d
+			dependencies: ["64AE73FA898EE57E"]
+			id: "427D07D33FBD52DD"
+			tasks: [
+				{
+					id: "5132C289E5017B53"
+					type: "item"
+					item: {
+						id: "soulsweapons:chaos_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1C94762B6D3B961A"
+					type: "item"
+					item: {
+						id: "soulsweapons:arkenplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "游侠传说"
+			icon: "mcda:shadow_walker_armor_helmet"
+			x: -1.0d
+			y: -1.5d
+			subtitle: "射手高阶套装1"
+			description: [
+				"很廉价的套装，自带无限耐久。"
+				"暗影行者，全套免疫摔落，并且连续奔跑提速。"
+				"功能性较多的射手套装，套装有不错的远程伤害加成。"
+			]
+			dependencies: ["4414FF368FEE1026"]
+			id: "1C1E7914AD7A8AD8"
+			tasks: [
+				{
+					id: "763F2A78A9972441"
+					type: "item"
+					item: {
+						id: "mcda:shadow_walker_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5BB9F18845C45B47"
+					type: "item"
+					item: {
+						id: "mcda:shadow_walker_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "02C43FFB54DED1BD"
+					type: "item"
+					item: {
+						id: "mcda:shadow_walker_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "17B7CF7B9AF2653E"
+					type: "item"
+					item: {
+						id: "mcda:shadow_walker_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "26F6A5ADF0D2B585"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			title: "孤狼传说"
+			icon: "mcda:black_wolf_armor_helmet"
+			x: 2.0d
+			y: -1.5d
+			subtitle: "射手传说套装2"
+			description: [
+				"属于弓箭手套装分支的套装，可观的加伤。"
+				"不过没法和弓箭手套装的增幅相比。"
+			]
+			dependencies: ["4414FF368FEE1026"]
+			id: "1B301C738E8E8618"
+			tasks: [
+				{
+					id: "45FFDDB860C49E42"
+					type: "item"
+					item: {
+						id: "mcda:black_wolf_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "206EB0357C5C2F85"
+					type: "item"
+					item: {
+						id: "mcda:black_wolf_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6F21C4C27E6DF893"
+					type: "item"
+					item: {
+						id: "mcda:black_wolf_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "20AF05575EA73346"
+					type: "item"
+					item: {
+						id: "mcda:black_wolf_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5F30A3A9E84FA602"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5136761027295037695L
+			}]
+		}
+		{
+			title: "雪影传说"
+			icon: "mcda:arctic_fox_armor_helmet"
+			x: -2.0d
+			y: -1.5d
+			subtitle: "射手传说套装1"
+			description: ["更偏向功能性的射手传说套装。伤害稍微高点。"]
+			dependencies: ["4414FF368FEE1026"]
+			id: "6B6A4620782656FB"
+			tasks: [
+				{
+					id: "081D3FA7F0079D15"
+					type: "item"
+					item: {
+						id: "mcda:arctic_fox_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0402C511E4999FBB"
+					type: "item"
+					item: {
+						id: "mcda:arctic_fox_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3A1188F34AD31BF1"
+					type: "item"
+					item: {
+						id: "mcda:arctic_fox_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6BBDA4CE3CE4AEFF"
+					type: "item"
+					item: {
+						id: "mcda:arctic_fox_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4EA9734E9F430110"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5136761027295037695L
+			}]
+		}
+		{
+			icon: "mcda:archers_helmet"
+			x: 1.0d
+			y: -1.5d
+			subtitle: "射手高阶套装2"
+			description: [
+				"很廉价的套装，自带无限耐久。"
+				"恐怖的套装加伤，如果只需要远程伤害的话，这套衣服甚至超过他的上位。"
+			]
+			dependencies: ["4414FF368FEE1026"]
+			id: "472E4139FF1AEF87"
+			tasks: [
+				{
+					id: "40702130A492F0A8"
+					type: "item"
+					item: "mcda:archers_helmet"
+				}
+				{
+					id: "0AFD67042F96D072"
+					type: "item"
+					item: "mcda:archers_chestplate"
+				}
+				{
+					id: "4700855005CB5B79"
+					type: "item"
+					item: "mcda:archers_leggings"
+				}
+				{
+					id: "7D3D34CC04D7EA5E"
+					type: "item"
+					item: "mcda:archers_boots"
+				}
+			]
+			rewards: [{
+				id: "3D8DA68A4A8896F3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			title: "下界合金与戈伯合为一体"
+			x: 1.0d
+			y: -4.5d
+			subtitle: "不朽之物"
+			dependencies: ["57CF4142F2A4B21D"]
+			id: "631591D71932983E"
+			tasks: [{
+				id: "17395A56A80E19FB"
+				type: "item"
+				item: "immersive_armors:steampunk_chestplate"
+			}]
+		}
+		{
+			title: "众神予你祝福"
+			x: -1.0d
+			y: -4.5d
+			subtitle: "不朽之物"
+			dependencies: ["57CF4142F2A4B21D"]
+			id: "1FD0E4BB57175369"
+			tasks: [{
+				id: "7EA19F56F5864652"
+				type: "item"
+				item: {
+					id: "immersive_armors:divine_chestplate"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "河豚是如何拥抱的？"
+			x: 0.0d
+			y: -6.0d
+			dependencies: ["57CF4142F2A4B21D"]
+			id: "240043EDEB9346E5"
+			tasks: [{
+				id: "6A6B9FFD7A76AEFD"
+				type: "item"
+				item: {
+					id: "immersive_armors:prismarine_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "不免疫万箭齐发，但也差不多"
+			x: 1.0d
+			y: -5.5d
+			dependencies: ["57CF4142F2A4B21D"]
+			id: "4622057CEF0EFAB9"
+			tasks: [{
+				id: "4C319AD801F883BB"
+				type: "item"
+				item: {
+					id: "immersive_armors:wooden_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "力不竭，战不止！"
+			x: -1.0d
+			y: -5.5d
+			description: [
+				"================================================"
+				"“披发亢歌！至死不休！”"
+			]
+			dependencies: ["57CF4142F2A4B21D"]
+			id: "61948977F276F966"
+			tasks: [{
+				id: "1AD891FA7A3EFE0E"
+				type: "item"
+				item: {
+					id: "immersive_armors:warrior_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

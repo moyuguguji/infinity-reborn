@@ -1,0 +1,28 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:barrier",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dnl.boss_death:1b,dnl.the_king:1b}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "dnl:items/the_king_trophy"
+                }
+            ]
+        }
+    ]
+}

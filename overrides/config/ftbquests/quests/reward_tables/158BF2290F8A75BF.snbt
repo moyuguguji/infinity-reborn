@@ -1,0 +1,45 @@
+{
+	id: "158BF2290F8A75BF"
+	order_index: 5
+	title: "奇异饰品"
+	loot_size: 1
+	rewards: [
+		{ item: "artifacts:umbrella", weight: 10 }
+		{ item: "artifacts:everlasting_beef", weight: 10 }
+		{ item: "artifacts:eternal_steak", weight: 10 }
+		{ item: "artifacts:plastic_drinking_hat", weight: 10 }
+		{ item: "artifacts:novelty_drinking_hat", weight: 10 }
+		{ item: "artifacts:snorkel", weight: 10 }
+		{ item: "artifacts:night_vision_goggles", weight: 10 }
+		{ item: "artifacts:villager_hat", weight: 10 }
+		{ item: "artifacts:superstitious_hat", weight: 10 }
+		{ item: "artifacts:lucky_scarf", weight: 10 }
+		{ item: "artifacts:scarf_of_invisibility", weight: 10 }
+		{ item: "artifacts:cross_necklace", weight: 10 }
+		{ item: "artifacts:panic_necklace", weight: 10 }
+		{ item: "artifacts:shock_pendant", weight: 10 }
+		{ item: "artifacts:flame_pendant", weight: 10 }
+		{ item: "artifacts:thorn_pendant", weight: 10 }
+		{ item: "artifacts:charm_of_sinking", weight: 10 }
+		{ item: "artifacts:cloud_in_a_bottle", weight: 10 }
+		{ item: "artifacts:obsidian_skull", weight: 10 }
+		{ item: "artifacts:antidote_vessel", weight: 10 }
+		{ item: "artifacts:universal_attractor", weight: 10 }
+		{ item: "artifacts:crystal_heart", weight: 10 }
+		{ item: "artifacts:helium_flamingo", weight: 10 }
+		{ item: "artifacts:digging_claws", weight: 10 }
+		{ item: "artifacts:feral_claws" }
+		{ item: "artifacts:power_glove", weight: 10 }
+		{ item: "artifacts:fire_gauntlet", weight: 10 }
+		{ item: "artifacts:pocket_piston", weight: 10 }
+		{ item: "artifacts:vampiric_glove", weight: 10 }
+		{ item: "artifacts:golden_hook", weight: 10 }
+		{ item: "artifacts:aqua_dashers", weight: 10 }
+		{ item: "artifacts:bunny_hoppers", weight: 10 }
+		{ item: "artifacts:kitty_slippers", weight: 10 }
+		{ item: "artifacts:running_shoes", weight: 10 }
+		{ item: "artifacts:steadfast_spikes", weight: 10 }
+		{ item: "artifacts:flippers", weight: 10 }
+		{ item: "artifacts:whoopee_cushion", weight: 10 }
+	]
+}

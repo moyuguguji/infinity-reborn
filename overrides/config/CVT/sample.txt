@@ -1,0 +1,27 @@
+[
+  {
+    "villager": {
+      "profession": "farmer",
+      "level": 1,
+      "max_count": 3,
+      "max_discount": 0.5,
+      "xp": 5
+    },
+    "item": {
+      "require": [
+        {
+          "name": "minecraft:diamond_block",
+          "count": 64
+        },
+        {
+          "name": "minecraft:diamond",
+          "count": 64
+        }
+      ],
+      "result": {
+        "name": "minecraft:wheat",
+        "count": 1
+      }
+    }
+  }
+]

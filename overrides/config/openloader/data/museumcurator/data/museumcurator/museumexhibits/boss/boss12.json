@@ -1,0 +1,14 @@
+{
+    "collection": "museumcurator.boss",
+    "name": "museumcurator.boss.snow_queen",
+    "relativeTo": "museumcurator.boss.hydra",
+    "placement": "after",
+    "items": [
+        "twilightforest:snow_queen_trophy",
+        "twilightforest:triple_bow",
+        "twilightforest:seeker_bow",
+        "heartytrinkets:orange_heart",
+        "minecraft:snowball",
+        "minecraft:packed_ice"
+    ]
+}

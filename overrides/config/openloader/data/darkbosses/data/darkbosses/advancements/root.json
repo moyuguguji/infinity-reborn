@@ -1,0 +1,31 @@
+{
+    "__comment": "DarkQuesting Quests",
+    "display": {
+        "title": {
+            "text": "DarkBosses",
+            "color": "gold"
+        },
+        "description": {
+            "text": "击败boss！每个boss都将会掉落经验和物品。"
+        },
+        "icon": {
+            "item": "minecraft:dragon_head"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+    },
+    "criteria": {
+        "darkbosses_info_extras": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:air"
+            }
+        }
+    },
+    "rewards": {
+        "experience" : 0
+    }
+}

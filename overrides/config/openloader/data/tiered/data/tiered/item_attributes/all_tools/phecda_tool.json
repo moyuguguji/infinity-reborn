@@ -1,0 +1,56 @@
+{
+    "id": "tiered:phecda_tool",
+    "verifiers": [
+        {
+            "tag": "c:axes"
+        },
+        {
+            "tag": "c:pickaxes"
+        },
+        {
+            "tag": "c:shovels"
+        },
+        {
+            "tag": "c:hoes"
+        }
+    ],
+    "weight": 10,
+    "style": {
+        "color": "light_purple"
+    },
+    "attributes": [
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:phecda_tool",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 1.5
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "tiered:generic.dig_speed",
+            "modifier": {
+                "name": "tiered:phecda_tool",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.8
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "reach-entity-attributes:reach",
+            "modifier": {
+                "name": "tiered:phecda_tool",
+                "operation": "ADDITION",
+                "amount": 3
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "item.treeaxe.wooden_treeaxe": "木伐木斧",
+  "item.treeaxe.copper_treeaxe": "铜伐木斧",
+  "item.treeaxe.iron_treeaxe": "铁伐木斧",
+  "item.treeaxe.gold_treeaxe": "金伐木斧",
+  "item.treeaxe.emerald_treeaxe": "绿宝石伐木斧",
+  "item.treeaxe.amethyst_treeaxe": "紫水晶伐木斧",
+  "item.treeaxe.diamond_treeaxe": "钻石伐木斧",
+  "item.treeaxe.netherite_treeaxe": "下界合金伐木斧",
+  "item.treeaxe.treeaxe.desc": "能够砍倒整棵树"
+}

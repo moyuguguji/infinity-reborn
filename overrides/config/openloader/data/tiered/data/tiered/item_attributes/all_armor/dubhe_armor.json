@@ -1,0 +1,58 @@
+{
+    "id": "tiered:dubhe_armor",
+    "verifiers": [
+        {
+            "tag": "tier:5leggings"
+        }
+    ],
+    "weight": 1,
+    "style": {
+        "color": "light_purple"
+    },
+    "attributes": [
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:dubhe_armor",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 1.5
+            },
+            "optional_equipment_slots": [
+                "LEGS"
+            ]
+        },
+        {
+            "type": "minecraft:generic.armor",
+            "modifier": {
+                "name": "tiered:dubhe_armor",
+                "operation": "MULTIPLY_BASE",
+                "amount": 0.3
+            },
+            "optional_equipment_slots": [
+                "LEGS"
+            ]
+        },
+        {
+            "type": "minecraft:generic.attack_damage",
+            "modifier": {
+                "name": "tiered:dubhe_armor",
+                "operation": "ADDITION",
+                "amount": 10
+            },
+            "optional_equipment_slots": [
+                "LEGS"
+            ]
+        },
+        {
+            "type": "combatroll:recharge",
+            "modifier": {
+                "name": "tiered:dubhe_armor",
+                "operation": "ADDITION",
+                "amount": 40.0
+            },
+            "optional_equipment_slots": [
+                "LEGS"
+            ]
+        }
+    ]
+}

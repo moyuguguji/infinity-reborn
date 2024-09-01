@@ -1,0 +1,60 @@
+{
+  "name": "dnl:structures/olympus/trial/long_halls",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "dnl:olympus/trial/long_halls/walls",
+        "processors": "dnl:structures/olympus/path_age"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "dnl:olympus/trial/long_halls/plain_3",
+        "processors": "dnl:structures/olympus/path_age"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "dnl:olympus/trial/long_halls/plain_2",
+        "processors": "dnl:structures/olympus/path_age"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "dnl:olympus/trial/long_halls/plain_1",
+        "processors": "dnl:structures/olympus/path_age"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "dnl:olympus/trial/long_halls/lava_2",
+        "processors": "dnl:structures/olympus/path_age"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "dnl:olympus/trial/long_halls/lava_1",
+        "processors": "dnl:structures/olympus/path_age"
+      }
+    }
+  ]
+}

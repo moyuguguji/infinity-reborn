@@ -1,0 +1,629 @@
+{
+	id: "47F81EE1C9EE8615"
+	group: "5D8C97B73DA1279B"
+	order_index: 1
+	filename: "47F81EE1C9EE8615"
+	title: "奇异商店"
+	disable_toast: true
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "购买奇异饰品"
+			icon: "artifacts:feral_claws"
+			disable_toast: true
+			x: -2.0d
+			y: 0.0d
+			shape: "square"
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			size: 2.0d
+			optional: true
+			can_repeat: true
+			id: "542F1F70D5491B84"
+			tasks: [{
+				id: "12FECA4B9117CCDC"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "numismatic-overhaul:gold_coin"
+					Count: 1b
+					tag: { }
+				}
+				count: 15L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "03ED532CBE07D26B"
+				type: "random"
+				team_reward: false
+				table_id: 1552600754727581119L
+			}]
+		}
+		{
+			title: "购买飞升之戒"
+			icon: "ringsofascension:ring_flight"
+			disable_toast: true
+			x: 0.5d
+			y: 0.0d
+			shape: "square"
+			subtitle: "这里没有飞行戒指"
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			size: 2.0d
+			optional: true
+			can_repeat: true
+			id: "311E19EE7CA783E0"
+			tasks: [{
+				id: "39BABAB7A7C2D1E6"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "numismatic-overhaul:gold_coin"
+					Count: 1b
+					tag: { }
+				}
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6984778085A59601"
+				type: "random"
+				team_reward: false
+				table_id: 5206663203530399561L
+			}]
+		}
+		{
+			title: "卡片回收"
+			x: -4.5d
+			y: 0.0d
+			shape: "square"
+			subtitle: "回收多余的卡片"
+			description: ["一次完成多个并不会增加奖励量"]
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			size: 2.0d
+			optional: true
+			can_repeat: true
+			min_required_tasks: 1
+			id: "33931CD7D03D8872"
+			tasks: [
+				{
+					id: "1A7689D2D983BE10"
+					type: "item"
+					title: "常见"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "collectorsalbum:cards_common"
+						}
+					}
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "5772EED8C14E81F7"
+					type: "item"
+					title: "非凡"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "collectorsalbum:cards_uncommon"
+						}
+					}
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "69673D2377AE9874"
+					type: "item"
+					title: "稀有"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "collectorsalbum:cards_rare"
+						}
+					}
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "2412333F703B43F5"
+					type: "item"
+					title: "史诗"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "collectorsalbum:cards_epic"
+						}
+					}
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "78328ADF184D589F"
+					type: "item"
+					title: "传说"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "collectorsalbum:cards_legendary"
+						}
+					}
+					count: 8L
+					consume_items: true
+				}
+				{
+					id: "142CA44ED27EFBBA"
+					type: "item"
+					title: "神话"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "collectorsalbum:cards_mythical"
+						}
+					}
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "2967D3336C68BD8F"
+				type: "choice"
+				icon: "collectorsalbum:mythical_card_package"
+				team_reward: false
+				exclude_from_claim_all: true
+				table_id: 5850841325235749213L
+			}]
+		}
+		{
+			title: "存储套装"
+			icon: "toms_storage:ts.inventory_connector"
+			x: -5.25d
+			y: 2.25d
+			shape: "square"
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			size: 1.5d
+			optional: true
+			can_repeat: true
+			id: "1E65B98B6DD68122"
+			tasks: [{
+				id: "6AD0EE89F28314B7"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:gold_coin"
+					Count: 1b
+					tag: { }
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0AD97BB986FA0F33"
+					type: "choice"
+					icon: "toms_storage:ts.inventory_connector"
+					exclude_from_claim_all: true
+					table_id: 1893349678764882747L
+				}
+				{
+					id: "13913A3B68160EB4"
+					type: "choice"
+					icon: "minecraft:barrel"
+					exclude_from_claim_all: true
+					table_id: 1893349678764882747L
+				}
+				{
+					id: "39D382366791A930"
+					type: "choice"
+					icon: "toms_storage:ts.crafting_terminal"
+					exclude_from_claim_all: true
+					table_id: 1893349678764882747L
+				}
+			]
+		}
+		{
+			title: "回忆药水"
+			icon: "things:recall_potion"
+			x: -3.0d
+			y: 2.25d
+			shape: "square"
+			subtitle: "喝下之后即可回到出生点"
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			size: 1.5d
+			optional: true
+			can_repeat: true
+			id: "6357BCA6EA39DD50"
+			tasks: [{
+				id: "164FFD7426D5AD9A"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:silver_coin"
+					Count: 1b
+					tag: { }
+				}
+				count: 30L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1F1CA04A39508962"
+				type: "item"
+				item: "things:recall_potion"
+			}]
+		}
+		{
+			title: "地图购买"
+			icon: "twilightforest:filled_magic_map"
+			x: -0.75d
+			y: 2.25d
+			shape: "square"
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			size: 1.5d
+			optional: true
+			can_repeat: true
+			id: "56356E60719E4E6D"
+			tasks: [{
+				id: "277B04131CFDA9BE"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:silver_coin"
+					Count: 1b
+					tag: { }
+				}
+				count: 20L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7E41B8F775C9EE6C"
+				type: "item"
+				item: "twilightforest:magic_map"
+			}]
+		}
+		{
+			title: "购买传送石碑"
+			icon: "waystones:waystone"
+			x: 1.5d
+			y: 2.25d
+			shape: "square"
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			size: 1.5d
+			optional: true
+			can_repeat: true
+			id: "65B7F130B8D01443"
+			tasks: [{
+				id: "72D9C61EDB7078DB"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:gold_coin"
+					Count: 1b
+					tag: { }
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "62A96E077381322B"
+				type: "choice"
+				title: "传送石碑"
+				icon: "waystones:waystone"
+				team_reward: false
+				exclude_from_claim_all: true
+				table_id: 2672211207872980793L
+			}]
+		}
+		{
+			title: "魔力太麻烦了!"
+			icon: "botania:mana_pool"
+			x: -5.25d
+			y: 3.75d
+			shape: "square"
+			subtitle: "v我5金给半池子魔力"
+			description: ["丢进魔力池使用"]
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			size: 1.5d
+			optional: true
+			can_repeat: true
+			id: "00122B03331E1D43"
+			tasks: [{
+				id: "7B6BB048742484DD"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:gold_coin"
+					Count: 1b
+					tag: { }
+				}
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "00164118BEB22324"
+				type: "item"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: {
+						mana: 500000
+					}
+				}
+			}]
+		}
+		{
+			title: "光谱新手礼包"
+			icon: "spectrum:pedestal_basic_amethyst"
+			x: -3.0d
+			y: 3.75d
+			shape: "square"
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			size: 1.5d
+			optional: true
+			can_repeat: true
+			id: "4AEF8610880B89E8"
+			tasks: [{
+				id: "601FCD974DDEDB85"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:silver_coin"
+					Count: 1b
+					tag: { }
+				}
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1F17FFF790B1BBBE"
+				type: "choice"
+				icon: "minecraft:amethyst_shard"
+				exclude_from_claim_all: true
+				table_id: 6912184444367936165L
+			}]
+		}
+		{
+			title: "(´。＿。｀)"
+			icon: {
+				id: "explorerscompass:explorerscompass"
+				Count: 1b
+				tag: { }
+			}
+			x: -0.75d
+			y: 3.75d
+			shape: "square"
+			subtitle: "为什么你玩冒险包要这个w(ﾟДﾟ)w"
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			size: 1.5d
+			optional: true
+			can_repeat: true
+			id: "5B67B34FB64B6B1F"
+			tasks: [
+				{
+					id: "4281A04D11A3F623"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:gold_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 999L
+					consume_items: true
+				}
+				{
+					id: "1AD561E3C4AF84E6"
+					type: "xp"
+					value: 200L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "1669AC6FB100420A"
+				type: "item"
+				item: {
+					id: "explorerscompass:explorerscompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "或者?"
+			icon: "botania:creative_pool"
+			x: -7.5d
+			y: 3.75d
+			shape: "square"
+			dependencies: ["00122B03331E1D43"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			optional: true
+			can_repeat: true
+			id: "4D8C08F4291FA3C5"
+			tasks: [{
+				id: "6617234A6D40745A"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:gold_coin"
+					Count: 1b
+					tag: { }
+				}
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7124C44CDFAEB0FB"
+				type: "item"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: {
+						mana: 500000
+						creative: 1b
+					}
+				}
+			}]
+		}
+		{
+			title: "刷怪套件"
+			icon: "minecraft:spawner"
+			x: 1.5d
+			y: 3.75d
+			shape: "square"
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			size: 1.5d
+			optional: true
+			can_repeat: true
+			id: "2BFFF1F4F53B97D9"
+			tasks: [{
+				id: "71A3615C423008A9"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:silver_coin"
+					Count: 1b
+					tag: { }
+				}
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5E92816324941AC5"
+				type: "choice"
+				icon: "minecraft:spawner"
+				exclude_from_claim_all: true
+				table_id: 291310826518652590L
+			}]
+		}
+		{
+			title: "?"
+			icon: {
+				id: "botania:terra_pick"
+				Count: 1b
+				tag: {
+					tipped: 1b
+					mana: 999999
+					Damage: 0
+				}
+			}
+			x: -9.75d
+			y: 3.75d
+			dependencies: ["4D8C08F4291FA3C5"]
+			hide: false
+			dependency_requirement: "all_started"
+			size: 1.5d
+			optional: true
+			can_repeat: true
+			id: "740560C925B424F9"
+			tasks: [
+				{
+					id: "0333619313674D04"
+					type: "item"
+					title: "?"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "botania:terra_pick"
+						}
+					}
+					consume_items: true
+					match_nbt: false
+				}
+				{
+					id: "64CA530903B5B826"
+					type: "item"
+					item: {
+						id: "botania:mana_tablet"
+						Count: 1b
+						tag: {
+							mana: 500000
+							creative: 1b
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "1DCD73FDA845E094"
+				type: "item"
+				item: {
+					id: "botania:terra_pick"
+					Count: 1b
+					tag: {
+						mana: 100000000
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "金币转换"
+			x: -7.0d
+			y: 0.0d
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			size: 2.0d
+			optional: true
+			can_repeat: true
+			id: "1F4B9BB9DE3E4691"
+			tasks: [{
+				id: "2EEF8C43EE0DB7CF"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:gold_coin"
+					Count: 1b
+					tag: { }
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "322CB969FB6AF1C1"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:silver_coin"
+					Count: 1b
+					tag: { }
+				}
+				count: 99
+			}]
+		}
+		{
+			title: "银币转换"
+			x: -7.0d
+			y: -2.0d
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			size: 2.0d
+			optional: true
+			can_repeat: true
+			id: "6AD2CCFC1E9FC97A"
+			tasks: [{
+				id: "3804D20E3FBC4F67"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:silver_coin"
+					Count: 1b
+					tag: { }
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0BFF1B714D350A59"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:bronze_coin"
+					Count: 1b
+					tag: { }
+				}
+				count: 99
+			}]
+		}
+	]
+	quest_links: [ ]
+}

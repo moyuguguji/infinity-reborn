@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_axe"
+  },
+  "addition": {
+    "item": "mcda:upgrade_core_highland"
+  },
+  "result": {
+    "item": "mcdw:axe_highland"
+  }
+}

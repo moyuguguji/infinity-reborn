@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "DPA",
+        "PCS",
+        "ASS"
+    ],
+    "key": {
+        "C": {
+            "item": "mcdw:crossbow_burst_crossbow"
+        },
+        "S": {
+            "item": "minecraft:string"
+        },
+        "D": {
+            "item": "gobber2:gobber2_block"
+        },
+        "P": {
+            "item": "minecraft:purpur_block"
+        },
+        "A": {
+            "item": "minecraft:amethyst_shard"
+        }
+    },
+    "result": {
+        "item": "mcdw:crossbow_shadow_crossbow",
+        "count": 1
+    }
+}

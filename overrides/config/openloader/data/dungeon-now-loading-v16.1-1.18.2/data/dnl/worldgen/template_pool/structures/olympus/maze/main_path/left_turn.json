@@ -1,0 +1,42 @@
+{
+  "name": "dnl:structures/olympus/maze/main_path/left_turn",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "dnl:olympus/maze/main_path/tl",
+        "processors": "dnl:structures/olympus/path_age"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "dnl:olympus/maze/main_path/tb",
+        "processors": "dnl:structures/olympus/path_age"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "dnl:olympus/maze/main_path/c",
+        "processors": "dnl:structures/olympus/path_age"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "dnl:olympus/maze/main_path/ll",
+        "processors": "dnl:structures/olympus/path_age"
+      }
+    }
+  ]
+}

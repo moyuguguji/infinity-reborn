@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "mcdw:dagger_tempest_knife"
+  },
+  "addition": {
+    "item": "mcda:upgrade_core_highland"
+  },
+  "result": {
+    "item": "mcdw:dagger_resolute_tempest_knife"
+  }
+}

@@ -1,0 +1,2628 @@
+{
+	id: "348DB14877F54235"
+	group: "5D8C97B73DA1279B"
+	order_index: 0
+	filename: "348DB14877F54235"
+	title: "奇怪成就"
+	icon: "spectrum:wither_head"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "人形杀凋机"
+			x: -0.5d
+			y: 0.0d
+			description: ["“如果你需要的话”"]
+			dependencies: ["67DA3672A4085FE7"]
+			hide: true
+			id: "05E6A32747363A07"
+			tasks: [{
+				id: "3E2245402E168402"
+				type: "kill"
+				icon: "spectrum:wither_head"
+				entity: "minecraft:wither"
+				value: 25L
+			}]
+			rewards: [
+				{
+					id: "3C456C531713C454"
+					type: "item"
+					auto: "invisible"
+					item: "things:hardening_catalyst"
+					count: 3
+				}
+				{
+					id: "06D5E88696A6C86E"
+					type: "item"
+					item: {
+						id: "infinity:infinitylogo"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							EnchantGiver: {
+								"yigd:soulbound": 1
+								"imperishableitems:imperishable": 1
+								"extra_enchantments:incompatibility_curse": 10
+							}
+							display: {
+								Name: "{\"text\":\"传奇证章\",\"italic\":\"false\",\"bold\":\"true\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "冶炼大师"
+			x: 2.5d
+			y: 0.0d
+			description: [
+				"“你不会真的要去挖吧”"
+				"“你不会的，对吗？”"
+			]
+			dependencies: ["0AF526CBD940C290"]
+			hide: true
+			id: "6421198F50D153F6"
+			tasks: [
+				{
+					id: "5EBDBB60353B8964"
+					type: "item"
+					item: "minecraft:netherite_block"
+					count: 284L
+				}
+				{
+					id: "27827CA503CC03C0"
+					type: "item"
+					item: "gobber2:gobber2_block_nether"
+					count: 64L
+				}
+			]
+			rewards: [
+				{
+					id: "4505670AF56A892A"
+					type: "item"
+					auto: "invisible"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 10s
+								id: "minecraft:fortune"
+							}]
+						}
+					}
+				}
+				{
+					id: "204D1B781C59EA78"
+					type: "item"
+					auto: "invisible"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 10s
+								id: "minecraft:efficiency"
+							}]
+						}
+					}
+				}
+				{
+					id: "62CF92AFDE9EB408"
+					type: "item"
+					item: {
+						id: "minecraft:cocoa_beans"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							EnchantGiver: {
+								"yigd:soulbound": 1
+								"imperishableitems:imperishable": 1
+								"extra_enchantments:incompatibility_curse": 10
+							}
+							display: {
+								Name: "{\"text\":\"谢特\",\"italic\":\"false\",\"bold\":\"true\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "超级人形盾构机"
+			x: 1.0d
+			y: -1.0d
+			shape: "rsquare"
+			description: ["“干点正事去吧”"]
+			dependencies: ["7313FF073C3956C4"]
+			hide: true
+			size: 2.0d
+			id: "01C8A484FDCBBE67"
+			tasks: [
+				{
+					id: "196A89405040273F"
+					type: "item"
+					item: "mythicmetals:unobtainium_block"
+					count: 64L
+				}
+				{
+					id: "25C0354C914FE114"
+					type: "item"
+					item: "mythicmetals:unobtainium_block"
+					count: 40L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "13FCCC419050DFA4"
+					type: "choice"
+					team_reward: false
+					exclude_from_claim_all: true
+					table_id: 488332073128391457L
+				}
+				{
+					id: "77C29DDFDF8D9161"
+					type: "item"
+					team_reward: false
+					auto: "invisible"
+					item: {
+						id: "incubus_core:lunarian_saber"
+						Count: 1b
+						tag: {
+							swa3: { }
+							RepairCost: 0
+							Unbreakable: 1b
+							display: {
+								Name: "{\"text\":\"勤劳之证明\",\"italic\":\"false\",\"bold\":\"true\"}"
+							}
+							Damage: 0
+							EnchantGiver: {
+								"yigd:soulbound": 1
+								"imperishableitems:imperishable": 1
+								"extra_enchantments:incompatibility_curse": 10
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "一把好弩？？"
+			x: 4.0d
+			y: 0.0d
+			subtitle: "哦，我的天哪！"
+			description: [
+				"哦，天哪，这么糟糕的任务，你不会还要完成吧？"
+				"为了一把破弩？"
+			]
+			dependencies: ["6421198F50D153F6"]
+			hide: true
+			id: "5FA7B3488B0AF86A"
+			tasks: [
+				{
+					id: "0AE97ED610AF8A65"
+					type: "item"
+					item: "mythicmetals:stormyx_shell"
+					count: 64L
+				}
+				{
+					id: "2F16D078FF06C926"
+					type: "item"
+					item: "mythicmetals:banglum_chunk"
+					count: 64L
+				}
+				{
+					id: "413E767BBC0F1B92"
+					type: "item"
+					item: "spectrum:scarlet_gem"
+					count: 64L
+				}
+				{
+					id: "424CFC61D6EAE38E"
+					type: "item"
+					item: "spectrum:paletur_gem"
+					count: 64L
+				}
+			]
+			rewards: [
+				{
+					id: "4542EAD2B77FAEF7"
+					type: "item"
+					auto: "invisible"
+					item: {
+						id: "mcdw:crossbow_imploding_crossbow"
+						Count: 1b
+						tag: {
+							ChargedProjectiles: [ ]
+							Unbreakable: 1b
+							Damage: 0
+							Charged: 0b
+							EnchantGiver: {
+								"mcdw:enigma_resonator": 1
+								"minecraft:quick_charge": 10
+								"mcdw:void_shot": 1
+							}
+						}
+					}
+				}
+				{
+					id: "525DCAE238229714"
+					type: "item"
+					item: {
+						id: "kubejs:gandi"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							EnchantGiver: {
+								"yigd:soulbound": 1
+								"imperishableitems:imperishable": 1
+								"extra_enchantments:incompatibility_curse": 10
+							}
+							display: {
+								Name: "{\"text\":\"肝帝的认可\",\"italic\":\"false\",\"bold\":\"true\",\"color\":\"red\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "肝神！"
+			x: 1.0d
+			y: 3.0d
+			subtitle: "无可比拟的传奇！"
+			description: [
+				"传奇之人应有传奇的奖励，之前的奖励可能让你误认为没有价值，但我认为，你的经历值得嘉奖，等等？你不会把那些东西扔了吧？！"
+				"或许成为一个善良的人能帮助你重新拿到这些东西。"
+			]
+			hide_dependency_lines: true
+			min_required_dependencies: 5
+			dependencies: [
+				"01C8A484FDCBBE67"
+				"05E6A32747363A07"
+				"338233F128C59862"
+				"6421198F50D153F6"
+				"0AE97ED610AF8A65"
+			]
+			hide: true
+			invisible_until_tasks: 5
+			id: "533FE858BBD36D4E"
+			tasks: [
+				{
+					id: "659D42B0F766A628"
+					type: "item"
+					item: {
+						id: "infinity:infinitylogo"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							EnchantGiver: {
+								"yigd:soulbound": 1
+								"imperishableitems:imperishable": 1
+								"extra_enchantments:incompatibility_curse": 10
+							}
+							display: {
+								Name: "{\"text\":\"传奇证章\",\"italic\":\"false\",\"bold\":\"true\"}"
+							}
+						}
+					}
+					consume_items: true
+					match_nbt: true
+				}
+				{
+					id: "5397C2D50242A51C"
+					type: "item"
+					item: {
+						id: "minecraft:cocoa_beans"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							EnchantGiver: {
+								"yigd:soulbound": 1
+								"imperishableitems:imperishable": 1
+								"extra_enchantments:incompatibility_curse": 10
+							}
+							display: {
+								Name: "{\"text\":\"谢特\",\"italic\":\"false\",\"bold\":\"true\"}"
+							}
+						}
+					}
+					consume_items: true
+					match_nbt: true
+				}
+				{
+					id: "2F31BCB2B78BDEE7"
+					type: "item"
+					item: {
+						id: "incubus_core:lunarian_saber"
+						Count: 1b
+						tag: {
+							swa3: { }
+							RepairCost: 0
+							Unbreakable: 1b
+							display: {
+								Name: "{\"text\":\"勤劳之证明\",\"italic\":\"false\",\"bold\":\"true\"}"
+							}
+							Damage: 0
+							EnchantGiver: {
+								"yigd:soulbound": 1
+								"imperishableitems:imperishable": 1
+								"extra_enchantments:incompatibility_curse": 10
+							}
+						}
+					}
+					consume_items: true
+					match_nbt: true
+				}
+				{
+					id: "6E8C9459FFE69785"
+					type: "item"
+					item: {
+						id: "kubejs:shashen"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							EnchantGiver: {
+								"yigd:soulbound": 1
+								"imperishableitems:imperishable": 1
+								"extra_enchantments:incompatibility_curse": 10
+							}
+							display: {
+								Name: "{\"text\":\"杀神的认可\",\"italic\":\"false\",\"bold\":\"true\",\"color\":\"red\"}"
+							}
+						}
+					}
+					consume_items: true
+					match_nbt: true
+				}
+				{
+					id: "0D6EB0E53F623B02"
+					type: "item"
+					item: {
+						id: "kubejs:gandi"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							EnchantGiver: {
+								"yigd:soulbound": 1
+								"imperishableitems:imperishable": 1
+								"extra_enchantments:incompatibility_curse": 10
+							}
+							display: {
+								Name: "{\"text\":\"肝帝的认可\",\"italic\":\"false\",\"bold\":\"true\",\"color\":\"red\"}"
+							}
+						}
+					}
+					consume_items: true
+					match_nbt: true
+				}
+			]
+			rewards: [
+				{
+					id: "4C9B969D1E89F994"
+					type: "item"
+					item: {
+						id: "mcdw:crossbow_pride_of_the_piglins"
+						Count: 1b
+						tag: {
+							ChargedProjectiles: [ ]
+							RepairCost: 0
+							Unbreakable: 1b
+							Charged: 0b
+							display: {
+								Name: "{\"text\":\"灾厄\",\"italic\":\"false\",\"bold\":\"true\"}"
+							}
+							Damage: 0
+							EnchantGiver: {
+								"mcdw:growing": 10
+								"minecraft:quick_charge": 20
+								"minecraft:multishot": 1
+								"extra_enchantments:supercharge": 10
+							}
+						}
+					}
+				}
+				{
+					id: "3DB67D809F4C0A30"
+					type: "item"
+					item: {
+						id: "kubejs:putong_stone_sword"
+						Count: 1b
+						tag: {
+							swa3: {
+								LIFESTEAL: {
+									lifesteal: 25.0f
+								}
+								COLD: {
+									slowDur: 10.0f
+									freezeDur: 10.0f
+									bonusDmg: 20.0f
+								}
+								CRIT: {
+									critChance: 1.0f
+								}
+								FIRE: {
+									dur: 20.0f
+									bonusDmg: 20.0f
+								}
+								POISON: {
+									dur: 30.0f
+									bonusDmg: 20.0f
+								}
+							}
+							durable: 1
+							Unbreakable: 1b
+							display: {
+								Name: "{\"text\":\"【无垠星空·原初试作】\",\"italic\":\"false\",\"bold\":\"true\",\"color\":\"gold\"}"
+							}
+							Damage: 0
+							EnchantGiver: {
+								"minecraft:sharpness": 10
+								"gobber2:smithblade": 10
+								"yigd:soulbound": 1
+							}
+							Tiered: {
+								Tier: "tiered:infinity_melee"
+							}
+						}
+					}
+				}
+				{
+					id: "419551865A2E6A7A"
+					type: "item"
+					item: "gobber2:gobber2_ring_stealth"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			subtitle: "你真是我见过的最传奇的人了"
+			description: [""]
+			dependencies: ["05E6A32747363A07"]
+			hide: true
+			id: "338233F128C59862"
+			tasks: [{
+				id: "47E151C377F545FF"
+				type: "kill"
+				icon: "spectrum:wither_head"
+				entity: "minecraft:wither"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "3BC76CA084C3E215"
+					type: "choice"
+					auto: "invisible"
+					exclude_from_claim_all: true
+					table_id: 5206663203530399561L
+				}
+				{
+					id: "34E1CE2CE624D423"
+					type: "choice"
+					auto: "invisible"
+					exclude_from_claim_all: true
+					table_id: 1552600754727581119L
+				}
+				{
+					id: "0257C450682CDCFD"
+					type: "item"
+					auto: "invisible"
+					item: {
+						id: "kubejs:shashen"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							EnchantGiver: {
+								"yigd:soulbound": 1
+								"imperishableitems:imperishable": 1
+								"extra_enchantments:incompatibility_curse": 10
+							}
+							display: {
+								Name: "{\"text\":\"杀神的认可\",\"italic\":\"false\",\"bold\":\"true\",\"color\":\"red\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "6FD56B8882781F41"
+					type: "item"
+					auto: "invisible"
+					item: "kubejs:jing__xin"
+				}
+			]
+		}
+		{
+			title: "打赏点3"
+			x: 5.5d
+			y: -1.0d
+			subtitle: "糟糕的破弩"
+			description: ["这可真是一把糟糕的弩，不是吗。"]
+			hide_dependency_lines: true
+			dependencies: ["5FA7B3488B0AF86A"]
+			hide: true
+			id: "1094065E8A05FF1B"
+			tasks: [{
+				id: "51398C924D9A2F34"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:gold_coin"
+					Count: 1b
+					tag: { }
+				}
+				count: 99L
+			}]
+		}
+		{
+			title: "打赏点2"
+			x: -3.5d
+			y: -1.0d
+			subtitle: "真是吓人"
+			hide_dependency_lines: true
+			dependencies: ["338233F128C59862"]
+			hide: true
+			invisible_until_tasks: 1
+			id: "7AEC5DE0101252EB"
+			tasks: [{
+				id: "7970F4E15A27624C"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:gold_coin"
+					Count: 1b
+					tag: { }
+				}
+				count: 99L
+			}]
+		}
+		{
+			title: "打赏点1"
+			x: 1.0d
+			y: -3.0d
+			subtitle: "做点正事吧"
+			hide_dependency_lines: true
+			dependencies: ["01C8A484FDCBBE67"]
+			hide: true
+			hide_text_until_complete: true
+			invisible_until_tasks: 1
+			id: "293EEB54696C325B"
+			tasks: [{
+				id: "5A0FEEABECDA2FCF"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:gold_coin"
+					Count: 1b
+					tag: { }
+				}
+				count: 99L
+			}]
+		}
+		{
+			icon: {
+				id: "infinity:infinitylogo"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					EnchantGiver: {
+						"yigd:soulbound": 1
+						"imperishableitems:imperishable": 1
+						"extra_enchantments:incompatibility_curse": 10
+					}
+					display: {
+						Name: "{\"text\":\"传奇证章\"}"
+					}
+				}
+			}
+			x: -3.0d
+			y: 1.0d
+			subtitle: "弄丢了？"
+			description: ["善良之人的嘉奖，这东西很重要"]
+			dependencies: ["7AEC5DE0101252EB"]
+			hide: true
+			optional: true
+			invisible_until_tasks: 1
+			id: "38478D4EE612B4BB"
+			tasks: [{
+				id: "0829964FF75A390E"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "5679DD2255E34D7C"
+					type: "item"
+					item: {
+						id: "infinity:infinitylogo"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							EnchantGiver: {
+								"yigd:soulbound": 1
+								"imperishableitems:imperishable": 1
+								"extra_enchantments:incompatibility_curse": 10
+							}
+							display: {
+								Name: "{\"text\":\"传奇证章\",\"italic\":\"false\",\"bold\":\"true\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "50D2B143694774FF"
+					type: "item"
+					item: {
+						id: "kubejs:shashen"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							EnchantGiver: {
+								"yigd:soulbound": 1
+								"imperishableitems:imperishable": 1
+								"extra_enchantments:incompatibility_curse": 10
+							}
+							display: {
+								Name: "{\"text\":\"杀神的认可\",\"italic\":\"false\",\"bold\":\"true\",\"color\":\"red\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: {
+				id: "minecraft:cocoa_beans"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					EnchantGiver: {
+						"yigd:soulbound": 1
+						"imperishableitems:imperishable": 1
+						"extra_enchantments:incompatibility_curse": 10
+					}
+					display: {
+						Name: "{\"text\":\"谢特\"}"
+					}
+				}
+			}
+			x: 5.0d
+			y: 1.0d
+			subtitle: "弄丢了？"
+			description: ["善良之人的嘉奖，这东西很重要"]
+			dependencies: ["1094065E8A05FF1B"]
+			hide: true
+			optional: true
+			id: "71B825A8E9EF92BC"
+			tasks: [{
+				id: "519BFE515B0C639E"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "1EFF678A75B86B86"
+					type: "item"
+					item: {
+						id: "minecraft:cocoa_beans"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							EnchantGiver: {
+								"yigd:soulbound": 1
+								"imperishableitems:imperishable": 1
+								"extra_enchantments:incompatibility_curse": 10
+							}
+							display: {
+								Name: "{\"text\":\"谢特\",\"italic\":\"false\",\"bold\":\"true\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "3288736FE945F398"
+					type: "item"
+					item: {
+						id: "kubejs:gandi"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							EnchantGiver: {
+								"yigd:soulbound": 1
+								"imperishableitems:imperishable": 1
+								"extra_enchantments:incompatibility_curse": 10
+							}
+							display: {
+								Name: "{\"text\":\"肝帝的认可\",\"italic\":\"false\",\"bold\":\"true\",\"color\":\"red\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: {
+				id: "incubus_core:lunarian_saber"
+				Count: 1b
+				tag: {
+					swa3: { }
+					RepairCost: 0
+					Unbreakable: 1b
+					display: {
+						Name: "{\"text\":\"勤劳之证明\"}"
+					}
+					Damage: 0
+					EnchantGiver: {
+						"yigd:soulbound": 1
+						"imperishableitems:imperishable": 1
+						"extra_enchantments:incompatibility_curse": 10
+					}
+				}
+			}
+			x: 1.0d
+			y: 1.0d
+			subtitle: "弄丢了？"
+			description: ["善良之人的嘉奖，这东西很重要"]
+			hide_dependency_lines: true
+			dependencies: ["293EEB54696C325B"]
+			hide: true
+			invisible_until_tasks: 1
+			id: "622DAC8D84DE54E9"
+			tasks: [{
+				id: "63AB6EAD6A070807"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "007347C7E4B49FAA"
+				type: "item"
+				item: {
+					id: "incubus_core:lunarian_saber"
+					Count: 1b
+					tag: {
+						swa3: { }
+						RepairCost: 0
+						Unbreakable: 1b
+						display: {
+							Name: "{\"text\":\"勤劳之证明\",\"italic\":\"false\",\"bold\":\"true\"}"
+						}
+						Damage: 0
+						EnchantGiver: {
+							"yigd:soulbound": 1
+							"imperishableitems:imperishable": 1
+							"extra_enchantments:incompatibility_curse": 10
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "粒粒皆辛苦"
+			x: 1.0d
+			y: 2.0d
+			subtitle: "在进度里可以查看进度"
+			description: [
+				"“发挥你的种田基因”"
+				"   享受你的成果吧"
+				"   不要太着急"
+			]
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			id: "5A0365E930687CA3"
+			tasks: [
+				{
+					id: "011EF27FA641F7B5"
+					type: "item"
+					item: "skylorlib:golden_bread_item"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "2D89B9B58BAA9494"
+					type: "advancement"
+					advancement: "farmersdelight:main/plant_all_crops"
+					criterion: ""
+				}
+				{
+					id: "7DFA73FE7DE1E045"
+					type: "advancement"
+					advancement: "croptopia:gather_all"
+					criterion: ""
+				}
+				{
+					id: "5E7AC21CBB2B793A"
+					type: "advancement"
+					advancement: "croptopia:gather_tree_all"
+					criterion: ""
+				}
+				{
+					id: "400827317E762360"
+					type: "advancement"
+					advancement: "spectrum:midgame/plant_jade_vines"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "3FA955DFAF3F6B90"
+					type: "item"
+					team_reward: false
+					auto: "invisible"
+					item: {
+						id: "dragonloot:dragon_hoe"
+						Count: 1b
+						tag: {
+							swa3: { }
+							HideFlags: 3
+							Enchantments: [
+								{
+									lvl: 1
+									id: "imperishableitems:imperishable"
+								}
+								{
+									lvl: 10
+									id: "charm:collection"
+								}
+								{
+									lvl: 40
+									id: "minecraft:fortune"
+								}
+								{
+									lvl: 1
+									id: "fabricenchantments:replenish"
+								}
+							]
+							display: {
+								Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"dark_red\",\"text\":\"总之他真的很神秘\"}],\"text\":\"\"}"]
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"神秘锄\"}],\"text\":\"\"}"
+							}
+							Damage: 0
+							AttributeModifiers: [
+								{
+									Slot: "mainhand"
+									AttributeName: "arcanus:mana_regen"
+									Operation: 0
+									UUID: [I;
+										877607416
+										-1283831843
+										-2054891866
+										335321575
+									]
+									Amount: 10.0d
+								}
+								{
+									Slot: "mainhand"
+									AttributeName: "playerex:constitution"
+									Operation: 0
+									UUID: [I;
+										-1936703278
+										1103774880
+										-1539563384
+										-166224112
+									]
+									Amount: 10.0d
+								}
+								{
+									Slot: "mainhand"
+									AttributeName: "minecraft:generic.movement_speed"
+									Operation: 1
+									UUID: [I;
+										1097049861
+										-1756870790
+										-1717572730
+										-1318738819
+									]
+									Amount: 1.5d
+								}
+							]
+						}
+					}
+					only_one: true
+				}
+				{
+					id: "634374DFA6824765"
+					type: "item"
+					team_reward: false
+					item: "spectrum:moonstruck_nectar"
+					count: 10
+				}
+			]
+		}
+		{
+			title: "被抓到惹"
+			x: 1.0d
+			y: 4.0d
+			subtitle: "这都被你发现了"
+			description: ["跑路三人组"]
+			dependencies: ["5A0365E930687CA3"]
+			hide: true
+			invisible_until_tasks: 1
+			id: "47D1C9DAF12F97AF"
+			tasks: [{
+				id: "3EC9949E56AB1256"
+				type: "checkmark"
+				title: "跑路三人组"
+			}]
+			rewards: [
+				{
+					id: "5C63B51FEA021238"
+					type: "item"
+					item: {
+						id: "kubejs:paolude_xiaxin"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"跑路的夏新\",\"italic\":\"false\",\"bold\":\"true\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "477B8FB1C110855A"
+					type: "item"
+					item: {
+						id: "kubejs:paolude_zhanji"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"跑路的斩稽\",\"italic\":\"false\",\"bold\":\"true\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "2B1393E1E0D5FAA3"
+					type: "item"
+					item: {
+						id: "kubejs:paolude_jy"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"跑路的阿逸\",\"italic\":\"false\",\"bold\":\"true\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "这....这这是什么呀"
+			x: -1.0d
+			y: 2.5d
+			subtitle: "你可能未曾见过的怪物们"
+			description: [
+				""
+				"这是整合包里最稀有的几个怪物,要是你能杀齐那你定是天运之子呀"
+			]
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			id: "0BC2E55F6C0250EB"
+			tasks: [
+				{
+					id: "4599C618312410CF"
+					type: "kill"
+					icon: "lootgoblins:gold_bone_item"
+					entity: "lootgoblins:golden_skeleton"
+					value: 1L
+				}
+				{
+					id: "42F78229805E4F53"
+					type: "kill"
+					icon: "lootgoblins:stoneflesh_item"
+					entity: "lootgoblins:lapis_zombie"
+					value: 1L
+				}
+				{
+					id: "3C307D4C55160A2E"
+					type: "kill"
+					icon: "lootgoblins:prismarine_pearl_item"
+					entity: "lootgoblins:prismarine_enderman"
+					value: 1L
+				}
+				{
+					id: "5695A80A1D4CFE6E"
+					type: "kill"
+					icon: "lootgoblins:iron_eye_item"
+					entity: "lootgoblins:iron_spider"
+					value: 1L
+				}
+				{
+					id: "4DC0AD64A0EEF821"
+					type: "kill"
+					entity: "lootgoblins:loot_goblin"
+					value: 1L
+				}
+				{
+					id: "4F798A915FF95860"
+					type: "kill"
+					icon: {
+						id: "lootgoblins:emerald_crossbow_item"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					entity: "lootgoblins:emerald_illager"
+					value: 1L
+				}
+				{
+					id: "37FA9DA53A45B890"
+					type: "kill"
+					icon: "lootgoblins:red_bomb_item"
+					entity: "lootgoblins:redstone_creeper"
+					value: 1L
+				}
+				{
+					id: "0AE2668A7B1ABDCD"
+					type: "kill"
+					icon: "lootgoblins:quartzchop_item"
+					entity: "lootgoblins:quartz_hoglin"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "7F2E73524CECF335"
+					type: "item"
+					team_reward: false
+					auto: "invisible"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 100s
+								id: "minecraft:fortune"
+							}]
+						}
+					}
+				}
+				{
+					id: "76142B4CE900C02D"
+					type: "item"
+					team_reward: false
+					auto: "invisible"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 100s
+								id: "x_enchant:more_loot"
+							}]
+						}
+					}
+				}
+				{
+					id: "16246320DF4A2B85"
+					type: "item"
+					team_reward: false
+					auto: "invisible"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 100s
+								id: "minecraft:looting"
+							}]
+						}
+					}
+				}
+				{
+					id: "2BC5C5CDDB9F18C2"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 488332073128391457L
+				}
+			]
+		}
+		{
+			title: "不是很闪,但是很少"
+			x: 3.0d
+			y: 2.5d
+			subtitle: "它真的和钻石差不多吗?"
+			description: [
+				"如果你聪慧点，这个聪慧并不难得到。"
+				"你的脑子偶尔会因为聪慧灵光一闪，一下子收获一大堆经验。"
+			]
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			id: "12DD3CF3EDA8900F"
+			tasks: [
+				{
+					id: "74955C8B6AAD8513"
+					type: "advancement"
+					advancement: "things:gleaming_powder"
+					criterion: ""
+				}
+				{
+					id: "7D90D8BE48EC7806"
+					type: "questsadditions:break"
+					title: "挖64个璀璨矿,深板岩的不算哦"
+					block_type: 0
+					block: "things:gleaming_ore"
+					value: 64L
+					checkItem: false
+				}
+			]
+			rewards: [
+				{
+					id: "30D05B1D33D662E0"
+					type: "item"
+					auto: "invisible"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "x_enchant:halo_effect_-_effect.minecraft.haste"
+							}]
+						}
+					}
+				}
+				{
+					id: "08842F01A89F22F5"
+					type: "item"
+					auto: "invisible"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "x_enchant:smart"
+							}]
+						}
+					}
+				}
+				{
+					id: "5C4D0AE190254825"
+					type: "item"
+					item: "things:gleaming_compound"
+				}
+			]
+		}
+		{
+			title: "传奇冒险家!"
+			icon: {
+				id: "minecraft:golden_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.0d
+			y: 5.0d
+			subtitle: "你走遍了整个世界"
+			description: ["ps:小心跑图把档卡崩)"]
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			id: "01BB99DAD4187EAC"
+			tasks: [
+				{
+					id: "051A08BECD68FF4B"
+					type: "advancement"
+					advancement: "mostructures:big_pyramid"
+					criterion: ""
+				}
+				{
+					id: "557998C8DB534A29"
+					type: "advancement"
+					advancement: "mostructures:barn_house"
+					criterion: ""
+				}
+				{
+					id: "7749FDF272B2858E"
+					type: "advancement"
+					advancement: "dungeons_arise:find_abandoned_temple"
+					criterion: ""
+				}
+				{
+					id: "3090131D23DA0250"
+					type: "advancement"
+					advancement: "dungeons_arise:find_bandit_towers"
+					criterion: ""
+				}
+				{
+					id: "547D76C95F2CB753"
+					type: "advancement"
+					advancement: "dungeons_arise:find_bandit_village"
+					criterion: ""
+				}
+				{
+					id: "0CEFD21213BF7F4E"
+					type: "advancement"
+					advancement: "dungeons_arise:find_ceryneian_hind"
+					criterion: ""
+				}
+				{
+					id: "34D0572B71C27BF3"
+					type: "advancement"
+					advancement: "dungeons_arise:find_wishing_well"
+					criterion: ""
+				}
+				{
+					id: "756B23AC92268A02"
+					type: "advancement"
+					advancement: "dungeons_arise:find_infested_temple"
+					criterion: ""
+				}
+				{
+					id: "455100F93360322F"
+					type: "advancement"
+					advancement: "dungeons_arise:find_undead_pirate_ship"
+					criterion: ""
+				}
+				{
+					id: "397733743ED9D7BA"
+					type: "advancement"
+					advancement: "dungeons_arise:find_illager_campsite"
+					criterion: ""
+				}
+				{
+					id: "12525A771BD380D8"
+					type: "advancement"
+					advancement: "dungeons_arise:find_merchant_campsite"
+					criterion: ""
+				}
+				{
+					id: "7BB0F7E740E0EA17"
+					type: "advancement"
+					advancement: "dungeons_arise:find_typhon"
+					criterion: ""
+				}
+				{
+					id: "5848ED41641ED496"
+					type: "advancement"
+					advancement: "dungeons_arise:find_fishing_hut"
+					criterion: ""
+				}
+				{
+					id: "6AB3CF4772FEB934"
+					type: "advancement"
+					advancement: "dungeons_arise:find_small_blimp"
+					criterion: ""
+				}
+				{
+					id: "3BC09944ADA793F9"
+					type: "advancement"
+					advancement: "dungeons_arise:find_thornborn_towers"
+					criterion: ""
+				}
+				{
+					id: "5D4F30E68012361C"
+					type: "advancement"
+					advancement: "dungeons_arise:find_mushroom_house"
+					criterion: ""
+				}
+				{
+					id: "681B2B61E836E9A9"
+					type: "advancement"
+					advancement: "dungeons_arise:find_lighthouse"
+					criterion: ""
+				}
+				{
+					id: "5F1131F71108C43F"
+					type: "advancement"
+					advancement: "soaringstructures2:find_soaring_island"
+					criterion: ""
+				}
+				{
+					id: "2C2EDC98D03E5B0A"
+					type: "advancement"
+					advancement: "dungeons_arise:find_mushroom_mines"
+					criterion: ""
+				}
+				{
+					id: "5DD957F5405BDB7C"
+					type: "advancement"
+					advancement: "dungeons_arise:find_illager_corsair_or_illager_galley"
+					criterion: ""
+				}
+				{
+					id: "01A2F7DDD00083FD"
+					type: "advancement"
+					advancement: "dungeons_arise:find_mushroom_village"
+					criterion: ""
+				}
+				{
+					id: "161D20C24FD8CC97"
+					type: "advancement"
+					advancement: "dungeons_arise:find_illager_fort"
+					criterion: ""
+				}
+				{
+					id: "2F659D1C389AB799"
+					type: "advancement"
+					advancement: "dungeons_arise:find_illager_windmill"
+					criterion: ""
+				}
+				{
+					id: "32F1F7DB0B715F18"
+					type: "advancement"
+					advancement: "dungeons_arise:find_heavenly_conqueror"
+					criterion: ""
+				}
+				{
+					id: "5873CF8316C487E6"
+					type: "advancement"
+					advancement: "dungeons_arise:find_heavenly_rider"
+					criterion: ""
+				}
+				{
+					id: "469285603B5AEE00"
+					type: "advancement"
+					advancement: "dungeons_arise:find_foundry"
+					criterion: ""
+				}
+				{
+					id: "37CB061955CC05E7"
+					type: "advancement"
+					advancement: "dungeons_arise:find_heavenly_challenger"
+					criterion: ""
+				}
+				{
+					id: "3FE6ABF6B73DB853"
+					type: "advancement"
+					advancement: "dungeons_arise:find_giant_mushroom"
+					criterion: ""
+				}
+				{
+					id: "549B47368E3DD903"
+					type: "advancement"
+					advancement: "dungeons_arise:find_coliseum"
+					criterion: ""
+				}
+				{
+					id: "5710BF30971545D9"
+					type: "advancement"
+					advancement: "lootr:100loot"
+					criterion: ""
+				}
+				{
+					id: "7C51384D0B37D323"
+					type: "advancement"
+					advancement: "dungeons_arise:find_small_prairie_house"
+					criterion: ""
+				}
+				{
+					id: "033A116F0F24E76A"
+					type: "advancement"
+					advancement: "dungeons_arise:find_infested_temple_map"
+					criterion: ""
+				}
+				{
+					id: "5B555F69CB00FC14"
+					type: "advancement"
+					advancement: "mostructures:pillager_factory"
+					criterion: ""
+				}
+				{
+					id: "4BB13018C4E2F42C"
+					type: "advancement"
+					advancement: "dungeons_arise:find_monasteries"
+					criterion: ""
+				}
+				{
+					id: "5874DD5648AD1D14"
+					type: "advancement"
+					advancement: "mostructures:villager_tower"
+					criterion: ""
+				}
+				{
+					id: "2B6CAD356E63C58A"
+					type: "advancement"
+					advancement: "mostructures:lighthouse"
+					criterion: ""
+				}
+				{
+					id: "3B8B2BD60C80CE2C"
+					type: "advancement"
+					advancement: "dungeons_arise:find_mining_system"
+					criterion: ""
+				}
+				{
+					id: "6893475AF83D7E93"
+					type: "advancement"
+					advancement: "minecraft:adventure/adventuring_time"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "0208D74B46D713BB"
+					type: "xp_levels"
+					team_reward: false
+					auto: "invisible"
+					xp_levels: 1000
+				}
+				{
+					id: "60EF1C8C58CBA713"
+					type: "item"
+					auto: "invisible"
+					item: {
+						id: "explorerscompass:explorerscompass"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "53EC44EC5D52759D"
+					type: "item"
+					auto: "invisible"
+					item: {
+						id: "minecraft:leather_boots"
+						Count: 1b
+						tag: {
+							Unbreakable: 1b
+							HideFlags: 1
+							Enchantments: [
+								{
+									lvl: 1
+									id: "yigd:soulbound"
+								}
+								{
+									lvl: 10
+									id: "gobber2:solidfooting"
+								}
+								{
+									lvl: 10
+									id: "minecraft:frost_walker"
+								}
+								{
+									lvl: 10
+									id: "minecraft:depth_strider"
+								}
+								{
+									lvl: 10
+									id: "minecraft:feather_falling"
+								}
+								{
+									lvl: 10
+									id: "additionaladditions:speed"
+								}
+								{
+									lvl: 10
+									id: "mcda:lucky_explorer"
+								}
+								{
+									lvl: 10
+									id: "x_enchant:climber"
+								}
+								{
+									lvl: 10
+									id: "mcda:swiftfooted"
+								}
+								{
+									lvl: 10
+									id: "musuen:sky_jump"
+								}
+								{
+									lvl: 10
+									id: "musuen:long_jump"
+								}
+							]
+							display: {
+								color: 16777215
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"bold\":true,\"color\":\"white\",\"text\":\"冒险家之靴\"}],\"text\":\"\"}"
+							}
+							saa1: {
+								DMG_REDUCTION: {
+									dmgReduc: 15.0f
+								}
+							}
+							z-coord: 621.1824747206133d
+							Damage: 0
+							x-coord: -1248.0082846095704d
+							AttributeModifiers: [
+								{
+									Slot: "feet"
+									AttributeName: "minecraft:generic.armor"
+									Operation: 0
+									UUID: [I;
+										-1836217106
+										1289176769
+										-2122954798
+										-796243864
+									]
+									Amount: 20.0d
+								}
+								{
+									Slot: "feet"
+									AttributeName: "minecraft:generic.armor_toughness"
+									Operation: 0
+									UUID: [I;
+										-400741642
+										1370967085
+										-2020449595
+										-1513282078
+									]
+									Amount: 10.0d
+								}
+								{
+									Slot: "feet"
+									AttributeName: "playerex:fire_resistance"
+									Operation: 0
+									UUID: [I;
+										1532590017
+										229786510
+										-1737929388
+										1419063891
+									]
+									Amount: 10.0d
+								}
+								{
+									Slot: "feet"
+									AttributeName: "playerex:dexterity"
+									Operation: 0
+									UUID: [I;
+										-1322863896
+										1980254525
+										-1459052050
+										-1691144297
+									]
+									Amount: 10.0d
+								}
+								{
+									Slot: "feet"
+									AttributeName: "mythicmetals:magic_protection"
+									Operation: 0
+									UUID: [I;
+										1316519016
+										1285507532
+										-1274105273
+										-1731775660
+									]
+									Amount: 10.0d
+								}
+								{
+									Slot: "feet"
+									AttributeName: "stepheightentityattribute:stepheight"
+									Operation: 0
+									UUID: [I;
+										39886286
+										1920682218
+										-1080694600
+										2106123713
+									]
+									Amount: 2.0d
+								}
+								{
+									Slot: "feet"
+									AttributeName: "combatroll:count"
+									Operation: 0
+									UUID: [I;
+										560610639
+										333467600
+										-2002606511
+										1479775233
+									]
+									Amount: 2.0d
+								}
+								{
+									Slot: "feet"
+									AttributeName: "minecraft:generic.flying_speed"
+									Operation: 0
+									UUID: [I;
+										-1007206349
+										-274117491
+										-1931212807
+										1701554014
+									]
+									Amount: 100.0d
+								}
+								{
+									Slot: "feet"
+									AttributeName: "combatroll:distance"
+									Operation: 0
+									UUID: [I;
+										-1121935830
+										1094142668
+										-2018069972
+										1041884406
+									]
+									Amount: 5.0d
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "幸运?"
+			x: -1.0d
+			y: 1.5d
+			subtitle: "你是幸运还是埋头苦找呢?"
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			hide_text_until_complete: false
+			can_repeat: true
+			id: "7767E31D0D77945D"
+			tasks: [{
+				id: "2284DB345A91E633"
+				type: "item"
+				item: "spectrum:four_leaf_clover"
+				count: 44L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "461D11B92816080F"
+					type: "item"
+					auto: "invisible"
+					item: "gobber2:gobber2_ring_luck"
+					only_one: true
+				}
+				{
+					id: "237C7A71FBD5CB2D"
+					type: "item"
+					auto: "invisible"
+					item: "ringsofascension:ring_luck"
+					only_one: true
+				}
+				{
+					id: "1A807FFD2954713A"
+					type: "item"
+					auto: "invisible"
+					item: "spectrum:lucky_roll"
+					random_bonus: 64
+				}
+				{
+					id: "104BBCF3D1CFF52C"
+					type: "item"
+					auto: "invisible"
+					item: "artifacts:lucky_scarf"
+					only_one: true
+				}
+				{
+					id: "1208C561AAA6BA06"
+					type: "item"
+					auto: "invisible"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "goblintraders:luck"
+							CustomPotionEffects: [{
+								Duration: 2147483647
+								Id: 26
+								Amplifier: 43b
+							}]
+						}
+					}
+					random_bonus: 64
+				}
+			]
+		}
+		{
+			title: "美食评论家"
+			x: 3.0d
+			y: 1.5d
+			subtitle: "吃遍MC！"
+			description: ["“有啥吃啥”"]
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			id: "02248D2CD2277FE0"
+			tasks: [
+				{
+					id: "423577A5936498AF"
+					type: "advancement"
+					title: "尝遍作物盛景中所有能吃的食物"
+					advancement: "croptopia:gather_food"
+					criterion: ""
+				}
+				{
+					id: "75ABB13FF44EED90"
+					type: "advancement"
+					title: "尝遍原版美食，即便是对身体不好的"
+					advancement: "minecraft:husbandry/balanced_diet"
+					criterion: ""
+				}
+				{
+					id: "51657DFDC6C2EF8B"
+					type: "advancement"
+					title: "非常的新鲜，非常的美味（以香烤海苔为佐料，用黑石鳟和烤土豆做出至尊料理。）"
+					advancement: "gofish:fishing/grilled_blackstone_deluxe"
+					criterion: ""
+				}
+				{
+					id: "1055982131469378"
+					type: "advancement"
+					title: "用满月钓到的鱼做出星间水产煲吧。"
+					advancement: "gofish:fishing/aquatic_astral_stew"
+					criterion: ""
+				}
+				{
+					id: "14C28BE445763D49"
+					type: "advancement"
+					advancement: "farmersdelight:main/master_chef"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "5D64C8F214315416"
+					type: "item"
+					auto: "invisible"
+					item: {
+						id: "mythicmetals:hallowed_chestplate"
+						Count: 1b
+						tag: {
+							Unbreakable: 1b
+							Damage: 0
+							Enchantments: [
+								{
+									lvl: 100s
+									id: "mcda:death_barter"
+								}
+								{
+									lvl: 100s
+									id: "musuen:demonction"
+								}
+							]
+							display: {
+								Name: "{\"text\":\"食神的护甲\",\"italic\":\"false\",\"bold\":\"true\"}"
+							}
+						}
+					}
+					only_one: true
+				}
+				{
+					id: "488E432ED5DFCB07"
+					type: "item"
+					auto: "invisible"
+					item: {
+						id: "minecraft:trident"
+						Count: 1b
+						tag: {
+							Unbreakable: 1b
+							Damage: 0
+							Enchantments: [{
+								lvl: 100s
+								id: "musuen:skewering"
+							}]
+							display: {
+								Name: "{\"text\":\"食神的餐叉\",\"italic\":\"false\",\"bold\":\"true\"}"
+							}
+						}
+					}
+					only_one: true
+				}
+				{
+					id: "5D2258B3E7C88C6D"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 488332073128391457L
+				}
+			]
+		}
+		{
+			title: "明胶世界之旅"
+			icon: "terrarianslimes:royal_gel"
+			x: -1.0d
+			y: 3.5d
+			subtitle: "打败每一种史莱姆!"
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			id: "10394B9E79E68D79"
+			tasks: [
+				{
+					id: "1166381ADCAC808A"
+					type: "kill"
+					icon: "minecraft:slime_ball"
+					entity: "minecraft:slime"
+					value: 1L
+				}
+				{
+					id: "5C294AD3A5555400"
+					type: "kill"
+					icon: "terrarianslimes:ice_slime_ball"
+					entity: "terrarianslimes:spiked_ice_slime"
+					value: 1L
+				}
+				{
+					id: "1ED7212307247B05"
+					type: "kill"
+					icon: "terrarianslimes:yellow_slime_ball"
+					entity: "terrarianslimes:yellow_slime"
+					value: 1L
+				}
+				{
+					id: "164803745EFFDD35"
+					type: "kill"
+					icon: "minecraft:slime_ball"
+					entity: "terrarianslimes:green_slime"
+					value: 1L
+				}
+				{
+					id: "0B8A58DFFE794D30"
+					type: "kill"
+					icon: "terrarianslimes:pinky_slime_ball"
+					entity: "terrarianslimes:pinky"
+					value: 1L
+				}
+				{
+					id: "1A007968B6703733"
+					type: "kill"
+					icon: "terrarianslimes:ice_slime_ball"
+					entity: "terrarianslimes:ice_slime"
+					value: 1L
+				}
+				{
+					id: "2734756959D83916"
+					type: "kill"
+					icon: "terrarianslimes:black_slime_ball"
+					entity: "terrarianslimes:mother_slime"
+					value: 1L
+				}
+				{
+					id: "4D51B9316E0888B6"
+					type: "kill"
+					icon: "terrarianslimes:red_slime_ball"
+					entity: "terrarianslimes:red_slime"
+					value: 1L
+				}
+				{
+					id: "7724D9C68D02E905"
+					type: "kill"
+					icon: "terrarianslimes:jungle_slime_ball"
+					entity: "terrarianslimes:jungle_slime"
+					value: 1L
+				}
+				{
+					id: "5B90314F46B7FE72"
+					type: "kill"
+					icon: "terrarianslimes:sand_slime_ball"
+					entity: "terrarianslimes:sand_slime"
+					value: 1L
+				}
+				{
+					id: "62008A0AB1BC1CA4"
+					type: "kill"
+					icon: "minecraft:slime_ball"
+					entity: "terrarianslimes:slimeling"
+					value: 1L
+				}
+				{
+					id: "1414F4D90CB84F62"
+					type: "kill"
+					icon: "terrarianslimes:king_slime_ball"
+					entity: "terrarianslimes:king_slime"
+					value: 1L
+				}
+				{
+					id: "4D2E19C0F78441D4"
+					type: "kill"
+					icon: "terrarianslimes:illuminant_slime_ball"
+					entity: "terrarianslimes:illuminant_slime"
+					value: 1L
+				}
+				{
+					id: "413B48904E67DC9E"
+					type: "kill"
+					icon: "minecraft:magma_cream"
+					entity: "terrarianslimes:lava_slime"
+					value: 1L
+				}
+				{
+					id: "32C3CCCE304BCD72"
+					type: "kill"
+					icon: "minecraft:slime_ball"
+					entity: "betterend:end_slime"
+					value: 1L
+				}
+				{
+					id: "1E9618865B7E3023"
+					type: "kill"
+					icon: "terrarianslimes:black_slime_ball"
+					entity: "terrarianslimes:baby_slime"
+					value: 1L
+				}
+				{
+					id: "3997290DE25E25D7"
+					type: "kill"
+					icon: "terrarianslimes:blue_slime_ball"
+					entity: "terrarianslimes:spiked_slime"
+					value: 1L
+				}
+				{
+					id: "49088E93E9EDEA24"
+					type: "kill"
+					icon: "terrarianslimes:purple_slime_ball"
+					entity: "terrarianslimes:purple_slime"
+					value: 1L
+				}
+				{
+					id: "215EE58187EBB170"
+					type: "kill"
+					icon: "terrarianslimes:black_slime_ball"
+					entity: "terrarianslimes:black_slime"
+					value: 1L
+				}
+				{
+					id: "77501B00FF907062"
+					type: "kill"
+					icon: "terrarianslimes:corrupt_slime_ball"
+					entity: "terrarianslimes:corrupt_slime"
+					value: 1L
+				}
+				{
+					id: "5705BB3646E52837"
+					type: "kill"
+					icon: "terrarianslimes:jungle_slime_ball"
+					entity: "terrarianslimes:spiked_jungle_slime"
+					value: 1L
+				}
+				{
+					id: "708BCA4D01BA4FF4"
+					type: "kill"
+					icon: "terrarianslimes:rainbow_slime_ball"
+					entity: "terrarianslimes:rainbow_slime"
+					value: 1L
+				}
+				{
+					id: "399C9BCDE3C920B8"
+					type: "kill"
+					icon: "terrarianslimes:crimson_slime_ball"
+					entity: "terrarianslimes:crimslime"
+					value: 1L
+				}
+				{
+					id: "129E55EECDF7F5A5"
+					type: "kill"
+					icon: "terrarianslimes:umbrella"
+					entity: "terrarianslimes:umbrella_slime"
+					value: 1L
+				}
+				{
+					id: "17A181225EC5133C"
+					type: "kill"
+					icon: {
+						id: "things:container_key"
+						Count: 1b
+						tag: { }
+					}
+					entity: "twilightforest:maze_slime"
+					value: 1L
+				}
+				{
+					id: "301FBF50A2EA82A8"
+					type: "kill"
+					icon: "terrarianslimes:blue_slime_ball"
+					entity: "terrarianslimes:blue_slime"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "4DBD63633F940487"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+				{
+					id: "7F0DC4240DECCD77"
+					type: "item"
+					item: {
+						id: "gofish:slime_rod"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "强身健体(雾)"
+			x: 3.0d
+			y: 3.5d
+			subtitle: "突然的奖励"
+			invisible: true
+			id: "54DAA2CCC8AF46C3"
+			tasks: [{
+				id: "1E08135BC22427FA"
+				type: "stat"
+				icon: "spectrum:seven_league_boots"
+				stat: "minecraft:jump"
+				value: 10000
+			}]
+			rewards: [
+				{
+					id: "56DAAF0F2FEB2162"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "63108DE8820D98A6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "7CD02724490961FA"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:gold_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			title: "我买买买!!!"
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			id: "409F3D5E82CAF509"
+			tasks: [{
+				id: "06A27BC3BBA2DE72"
+				type: "stat"
+				icon: {
+					id: "numismatic-overhaul:gold_coin"
+					Count: 1b
+					tag: { }
+				}
+				stat: "minecraft:traded_with_villager"
+				value: 1000
+			}]
+			rewards: [
+				{
+					id: "5C268FCBC85FCE2A"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "210DF235084D1145"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "633D6F1749643015"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+				{
+					id: "56456967BCF11D65"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:gold_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 100
+				}
+			]
+		}
+		{
+			title: "行万里路"
+			x: 2.0d
+			y: 4.0d
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			invisible: true
+			id: "6D8C0D09392FF49D"
+			tasks: [{
+				id: "59DAED04D0A7D20C"
+				type: "stat"
+				icon: {
+					id: "minecraft:iron_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:walk_one_cm"
+				value: 100000
+			}]
+			rewards: [
+				{
+					id: "20817DEE4FA0460C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "23DA3E9B3CD67C56"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+				{
+					id: "72D7E9B9491E16E2"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:gold_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 5
+				}
+				{
+					id: "2CFA7F67F9311F3A"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+		}
+		{
+			title: "大挖特挖!"
+			x: -0.5d
+			y: -2.5d
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			id: "784D44242369B0AD"
+			tasks: [
+				{
+					id: "543A62F621859A19"
+					type: "questsadditions:break"
+					icon: "minecraft:stone"
+					block_type: 0
+					block: "minecraft:stone"
+					value: 1000000L
+					checkItem: false
+				}
+				{
+					id: "01986E5B40391154"
+					type: "questsadditions:break"
+					icon: "minecraft:deepslate"
+					block_type: 0
+					block: "minecraft:deepslate"
+					value: 500000L
+					checkItem: false
+				}
+			]
+			rewards: [
+				{
+					id: "2E4002EEB6D2CCC7"
+					type: "xp_levels"
+					auto: "invisible"
+					xp_levels: 10000
+				}
+				{
+					id: "1C3FF8A93961890C"
+					type: "item"
+					auto: "invisible"
+					item: {
+						id: "spectrum:voiding_pickaxe"
+						Count: 1b
+						tag: {
+							Unbreakable: 1b
+							Damage: 0
+							Enchantments: [
+								{
+									lvl: 1s
+									id: "spectrum:voiding"
+								}
+								{
+									lvl: 1s
+									id: "extra_enchantments:incompatibility_curse"
+								}
+								{
+									lvl: 100
+									id: "minecraft:efficiency"
+								}
+								{
+									lvl: 100s
+									id: "musuen:unearthing"
+								}
+							]
+							display: {
+								Name: "[\"!世界吞噬者!\"]"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "煎蛋盛宴"
+			x: 2.5d
+			y: -2.5d
+			subtitle: "将龙蛋放到岩浆块上等一会就会变成煎蛋了"
+			dependencies: [
+				"027AAA6A3553F7DB"
+				"7BC9EF328769CA36"
+			]
+			hide: true
+			id: "508DF51CEB1340DF"
+			tasks: [{
+				id: "1E5E79166B766395"
+				type: "item"
+				item: "dracomelette:dracomelette"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4411D517CE3B9AEE"
+					type: "item"
+					auto: "invisible"
+					item: "dragonloot:dragon_scale"
+					random_bonus: 80
+				}
+				{
+					id: "37521A1DE06C6E17"
+					type: "item"
+					auto: "invisible"
+					item: "minecraft:dragon_breath"
+					random_bonus: 80
+				}
+				{
+					id: "5BE628B630CF4FED"
+					type: "item"
+					auto: "invisible"
+					item: {
+						id: "dragonloot:dragon_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 10s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "68C61D5E1BEDA6FF"
+					type: "item"
+					auto: "invisible"
+					item: {
+						id: "dragonloot:dragon_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 10s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "6D6E247B6AAB24F4"
+					type: "item"
+					auto: "invisible"
+					item: {
+						id: "dragonloot:dragon_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 10s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "65E7D5646B85C093"
+					type: "item"
+					auto: "invisible"
+					item: {
+						id: "dragonloot:dragon_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 10s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "今天你空军了吗?"
+			x: 1.0d
+			y: -4.5d
+			subtitle: "虽然mc里不会空军"
+			dependencies: ["3022F8914C5B5968"]
+			hide: true
+			id: "533713607C41872C"
+			tasks: [
+				{
+					id: "28C512FD96EEF343"
+					type: "item"
+					item: "minecraft:cod"
+					consume_items: true
+				}
+				{
+					id: "4C761CDDB87FC527"
+					type: "advancement"
+					advancement: "spectrum:midgame/fish_in_many_liquids"
+					criterion: ""
+				}
+			]
+			rewards: [{
+				id: "10D4E8288D8DCFCC"
+				type: "item"
+				item: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						Unbreakable: 1b
+						HideFlags: 7
+						Enchantments: [
+							{
+								lvl: 5
+								id: "minecraft:lure"
+							}
+							{
+								lvl: 100
+								id: "minecraft:luck_of_the_sea"
+							}
+							{
+								lvl: 1
+								id: "x_enchant:auto_fish"
+							}
+							{
+								lvl: 1
+								id: "yigd:soulbound"
+							}
+							{
+								lvl: 10
+								id: "x_enchant:librarian"
+							}
+						]
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"blue\",\"text\":\"返璞归真的普通钓竿\"}],\"text\":\"\"}"]
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"aqua\",\"text\":\"朴实钓竿\"}],\"text\":\"\"}"
+						}
+						Damage: 0
+						AttributeModifiers: [{
+							Slot: "mainhand"
+							AttributeName: "minecraft:generic.luck"
+							Operation: 0
+							UUID: [I;
+								-1864448025
+								1511998784
+								-1962136476
+								-235976203
+							]
+							Amount: 66.0d
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "房地产经纪人"
+			icon: {
+				id: "minecraft:emerald"
+				Count: 1b
+				tag: {
+					Unbreakable: 1b
+					HideFlags: 5
+					AttributeModifiers: [
+						{
+							Slot: "offhand"
+							AttributeName: "playerex:evasion"
+							Operation: 0
+							UUID: [I;
+								131160439
+								-643808462
+								-2124303629
+								1919476801
+							]
+							Amount: 1000.0d
+						}
+						{
+							Slot: "offhand"
+							AttributeName: "minecraft:generic.luck"
+							Operation: 0
+							UUID: [I;
+								-1626655346
+								56118044
+								-1075978677
+								1372934514
+							]
+							Amount: 10.0d
+						}
+					]
+					Enchantments: [{
+						lvl: 1
+						id: "yigd:soulbound"
+					}]
+					display: {
+						Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"green\",\"text\":\"你获得了村民的认可,拿在副手时可以闪避箭矢的攻击和提升一点幸运\"}],\"text\":\"\"}"]
+						Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"dark_green\",\"text\":\"村庄之证\"}],\"text\":\"\"}"
+					}
+				}
+			}
+			x: 0.0d
+			y: 3.0d
+			subtitle: "让所有的村民住在你的世界里"
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			id: "08957853429A69F6"
+			tasks: [
+				{
+					id: "4DEC21F3BDE13565"
+					type: "advancement"
+					advancement: "morevillagers:all_professions_traded"
+					criterion: ""
+				}
+				{
+					id: "5B595CF393E97C97"
+					type: "advancement"
+					advancement: "morevillagers:all_workstations_get"
+					criterion: ""
+				}
+				{
+					id: "5F3670721373CBED"
+					type: "advancement"
+					advancement: "morevillagers:all_villages"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "28946F05DEFFEF81"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:gold_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 250
+				}
+				{
+					id: "61478AF905543CFB"
+					type: "item"
+					auto: "invisible"
+					item: {
+						id: "minecraft:emerald"
+						Count: 1b
+						tag: {
+							Unbreakable: 1b
+							HideFlags: 7
+							AttributeModifiers: [
+								{
+									Slot: "offhand"
+									AttributeName: "playerex:evasion"
+									Operation: 0
+									UUID: [I;
+										131160439
+										-643808462
+										-2124303629
+										1919476801
+									]
+									Amount: 1000.0d
+								}
+								{
+									Slot: "offhand"
+									AttributeName: "minecraft:generic.luck"
+									Operation: 0
+									UUID: [I;
+										-1626655346
+										56118044
+										-1075978677
+										1372934514
+									]
+									Amount: 10.0d
+								}
+							]
+							Enchantments: [{
+								lvl: 1
+								id: "yigd:soulbound"
+							}]
+							display: {
+								Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"green\",\"text\":\"你获得了村民的认可,拿在副手时可以闪避箭矢的攻击和提升一点幸运\"}],\"text\":\"\"}"]
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"dark_green\",\"text\":\"村庄之证\"}],\"text\":\"\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "狩猎大师"
+			x: 2.0d
+			y: 3.0d
+			subtitle: "获得所有的动物头颅"
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			id: "1452A7DB6B7A665B"
+			tasks: [{
+				id: "150CDD7DB3F6F2C1"
+				type: "advancement"
+				advancement: "betteranimalsplus:animal_head_all"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1094BAD30F8FBA40"
+				type: "item"
+				icon: {
+					id: "mcdw:bow_longbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				item: {
+					id: "mcdw:bow_longbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						AttributeModifiers: [
+							{
+								Slot: "mainhand"
+								AttributeName: "combatroll:count"
+								Operation: 0
+								UUID: [I;
+									499181040
+									-1755166057
+									-2047027500
+									1334911374
+								]
+								Amount: 10.0d
+							}
+							{
+								Slot: "mainhand"
+								AttributeName: "playerex:ranged_damage"
+								Operation: 0
+								UUID: [I;
+									291180914
+									-1692842184
+									-1801306101
+									-1470049815
+								]
+								Amount: 10.0d
+							}
+							{
+								Slot: "mainhand"
+								AttributeName: "combatroll:recharge"
+								Operation: 0
+								UUID: [I;
+									1884454101
+									-1567078467
+									-1320562200
+									860613983
+								]
+								Amount: 10.0d
+							}
+						]
+						Enchantments: [
+							{
+								lvl: 10
+								id: "minecraft:unbreaking"
+							}
+							{
+								lvl: 10
+								id: "mcdw:bonus_shot"
+							}
+							{
+								lvl: 10
+								id: "mcdw:chain_reaction"
+							}
+							{
+								lvl: 10
+								id: "mcdw:dipping_poison"
+							}
+							{
+								lvl: 10
+								id: "mcdw:overcharge"
+							}
+						]
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"dark_red\",\"text\":\"狩猎大师的证明\"}],\"text\":\"\"}"]
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"老猎人的长弓\"}],\"text\":\"\"}"
+						}
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

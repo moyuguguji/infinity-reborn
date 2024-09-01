@@ -1,0 +1,12 @@
+{
+  "collection": "museumcurator.collection.lithology",
+  "name": "museumcurator.lithology.coal",
+  "relativeTo": "museumcurator.lithology.granite",
+  "items": [
+    "minecraft:coal_ore",
+    "minecraft:deepslate_coal_ore",
+    "minecraft:charcoal",
+    "minecraft:coal",
+    "minecraft:coal_block"
+  ]
+}

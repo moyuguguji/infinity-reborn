@@ -1,0 +1,373 @@
+{
+	id: "0AF526CBD940C290"
+	group: "2D4526175EFBC1B2"
+	order_index: 2
+	filename: "0AF526CBD940C290"
+	title: "下界之地"
+	icon: "minecraft:netherrack"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 24.0d
+		height: 13.5d
+		rotation: 0.0d
+		image: "kubejs:textures/ftbq/xiajie.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "建造传送门"
+			x: -3.0d
+			y: 0.5d
+			description: [
+				"特殊处理的黑曜石用来搭建下界传送门框架，用迷失的灵魂右键下界传送门框架即可打开下界传送门。"
+				"{image:kubejs:textures/ftbq/netherportal.png width:257 height:137 align:1}"
+			]
+			dependencies: ["0C35A0A8CEB01268"]
+			id: "5AFA002F47C6ABA0"
+			tasks: [
+				{
+					id: "3395BD51FCBC4769"
+					type: "item"
+					item: "infinity:special_handlingof_glowing_obsidian"
+					count: 10L
+				}
+				{
+					id: "73713649A9CA9D9A"
+					type: "item"
+					item: "soulsweapons:lost_soul"
+				}
+			]
+			rewards: [{
+				id: "5D72164B554B3A37"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			title: "前往下界"
+			icon: "minecraft:netherrack"
+			x: -1.0d
+			y: 0.5d
+			dependencies: ["5AFA002F47C6ABA0"]
+			id: "606F8D312E3CD95E"
+			tasks: [{
+				id: "514E2B12E0BC9BC4"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [
+				{
+					id: "73A16CD44D3BB9F1"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "54984D8F3F53C3EC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+			]
+		}
+		{
+			title: "讨伐：地狱之手！"
+			icon: "bosses_of_mass_destruction:blazing_eye"
+			x: 3.0d
+			y: -1.5d
+			subtitle: "讨伐难度：地狱；讨伐建议：强力的防御与回复能力，强大的远程输出能力，备好不死图腾"
+			description: [
+				"在下界中找到黑石组成的挑战之地，用镐子破坏封印即可召唤下界之手。（使用连锁挖掘封印可以召唤多个地狱之手。）"
+				"================================================"
+				"TIP：需要用弓箭或镐子击打弱点（眼球）才能唤醒地狱之手。"
+			]
+			dependencies: ["0B1B7F9147006845"]
+			id: "31CAE030EB6EE661"
+			tasks: [{
+				id: "7EE86AC5CFDF6692"
+				type: "advancement"
+				advancement: "darkbosses:nether_gauntlet_boss"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "2E79371A5402E6A0"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "6454B4494410DC7E"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			description: ["合成下界戈伯锭的材料之一。"]
+			dependencies: ["606F8D312E3CD95E"]
+			id: "111AEA908CBD7A23"
+			tasks: [{
+				id: "4FAB6593C920C57C"
+				type: "item"
+				item: "gobber2:gobber2_glob_nether"
+			}]
+			rewards: [{
+				id: "7B60D98C7D2C9040"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			title: "讨伐：亚托克斯！"
+			icon: "soulsweapons:lord_soul_red"
+			x: 5.0d
+			y: -1.0d
+			subtitle: "讨伐难度：中等；讨伐建议：无"
+			description: [
+				"你可以使用月石罗盘或boss罗盘寻找亚托克斯的所在地。"
+				"TIP：用凋零恶魔之心激活黑石基座可以复活亚托克斯。"
+			]
+			dependencies: ["0B1B7F9147006845"]
+			id: "21A1E9E65D7D11B7"
+			tasks: [{
+				id: "196719162E8D5AE0"
+				type: "advancement"
+				advancement: "darkbosses:decaying_king_boss"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "67DA6AAC6F090F27"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "169E13155A65352A"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			dependencies: [
+				"111AEA908CBD7A23"
+				"267C9BF54CE180AF"
+				"017DB777ABE56E5A"
+			]
+			id: "0B1B7F9147006845"
+			tasks: [{
+				id: "50FF69376A277560"
+				type: "item"
+				item: "gobber2:gobber2_ingot_nether"
+			}]
+			rewards: [{
+				id: "14E9974B4D0669C1"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			description: ["合成下界戈伯锭的材料之一。"]
+			dependencies: ["606F8D312E3CD95E"]
+			id: "017DB777ABE56E5A"
+			tasks: [{
+				id: "77E1E49357466673"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+			}]
+			rewards: [{
+				id: "6584537E0C781B7E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			title: "下界特产"
+			x: 1.0d
+			y: -1.0d
+			description: ["合成下界戈伯锭的材料们（耀金在主世界生成）"]
+			dependencies: ["606F8D312E3CD95E"]
+			id: "267C9BF54CE180AF"
+			tasks: [
+				{
+					id: "2AA21DF3A3DC896A"
+					type: "item"
+					item: "mythicmetals:palladium_ingot"
+				}
+				{
+					id: "7B9A17270F151442"
+					type: "item"
+					item: "mythicmetals:stormyx_ingot"
+				}
+				{
+					id: "31E45EF21DD7D534"
+					type: "item"
+					item: "mythicmetals:carmot_ingot"
+				}
+			]
+			rewards: [{
+				id: "5A7D351DF69E95F2"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			title: " 讨伐：凋零！"
+			icon: "minecraft:nether_star"
+			x: 5.0d
+			y: 0.5d
+			subtitle: "讨伐难度：中等-困难；讨伐建议：这还用建议？"
+			description: [
+				"本整合包的凋零经过了加强。"
+				"本包的凋零经过了加强；你每杀死一只凋零，都会让下一只凋零更加强大。"
+				"================================================"
+				"“不能杀死我的！终究会让我更加强大！”"
+			]
+			dependencies: ["0B1B7F9147006845"]
+			id: "5817C97811C89FDB"
+			tasks: [{
+				id: "4840136DD18AE151"
+				type: "kill"
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "688F8E30FFDBC92B"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "4759015B64376586"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+			]
+		}
+		{
+			title: "讨伐：黑石傀儡！"
+			x: 5.0d
+			y: 2.0d
+			subtitle: "讨伐难度：地狱；讨伐建议：创造飞行能力"
+			description: [
+				"黑石傀儡需要在下界召唤。首先搭建一个9*9的黑石平台，然后如下图一般在每侧中间放置一个錾制磨制黑石基座，在4个基座上放上镶金黑石碎片即可召唤黑石傀儡。（镶金黑石碎片可以通过击杀猪灵蛮兵获得，与猪灵交易也有小概率获得。）"
+				"================================================"
+				"{image:kubejs:textures/ftbq/2022-12-02_19.58.43.png width:256 height:137 align:1}"
+			]
+			dependencies: ["0B1B7F9147006845"]
+			id: "512E6CEC8B35C62E"
+			tasks: [
+				{
+					id: "564B2FB8FE00B0C8"
+					type: "item"
+					item: "adventurez:stone_golem_heart"
+				}
+				{
+					id: "067043BBA21B7258"
+					type: "advancement"
+					advancement: "adventurez:stone_golem_advancement"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "5DC4AB0BCC51DD3E"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "64E4A5056FB03C09"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+			]
+		}
+		{
+			title: "用雷电击穿两界壁垒"
+			x: -5.0d
+			y: 0.5d
+			subtitle: "制作“特殊处理的黑曜石”的材料之一"
+			description: ["闪电劈中黑曜石会将其转化为绯红黑曜石，你可以制作闪电箭来人工制造闪电。"]
+			dependencies: ["37C390D86B5B5639"]
+			id: "0C35A0A8CEB01268"
+			tasks: [{
+				id: "7F09D55A8C27F0CC"
+				type: "item"
+				item: "soulsweapons:crimson_obsidian"
+				count: 10L
+			}]
+			rewards: [{
+				id: "5F8A33B7A5C5791E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			description: ["一把或许还不错的中期武器。"]
+			dependencies: ["0B1B7F9147006845"]
+			optional: true
+			id: "64635CA43D21AAA0"
+			tasks: [{
+				id: "7D9EAAB7606262F7"
+				type: "item"
+				item: {
+					id: "mcdw:sword_sinister"
+					Count: 1b
+					tag: {
+						swa3: { }
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "搭建下界传送门的准备工作"
+			x: -7.0d
+			y: 0.5d
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			id: "37C390D86B5B5639"
+			tasks: [{
+				id: "4C68C959F7BA81CB"
+				type: "item"
+				item: "minecraft:obsidian"
+				count: 10L
+			}]
+			rewards: [{
+				id: "3C5ABAC9CA606F46"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,16 @@
+{
+  "collection": "museumcurator.collection.architecture",
+  "name": "museumcurator.architecture.lights",
+  "relativeTo": "museumcurator.architecture.containers",
+  "items": [
+    "minecraft:flint_and_steel",
+    "minecraft:fire_charge",
+    "minecraft:torch",
+    "minecraft:campfire",
+    "minecraft:lantern",
+    "minecraft:sea_lantern",
+    "minecraft:soul_torch",
+    "minecraft:soul_campfire",
+    "minecraft:soul_lantern"
+  ]
+}

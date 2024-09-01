@@ -1,0 +1,90 @@
+{
+	"lichConfig": {
+		"eternalNighttime": true,
+		"experienceDrop": 1500,
+		"idleHealingPerTick": 2.0,
+		"health": 200.0,
+		"missile": {
+			"statusEffectId": "minecraft:slowness",
+			"statusEffectDuration": 60,
+			"statusEffectPotency": 2,
+			"damage": 50.0
+		},
+		"comet": {
+			"explosionStrength": 5.0,
+			"destroysBlocks": true
+		},
+		"summonMechanic": {
+			"isEnabled": true,
+			"entitiesThatCountToSummonCounter": [
+				"minecraft:zombie",
+				"minecraft:skeleton",
+				"minecraft:drowned",
+				"minecraft:giant",
+				"minecraft:husk",
+				"minecraft:phantom",
+				"minecraft:skeleton_horse",
+				"minecraft:stray",
+				"minecraft:wither",
+				"minecraft:wither_skeleton",
+				"minecraft:zoglin",
+				"minecraft:zombie_horse",
+				"minecraft:zombie_villager",
+				"minecraft:zombified_piglin",
+				"adventurez:soul_reaper",
+				"adventurez:summoner",
+				"adventurez:skeleton_vanguard",
+				"adventurez:necromancer",
+				"whisperwoods:zotzpyre"
+			],
+			"numEntitiesKilledToDropSoulStar": 26
+		},
+		"towerGeneration": {
+			"generateLichTower": true,
+			"lichTowerGenerationSpacing": 100,
+			"lichTowerGenerationSeparation": 50
+		}
+	},
+	"obsidilithConfig": {
+		"health": 550.0,
+		"armor": 40.0,
+		"attack": 100.0,
+		"idleHealingPerTick": 3.0,
+		"experienceDrop": 1932,
+		"spawnPillarOnDeath": true,
+		"anvilAttackExplosionStrength": 8.0,
+		"arenaGeneration": {
+			"generationHeight": 90,
+			"generationSpacing": 64,
+			"generationSeparation": 32,
+			"generationEnabled": true
+		}
+	},
+	"gauntletConfig": {
+		"health": 380.0,
+		"armor": 18.0,
+		"attack": 40.0,
+		"idleHealingPerTick": 5.0,
+		"experienceDrop": 1000,
+		"spawnAncientDebrisOnDeath": true,
+		"energizedPunchExplosionSize": 5.0,
+		"normalPunchExplosionMultiplier": 2.6,
+		"arenaGeneration": {
+			"generationSpacing": 32,
+			"generationSeparation": 16,
+			"generationEnabled": true
+		}
+	},
+	"voidBlossomConfig": {
+		"health": 200.0,
+		"armor": 15.0,
+		"attack": 35.0,
+		"idleHealingPerTick": 50.0,
+		"experienceDrop": 1000,
+		"arenaGeneration": {
+			"generationSpacing": 64,
+			"generationSeparation": 24,
+			"generationEnabled": true
+		}
+	}
+}

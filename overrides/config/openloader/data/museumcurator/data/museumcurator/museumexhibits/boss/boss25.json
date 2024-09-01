@@ -1,0 +1,9 @@
+{
+    "collection": "museumcurator.boss",
+    "name": "museumcurator.boss.gaia",
+    "relativeTo": "museumcurator.boss.wither",
+    "placement": "after",
+    "items": [
+        "botania:life_essence"
+    ]
+}

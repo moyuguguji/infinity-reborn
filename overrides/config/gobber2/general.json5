@@ -1,0 +1,334 @@
+{
+	/* 
+	   
+	   ***********************
+	   Ring Settings
+	   ***********************
+	*/
+	"ringAboveCooldown": 120,
+	"enableAirWalkingPlaceGlass": true,
+	"ringAttractionRange": 8,
+	"ringBlinkDistance": 100,
+	"ringBlinkCooldown": 120,
+	"enableCuringAlwaysOn": false,
+	"ringCuringCooldown": 120,
+	"ringDismissalRange": 8.0,
+	"ringDismissalVelocity": 0.2,
+	"ringDismissalLift": 1.5,
+	"ringExplorerCooldown": 240,
+	"ringExplorerUsePlayerPos": false,
+	"ringExplorerMin": 5000,
+	"ringExplorerMax": 20000,
+	"ringFarmerHorizRange": 12,
+	"ringFarmerVertRange": 6,
+	"ringFarmerInterval": 60,
+	"ringFarmerIntervalCactus": 20,
+	"ringPhoenixHealAmount": 5,
+	"ringHasteLevel": 2,
+	"ringLuckLevel": 4,
+	"ringMinerCooldown": 120,
+	"ringMinerRange": 5,
+	"ringMinerVerticalRange": 4,
+	"ringMinerSharedBreaking": false,
+	"ringMinerSharedBreakingDelay": true,
+	"ringMinerInstantBreak": false,
+	"ringRepairInterval": 90,
+	"ringStrengthLevel": 2,
+	"ringStrengthResistenceLevel": 1,
+	"ringSwiftnessLevel": 1,
+	"ringTravelerLaunch": 4.0,
+	"ringTravelerCruising": 0.2,
+	/* 
+	   
+	   ***********************
+	   Effect Setting
+	   -used with optimization mods
+	   that break things
+	   Value of 300 works
+	   - only needed if there is a problem
+	   ***********************
+	*/
+	"effectDuration": 8,
+	"effectDurationKnowledge": 120,
+	/* 
+	   
+	   ***********************
+	   Medallion Settings
+	   ***********************
+	*/
+	"medallionExpMultiplier": 5,
+	"medallionLesserHealingAmount": 1,
+	"medallionHealingAmount": 2,
+	"medallionGreaterHealingAmount": 3,
+	"medallionShieldingHorizRange": 3,
+	"medallionShieldingVertRange": 2,
+	"medallionShieldingAgainstWither": false,
+	"medallionSufferingRange": 6,
+	"medallionSufferingDamage": 2,
+	/* 
+	   
+	   ***********************
+	   Staff Settings
+	   ***********************
+	*/
+	"staffTransformationDurability": 1025,
+	"staffClearingHorizRange": 6,
+	"staffClearingVertRange": 3,
+	"staffClearingCooldown": 120,
+	"staffSniperCooldown": 240,
+	"staffSniperQuickUseAllowed": true,
+	"staffFarmerHorizRange": 12,
+	"staffFarmerVertRange": 6,
+	"staffFarmerInterval": 60,
+	"staffFarmerIntervalCactus": 20,
+	"staffFarmerReplant": true,
+	"staffEnsnarementHotileMobs": false,
+	/* 
+	   
+	   ***********************
+	   Tool Settings
+	   ***********************
+	*/
+	"swordSniperCooldoown": 240,
+	"swordSniperQuickUseAllowed": true,
+	"enableEndHammer5x5": true,
+	"enableEndExcavator5x5": true,
+	"enableNetherSwordPerks": true,
+	/* 
+	   
+	   
+	   ******************************
+	   Bow Durability
+	   ******************************
+	*/
+	"gobberBowDurability": 3800,
+	"gobberNetherBowDurability": 5200,
+	"gobberEndBowDurability": 8000,
+	/* 
+	   
+	   
+	   ******************************
+	   Gobber Tool Material Stats
+	   ******************************
+	*/
+	"gobberDurability": 3800,
+	"gobberMiningSpeed": 9.0,
+	"gobberAttackDamage": 9.0,
+	"gobberSwordAttackSpeed": 2.0,
+	"gobberMiningLevel": 4,
+	"gobberEnchantability": 20,
+	/* 
+	   
+	   
+	   ******************************
+	   Gobber Nether Tool Material Stats
+	   ******************************
+	*/
+	"gobberNetherDurability": 5200,
+	"gobberNetherMiningSpeed": 12.0,
+	"gobberNetherAttackDamage": 9.0,
+	"gobberNetherSwordAttackSpeed": 2.200000047683716,
+	"gobberNetherMiningLevel": 5,
+	"gobberNetherEnchantability": 25,
+	/* 
+	   
+	   
+	   ******************************
+	   Gobber End Tool Material Stats
+	   ******************************
+	*/
+	"unbreakableEndTools": true,
+	"gobberEndDurability": 8000,
+	"gobberEndMiningSpeed": 14.0,
+	"gobberEndAttackDamage": 9.0,
+	"gobberEndSwordAttackSpeed": 2.4000000953674316,
+	"gobberEndMiningLevel": 5,
+	"gobberEndEnchantability": 30,
+	/* 
+	   
+	   
+	   ******************************
+	   Gobber Armor Material Stats
+	   ******************************
+	*/
+	"gobberDurabilityMultiplier": 71,
+	"gobberArmorEnchantability": 25,
+	"gobberToughness": 3.5,
+	"gobberKnockbackResistance": 0.0,
+	"gobberHeadProtection": 6,
+	"gobberChestProtection": 10,
+	"gobberLeggingsProtection": 8,
+	"gobberBootsProtection": 5,
+	/* 
+	   
+	   
+	   ******************************
+	   Gobber Nether Armor Material Stats
+	   ******************************
+	*/
+	"gobberNetherDurabilityMultiplier": 83,
+	"gobberNetherArmorEnchantability": 30,
+	"gobberNetherToughness": 4.0,
+	"gobberNetherKnockbackResistance": 0.20000000298023224,
+	"netherHeadProtection": 8,
+	"netherChestProtection": 12,
+	"netherLeggingsProtection": 10,
+	"netherBootsProtection": 7,
+	/* 
+	   
+	   
+	   ******************************
+	   Gobber End Armor Material Stats
+	   ******************************
+	*/
+	"gobberEndDurabilityMultiplier": 100,
+	"gobberEndArmorEnchantability": 30,
+	"gobberEndToughness": 5.0,
+	"gobberEndKnockbackResistance": 0.5,
+	"endHeadProtection": 11,
+	"endChestProtection": 15,
+	"endLeggingsProtection": 13,
+	"endBootsProtection": 10,
+	/* 
+	   
+	   
+	   ******************************
+	   Dragon Armor Material Stats
+	   ******************************
+	*/
+	"gobberDragonDurabilityMultiplier": 100,
+	"gobberDragonArmorEnchantability": 30,
+	"gobberDragonToughness": 6.0,
+	"gobberDragonKnockbackResistance": 2.5,
+	"dragonHeadProtection": 15,
+	"dragonChestProtecction": 19,
+	"dragonLeggingsProtection": 17,
+	"dragonBootsProtection": 14,
+	/* 
+	   
+	   ***********************
+	   Gobber Armor Features
+	   ***********************
+	*/
+	"enableGobberBreathing": true,
+	"enableGobberHealthPerks": false,
+	"healingPointsGobberArmor": 2,
+	/* 
+	   
+	   ***********************
+	   Nether Armor Features
+	   ***********************
+	*/
+	"enableNetherFirePerk": true,
+	"enableNetherHealthPerks": false,
+	"healingPointsNetherArmor": 2,
+	/* 
+	   
+	   ***********************
+	   End Armor Features
+	   ***********************
+	*/
+	"unbreakableEndArmor": true,
+	"enableEndBreathing": true,
+	"enableEndFirePerk": true,
+	"enableEndHealthPerks": false,
+	"healingPointsEndArmor": 3,
+	"enableEndNoFallDamage": true,
+	"enableGlidingEndArmor": false,
+	/* 
+	   
+	   ***********************
+	   Dragon Armor Features
+	   ***********************
+	*/
+	"unbreakableDragonArmor": true,
+	"enableDragonBreathing": true,
+	"enableDragonFirePerk": true,
+	"enableDragonHealthPerks": true,
+	"healingPointsDragonArmor": 4,
+	"enableDragonCuring": true,
+	"enableDragonNoFallDamage": true,
+	"enableGlidingDragonArmor": true,
+	"enableDragonFlying": true,
+	/* 
+	   
+	   ***********************
+	   Enchantments
+	   ***********************
+	*/
+	"enableSummonerBonusStats": true,
+	"summonerGoldGear": false,
+	"summonerMobLifespan": 1500,
+	/* 
+	   
+	   ***********************
+	   Enchantment Settings
+	   ***********************
+	*/
+	"smithbladeAttackAmount": 2,
+	"smithbladeMaxLevel": 5,
+	"rebuffingMaxLevel": 3,
+	"untouchableDamage": 8,
+	"untouchableMaxLevel": 0,
+	"summonerHealthBonus": 30.0,
+	"summonerAttackBonus": 10.0,
+	"summonerMovementBonus": 0.6,
+	"summonerArmorBonus": 20.0,
+	"summonerEventEnable": false,
+	"enableRingEnchanting": true,
+	"enableStaffEnchanting": true,
+	"enableMedallionEnchanting": true,
+	"apotropaicEventEnable": true,
+	/* 
+	   
+	   ***********************
+	   Status Effects
+	   ***********************
+	*/
+	"KnowledgeBoostXPPerTick": 1,
+	/* 
+	   
+	   ***********************
+	   Loot Chests
+	   ***********************
+	*/
+	"lootEnable": true,
+	"lootChance": 0.03999999910593033,
+	/* 
+	   
+	   ***********************
+	   Special Item
+	   
+	   Item provides a one-time random teleport
+	   and is consumed after successful teleport.
+	   Min/Max range from world spawn to search
+	   or from the player's current position
+	   Item does NOT have a standard recipe
+	   ***********************
+	*/
+	"enableSpecialItem": true,
+	"specialItemMin": 20000,
+	"specialItemMax": 75000,
+	"specialItemUsePlayerPos": false,
+	/* 
+	   
+	   ***********************
+	   Fuel (Foo) Settings
+	   
+	   ***********************
+	*/
+	"fooBurntime": 12000,
+	"fooNetherBurntime": 24000,
+	"fooEndBurntime": 32000,
+	/* 
+	   
+	   
+	   ******************************
+	   Bow Zoom Multiplier
+	   - vanilla bow value = .15F
+	   - pretty good value = .45F
+	   - awesome value = .75F
+	   ******************************
+	*/
+	"bowZoomMultiplier": 0.44999998807907104
+}

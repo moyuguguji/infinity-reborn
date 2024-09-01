@@ -1,0 +1,174 @@
+{
+	//-----Errors-----//
+	"error.arcanus.missing_spell": "这个咒语不存在",
+	"error.arcanus.unknown_spell": "你还不知道这个咒语",
+	"error.arcanus.not_enough_mana": "你没有足够的魔法值来施放这个咒语",
+	"error.arcanus.burnout": "你感觉有点疲惫...",
+
+	//-----Spells-----//
+	"spell.arcanus.lunge": "发射",
+	"spell.arcanus.dream_warp": "梦回",
+	"spell.arcanus.magic_missile": "魔法导弹",
+	"spell.arcanus.telekinetic_shock": "心灵感应冲击",
+	"spell.arcanus.heal": "治愈",
+	"spell.arcanus.discombobulate": "困扰",
+	"spell.arcanus.solar_strike": "太阳打击",
+	"spell.arcanus.arcane_barrier": "神秘屏障",
+	"spell.arcanus.no_target": "咒语未命中",
+
+	//-----Book Titles-----//
+	"book.arcanus.lunge.title": "发射咒语书",
+	"book.arcanus.dream_warp.title": "梦回咒语书",
+	"book.arcanus.magic_missile.title": "魔法导弹咒语书",
+	"book.arcanus.telekinetic_shock.title": "心灵感应冲击咒语书",
+	"book.arcanus.heal.title": "治愈咒语书",
+	"book.arcanus.discombobulate.title": "困扰咒语书",
+	"book.arcanus.solar_strike.title": "太阳打击咒语书",
+	"book.arcanus.arcane_barrier.title": "神秘屏障咒语书",
+
+	//-----Book Authors-----//
+	"book.arcanus.00.author": "Grand Mage fizzgig511",
+	"book.arcanus.01.author": "ComradeCammie the Seer",
+	"book.arcanus.02.author": "Kiori the Alchemist",
+	"book.arcanus.03.author": "SmallEnderman the Sorcerer",
+	"book.arcanus.04.author": "Old Wizard UpcraftLP",
+	"book.arcanus.05.author": "Truentyena the Explorer",
+	"book.arcanus.06.author": "Arathain the Eternally Lost",
+	"book.arcanus.07.author": "doctor4t, Jarl of Rattenheim",
+	"book.arcanus.08.author": "ProxyCattus, Lord of Cats",
+	"book.arcanus.09.author": "Ace1234 the Witch",
+	"book.arcanus.10.author": "MystifiedAxe the Old",
+	"book.arcanus.11.author": "Enderbender gigaherz",
+	"book.arcanus.12.author": "TheSilkMiner the Necromancer",
+	"book.arcanus.13.author": "Curle the Festive Bolb",
+	"book.arcanus.14.author": "Polymath DauthiumSilencer",
+	"book.arcanus.15.author": "Coven Witch AmyMialee",
+	"book.arcanus.16.author": "Suspect_Potato the Criminal Fortune Teller",
+	"book.arcanus.17.author": "Inkybun the Master",
+	"book.arcanus.18.author": "MoriyaShiine the King",
+	"book.arcanus.19.author": "Aelpecyem the Heretic",
+	"book.arcanus.20.author": "_toErIpNid_ the Coward",
+
+	//-----Book Descriptions-----//
+	"book.arcanus.casting_pattern": "\n\n-------------------\n\n    施法模式:\n",
+	"book.arcanus.lunge.description": "这个咒语会将你用极大的力量向前发射，伤害你碰撞的任何东西。",
+	"book.arcanus.dream_warp.description": "利用平面旅行, 你可以 \"传送\" 回家以避免陷入尴尬的境地。",
+	"book.arcanus.magic_missile.description": "制造出快速移动、低伤害的魔法能量弹丸。\n\n这是所有法师武器库中的珍贵武器。",
+	"book.arcanus.telekinetic_shock.description": "在魔法辅助下，这个咒语会让任何敌人（或朋友）飞起来。\n\n在悬崖周围使用时请小心...",
+	"book.arcanus.heal.description": "召唤魔法能量快速治愈伤口。这个咒语在紧要关头很有用。",
+	"book.arcanus.discombobulate.description": "严重扰乱敌人对世界的看法...约8秒。\n\n现在还有足够的时间逃脱。",
+	"book.arcanus.solar_strike.description": "施放这个咒语会召唤出来自太阳本身的光束，焚烧大多数敌人。",
+	"book.arcanus.arcane_barrier.description": "建筑被高估了。在这个房子里，我们使用由魔法能量制成的柱子来阻挡怪物。",
+
+	//-----Items-----//
+	"item.arcanus.initiate_wand": "初学者法杖",
+	"item.arcanus.adept_wand": "进阶法杖",
+	"item.arcanus.master_wand": "大师法杖",
+	"item.arcanus.mana_flask_empty": "空魔法瓶",
+	"item.arcanus.mana_flask_empty.description": "在潜行时使用以填充魔力",
+	"item.arcanus.mana_flask": "魔法瓶",
+	"item.arcanus.mana_flask.description": "喝掉它以恢复储存的魔力",
+
+	//-----Blocks-----//
+	"block.arcanus.fillable_bookshelf": "书架",
+	"block.arcanus.display_case": "展示台",
+
+	//-----Entities-----//
+	"entity.arcanus.magic_missile": "魔法导弹",
+	"entity.arcanus.solar_strike": "太阳打击",
+	"entity.arcanus.arcane_barrier": "神秘屏障",
+
+	//-----Entity Attributes-----//
+	"attribute.name.generic.arcanus.mana_cost": "魔法消耗",
+	"attribute.name.generic.arcanus.mana_regen": "魔法再生",
+	"attribute.name.generic.arcanus.burnout_regen": "燃尽再生",
+	"attribute.name.generic.arcanus.mana_lock": "魔法锁定",
+
+	//-----Item Groups-----//
+	"itemGroup.arcanus.general": "阿卡努斯",
+
+	//-----Wand-----//
+	"wand.arcanus.casting_cost": "施法成本",
+
+	//-----Advancements-----//
+	"advancements.arcanus.wand.title": "Too Many Magic Mods: The Mod",
+	"advancements.arcanus.wand.description": "Craft a Wand.",
+	"advancements.arcanus.lunge.title": "I am become Froge, Savior of Worlds",
+	"advancements.arcanus.lunge.description": "Find the Lunge Spell Book in a dungeon.",
+	"advancements.arcanus.dream_warp.title": "There's No Place Like Home...",
+	"advancements.arcanus.dream_warp.description": "Find the Dream Warp Spell Book in a dungeon.",
+	"advancements.arcanus.magic_missile.title": "A Wizard's Best Friend",
+	"advancements.arcanus.magic_missile.description": "Find the Magic Missile Spell Book in a dungeon.",
+	"advancements.arcanus.telekinetic_shock.title": "Mmm... goot :)",
+	"advancements.arcanus.telekinetic_shock.description": "Find the Telekinetic Shock Spell Book in a dungeon.",
+	"advancements.arcanus.heal.title": "Tis but a scratch!",
+	"advancements.arcanus.heal.description": "Find the Heal Spell Book in a dungeon.",
+	"advancements.arcanus.discombobulate.title": "You Absolute Buffoon",
+	"advancements.arcanus.discombobulate.description": "Find the Discombobulate Spell Book in a dungeon.",
+	"advancements.arcanus.solar_strike.title": "That Lucky Old Sun",
+	"advancements.arcanus.solar_strike.description": "Find the Solar Strike Spell Book in a dungeon.",
+	"advancements.arcanus.arcane_barrier.title": "You shall not... PASS!",
+	"advancements.arcanus.arcane_barrier.description": "Find the Arcane Barrier Spell Book in a dungeon.",
+	"advancements.arcanus.all_spells.title": "Unlimited Power!",
+	"advancements.arcanus.all_spells.description": "Craft a Wand and collect all 8 Spell Books.",
+
+	//-----Commands-----//
+	"commands.arcanus.spells.list": "%s's Known Spells: %s",
+	"commands.arcanus.spells.added": "Gave [%s] to %s",
+	"commands.arcanus.spells.removed": "Removed [%s] from %s",
+	"commands.arcanus.spells.added_all": "Gave all spells to %s",
+	"commands.arcanus.spells.cleared": "Cleared all spells from %s",
+	"commands.arcanus.spells.not_found": "Spell does not exist",
+	"commands.arcanus.spells.does_not_have": "%s does not have [%s]",
+	"commands.arcanus.spells.already_known": "%s already knows [%s]",
+	"commands.arcanus.spells.not_valid_spell": "Must be a valid spell",
+	"commands.arcanus.spells.no_known_spells": "%s doesn't know any spells. What a nerd!",
+
+	//-----Death Messages-----//
+	"death.attack.magic_burnout": "%s 了解了成为模组开发者的感受",
+	"death.attack.magic_burnout.player": "%2$s 要求 %1$s 用 Forge 端口",
+	"death.attack.solar_strike": "%s 在与 %s 共度时光时受到严重晒伤",
+	"death.attack.solar_strike.item": "%s 严重晒伤因为 %s 使用了 %s",
+
+	//-----Subtitles-----//
+	"subtitles.arcanus.magic_missile": "魔法导弹",
+	"subtitles.arcanus.telekinetic_shock": "心灵感应冲击",
+	"subtitles.arcanus.solar_strike": "太阳打击",
+	"subtitles.arcanus.heal": "治愈",
+
+	//-----Keybinds-----//
+	"category.arcanus.general": "阿卡努斯",
+	"key.arcanus.activate_amulet": "激活护身符",
+	"key.arcanus.spell_modifier": "法术修饰符（不执行任何操作）",
+
+	//-----ModMenu-----//
+	"text.autoconfig.arcanus.title": "Arcanus",
+	"text.autoconfig.arcanus.option.doLecternProcessor": "Run Lectern Structure Processor.",
+	"text.autoconfig.arcanus.option.doBookshelfProcessor": "Run Bookshelf Structure Processor.",
+	"text.autoconfig.arcanus.option.strongholdsHaveBooks": "Strongholds have Spell Books.",
+	"text.autoconfig.arcanus.option.ruinedPortalsHaveBooks": "Ruined Portals have Spell Books.",
+	"text.autoconfig.arcanus.option.haveBurnout": "Should players have Burnout?",
+	"text.autoconfig.arcanus.option.magicColour": "The color of objects created by spells.",
+	"text.autoconfig.arcanus.option.baseManaCooldown": "The time Mana takes to refill by 1 in ticks before modifiers.",
+	"text.autoconfig.arcanus.option.baseBurnoutCooldown": "The time Burnout takes to reduce by 1 in ticks before modifiers.",
+	"text.autoconfig.arcanus.option.spells": "Spells:",
+	"text.autoconfig.arcanus.option.spells.enableLunge": "Enable Lunge spell.",
+	"text.autoconfig.arcanus.option.spells.enableDreamWarp": "Enable Dream Warp spell.",
+	"text.autoconfig.arcanus.option.spells.enableMagicMissile": "Enable Magic Missile spell.",
+	"text.autoconfig.arcanus.option.spells.enableTelekineticShock": "Enable Telekinetic Shock spell.",
+	"text.autoconfig.arcanus.option.spells.enableHeal": "Enable Heal spell.",
+	"text.autoconfig.arcanus.option.spells.enableDiscombobulate": "Enable Discombobulate spell.",
+	"text.autoconfig.arcanus.option.spells.enableSolarStrike": "Enable Solar Strike spell.",
+	"text.autoconfig.arcanus.option.spells.enableArcaneBarrier": "Enable Arcane Barrier spell.",
+	"text.autoconfig.arcanus.option.spells.manaCosts": "Mana Costs:",
+	"text.autoconfig.arcanus.option.spells.manaCosts.lungeCastingCost": "The Mana cost for the Lunge spell.",
+	"text.autoconfig.arcanus.option.spells.manaCosts.dreamWarpCastingCost": "The Mana cost for the Dream Warp spell.",
+	"text.autoconfig.arcanus.option.spells.manaCosts.magicMissileCastingCost": "The Mana cost for the Magic Missile spell.",
+	"text.autoconfig.arcanus.option.spells.manaCosts.telekinesisCastingCost": "The Mana cost for the Telekinetic Shock spell.",
+	"text.autoconfig.arcanus.option.spells.manaCosts.healCastingCost": "The Mana cost for the Heal spell.",
+	"text.autoconfig.arcanus.option.spells.manaCosts.discombobulateCastingCost": "The Mana cost for the Discombobulate spell.",
+	"text.autoconfig.arcanus.option.spells.manaCosts.solarStrikeCastingCost": "The Mana cost for the Solar Strike spell.",
+	"text.autoconfig.arcanus.option.spells.manaCosts.arcaneBarrierCastingCost": "The Mana cost for the Arcane Barrier spell.",
+	"text.autoconfig.arcanus.option.structuresWithBookshelves": "List of structure paths with Bookshelves.",
+	"text.autoconfig.arcanus.option.structuresWithLecterns": "List of structure paths with Lecterns."
+}

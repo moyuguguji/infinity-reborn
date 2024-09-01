@@ -1,0 +1,12 @@
+{
+  "collection": "museumcurator.collection.technology",
+  "name": "museumcurator.technology.boats",
+  "items": [
+    "minecraft:oak_boat",
+    "minecraft:dark_oak_boat",
+    "minecraft:acacia_boat",
+    "minecraft:birch_boat",
+    "minecraft:jungle_boat",
+    "minecraft:spruce_boat"
+  ]
+}

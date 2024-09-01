@@ -1,0 +1,57 @@
+{
+    "damage_condition": {
+        "type": "dieyourway:name",
+        "name": "magic"
+    },
+    "messages": [
+        "[\"\",%1$s,{\"text\":\" 忘记看血条了,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 腿抽筋了,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 被踢出了这个世界,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 变为了一块充满弹性的墓碑,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 爆金币了,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%2$s,{\"text\":\" 饱了 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 被超度了,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 失误了,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 手抽筋了,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 踩到了乐高积木,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 可以按斤卖了,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 已被打败! \",\"bold\":true,\"color\":\"#56227D\"}]",
+        "[\"\",%1$s,{\"text\":\" 被削顶了,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 的脚趾磕到了桌角,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",{\"text\":\" 现已将 \",\"bold\":true,\"color\":\"dark_red\"},%1$s,{\"text\":\" 加入 \",\"bold\":true,\"color\":\"dark_red\"},%2$s,{\"text\":\" 豪华套餐 \",\"bold\":true,\"color\":\"dark_red\"}]",
+        "[\"\",%1$s,{\"text\":\" 听到了一个不好笑的笑话,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 石头剪刀布输了,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 不知道要买百事还是可口可乐,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 被挂了,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 被送去见奥库瑞姆了,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 被管理员禁言了29天23小时59分钟,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 血压高了,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 被空气迎头痛击,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 咬到舌头了,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 想不清楚为什么世界上没有北瓜,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 遇到了电车难题,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 突然意识到225×2不是550,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 睡过头了,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 在土豆里吃到了姜,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 的薯条没有番茄酱,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 噶了,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 寄了,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 发现自己的电脑盘红条了,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 的手机没接上充电线,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 起猛了,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 被吃掉了脑子,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 算错了1+1等于多少,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 看着自己的内脏变成了“外脏”,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 被腰斩了,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 被斩首了,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%1$s,{\"text\":\" 被杀死了,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]"
+    ],
+    "arguments": [
+        {
+            "type": "dieyourway:dead_entity"
+        },
+        {
+            "type": "dieyourway:attacker"
+        }
+    ]
+}

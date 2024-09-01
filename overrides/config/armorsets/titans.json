@@ -1,0 +1,31 @@
+{
+  "armorSetName": "titans",
+  "head": {
+    "itemKey": "mcda:titans_shroud_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "mcda:titans_shroud_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "mcda:titans_shroud_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "mcda:titans_shroud_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "soulsweapons:magic_resistance",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

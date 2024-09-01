@@ -1,0 +1,12 @@
+{
+  "collection": "museumcurator.collection.lithology",
+  "name": "museumcurator.lithology.brick",
+  "relativeTo": "museumcurator.lithology.redsand",
+  "items": [
+    "minecraft:brick",
+    "minecraft:bricks",
+    "minecraft:brick_slab",
+    "minecraft:brick_stairs",
+    "minecraft:brick_wall"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+    "name": "dnl:plains_castle/mobs",
+    "fallback": "dnl:plains_castle/mobs",
+    "elements": [
+        {
+            "weight": 9,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "dnl:plains_castle/mobs/iron_sword_zombie",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "dnl:plains_castle/mobs/diamond_sword_zombie",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 9,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "dnl:plains_castle/mobs/iron_axe_zombie",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "dnl:plains_castle/mobs/diamond_axe_zombie",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 9,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "dnl:plains_castle/mobs/iron_bow_skeleton",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "dnl:plains_castle/mobs/diamond_bow_skeleton",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

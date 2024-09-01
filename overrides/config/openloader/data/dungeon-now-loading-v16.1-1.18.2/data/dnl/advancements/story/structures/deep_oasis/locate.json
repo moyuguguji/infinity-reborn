@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dark_prismarine"
+    },
+    "title": "深渊之幽居",
+    "description": "潜入深渊暗井",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/themes/hidden/locate",
+  "criteria": {
+    "locate_deep_oasis": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "dnl:deep_oasis"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "locate_deep_oasis"
+    ]
+  ]
+}

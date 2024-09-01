@@ -1,0 +1,29 @@
+{
+	/* ***********************
+	   Dungeons Tag Settings (experimental)
+	   - requires datapack
+	   - datapack contains Better Dungeons mod structures
+	   - other structures can be added if desired
+	   ***********************
+	*/
+	"enableDungeonType": false,
+	/* ***********************
+	   Graveyard Tag Settings (experimental)
+	   - requires datapack
+	   - datapack contains The Graveyard mod structures
+	   - other structures can be added if desired
+	   ***********************
+	*/
+	"enableGraveyards": false,
+	/* ***********************
+	   Buildings Tag Settings (experimental)
+	   - requires datapack
+	   - datapack contains Awesome Dungeons, Oceans,
+	   Nether, and End mod structures
+	   - other structures can be added if desired
+	   ***********************
+	*/
+	"enableBuildings": false,
+	"enableNetherBuildings": false,
+	"enableEndBuildings": false
+}

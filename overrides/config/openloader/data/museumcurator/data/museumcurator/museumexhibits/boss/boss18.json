@@ -1,0 +1,22 @@
+{
+    "collection": "museumcurator.boss",
+    "name": "museumcurator.boss.chaos_monarch",
+    "relativeTo": "museumcurator.boss.wither",
+    "placement": "after",
+    "items": [
+        "soulsweapons:chaos_crown",
+        "soulsweapons:chaos_robes",
+        "soulsweapons:withered_wabbajack",
+        "soulsweapons:lord_soul_void",
+        "soulsweapons:essence_of_eventide",
+        "mythicmetals:palladium_ingot",
+        "mythicmetals:hallowed_ingot",
+        "mythicmetals:adamantite_ingot",
+        "mythicmetals:metallurgium_ingot",
+        "mythicmetals:stormyx_ingot",
+        "mythicmetals:banglum_chunk",
+        "mythicmetals:unobtainium",
+        "minecraft:netherite_ingot",
+        "mythicmetals:stormyx_shell"
+    ]
+}

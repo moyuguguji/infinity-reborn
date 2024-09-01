@@ -1,0 +1,150 @@
+To refresh this file, delete it and run /reload command again! Last updated: Aug 7, 2022, 3:22:44 AM
+
+#the_bumblezone:no_dungeons
+- the_bumblezone:cell_maze
+
+#the_bumblezone:wrath_causing
+- the_bumblezone:cell_maze
+
+#the_bumblezone:honey_compass_locating
+- the_bumblezone:cell_maze
+
+#bettermineshafts:better_mineshafts
+- bettermineshafts:mineshaft_acacia
+- bettermineshafts:mineshaft_desert
+- bettermineshafts:mineshaft_dripstone
+- bettermineshafts:mineshaft_forest
+- bettermineshafts:mineshaft_ice
+- bettermineshafts:mineshaft_jungle
+- bettermineshafts:mineshaft_lush
+- bettermineshafts:mineshaft_mesa
+- bettermineshafts:mineshaft_mushroom
+- bettermineshafts:mineshaft_oak
+- bettermineshafts:mineshaft_red_desert
+- bettermineshafts:mineshaft_spruce
+- bettermineshafts:mineshaft_spruce_snowy
+
+#minecraft:shipwreck
+- minecraft:shipwreck
+- minecraft:shipwreck_beached
+
+#charm:endermite_powder_located
+- minecraft:end_city
+
+#minecraft:on_ocean_explorer_maps
+- minecraft:monument
+
+#morevillagers:on_pillager_outpost_explorer_maps
+- minecraft:pillager_outpost
+
+#betterstrongholds:stronghold
+- betterstrongholds:stronghold
+
+#morevillagers:on_fortress_explorer_maps
+- minecraft:fortress
+
+#minecraft:on_treasure_maps
+- minecraft:buried_treasure
+
+#morevillagers:on_mineshaft_explorer_maps
+- #bettermineshafts:better_mineshafts
+- minecraft:mineshaft
+
+#minecraft:ruined_portal
+- minecraft:ruined_portal_desert
+- minecraft:ruined_portal_jungle
+- minecraft:ruined_portal_mountain
+- minecraft:ruined_portal_nether
+- minecraft:ruined_portal_ocean
+- minecraft:ruined_portal
+- minecraft:ruined_portal_swamp
+
+#morevillagers:on_swamp_hut_explorer_maps
+- betterwitchhuts:witch_hut
+- minecraft:swamp_hut
+
+#minecraft:village
+- minecraft:village_plains
+- minecraft:village_desert
+- minecraft:village_savanna
+- minecraft:village_snowy
+- minecraft:village_taiga
+- #byg:village
+
+#byg:village
+- byg:village_red_rock
+- byg:village_skyris
+- byg:village_ruins
+- byg:village_tropical
+
+#minecraft:ocean_ruin
+- minecraft:ocean_ruin_cold
+- minecraft:ocean_ruin_warm
+
+#minecraft:mineshaft
+- minecraft:mineshaft
+- minecraft:mineshaft_mesa
+- bettermineshafts:mineshaft_acacia
+- bettermineshafts:mineshaft_desert
+- bettermineshafts:mineshaft_ice
+- bettermineshafts:mineshaft_jungle
+- bettermineshafts:mineshaft_lush
+- bettermineshafts:mineshaft_mesa
+- bettermineshafts:mineshaft_mushroom
+- bettermineshafts:mineshaft_oak
+- bettermineshafts:mineshaft_red_desert
+- bettermineshafts:mineshaft_spruce
+- bettermineshafts:mineshaft_spruce_snowy
+- bettermineshafts:mineshaft_forest
+- bettermineshafts:mineshaft_dripstone
+
+#bosses_of_mass_destruction:void_lily_target
+- bosses_of_mass_destruction:void_blossom
+
+#minecraft:on_woodland_explorer_maps
+- minecraft:mansion
+- biomemakeover:mansion
+
+#bosses_of_mass_destruction:soul_star_target
+- bosses_of_mass_destruction:lich_tower
+
+#morevillagers:on_bastion_remnant_explorer_maps
+- minecraft:bastion_remnant
+
+#morevillagers:on_end_city_explorer_maps
+- minecraft:end_city
+
+#mostructures:no_lakes
+- mostructures:barn_house
+- mostructures:big_pyramid
+- mostructures:desert_abandoned_church
+- mostructures:ice_tower
+- mostructures:jungle_pyramid
+- mostructures:killer_bunny_castle
+- mostructures:lighthouse
+- mostructures:moai
+- mostructures:pillager_factory
+- mostructures:plains_abandoned_church
+- mostructures:savanna_abandoned_church
+- mostructures:snowy_abandoned_church
+- mostructures:taiga_abandoned_church
+- mostructures:tavern
+- mostructures:villager_market
+- mostructures:villager_tower
+
+#morevillagers:on_jungle_temple_explorer_maps
+- minecraft:jungle_pyramid
+
+#minecraft:eye_of_ender_located
+- minecraft:stronghold
+- #betterstrongholds:stronghold
+
+#byg:arches
+- byg:red_rock_arch
+- byg:destroyed_red_rock_arch
+- byg:overgrown_stone_arch
+- byg:stone_arch
+
+#minecraft:dolphin_located
+- #minecraft:ocean_ruin
+- #minecraft:shipwreck

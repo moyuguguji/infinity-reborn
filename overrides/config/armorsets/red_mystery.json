@@ -1,0 +1,61 @@
+{
+  "armorSetName": "red_mystery",
+  "head": {
+    "itemKey": "mcda:red_mystery_armor_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "mcda:red_mystery_armor_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "mcda:red_mystery_armor_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "mcda:red_mystery_armor_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 3,
+  "partialSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:strength",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:haste",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:fire_resistance",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:strength",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

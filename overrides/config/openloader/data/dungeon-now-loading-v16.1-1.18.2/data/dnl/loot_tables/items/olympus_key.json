@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"奥林匹斯之钥\",\"color\":\"dark_aqua\",\"italic\":false}'},CustomModelData:15004,dnl.item:1b,dnl.olympus_key:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

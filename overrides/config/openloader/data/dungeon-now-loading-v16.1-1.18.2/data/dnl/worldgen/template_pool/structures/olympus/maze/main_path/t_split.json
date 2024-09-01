@@ -1,0 +1,24 @@
+{
+  "name": "dnl:structures/olympus/maze/main_path/t_split",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "dnl:olympus/maze/main_path/tb",
+        "processors": "dnl:structures/olympus/path_age"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "dnl:olympus/maze/main_path/c",
+        "processors": "dnl:structures/olympus/path_age"
+      }
+    }
+  ]
+}

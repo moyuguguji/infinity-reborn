@@ -1,0 +1,79 @@
+{
+    "armorSetName": "gobberdragon",
+    "head": {
+        "itemKey": "gobber2:gobber2_helmet_dragon",
+        "mustBeEmpty": false
+    },
+    "chest": {
+        "itemKey": "gobber2:gobber2_chestplate_dragon",
+        "mustBeEmpty": false
+    },
+    "legs": {
+        "itemKey": "gobber2:gobber2_leggings_dragon",
+        "mustBeEmpty": false
+    },
+    "boots": {
+        "itemKey": "gobber2:gobber2_boots_dragon",
+        "mustBeEmpty": false
+    },
+    "partialBonusRequiredAmount": 2,
+    "partialSetBonuses": [
+        {
+            "type": "effect",
+            "name": "minecraft:speed",
+            "value": 4.0,
+            "interactionType": "self",
+            "interactionDuration": 300,
+            "hideBonusDescription": false,
+            "onlyImmuneToNewEffects": false
+        }
+    ],
+    "fullSetBonuses": [
+        {
+            "type": "effect",
+            "name": "soulsweapons:magic_resistance",
+            "value": 4.0,
+            "interactionType": "self",
+            "interactionDuration": 300,
+            "hideBonusDescription": false,
+            "onlyImmuneToNewEffects": false
+        },
+        {
+            "type": "effect",
+            "name": "minecraft:luck",
+            "value": 4.0,
+            "interactionType": "self",
+            "interactionDuration": 300,
+            "hideBonusDescription": false,
+            "onlyImmuneToNewEffects": false
+        },
+        {
+            "type": "effect",
+            "name": "minecraft:strength",
+            "value": 7.0,
+            "interactionType": "self",
+            "interactionDuration": 300,
+            "hideBonusDescription": false,
+            "onlyImmuneToNewEffects": false
+        },
+        {
+            "type": "effect",
+            "name": "minecraft:regeneration",
+            "value": 2.0,
+            "interactionType": "self",
+            "interactionDuration": 300,
+            "hideBonusDescription": false,
+            "onlyImmuneToNewEffects": false
+        },
+        {
+            "type": "effect",
+            "name": "minecraft:resistance",
+            "value": 3.0,
+            "interactionType": "self",
+            "interactionDuration": 300,
+            "hideBonusDescription": false,
+            "onlyImmuneToNewEffects": false
+        }
+    ],
+    "hideGeneratedTooltip": false
+}

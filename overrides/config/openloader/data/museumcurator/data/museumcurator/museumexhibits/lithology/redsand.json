@@ -1,0 +1,18 @@
+{
+  "collection": "museumcurator.collection.lithology",
+  "name": "museumcurator.lithology.redsand",
+  "relativeTo": "museumcurator.lithology.sand",
+  "items": [
+    "minecraft:red_sand",
+    "minecraft:red_sandstone",
+    "minecraft:red_sandstone_slab",
+    "minecraft:red_sandstone_stairs",
+    "minecraft:red_sandstone_wall",
+    "minecraft:cut_red_sandstone",
+    "minecraft:cut_red_sandstone_slab",
+    "minecraft:chiseled_red_sandstone",
+    "minecraft:smooth_red_sandstone",
+    "minecraft:smooth_red_sandstone_slab",
+    "minecraft:smooth_red_sandstone_stairs"
+  ]
+}

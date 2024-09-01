@@ -1,0 +1,22 @@
+{
+    "damage_condition": {
+        "type": "dieyourway:name",
+        "name": "fall"
+    },
+    "messages": [
+        "[\"\",{\"text\":\" 没有人愿意接住可怜的\",\"bold\":true,\"color\":\"dark_red\"},%1$s]",
+        "[\"\",%1$s,{\"text\":\" 没有反弹\",\"bold\":true,\"color\":\"dark_red\"}]",
+        "[\"\",%1$s,{\"text\":\" }赢得了跳水评委的一致满分！\",\"bold\":true,\"color\":\"dark_red\"}]",
+        "[\"\",%1$s,{\"text\":\" 的大腿好像没有地球的头盖骨硬\",\"bold\":true,\"color\":\"dark_red\"}]",
+        "[\"\",%1$s,{\"text\":\" 踩到香蕉皮了\",\"bold\":true,\"color\":\"dark_red\"}]",
+        "[\"\",%1$s,{\"text\":\" 没有系好安全绳\",\"bold\":true,\"color\":\"dark_red\"}]",
+        "[\"\",%1$s,{\"text\":\" 认为自己会飞\",\"bold\":true,\"color\":\"dark_red\"}]",
+        "[\"\",%1$s,{\"text\":\" 留下了一个大坑\",\"bold\":true,\"color\":\"dark_red\"}]",
+        "[\"\",%1$s,{\"text\":\" 被空气绊倒了\",\"bold\":true,\"color\":\"dark_red\"}]"
+    ],
+    "arguments": [
+        {
+            "type": "dieyourway:dead_entity"
+        }
+    ]
+}

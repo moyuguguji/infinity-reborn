@@ -1,0 +1,1142 @@
+{
+	id: "7313FF073C3956C4"
+	group: "2D4526175EFBC1B2"
+	order_index: 0
+	filename: "7313FF073C3956C4"
+	title: "原初世界"
+	icon: "minecraft:grass_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 24.0d
+		height: 13.5d
+		rotation: 0.0d
+		image: "kubejs:textures/ftbq/overworld.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "初来乍到"
+			icon: "minecraft:grass_block"
+			disable_toast: true
+			x: -7.0d
+			y: -3.5d
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			id: "263182083E9E7774"
+			tasks: [{
+				id: "70742D7026B235C2"
+				type: "dimension"
+				title: "新生之地"
+				disable_toast: true
+				dimension: "minecraft:overworld"
+			}]
+			rewards: [{
+				id: "67991903F3F89773"
+				type: "item"
+				auto: "no_toast"
+				item: "infinity:black_tea"
+				only_one: true
+			}]
+		}
+		{
+			x: -7.0d
+			y: -1.5d
+			subtitle: "想致富先撸树"
+			dependencies: ["263182083E9E7774"]
+			id: "18275DC5303FAFA0"
+			tasks: [{
+				id: "423D0A851EFD93E7"
+				type: "item"
+				title: "任意原木"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs_that_burn"
+					}
+				}
+			}]
+			rewards: [{
+				id: "45D55C7C19C80988"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -8.5d
+			y: 2.0d
+			description: ["整合包中删除了石制工具的工具合成方式，改为使用燧石作为木头的上位替代。"]
+			dependencies: ["2F0DF9C52403D984"]
+			optional: true
+			id: "0B4C8D1E23AAA139"
+			tasks: [
+				{
+					id: "308821BF755E1DC5"
+					type: "item"
+					item: {
+						id: "kubejs:crude_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6A001056729B643F"
+					type: "item"
+					item: {
+						id: "kubejs:crude_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "255301EA4EA5E3DE"
+					type: "item"
+					item: {
+						id: "kubejs:crude_spade"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3DE38B4BAA0F2C3F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			dependencies: ["3DD77F75AE982826"]
+			id: "476311F6AC1B2243"
+			tasks: [{
+				id: "0DC2A83B8D170D06"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6730A6CF88B70EA1"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			description: ["戈伯系列装备和工具将是你未来一段的时间好帮手。"]
+			dependencies: ["4EB4675BB9984883"]
+			id: "565A517185DF9950"
+			tasks: [{
+				id: "79D79BB211FFC08A"
+				type: "item"
+				item: "gobber2:gobber2_ingot"
+			}]
+			rewards: [
+				{
+					id: "4D3D8D3BAFE25252"
+					type: "item"
+					item: "kubejs:bloody_tear"
+				}
+				{
+					id: "423AE5952637FE0A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+			]
+		}
+		{
+			title: "戈伯锻造材料"
+			x: 1.0d
+			y: 2.0d
+			subtitle: "合成戈伯锭的材料"
+			description: [
+				"深海金属矿：可通过在海底和河底挖掘深海金属矿获得。"
+				""
+				"锰矿石：在主世界四十一层生成概率最高。"
+				""
+				"四层矿石：在主世界35层生成概率最高。"
+				""
+				"戈伯矿石：在5层以下大量生成。"
+			]
+			dependencies: ["101189C9EB665FB6"]
+			id: "4EB4675BB9984883"
+			tasks: [
+				{
+					id: "141630C84A06B9BB"
+					type: "item"
+					item: "mythicmetals:durasteel_ingot"
+				}
+				{
+					id: "0F82274EB741D7A3"
+					type: "item"
+					item: "mythicmetals:aquarium_ingot"
+				}
+				{
+					id: "52EF32ADDA85FCB5"
+					type: "item"
+					item: "gobber2:gobber2_glob"
+				}
+			]
+			rewards: [{
+				id: "31F1B6466FCF9E3A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			title: "讨伐：远古英雄！"
+			x: 9.0d
+			y: -1.0d
+			subtitle: "讨伐难度：中等；讨伐建议：具有一定的回复手段和持续作战能力"
+			description: [
+				"使用月石罗盘或在任务中领取boss罗盘（【任务】→【boss列表】→【寻找远古英雄】）以寻找远古英雄的所在地。TIP：用德拉古尔激活旧月祭坛可以召唤远古英雄。"
+				"================================================"
+				"“有个故事讲到，在历史长河所能记载的极限之前，游侠与骑士曾共同讨伐逃出封印的恶魔，经过九天十夜的死战，游侠与骑士最终战胜了不可一世的恶魔，但那恶魔实在是太过强大了，在最终时刻，游侠大义凛然，以自己的生命为代价，拼死将恶魔逼回了封印之中，而游侠的伙伴骑士，据说是与世长存，一直活到了现在……”"
+			]
+			dependencies: ["32DC410EC16DFBA4"]
+			id: "3AB25BFC35ED4493"
+			tasks: [{
+				id: "02A4066F190AA51E"
+				type: "advancement"
+				advancement: "darkbosses:old_champions_remains_boss"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "31DA7959AA8EFAA1"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "0E20F4C89A75C9B2"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+			]
+		}
+		{
+			title: "讨伐：暴虐之影！"
+			x: 9.0d
+			y: -2.5d
+			subtitle: "讨伐难度：中等；讨伐建议：足够的恢复能力或防御能力"
+			description: [
+				"在击杀远古英雄之后，暴虐之影会从远古英雄的尸体中出现。"
+				"================================================"
+				"“那具历经无数风霜的骨骼终究倒下了，在那空洞的眼窝里你似乎看到一抹不甘，一抹留恋，以及一抹期许。黝黑的空洞里只剩下大口大口的喘息声，但黑暗角落里的玄色棺椁中突然传来讥笑的声音，一股蓝色的风自狭缝中吹了出来。那声音忽远忽近，从四面八方传到倒下的骨骼旁：‘跨越千年万年，还是我活了下来，你死去了。’。原来远古英雄眼中的期许是这种意思。”"
+			]
+			dependencies: ["3AB25BFC35ED4493"]
+			id: "1AA597C88E816253"
+			tasks: [{
+				id: "2834AD7DABA2F058"
+				type: "advancement"
+				advancement: "darkbosses:frenzied_shade_boss"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "0C6AA1CEAB587F84"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "066A97E1A6BD3C64"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+			]
+		}
+		{
+			title: "讨伐：莫德凯撒！"
+			x: 4.0d
+			y: -0.5d
+			subtitle: "讨伐难度：特殊；讨伐建议：最好有单次120以上的伤害再打"
+			description: [
+				"你需要在主世界中找到大教堂，然后在其中找到旧日祭坛，用迷失的灵魂召唤莫德凯撒。"
+				"================================================"
+				"“你知道吗，我奶奶说，她年轻的时候就见过护国骑士了，跟她还说我们的护国骑士是从上古活下来了，连上上上上上上上上任皇帝都见过呢！”"
+				"“拜托我们可是科学世界，这种扯淡的东西也就你会信了吧。”"
+				"“你说他明明也是个普通人，为什么能活那么久呢？”"
+				"“他肯定没活那么久，你被骗了！”"
+			]
+			dependencies: ["32DC410EC16DFBA4"]
+			id: "2661980BC534404A"
+			tasks: [{
+				id: "42F75FA46CCC3835"
+				type: "advancement"
+				advancement: "darkbosses:returning_knight_boss"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "6CBE956573C57BAE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+				{
+					id: "2CAE9D8377BE15EA"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+			]
+		}
+		{
+			title: "讨伐：夜巫妖！"
+			icon: "bosses_of_mass_destruction:ancient_anima"
+			x: 9.0d
+			y: 0.5d
+			subtitle: "讨伐难度：中等；讨伐建议：拥有创造飞行能力或足够的远程伤害能力"
+			description: ["你需要使用击杀亡灵类怪物掉落的灵魂之星寻找巫妖塔，像使用末影之眼一样使用它们。在塔中找到凿石祭坛，在四个凿石祭坛上放上灵魂之星即可召唤夜巫妖。夜巫妖飞行在空中，且召唤时会把时间转换到黑夜。（服务器注意）"]
+			dependencies: ["32DC410EC16DFBA4"]
+			id: "2DF48F5B040D7823"
+			tasks: [{
+				id: "5BB08FF8611E47F6"
+				type: "advancement"
+				advancement: "darkbosses:night_lich_boss"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "1CD0AC4EE621111B"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "4903274403524174"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+			]
+		}
+		{
+			title: "讨伐：虚空之花！"
+			icon: "bosses_of_mass_destruction:void_thorn"
+			x: 6.5d
+			y: 3.5d
+			subtitle: "讨伐难度：简单；讨伐建议：足够的防御能力或足够的远程伤害能力"
+			description: ["将虚空百合种在地上，花粉会指引你如何找到最近的虚空之花。（如果虚空百合没有反应，请先检查视频设置里粒子效果是否调整为全部）"]
+			dependencies: ["32DC410EC16DFBA4"]
+			id: "48DF3D8A679435E4"
+			tasks: [{
+				id: "67A16364F806FDD3"
+				type: "advancement"
+				advancement: "darkbosses:void_blossom_boss"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "254F0924DB68F8BC"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "4181476ECE5FAC45"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+			]
+		}
+		{
+			icon: "piercingpaxels:passive_smelt"
+			x: -1.0d
+			y: 2.0d
+			description: [
+				"搭建冶炼炉来冶炼高级矿物，同等级的冶炼炉只需建造一个。"
+				"可以使用煤炭/岩浆/木炭等提供能源。"
+				""
+				"需要先制作一个锻炉控制器(任意材质)，但请注意它的层级(如深板岩的为2)。部分配方需要高层级的锻炉才能冶炼。锻炉正下方的方块可以换成漏斗来输出物品。"
+				"================================================"
+				"{image:kubejs:textures/ftbq/alloy_forgery.png width:200 height:130 align:1}"
+			]
+			dependencies: ["476311F6AC1B2243"]
+			id: "101189C9EB665FB6"
+			tasks: [{
+				id: "0CAFB4DB2D529C89"
+				type: "checkmark"
+				title: "冶炼高级矿物"
+			}]
+			rewards: [{
+				id: "0CE1E0B19EBE66BB"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			title: "砖块锻炉（层级1）"
+			icon: "alloy_forgery:bricks_forge_controller"
+			x: -2.5d
+			y: 2.0d
+			subtitle: "不太廉价的廉价货"
+			description: [
+				"总之比石头的强些"
+				"容量：50000"
+				"效率：125%"
+			]
+			dependencies: ["101189C9EB665FB6"]
+			optional: true
+			id: "46C16EE44F239FED"
+			tasks: [
+				{
+					id: "053D941D709C3235"
+					type: "item"
+					item: "alloy_forgery:bricks_forge_controller"
+				}
+				{
+					id: "1445916C31F281C7"
+					type: "item"
+					item: "minecraft:bricks"
+					count: 16L
+				}
+			]
+		}
+		{
+			title: "石砖锻炉（层级1）"
+			icon: "alloy_forgery:stone_bricks_forge_controller"
+			x: -1.5d
+			y: 0.5d
+			subtitle: "廉价货"
+			description: [
+				"效率计量单位"
+				"容量：48000"
+				"效率：100%"
+			]
+			dependencies: ["101189C9EB665FB6"]
+			optional: true
+			id: "4B1C0D1CEC91C994"
+			tasks: [
+				{
+					id: "25969F02C32DC9C0"
+					type: "item"
+					item: "alloy_forgery:stone_bricks_forge_controller"
+				}
+				{
+					id: "3E5CD8C6C087D0F4"
+					type: "item"
+					item: "minecraft:stone_bricks"
+					count: 16L
+				}
+			]
+		}
+		{
+			title: "海晶石锻炉（层级2）"
+			icon: "alloy_forgery:prismarine_bricks_forge_controller"
+			x: -1.5d
+			y: 3.5d
+			subtitle: "略慢的大炉子"
+			description: [
+				"不耐高温的保温材料"
+				"容量：128000"
+				"效率：150%"
+			]
+			dependencies: ["101189C9EB665FB6"]
+			optional: true
+			id: "3CBEB517A24607F8"
+			tasks: [
+				{
+					id: "3E3150BCB8A279C7"
+					type: "item"
+					item: "minecraft:prismarine_bricks"
+					count: 16L
+				}
+				{
+					id: "1BCB754F51009BBB"
+					type: "item"
+					item: "alloy_forgery:prismarine_bricks_forge_controller"
+				}
+			]
+		}
+		{
+			title: "深板岩锻炉（层级2）"
+			icon: "alloy_forgery:deepslate_bricks_forge_controller"
+			x: 0.0d
+			y: 0.5d
+			subtitle: "略贵的廉价货"
+			description: [
+				"保温能力强于石头"
+				"容量：96000"
+				"效率：175%"
+			]
+			dependencies: ["101189C9EB665FB6"]
+			optional: true
+			id: "60AE7AF518F8E473"
+			tasks: [
+				{
+					id: "1226C761B35E19A1"
+					type: "item"
+					item: "minecraft:deepslate_bricks"
+					count: 16L
+				}
+				{
+					id: "2BD6B749609126A3"
+					type: "item"
+					item: "alloy_forgery:deepslate_bricks_forge_controller"
+				}
+			]
+		}
+		{
+			title: "抛光黑石炉锻炉（层级2）"
+			icon: "alloy_forgery:polished_blackstone_forge_controller"
+			x: 0.0d
+			y: 3.5d
+			subtitle: "高温地区的材料"
+			description: [
+				"耐受高温的强大材料"
+				"容量：72000"
+				"效率：200%"
+			]
+			dependencies: ["101189C9EB665FB6"]
+			optional: true
+			id: "23AA8B0398F8751D"
+			tasks: [
+				{
+					id: "36EDDCE402134A5D"
+					type: "item"
+					item: "alloy_forgery:polished_blackstone_forge_controller"
+				}
+				{
+					id: "6B30D3BCF1C4790B"
+					type: "item"
+					item: "minecraft:polished_blackstone"
+					count: 16L
+				}
+			]
+		}
+		{
+			title: "讨伐：史莱姆王！"
+			icon: "terrarianslimes:slime_crown"
+			x: 4.5d
+			y: 3.5d
+			subtitle: "讨伐难度：简单；讨伐建议：足够的抗性或远程伤害能力"
+			description: [
+				"你需要制作史莱姆王冠来召唤史莱姆王。"
+				"================================================"
+				"“即便是孱弱到不行的史莱姆，拥有能夺取对方能力的‘掠夺者’以及精通世界真理的‘大贤者’这两项能力后，也是能成为世界最强の魔王的吧！”"
+			]
+			dependencies: ["32DC410EC16DFBA4"]
+			id: "7E33DE7DE9F14FF8"
+			tasks: [
+				{
+					id: "4774ED173CD9543E"
+					type: "item"
+					item: "terrarianslimes:slime_crown"
+				}
+				{
+					id: "35A9154EFA1322B3"
+					type: "kill"
+					entity: "terrarianslimes:king_slime"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "2256D0B3B9156F31"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "237C571CBE78B3EE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -1.0d
+			subtitle: "一把相当强力的前期武器"
+			dependencies: ["3DD77F75AE982826"]
+			optional: true
+			id: "3078FE20208EDB9E"
+			tasks: [{
+				id: "128A6B127499D76B"
+				type: "item"
+				item: {
+					id: "mcdw:dagger_void_touched_blade"
+					Count: 1b
+					tag: {
+						swa3: { }
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7B9DEE97BA98B0EA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			title: "讨伐：月光圣骑！"
+			x: 7.5d
+			y: -2.5d
+			subtitle: "讨伐难度：困难；讨伐建议：足够的防御/吸血能力，足够的近战输出"
+			description: [
+				"你需要在主世界找到另一个大教堂，然后使用日暮精粹右键旧月祭坛来召唤 。"
+				"月光圣骑是一个具有两个阶段的强力boss，免疫弓箭，伤害颇高，谨慎对待。"
+				"================================================"
+				"“又有个故事讲到，在无尽的时间长河的尽头，一位冒险者挑战并击败了我们的护国骑士。”"
+				"“姥姥，你不是说那时候的护国骑士是坏人吗？那冒险者帮助我们击败他不是好事吗？”"
+				"“当护国骑士倒下后，一缕魔气涌出他的身体，冒险者与那魔气从白天缠斗到黑夜，从他口中我们才知道，护国骑士并不是坏人，相反，千百年来，他都以肉身锁住了恶魔的一半灵魂。在月光下，冒险者与骑士的灵魂并肩作战，终于彻底消灭了恶魔，解除了危机。”"
+				"“后来呢后来呢？”"
+				"“护国骑士乘着月光与冒险者切磋了三百回合，最终在日光、悲忸的哭声与爽朗的大笑声中消失不见，去往另一个世界。”"
+			]
+			dependencies: ["1AA597C88E816253"]
+			id: "2A37DB4C5176902C"
+			tasks: [{
+				id: "6CD8BAC4369493DC"
+				type: "advancement"
+				advancement: "darkbosses:fallen_icon_boss"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "2F3FAFD095C83ED4"
+					type: "item"
+					item: "soulsweapons:altar_block"
+				}
+				{
+					id: "0910808AF74639D9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+				{
+					id: "34894F23898F1B2B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -2.0d
+			description: [
+				"此物十分珍贵，合成材料也不是廉价货，如果你想复制的话也可以用比前者更少的方式复制一份。"
+				"有了这个你就不必为了召唤月光圣骑再度寻找一个大教堂了。"
+			]
+			dependencies: ["2A37DB4C5176902C"]
+			id: "2710CAF55FC46347"
+			tasks: [{
+				id: "2A7A1F9998E2A009"
+				type: "item"
+				item: "soulsweapons:altar_block"
+			}]
+			rewards: [
+				{
+					id: "72F6088F2356D3B6"
+					type: "item"
+					item: "soulsweapons:altar_block"
+				}
+				{
+					id: "518EB37BA58168EA"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+			]
+		}
+		{
+			title: "恶魔附魔"
+			x: -3.5d
+			y: 3.0d
+			description: [
+				"恶魔附魔，一种以玩家生命作为代价驱动的附魔。"
+				"================================================"
+				"在附魔台附近摆放至少 3 个凋灵骷髅头颅。头颅越多，获得恶魔附魔的几率越高。"
+				""
+				"恶魔附魔不仅消耗经验和青金石，还会消耗附近7格半径内生物的生命值（优先排除玩家）。生命值总量不满足要求时会扣除玩家的生命值。（1心=2生命值。40心=80生命值）"
+				"{image:kubejs:textures/ftbq/fumo.png width:200 height:95 align:1}"
+			]
+			dependencies: ["08F9BF423B2906E5"]
+			optional: true
+			id: "1D0820FB787F6787"
+			tasks: [
+				{
+					id: "5521F522CAE9A02C"
+					type: "item"
+					item: "minecraft:enchanting_table"
+				}
+				{
+					id: "3C2D623DAA64E275"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+				}
+			]
+			rewards: [{
+				id: "1CBA992BC4BFC000"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			title: "工作台"
+			x: -7.0d
+			y: 0.5d
+			dependencies: ["18275DC5303FAFA0"]
+			id: "2F0DF9C52403D984"
+			tasks: [{
+				id: "7ABA1B5F686AE692"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+			rewards: [{
+				id: "5382D2A25045EAA7"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			title: "关于boss"
+			icon: "botania:cosmetic_questgiver_mark"
+			x: 6.0d
+			y: 0.5d
+			subtitle: "注意，任务流程中逐渐浮出水面的boss们并非你直接可以讨伐的目标，除了暮色的boss外，讨伐boss并不需要依照任何顺序。"
+			dependencies: ["565A517185DF9950"]
+			size: 2.0d
+			id: "32DC410EC16DFBA4"
+			tasks: [{
+				id: "43CE10506D29737F"
+				type: "checkmark"
+				title: "已阅"
+			}]
+		}
+		{
+			title: "你冒险开始的第一天"
+			x: -4.0d
+			y: -3.5d
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			invisible: true
+			id: "2316A9931F204D97"
+			tasks: [{
+				id: "26F97EE1462D32B1"
+				type: "stat"
+				icon: "minecraft:clock"
+				stat: "minecraft:play_time"
+				value: 24000
+			}]
+			rewards: [
+				{
+					id: "5FCBD55DBBACDACB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "390F50C7C8436A7F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+		}
+		{
+			title: "你开始在这个世界上立足"
+			x: -2.0d
+			y: -3.5d
+			dependencies: [
+				"027AAA6A3553F7DB"
+				"2316A9931F204D97"
+			]
+			hide: true
+			optional: true
+			invisible: true
+			id: "04C39DE9789CF158"
+			tasks: [{
+				id: "5AC71B4350A67B2B"
+				type: "stat"
+				icon: "minecraft:clock"
+				stat: "minecraft:play_time"
+				value: 240000
+			}]
+			rewards: [
+				{
+					id: "51BD93A173505E68"
+					type: "random"
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "1FB6B40E5321212D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "4751416A0544F9EB"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "5FE2E536B617867C"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:silver_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 30
+				}
+			]
+		}
+		{
+			title: "好吧,你是真的闲"
+			x: 0.0d
+			y: -3.5d
+			dependencies: ["04C39DE9789CF158"]
+			optional: true
+			invisible: true
+			id: "6DC885FDEAC29649"
+			tasks: [{
+				id: "3C2C8FA9642EE591"
+				type: "stat"
+				icon: "spectrum:crescent_clock"
+				secret: true
+				stat: "minecraft:play_time"
+				value: 24000000
+			}]
+			rewards: [
+				{
+					id: "5C41B40F684676C1"
+					type: "choice"
+					team_reward: false
+					exclude_from_claim_all: true
+					table_id: 488332073128391457L
+				}
+				{
+					id: "23BF043A3F5A3B7C"
+					type: "xp_levels"
+					team_reward: false
+					xp_levels: 100000000
+				}
+			]
+		}
+		{
+			title: "好吧,你这也挺惨的"
+			x: 2.0d
+			y: -2.0d
+			description: ["“在死与生的界限逐渐模糊之后，我窥见关于永生的一丝真相。”"]
+			dependencies: ["185D5EDC65B1C487"]
+			optional: true
+			invisible: true
+			id: "37131B6E35E27797"
+			tasks: [{
+				id: "472BF82D300CCDDA"
+				type: "stat"
+				icon: "yigd:grave"
+				stat: "minecraft:deaths"
+				value: 1000
+			}]
+			rewards: [
+				{
+					id: "1C50492EC6D4F630"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 3342768205198891787L
+				}
+				{
+					id: "3517F90E228C73DE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "50535905EBDF8E69"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+				{
+					id: "6EEBFE39CBC8A3B5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5206663203530399561L
+				}
+				{
+					id: "602BBA8697F7CB84"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1552600754727581119L
+				}
+				{
+					id: "2876C0E971DEE00F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1822472062256307595L
+				}
+				{
+					id: "08F5F177D95FD12B"
+					type: "item"
+					item: {
+						id: "endgoblintraders:durability_totem"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "第一次的死亡"
+			x: -2.0d
+			y: -2.0d
+			description: ["“死亡如风，常伴吾身”"]
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			optional: true
+			invisible: true
+			id: "44181735FC427CA0"
+			tasks: [{
+				id: "798CCE0958EC9DD5"
+				type: "stat"
+				icon: "yigd:grave"
+				stat: "minecraft:deaths"
+				value: 1
+			}]
+			rewards: [
+				{
+					id: "4318175EED41F652"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "599F136A86D516F3"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+		}
+		{
+			title: "死亡永无止境"
+			x: 0.0d
+			y: -2.0d
+			dependencies: [
+				"027AAA6A3553F7DB"
+				"44181735FC427CA0"
+			]
+			hide: true
+			dependency_requirement: "all_started"
+			optional: true
+			invisible: true
+			id: "185D5EDC65B1C487"
+			tasks: [{
+				id: "7A96062C7C96FFCB"
+				type: "stat"
+				icon: "yigd:grave"
+				stat: "minecraft:deaths"
+				value: 20
+			}]
+			rewards: [
+				{
+					id: "15F5CA57999EF861"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "5C1DF7F18AF1AED4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 3342768205198891787L
+				}
+				{
+					id: "58EE7BB9F31EB4C2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+				{
+					id: "534D52FE431065C3"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 0.5d
+			subtitle: "有时候摸箱子比挖矿收益要高"
+			description: ["虽然有点快，但钻石确实是本包的基础物资。"]
+			dependencies: ["2F0DF9C52403D984"]
+			id: "3DD77F75AE982826"
+			tasks: [{
+				id: "63607BBD15D9E66A"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+			rewards: [{
+				id: "5620370EC1F8ABF0"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			title: "提升自己！"
+			x: -5.0d
+			y: 2.0d
+			description: ["附魔在本包中是最重要的提升战斗力手段，切记随着冒险收集高级附魔并将其化为己用。"]
+			dependencies: ["3DD77F75AE982826"]
+			id: "08F9BF423B2906E5"
+			tasks: [
+				{
+					id: "0FC7F76588C837F8"
+					type: "item"
+					item: "minecraft:enchanting_table"
+				}
+				{
+					id: "44098C40F12C22FF"
+					type: "item"
+					item: "minecraft:anvil"
+				}
+			]
+			rewards: [{
+				id: "4F60C17FFDBEE3C2"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			title: "讨伐：混沌君主！"
+			icon: {
+				id: "soulsweapons:chaos_crown"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 8.5d
+			y: 2.5d
+			subtitle: "讨伐难度：简单；讨伐建议：无"
+			description: [
+				"合成黑石基座，使用未知碎片激活基座即可召唤混沌君主。（未知碎片由凋零掉落）"
+				"================================================"
+				"TIP：混沌君主会腐蚀他脚下的土地，所以不要在自己家附近召唤它。"
+			]
+			dependencies: ["32DC410EC16DFBA4"]
+			id: "11919E53BA317CCB"
+			tasks: [
+				{
+					id: "27990120290A7656"
+					type: "item"
+					item: "soulsweapons:blackstone_pedestal"
+				}
+				{
+					id: "22F63B1CB3DE9D5B"
+					type: "item"
+					item: "soulsweapons:shard_of_uncertainty"
+				}
+				{
+					id: "1E43982C743AEAA7"
+					type: "advancement"
+					advancement: "darkbosses:monarch_of_chaos_boss"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "27C2C85BCFB44D4D"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "045FB9E326B54FD4"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "x_enchant:health_converter"
+					}]
+				}
+			}
+			x: -2.0d
+			y: -1.0d
+			subtitle: "来自无限：重生1群群友：辣椒香菜"
+			description: [
+				"辣椒香菜提醒你：珍爱随身装备，关心装备耐久，学会自己修理装备。"
+				""
+				"实力不够不要放副手哦"
+			]
+			dependencies: ["476311F6AC1B2243"]
+			id: "73564B8D8E331790"
+			tasks: [
+				{
+					id: "1D5F7F68AE3F875A"
+					type: "checkmark"
+					title: "群小助手提醒你~"
+				}
+				{
+					id: "1BA8BC41114080A8"
+					type: "item"
+					item: "minecraft:book"
+					count: 32L
+				}
+			]
+			rewards: [{
+				id: "13CB579AF8E51EB2"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "x_enchant:health_converter"
+						}]
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

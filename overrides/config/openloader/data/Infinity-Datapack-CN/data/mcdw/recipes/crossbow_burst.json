@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:crossbow"
+  },
+  "addition": {
+    "item": "emerald_tools:amethyst_bow"
+  },
+  "result": {
+    "item": "mcdw:crossbow_burst_crossbow"
+  }
+}

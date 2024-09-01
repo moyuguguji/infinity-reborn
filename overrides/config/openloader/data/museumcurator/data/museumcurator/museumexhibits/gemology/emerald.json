@@ -1,0 +1,10 @@
+{
+  "collection": "museumcurator.collection.gemology",
+  "name": "museumcurator.gemology.emerald",
+  "items": [
+    "minecraft:emerald_ore",
+    "minecraft:deepslate_emerald_ore",
+    "minecraft:emerald",
+    "minecraft:emerald_block"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+    "id": "tiered:legendary_shield",
+    "verifiers": [
+        {
+            "tag": "c:shields"
+        }
+    ],
+    "weight": 30,
+    "style": {
+        "color": "gold"
+    },
+    "attributes": [
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:legendary_shield",
+                "operation": "ADDITION",
+                "amount": 500
+            },
+            "optional_equipment_slots": [
+                "OFFHAND"
+            ]
+        },
+        {
+            "type": "mythicmetals:magic_protection",
+            "modifier": {
+                "name": "tiered:legendary_shield",
+                "operation": "ADDITION",
+                "amount": 4.5
+            },
+            "optional_equipment_slots": [
+                "OFFHAND"
+            ]
+        },
+        {
+            "type": "playerex:health_regeneration",
+            "modifier": {
+                "name": "tiered:legendary_shield",
+                "operation": "ADDITION",
+                "amount": 4
+            },
+            "optional_equipment_slots": [
+                "OFFHAND"
+            ]
+        }
+    ]
+}

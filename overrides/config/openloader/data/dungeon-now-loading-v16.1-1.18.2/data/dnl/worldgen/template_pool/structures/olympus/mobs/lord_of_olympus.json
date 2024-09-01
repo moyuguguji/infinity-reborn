@@ -1,0 +1,15 @@
+{
+  "name": "dnl:structures/olympus/mobs/lord_of_olympus",
+  "fallback": "dnl:structures/olympus/mobs/lord_of_olympus",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "dnl:olympus/mobs/lord_of_olympus",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "terralith:alpine_highlands",
+            "required": false
+        },
+        {
+            "id": "terralith:caldera",
+            "required": false
+        },
+        {
+            "id": "terralith:cloud_forest",
+            "required": false
+        },
+        {
+            "id": "terralith:forested_highlands",
+            "required": false
+        },
+        {
+            "id": "terralith:lush_valley",
+            "required": false
+        },
+        {
+            "id": "terralith:shield",
+            "required": false
+        },
+        {
+            "id": "terralith:siberian_grove",
+            "required": false
+        },
+        {
+            "id": "terralith:siberian_taiga",
+            "required": false
+        },
+        {
+            "id": "terralith:snowy_shield",
+            "required": false
+        },
+        {
+            "id": "terralith:temperate_highlands",
+            "required": false
+        },
+        {
+            "id": "terralith:yellowstone",
+            "required": false
+        },
+        {
+            "id": "terralith:yosemite_cliffs",
+            "required": false
+        },
+        {
+            "id": "terralith:yosemite_lowlands",
+            "required": false
+        }
+    ]
+}

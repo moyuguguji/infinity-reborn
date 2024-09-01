@@ -1,0 +1,32 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "items": [
+          "minecraft:iron_helmet"
+        ],
+        "nbt": "{dnl.golem_heart_helmet:1b}"
+      },
+      "chest": {
+        "items": [
+          "minecraft:iron_chestplate"
+        ],
+        "nbt": "{dnl.golem_heart_chestplate:1b}"
+      },
+      "legs": {
+        "items": [
+          "minecraft:iron_leggings"
+        ],
+        "nbt": "{dnl.golem_heart_leggings:1b}"
+      },
+      "feet": {
+        "items": [
+          "minecraft:iron_boots"
+        ],
+        "nbt": "{dnl.golem_heart_boots:1b}"
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "幻象师"
+        },
+        "description": {
+            "text": "找到并阻止刌民头目继续劫掠村庄！"
+        },
+        "icon": {
+          "item": "minecraft:painting"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "dnl:story/structures/gallery_of_illusion/locate",
+    "criteria": {
+        "kill illusionist": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:illusioner",
+                    "nbt": "{Tags:[\"illusioned_gallery\"]}",
+                    "distance": {
+                        "absolute": {
+                            "min": 0,
+                            "max": 64
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "unit": "KPH",
+  "loot_in_village": true,
+  "decreased_loot": false,
+  "disable_loot": false,
+  "cooldown": 40,
+  "text_location": "LEFT_MID",
+  "barStuff": {
+    "display_bars": true,
+    "bar_size": 70,
+    "bar_color1": 16777215,
+    "bar_color2": 16414881,
+    "x": 0,
+    "y": 0
+  }
+}

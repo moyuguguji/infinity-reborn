@@ -1,0 +1,29 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "击败暴虐之影！"},
+        "description": {"text": "暴虐之影是一个受到诅咒的强大灵魂体，因为邪恶而被强制剥离了原来的躯体，而后又意外的附身在远古英雄的遗骸之上。由于灵魂体的特性，它能自由的飞翔在空中并且可以穿过任何方块。当血量低于一半之后，暴虐之影会使用分身术，召唤出4个分身，这些分身的血量只有本体的四分之一，造成的伤害也只有本体的35%，但除此之外，分身和本体的攻击方式和外表完全相同。"},
+
+        "icon": {"item": "soulsweapons:essence_of_eventide"},
+        "frame": "challenge",
+
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "frenzied_shade_boss": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+        "entity": {
+        "type": "soulsweapons:night_shade"
+          }
+        } }
+    },
+ 
+    "rewards": {
+        "experience": 500,
+		"function": "darkbosses:boss_defeated"
+    },
+    "parent": "darkbosses:info_souls_bosses"
+}

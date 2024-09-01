@@ -1,0 +1,22 @@
+{
+	id: "474970F047FDC8FF"
+	order_index: 0
+	title: "高级随机奖励"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{ item: "minecraft:enchanted_golden_apple", random_bonus: 6, weight: 120 }
+		{ team_reward: false, item: "mythicmetals:unobtainium", random_bonus: 4 }
+		{ team_reward: false, item: "bosses_of_mass_destruction:brimstone_nectar", random_bonus: 3, weight: 2 }
+		{ team_reward: false, item: "heartytrinkets:blue_heart", random_bonus: 4, weight: 2 }
+		{
+			team_reward: false
+			xp_levels: 30
+			type: "xp_levels"
+			weight: 35
+		}
+		{ team_reward: false, item: "ringsofascension:ring_undying", only_one: true, weight: 2 }
+		{ item: "spirit:soul_steel_ingot", random_bonus: 3, weight: 7 }
+		{ item: "spectrum:triple_meat_pot_pie", weight: 3 }
+	]
+}

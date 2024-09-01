@@ -1,0 +1,5 @@
+{
+  "rustTarget": null,
+  "fatalOnBrokenMethodCall": false,
+  "debugRefcountChanges": false
+}

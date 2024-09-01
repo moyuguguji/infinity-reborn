@@ -1,0 +1,31 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "item": "mythicmetals:metallurgium_ingot",
+     "count": 1
+    },
+    {
+      "item": "gobber2:gobber2_ingot_nether",
+      "count": 3
+    },
+    {
+      "item": "minecraft:netherite_ingot",
+     "count": 3
+    },
+    {
+      "item": "mythicmetals:unobtainium",
+      "count": 2
+    },
+    {
+      "item": "minecraft:netherite_scrap",
+     "count": 10
+    }
+  ],
+  "output": {
+    "id": "mcdw:sword_sinister",
+      "count": 1
+  },
+  "min_forge_tier": 3,
+  "fuel_per_tick": 800
+}

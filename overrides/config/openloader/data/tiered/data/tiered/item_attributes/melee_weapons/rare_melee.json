@@ -1,0 +1,42 @@
+{
+    "id": "tiered:rare_melee",
+    "verifiers": [
+        {
+            "tag": "tier:1weapon"
+        },
+        {
+            "tag": "tier:2weapon"
+        },
+        {
+            "tag": "tier:3weapon"
+        }
+    ],
+    "weight": 150,
+    "style": {
+        "color": "blue"
+    },
+    "attributes": [
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:rare_melee",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.15
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "minecraft:generic.attack_damage",
+            "modifier": {
+                "name": "tiered:rare_melee",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.05
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

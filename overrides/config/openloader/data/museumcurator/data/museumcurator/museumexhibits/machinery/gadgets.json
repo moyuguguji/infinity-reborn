@@ -1,0 +1,11 @@
+{
+  "collection": "museumcurator.collection.machinery",
+  "name": "museumcurator.machinery.gadgets",
+  "relativeTo": "museumcurator.machinery.redstonemechanisms",
+  "items": [
+    "minecraft:clock",
+    "minecraft:lightning_rod",
+    "minecraft:spyglass",
+    "minecraft:tripwire_hook"
+  ]
+}

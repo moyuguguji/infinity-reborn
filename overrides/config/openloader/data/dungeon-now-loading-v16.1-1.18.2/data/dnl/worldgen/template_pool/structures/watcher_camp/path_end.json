@@ -1,0 +1,15 @@
+{
+  "name": "dnl:structures/watcher_camp/path_end",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "dnl:watcher_camp/path_end",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

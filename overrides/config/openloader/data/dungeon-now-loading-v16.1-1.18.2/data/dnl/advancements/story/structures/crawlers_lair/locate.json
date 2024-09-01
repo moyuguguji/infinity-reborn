@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cobweb"
+    },
+    "title": "阴暗之巢穴",
+    "description": "发现一个蜘蛛洞",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/structures/hivenest/craft_hive_chest",
+  "criteria": {
+    "locate_crawlers_lair": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "dnl:crawlers_lair"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "locate_crawlers_lair"
+    ]
+  ]
+}

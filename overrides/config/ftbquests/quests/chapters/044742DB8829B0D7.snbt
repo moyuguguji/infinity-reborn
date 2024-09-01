@@ -1,0 +1,140 @@
+{
+	id: "044742DB8829B0D7"
+	group: "0B54634113ED2BBC"
+	order_index: 2
+	filename: "044742DB8829B0D7"
+	title: "灵魂魔法"
+	icon: "spirit:soul_crystal"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 23.0d
+		height: 6.0d
+		rotation: 0.0d
+		image: "kubejs:textures/ftbq/linghunmofa.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 3.0d
+			y: -2.0d
+			description: [
+				"你每次击杀的生物将灵魂储存到水晶内，达到一定数量放在灵魂牢笼中，可以将水晶内储存的灵魂实体化（暨可自定义的刷怪笼）。"
+				""
+				"而灵魂收割者附魔则可以增加每次杀死生物收获的灵魂。"
+				""
+				"可容纳至多512个同种灵魂，期间分为（Null）Eins、Zwei、Drei、Vier四个等级，未分层的层称为“Null”"
+				""
+				"具体请查看灵魂牢笼的信息（对着灵魂牢笼按U查看）"
+			]
+			dependencies: ["40A23FC8277F105C"]
+			id: "1A27706C876642BD"
+			tasks: [{
+				id: "0B4BD991507FF37E"
+				type: "item"
+				item: "spirit:soul_crystal"
+			}]
+			rewards: [{
+				id: "527D0AF7179A592C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			description: ["本mod的核心方块，用于刷出怪物，需要将存有一定灵魂的灵魂水晶放入，具体要求和说明可“U”键灵魂牢笼查看。"]
+			dependencies: ["764C8252D4FF2513"]
+			id: "40A23FC8277F105C"
+			tasks: [{
+				id: "7631A167D9F06AE7"
+				type: "item"
+				item: "spirit:soul_cage"
+			}]
+			rewards: [
+				{
+					id: "683407E0C9408584"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "2626A98C92D021E7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			subtitle: "中间放水晶里收集的灵魂"
+			description: [
+				"mod本身并没有更新相关配方，本包为其添加了一些用处，用于召唤一些生物，查看基座配方，最后需空手右键单击进行仪式。"
+				"{image:kubejs:textures/ftbq/sp.png width:192 height:108 align:1}"
+			]
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			id: "683A3D6C712A8750"
+			tasks: [
+				{
+					id: "2147D5A9DD37EE69"
+					type: "item"
+					item: "spirit:soul_pedestal"
+				}
+				{
+					id: "23DBE6BAF1A8F176"
+					type: "item"
+					item: "spirit:pedestal"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "53E6F669EB9B889B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			description: ["使用这把弓时不会消耗箭矢，转而消耗灵魂水晶里的灵魂；如果你的灵魂水晶不小心装进了不需要的灵魂，可以通过这把弓清空灵魂水晶中的灵魂。"]
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			id: "483544FA889E5E05"
+			tasks: [{
+				id: "33748825D99A9D03"
+				type: "item"
+				item: {
+					id: "spirit:soul_steel_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			description: ["挖掘刷怪笼时会掉落破碎的刷怪笼，用于合成灵魂牢笼。"]
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			id: "764C8252D4FF2513"
+			tasks: [{
+				id: "1D660162D6A6EE5B"
+				type: "item"
+				item: "spirit:broken_spawner"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

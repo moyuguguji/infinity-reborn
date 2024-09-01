@@ -1,0 +1,11 @@
+{
+  "collection": "museumcurator.collection.equipment",
+  "name": "museumcurator.equipment.gunpowder",
+  "relativeTo": "museumcurator.equipment.horsemanship",
+  "items": [
+    "minecraft:gunpowder",
+    "minecraft:firework_star",
+    "minecraft:firework_rocket",
+    "minecraft:tnt"
+  ]
+}

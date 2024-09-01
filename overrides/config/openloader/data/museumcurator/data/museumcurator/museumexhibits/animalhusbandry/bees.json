@@ -1,0 +1,12 @@
+{
+  "collection": "museumcurator.collection.animalhusbandry",
+  "name": "museumcurator.animalhusbandry.bees",
+  "items": [
+    "minecraft:beehive",
+    "minecraft:bee_nest",
+    "minecraft:honey_bottle",
+    "minecraft:honey_block",
+    "minecraft:honeycomb",
+    "minecraft:honeycomb_block"
+  ]
+}

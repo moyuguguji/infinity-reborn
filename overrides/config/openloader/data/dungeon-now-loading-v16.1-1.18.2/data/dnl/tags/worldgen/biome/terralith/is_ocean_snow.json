@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "terralith:skylands_winter",
+            "required": false
+        }
+    ]
+}

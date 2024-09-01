@@ -1,0 +1,29 @@
+{
+    "__comment": "Made by the DarkRPG team",
+    "display": {
+        "title": {"text": "Dragon Defeated!"},
+        "description": {"text": "The ender dragon spawns after an entity first arrives in the End, along with the bedrock frame for the exit portal."},
+
+        "icon": {"item": "minecraft:end_crystal"},
+        "frame": "challenge",
+
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dragon_boss": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+        "entity": {
+        "type": "minecraft:ender_dragon"
+          }
+        } }
+    },
+ 
+    "rewards": {
+        "experience": 500,
+		"function": "darkbosses:boss_defeated"
+    },
+    "parent": "darkbosses:info_vanilla_bosses"
+}

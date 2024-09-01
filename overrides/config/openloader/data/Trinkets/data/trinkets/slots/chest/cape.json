@@ -1,0 +1,5 @@
+{
+  "icon": "trinkets:gui/slots/cape",
+  "order": -256,
+  "validator_predicates": ["trinkets:tag"]
+}

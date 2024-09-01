@@ -1,0 +1,22 @@
+{
+    "collection": "museumcurator.boss",
+    "name": "museumcurator.boss.draugr",
+    "relativeTo": "museumcurator.boss.lich",
+    "placement": "after",
+    "items": [
+        "soulsweapons:draugr",
+        "soulsweapons:essence_of_eventide",
+        "soulsweapons:lord_soul_dark",
+        "mythicmetals:mythril_ingot",
+        "mythicmetals:orichalcum_ingot",
+        "mythicmetals:adamantite_ingot",
+        "mythicmetals:prometheum_ingot",
+        "mythicmetals:kyber_ingot",
+        "mythicmetals:durasteel_ingot",
+        "mythicmetals:silver_ingot",
+        "mythicmetals:carmot_ingot",
+        "mythicmetals:aquarium_pearl",
+        "endrem:corrupted_eye"
+        
+    ]
+}

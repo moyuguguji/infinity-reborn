@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "mcdw:sickle_jailors_scythe"
+  },
+  "addition": {
+    "item": "mcda:upgrade_core_frost"
+  },
+  "result": {
+    "item": "mcdw:sickle_frost_scythe"
+  }
+}

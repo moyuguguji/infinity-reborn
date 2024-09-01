@@ -1,0 +1,12 @@
+{
+	id: "1A4687805E617B3B"
+	order_index: 12
+	title: "tom"
+	loot_size: 1
+	rewards: [
+		{ item: "toms_storage:ts.inventory_connector" }
+		{ item: "toms_storage:ts.crafting_terminal" }
+		{ item: "toms_storage:ts.trim", count: 5 }
+		{ item: "minecraft:barrel", count: 5 }
+	]
+}

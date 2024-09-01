@@ -1,0 +1,35 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "item": "mcdw:sword_obsidian_claymore",
+     "count": 1
+    },
+    {
+      "item": "minecraft:dragon_head",
+      "count": 1
+    },
+    {
+      "item": "mythicmetals:metallurgium_ingot",
+     "count": 2
+    },
+    {
+      "item": "dragonloot:dragon_scale",
+      "count": 2
+    },
+    {
+      "item": "minecraft:nether_star",
+     "count": 3
+    },
+    {
+      "item": "gobber2:gobber2_ingot_end",
+      "count": 6
+    }
+  ],
+  "output": {
+    "id": "mcdw:sword_the_starless_night",
+      "count": 1
+  },
+  "min_forge_tier": 4,
+  "fuel_per_tick": 1500
+}

@@ -1,0 +1,103 @@
+{
+  "collection": "museumcurator.collection.equipment",
+  "name": "museumcurator.equipment.archery",
+  "items": [
+    "minecraft:fletching_table",
+    "minecraft:target",
+    "minecraft:bow",
+    "minecraft:crossbow",
+    "minecraft:arrow",
+    "minecraft:spectral_arrow",
+    {
+      "id": "minecraft:tipped_arrow",
+      "tags": {
+        "Potion": "minecraft:night_vision"
+      }
+    },
+    {
+      "id": "minecraft:tipped_arrow",
+      "tags": {
+        "Potion": "minecraft:invisibility"
+      }
+    },
+    {
+      "id": "minecraft:tipped_arrow",
+      "tags": {
+        "Potion": "minecraft:leaping"
+      }
+    },
+    {
+      "id": "minecraft:tipped_arrow",
+      "tags": {
+        "Potion": "minecraft:fire_resistance"
+      }
+    },
+    {
+      "id": "minecraft:tipped_arrow",
+      "tags": {
+        "Potion": "minecraft:swiftness"
+      }
+    },
+    {
+      "id": "minecraft:tipped_arrow",
+      "tags": {
+        "Potion": "minecraft:slowness"
+      }
+    },
+    {
+      "id": "minecraft:tipped_arrow",
+      "tags": {
+        "Potion": "minecraft:turtle_master"
+      }
+    },
+    {
+      "id": "minecraft:tipped_arrow",
+      "tags": {
+        "Potion": "minecraft:water_breathing"
+      }
+    },
+    {
+      "id": "minecraft:tipped_arrow",
+      "tags": {
+        "Potion": "minecraft:healing"
+      }
+    },
+    {
+      "id": "minecraft:tipped_arrow",
+      "tags": {
+        "Potion": "minecraft:harming"
+      }
+    },
+    {
+      "id": "minecraft:tipped_arrow",
+      "tags": {
+        "Potion": "minecraft:poison"
+      }
+    },
+    {
+      "id": "minecraft:tipped_arrow",
+      "tags": {
+        "Potion": "minecraft:regeneration"
+      }
+    },
+    {
+      "id": "minecraft:tipped_arrow",
+      "tags": {
+        "Potion": "minecraft:strength"
+      }
+    },
+    {
+      "id": "minecraft:tipped_arrow",
+      "tags": {
+        "Potion": "minecraft:weakness"
+      }
+    },
+    {
+      "id": "minecraft:tipped_arrow",
+      "tags": {
+        "Potion": "minecraft:slow_falling"
+      }
+    },
+    "minecraft:trident"
+  ]
+}

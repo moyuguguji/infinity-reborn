@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_nugget"
+    },
+    "title": {
+      "text": "小修小补"
+    },
+    "description": {
+      "text": "慰劳一下铁傀儡，帮助其恢复所有生命值"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/structures/forgotten_field/locate",
+  "criteria": {
+    "heal iron golem": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

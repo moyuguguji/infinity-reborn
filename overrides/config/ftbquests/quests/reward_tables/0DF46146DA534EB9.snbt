@@ -1,0 +1,28 @@
+{
+	id: "0DF46146DA534EB9"
+	order_index: 2
+	title: "普通随机奖励"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{ item: "croptopia:fish_and_chips", random_bonus: 6, weight: 50 }
+		{ item: "victus:blank_heart_aspect", random_bonus: 3, weight: 8 }
+		{ item: "gobber2:gobber2_foo_end", random_bonus: 16, weight: 18 }
+		{
+			xp_levels: 5
+			type: "xp_levels"
+			weight: 13
+		}
+		{
+			item: {
+				id: "numismatic-overhaul:gold_coin"
+				Count: 1b
+				tag: { }
+			}
+			random_bonus: 5
+			weight: 3
+		}
+		{ item: "minecraft:iron_ingot", random_bonus: 6, weight: 20 }
+		{ item: "minecraft:diamond", random_bonus: 2, weight: 10 }
+	]
+}

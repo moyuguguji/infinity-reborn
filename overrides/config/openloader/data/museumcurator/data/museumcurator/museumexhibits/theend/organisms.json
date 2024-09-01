@@ -1,0 +1,13 @@
+{
+  "collection": "museumcurator.collection.theend",
+  "name": "museumcurator.theend.organisms",
+  "items": [
+    "minecraft:chorus_flower",
+    "minecraft:chorus_fruit",
+    "minecraft:popped_chorus_fruit",
+    "minecraft:ender_pearl",
+    "minecraft:ender_eye",
+    "minecraft:dragon_egg",
+    "minecraft:dragon_head"
+  ]
+}

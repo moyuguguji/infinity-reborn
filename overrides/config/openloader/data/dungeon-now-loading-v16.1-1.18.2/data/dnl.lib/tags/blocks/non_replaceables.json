@@ -1,0 +1,9 @@
+{
+  "values":[
+    "#dnl.lib:unbreakables",
+    "#dnl.lib:storage_blocks",
+    "minecraft:spawner",
+    "minecraft:lodestone",
+    "minecraft:respawn_anchor"
+  ]
+}

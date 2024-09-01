@@ -1,0 +1,26 @@
+{
+    "__comment": "Made by ..",
+    "display": {
+        "title": {"text": "Vanilla Bosses"},
+        "description": {"text": "Defeat the Wither, Ender Dragon and Warden."},
+        
+        "icon": {"item": "minecraft:sculk"},
+        "frame": "challenge",
+        
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "info_vanilla_bosses": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:air"
+            }
+        }
+    },
+    "rewards": {
+		"experience": 1
+    },
+    "parent": "darkbosses:root"
+}

@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "dnl:biomes/taiga"
+                }
+            ]
+        },
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "dnl:themes/graveyard"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "dnl:items/dungeon_clock"
+                }
+            ]
+        }
+    ]
+}

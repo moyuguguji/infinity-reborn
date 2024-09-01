@@ -1,0 +1,16 @@
+{
+  "collection": "museumcurator.collection.botany",
+  "name": "museumcurator.botany.darkoaktree",
+  "relativeTo": "museumcurator.botany.birchtree",
+  "items": [
+    "minecraft:dark_oak_sapling",
+    "minecraft:dark_oak_leaves",
+    "minecraft:dark_oak_log",
+    "minecraft:stripped_dark_oak_log",
+    "minecraft:dark_oak_wood",
+    "minecraft:stripped_dark_oak_wood",
+    "minecraft:dark_oak_planks",
+    "minecraft:dark_oak_slab",
+    "minecraft:dark_oak_stairs"
+  ]
+}

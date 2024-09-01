@@ -1,0 +1,42 @@
+{
+  "id": "tiered:sins_greed_melee",
+  "verifiers": [
+    {
+      "tag": "tier:4weapon"
+    },
+    {
+      "tag": "tier:5weapon"
+    },
+    {
+      "tag": "c:swords"
+    }
+  ],
+  "weight": 7,
+  "style": {
+    "color": "dark_red"
+  },
+  "attributes": [
+    {
+      "type": "minecraft:generic.attack_speed",
+      "modifier": {
+          "name": "tiered:sins_greed",
+          "operation": "MULTIPLY_TOTAL",
+          "amount": 0.3
+      },
+      "optional_equipment_slots": [
+          "MAINHAND"
+      ]
+    },
+    {
+    "type": "minecraft:generic.attack_damage",
+    "modifier": {
+        "name": "tiered:sins_greed",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": -0.1
+    },
+    "optional_equipment_slots": [
+        "MAINHAND"
+    ]
+    }
+  ]
+}

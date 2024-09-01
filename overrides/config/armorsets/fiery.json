@@ -1,0 +1,47 @@
+{
+  "armorSetName": "fiery",
+  "head": {
+    "itemKey": "twilightforest:fiery_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "twilightforest:fiery_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "twilightforest:fiery_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "twilightforest:fiery_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 5.0,
+      "modifierUUID": "0e01b4a9-4f0c-4f08-aec5-6a1b6b984e33",
+      "description": "+5 armor",
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "mythicmetals:magic_protection",
+      "value": 5.0,
+      "modifierUUID": "ab90de1a-f451-4065-8b7e-477efd408316",
+      "description": "+5 magic protection",
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

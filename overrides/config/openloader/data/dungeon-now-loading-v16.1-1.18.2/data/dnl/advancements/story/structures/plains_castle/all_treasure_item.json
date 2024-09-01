@@ -1,0 +1,115 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_chestplate",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "闪耀武装",
+        "description": "从战利品箱中发现全部极佳附魔物品！",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "dnl:story/structures/plains_castle/treasure_item",
+    "criteria": {
+        "treasure_sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:diamond_sword"
+                        ],
+                        "nbt": "{dnl.castle:1b,dnl.treasure:1b}"
+                    }
+                ]
+            }
+        },
+        "treasure_bow": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:bow"
+                        ],
+                        "nbt": "{dnl.castle:1b,dnl.treasure:1b}"
+                    }
+                ]
+            }
+        },
+        "treasure_helmet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:diamond_helmet"
+                        ],
+                        "nbt": "{dnl.castle:1b,dnl.treasure:1b}"
+                    }
+                ]
+            }
+        },
+        "treasure_chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:diamond_chestplate"
+                        ],
+                        "nbt": "{dnl.castle:1b,dnl.treasure:1b}"
+                    }
+                ]
+            }
+        },
+        "treasure_leggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:diamond_leggings"
+                        ],
+                        "nbt": "{dnl.castle:1b,dnl.treasure:1b}"
+                    }
+                ]
+            }
+        },
+        "treasure_boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:diamond_boots"
+                        ],
+                        "nbt": "{dnl.castle:1b,dnl.treasure:1b}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "treasure_sword"
+        ],
+        [
+            "treasure_bow"
+        ],
+        [
+            "treasure_helmet"
+        ],
+        [
+            "treasure_chestplate"
+        ],
+        [
+            "treasure_leggings"
+        ],
+        [
+            "treasure_boots"
+        ]
+    ]
+}

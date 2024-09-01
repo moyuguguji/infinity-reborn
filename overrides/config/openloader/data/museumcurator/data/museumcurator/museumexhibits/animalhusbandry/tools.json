@@ -1,0 +1,10 @@
+{
+  "collection": "museumcurator.collection.animalhusbandry",
+  "name": "museumcurator.animalhusbandry.tools",
+  "items": [
+    "minecraft:fishing_rod",
+    "minecraft:lead",
+    "minecraft:name_tag",
+    "minecraft:shears"
+  ]
+}

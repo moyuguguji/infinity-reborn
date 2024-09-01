@@ -1,0 +1,7 @@
+{
+  "collection": "museumcurator.collection.arts",
+  "name": "museumcurator.arts.paintings",
+  "items": [
+    "minecraft:painting"
+  ]
+}

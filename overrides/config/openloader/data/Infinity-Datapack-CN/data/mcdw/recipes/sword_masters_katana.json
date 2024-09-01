@@ -1,0 +1,31 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "item": "minecraft:obsidian",
+     "count": 5
+    },
+    {
+      "item": "gobber2:gobber2_ingot",
+      "count": 4
+    },
+    {
+      "item": "twilightforest:hydra_trophy",
+     "count": 1
+    },
+    {
+      "item": "twilightforest:fiery_ingot",
+      "count": 6
+    },
+    {
+      "item": "minecraft:iron_ingot",
+     "count": 24
+    }
+  ],
+  "output": {
+    "id": "mcdw:sword_masters_katana",
+      "count": 1
+  },
+  "min_forge_tier": 3,
+  "fuel_per_tick": 600
+}

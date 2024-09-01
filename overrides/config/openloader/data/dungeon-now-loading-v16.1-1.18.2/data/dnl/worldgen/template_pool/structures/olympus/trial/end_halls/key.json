@@ -1,0 +1,15 @@
+{
+  "name": "dnl:structures/olympus/trial/end_halls/key",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "dnl:olympus/trial/end_halls/key",
+        "processors": "dnl:structures/olympus/path_age"
+      }
+    }
+  ]
+}
