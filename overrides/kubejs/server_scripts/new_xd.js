@@ -450,3 +450,19 @@ onEvent('item.entity_interact',event =>{
     }}
     //event.server.runCommandSilent(`say ${entity.type}`)
 })
+onEvent('block.right_click', event => {
+    let player = event.player
+    let mainItem = player.getHeldItem(MAIN_HAND)
+    let block = event.getBlock()
+    if ((mainItem.nbtString.lastIndexOf('id:"x_enchant:broken_dawn"') >= 0 && block == 'infusion_table:infusion_table') || (mainItem.nbtString.lastIndexOf('x_enchant:broken_dawnDone":1b') >= 0 && (block == 'infusion_table:infusion_table' || block =='spectrum:item_bowl_calcite' || block == 'spectrum:item_bowl_basalt'))) {
+        event.server.tell("\u00A7e辉光庇护此物")
+        event.cancel()
+    }
+})
+onEvent('player.inventory.changed', event => {
+    let item = event.getItem()
+    let player = event.player
+    if (item.nbtString.lastIndexOf("x_enchant:broken_dawn") >= 0 && item.id == "minecraft:enchanted_book") {
+        player.inventory.clear(item)
+    }
+})
