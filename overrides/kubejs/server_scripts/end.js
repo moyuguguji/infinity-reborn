@@ -45,7 +45,7 @@ onEvent('recipes', event => {
             "visual_explosions_on_shrine"
         ],
         "description": "§0Thank You for Playing"
-    })
+    }).id("kubejs:infinity_sword")
     event.custom({
         type: "spectrum:fusion_shrine",
         "group": "horse_armor",
@@ -95,5 +95,5 @@ onEvent('recipes', event => {
             "visual_explosions_on_shrine"
         ],
         "description": "§0Thank You for Playing"
-    })
+    }).id("kubejs:infinity_sword1")
 })
