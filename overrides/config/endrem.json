@@ -1,8 +1,0 @@
-{
-  "common": {
-    "enableEyeOfEnderComment": "Enable/Disable usage of Ender Eyes",
-    "ENABLE_EYE_OF_ENDER": false,
-    "eyeBreakProbabilityComment": "Percentage chance of eyes breaking when thrown",
-    "EYE_BREAK_PROBABILITY": 10
-  }
-}

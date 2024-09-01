@@ -1,9 +1,0 @@
-{
-  "parent": "minecraft:item/handheld",
-  "textures": {
-    "layer0": "minecraft:item/stick"
-  },
-    "overrides": [
-	{"predicate": {"custom_model_data": 16004}, "model": "item/key"}
-    ]
-}

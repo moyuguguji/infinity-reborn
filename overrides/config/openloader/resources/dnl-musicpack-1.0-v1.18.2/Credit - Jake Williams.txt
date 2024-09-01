@@ -1,6 +1,0 @@
-Credit to Jake Williams for making the music!
-
-bee_swarm = bees
-unused = welcome_to_hell
-
-https://www.jakewilliamsmusic.com/

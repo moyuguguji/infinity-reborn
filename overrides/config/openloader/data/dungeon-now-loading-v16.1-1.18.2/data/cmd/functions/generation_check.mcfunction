@@ -1,1 +1,0 @@
-function dnl:generation_check

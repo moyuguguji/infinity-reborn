@@ -1,1 +1,0 @@
-give @s apple{display:{Name:'{"text":"Forbidden Apple","color":"light_purple","italic":false}',Lore:['{"text":"+1 Vitality","color":"blue","italic":false}']},dnl.item:1b,dnl.forbidden_fruit:1b,dnl.forbidden_apple:1b,dnl.vitality:1b,Enchantments:[{}]} 1

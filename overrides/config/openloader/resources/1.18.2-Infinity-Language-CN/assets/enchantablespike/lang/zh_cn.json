@@ -1,9 +1,0 @@
-{
-  "itemGroup.enchantablespike.tab": "可附魔的尖刺",
-  "block.enchantablespike.diamond_spikes": "钻石尖刺",
-  "block.kibe.diamond_spikes": "钻石尖刺(旧)",
-  "tooltip.kibe.lore.diamond_spikes.1": "§4§l在工作台上转换或者",
-  "tooltip.kibe.lore.diamond_spikes.2": "§4§l破坏获得可附魔版本",
-  "tooltip.enchantablespike.lore.diamond_spikes.1": "§5§o扎死实体掉落经验,扎死玩家仅掉落物品",
-  "tooltip.enchantablespike.lore.diamond_spikes.2": "§5§o可以附魔"
-}

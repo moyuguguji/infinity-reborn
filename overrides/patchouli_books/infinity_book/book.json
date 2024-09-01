@@ -1,0 +1,9 @@
+{
+  "name": "text.infinity.book.name",
+  "landing_text": "text.infinity.book.description",
+  "model": "patchouli:book_of_infinity",
+  "use_blocky_font": true,
+  "show_progress": false,
+  "pause_game": true,
+  "version": 1
+}

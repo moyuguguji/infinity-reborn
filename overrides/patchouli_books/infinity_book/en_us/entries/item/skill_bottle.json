@@ -1,0 +1,12 @@
+{
+  "name": "技能之瓶",
+  "icon": "kubejs:skill_bottle",
+  "category": "patchouli:item",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "kubejs:kjs_bpduqu5b58ht2t8npjrzckfju",
+      "text":"它可以用来返还一点技能点。使用后需要到技能界面手动减少某属性的点数。"
+    }
+  ]
+}

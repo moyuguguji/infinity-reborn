@@ -1,8 +1,0 @@
-{
-  "collection": "museumcurator.collection.thenether",
-  "name": "museumcurator.thenether.glowstone",
-  "items": [
-    "minecraft:glowstone_dust",
-    "minecraft:glowstone"
-  ]
-}

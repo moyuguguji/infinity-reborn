@@ -1,9 +1,0 @@
-{
-  "collection": "museumcurator.collection.thenether",
-  "name": "museumcurator.thenether.basalt",
-  "items": [
-    "minecraft:basalt",
-    "minecraft:polished_basalt",
-    "minecraft:smooth_basalt"
-  ]
-}

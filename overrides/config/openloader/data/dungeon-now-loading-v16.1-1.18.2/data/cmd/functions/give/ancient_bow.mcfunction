@@ -1,1 +1,0 @@
-give @s bow{display:{Name:'{"text":"Ancient Bow","color":"gold","italic":false}',Lore:['{"translate":"","italic":false}','{"text":"When Fully Charged:","color":"gray","italic":false}','{"text":"9-16 Damage","color":"dark_aqua","italic":false}']},CustomModelData:12001,dnl.item:1b,dnl.ancient_bow:1b} 1

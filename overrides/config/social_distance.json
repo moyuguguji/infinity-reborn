@@ -1,7 +1,0 @@
-{
-  "show_message": true,
-  "distance_config": {
-    "minecraft:wither": 32.0,
-    "minecraft:warden": 32.0
-  }
-}

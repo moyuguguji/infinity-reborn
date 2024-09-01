@@ -1,1 +1,0 @@
-give @s yellow_shulker_box{display:{Name:'{"text":"Hive Chest","color":"gold","italic":false}'},dnl.hive_chest:1b,BlockEntityTag:{LootTable:"dnl:structures/hivenest/chests/hive_chest"}} 1
