@@ -63,12 +63,12 @@
 #Adds custom recipes.
 "ExtraRecipes Enabled" = true
 #Adds more villager trades.
-"ExtraTrades Enabled" = true
+"ExtraTrades Enabled" = false
 #Adds Charm items as trades for the Wandering Trader.
 "ExtraWanderingTrades Enabled" = true
 #Extract enchantments from any enchanted item into an empty book using the grindstone.
 #The player must pay a cost (in xp levels) to extract enchantments from the item.
-"ExtractEnchantments Enabled" = true
+"ExtractEnchantments Enabled" = false
 #Potion effect particles are much less obtrusive by default and can optionally be entirely hidden.
 "GentlePotionParticles Enabled" = true
 #Goats have a chance to drop mutton when killed.
@@ -161,7 +161,7 @@
 #Increases snow layers when snowing in cold biomes
 "SnowAccumulation Enabled" = true
 #Allows enchanted books to stack.
-"StackableEnchantedBooks Enabled" = true
+"StackableEnchantedBooks Enabled" = false
 #Allows potions to stack.
 "StackablePotions Enabled" = true
 #Allows stews to stack.
@@ -177,7 +177,7 @@
 #If Grave mode is not enabled, you must be holding a totem in order for it to preserve your items.
 "TotemOfPreserving Enabled" = false
 #A totem will work from anywhere in the player's inventory as well as held in the main or offhand.
-"TotemWorksFromInventory Enabled" = true
+"TotemWorksFromInventory Enabled" = false
 #Barrels available in all types of vanilla wood.
 "VariantBarrels Enabled" = true
 #Variant bars crafted from vanilla metal ingots.
