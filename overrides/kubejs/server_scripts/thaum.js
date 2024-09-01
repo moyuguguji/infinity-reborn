@@ -276,7 +276,7 @@ onEvent('recipes', event => {
       "visual_explosions_on_shrine"
     ],
     "finish_crafting_effect": "lightning_on_shrine"
-  })
+  }).id("kubejs:infinity_sword_b")
   event.custom({
     type: "spectrum:fusion_shrine",
     "time": 50,
@@ -362,7 +362,7 @@ onEvent('recipes', event => {
       "visual_explosions_on_shrine"
     ],
     "finish_crafting_effect": "lightning_on_shrine"
-  })
+  }).id("kubejs:infinity_sword_a")
   event.custom({
     type: "spectrum:enchanter",
     "time": 10000,
