@@ -49,6 +49,7 @@ onEvent('recipes', event =>{
     
     event.remove({output:'spectrum:enchanter'})
     event.remove({output:'spectrum:compacting_chest'})
+    event.remove({output:'spectrum:enchantment_canvas'})
 
     event.remove({output: 'victus:diamond_heart_aspect'})
     event.remove({output: 'victus:golden_heart_aspect'})
