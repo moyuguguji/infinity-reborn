@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/golden_sword"
+  },
+  "overrides": [
+    {
+        "predicate": {
+            "custom_model_data": 13002
+        },
+        "model": "item/poison_rapier"
+    }
+  ]
+}

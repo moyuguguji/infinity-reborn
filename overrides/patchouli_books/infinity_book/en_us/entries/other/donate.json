@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "name": "赞助人员名单",
   "icon": "minecraft:diamond",
@@ -12,19 +11,4 @@
       "type": "patchouli:empty"
     }
   ]
-=======
-{
-  "name": "赞助人员名单",
-  "icon": "minecraft:diamond",
-  "category": "patchouli:other",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "眉眼生花 燕麦 Shu_Zhix 霖 不知所起 仓鼠发电机 小XX 跟魂紫说早安 跟皮皮说午安 跟哈提说晚安 时暮 kabushu 温宁心 群男娘 有事打电话 萧骁 不思蜀 镜心 IceTang_冰糖 于奥港 Cycle_bai 阿拉善 吴权彬 最硬的骨终喂汪 黑白灰 L_ingA ForeverCangQiong mowenkuo NO36lucky qiansuran 静守季后 韩奕 姑苏城外OuO 暗夜景天 梨 缘语 橘沙星冰乐i 威风凛凛的黑大帅 Cloud_YZM pinemin 艾凌寒 长安 甲虫力气大 X_nuohua 利昂 古鳗芽咕 456 辣椒香菜 无敌迷你世界大王 幻灵幽露 无奈的开学者 思念的风 白熊  YanHua 悠悠闲闲 空之名虚之姓 拾贰 烟羽 楽"
-    },  
-    {
-      "type": "patchouli:empty"
-    }
-  ]
->>>>>>> 6ea2a9d06a3c06cc75a2dcdcdc6abc42210c930b
 }

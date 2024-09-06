@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "name": "饰品栏",
   "icon": "minecraft:elytra",
@@ -15,22 +14,4 @@
       "border": true
     }
   ]
-=======
-{
-  "name": "饰品栏",
-  "icon": "minecraft:elytra",
-  "category": "patchouli:other",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "饰品栏可以用来装备图腾、鞘翅、背包、戒指等"
-      
-    },    
-    {
-      "type": "patchouli:image",
-      "images":["patchouli:textures/trinket.png"],
-      "border": true
-    }
-  ]
->>>>>>> 6ea2a9d06a3c06cc75a2dcdcdc6abc42210c930b
 }

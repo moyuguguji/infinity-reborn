@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "name": "背包",
   "icon": "inmis:plated_backpack",
@@ -33,40 +32,4 @@
       "recipe": "kubejs:kjs_7bkdipdghq7nqega7qokyme60"
     }
   ]
-=======
-{
-  "name": "背包",
-  "icon": "inmis:plated_backpack",
-  "category": "patchouli:item",
-  "pages": [
-    {
-      "type":"patchouli:text",
-      "text":"各种不一样的背包，材质越好，容量越大"
-    },
-    {
-      "type": "patchouli:crafting",
-      "recipe": "inmis:baby_backpack",
-      "recipe2": "inmis:frayed_backpack"
-    },
-    {
-      "type": "patchouli:crafting",
-      "recipe": "inmis:plated_backpack",
-      "recipe2": "inmis:gilded_backpack"
-    },
-    {
-      "type": "patchouli:crafting",
-      "recipe": "inmis:bejeweled_backpack",
-      "recipe2": "inmis:blazing_backpack"
-    },
-    {
-      "type": "patchouli:crafting",
-      "recipe": "inmis:withered_backpack",
-      "recipe2": "inmis:endless_backpack"
-    },
-    {
-      "type": "patchouli:crafting",
-      "recipe": "kubejs:kjs_7bkdipdghq7nqega7qokyme60"
-    }
-  ]
->>>>>>> 6ea2a9d06a3c06cc75a2dcdcdc6abc42210c930b
 }
