@@ -260,10 +260,6 @@ onEvent('recipes', event => {
       {
         "item": 'things:gleaming_compound',//流星碎片
         "count": 10
-      },
-      {
-        "item": 'adventurez:shadow_chest_block',//风暴之石
-        "count": 1
       }
     ],
     "result": {
