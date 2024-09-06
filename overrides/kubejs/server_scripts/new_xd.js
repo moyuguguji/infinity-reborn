@@ -446,3 +446,13 @@ onEvent('player.inventory.changed', event => {
         player.inventory.clear(item)
     }
 })
+onEvent('ftbquests.custom_reward.740A45205A854354', event => {// 设置ID为4883F7BD04E2C597的自定义奖励
+    // 给予玩家药水效果奖励(村庄英雄)
+    if (event.player.stages.has('villager')) {
+        event.player.stages.remove('villager')
+        event.player.tell("已关闭限制村民右键交易")
+    } else {
+        event.player.stages.add('villager')
+        event.player.tell("已开启限制村民右键交易")
+    }
+})
