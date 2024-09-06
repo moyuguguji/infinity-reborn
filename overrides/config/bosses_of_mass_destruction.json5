@@ -8,7 +8,7 @@
 			"statusEffectId": "minecraft:slowness",
 			"statusEffectDuration": 60,
 			"statusEffectPotency": 2,
-			"damage": 50.0
+			"damage": 15.0
 		},
 		"comet": {
 			"explosionStrength": 5.0,
@@ -48,7 +48,7 @@
 	"obsidilithConfig": {
 		"health": 550.0,
 		"armor": 40.0,
-		"attack": 100.0,
+		"attack": 80.0,
 		"idleHealingPerTick": 3.0,
 		"experienceDrop": 1932,
 		"spawnPillarOnDeath": true,
@@ -63,7 +63,7 @@
 	"gauntletConfig": {
 		"health": 380.0,
 		"armor": 18.0,
-		"attack": 40.0,
+		"attack": 20.0,
 		"idleHealingPerTick": 5.0,
 		"experienceDrop": 1000,
 		"spawnAncientDebrisOnDeath": true,
@@ -78,7 +78,7 @@
 	"voidBlossomConfig": {
 		"health": 200.0,
 		"armor": 15.0,
-		"attack": 35.0,
+		"attack": 25.0,
 		"idleHealingPerTick": 50.0,
 		"experienceDrop": 1000,
 		"arenaGeneration": {
