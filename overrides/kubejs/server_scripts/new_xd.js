@@ -361,24 +361,6 @@ onEvent("entity.death", event => {
   }
 })
 onEvent('item.right_click',event =>{
-    let ty = [
-        "minecraft:librarian",
-        "minecraft:toolsmith",
-        "minecraft:weaponsmith",
-        "minecraft:armorer",
-        "minecraft:fisherman",
-        "morevillagers:woodworker",
-        "morevillagers:miner"
-    ]
-    let entity = event.target
-  if (entity != null) {
-    if (entity.type == "minecraft:villager") {
-        let profession = entity.fullNBT.VillagerData.profession
-    if (ty.includes(profession)) {
-        event.cancel()
-        event.server.tell("\u00A74请使用贸易站交易")
-    }}}
-
   if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:boss_rush') {
     let targetTypes = [
     "minecraft:wither",
@@ -428,7 +410,7 @@ onEvent('item.right_click',event =>{
     }
 })
 onEvent('item.entity_interact',event =>{
-    let ty = [
+   let ty = [
         "minecraft:librarian",
         "minecraft:toolsmith",
         "minecraft:weaponsmith",
@@ -439,16 +421,14 @@ onEvent('item.entity_interact',event =>{
     ]
     let entity = event.target
   if (entity != null) {
-    if (entity.type == "minecraft:villager") {
+    if (event.player.stages.has('villager')) {
+      if (entity.type == "minecraft:villager") {
         let profession = entity.fullNBT.VillagerData.profession
-    if (ty.includes(profession)) {
+      if (ty.includes(profession)) {
         event.cancel()
-        event.server.tell("\u00A74请使用贸易站交易")
+        event.server.tell("\u00A74请使用贸易站交易,默认开启,可在任务中关闭")
     }
-        //event.server.runCommandSilent(`say ${profession}`)
-        
-    }}
-    //event.server.runCommandSilent(`say ${entity.type}`)
+    }}}
 })
 onEvent('block.right_click', event => {
     let player = event.player
