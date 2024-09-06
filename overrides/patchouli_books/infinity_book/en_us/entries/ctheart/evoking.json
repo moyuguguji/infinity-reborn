@@ -12,7 +12,7 @@
     },
     {
       "type": "patchouli:crafting",
-      "recipe": "infinity:evoking_heart",
+      "recipe": "victus:evoking_heart_aspect",
       "text": "当然，这个过程并非没有风险，唤魔者往往是敌对的。但是，远离他们的视线足够长的时间应该足以转换。"
     }
   ]

@@ -12,23 +12,23 @@
 	#( ( level / 3 ) + 1 )
 	#count
 	#( level + count )
-	power_expression = "level"
+	power_expression = "64"
 	#True if page turn is allowed
 	page_turn = true
 	#Item cost when disenchant.
 	#Use the format like "minecraft:emerald" or "minecraft:diamond"
-	cost = "minecraft:emerald"
+	cost = "spectrum:spectral_shard"
 	#True if allow enchant are incompatible
 	strict_mode = false
 	#True if item verification needs to be deactivated
 	creative_mode = false
 	#What consumables to use
 	#Allowed Values: NONE, ITEM, EXPERIENCE
-	power = "NONE"
+	power = "ITEM"
 	#Disenchant type will not be editable
 	#Allowed Values: DEFAULT, DISENCHANT
 	type = "DEFAULT"
 	#Report the computed expressions
 	#Use the format power_expression describe
-	report_expression = "count"
+	report_expression = "64"
 

@@ -20,7 +20,7 @@
             [ "   W   "," W   W ","       ","W  0  W","       "," W   W ","   W   "]
         ],
         "mapping": {
-            "W": "betterend:flavolite_pedestal",
+            "W": "#betterend:pedestal",
             "0": "betterend:infusion_pedestal"
         },
         "symmetrical": true

@@ -484,120 +484,157 @@ onEvent('entity.hurt', event => {
 
             }else if(player.stages.has('difficulty_yonghen')){
                 let lmd= player.fullNBT.IMDifficulty
-                if(!target.tags.contains('attacked')&& !targetTypes.includes(target.type) && target.type != "botania:doppleganger"){
-                    let result=event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage get`)
+                if (!target.tags.contains('attacked') && !targetTypes.includes(target.type) && target.type != "botania:doppleganger") {
                     if (lmd < 50) {
-                    event.cancel()
-                    target.tags.add('attacked')
-                    target.tags.remove('easy')
-                    target.setMaxHealth(target.maxHealth*(2.5))
-                    target.heal(target.maxHealth * 0.9)
-                    target.attack(target.maxHealth * 0.1)
+                        event.cancel()
+                        target.tags.add('attacked')
+                        target.tags.remove('easy')
+                        target.setMaxHealth(target.maxHealth * (2.5))
+                        target.heal(target.maxHealth * 0.9)
+                        target.attack(target.maxHealth * 0.1)
+                        if (result > 15 && !targetTypes.includes(target.type)) {
+                            event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${15 - result}`)
+                        }
+                        else if (result < 5) {
+                            event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${5 - result + result1}`)
+                        }
                     }
                     else if (lmd >= 500) {
                         event.cancel()
                         target.tags.add('attacked')
                         target.tags.remove('easy')
-                        event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result + result*2.0}`)
-                        target.setMaxHealth(target.maxHealth*(40))
+                        result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage get`)
+                        event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result * 2.0}`)
+                        target.setMaxHealth(target.maxHealth * (40))
                         target.heal(target.maxHealth * 0.9)
                         target.attack(target.maxHealth * 0.1)
+                        if (result > 30 && !targetTypes.includes(target.type)) {
+                            event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${30 - result}`)
+                        }
+                        else if (result < 20) {
+                            event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${20 - result + result1}`)
+        
+                        }
                     }
                     else if (lmd >= 250) {
                         event.cancel()
                         target.tags.add('attacked')
                         target.tags.remove('easy')
-                        event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result + result*1.5}`)
-                        target.setMaxHealth(target.maxHealth*(15))
+                        result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage get`)
+                        event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result * 1.5}`)
+                        target.setMaxHealth(target.maxHealth * (15))
                         target.heal(target.maxHealth * 0.9)
                         target.attack(target.maxHealth * 0.1)
+                        if (result > 25 && !targetTypes.includes(target.type)) {
+                            event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${25 - result}`)
+                        }
+                        else if (result < 15) {
+                            event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${15 - result + result1}`)
+        
+                        }
                     }
                     else if (lmd >= 120) {
-                    event.cancel()
-                    target.tags.add('attacked')
-                    target.tags.remove('easy')
-                    target.setMaxHealth(target.maxHealth*(10))
-                    event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result + result*1}`)
-                    target.heal(target.maxHealth * 0.9)
-                    target.attack(target.maxHealth * 0.1)
+                        event.cancel()
+                        target.tags.add('attacked')
+                        target.tags.remove('easy')
+                        target.setMaxHealth(target.maxHealth * (10))
+                        target.heal(target.maxHealth * 0.9)
+                        target.attack(target.maxHealth * 0.1)
+                        if (result > 20 && !targetTypes.includes(target.type)) {
+                            event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${20 - result}`)
+                        }
+                        else if (result < 12) {
+                            event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${12 - result + result1}`)
+        
+                        }
                     }
                     else if (lmd >= 50) {
-                    event.cancel()
-                    target.tags.add('attacked')
-                    target.tags.remove('easy')
-                    target.setMaxHealth(target.maxHealth*(5))
-                    event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result + result*0.5}`)
-                    target.heal(target.maxHealth * 0.9)
-                    target.attack(target.maxHealth * 0.1)
+                        event.cancel()
+                        target.tags.add('attacked')
+                        target.tags.remove('easy')
+                        target.setMaxHealth(target.maxHealth * (5))
+                        target.heal(target.maxHealth * 0.9)
+                        target.attack(target.maxHealth * 0.1)
+                        if (result > 15 && !targetTypes.includes(target.type)) {
+                            event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${15 - result}`)
+                        }
+                        else if (result < 10) {
+                            event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${10 - result + result1}`)
+        
+                        }
                     }
                 }
-                else if(!target.tags.contains('attacked') && targetTypes.includes(target.type)){
-                    let result=event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage get`)
+                else if (!target.tags.contains('attacked') && targetTypes.includes(target.type)) {
                     if (lmd < 50) {
                         event.cancel()
                         target.tags.add('attacked')
                         target.tags.remove('easy')
-                        target.setMaxHealth(target.maxHealth*(4.5))
+                        target.setMaxHealth(target.maxHealth * (4.5))
                         target.heal(target.maxHealth * 0.9)
                         target.attack(target.maxHealth * 0.1)
+                        if (result < 15 && targetTypes.includes(target.type) && target.type != "twilightforest:knight_phantom") {
+                            event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${15 - result + result1}`)
                         }
-                        else if (lmd >= 500) {
-                            event.cancel()
-                            target.tags.add('attacked')
-                            target.tags.remove('easy')
-                            target.setMaxHealth(target.maxHealth*(60))
-                            event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result + result*3.0}`)
-                            target.heal(target.maxHealth * 0.9)
-                            target.attack(target.maxHealth * 0.1)
-                        }
-                        else if (lmd >= 250) {
-                            event.cancel()
-                            target.tags.add('attacked')
-                            target.tags.remove('easy')
-                            event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result + result*2.0}`)
-                            target.setMaxHealth(target.maxHealth*(20))
-                            target.heal(target.maxHealth * 0.9)
-                            target.attack(target.maxHealth * 0.1)
-                            }
-                        else if (lmd >= 120) {
+                    }
+                    else if (lmd >= 500) {
                         event.cancel()
                         target.tags.add('attacked')
                         target.tags.remove('easy')
-                        target.setMaxHealth(target.maxHealth*(15))
-                        event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result + result*1.5}`)
+                        target.setMaxHealth(target.maxHealth * (60))
+                        result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage get`)
+                        event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result * 3.0}`)
                         target.heal(target.maxHealth * 0.9)
                         target.attack(target.maxHealth * 0.1)
+                        if (result < 40 && targetTypes.includes(target.type) && target.type != "twilightforest:knight_phantom") {
+                            event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${40 - result + result1}`)
                         }
-                        else if (lmd >= 50) {
+                    }
+                    else if (lmd >= 250) {
                         event.cancel()
                         target.tags.add('attacked')
                         target.tags.remove('easy')
-                        target.setMaxHealth(target.maxHealth*(10))
-                        event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result + result*1}`)
+                        result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage get`)
+                        event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result * 2.0}`)
+                        target.setMaxHealth(target.maxHealth * (20))
                         target.heal(target.maxHealth * 0.9)
                         target.attack(target.maxHealth * 0.1)
+                        if (result < 25 && targetTypes.includes(target.type) && target.type != "twilightforest:knight_phantom") {
+                            event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${25 - result + result1}`)
                         }
+                    }
+                    else if (lmd >= 120) {
+                        event.cancel()
+                        target.tags.add('attacked')
+                        target.tags.remove('easy')
+                        target.setMaxHealth(target.maxHealth * (15))
+                        target.heal(target.maxHealth * 0.9)
+                        target.attack(target.maxHealth * 0.1)
+                        if (result < 20 && targetTypes.includes(target.type) && target.type != "twilightforest:knight_phantom") {
+                            event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${20 - result + result1}`)
+                        }
+                    }
+                    else if (lmd >= 50) {
+                        event.cancel()
+                        target.tags.add('attacked')
+                        target.tags.remove('easy')
+                        target.setMaxHealth(target.maxHealth * (10))
+                        target.heal(target.maxHealth * 0.9)
+                        target.attack(target.maxHealth * 0.1)
+                        if (result < 18 && targetTypes.includes(target.type) && target.type != "twilightforest:knight_phantom") {
+                            event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${18 - result + result1}`)
+                        }
+                    }
                 }
-                else if(!target.tags.contains('attacked')&&target.type == "botania:doppleganger"){
+                else if (!target.tags.contains('attacked') && target.type == "botania:doppleganger") {
                     event.cancel()
                     target.tags.add('attacked')
                     target.tags.remove('easy')
-                    target.setMaxHealth(target.maxHealth*(2))
+                    target.setMaxHealth(target.maxHealth * (2))
                     target.heal(target.maxHealth * 0.9)
                     target.attack(target.maxHealth * 0.1)
                 }
-                if (result >= 21 && targetTypes.includes(target.type) && result < 30) {
+                if (result > 15 && targetTypes.includes(target.type) && result < 30) {
                     event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${result - result * 0.1}`)
-                }
-                else if (result <= 21 && targetTypes.includes(target.type) && target.type != "twilightforest:knight_phantom") {
-                    event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${result + (20 - result)}`)
-                }
-                else if (result >= 16 && !targetTypes.includes(target.type)) {
-                    event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${15 - result}`)
-                }
-                else if (result < 15) {
-                    event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${15 - result + result1}`)
-
                 }
             if(!target.tags.contains('banxue')){
                     if(target.health <= target.maxHealth / 2 && !targetTypes.includes(target.type) &&target.type != "botania:doppleganger"){

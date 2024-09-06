@@ -4,7 +4,6 @@
     "disabled": [
       "com.doo.xenchant.enchantment.halo.ThunderHalo",
       "com.doo.xenchant.enchantment.SuckBlood",
-      "com.doo.xenchant.enchantment.BrokenDawn",
       "com.doo.xenchant.enchantment.QuickShot",
       "com.doo.xenchant.enchantment.HitRateUp"
     ],
@@ -25,9 +24,9 @@
     "nightBreakIsReal": false,
     "nightBreakMaxLevel": 1,
     "nightBreakPerLevel": 0.0,
-    "brokenDawn": false,
-    "brokenDawnProcess": 1.5,
-    "brokenDawnSuccess": 20.0,
+    "brokenDawn": true,
+    "brokenDawnProcess": 5.0,
+    "brokenDawnSuccess": 0.0,
     "halo": true,
     "haloRange": 8.0,
     "harmfulTargetOnlyMonster": true,
@@ -173,7 +172,6 @@
       "effect.mcdw.pain_cycle",
       "effect.twilightforest.frosted",
       "effect.mcdw.accelerate",
-      "effect.mcdw.dynamo",
       "effect.victus.heartbleed",
       "effect.minecraft.saturation",
       "effect.mcdw.shadow_form",

@@ -9,7 +9,7 @@
     },
     {
       "type": "patchouli:crafting",
-      "recipe": "infinity:grilled_heart",
+      "recipe": "victus:grilled_heart_aspect",
       "text": "$(o)$(#999999)牛排太好吃了。我之前饿了，但现在我满足了。嘎嘎饱！$()"
     }
   ]

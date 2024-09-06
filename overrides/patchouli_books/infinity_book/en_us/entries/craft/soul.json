@@ -1,0 +1,36 @@
+{
+    "name": "灵魂蜕变",
+    "icon": "spirit:soul_crystal",
+    "category": "patchouli:craft",
+    "pages": [
+      {
+        "type":"patchouli:crafting",
+        "recipe":"spirit:crafting/soul_pedestal",
+        "text":"需要先制作一个灵魂基座,按u或者右键可以查看配方"
+      },
+      {
+        "type":"patchouli:crafting",
+        "recipe":"spirit:crafting/pedestal",
+        "text":"然后制作8个基座"
+      },
+      {
+        "type":"patchouli:multiblock",
+        "multiblock": {
+          "pattern": [
+              [ "   W   "," W   W ","       ","W  0  W","       "," W   W ","   W   "]
+          ],
+          "mapping": {
+              "W": "spirit:pedestal",
+              "0": "spirit:soul_pedestal"
+          },
+          "symmetrical": true
+      },
+        "text":"按照以上的多方块结构来摆放灵魂祭坛。"
+      },
+      {
+        "type": "patchouli:spotlight",
+        "item": "spirit:soul_crystal",
+        "text": "使用灵魂水晶右键灵魂基座将灵魂放置于其上,携带灵魂水晶会将你杀死的第一个生物的灵魂存入其中,一个水晶只能容纳一种灵魂"
+      }
+    ]
+  }

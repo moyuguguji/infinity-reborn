@@ -34,11 +34,7 @@
         },
         "show_sort_in_rows_button": {
             "value": false
-        },
-        "show_move_all_button": {
-            "value": false
-        },
-        "show_button_tooltips": false
+        }
     },
     "LockedSlotsSettings": {
         "locked_slots_disable_quick_move_throw": false,

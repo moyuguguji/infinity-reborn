@@ -286,3 +286,16 @@ onEvent('item.right_click', event => {//永恒
         }
     }
 })
+onEvent('item.entity_interact',event=>{
+    let player = event.getPlayer()
+    let entity = event.target
+    if (player != null) {
+        if (entity != null) {
+            if (player.stages.has('difficulty_yonghen')) {
+                if ((event.player.getHeldItem(MAIN_HAND) == 'minecraft:flint_and_steel' || event.player.getHeldItem(OFF_HAND) == 'minecraft:flint_and_steel') && entity.type =='minecraft:creeper') {
+                    event.cancel()
+                }
+            }
+        }
+    }
+})

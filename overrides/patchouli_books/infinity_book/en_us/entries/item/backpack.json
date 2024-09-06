@@ -26,6 +26,10 @@
       "type": "patchouli:crafting",
       "recipe": "inmis:withered_backpack",
       "recipe2": "inmis:endless_backpack"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "kubejs:kjs_7bkdipdghq7nqega7qokyme60"
     }
   ]
 }

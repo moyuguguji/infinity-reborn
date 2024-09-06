@@ -4,18 +4,19 @@
   "category": "patchouli:heart",
   "pages": [
     {
-      "type": "patchouli:crafting",
-      "recipe": "infinity:red_heart",
-      "text": "你可以通过制作获得迷你红心。"
-    },
-    {
-      "type": "patchouli:crafting",
-      "recipe": "infinity:canister"
+      "type": "patchouli:spotlight",
+      "item": "heartytrinkets:red_heart",
+      "text": "你可以通过杀怪获得迷你红心。"
     },
     {
       "type": "patchouli:smithing",
-      "recipe": "infinity:red_h_c",
-      "recipe2": "infinity:red_h_cc"
+      "recipe": "heartytrinkets:smithing/red_heart_canister",
+      "recipe2": "heartytrinkets:smithing/orange_heart_canister"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "heartytrinkets:smithing/blue_heart_canister",
+      "recipe2": "heartytrinkets:smithing/green_heart_canister"
     }
   ]
 }
