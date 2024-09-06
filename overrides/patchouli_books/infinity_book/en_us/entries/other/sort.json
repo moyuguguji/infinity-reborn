@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "功能：背包整理",
   "icon": "minecraft:chest",
@@ -11,4 +12,19 @@
       "type": "patchouli:empty"
     }
   ]
+=======
+{
+  "name": "功能：背包整理",
+  "icon": "minecraft:chest",
+  "category": "patchouli:other",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "默认按R键可整理背包。可在模组列表中搜索Inventory Profiles Next进行详细配置。"
+    },  
+    {
+      "type": "patchouli:empty"
+    }
+  ]
+>>>>>>> 6ea2a9d06a3c06cc75a2dcdcdc6abc42210c930b
 }

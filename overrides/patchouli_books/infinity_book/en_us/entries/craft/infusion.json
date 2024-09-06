@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "灌注",
   "icon": "betterend:infusion_pedestal",
@@ -28,4 +29,36 @@
       "text":"按照以上的多方块结构来摆放灌注祭坛。"
     }
   ]
+=======
+{
+  "name": "灌注",
+  "icon": "betterend:infusion_pedestal",
+  "category": "patchouli:craft",
+  "pages": [
+    {
+      "type":"patchouli:crafting",
+      "recipe":"betterend:infusion_pedestal",
+      "text":"需要先制作一个灌注基座"
+    },
+    {
+      "type":"patchouli:crafting",
+      "recipe":"betterend:flavolite_pedestal",
+      "text":"然后制作8个任意材质的基座"
+    },
+    {
+      "type":"patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+            [ "   W   "," W   W ","       ","W  0  W","       "," W   W ","   W   "]
+        ],
+        "mapping": {
+            "W": "#betterend:pedestal",
+            "0": "betterend:infusion_pedestal"
+        },
+        "symmetrical": true
+    },
+      "text":"按照以上的多方块结构来摆放灌注祭坛。"
+    }
+  ]
+>>>>>>> 6ea2a9d06a3c06cc75a2dcdcdc6abc42210c930b
 }

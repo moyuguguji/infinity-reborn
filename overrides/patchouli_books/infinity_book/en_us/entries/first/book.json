@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "无限之书",
   "icon": "minecraft:book",
@@ -9,4 +10,17 @@
       "text":"若该书不慎丢失，可通过以上合成方式重新制作。"
     }
   ]
+=======
+{
+  "name": "无限之书",
+  "icon": "minecraft:book",
+  "category": "patchouli:first",
+  "pages": [
+    {
+      "type":"patchouli:crafting",
+      "recipe":"kubejs:infinity_book",
+      "text":"若该书不慎丢失，可通过以上合成方式重新制作。"
+    }
+  ]
+>>>>>>> 6ea2a9d06a3c06cc75a2dcdcdc6abc42210c930b
 }

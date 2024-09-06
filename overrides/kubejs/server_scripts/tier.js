@@ -291,4 +291,5 @@ onEvent('item.tags', event => {
         ['botania:terra_pick'])
     event.add('kubejs:mu_jian',['kubejs:mu_jian','kubejs:yuan_mu_jian'])
     event.add('card_package',['collectorsalbum:common_repacked_card_package','collectorsalbum:uncommon_repacked_card_package','collectorsalbum:rare_repacked_card_package','collectorsalbum:epic_repacked_card_package','collectorsalbum:legendary_repacked_card_package','collectorsalbum:mythical_repacked_card_package'])
+    event.removeAll('c:hidden_from_recipe_viewers')
 })

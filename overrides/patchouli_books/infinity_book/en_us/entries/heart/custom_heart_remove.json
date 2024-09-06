@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "移除自定义心",
   "icon": "victus:broken_heart",
@@ -14,4 +15,22 @@
       "text": "这可以除去所有的自定义心，你可以在战利品箱中找到它。会返回所有的自定义心。"
     }
   ]
+=======
+{
+  "name": "移除自定义心",
+  "icon": "victus:broken_heart",
+  "category": "patchouli:heart",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "victus:void_heart_aspect",
+      "text": "你可以通过将空白之心投入火中得到它，可以用于去除自定义心。注意，不会返还自定义心。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "victus:broken_heart",
+      "text": "这可以除去所有的自定义心，你可以在战利品箱中找到它。会返回所有的自定义心。"
+    }
+  ]
+>>>>>>> 6ea2a9d06a3c06cc75a2dcdcdc6abc42210c930b
 }

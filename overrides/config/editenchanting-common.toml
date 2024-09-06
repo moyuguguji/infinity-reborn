@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 #General settings
 [general]
@@ -32,3 +33,39 @@
 	#Use the format power_expression describe
 	report_expression = "64"
 
+=======
+
+#General settings
+[general]
+	#Enchant and Edit the computed expressions
+	#level = Enchant Level, count = Enchant Quantity，repair = Item Repair Cost
+	#https://www.programmersought.com/article/37855909509
+	#Use the format like:
+	#level
+	#( level + repair )
+	#( level * 3 )
+	#10
+	#( ( level / 3 ) + 1 )
+	#count
+	#( level + count )
+	power_expression = "64"
+	#True if page turn is allowed
+	page_turn = true
+	#Item cost when disenchant.
+	#Use the format like "minecraft:emerald" or "minecraft:diamond"
+	cost = "spectrum:spectral_shard"
+	#True if allow enchant are incompatible
+	strict_mode = false
+	#True if item verification needs to be deactivated
+	creative_mode = false
+	#What consumables to use
+	#Allowed Values: NONE, ITEM, EXPERIENCE
+	power = "ITEM"
+	#Disenchant type will not be editable
+	#Allowed Values: DEFAULT, DISENCHANT
+	type = "DEFAULT"
+	#Report the computed expressions
+	#Use the format power_expression describe
+	report_expression = "64"
+
+>>>>>>> 6ea2a9d06a3c06cc75a2dcdcdc6abc42210c930b

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "心之容器",
   "icon": "heartytrinkets:red_heart_canister",
@@ -19,4 +20,27 @@
       "recipe2": "heartytrinkets:smithing/green_heart_canister"
     }
   ]
+=======
+{
+  "name": "心之容器",
+  "icon": "heartytrinkets:red_heart_canister",
+  "category": "patchouli:heart",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "heartytrinkets:red_heart",
+      "text": "你可以通过杀怪获得迷你红心。"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "heartytrinkets:smithing/red_heart_canister",
+      "recipe2": "heartytrinkets:smithing/orange_heart_canister"
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "heartytrinkets:smithing/blue_heart_canister",
+      "recipe2": "heartytrinkets:smithing/green_heart_canister"
+    }
+  ]
+>>>>>>> 6ea2a9d06a3c06cc75a2dcdcdc6abc42210c930b
 }

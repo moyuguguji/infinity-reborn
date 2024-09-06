@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "空白之心",
   "icon": "victus:blank_heart_aspect",
@@ -9,4 +10,17 @@
       "text":"你也可以通过杀死有心碎药水效果的生物来获得空白之心。"
     }
   ]
+=======
+{
+  "name": "空白之心",
+  "icon": "victus:blank_heart_aspect",
+  "category": "patchouli:heart",
+  "pages": [
+    {
+      "type":"patchouli:spotlight",
+      "item":"minecraft:potion{Potion:'victus:heartbleed'}",
+      "text":"你也可以通过杀死有心碎药水效果的生物来获得空白之心。"
+    }
+  ]
+>>>>>>> 6ea2a9d06a3c06cc75a2dcdcdc6abc42210c930b
 }
