@@ -141,21 +141,35 @@ onEvent('recipes', event => {
 
     onEvent('item.right_click', event => {
         if (event.player.mainHandItem.id == 'kubejs:jiushu_heart') {
+            let lmd = event.player.fullNBT.IMDifficulty
             if (event.player.getHeldItem(OFF_HAND) != null) {
                 event.server.runCommandSilent(`title ${event.player.profile.name} actionbar {"text":"你无法在副手持有物品时使用该物品","color":"white"}`)
+            }else if(event.player.stages.has('difficulty_yonghen') && lmd < 50){
+                event.server.runCommandSilent(`title ${event.player.profile.name} actionbar {"text":"永恒模式50难度以下无法降低难度","color":"white"}`)
+                event.player.mainHandItem.count -= 1
             }else{
+                if (event.player.stages.has('difficulty_yonghen')) {
+                    event.server.runCommandSilent(`improvedmobs difficulty player ${event.player.profile.name} add -2`)
+                    if (lmd <= 50) {
+                        event.server.runCommandSilent(`improvedmobs difficulty player ${event.player.profile.name} set 50`)
+                        event.player.mainHandItem.count -= 1
+                    }else{
+                        event.player.mainHandItem.count -= 1
+                    }
+                }
+                if (!event.player.stages.has('difficulty_yonghen')) {
                 event.server.runCommandSilent(`improvedmobs difficulty player ${event.player.profile.name} add -2`)
-                let lmd = event.player.fullNBT.IMDifficulty
                 if (lmd <= 0) {
                     event.server.runCommandSilent(`improvedmobs difficulty player ${event.player.profile.name} set 0`)
                     event.player.mainHandItem.count -= 1
-                }else{
-                    event.player.addItemCooldown('kubejs:jiushu_heart', 40)
+                }
+                else
+                {
                     event.player.mainHandItem.count -= 1
                 }
             }
             }
-           
+            }
     })
 
     onEvent('item.right_click', event => {
