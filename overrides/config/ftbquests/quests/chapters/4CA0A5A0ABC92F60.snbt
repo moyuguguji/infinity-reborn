@@ -1,0 +1,40 @@
+{
+	id: "4CA0A5A0ABC92F60"
+	group: ""
+	order_index: 5
+	filename: "4CA0A5A0ABC92F60"
+	title: "功能调整"
+	icon: {
+		id: "additionaladditions:wrench"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	disable_toast: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "开启/关闭部分村民右键交易"
+		icon: "minecraft:lectern"
+		disable_toast: true
+		x: -1.0d
+		y: 0.0d
+		subtitle: "跟部分村民右键交易可能导致崩溃,酌情取舍"
+		size: 2.0d
+		optional: true
+		can_repeat: true
+		id: "0ABBC4AD5B690EFE"
+		tasks: [{
+			id: "7A615D20BF94464E"
+			type: "checkmark"
+		}]
+		rewards: [{
+			id: "740A45205A854354"
+			type: "custom"
+			title: "开启/关闭"
+			icon: "minecraft:lectern"
+		}]
+	}]
+	quest_links: [ ]
+}

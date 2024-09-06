@@ -5,6 +5,7 @@
 	filename: "boss"
 	title: "讨伐列表"
 	icon: "bosses_of_mass_destruction:brimstone_nectar"
+	disable_toast: true
 	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
 	quests: [

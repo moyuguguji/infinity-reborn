@@ -294,6 +294,7 @@
 					}
 				}
 				consume_items: false
+				match_nbt: true
 			}]
 			rewards: [{
 				id: "09C78D865D7B69C4"

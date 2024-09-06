@@ -777,7 +777,10 @@
 			x: 5.5d
 			y: 9.0d
 			subtitle: "种地小帮手"
-			description: ["一个干草块和一个南瓜摆地上可以得到他。"]
+			description: [
+				"一个干草块和一个南瓜摆地上可以得到他。"
+				"会收集24格内的作物"
+			]
 			id: "6164C15A5FBDC286"
 			tasks: [
 				{
@@ -902,10 +905,10 @@
 			dependencies: ["75B2CE19DA0AF3BF"]
 			id: "006400DA28DBE1F5"
 			tasks: [{
-				id: "109EBF681534FE32"
+				id: "3F09EFCBA9629822"
 				type: "item"
 				item: {
-					id: "kibe:cursed_lasso"
+					id: "kibe:diamond_lasso"
 					Count: 1b
 					tag: { }
 				}
@@ -1124,7 +1127,7 @@
 			description: [
 				"shift+右键可以查看范围"
 				"跟草原之页合成可以增加高度"
-				"跑图可以增加宽度"
+				"与恶魂之泪、木炭、蓝色染料合成后跑图可以增加宽度"
 			]
 			id: "52D50B50D9B22ADA"
 			tasks: [

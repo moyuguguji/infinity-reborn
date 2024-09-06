@@ -785,9 +785,9 @@
 					item: "spectrum:brown_pigment"
 				}
 				{
-					id: "6349380535E7B900"
+					id: "182CB3C15FDC615F"
 					type: "advancement"
-					advancement: "spectrum:midgame/craft_something_brown"
+					advancement: "spectrum:collect_all_basic_pigments"
 					criterion: ""
 				}
 			]
@@ -797,12 +797,6 @@
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 1005535573748960953L
-				}
-				{
-					id: "155262285E33592E"
-					type: "advancement"
-					advancement: "spectrum:midgame/craft_something_brown"
-					criterion: ""
 				}
 				{
 					id: "0709E0C048C1DAC5"
@@ -1357,12 +1351,19 @@
 			]
 			dependencies: ["1122A7C68DF8DA62"]
 			id: "2BE6F94629B66CAB"
-			tasks: [{
-				id: "7D18A6AFD43464D3"
-				type: "advancement"
-				advancement: "spectrum:lategame/create_spectral_shard"
-				criterion: ""
-			}]
+			tasks: [
+				{
+					id: "7D18A6AFD43464D3"
+					type: "advancement"
+					advancement: "spectrum:lategame/create_spectral_shard"
+					criterion: ""
+				}
+				{
+					id: "20A120EDB869528D"
+					type: "item"
+					item: "spectrum:spectral_shard"
+				}
+			]
 			rewards: [
 				{
 					id: "14B9255C852B0D61"

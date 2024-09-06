@@ -248,6 +248,43 @@
 				}
 			]
 		}
+		{
+			title: "无限之书"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "patchouli:infinity_book"
+				}
+			}
+			x: 3.5d
+			y: -0.5d
+			subtitle: "他又回归啦"
+			description: [
+				"基于无限1的帕秋莉书扩展和补充"
+				""
+				"没人看的东西+1"
+			]
+			dependencies: ["129A6C95D977784F"]
+			hide: true
+			optional: true
+			id: "056935F82AD7722E"
+			tasks: [{
+				id: "767926F4F5CBFDD9"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "7C0DC2C11084B255"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "patchouli:infinity_book"
+					}
+				}
+			}]
+		}
 	]
 	quest_links: [ ]
 }
