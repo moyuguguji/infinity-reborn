@@ -368,7 +368,7 @@ onEvent('recipes', event => {
         "item": 'infusion_table:infusion_table'//太古合金剑刃
       },
       {
-        "item": 'spectrum:spectral_shard_storage_block'//天体块
+        "item": 'kubejs:shining_star'//天体块
       },
       {
         "item": 'spectrum:spectral_shard_storage_block'//灵魂之骨
@@ -380,7 +380,7 @@ onEvent('recipes', event => {
         "item": 'spectrum:gilded_book'//龙之星
       },
       {
-        "item": 'spectrum:spectral_shard_storage_block'//永恒水晶
+        "item": 'kubejs:shining_star'//永恒水晶
       },
       {
         "item": 'spectrum:spectral_shard_storage_block'//流星碎片
