@@ -21,9 +21,7 @@
 		{ item: "ringsofascension:ring_wither" }
 		{ item: "ringsofascension:ring_magnetism" }
 		{ item: "ringsofascension:ring_hungerless" }
-		{ item: "ringsofascension:ring_experience" }
 		{ item: "ringsofascension:ring_growth" }
-		{ item: "ringsofascension:ring_knockback_resistance" }
 		{ item: "ringsofascension:ring_sponge" }
 		{ item: "ringsofascension:ring_water_walking" }
 	]
