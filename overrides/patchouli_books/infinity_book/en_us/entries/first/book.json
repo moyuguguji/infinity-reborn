@@ -5,11 +5,8 @@
   "pages": [
     {
       "type":"patchouli:crafting",
-      "recipe":"crafttweaker:infinity_book",
+      "recipe":"kubejs:infinity_book",
       "text":"若该书不慎丢失，可通过以上合成方式重新制作。"
-    },
-    {
-      "type": "patchouli:empty"
     }
   ]
 }
