@@ -1,0 +1,21 @@
+{
+  "name": "基岩铁砧",
+  "advancement": "spectrum:progression/unlock_bedrock_tools",
+  "icon": "spectrum:bedrock_anvil",
+  "category": "spectrum:magical_blocks_category",
+  "extra_recipe_mappings": {
+    "spectrum:bedrock_anvil": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "你用过不少铁砧（更准确一点：用掉不少）。然而，无论是$(l:general/anvil_crushing)物品粉碎$(/l)，物品修复还是附魔都相当损耗铁砧。$(br)要让铁砧更持久耐用，甚至坚不可摧的话……基岩怎么样呢？"
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "title": "基座配方",
+      "recipe": "spectrum:pedestal/tier3/bedrock/bedrock_anvil",
+      "text": "免费重命名物品，且没有经验花销上限。你也可以为物品添加独有的描述信息。$(br)$(italic)小贴士：输入“\\n”可以换行。"
+    }
+  ]
+}

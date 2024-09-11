@@ -1,0 +1,31 @@
+{
+  "name": "捕鱼达人",
+  "icon": "spectrum:lagoon_rod",
+  "advancement": "spectrum:progression/enchantments/big_catch",
+  "flag": "spectrum:enchantment_exists_spectrum_big_catch",
+  "category": "spectrum:enchanting_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)你的新魔法钓竿具有吸引甚至直接钓上活物的有趣特性。 为什么你的普通杆子没有这种事？ 我不知道。$(br)有了这个附魔，或许你可以进一步减少钓鱼空军的机会。。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "性质",
+      "item": "spectrum:lagoon_rod{Enchantments: [{id: \"spectrum:big_catch\", lvl: 3s}]}",
+      "text": "增加捕鱼时捕起生物的概率。$(br2)附魔等级上限：3$(br)适用于 光谱世界 的钓竿。"
+    },
+    {
+      "type": "spectrum:enchanter_crafting",
+      "title": "附魔配方",
+      "recipe": "spectrum:enchanter/spectrum_books/book_big_catch",
+      "text": "你可以将所需材料及颜料放入附魔基座周围的物品底座中，为普通的书本注入捕鱼达人附魔"
+    },
+    {
+      "type": "spectrum:enchanter_upgrading",
+      "title": "升级附魔",
+      "recipe": "spectrum:enchantment_upgrade/spectrum/big_catch_level_2",
+      "text": "将捕鱼达人附魔从1级升级至2级的花销并不高昂。$(br)但随着等级逐级递增，所消耗的颜料和经验也会快速增加。"
+    }
+  ]
+}

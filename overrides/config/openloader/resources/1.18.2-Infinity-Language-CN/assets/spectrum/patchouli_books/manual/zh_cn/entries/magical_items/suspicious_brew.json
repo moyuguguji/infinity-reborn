@@ -1,0 +1,21 @@
+{
+  "name": "可疑的啤酒",
+  "advancement": "spectrum:progression/unlock_suspicious_brew",
+  "icon": "spectrum:suspicious_brew",
+  "category": "spectrum:magical_items_category",
+  "extra_recipe_mappings": {
+    "spectrum:suspicious_brew": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "奇怪的是，蘑菇和水的组合是各种形式的其他花香的完美受体，要么使味道更圆润，要么创造......非常奇特的味道。$(br2)每朵花都有一种特殊的效果，就好像你会把它喂给一个$(thing)棕色的蘑菇$()。"
+    },
+    {
+      "type": "spectrum:titration_barrel_fermenting",
+      "title": "发酵配方",
+      "recipe": "spectrum:titration_barrel/special/suspicious_brew",
+      "text": "彩色木材的发酵过程使得效果持续的时间比$(item)迷之炖菜$()要长得多。"
+    }
+  ]
+}

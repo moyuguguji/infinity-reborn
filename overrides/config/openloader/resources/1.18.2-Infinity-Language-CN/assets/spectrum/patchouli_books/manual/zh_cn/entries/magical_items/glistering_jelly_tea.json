@@ -1,0 +1,21 @@
+{
+  "name": "玉藤果冻茶",
+  "advancement": "spectrum:progression/unlock_glistering_jelly_tea",
+  "icon": "spectrum:glistering_jelly_tea",
+  "category": "spectrum:magical_items_category",
+  "extra_recipe_mappings": {
+    "spectrum:glistering_jelly_tea": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "玉藤以其再生特性而闻名，巧的是，如果加上闪烁的西瓜 混合在一起会展现出精致和谐的甜味。$(br2)饮用后获得小幅生命提升"
+    },
+    {
+      "type": "spectrum:potion_workshop_crafting",
+      "title": "工作站合成配方",
+      "recipe": "spectrum:potion_workshop_crafting/glistering_jelly_tea",
+      "text": "$(italic)想都别想在里面加入牛奶！"
+    }
+  ]
+}

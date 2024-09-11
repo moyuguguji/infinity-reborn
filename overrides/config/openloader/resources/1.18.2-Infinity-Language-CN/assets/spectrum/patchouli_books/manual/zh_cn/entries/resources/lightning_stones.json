@@ -1,0 +1,23 @@
+{
+	"name": "风暴之石",
+	"advancement": "spectrum:midgame/collect_lightning_stone",
+	"icon": "spectrum:lightning_stone",
+	"category": "spectrum:resources_category",
+	"extra_recipe_mappings": {
+	  "spectrum:lightning_stone": 0
+	},
+	"pages": [
+	  {
+		"type": "patchouli:text",
+		"title": "雷暴天气",
+		"text": "所谓“怒如雷霆”，便是对大自然的力量最有力的说明。$(br)你在使用$(l:general/fusion_shrine)融合圣坛$()进行合成的时候，偶尔可能产生雷暴。$(br2)毫无疑问，这和颜料的魔法有关。"
+	  },
+	  {
+		"type": "patchouli:spotlight",
+		"title": "风暴之石",
+		"item": "spectrum:lightning_stone",
+		"text": "这些石头由雷电降下，重重嵌入了大地。你拿在手中细细端详的时候，你发现这些石头正因自身的静电而振动。$(br)在$(l:general/fusion_shrine)融合圣坛$()中使用，就可以亲自召唤雷暴了。$(br2)$(italic)这些石头并不稳定，遇到爆炸可没有好事哦……"
+	  }
+	]
+  }
+  

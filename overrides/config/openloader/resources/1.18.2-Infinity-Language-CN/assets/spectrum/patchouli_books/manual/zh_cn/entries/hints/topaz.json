@@ -1,0 +1,18 @@
+{
+  "name": "一种宝石晶",
+  "category": "spectrum:hints_category",
+  "icon": "minecraft:writable_book",
+  "advancement": "spectrum:spectrum",
+  "secret": true,
+  "read_by_default": true,
+  "turnin": "spectrum:hidden/collect_shards/collect_topaz_shard",
+  "pages": [
+    {
+      "type": "spectrum:hint",
+      "title": "怎么找到",
+      "completion_advancement": "spectrum:hidden/collect_shards/collect_topaz_shard",
+      "cost": "minecraft:amethyst_shard#16",
+      "text": "这些晶洞可以在高处找到，一般位于山峰之中。"
+    }
+  ]
+}

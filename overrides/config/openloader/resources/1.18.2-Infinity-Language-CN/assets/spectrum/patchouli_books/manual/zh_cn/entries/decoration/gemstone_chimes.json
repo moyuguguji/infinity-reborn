@@ -1,0 +1,26 @@
+{
+	"pages":[
+		{
+			"text":"$(italic)宝石晶虽脆弱而难以塑形，但你锻造宝石晶的能力已经出神入化，炉火纯青。$(br2)摇曳时回响的叮铃是否让你回忆起驻足晶洞之间时懵懂的起点？旅途总有启程。",
+			"type":"patchouli:text",
+			"title":"宝石晶风铃"
+		},
+		{
+			"recipe":"spectrum:pedestal/tier3/gemstone_chimes/topaz_chime",
+			"text":"风铃的鸣响声取决于选用的宝石晶材料。",
+			"type":"spectrum:pedestal_crafting",
+			"title":"基座配方"
+		}
+	],
+	"advancement":"spectrum:progression/gemstone_chimes/unlock_any_chime",
+	"extra_recipe_mappings":{
+		"spectrum:topaz_chime":0,
+		"spectrum:citrine_chime":0,
+		"spectrum:amethyst_chime":0,
+		"spectrum:moonstone_chime":0,
+		"spectrum:onyx_chime":0
+	},
+	"name":"宝石晶风铃",
+	"icon":"spectrum:amethyst_chime",
+	"category":"spectrum:decoration_category"
+}

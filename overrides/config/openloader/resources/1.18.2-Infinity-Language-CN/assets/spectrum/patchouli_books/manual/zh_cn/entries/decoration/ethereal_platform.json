@@ -1,0 +1,23 @@
+{
+	"pages":[
+		{
+			"item":"spectrum:ethereal_platform",
+			"text":"$(italic)你希望有一种可以半穿透的方块在不影响建筑外观的情况下为你所用，而流星给了你一点启发。$(br2)只要注入缟玛瑙的强力潜能，你可以把这些转瞬即逝的粒子凝结为实体。",
+			"type":"patchouli:spotlight",
+			"title":"缥缈平台"
+		},
+		{
+			"recipe":"spectrum:pedestal/tier3/ethereal_platform",
+			"text":"缥缈平台的一大亮点是它只对活物起效。诸如物品之类的东西只会穿过它。",
+			"type":"spectrum:pedestal_crafting",
+			"title":"基座配方"
+		}
+	],
+	"advancement":"spectrum:progression/unlock_ethereal_platform",
+	"extra_recipe_mappings":{
+		"spectrum:ethereal_platform":0
+	},
+	"name":"缥缈平台",
+	"icon":"spectrum:ethereal_platform",
+	"category":"spectrum:decoration_category"
+}

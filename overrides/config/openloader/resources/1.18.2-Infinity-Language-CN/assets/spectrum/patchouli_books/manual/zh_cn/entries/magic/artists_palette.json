@@ -1,0 +1,22 @@
+{
+  "name": "艺术家调色板",
+  "advancement": "spectrum:progression/unlock_artists_palette",
+  "secret": true,
+  "icon": "spectrum:artists_palette",
+  "category": "spectrum:magic_category",
+  "extra_recipe_mappings": {
+    "spectrum:artists_palette": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "艺术家调色板结合了$(l:magic/pigment_palette)调色板$(/l)的墨水存储能力与$(l:magic/color_picker)颜色选取器$(/l)的色彩混合能力。$(br)它可以直接大量存储墨水，并在必要的时候加以混合。"
+    },
+    {
+      "type": "spectrum:fusion_shrine_crafting",
+      "title": "融合配方",
+      "recipe": "spectrum:fusion_shrine/trinkets/artists_palette",
+      "text": ""
+    }
+  ]
+}

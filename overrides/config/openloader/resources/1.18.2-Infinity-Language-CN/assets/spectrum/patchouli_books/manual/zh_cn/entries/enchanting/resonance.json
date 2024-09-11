@@ -1,0 +1,54 @@
+{
+	"pages":[
+		{
+			"text":"$(italic)你对某些方块确实饶有兴趣，但无论怎么轻柔地挖掘你都无法完美无缺地取得到它们。然而，这些方块以某种特别的频率振动，与你最近发现的宝石晶颇为类似。$(br)用正确的频率采集，它们终于能被你收入囊中。",
+			"type":"patchouli:text"
+		},
+		{
+			"item":"minecraft:iron_pickaxe{Enchantments: [{id: \"spectrum:resonance\", lvl: 1s}]}",
+			"text":"用温和的振动使一些方块掉落自身。$(br2)附魔等级上限：1$(br)适用于采掘工具.$(br)与 自动烧炼 及 害虫防治 不兼容。$(br2)$(br2)",
+			"type":"patchouli:spotlight",
+			"title":"特点"
+		},
+		{
+			"recipe":"spectrum:enchanter/spectrum_books/book_resonance",
+			"text":"你可以用颜料和其他必要的材料围绕着你的注魔基座，给一本普通的书注入共振。",
+			"type":"spectrum:enchanter_crafting",
+			"title":"附魔配方"
+		},
+		{
+			"item":"spectrum:budding_citrine",
+			"text":"这些方块中的裂缝允许它们在短时间内创造出新的芽（好吧，与它们的创造历史相比，时间很短；对你来说，等待仍然感觉像是永世长存）。$(br2)在你自己的家里而不是在你的前哨站等他们听起来更舒适。",
+			"type":"patchouli:spotlight",
+			"title":"宝石母岩"
+		},
+		{
+			"item":"minecraft:medium_amethyst_bud",
+			"text":"小点的晶芽更为脆弱，与其母岩无法分割。$(br2)然而，如果使用正确的频率一同共振，这些晶芽似乎会自然而然地脱落。",
+			"type":"patchouli:spotlight",
+			"title":"宝石晶芽"
+		},
+		{
+			"item":"spectrum:orange_leaves",
+			"text":"彩色树叶会被振动激活，从而掉落树苗。$(br2)将共振魔咒应用在锄头上进行采掘，就可以持续获得$(l:general/colored_trees)彩色树苗$()了。",
+			"type":"patchouli:spotlight",
+			"title":"彩色树叶"
+		},
+		{
+			"item":"minecraft:spawner",
+			"text":"在洞穴中探险的时候你发现了不少笼子，每每靠近其便会吐出无穷无尽的怪物浪潮攻击你。你不得不好奇这究竟是什么神秘人士的杰作，究竟有什么目的，这种骚扰方式究竟值不值得。但是，有一点是很明确的：这些笼子肯定大有用处，偷偷拿走几个他应该不会介意！",
+			"type":"patchouli:spotlight",
+			"title":"采集刷怪笼"
+		},
+		{
+			"item":"minecraft:infested_stone_bricks",
+			"text":"轻柔的振动能够安抚方块中的蠹虫。$(br2)如此，你可以把装有蠹虫的方块直接装走而不惊扰它们。$(br)大仇得报！",
+			"type":"patchouli:spotlight",
+			"title":"被虫蚀的方块"
+		}
+	],
+	"advancement":"spectrum:progression/tools/unlock_resonant_pickaxe",
+	"name":"共振",
+	"icon":"minecraft:diamond_pickaxe",
+	"category":"spectrum:enchanting_category"
+}

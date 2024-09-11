@@ -1,0 +1,38 @@
+{
+  "name": "AE2",
+  "icon": "ae2:controller",
+  "flag": "mod:ae2",
+  "category": "spectrum:mod_integration_category",
+  "pages": [
+    {
+      "type": "spectrum:anvil_crushing",
+      "advancement": "spectrum:place_pedestal",
+      "recipe": "spectrum:mod_integration/ae2/anvil_crushing/certus_quartz_dust",
+      "text": "AE2的很多物品都可以用铁砧压成灰尘：赛特斯石英、福鲁伊克斯、陨石和末影珍珠。"
+    },
+    {
+      "type": "spectrum:anvil_crushing",
+      "advancement": "spectrum:place_pedestal",
+      "recipe": "spectrum:mod_integration/ae2/anvil_crushing/fluix_dust",
+      "text": "$(italic)既然你的铁砧可以做这个工作，为什么还要用那个老式的手摇把呢？"
+    },
+    {
+      "type": "spectrum:fusion_shrine_crafting",
+      "advancement": "spectrum:midgame/collect_lightning_stone",
+      "recipe": "spectrum:mod_integration/ae2/fusion_shrine/charged_certus_quartz_crystal",
+      "text": "急需 $(thing)充能赛特斯石英$()? 自己给它充电，而不是纯靠运气。"
+    },
+    {
+      "type": "spectrum:fusion_shrine_crafting",
+      "advancement": "spectrum:midgame/collect_lightning_stone",
+      "recipe": "spectrum:mod_integration/ae2/fusion_shrine/fluix_dust",
+      "text": "...然后从中创建 $(thing)福鲁伊克斯$() 如果你不耐烦的话。"
+    },
+    {
+      "type": "spectrum:crystallarieum_growing",
+      "advancement": "spectrum:progression/unlock_crystallarieum",
+      "recipe": "spectrum:mod_integration/ae2/crystallarieum/certus_quartz_crystal",
+      "text": "作为晶体结构，$(thing)赛特斯石英$() 和 $(thing)福鲁伊克斯水晶$() 可以在结晶室内生长。"
+    }
+  ]
+}

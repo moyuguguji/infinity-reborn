@@ -1,0 +1,21 @@
+{
+  "name": "凛寒紫颂",
+  "advancement": "spectrum:progression/unlock_reprise",
+  "icon": "spectrum:reprise",
+  "category": "spectrum:magical_items_category",
+  "extra_recipe_mappings": {
+    "spectrum:reprise": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "这种由紫颂果实酿造的饮料，不仅融合了--而且放大了--特殊的味道，也放大了植物的独特属性。$(br2)喝下这种饮料后，会随机将你传送到很远的地方。酒精含量越高，就越远。"
+    },
+    {
+      "type": "spectrum:titration_barrel_fermenting",
+      "title": "发酵配方",
+      "recipe": "spectrum:titration_barrel/reprise",
+      "text": "$(italic)它的味道有点像覆盆子？但里面根本就没有。很奇怪。"
+    }
+  ]
+}

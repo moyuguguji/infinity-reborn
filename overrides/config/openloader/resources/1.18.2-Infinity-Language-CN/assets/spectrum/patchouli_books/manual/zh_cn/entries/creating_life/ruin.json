@@ -1,0 +1,37 @@
+{
+	"pages":[
+		{
+			"item":"spectrum:bottle_of_ruin",
+			"text":"妙绝。这就是你的完美配方，不留情面的完美。这可是字面意义上的$(#ff0000)凶残$()玩意儿，没有丝毫开玩笑的意思。$(br)它可能凶残到能够摧毁你先前认为坚不可摧的事物。$(br)$(bold)如果使用不当，你的世界真的会毁在你手上。$()",
+			"type":"patchouli:spotlight"
+		},
+		{
+			"recipe":"spectrum:pedestal/tier3/bottle_of_ruin",
+			"text":"好像这种生命体没有你一开始想得那么强大——但肯定还是很强的嘛？",
+			"type":"spectrum:pedestal_crafting",
+			"title":"基座配方"
+		},
+		{
+			"item":"spectrum:bedrock_dust",
+			"advancement":"spectrum:midgame/break_decayed_bedrock",
+			"text":"基岩都经受不住你所创造的这股“生命”的力量。就如微渺的种子突破了磐石一般……",
+			"type":"patchouli:spotlight",
+			"title":"基岩粉"
+		},
+		{
+			"advancement":"spectrum:midgame/break_decayed_bedrock",
+			"text":"如果你在阅读这串文字的时候还没收拾好场面，我建议你在追悔莫及之前火速整理干净。$(br2)还好，你已经设计过一套$(l:creating_life/decay_away)合适的反制措施$(/l)了。",
+			"type":"patchouli:text",
+			"title":"友情小贴士"
+		}
+	],
+	"advancement":"spectrum:progression/unlock_bottle_of_ruin",
+	"extra_recipe_mappings":{
+		"spectrum:bottle_of_ruin":0,
+		"spectrum:bedrock_dust":0
+	},
+	"name":"实验#3：坏灭",
+	"icon":"spectrum:bottle_of_ruin",
+	"turnin":"spectrum:midgame/break_decayed_bedrock",
+	"category":"spectrum:creating_life_category"
+}

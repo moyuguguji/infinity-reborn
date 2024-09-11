@@ -1,0 +1,32 @@
+{
+	"pages":[
+		{
+			"item":"spectrum:bottle_of_fading",
+			"text":"你很快就草拟出了一个计划。$(br2)你构造的有机体虽然微弱，但好歹说明你的设计思路至少在理论上没有问题！不得不承认，这哪怕只是一坨微生物，最起码也是活物！",
+			"type":"patchouli:spotlight"
+		},
+		{
+			"recipe":"spectrum:pedestal/tier1/bottle_of_fading",
+			"text":"生物的本能大都能总结为两条：进食、繁殖。$()那……它们吃什么呢？其它方块吗？兴许得是容易消化的东西。",
+			"type":"spectrum:pedestal_crafting",
+			"title":"基座配方"
+		},
+		{
+			"item":"spectrum:vegetal",
+			"advancement":"spectrum:collect_vegetal",
+			"anchor":"vegetal",
+			"text":"原来是有机物！确实容易消化。$(br)被消化掉的有机物变成了一种有趣的副产品——你称作植本质。它蕴含着$(bold)纯粹的自然能量$()。$(br2)想必一定很有用。",
+			"type":"patchouli:spotlight",
+			"title":"植本质"
+		}
+	],
+	"advancement":"spectrum:progression/unlock_bottle_of_fading",
+	"extra_recipe_mappings":{
+		"spectrum:bottle_of_fading":0,
+		"spectrum:vegetal":0
+	},
+	"name":"实验#1：褪解",
+	"icon":"spectrum:bottle_of_fading",
+	"turnin":"spectrum:collect_vegetal",
+	"category":"spectrum:creating_life_category"
+}

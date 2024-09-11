@@ -1,0 +1,30 @@
+{
+	"pages":[
+		{
+			"text":"$(italic)加快武器挥舞的速度简直是遥不可及的梦想。与此同时，你挥出的每一击花掉的力气又不得不让你停下喘息。$(br)难道是老了吗？$(br2)对武器做出必要的改造的话，就可以稍微轻松一些了。",
+			"type":"patchouli:text"
+		},
+		{
+			"item":"minecraft:iron_sword{Enchantments: [{id: \"spectrum:tight_grip\", lvl: 2s}]}",
+			"text":"降低攻击冷却。$(br2)附魔等级上限：2$(br)适用于近战武器。",
+			"type":"patchouli:spotlight",
+			"title":"特点"
+		},
+		{
+			"recipe":"spectrum:enchanter/spectrum_books/book_tight_grip",
+			"text":"你可以将所需材料及颜料放入附魔基座周围的物品底座中，为普通的书本注入利落把柄附魔。",
+			"type":"spectrum:enchanter_crafting",
+			"title":"附魔配方"
+		},
+		{
+			"recipe":"spectrum:enchantment_upgrade/spectrum/tight_grip_level_2",
+			"text":"将利落把柄附魔从1级升级至2级的花销并不高昂。$(br)但随着等级逐级递增，所消耗的颜料和经验也会快速增加。",
+			"type":"spectrum:enchanter_upgrading",
+			"title":"附魔升级"
+		}
+	],
+	"advancement":"spectrum:progression/enchantments/tight_grip",
+	"name":"利落把柄",
+	"icon":"minecraft:iron_sword",
+	"category":"spectrum:enchanting_category"
+}

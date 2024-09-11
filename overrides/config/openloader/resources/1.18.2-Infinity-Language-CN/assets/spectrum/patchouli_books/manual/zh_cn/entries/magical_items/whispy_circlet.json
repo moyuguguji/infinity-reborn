@@ -1,0 +1,18 @@
+{
+  "name": "舒缓头箍",
+  "icon": "spectrum:whispy_circlet",
+  "advancement": "spectrum:progression/unlock_whispy_circlet",
+  "category": "spectrum:magical_items_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "缺乏睡眠的后果不止眼袋，还有这些萦绕在你头顶的生物——缺乏睡眠而错过的梦魇化作了实体，梦里不见抬头见！$(br)那么这个头箍就是身心放松的实体具现了。无需睡眠，只需穿戴几分钟，身心之疲惫自然一扫而空。"
+    },
+    {
+      "type": "spectrum:fusion_shrine_crafting",
+      "title": "融合配方",
+      "recipe": "spectrum:fusion_shrine/trinkets/whispy_circlet",
+      "text": "$(italic)顿觉清爽，有如一夜安眠"
+    }
+  ]
+}

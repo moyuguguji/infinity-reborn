@@ -1,0 +1,41 @@
+{
+  "name": "末影连弦",
+  "advancement": "spectrum:progression/unlock_ender_splice",
+  "icon": "spectrum:ender_splice",
+  "category": "spectrum:magical_items_category",
+  "extra_recipe_mappings": {
+    "spectrum:ender_splice": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "spectrum:ender_splice",
+      "text": "$(italic)末影人最有趣的地方，毫无疑问，就是它们的传送能力。你对这份能力的复现也相当成功！但是，若要指定传送目的地，你需要首先在目的地截取一份当地的快照。$(br)末影人不用这么做呀，为什么？"
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "title": "基座配方",
+      "recipe": "spectrum:pedestal/tier3/ender_splice",
+      "text": "末影连弦的的一个缺点就是它无法进行跨维度传送，它只能在单个维度内进行传送。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "用途",
+      "text": "末影连弦的充能方式和弩的填装类似，充能之后它就会被绑定到当前位置。$(br2)第二次使用即可传送到绑定的位置。甚至可以对别的玩家使用。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "advancement": "spectrum:midgame/build_enchanting_structure",
+      "title": "耐久魔咒",
+      "item": "spectrum:ender_splice{Enchantments: [{id: \"minecraft:unbreaking\", lvl: 3s}]}",
+      "text": "使用$(l:enchanting/enchanting_items)附魔基座$(/l)即可为末影连弦注入耐久魔咒，以此降低其破碎的概率。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "advancement": "spectrum:lategame/create_resonance_enchanted_book",
+      "title": "共振魔咒",
+      "item": "spectrum:ender_splice{Enchantments: [{id: \"spectrum:resonance\", lvl: 1s}]}",
+      "text": "使用$(l:enchanting/enchanting_items)附魔基座$(/l)为末影连弦注入共振魔咒后，就可以进行跨维度传送了。"
+    }
+  ]
+}

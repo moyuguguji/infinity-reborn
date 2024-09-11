@@ -1,0 +1,26 @@
+{
+  "name": "戈伯2",
+  "icon": "gobber2:gobber2_globette",
+  "flag": "mod:gobber2",
+  "category": "spectrum:mod_integration_category",
+  "pages": [
+    {
+      "type": "spectrum:crystallarieum_growing",
+      "recipe": "spectrum:mod_integration/gobber/crystallarieum/globette",
+      "advancement": "spectrum:progression/unlock_crystallarieum",
+      "text": "它在生长!"
+    },
+    {
+      "type": "spectrum:crystallarieum_growing",
+      "recipe": "spectrum:mod_integration/gobber/crystallarieum/globette_nether",
+      "advancement": "spectrum:progression/unlock_crystallarieum",
+      "text": "它也会生长!"
+    },
+    {
+      "type": "spectrum:crystallarieum_growing",
+      "recipe": "spectrum:mod_integration/gobber/crystallarieum/globette_end",
+      "advancement": "spectrum:progression/unlock_crystallarieum",
+      "text": "你不会相信这个"
+    }
+  ]
+}

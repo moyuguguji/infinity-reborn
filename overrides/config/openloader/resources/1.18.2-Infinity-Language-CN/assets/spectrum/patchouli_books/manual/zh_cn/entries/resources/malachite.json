@@ -1,0 +1,32 @@
+{
+  "name": "孔雀石",
+  "advancement": "spectrum:lategame/collect_malachite",
+  "secret": true,
+  "icon": "spectrum:malachite_cluster",
+  "category": "spectrum:resources_category",
+  "extra_recipe_mappings": {
+    "spectrum:malachite_ore": 0,
+    "spectrum:deepslate_malachite_ore": 0,
+    "spectrum:blackslag_malachite_ore": 0,
+    "spectrum:raw_malachite": 0,
+    "spectrum:malachite_block": 0,
+    "spectrum:small_malachite_bud": 0,
+    "spectrum:large_malachite_bud": 0,
+    "spectrum:malachite_cluster": 0,
+    "spectrum:malachite_crystal": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "孔雀石",
+      "text": "一种纯净的材料，闪烁着深绿色的色调。它似乎有很强的魔法属性，几乎就像 $(l:dimension/dimension)渊深领域$() 的类似物 $(l:resources/azurite)石青$()。$(br)和$(l:resources/azurite)石青$()一样, 孔雀石也必须被提炼。你通过开采矿石获得的小碎片必须首先成长为完整的、可用的晶体。"
+    },
+    {
+      "type": "spectrum:crystallarieum_growing",
+      "advancement": "spectrum:progression/unlock_crystallarieum",
+      "title": "精炼孔雀石",
+      "recipe": "spectrum:crystallarieum/malachite",
+      "text": "结晶室 似乎是你在短暂生命中种植孔雀石的唯一途径。$(br)需要 $(item)月长石$() 的影响来创造一个模仿渊深领域地下的环境来让它成长。"
+    }
+  ]
+}

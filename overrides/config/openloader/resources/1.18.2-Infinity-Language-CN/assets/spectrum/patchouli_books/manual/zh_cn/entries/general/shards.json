@@ -1,0 +1,69 @@
+{
+  "name": "宝石晶碎片",
+  "icon": "minecraft:amethyst_shard",
+  "sortnum": 2,
+  "category": "spectrum:general_category",
+  "turnin": "spectrum:collect_all_basic_shards",
+  "extra_recipe_mappings": {
+    "spectrum:topaz_shard": 0,
+    "minecraft:amethyst_shard": 0,
+    "spectrum:citrine_shard": 0,
+    "spectrum:onyx_shard": 0,
+    "spectrum:moonstone_shard": 0,
+    "spectrum:spectral_shard": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "探寻《光谱世界》的第一步是获取宝石晶碎片。$(br2)每一种宝石晶都对应着一种自然界的基本要素。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "anchor": "topaz",
+      "advancement": "spectrum:hidden/collect_shards/collect_topaz_shard",
+      "title": "托帕石碎片",
+      "item": "spectrum:topaz_shard",
+      "text": "托帕石在你的手中有一份独特的厚重。其貌似脆弱，然而仔细打量一番便能发现其坚韧强硬远超绝大多数材料——可能仅次于钻石。托帕石晶洞仅在高山与峭壁之中形成。$(br)托帕石对应$(bold)$(c_cyan)物质$()。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "anchor": "amethyst",
+      "advancement": "spectrum:hidden/collect_shards/collect_amethyst_shard",
+      "title": "紫水晶碎片",
+      "item": "minecraft:amethyst_shard",
+      "text": "紫水晶中闪耀着品红色的光辉。$(br)其在晶洞中存在了千万年，象征着存续与威严。紫晶洞仅在世界深层生成。$(br2)紫水晶对应$(bold)$(c_purple)时间$()。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "anchor": "citrine",
+      "advancement": "spectrum:hidden/collect_shards/collect_citrine_shard",
+      "title": "黄水晶碎片",
+      "item": "spectrum:citrine_shard",
+      "text": "阳光在地表消散，化作晶洞中的温度。$(br2)黄水晶亮黄色的表面散发出纯粹的$(bold)$(c_yellow)能量$()，触感温暖怡人。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "anchor": "onyx",
+      "advancement": "spectrum:create_onyx_shard",
+      "title": "缟玛瑙碎片",
+      "item": "spectrum:onyx_shard",
+      "text": "缟玛瑙近乎通体纯黑，黑暗得让人怀疑它是否在主动吸收四周的光芒。$(br2)缟玛瑙结合了能量、物质与时间的本质，得以成为魔法器具的$(bold)$(c_black)催化物与聚焦点$()。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "anchor": "moonstone",
+      "advancement": "spectrum:midgame/collect_moonstone_shard",
+      "title": "月长石碎片",
+      "item": "spectrum:moonstone_shard",
+      "text": "这清澈的白是仲夏月夜的白，恬淡平和却富有张力——安眠的猫咪安详宁静，却保持着猎人的机警潜伏在梦中，随时准备好醒来。$(br2)月长石蕴含着$(bold)$(c_white)纯粹的魔法$()。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "anchor": "spectral",
+      "advancement": "spectrum:lategame/create_spectral_shard",
+      "title": "七彩碎片",
+      "item": "spectrum:spectral_shard",
+      "text": "七彩碎片闪耀着彩虹的七彩。"
+    }
+  ]
+}

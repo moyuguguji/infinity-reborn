@@ -1,0 +1,21 @@
+{
+  "name": "压缩箱",
+  "advancement": "spectrum:progression/unlock_compacting_chest",
+  "icon": "spectrum:compacting_chest",
+  "category": "spectrum:magical_blocks_category",
+  "extra_recipe_mappings": {
+    "spectrum:compacting_chest": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)煤炭啦铜啦铁啦这些东西在你的箱子里自然而然地就堆成了山，实在太多了。把这么多东西手动压缩起来又是累人的活。$(br2)这么单调乏味的事情就应该用某种机关来干！——为此，你构思了压缩箱。"
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "title": "基座配方",
+      "recipe": "spectrum:pedestal/tier1/compacting_chest",
+      "text": "物如其名。$(br)压缩箱会试图将塞入的物品以3x3，2x2或1x1的方式合成。可在交互界面内调整。"
+    }
+  ]
+}

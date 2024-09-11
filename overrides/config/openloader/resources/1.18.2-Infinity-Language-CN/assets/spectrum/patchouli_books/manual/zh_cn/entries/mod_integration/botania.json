@@ -1,0 +1,89 @@
+{
+  "name": "植物魔法",
+  "icon": "botania:mana_pool",
+  "flag": "mod:botania",
+  "category": "spectrum:mod_integration_category",
+  "pages": [
+    {
+      "type": "spectrum:anvil_crushing",
+      "title": "粉碎花瓣",
+      "advancement": "spectrum:place_pedestal",
+      "recipe": "spectrum:mod_integration/botania/anvil_crushing/petals/magenta_mystical_flower_to_petals",
+      "text": "虽然压碎花朵似乎有点不合常理，但它 $(italic)确实$() 似乎很有效。之后从压扁的花上摘下花瓣也没什么问题。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "来自花瓣的墨水",
+      "advancement": "spectrum:midgame/place_color_picker",
+      "item": "botania:magenta_petal",
+      "text": "不仅研究过植物学，也研究过色彩理论，你肯定能认出一些相似之处。这些彩色花与 $(l:general/colored_trees)彩色树$(/l) 的相似之处不止一点。$(br2)难怪它们的花瓣也可以用来创造 $(l:magic/ink)墨水$(/l)。"
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "title": "闪闪发光的花",
+      "advancement": "spectrum:collect_sparklestone",
+      "recipe": "spectrum:mod_integration/botania/pedestal/glimmering_flowers/purple_glimmering_flower",
+      "text": "在神秘的花上添加一些 $(l:resources/shimmerstone)微光石$(/l) 使它们闪闪发光。"
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "title": "彩色蘑菇",
+      "advancement": "spectrum:collect_pigment",
+      "recipe": "spectrum:mod_integration/botania/pedestal/mushrooms/blue_mushroom",
+      "text": "将$(l:general/pigment)颜料$(/l)应用于蘑菇，使其染上相应的颜色。"
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "advancement": "spectrum:collect_pigment",
+      "recipe": "spectrum:mod_integration/botania/pedestal/floral_fertilizer",
+      "text": "在制作 $(thing)花肥$() 时使用 $(l:general/pigment)颜料$(/l) 而不是普通的 染料 会产生更多的收益。"
+    },
+    {
+      "type": "spectrum:spirit_instiller_crafting",
+      "advancement": "spectrum:hidden/collect_jade_vine_petals",
+      "recipe": "spectrum:mod_integration/botania/spirit_instiller/blacker_lotus",
+      "text": "$(thing)暗黑莲花$() 是魔力的重要来源，毋庸置疑。现在，它可以被制作了。 使用一些 $(thing)玉藤花瓣$()来制作暗黑莲花。"
+    },
+    {
+      "type": "spectrum:spirit_instiller_crafting",
+      "advancement": "spectrum:midgame/harvest_moonstruck_nectar",
+      "recipe": "spectrum:mod_integration/botania/spirit_instiller/overgrowth_seed",
+      "text": "那些难以捉摸的种子，你只能在隐藏在世界各地的箱子里找到。虽然价格昂贵--也许甚至不值得这么麻烦--但你终于找到了复制这些东西的方法。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "新的药水试剂",
+      "advancement": "spectrum:midgame/brew_potion_in_potion_workshop",
+      "item": "botania:black_lotus",
+      "text": "为药水注入大量额外的正面和负面效果，但会将其变为无法辨认的黑色。你也不知道喝下后会发生什么。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "新的药水试剂",
+      "advancement": "spectrum:midgame/brew_potion_in_potion_workshop",
+      "item": "botania:blacker_lotus",
+      "text": "为药水注入大量额外的效果——绝大多数都是正面效果，但会将其变为无法辨认的黑色。你也不知道喝下后会发生什么。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "新的药水试剂",
+      "advancement": "spectrum:midgame/brew_potion_in_potion_workshop",
+      "item": "botania:life_essence",
+      "text": "增加药水强度，但持续时间大大减少。 如果持续时间太短，药水可能会完全无用......"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "新的药水试剂",
+      "advancement": "spectrum:midgame/brew_potion_in_potion_workshop",
+      "item": "botania:mana_powder",
+      "text": "小幅倍增效果持续时间，并小概率为药水添加先前炼制过的药水的主要效果。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "新的药水试剂",
+      "advancement": "spectrum:midgame/brew_potion_in_potion_workshop",
+      "item": "botania:pixie_dust",
+      "text": "合成滞留型药水 同时需要火药作为炼材。$(br2)将玻璃瓶替换为箭能够制作药箭。"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+	"pages":[
+		{
+			"text":"$(italic)背包里装满泥土的时候，继续开矿的结果很可能就是继续获得泥土，而矿物径直落入熔岩……$(br2)要那么多泥土干嘛？给新人盖火柴盒？$(br)嘛，反正熔岩的事情一定要有个头！",
+			"type":"patchouli:text"
+		},
+		{
+			"item":"minecraft:iron_pickaxe{Enchantments: [{id: \"spectrum:inventory_insertion\", lvl: 1s}]}",
+			"text":"将破坏的方块自动吸纳到物品栏中而不掉落。$(br2)附魔等级上限：1$(br)适用于采掘工具。",
+			"type":"patchouli:spotlight",
+			"title":"特点"
+		},
+		{
+			"recipe":"spectrum:enchanter/spectrum_books/book_inventory_insertion",
+			"text":"你可以将所需材料及颜料放入附魔基座周围的物品底座中，为普通的书本注入自动收集附魔。",
+			"type":"spectrum:enchanter_crafting",
+			"title":"附魔配方"
+		}
+	],
+	"advancement":"spectrum:progression/enchantments/inventory_insertion",
+	"name":"自动收集",
+	"icon":"minecraft:iron_pickaxe",
+	"category":"spectrum:enchanting_category"
+}

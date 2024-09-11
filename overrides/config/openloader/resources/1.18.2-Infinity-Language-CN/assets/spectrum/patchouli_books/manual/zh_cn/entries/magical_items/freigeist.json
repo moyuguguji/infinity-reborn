@@ -1,0 +1,20 @@
+{
+  "name": "自由的精神",
+  "icon": "spectrum:freigeist",
+  "advancement": "spectrum:progression/unlock_freigeist",
+  "category": "spectrum:magical_items_category",
+  "extra_recipe_mappings": {
+    "spectrum:freigeist": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "当第一滴酒接触到你的嘴唇时，它已经让你的身体充满了巨大的力量。仅仅是对它的记忆就使你的手紧张得$(italic)发抖$()。这可不好。$(br)然而，你从来没有像此刻这样感觉到自己的力量和活力。$(br)真的值得喝掉这瓶东西吗？如果你一旦死亡，代价将是无比巨大的。"
+    },
+    {
+      "type": "spectrum:titration_barrel_fermenting",
+      "recipe": "spectrum:titration_barrel/freigeist",
+      "text": "$(br)$(italic)抚慰他吧，$(br) 你那从未停滞的心雨$(br)是雪白色悲哀的眼泪。$(br)抚慰他吧$(br)那隐藏的不朽之花，$(br)在那片黎明的土地。"
+    }
+  ]
+}
