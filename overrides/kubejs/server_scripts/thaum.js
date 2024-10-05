@@ -242,8 +242,8 @@ onEvent('recipes', event => {
         "count": 1
       },
       {
-        "item": 'mythicmetals:celestium_block',//天体块
-        "count": 5
+        "item": 'kubejs:sheng_jin',//天体块
+        "count": 1
       },
       {
         "item": 'kubejs:soul_bone',//灵魂之骨
@@ -258,7 +258,7 @@ onEvent('recipes', event => {
         "count": 2
       },
       {
-        "item": 'things:gleaming_compound',//流星碎片
+        "item": 'kubejs:crystal_tiered',//流星碎片
         "count": 10
       }
     ],

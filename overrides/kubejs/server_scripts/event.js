@@ -145,6 +145,12 @@ onEvent('entity.hurt', event => {
     if (player != null) {
         mainItem = player.getHeldItem(MAIN_HAND)
         offItem = player.getHeldItem(OFF_HAND)
+        if (target.type == 'bosses_of_mass_destruction:gauntlet') {
+            if (mainItem.id == 'kubejs:xu_wu') {
+                target.kill()
+                mainItem.count -= 1
+            }
+        }
     }
     if (mainItem == 'kubejs:infinity_sword') {
         if (player.crouching) {

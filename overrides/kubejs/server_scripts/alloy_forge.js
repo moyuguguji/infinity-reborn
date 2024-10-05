@@ -666,5 +666,55 @@ event.custom({
     'min_forge_tier': 3,
     'fuel_per_tick': 400
 })
-
+event.custom({
+    type: 'alloy_forgery:forging',
+    'inputs': [
+    {
+    "item": 'mythicmetals:celestium_ingot',
+    "count": 2
+    },
+    {
+    "item": 'mythicmetals:metallurgium_ingot',
+    "count": 2
+    },
+    {
+    "item": 'mythicmetals:hallowed_ingot',
+    "count": 5
+    },
+    {
+    "item": 'gobber2:gobber2_ingot_end',
+    "count": 1
+    },
+    {
+    "item": 'mythicmetals:midas_gold_ingot',
+    "count": 20
+    },
+    {
+    "item": 'things:gleaming_compound',
+    "count": 1
+    },
+    {
+    "item": 'spirit:soul_steel_ingot',
+    "count": 5
+    },
+    {
+    "item": 'minecraft:netherite_ingot',
+    "count": 5
+    },
+    {
+    "item": 'twilightforest:fiery_ingot',
+    "count": 5
+    },
+    {
+    "item": 'botania:gaia_ingot',
+    "count": 1
+    },
+    ],
+    'output': {
+    'id': 'kubejs:sheng_jin',
+    'count': 1
+    },
+    'min_forge_tier': 4,
+    'fuel_per_tick': 1000
+})
 })

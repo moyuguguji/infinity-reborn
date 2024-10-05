@@ -141,3 +141,16 @@ onEvent('recipes', event => {
       B: 'minecraft:paper',
     })
 })
+onEvent('recipes', event => {
+  event.shaped('kubejs:xu_wu', [
+    'BA ',
+    'ACB',
+    ' BD'
+  ],
+    {
+      A: 'bosses_of_mass_destruction:ancient_anima',
+      B: 'minecraft:obsidian',
+      C: 'infinity:special_handlingof_glowing_obsidian',
+      D: 'bosses_of_mass_destruction:void_thorn'
+    })
+})
