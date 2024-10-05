@@ -159,6 +159,12 @@ onEvent('item.registry', event => {
 		.maxStackSize(1)
 		.rarity(Rarity.COMMON)
 
+	event.create('xu_wu')
+		.displayName("虚无之刺")
+		.tooltip(Text.translate('主手持有时攻击地狱之手将其秒杀'))
+		.tooltip(Text.translate('不掉落难度额外物品'))
+		.maxStackSize(1)
+		.rarity(Rarity.EPIC)
 
 })
 onEvent('block.modification', event => {
