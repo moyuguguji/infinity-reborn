@@ -292,6 +292,7 @@ onEvent("entity.death", event => {
       break;
     case "minecraft:ender_dragon":
       event.server.tell("\u00A75末影龙已被打败!")
+      event.server.runCommandSilent(`kill @e[type=marker]`)
       break;
     case "twilightforest:lich":
       event.server.tell("\u00A75巫妖已被打败!")
