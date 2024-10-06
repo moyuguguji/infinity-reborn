@@ -1,13 +1,13 @@
 {
-	"EliteSpawnRates": 0.03,
-	"UltraSpawnRates": 0.005,
+	"EliteSpawnRates": 0.15,
+	"UltraSpawnRates": 0.01,
 	"EldritchSpawnRates": 1.0E-4,
 	"EliteHealthMultiplier": 0.25,
 	"UltraHealthMultiplier": 0.4000000059604645,
 	"EldritchHealthMultiplier": 0.6000000238418579,
-	"EliteXpMultiplier": 3,
-	"UltraXpMultiplier": 6,
-	"EldritchXpMultiplier": 8,
+	"EliteXpMultiplier": 2,
+	"UltraXpMultiplier": 4,
+	"EldritchXpMultiplier": 6,
 	"EliteMinModifiers": 2,
 	"UltraMinModifiers": 5,
 	"EldritchMinModifiers": 9,
@@ -108,7 +108,7 @@
 	"lifestealConfig": {
 		"name": "吸血",
 		"disabled": false,
-		"lifestealHealProportion": 1.0
+		"lifestealHealProportion": 0.5
 	},
 	"regeneratingConfig": {
 		"name": "再生",
@@ -152,7 +152,7 @@
 	"thornyConfig": {
 		"name": "荆棘",
 		"disabled": false,
-		"thornyReturnDamage": 0.25
+		"thornyReturnDamage": 0.1
 	},
 	"toxicConfig": {
 		"name": "剧毒",
