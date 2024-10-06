@@ -27,7 +27,7 @@
 	"ringHasteLevel": 2,
 	"ringLuckLevel": 4,
 	"ringMinerCooldown": 60,
-	"ringMinerRange": 9,
+	"ringMinerRange": 4,
 	"ringMinerVerticalRange": 9,
 	"ringMinerSharedBreaking": false,
 	"ringMinerSharedBreakingDelay": true,
