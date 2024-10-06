@@ -610,14 +610,14 @@
       "Base chance for each additional armor pieces",
       "Range: 0.0 ~ 1.0"
     ],
-    "input": 0.35
+    "input": 0.25
   },
   "Equipment Addition": {
     "__comment": [
       "Adds additional x*difficulty% to base equip chance",
       "Range: > 0.0"
     ],
-    "input": 0.5
+    "input": 4.0
   },
   "Weapon Chance": {
     "__comment": [
@@ -631,21 +631,21 @@
       "Adds additional x*difficulty% to base weapon chance",
       "Range: > 0.0"
     ],
-    "input": 1.0
+    "input": 2.5
   },
   "Enchanting Chance": {
     "__comment": [
       "Base chance for each armor pieces to get enchanted",
       "Range: 0.0 ~ 1.0"
     ],
-    "input": 0.2
+    "input": 0.25
   },
   "Enchanting Addition": {
     "__comment": [
       "Adds additional x*difficulty% to base enchanting chance",
       "Range: > 0.0"
     ],
-    "input": 2.0
+    "input": 5.0
   },
   "Enchanting Calc": {
     "__comment": [
@@ -913,7 +913,7 @@
       "Damage will be multiplied by 1 + difficulty*0.008*x. Set to 0 to disable",
       "Range: > 0.0"
     ],
-    "input": 15.0
+    "input": 10.0
   },
   "Max Damage Increase": {
     "__comment": [
@@ -955,7 +955,7 @@
       "Magic resistance will be increased by difficulty*0.0016*x. Set to 0 to disable",
       "Range: > 0.0"
     ],
-    "input": 60.0
+    "input": 45.0
   },
   "Max Magic Resistance": {
     "__comment": [
@@ -969,7 +969,7 @@
       "Projectile Damage will be multiplied by 1 + difficulty*0.008*x. Set to 0 to disable",
       "Range: > 0.0"
     ],
-    "input": 40.0
+    "input": 25.0
   },
   "Max Projectile Damage": {
     "__comment": [
