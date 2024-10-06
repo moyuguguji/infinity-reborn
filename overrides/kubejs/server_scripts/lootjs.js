@@ -193,7 +193,7 @@ onEvent("lootjs", (event) => {
 
     event
         .addLootTypeModifier(LootType.CHEST)
-        .randomChance(0.01)
+        .randomChance(0.025)
         .addLoot("kubejs:red_packet")
 
     event

@@ -362,7 +362,7 @@ onEvent("entity.death", event => {
   }
 })
 onEvent('item.right_click',event =>{
-  if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:boss_rush') {
+  if (event.player.getHeldItem(MAIN_HAND).id == 'kubejs:boss_rush') {
     let targetTypes = [
     "minecraft:wither",
     "soulsweapons:chaos_monarch",
@@ -430,22 +430,6 @@ onEvent('item.entity_interact',event =>{
         event.server.tell("\u00A74请使用贸易站交易,默认开启,可在任务中关闭")
     }
     }}}
-})
-onEvent('block.right_click', event => {
-    let player = event.player
-    let mainItem = player.getHeldItem(MAIN_HAND)
-    let block = event.getBlock()
-    if ((mainItem.nbtString.lastIndexOf('id:"x_enchant:broken_dawn"') >= 0 && block == 'infusion_table:infusion_table') || (mainItem.nbtString.lastIndexOf('x_enchant:broken_dawnDone":1b') >= 0 && (block == 'infusion_table:infusion_table' || block =='spectrum:item_bowl_calcite' || block == 'spectrum:item_bowl_basalt'))) {
-        event.server.tell("\u00A7e辉光庇护此物")
-        event.cancel()
-    }
-})
-onEvent('player.inventory.changed', event => {
-    let item = event.getItem()
-    let player = event.player
-    if (item.nbtString.lastIndexOf("x_enchant:broken_dawn") >= 0 && item.id == "minecraft:enchanted_book") {
-        player.inventory.clear(item)
-    }
 })
 onEvent('ftbquests.custom_reward.740A45205A854354', event => {// 设置ID为4883F7BD04E2C597的自定义奖励
     // 给予玩家药水效果奖励(村庄英雄)
