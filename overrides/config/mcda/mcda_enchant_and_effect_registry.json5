@@ -8,16 +8,16 @@
 		"DEFLECT": true,
 		"FIRE_FOCUS": true,
 		"FIRE_TRAIL": true,
-		"FOOD_RESERVES": true,
+		"FOOD_RESERVES": false,
 		"FRENZIED": true,
-		"HEAL_ALLIES": true,
+		"HEAL_ALLIES": false,
 		"LUCKY_EXPLORER": true,
-		"POISON_FOCUS": true,
-		"POTION_BARRIER": true,
+		"POISON_FOCUS": false,
+		"POTION_BARRIER": false,
 		"RECKLESS": true,
 		"RECYCLER": true,
 		"SNOWBALL": true,
-		"SURPRISE_GIFT": true,
+		"SURPRISE_GIFT": false,
 		"SWIFTFOOTED": true
 	},
 	"enableArmorEffect": {
@@ -25,7 +25,7 @@
 		"ARCTIC_FOX_HIGH_GROUND": true,
 		"BUZZY_HIVE": true,
 		"CAULDRONS_OVERFLOW": true,
-		"CURIOUS_TELEPORTATION": true,
+		"CURIOUS_TELEPORTATION": false,
 		"EMBER_JUMP": true,
 		"FIRE_RESISTANCE": true,
 		"FLUID_FREEZING": true,
@@ -59,7 +59,7 @@
 		"SWEET_BERRY_BUSH_WALKING": true,
 		"SWEET_BERRY_SPEED": true,
 		"SYLVAN_PRESENCE": true,
-		"TELEPORTATION_ROBES_EFFECT": true,
+		"TELEPORTATION_ROBES_EFFECT": false,
 		"TITAN_SHROUD_EFFECTS": true,
 		"TROUBADOURS_CHARISMA": true,
 		"UNSTABLE_ROBES_EFFECT": true,
@@ -68,5 +68,5 @@
 		"WITHERED": true
 	},
 	// Controlled Teleportation for Unstable Robes, default = true
-	"controlledTeleportation": true
+	"controlledTeleportation": false
 }
