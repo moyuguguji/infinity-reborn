@@ -5,7 +5,8 @@
       "com.doo.xenchant.enchantment.halo.ThunderHalo",
       "com.doo.xenchant.enchantment.SuckBlood",
       "com.doo.xenchant.enchantment.QuickShot",
-      "com.doo.xenchant.enchantment.HitRateUp"
+      "com.doo.xenchant.enchantment.HitRateUp",
+      "com.doo.xenchant.enchantment.BrokenDawn"
     ],
     "autoFishing": true,
     "suckBlood": false,
@@ -24,7 +25,7 @@
     "nightBreakIsReal": false,
     "nightBreakMaxLevel": 1,
     "nightBreakPerLevel": 0.0,
-    "brokenDawn": true,
+    "brokenDawn": false,
     "brokenDawnProcess": 5.0,
     "brokenDawnSuccess": 0.0,
     "halo": true,
@@ -131,7 +132,6 @@
       "effect.spectrum.density",
       "effect.spectrum.scarred",
       "effect.spectrum.vulnerability",
-      "effect.spectrum.another_roll",
       "effect.soulsweapons.calculated_fall",
       "effect.soulsweapons.bleed",
       "effect.spectrum.immunity",
@@ -177,7 +177,9 @@
       "effect.mcdw.shadow_form",
       "effect.mcdar.charmed",
       "effect.rottencreatures.channelled",
-      "effect.extraalchemy.learning"
+      "effect.extraalchemy.learning",
+      "effect.gobber2.knowledge",
+      "effect.extraalchemy.concentration"
     ],
     "special": true,
     "trinkets": false

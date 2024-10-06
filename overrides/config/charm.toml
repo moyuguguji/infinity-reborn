@@ -68,7 +68,7 @@
 "ExtraWanderingTrades Enabled" = true
 #Extract enchantments from any enchanted item into an empty book using the grindstone.
 #The player must pay a cost (in xp levels) to extract enchantments from the item.
-"ExtractEnchantments Enabled" = false
+"ExtractEnchantments Enabled" = true
 #Potion effect particles are much less obtrusive by default and can optionally be entirely hidden.
 "GentlePotionParticles Enabled" = true
 #Goats have a chance to drop mutton when killed.
