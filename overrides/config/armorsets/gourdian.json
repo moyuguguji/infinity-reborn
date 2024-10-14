@@ -16,27 +16,6 @@
     "itemKey": "mcda:gourdian_armor_boots",
     "mustBeEmpty": false
   },
-  "partialBonusRequiredAmount": 2,
-  "partialSetBonuses": [
-    {
-      "type": "effect",
-      "name": "minecraft:speed",
-      "value": 0.0,
-      "interactionType": "self",
-      "interactionDuration": 300,
-      "hideBonusDescription": false,
-      "onlyImmuneToNewEffects": false
-    },
-    {
-      "type": "effect",
-      "name": "minecraft:night_vision",
-      "value": 0.0,
-      "interactionType": "self",
-      "interactionDuration": 300,
-      "hideBonusDescription": false,
-      "onlyImmuneToNewEffects": false
-    }
-  ],
   "fullSetBonuses": [
     {
       "type": "effect",
