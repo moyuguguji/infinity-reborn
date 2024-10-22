@@ -1,9 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        {
-            "id": "terralith:warm_river",
-            "required": false
-        }
-    ]
-}

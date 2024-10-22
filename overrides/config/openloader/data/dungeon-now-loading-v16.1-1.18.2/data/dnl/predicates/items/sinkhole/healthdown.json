@@ -1,8 +1,0 @@
-{
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "type": "minecraft:item",
-    "nbt": "{dnl.sinkhole:1b,dnl.slimecore:1b,dnl.healthdown:1b}"
-  }
-}

@@ -51,7 +51,7 @@
       {
         "hitbox": "HORIZONTAL_PLANE",
         "conditions": ["DUAL_WIELDING_SAME_CATEGORY", "OFF_HAND_ONLY"],
-        "damage_multiplier": 1.6,
+        "damage_multiplier": 2.0,
         "angle": 150,
         "upswing": 0.5,
         "animation": "bettercombat:dual_handed_slam",

@@ -771,17 +771,9 @@
 			size: 2.0d
 			id: "5653992CFC0D14E8"
 			tasks: [{
-				id: "0CC47F5972792A2D"
-				type: "kill"
-				icon: {
-					id: "whisperwoods:hirschgeist_skull"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-				entity: "whisperwoods:hirschgeist"
-				value: 1L
+				id: "34F40C2429EBE7B2"
+				type: "item"
+				item: "kubejs:soul_bone"
 			}]
 			rewards: [
 				{

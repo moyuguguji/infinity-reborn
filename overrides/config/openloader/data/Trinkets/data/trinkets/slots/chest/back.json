@@ -1,5 +1,6 @@
 {
   "icon": "trinkets:gui/slots/back",
   "order": -512,
+  "amount":2,
   "validator_predicates": ["trinkets:tag"]
 }

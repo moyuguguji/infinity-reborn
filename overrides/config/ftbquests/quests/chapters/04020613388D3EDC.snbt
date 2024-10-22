@@ -4,12 +4,15 @@
 	order_index: 2
 	filename: "04020613388D3EDC"
 	title: "隐藏成就"
+	icon: "things:gleaming_compound"
+	disable_toast: true
 	default_quest_shape: "square"
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			x: -2.5d
 			y: -1.0d
+			optional: true
 			invisible: true
 			id: "2EB7A057A605386C"
 			tasks: [{
@@ -27,6 +30,7 @@
 		{
 			x: -1.0d
 			y: -1.0d
+			optional: true
 			invisible: true
 			id: "4947B1FFC7E9F43E"
 			tasks: [{
@@ -44,6 +48,7 @@
 		{
 			x: 0.5d
 			y: -1.0d
+			optional: true
 			invisible: true
 			id: "1A1A11980FE6BC25"
 			tasks: [{
@@ -61,6 +66,7 @@
 		{
 			x: 2.0d
 			y: -1.0d
+			optional: true
 			invisible: true
 			id: "081444D65C467388"
 			tasks: [{
@@ -78,6 +84,7 @@
 		{
 			x: 0.5d
 			y: -2.5d
+			optional: true
 			invisible: true
 			id: "2FA067ED6590CE71"
 			tasks: [{
@@ -128,6 +135,7 @@
 			x: 2.0d
 			y: -2.5d
 			subtitle: "就跟打棒球一样"
+			optional: true
 			secret: true
 			id: "698ED742033CF3FD"
 			tasks: [{
@@ -172,6 +180,7 @@
 		{
 			x: -2.5d
 			y: -2.5d
+			optional: true
 			invisible: true
 			id: "3C4E08EC6694E507"
 			tasks: [{
@@ -190,6 +199,7 @@
 			x: -2.5d
 			y: -4.0d
 			dependencies: ["3C4E08EC6694E507"]
+			optional: true
 			id: "22B6F7C2D8BD57AA"
 			tasks: [{
 				id: "372FDB41654459AC"
@@ -207,6 +217,7 @@
 			x: -1.0d
 			y: -4.0d
 			dependencies: ["22B6F7C2D8BD57AA"]
+			optional: true
 			id: "3A3CAF636B9CDBC3"
 			tasks: [{
 				id: "259CBCAF79AC5FB5"
@@ -230,6 +241,7 @@
 			x: 0.5d
 			y: -4.0d
 			dependencies: ["3A3CAF636B9CDBC3"]
+			optional: true
 			id: "30FD89984A1E117F"
 			tasks: [{
 				id: "3BC960E5365B0EC5"
@@ -248,6 +260,7 @@
 			y: -4.0d
 			subtitle: "木剑传说!"
 			dependencies: ["30FD89984A1E117F"]
+			optional: true
 			id: "2C56FBA862475235"
 			tasks: [{
 				id: "187769D36474A55F"
@@ -271,6 +284,7 @@
 			title: "知识学爆"
 			x: -4.0d
 			y: -2.5d
+			optional: true
 			invisible: true
 			id: "4DC84D45AC2E252A"
 			tasks: [{
@@ -307,6 +321,7 @@
 			title: "我草,我飞起来啦"
 			x: -4.0d
 			y: -1.0d
+			optional: true
 			invisible: true
 			id: "41FB3806FAA76823"
 			tasks: [{

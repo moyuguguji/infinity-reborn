@@ -127,12 +127,8 @@
 			y: -2.5d
 			subtitle: "讨伐难度：简单；讨伐建议：创造飞行能力或远程输出能力"
 			description: [
-				"召唤仪式如下，有粒子效果冒出就是正在召唤，请耐心等待"
+				"召唤仪式参考无限之书，有粒子效果冒出就是正在召唤，请耐心等待"
 				"眼球死后会在死亡地点生成一个传送门，前往虚空之影的所在纬度。"
-				"================================================"
-				"{image:kubejs:textures/ftbq/2022-08-18_18.49.27.png width:200 height:130 align:1}"
-				"{image:kubejs:textures/ftbq/2022-08-18_18.50.23.png width:200 height:130 align:1}"
-				"{image:kubejs:textures/ftbq/2022-08-18_18.53.12.png width:200 height:130 align:1}"
 			]
 			dependencies: ["302E302BDA7BF0F5"]
 			id: "2C5A7460D61847D0"

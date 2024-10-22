@@ -61,7 +61,7 @@
       {
         "conditions": [OFF_HAND_ONLY],
         "hitbox": "FORWARD_BOX",
-        "damage_multiplier": 1.2,
+        "damage_multiplier": 1.5,
         "angle": 0,
         "upswing": 0.5,
         "animation": "bettercombat:one_handed_stab",

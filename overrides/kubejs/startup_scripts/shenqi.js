@@ -3,6 +3,7 @@
         .displayName("§6神器碎片")
         .tooltip(Text.translate('item.kubejs.shenqi_shard.tooltip'))
         .rarity(Rarity.EPIC)
+        .tag('kubejs:shenqi_shard')
 
 
     event.create('shenqi_ingot')
@@ -11,6 +12,7 @@
         .rarity(Rarity.UNCOMMON)
 
     event.create('qixing_sword', 'sword')
+        .tier('shenqi')
         .attackDamageBonus(32)
         .maxStackSize(1)
         .speedBaseline(-1.1)
@@ -27,6 +29,7 @@
         .tooltip('该武器来自第一代Infinity整合包')
 
     event.create('ruoshui_sword', 'sword')
+        .tier('shenqi')
         .attackDamageBonus(15)
         .maxStackSize(1)
         .speedBaseline(-1.6)
@@ -43,6 +46,7 @@
         .tooltip('该武器来自第一代Infinity整合包')
 
     event.create('yecao_sword', 'sword')
+        .tier('shenqi')
         .attackDamageBonus(13)
         .maxStackSize(1)
         .speedBaseline(-1.6)
@@ -87,6 +91,7 @@
 
 
     event.create('sixiang_kaitian', 'sword')
+        .tier('shenqi')
         .attackDamageBonus(32)
         .maxStackSize(1)
         .speedBaseline(-1.5)
@@ -100,6 +105,7 @@
         .tooltip('--来自四人组aolanya,ZYanHua,HuanLu,NanNiang_001')
 
     event.create('lce_tang', 'sword')
+        .tier('shenqi')
         .displayName("§4凝血巨镰")
         .attackDamageBonus(27)
         .maxStackSize(1)
@@ -115,6 +121,7 @@
         .tooltip('--来自赞助者lce_Tang')
 
     event.create('ailinghan', 'sword')
+        .tier('shenqi')
         .displayName("护摩之杖")
         .attackDamageBonus(22)
         .maxStackSize(1)
@@ -169,5 +176,9 @@ onEvent('item.registry.tool_tiers', event => {
         tier.attackDamageBonus = 16.0
         tier.level = 7
         tier.enchantmentValue = 30
+    })
+    event.add('shenqi',tier => {
+        tier.enchantmentValue = 30
+		tier.repairIngredient = '#kubejs:shenqi_shard'
     })
 })

@@ -37,6 +37,7 @@
 			x: -8.5d
 			y: -1.5d
 			description: ["该武器来自第一代无限整合包"]
+			invisible: true
 			id: "07A50888B110583B"
 			tasks: [{
 				id: "7B2CCB5742935BE8"
@@ -68,6 +69,7 @@
 			x: -9.0d
 			y: -0.5d
 			description: ["该武器来自第一代无限整合包"]
+			invisible: true
 			id: "78F3185B02B4A80F"
 			tasks: [{
 				id: "5D8825BBD612AE32"
@@ -99,6 +101,7 @@
 			x: -6.0d
 			y: -0.5d
 			description: ["该武器来自第一代无限整合包"]
+			invisible: true
 			id: "5E4A4F7213FA89DC"
 			tasks: [{
 				id: "39CC09C2CAFCB32D"
@@ -2335,6 +2338,7 @@
 				"如果你关掉了战斗模式的mod，他将失去近乎所有的力量                 ————天稽阁主-斩稽"
 			]
 			size: 3.0d
+			optional: true
 			invisible: true
 			id: "63254282D8291BC9"
 			tasks: [{
@@ -2420,6 +2424,7 @@
 				"怎么会有一把这么昂贵的石剑呢？"
 				"充斥着崩坏之力，诞生于不曾存在的虚空。"
 			]
+			invisible: true
 			id: "1A48026BFA1C0529"
 			tasks: [{
 				id: "26C2AC2763BFBA33"
@@ -2913,6 +2918,7 @@
 			x: -7.5d
 			y: 0.5d
 			description: ["感谢@aolanya、@ZYanHua、@HuanLu、@NanNiang_001对本包的贡献！"]
+			invisible: true
 			id: "36E6A6481D6A9D4A"
 			tasks: [{
 				id: "5486B71AD2B186B3"

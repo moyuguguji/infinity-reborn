@@ -1,8 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "minecraft:plains",
-        "minecraft:snowy_plains",
-        "#dnl:terralith/is_plains"
-    ]
-}

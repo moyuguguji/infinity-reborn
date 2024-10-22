@@ -34,7 +34,11 @@
     {
       "type":"patchouli:entity",
       "entity":"adventurez:stone_golem"
-
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "kubejs:kjs_ckyudzyur7hl16ny4g5gb1n1",
+      "text":"或者通过物品召唤"
     }
   ]
 }

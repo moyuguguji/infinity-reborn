@@ -177,7 +177,7 @@ onEvent('recipes', event => {
     "result": {
       "item": 'kubejs:yecao_sword'
     },
-    "required_advancement": "spectrum:create_onyx_shard",
+    "required_advancement": "spectrum:build_fusion_shrine",
     "world_conditions": ["day", "CLEAR_SKY"],
     "start_crafting_effect": "nothing",
     "during_crafting_effects": [
@@ -255,7 +255,7 @@ onEvent('recipes', event => {
       },
       {
         "item": 'gobber2:dragon_star',//龙之星
-        "count": 2
+        "count": 1
       },
       {
         "item": 'kubejs:crystal_tiered',//流星碎片
@@ -325,7 +325,7 @@ onEvent('recipes', event => {
       },
       {
         "item": 'gobber2:dragon_star',//龙之星
-        "count": 2
+        "count": 1
       },
       {
         "item": 'bosses_of_mass_destruction:obsidian_heart',//黑曜石之心
@@ -368,7 +368,7 @@ onEvent('recipes', event => {
         "item": 'infusion_table:infusion_table'//太古合金剑刃
       },
       {
-        "item": 'kubejs:shining_star'//天体块
+        "item": 'spectrum:spectral_shard_storage_block'//天体块
       },
       {
         "item": 'spectrum:spectral_shard_storage_block'//灵魂之骨
@@ -380,7 +380,7 @@ onEvent('recipes', event => {
         "item": 'spectrum:gilded_book'//龙之星
       },
       {
-        "item": 'kubejs:shining_star'//永恒水晶
+        "item": 'spectrum:spectral_shard_storage_block'//永恒水晶
       },
       {
         "item": 'spectrum:spectral_shard_storage_block'//流星碎片
@@ -472,195 +472,6 @@ onEvent('recipes', event => {
       "nbt": "{StoredEnchantments: [{id: \"gobber2:apotropaic\", lvl: 1s}]}"
     },
   })
-  /*event.custom({
-    type: "spectrum:pedestal",
-    "time": 600,
-    "tier": "basic",
-    "cyan": 64,
-    "magenta": 64,
-    "yellow": 64,
-    "white": 0,
-    "black": 0,
-    "experience": 10,
-    "pattern": [
-      "AAA",
-      "BCB",
-      "ADA"
-    ],
-    "key": {
-      "A": {
-        "item": 'kubejs:shenqi_ingot'//神器零件
-      },
-      "B": {
-        "item": 'mythicmetals:hallowed_ingot'//神圣锭
-      },
-      "C": {
-        "item": 'ringsofascension:ring_hungerless'//饱腹戒指
-      },
-      "D": {
-        "item": 'gobber2:gobber2_rod'//戈伯棒
-      }
-
-    },
-    "result": {
-      "item": 'kubejs:yecao_sword',
-      "count": 1
-    }
-  })
-
-  event.custom({
-    type: "spectrum:pedestal",
-    "time": 800,
-    "tier": "basic",
-    "cyan": 32,
-    "magenta": 16,
-    "yellow": 16,
-    "white": 0,
-    "black": 0,
-    "experience": 10,
-    "pattern": [
-      "AAA",
-      "CBC",
-      "ADA"
-    ],
-    "key": {
-      "A": {
-        "item": 'kubejs:shenqi_ingot'//激水珍珠
-      },
-      "B": {
-        "item": 'mythicmetals:aquarium_pearl'//激水珍珠
-      },
-      "C": {
-        "item": 'mcda:upgrade_core_frost'//冰霜水晶升级
-      },
-      "D": {
-        "item": 'gobber2:gobber2_rod'//戈伯棒
-      }
-
-    },
-    "result": {
-      "item": 'kubejs:ruoshui_sword',
-      "count": 1
-    }
-  })
-
-
-  event.custom({
-    type: "spectrum:enchanter",
-    "group": "vanilla",
-    "time": 1000,
-    "required_experience": 10000,
-    "ingredients": [
-      {
-        "item": 'betterend:aeternium_sword_blade'//太古合金剑刃
-      },
-      {
-        "item": 'mythicmetals:celestium_block'//天体块
-      },
-      {
-        "item": 'kubejs:soul_bone'//灵魂之骨
-      },
-      {
-        "item": 'kubejs:shining_star'//闪耀之星
-      },
-      {
-        "item": 'gobber2:dragon_star'//龙之星
-      },
-      {
-        "item": 'betterend:eternal_crystal'//永恒水晶
-      },
-      {
-        "item": 'spectrum:shooting_star'//流星碎片
-      },
-      {
-        "item": 'spectrum:midnight_chip'//午夜残片
-      },
-      {
-        "item": 'spectrum:lightning_stone'//风暴之石
-      }
-    ],
-    "result": {
-      "item": 'kubejs:infinity_sword_b',
-    },
-  })
-
-  event.custom({
-    type: "spectrum:enchanter",
-    "group": "vanilla",
-    "time": 1000,
-    "required_experience": 10000,
-    "ingredients": [
-      {
-        "item": 'betterend:aeternium_sword_handle'//太古合金剑柄
-      },
-      {
-        "item": 'soulsweapons:chaos_orb'//混沌珠
-      },
-      {
-        "item": 'spectrum:bedrock_storage_block'//基岩粉块
-      },
-      {
-        "item": 'gobber2:dragon_star'//龙之星
-      },
-      {
-        "item": 'bosses_of_mass_destruction:obsidian_heart'//黑曜石之心
-      },
-      {
-        "item": 'adventurez:source_stone'//源石
-      },
-      {
-        "item": 'soulsweapons:essence_of_luminescence'//昏光精粹
-      },
-      {
-        "item": 'infinity:sculk_core'//幽匿核心
-      },
-      {
-        "item": 'adventurez:stone_golem_heart'//黑石傀儡之心
-      }
-    ],
-    "result": {
-      "item": 'kubejs:infinity_sword_a',
-    },
-  })
-  /*event.custom({
-    type: "spectrum:enchanter",
-    "group": "vanilla",
-    "time": 600,
-    "required_experience": 10000,
-    "ingredients": [
-      {
-        "item": 'dragonloot:dragon_sword'
-      },
-      {
-        "item": 'mythicmetals:celestium_ingot'
-      },
-      {
-        "item": 'mythicmetals:celestium_ingot'
-      },
-      {
-        "item": 'spectrum:shooting_star'
-      },
-      {
-        "item": 'kubejs:shenqi_ingot'
-      },
-      {
-        "item": 'mythicmetals:star_platinum'
-      },
-      {
-        "item": 'enderscape:nebulite'
-      },
-      {
-        "item": 'minecraft:nether_star'
-      },
-      {
-        "item": 'spectrum:stardust'
-      }
-    ],
-    "result": {
-      "item": 'kubejs:qixing_sword',
-    },
-      })*/
-
   event.custom({
     type: "spectrum:pedestal",
     "time": 600,
@@ -744,7 +555,7 @@ onEvent('recipes', event => {
     "result": {
       "item": 'kubejs:qixing_sword'
     },
-    "required_advancement": "spectrum:build_fusion_shrine",
+    "required_advancement": "spectrum:catch_shooting_star",
     "world_conditions": ["midnight", "new_moon"],
     "start_crafting_effect": "nothing",
     "during_crafting_effects": [
@@ -791,7 +602,7 @@ onEvent('recipes', event => {
     "result": {
       "item": 'kubejs:sixiang_kaitian'
     },
-    "required_advancement": "spectrum:build_fusion_shrine",
+    "required_advancement": "spectrum:midgame/break_decayed_bedrock",
     "start_crafting_effect": "nothing",
     "during_crafting_effects": [
       "visual_explosions_on_shrine"
@@ -836,7 +647,6 @@ onEvent('recipes', event => {
     "result": {
       "item": 'kubejs:upgrade_yuan'
     },
-    "required_advancement": "spectrum:build_fusion_shrine",
     "start_crafting_effect": "nothing",
     "during_crafting_effects": [
       "visual_explosions_on_shrine"
@@ -881,7 +691,6 @@ onEvent('recipes', event => {
     "result": {
       "item": 'kubejs:upgrade_nami'
     },
-    "required_advancement": "spectrum:build_fusion_shrine",
     "start_crafting_effect": "nothing",
     "during_crafting_effects": [
       "visual_explosions_on_shrine"
@@ -922,7 +731,6 @@ onEvent('recipes', event => {
     "result": {
       "item": 'kubejs:upgrade_ren'
     },
-    "required_advancement": "spectrum:build_fusion_shrine",
     "start_crafting_effect": "nothing",
     "during_crafting_effects": [
       "visual_explosions_on_shrine"
@@ -967,7 +775,6 @@ onEvent('recipes', event => {
     "result": {
       "item": 'kubejs:upgrade_liuren'
     },
-    "required_advancement": "spectrum:build_fusion_shrine",
     "start_crafting_effect": "nothing",
     "during_crafting_effects": [
       "visual_explosions_on_shrine"
@@ -1008,7 +815,6 @@ onEvent('recipes', event => {
     "result": {
       "item": 'kubejs:lce_tang'
     },
-    "required_advancement": "spectrum:build_fusion_shrine",
     "start_crafting_effect": "nothing",
     "during_crafting_effects": [
       "visual_explosions_on_shrine"
@@ -1052,7 +858,6 @@ onEvent('recipes', event => {
     "result": {
       "item": 'kubejs:ailinghan'
     },
-    "required_advancement": "spectrum:build_fusion_shrine",
     "start_crafting_effect": "nothing",
     "during_crafting_effects": [
       "visual_explosions_on_shrine"

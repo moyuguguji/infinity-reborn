@@ -18,7 +18,7 @@
       {
         "conditions": [OFF_HAND_ONLY],
         "hitbox": "FORWARD_BOX",
-        "damage_multiplier": 0.6,
+        "damage_multiplier": 1.0,
         "angle": 0,
         "upswing": 0.5,
         "animation": "bettercombat:one_handed_stab",
@@ -40,7 +40,7 @@
       {
         "conditions": ["DUAL_WIELDING_SAME_CATEGORY", "OFF_HAND_ONLY"],
         "hitbox": "FORWARD_BOX",
-        "damage_multiplier": 0.75,
+        "damage_multiplier": 0.85,
         "angle": 0,
         "upswing": 0.5,
         "animation": "bettercombat:one_handed_slash_downcut_right",
@@ -62,7 +62,7 @@
       {
         "conditions": ["DUAL_WIELDING_SAME_CATEGORY", "OFF_HAND_ONLY"],
         "hitbox": "FORWARD_BOX",
-        "damage_multiplier": 1.4,
+        "damage_multiplier": 1.9,
         "angle": 0,
         "upswing": 0.5,
         "animation": "bettercombat:dual_handed_stab",

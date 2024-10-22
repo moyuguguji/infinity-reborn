@@ -4,7 +4,7 @@
 		"SWORD_BROADSWORD": {
 			"material": "diamond",
 			"damage": 6,
-			"attackSpeed": -2.9000000953674316,
+			"attackSpeed": -3.2000000953674316,
 			"repairIngredient": [
 				"minecraft:diamond"
 			]
@@ -12,7 +12,7 @@
 		"SWORD_FROST_SLAYER": {
 			"material": "netherite",
 			"damage": 14,
-			"attackSpeed": -2.9000000953674316,
+			"attackSpeed": -3.2000000953674316,
 			"repairIngredient": [
 				"gobber2:gobber2_ingot"
 			]
@@ -60,7 +60,7 @@
 		"SWORD_THE_STARLESS_NIGHT": {
 			"material": "netherite",
 			"damage": 43,
-			"attackSpeed": -2.9000000953674316,
+			"attackSpeed": -3.2000000953674316,
 			"repairIngredient": [
 				"gobber2:gobber2_ingot_end"
 			]
@@ -68,7 +68,7 @@
 		"SWORD_CLAYMORE": {
 			"material": "iron",
 			"damage": 6,
-			"attackSpeed": -2.9000000953674316,
+			"attackSpeed": -3.2000000953674316,
 			"repairIngredient": [
 				"minecraft:iron_ingot"
 			]
@@ -100,7 +100,7 @@
 		"SWORD_GREAT_AXEBLADE": {
 			"material": "diamond",
 			"damage": 7,
-			"attackSpeed": -2.9000000953674316,
+			"attackSpeed": -3.2000000953674316,
 			"repairIngredient": [
 				"minecraft:diamond"
 			]
@@ -116,7 +116,7 @@
 		"SWORD_OBSIDIAN_CLAYMORE": {
 			"material": "netherite",
 			"damage": 27,
-			"attackSpeed": -2.9000000953674316,
+			"attackSpeed": -3.2000000953674316,
 			"repairIngredient": [
 				"gobber2:gobber2_ingot_nether"
 			]
@@ -132,7 +132,7 @@
 		"SWORD_HEARTSTEALER": {
 			"material": "diamond",
 			"damage": 6,
-			"attackSpeed": -2.9000000953674316,
+			"attackSpeed": -3.2000000953674316,
 			"repairIngredient": [
 				"minecraft:diamond"
 			]
@@ -198,7 +198,7 @@
 		"AXE_AXE": {
 			"material": "iron",
 			"damage": 6,
-			"attackSpeed": -2.9000000953674316,
+			"attackSpeed": -3.2000000953674316,
 			"repairIngredient": [
 				"minecraft:iron_ingot"
 			]
@@ -214,7 +214,7 @@
 		"AXE_HIGHLAND": {
 			"material": "diamond",
 			"damage": 6,
-			"attackSpeed": -2.9000000953674316,
+			"attackSpeed": -3.2000000953674316,
 			"repairIngredient": [
 				"minecraft:diamond"
 			]
@@ -1046,7 +1046,7 @@
 		"CROSSBOW_DUAL_CROSSBOW": {
 			"material": "iron",
 			"drawSpeed": 0,
-			"range": 4.0,
+			"range": 2.0,
 			"repairIngredient": [
 				"minecraft:iron_ingot"
 			]
@@ -1054,7 +1054,7 @@
 		"CROSSBOW_SPELLBOUND_CROSSBOW": {
 			"material": "diamond",
 			"drawSpeed": 0,
-			"range": 6.25,
+			"range": 4,
 			"repairIngredient": [
 				"gobber2:gobber2_ingot"
 			]
@@ -1078,7 +1078,7 @@
 		"CROSSBOW_VEILED_CROSSBOW": {
 			"material": "netherite",
 			"drawSpeed": 18,
-			"range": 17.5,
+			"range": 11,
 			"repairIngredient": [
 				"gobber2:gobber2_ingot_end"
 			]
@@ -1094,7 +1094,7 @@
 		"CROSSBOW_LIGHTNING_HARP_CROSSBOW": {
 			"material": "netherite",
 			"drawSpeed": 0,
-			"range": 8.0,
+			"range": 10,
 			"repairIngredient": [
 				"gobber2:gobber2_ingot_end"
 			]
@@ -1110,7 +1110,7 @@
 		"CROSSBOW_SHADOW_CROSSBOW": {
 			"material": "diamond",
 			"drawSpeed": 18,
-			"range": 13.0,
+			"range": 8.0,
 			"repairIngredient": [
 				"gobber2:gobber2_ingot"
 			]
@@ -1190,7 +1190,7 @@
 		"CROSSBOW_HEAVY_CROSSBOW": {
 			"material": "iron",
 			"drawSpeed": 93,
-			"range": 15.0,
+			"range": 11.0,
 			"repairIngredient": [
 				"minecraft:iron_ingot"
 			]
@@ -1198,7 +1198,7 @@
 		"CROSSBOW_BABY_CROSSBOW": {
 			"material": "netherite",
 			"drawSpeed": 0,
-			"range": 8.5,
+			"range": 6.5,
 			"repairIngredient": [
 				"gobber2:gobber2_ingot_nether"
 			]

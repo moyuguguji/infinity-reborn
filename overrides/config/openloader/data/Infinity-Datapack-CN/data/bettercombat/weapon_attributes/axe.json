@@ -49,7 +49,7 @@
       {
         "conditions": ["DUAL_WIELDING_SAME_CATEGORY","OFF_HAND_ONLY"],
         "hitbox": "HORIZONTAL_PLANE",
-        "damage_multiplier": 1.5,
+        "damage_multiplier": 2.0,
         "angle": 360,
         "upswing": 0.5,
         "animation": "bettercombat:dual_handed_downspin",

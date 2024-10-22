@@ -23,13 +23,20 @@ onEvent('recipes', event => {
 })
 onEvent('recipes', event => {
   event.shaped('endrem:rogue_eye', [
-    'BBB',
-    'BAB',
-    'BBB'
+    'BCD',
+    'EAF',
+    'GHL'
   ],
     {
       A: 'minecraft:ender_eye',
-      B: 'mcda:gemstone_red',
+      B: 'croptopia:vanilla',
+      C: 'croptopia:mango',
+      D: 'minecraft:cocoa_beans',
+      E: 'minecraft:melon_slice',
+      F: 'croptopia:grapefruit',
+      G: 'croptopia:banana',
+      H: 'croptopia:cinnamon',
+      L: 'croptopia:coffee_beans'
     })
 })
 onEvent('recipes', event => {

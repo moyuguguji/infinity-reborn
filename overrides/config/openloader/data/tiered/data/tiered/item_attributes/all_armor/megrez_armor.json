@@ -25,8 +25,8 @@
             "type": "minecraft:generic.armor",
             "modifier": {
                 "name": "tiered:megrez_armor",
-                "operation": "MULTIPLY_BASE",
-                "amount": 0.3
+                "operation": "ADDITION",
+                "amount": 8
             },
             "optional_equipment_slots": [
                 "HEAD"

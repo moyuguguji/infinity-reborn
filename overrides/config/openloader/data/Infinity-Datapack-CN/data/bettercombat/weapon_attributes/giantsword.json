@@ -40,7 +40,7 @@
       {
         "hitbox": "HORIZONTAL_PLANE",
         "conditions": ["OFF_HAND_ONLY","DUAL_WIELDING_SAME_CATEGORY"],
-        "damage_multiplier": 1.8,
+        "damage_multiplier": 2.2,
         "angle": 360,
         "upswing": 0.5,
         "animation": "bettercombat:dual_handed_spin2",

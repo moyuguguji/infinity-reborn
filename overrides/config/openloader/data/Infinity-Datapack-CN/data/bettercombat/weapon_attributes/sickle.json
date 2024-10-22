@@ -38,7 +38,7 @@
       {
         "hitbox": "FORWARD_BOX",
         "conditions": ["DUAL_WIELDING_SAME_CATEGORY", "OFF_HAND_ONLY"],
-        "damage_multiplier": 1.4,
+        "damage_multiplier": 1.8,
         "angle": 0,
         "upswing": 0.5,
         "animation": "bettercombat:dual_handed_slash_uncross",

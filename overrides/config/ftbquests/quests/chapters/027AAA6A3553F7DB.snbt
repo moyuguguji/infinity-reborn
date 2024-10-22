@@ -63,7 +63,6 @@
 				"TIP：不要把合成配方局限于工作台合成；有关spectrum（光谱世界）mod的合成方式需要解锁相关进度后才能在REI中查看。"
 			]
 			dependencies: ["367FF564102E04AF"]
-			hide: true
 			id: "6FD67E00C769E643"
 			tasks: [{
 				id: "1079EF1E86F58A72"
@@ -125,7 +124,6 @@
 			y: -0.5d
 			description: ["FTB任务判定有问题，你可以把任务物品放进任意容器中，然后关闭容器在拿出来即可。"]
 			dependencies: ["0FF0EE9A5D227A0F"]
-			hide: true
 			id: "54796F90CDA392AA"
 			tasks: [{
 				id: "539741EC2C249777"
@@ -144,6 +142,7 @@
 			icon: "incubus_core:debug_flame"
 			x: 2.0d
 			y: 1.0d
+			shape: "hexagon"
 			description: [
 				"有什么问题记得多看看任务，说不定任务里就会有呢。"
 				"(记得关闭强制使用Unicode字体！)"
@@ -151,7 +150,6 @@
 				"{image:kubejs:textures/ftbq/unicode2.png width:206 height:124 align:1}"
 			]
 			dependencies: ["129A6C95D977784F"]
-			hide: true
 			optional: true
 			id: "015D255D3A92CF17"
 			tasks: [{
@@ -184,7 +182,6 @@
 				"“woc，____”"
 			]
 			dependencies: ["5012E90F299676B4"]
-			hide: true
 			id: "0F91A9C806F4391E"
 			tasks: [{
 				id: "30D8D825A9EF3481"
@@ -208,7 +205,6 @@
 				"按下“F10”键可以开关生物信息的显示情况。"
 			]
 			dependencies: ["54796F90CDA392AA"]
-			hide: true
 			id: "5012E90F299676B4"
 			tasks: [{
 				id: "0B1B65AF95B0B68A"
@@ -227,7 +223,7 @@
 			y: -0.5d
 			description: ["非常神奇的清单，对很多物品进行了详尽的分类，还记载了boss们的所有掉落以及部分【进度】以及【任务】要求的详细物品清单。"]
 			dependencies: ["0F91A9C806F4391E"]
-			hide: true
+			optional: true
 			id: "129A6C95D977784F"
 			tasks: [{
 				id: "090BDFF1FD506DF3"
@@ -266,7 +262,6 @@
 				"没人看的东西+1"
 			]
 			dependencies: ["129A6C95D977784F"]
-			hide: true
 			optional: true
 			id: "056935F82AD7722E"
 			tasks: [{

@@ -40,8 +40,8 @@
             "type": "minecraft:generic.armor",
             "modifier": {
                 "name": "tiered:unique_armor",
-                "operation": "MULTIPLY_BASE",
-                "amount": 0.15
+                "operation": "ADDITION",
+                "amount": 4
             },
             "optional_equipment_slots": [
                 "FEET",
@@ -55,7 +55,7 @@
             "modifier": {
                 "name": "tiered:unique_armor",
                 "operation": "ADDITION",
-                "amount": 2
+                "amount": 2.5
             },
             "optional_equipment_slots": [
                 "FEET",

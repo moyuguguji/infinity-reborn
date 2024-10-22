@@ -78,7 +78,8 @@
 			subtitle: "中间放水晶里收集的灵魂"
 			description: [
 				"mod本身并没有更新相关配方，本包为其添加了一些用处，用于召唤一些生物，查看基座配方，最后需空手右键单击进行仪式。"
-				"{image:kubejs:textures/ftbq/sp.png width:192 height:108 align:1}"
+				""
+				"如何搭建参考无限之书"
 			]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true

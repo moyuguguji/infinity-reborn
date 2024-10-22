@@ -24,6 +24,11 @@
 
     },
     {
+      "type": "patchouli:crafting",
+      "recipe": "kubejs:kjs_e5v574cenxinjkjjmvhje3pd0",
+      "text":"或者通过物品召唤"
+    },
+    {
       "type":"patchouli:entity",
       "entity":"adventurez:the_eye",
       "text":"击败眼球怪后，将产生一个传送门，右键即可进入。"

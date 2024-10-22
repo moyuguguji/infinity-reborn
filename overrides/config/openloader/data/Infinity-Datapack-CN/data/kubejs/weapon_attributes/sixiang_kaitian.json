@@ -27,7 +27,7 @@
       {
         "conditions": ["DUAL_WIELDING_SAME_CATEGORY","OFF_HAND_ONLY"],
         "hitbox": "VERTICAL_PLANE",
-        "damage_multiplier": 1.2,
+        "damage_multiplier": 4.5,
         "angle": 100,
         "upswing": 0.5,
         "animation": "bettercombat:dual_handed_slam",

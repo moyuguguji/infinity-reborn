@@ -1,1 +1,0 @@
-give @s golden_apple{display:{Name:'{"text":"Forbidden Golden Apple","color":"light_purple","italic":false}',Lore:['{"text":"+10 Vitality","color":"blue","italic":false}']},dnl.item:1b,dnl.forbidden_fruit:1b,dnl.forbidden_golden_apple:1b,dnl.vitality:10b,Enchantments:[{}]} 1

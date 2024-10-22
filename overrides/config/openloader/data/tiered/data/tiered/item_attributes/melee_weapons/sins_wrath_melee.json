@@ -32,7 +32,7 @@
     "modifier": {
         "name": "tiered:sins_wrath",
         "operation": "MULTIPLY_TOTAL",
-        "amount": -0.2
+        "amount": -0.35
     },
     "optional_equipment_slots": [
         "MAINHAND"

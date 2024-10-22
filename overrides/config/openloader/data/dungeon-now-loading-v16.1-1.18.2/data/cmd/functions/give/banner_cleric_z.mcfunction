@@ -1,1 +1,0 @@
-give @s white_banner{display:{Name:'{"text":"Cleric Z Banner"}'},BlockEntityTag:{Patterns:[{Pattern:"mr",Color:14},{Pattern:"bs",Color:13},{Pattern:"cs",Color:7},{Pattern:"bo",Color:13},{Pattern:"ms",Color:15},{Pattern:"hh",Color:13},{Pattern:"mc",Color:13},{Pattern:"bo",Color:15}]}} 1

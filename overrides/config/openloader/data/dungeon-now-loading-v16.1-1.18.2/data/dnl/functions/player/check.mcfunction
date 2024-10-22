@@ -1,1 +1,0 @@
-execute as @a at @s run function dnl:player/list

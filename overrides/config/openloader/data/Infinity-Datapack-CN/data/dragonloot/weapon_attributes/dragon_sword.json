@@ -38,7 +38,7 @@
       {
         "hitbox": "HORIZONTAL_PLANE",
         "conditions": ["DUAL_WIELDING_SAME_CATEGORY", "OFF_HAND_ONLY"],
-        "damage_multiplier": 1.4,
+        "damage_multiplier": 2.3,
         "angle": 150,
         "upswing": 0.5,
         "animation": "bettercombat:dual_handed_slash_cross",

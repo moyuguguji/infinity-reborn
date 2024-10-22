@@ -652,12 +652,7 @@
 			y: 2.0d
 			shape: "hexagon"
 			subtitle: "攻速快了会晕"
-			description: [
-				"按下F6启用,你觉得晕了可以按照以下设置"
-				"{image:kubejs:textures/ftbq/1.png width:168 height:96 align:1}"
-				"{image:kubejs:textures/ftbq/2.png width:160 height:70 align:1}"
-				"{image:kubejs:textures/ftbq/3.png width:162 height:71 align:1}"
-			]
+			description: ["按下F6启用"]
 			hide: true
 			id: "6F102163B599B6DE"
 			tasks: [{

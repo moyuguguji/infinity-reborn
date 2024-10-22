@@ -34,8 +34,8 @@
             "type": "minecraft:generic.armor",
             "modifier": {
                 "name": "tiered:epic_armor",
-                "operation": "MULTIPLY_BASE",
-                "amount": 0.06
+                "operation": "ADDITION",
+                "amount": 4
             },
             "optional_equipment_slots": [
                 "FEET",
@@ -49,7 +49,7 @@
             "modifier": {
                 "name": "tiered:epic_armor",
                 "operation": "ADDITION",
-                "amount": 0.75
+                "amount": 1.25
             },
             "optional_equipment_slots": [
                 "FEET",

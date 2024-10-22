@@ -238,7 +238,7 @@ onEvent('entity.hurt', event => {
                 event.cancel()
                 target.attack(0)
             }else{
-                target.heal(damage * 0.6)
+                target.heal(damage * 0.5)
             }
         }
         else if (play.stages.has('difficulty_normal')) {
@@ -259,7 +259,7 @@ onEvent('entity.hurt', event => {
                 target.heal(damage * 0.6)
         }
         else if(play.stages.has('difficulty_yonghen')){
-            target.heal(damage * 0.6)
+            target.heal(damage * 0.5)
         }
     }
 })
@@ -637,11 +637,13 @@ onEvent('entity.hurt', event => {
                     event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${result - result * 0.1}`)
                 }
             if(!target.tags.contains('banxue')){
+                let random3 = randomNum(1,100)
+                if (random3 <= 20) {
                     if(target.health <= target.maxHealth / 2 && !targetTypes.includes(target.type) &&target.type != "botania:doppleganger"){
-                    target.tags.add('banxue')
-                    target.potionEffects.add('minecraft:resistance', 100, 4, false, false)
-
-               }
+                        target.tags.add('banxue')
+                        target.potionEffects.add('minecraft:resistance', 100, 4, false, false)
+                   }
+                }
             }
             let random2 = randomNum(1,100)
             if (random2 <= 10) {

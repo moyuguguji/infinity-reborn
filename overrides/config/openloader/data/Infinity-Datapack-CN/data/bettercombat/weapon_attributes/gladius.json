@@ -18,7 +18,7 @@
       {
         "hitbox": "VERTICAL_PLANE",
         "conditions": [OFF_HAND_ONLY],
-        "damage_multiplier": 0.9,
+        "damage_multiplier": 1.1,
         "angle": 100,
         "upswing": 0.5,
         "animation": "bettercombat:one_handed_slash_downcut_right",
@@ -40,7 +40,7 @@
       {
         "hitbox": "HORIZONTAL_PLANE",
         "conditions": ["DUAL_WIELDING_SAME_CATEGORY", "OFF_HAND_ONLY"],
-        "damage_multiplier": 1.3,
+        "damage_multiplier": 1.55,
         "angle": 360,
         "upswing": 0.5,
         "animation": "bettercombat:dual_handed_spin",

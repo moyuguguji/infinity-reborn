@@ -47,6 +47,11 @@
 					type: "item"
 					item: "kubejs:nightbreak"
 				}
+				{
+					id: "50C110A4B1758686"
+					type: "item"
+					item: "kubejs:boss_rush"
+				}
 			]
 		}
 		{

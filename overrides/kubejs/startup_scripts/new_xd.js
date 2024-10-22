@@ -68,7 +68,7 @@ onEvent('item.registry', event => {
     .rarity(Rarity.UNCOMMON)
 
     event.create('sheng_jin')
-	.displayName("§6圣金")
+	.displayName("§6神金")
 	.tooltip(Text.translate('圣金'))
 	.maxStackSize(1)
 	.rarity(Rarity.UNCOMMON)

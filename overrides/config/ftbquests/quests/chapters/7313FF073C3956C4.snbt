@@ -373,12 +373,11 @@
 			x: -1.0d
 			y: 2.0d
 			description: [
-				"搭建冶炼炉来冶炼高级矿物，同等级的冶炼炉只需建造一个。"
+				"搭建冶炼炉来冶炼高级矿物，同等级的冶炼炉只需建造一个。搭建方法参考无限之书"
 				"可以使用煤炭/岩浆/木炭等提供能源。"
 				""
 				"需要先制作一个锻炉控制器(任意材质)，但请注意它的层级(如深板岩的为2)。部分配方需要高层级的锻炉才能冶炼。锻炉正下方的方块可以换成漏斗来输出物品。"
 				"================================================"
-				"{image:kubejs:textures/ftbq/alloy_forgery.png width:200 height:130 align:1}"
 			]
 			dependencies: ["476311F6AC1B2243"]
 			id: "101189C9EB665FB6"
@@ -554,10 +553,9 @@
 					item: "terrarianslimes:slime_crown"
 				}
 				{
-					id: "35A9154EFA1322B3"
-					type: "kill"
-					entity: "terrarianslimes:king_slime"
-					value: 1L
+					id: "2AF8AA0733F9E3BC"
+					type: "item"
+					item: "terrarianslimes:king_slime_ball"
 				}
 			]
 			rewards: [
@@ -1135,6 +1133,30 @@
 						}]
 					}
 				}
+			}]
+		}
+		{
+			title: "村民任务"
+			icon: "minecraft:emerald"
+			x: -7.0d
+			y: 2.0d
+			subtitle: "将军,村庄的马桶又堵了!"
+			description: [
+				"头上有问号的村民可以接取任务,在交易界面右上角点开任务详情"
+				""
+				"贸易站也可以接取任务,但是用贸易站点开详情界面时必须要先去一个村民那点开一次,不然会奔溃"
+			]
+			dependencies: ["2F0DF9C52403D984"]
+			id: "6DF5ACDDAA1B087C"
+			tasks: [{
+				id: "1CDA9DAA9A416786"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "6D411C9F1F6A670B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3342768205198891787L
 			}]
 		}
 	]

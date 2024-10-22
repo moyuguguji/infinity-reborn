@@ -1,1 +1,0 @@
-give @s sweet_berries{display:{Name:'{"text":"Forbidden Berries","color":"light_purple","italic":false}',Lore:['{"text":"+3 Vitality","color":"blue","italic":false}']},dnl.item:1b,dnl.forbidden_fruit:1b,dnl.forbidden_sweet_berries:1b,dnl.vitality:3b,Enchantments:[{}]} 1

@@ -1,1 +1,0 @@
-give @s melon_slice{display:{Name:'{"text":"Forbidden Melon","color":"light_purple","italic":false}',Lore:['{"text":"+5 Vitality","color":"blue","italic":false}']},dnl.item:1b,dnl.forbidden_fruit:1b,dnl.forbidden_melon_slice:1b,dnl.vitality:5b,Enchantments:[{}]} 1

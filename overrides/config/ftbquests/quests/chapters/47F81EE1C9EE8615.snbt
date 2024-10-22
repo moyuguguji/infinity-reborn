@@ -501,68 +501,6 @@
 			}]
 		}
 		{
-			title: "?"
-			icon: {
-				id: "botania:terra_pick"
-				Count: 1b
-				tag: {
-					tipped: 1b
-					mana: 999999
-					Damage: 0
-				}
-			}
-			x: -9.75d
-			y: 3.75d
-			dependencies: ["4D8C08F4291FA3C5"]
-			hide: false
-			dependency_requirement: "all_started"
-			size: 1.5d
-			optional: true
-			can_repeat: true
-			id: "740560C925B424F9"
-			tasks: [
-				{
-					id: "0333619313674D04"
-					type: "item"
-					title: "?"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "botania:terra_pick"
-						}
-					}
-					consume_items: true
-					match_nbt: false
-				}
-				{
-					id: "64CA530903B5B826"
-					type: "item"
-					item: {
-						id: "botania:mana_tablet"
-						Count: 1b
-						tag: {
-							mana: 500000
-							creative: 1b
-						}
-					}
-					consume_items: true
-				}
-			]
-			rewards: [{
-				id: "1DCD73FDA845E094"
-				type: "item"
-				item: {
-					id: "botania:terra_pick"
-					Count: 1b
-					tag: {
-						mana: 100000000
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
 			title: "金币转换"
 			x: -7.0d
 			y: 0.0d

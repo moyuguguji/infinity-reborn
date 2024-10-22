@@ -53,7 +53,7 @@
   "mcdw:dagger_swift_striker": {
     "mcdw:echo": 1,
     "x_enchant:weakness": 1,
-    "mcdw:critical_hit": 2,
+    "mcdw:void_strike": 2,
     "mcdw:ambush": 2,
     "mcdw:committed": 5
   },
@@ -252,7 +252,7 @@
   },
   "mcdw:dagger_the_end": {
     "x_enchant:weakness": 3,
-    "mcdw:critical_hit": 2,
+    "mcdw:void_strike": 3,
     "mcdw:pain_cycle": 2,
     "mcdw:committed": 3
   },
@@ -287,7 +287,7 @@
   "mcdw:dagger_the_beginning": {
     "mcdw:guarding_strike": 3,
     "mcdw:leeching": 3,
-    "mcdw:critical_hit": 3,
+    "mcdw:void_strike": 3,
     "extra_enchantments:pain_cycle": 1
   },
   "mcdw:spear_grave_bane": {
@@ -351,13 +351,10 @@
   "mcdw:hammer_gravity": {
     "mcdw:gravity": 1
   },
-  "kubejs:sixiang_kaitian": {
-    "mcdw:thundering": 10
-  },
   "mcdw:sword_the_starless_night": {
     "x_enchant:weakness": 3,
     "mcdw:stunning": 2,
-    "mcdw:critical_hit": 3
+    "mcdw:critical_hit": 5
   },
   "mcdw:sword_freezing_foil": {
     "mcdw:freezing": 1

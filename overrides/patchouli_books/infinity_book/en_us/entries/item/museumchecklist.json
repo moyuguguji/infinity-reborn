@@ -1,0 +1,12 @@
+{
+    "name": "物品清单",
+    "icon": "museumcurator:museumchecklist",
+    "category": "patchouli:item",
+    "pages": [
+      {
+        "type": "patchouli:crafting",
+        "recipe": "museumcurator:museumchecklist",
+        "text":"右键箱子可以给箱子里有的物品打钩,你可以通过这个查看boss掉落物"
+      }
+    ]
+  }

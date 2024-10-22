@@ -1,0 +1,18 @@
+{
+    "name": "关于村民",
+    "icon": "minecraft:lectern",
+    "category": "patchouli:first",
+    "pages": [
+      {
+        "type": "patchouli:spotlight",
+        "item": "minecraft:lectern",
+        "link_recipe": true,
+        "text": "图书管理员低级不会出高级附魔,但是高级会更容易出高级附魔"
+      },
+      {
+        "type":"patchouli:crafting",
+        "recipe":"tradingpost:trading_post",
+        "text":"崩溃问题请使用贸易站交易"
+      }
+    ]
+  }
