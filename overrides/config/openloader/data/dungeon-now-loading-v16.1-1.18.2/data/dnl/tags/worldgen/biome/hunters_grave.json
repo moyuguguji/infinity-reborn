@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:windswept_gravelly_hills",
+        "minecraft:windswept_hills",
+        "minecraft:windswept_forest",
+        "#dnl:terralith/is_extreme_hills",
+        "#dnl:terralith/is_mountain"
+    ]
+}

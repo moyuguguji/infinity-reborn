@@ -1,0 +1,21 @@
+{
+  "name": "附魔画布",
+  "advancement": "spectrum:progression/unlock_enchantment_canvas",
+  "icon": "spectrum:enchantment_canvas",
+  "category": "spectrum:magical_items_category",
+  "extra_recipe_mappings": {
+    "spectrum:enchantment_canvas": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "你看着你背包中有着极品附魔的武器而苦恼，因为武器快要坏掉了。$(br)如果修理要面对那过于昂贵的问题。$(br)于是你在想，要是能把附魔免费转移到另一把新武器就好了。$(br)面对这种问题，$(br)于是附魔画布诞生了！这块画布不仅可以捕捉颜色：如果用在工具上，附魔就会被交换！"
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "title": "基座配方",
+      "recipe": "spectrum:pedestal/tier2/enchantment_canvas",
+      "text": "一旦使用，你所使用的物品的附魔将被画在画布上，永远不会再被移除，将其与这种类型的物品绑定在一起。"
+    }
+  ]
+}

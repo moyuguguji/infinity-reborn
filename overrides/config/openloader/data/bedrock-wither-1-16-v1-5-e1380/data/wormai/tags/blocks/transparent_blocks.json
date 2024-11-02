@@ -1,0 +1,13 @@
+
+{
+    "values":[
+        "minecraft:water",
+        "minecraft:lava",
+        "minecraft:kelp",
+        "minecraft:kelp_plant",
+        "minecraft:tall_seagrass",
+        "#wormai:airlogged_blocks",
+        "minecraft:bubble_column",
+        "#minecraft:underwater_bonemeals"
+ ]
+}

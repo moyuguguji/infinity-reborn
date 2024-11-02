@@ -1,0 +1,8 @@
+{
+	"values": [
+		"wormai:load",
+        "bedrock_wither:load",
+        "bedrock_wither:tick",
+        "math:zprivate/init"
+	]
+}

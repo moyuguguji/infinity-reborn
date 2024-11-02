@@ -1,0 +1,24 @@
+{
+	"pages":[
+		{
+			"text":"$(italic)相比弓之万众瞩目，弩实在是太不起眼了。$(br2)然而狙击手魔咒终于让弩成为又一款快准狠的远程利器。",
+			"type":"patchouli:text"
+		},
+		{
+			"item":"minecraft:crossbow{Enchantments: [{id: \"spectrum:sniper\", lvl: 2s}]}",
+			"text":"增加弹射物的伤害，精准度与速度。$(br2)附魔等级上限：2$(br)适用于弩。$(br)与 多重射击 不兼容。",
+			"type":"patchouli:spotlight",
+			"title":"特点"
+		},
+		{
+			"recipe":"spectrum:enchanter/spectrum_books/book_sniper",
+			"text":"你可以将所需材料及颜料放入附魔基座周围的物品底座中，为普通的书本注入狙击手附魔。",
+			"type":"spectrum:enchanter_crafting",
+			"title":"附魔配方"
+		}
+	],
+	"advancement":"spectrum:progression/enchantments/sniper",
+	"name":"狙击手",
+	"icon":"minecraft:crossbow",
+	"category":"spectrum:enchanting_category"
+}

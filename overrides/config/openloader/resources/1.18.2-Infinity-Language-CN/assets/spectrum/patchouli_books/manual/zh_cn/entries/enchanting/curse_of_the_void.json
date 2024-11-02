@@ -1,0 +1,25 @@
+{
+	"pages":[
+		{
+			"text":"$(italic)这个魔咒接触到的一切都将化作虚无，如空中的尘埃一般随风消逝，不复存在。$(br2)然而，在你需要大肆破坏，不留痕迹的时候，这样的魔咒又可以派上用场。所谓“祸福相依”是也。",
+			"type":"patchouli:text"
+		},
+		{
+			"item":"minecraft:iron_pickaxe{Enchantments: [{id: \"spectrum:voiding\", lvl: 1s}]}",
+			"text":"销毁所有被破坏的方块。$(br2)附魔等级上限：1$(br)适用于采掘工具。",
+			"type":"patchouli:spotlight",
+			"title":"性质"
+		},
+		{
+			"advancement":"spectrum:progression/enchantments/voiding",
+			"recipe":"spectrum:enchanter/spectrum_books/book_voiding",
+			"text":"你可以将所需材料及颜料放入附魔基座周围的物品底座中，为普通的书本注入虚空诅咒附魔。",
+			"type":"spectrum:enchanter_crafting",
+			"title":"附魔配方"
+		}
+	],
+	"advancement":"spectrum:progression/tools/unlock_voiding_pickaxe",
+	"name":"虚空诅咒",
+	"icon":"minecraft:wooden_pickaxe",
+	"category":"spectrum:enchanting_category"
+}

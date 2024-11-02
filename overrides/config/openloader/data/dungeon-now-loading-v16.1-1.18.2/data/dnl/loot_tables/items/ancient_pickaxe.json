@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"古代镐\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"translate\":\"\"}','{\"text\":\"在主手时:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" 8 攻击伤害\",\"color\":\"dark_green\",\"italic\":false}','{\"text\":\" 1.2 攻击速度\",\"color\":\"dark_green\",\"italic\":false}']},HideFlags:2,CustomModelData:15003,dnl.item:1b,dnl.ancient_pickaxe:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:8,Operation:0,UUID:[I;-1695687121,1860977048,-2065569772,374278340],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.8,Operation:0,UUID:[I;-825754815,-553696639,-1913882982,1531010712],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

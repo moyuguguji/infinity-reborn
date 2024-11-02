@@ -1,0 +1,80 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_ingot"
+    },
+    "title": {
+      "text": "铁石之心"
+    },
+    "description": {
+      "text": "熔铸戈仑之心套装，打造钢铁之躯"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/structures/forgotten_field/daily_maintenance",
+  "criteria": {
+    "golem heart helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_helmet"
+            ],
+            "nbt": "{dnl.golem_heart_helmet:1b}"
+          }
+        ]
+      }
+    },
+    "golem heart chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_chestplate"
+            ],
+            "nbt": "{dnl.golem_heart_chestplate:1b}"
+          }
+        ]
+      }
+    },
+    "golem heart leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_leggings"
+            ],
+            "nbt": "{dnl.golem_heart_leggings:1b}"
+          }
+        ]
+      }
+    },
+    "golem heart boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_boots"
+            ],
+            "nbt": "{dnl.golem_heart_boots:1b}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "golem heart helmet",
+      "golem heart chestplate",
+      "golem heart leggings",
+      "golem heart boots"
+    ]
+  ]
+}

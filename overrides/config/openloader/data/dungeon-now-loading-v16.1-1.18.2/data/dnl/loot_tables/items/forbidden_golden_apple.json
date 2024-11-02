@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"禁忌之金苹果\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"+10 活力\",\"color\":\"blue\",\"italic\":false}']},dnl.item:1b,dnl.forbidden_fruit:1b,dnl.forbidden_golden_apple:1b,dnl.vitality:10b,Enchantments:[{}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

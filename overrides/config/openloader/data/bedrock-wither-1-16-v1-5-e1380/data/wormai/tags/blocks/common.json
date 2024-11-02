@@ -1,0 +1,21 @@
+
+{
+    "values":[
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:mycelium",
+        "minecraft:gravel",
+        "minecraft:red_glazed_terracotta",
+        "minecraft:coal_ore",
+        "minecraft:iron_ore",
+        "minecraft:redstone_ore",
+        "minecraft:emerald_ore",
+        "minecraft:diamond_ore",
+        "minecraft:lapis_ore",
+        "#minecraft:nylium",
+        "#minecraft:logs",
+        "#wormai:transparent_blocks",
+        "#wormai:base_stone"
+ ]
+}

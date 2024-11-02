@@ -1,0 +1,24 @@
+{
+  "item.progressivebosses.nether_star_shard": "下界之星碎片",
+  "item.progressivebosses.elder_guardian_spike": "远古守护尖刺",
+
+  "entity.progressivebosses.wither_minion": "凋灵随从",
+  "death.attack.progressivebosses:wither_charge_attack": "%1$s was charged by %2$s",
+
+  "entity.progressivebosses.larva": "龙之幼体",
+  "progressivebosses:dragon_minion": "龙之随从",
+  "death.attack.progressivebosses:dragon_fireball": "%1$s was fireballed by %2$s",
+
+  "progressivebosses:elder_minion": "远古随从",
+
+  "progressivebosses:command.player_get_wither_difficulty": "%s已召唤%d名凋零随从",
+  "progressivebosses:command.player_get_dragon_difficulty": "%s已杀死%d条龙",
+  "progressivebosses:command.player_set_boss_difficulty": "将%s的%s难度设置为%d",
+  "progressivebosses:command.player_add_boss_difficulty": "增加了%d %s的难度到%s(现在是%d)",
+  "progressivebosses:command.summoned_entity": "召唤了%s，难度为%d",
+  "progressivebosses:command.summon_invalid_entity": "实体%s无效",
+
+  "dragon.first_killed": "恭喜你杀死了你的第一条龙。请注意，你杀死的每一条龙都会让下一条更难对抗。",
+  "wither.first_summon": "你召唤了第一个凋零。请注意，你杀死的每一个凋零都会让下次生成的更难对抗",
+  "elder_guardian.approach": "看起来你正在接近海洋神殿，除非你打败所有的远古守护者…或者除非你逃跑…否则你将无法打破方块。"
+}

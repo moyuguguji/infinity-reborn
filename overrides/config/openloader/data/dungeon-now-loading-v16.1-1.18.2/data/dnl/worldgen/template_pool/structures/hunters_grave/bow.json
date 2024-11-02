@@ -1,0 +1,15 @@
+{
+  "name": "dnl:structures/hunters_grave/bow",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "dnl:hunters_grave/bow",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

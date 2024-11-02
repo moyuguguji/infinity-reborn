@@ -1,0 +1,127 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:mossy_cobblestone"
+        },
+        "title": "Dungeon Now Loading",
+        "description": "发现任意Dungeon Now Loading结构",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "dnl:story/general/new_start",
+    "criteria": {
+        "locate_cleric_hideout": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "feature": "dnl:cleric_hideout"
+                }
+            }
+        },
+        "locate_crawlers_lair": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "feature": "dnl:crawlers_lair"
+                }
+            }
+        },
+        "locate_deep_oasis": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "feature": "dnl:deep_oasis"
+                }
+            }
+        },
+        "locate_forgotten_field": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "feature": "dnl:forgotten_field"
+                }
+            }
+        },
+        "locate_gallery_of_illusion": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "feature": "dnl:gallery_of_illusion"
+                }
+            }
+        },
+        "locate_hivenest": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "feature": "dnl:hivenest"
+                }
+            }
+        },
+        "locate_hunters_grave": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "feature": "dnl:hunters_grave"
+                }
+            }
+        },
+        "locate_olympus": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "feature": "dnl:olympus"
+                }
+            }
+        },
+        "locate_railway_outpost": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "feature": "dnl:railway_outpost"
+                }
+            }
+        },
+        "locate_sinkhole": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "feature": "dnl:sinkhole"
+                }
+            }
+        },
+        "locate_temple_of_tears": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "feature": "dnl:temple_of_tears"
+                }
+            }
+        },
+        "locate_watcher_camp": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "feature": "dnl:watcher_camp"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "locate_cleric_hideout",
+            "locate_crawlers_lair",
+            "locate_deep_oasis",
+            "locate_forgotten_field",
+            "locate_gallery_of_illusion",
+            "locate_hivenest",
+            "locate_hunters_grave",
+            "locate_olympus",
+            "locate_railway_outpost",
+            "locate_sinkhole",
+            "locate_temple_of_tears",
+            "locate_watcher_camp"
+        ]
+    ]
+}

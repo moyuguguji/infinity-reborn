@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:village",
+    "biomes": "#dnl:deep_oasis",
+    "adapt_noise": true,
+    "spawn_overrides": {},
+    "config": {
+        "start_pool": "dnl:structures/deep_oasis/start",
+        "size": 7
+    }
+}

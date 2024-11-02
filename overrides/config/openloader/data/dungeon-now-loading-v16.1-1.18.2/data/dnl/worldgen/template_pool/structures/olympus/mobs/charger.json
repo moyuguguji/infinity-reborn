@@ -1,0 +1,15 @@
+{
+  "name": "dnl:structures/olympus/mobs/charger",
+  "fallback": "dnl:structures/olympus/mobs/charger",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "dnl:olympus/mobs/charger",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

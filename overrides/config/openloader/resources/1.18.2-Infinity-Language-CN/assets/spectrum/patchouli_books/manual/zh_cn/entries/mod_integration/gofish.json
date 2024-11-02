@@ -1,0 +1,21 @@
+{
+  "name": "一起钓鱼吧！",
+  "icon": "gofish:starry_salmon",
+  "flag": "mod:go-fish",
+  "advancement": "spectrum:progression/unlock_molten_rod",
+  "category": "spectrum:mod_integration_category",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "在熔岩中钓鱼",
+      "item": "spectrum:molten_rod",
+      "text": "你在其他地方的钓点都被其他人发现了，于是你为了不被老婆唠叨转战来到了下界。$(br)下界中有变异的鱼也没什么奇怪的吧？"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "其他特点",
+      "item": "minecraft:enchanted_book{Stored_Enchantments: [{id: \"gofish:deepfry\", lvl: 1s}]}",
+      "text": "虽然深度烧烤能钓出来烤熟的鱼，但饵钓却失去了作用。但你肯定会找到一种方法来增强你的鱼竿。"
+    }
+  ]
+}

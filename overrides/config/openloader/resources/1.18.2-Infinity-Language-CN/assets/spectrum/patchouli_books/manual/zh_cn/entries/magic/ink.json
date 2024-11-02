@@ -1,0 +1,18 @@
+{
+  "name": "墨水",
+  "advancement": "spectrum:progression/unlock_ink_flask",
+  "icon": "spectrum:ink_flask",
+  "category": "spectrum:magic_category",
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "你对颜料的本质早已谙熟于心，既然如此，为什么随身携带拿着四处跑呢？多么古早味。你发明了一种将颜料转化为更高形式的能量的办法$(br)你称呼为：$(c_cyan)墨$(c_magenta)·$(c_yellow)水$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "制作与存储",
+      "text": "$(l:magic/color_picker)颜色选取器$(/l)可以将颜料转化为墨水，并存入容器中，例如$(l:magic/ink_flask)墨水瓶$(/l)。$(br2)只有一个问题：墨水既然无形，就再不可能变回颜料了。"
+    }
+  ]
+}

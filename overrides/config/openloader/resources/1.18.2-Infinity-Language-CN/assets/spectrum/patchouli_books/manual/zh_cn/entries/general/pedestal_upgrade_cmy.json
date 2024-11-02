@@ -1,0 +1,44 @@
+{
+  "name": "基座CMY升级",
+  "icon": "spectrum:pedestal_all_basic",
+  "sortnum": 9,
+  "advancement": "spectrum:progression/unlock_cmy_pedestal",
+  "category": "spectrum:general_category",
+  "turnin": "spectrum:build_basic_pedestal_structure",
+  "extra_recipe_mappings": {
+    "spectrum:pedestal_all_basic": 0
+  },
+  "pages": [
+    {
+      "type": "spectrum:pedestal_crafting",
+      "title": "CMY变种",
+      "recipe": "spectrum:pedestal/tier1/pedestal_all_basic",
+      "text": "使用收集得到的宝石晶碎片来升级你的$(l:general/pedestal)七彩基座$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "基座结构",
+      "text": "你需要一个特别的聚焦结构来将宝石晶的能量串联集中到$(l:general/pedestal)七彩基座$()上，才能发挥运用其更深层次的潜能。$(br2)你称其为$(br)$(bold)注魔基座$()。"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "注魔基座",
+      "multiblock_id": "spectrum:pedestal_simple_structure_check",
+      "enable_visualize": true,
+      "text": "你可以任意选用方解石或玄武岩，并采用你喜欢的宝石晶方块。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "方块列表",
+      "text": "$(li)1个七彩基座$(li)4个磨制宝石晶方块$(li)4个錾制磨制岩石方块$(li)4个无印磨制岩石方块$(li)8个磨制岩石柱$(li)68个磨制岩石方块"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "个性定制！",
+      "images": [
+        "spectrum:textures/gui/manual/spectrum_focus_customisation.png"
+      ],
+      "text": "随心搭配，自由设计！"
+    }
+  ]
+}

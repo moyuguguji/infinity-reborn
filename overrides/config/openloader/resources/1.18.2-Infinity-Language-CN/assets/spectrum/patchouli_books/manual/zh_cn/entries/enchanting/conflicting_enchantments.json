@@ -1,0 +1,20 @@
+{
+	"pages":[
+		{
+			"item":"minecraft:diamond_chestplate{Enchantments: [{id: \"minecraft:protection\", lvl: 3s}, {id: \"minecraft:blast_protection\", lvl: 3s}, {id: \"minecraft:projectile_protection\", lvl: 3s}, {id: \"minecraft:fire_protection\", lvl: 3s}]}",
+			"text":"$(italic)昔日因附魔冲突而不能同时兼容的烦恼早已被你悉数抛诸脑后。$(br)如今有强大的魔法加持，唯一不能满足的只有你的欲望。",
+			"type":"patchouli:spotlight",
+			"title":"附魔专精"
+		},
+		{
+			"text":"你现在可以将原本互相冲突的附魔魔咒强行叠加附魔。$(br2)注意：$(br)$(italic)这需要消耗很多很多经验$()。",
+			"type":"patchouli:text"
+		}
+	],
+	"advancement":"spectrum:milestones/unlock_conflicted_enchanting_with_enchanter",
+	"name":"附魔专精",
+	"icon":"minecraft:enchanted_book",
+	"sortnum":5,
+	"priority":true,
+	"category":"spectrum:enchanting_category"
+}

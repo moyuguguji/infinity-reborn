@@ -1,0 +1,15 @@
+{
+    "name": "dnl:plains_castle/monoliths",
+    "fallback": "dnl:plains_castle/monoliths",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "dnl:plains_castle/monoliths/knightly_sword",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

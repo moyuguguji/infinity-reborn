@@ -1,0 +1,24 @@
+{
+  "name": "新的资源",
+  "category": "spectrum:hints_category",
+  "icon": "minecraft:writable_book",
+  "advancement": "spectrum:milestones/unlock_shooting_stars",
+  "secret": true,
+  "read_by_default": true,
+  "turnin": "spectrum:collect_shooting_star",
+  "pages": [
+    {
+      "type": "spectrum:hint",
+      "title": "该找什么",
+      "completion_advancement": "spectrum:collect_shooting_star",
+      "cost": "spectrum:sparklestone_gem#8",
+      "text": "流星只在夜晚降临。能够增进夜间视觉的东西实在是再好不过。流星的尾迹粒子效果也相当显眼。"
+    },
+    {
+      "type": "spectrum:hint",
+      "title": "简要说明",
+      "cost": "spectrum:sparklestone_gem#24",
+      "text": "使用望远镜与夜视药水能够更好地察觉它们的存在。如果你看到一个流星直冲地面，你可以顺着轨迹前往落点。流星的粒子效果如同光束一般，非常显眼。"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond"
+        },
+        "title": "无尽宝藏",
+        "description": "打开全部三个战利品箱！",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "dnl:story/structures/plains_castle/loot_treasure_chest",
+    "criteria": {
+        "treasure_spawner": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "dnl:structures/plains_castle/treasure_chest/spawner"
+            }
+        },
+        "treasure_raid_common": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "dnl:structures/plains_castle/treasure_chest/raid_common"
+            }
+        },
+        "treasure_raid_rare": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "dnl:structures/plains_castle/treasure_chest/raid_rare"
+            }
+        },
+        "treasure_raid_legendary": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "dnl:structures/plains_castle/treasure_chest/raid_legendary"
+            }
+        },
+        "treasure_locked": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "dnl:structures/plains_castle/treasure_chest/locked"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "treasure_spawner"
+        ],
+        [
+            "treasure_raid_common",
+            "treasure_raid_rare",
+            "treasure_raid_legendary"
+        ],
+        [
+            "treasure_locked"
+        ]
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:jungle",
+        "#dnl:terralith/is_jungle"
+    ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "弹射腰带",
+  "advancement": "spectrum:progression/unlock_take_off_belt",
+  "icon": "spectrum:take_off_belt",
+  "category": "spectrum:magical_items_category",
+  "extra_recipe_mappings": {
+    "spectrum:take_off_belt": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "攀山越岭也相当耗时。如果越野攀岩不是你的长项，那你只能开山凿岩，直接洞穿过去咯。$(br)弹射腰带能带你弹射起飞，跃过高山，这样一来就不用再对美丽的大自然景观痛下狠手了。"
+    },
+    {
+      "type": "spectrum:fusion_shrine_crafting",
+      "title": "融合配方",
+      "recipe": "spectrum:fusion_shrine/trinkets/take_off_belt",
+      "text": "潜行充能，充能越久，弹射越高。$(br2)$(italic)虽然名叫弹射腰带，但请不要弹射腰带本身。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "advancement": "spectrum:progression/enchantments/vanilla_projectile",
+      "title": "力量魔咒",
+      "item": "spectrum:take_off_belt{Enchantments: [{id: \"minecraft:power\", lvl: 5s}]}",
+      "text": "力量魔咒可以进一步提升弹射高度。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "advancement": "spectrum:progression/enchantments/vanilla_quitoxic",
+      "title": "摔落保护魔咒",
+      "item": "spectrum:take_off_belt{Enchantments: [{id: \"minecraft:feather_falling\", lvl: 4s}]}",
+      "text": "摔落保护魔咒会给予你短暂的缓降效果，方便你落脚。魔咒等级高一点的话，下山也不难啦。"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "新的生成结构",
+  "category": "spectrum:hints_category",
+  "icon": "minecraft:writable_book",
+  "advancement": "spectrum:midgame/get_azure_dike_charge",
+  "secret": true,
+  "read_by_default": true,
+  "turnin": "spectrum:generate_ancient_ruins_loot",
+  "pages": [
+    {
+      "type": "spectrum:hint",
+      "title": "怎么找到",
+      "completion_advancement": "spectrum:generate_ancient_ruins_loot",
+      "cost": "spectrum:refined_azurite#4",
+      "text": "主世界中的地下存在某种不可破坏的建筑物。"
+    },
+    {
+      "type": "spectrum:hint",
+      "title": "如何进入",
+      "advancement": "spectrum:find_ancient_ruins",
+      "completion_advancement": "spectrum:generate_ancient_ruins_loot",
+      "cost": "spectrum:refined_azurite#12",
+      "text": "入口似乎是被某种强大力场挡住了。不过建筑的主人留下了一点线索：蓝色的心说明你需要蔚蓝护盾装备才能穿过。"
+    }
+  ]
+}

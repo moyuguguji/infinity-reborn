@@ -1,0 +1,26 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:map",
+                    "functions": [
+                        {
+                            "function": "minecraft:exploration_map",
+                            "destination": "dnl:gallery_of_illusion",
+                            "decoration": "red_x",
+                            "zoom": 1,
+                            "skip_existing_chunks": false
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"探险者地图\",\"color\":\"#008709\",\"italic\":false}',Lore:['{\"text\":\"幻象厅堂\",\"color\":\"gray\",\"italic\":false}'],MapColor:4554807},HideFlags:32,CustomModelData:4040009,dnl.map:1b,dnl.gallery_of_illusion:1b}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

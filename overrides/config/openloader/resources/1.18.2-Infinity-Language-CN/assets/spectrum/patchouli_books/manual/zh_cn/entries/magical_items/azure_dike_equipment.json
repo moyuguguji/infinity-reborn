@@ -1,0 +1,43 @@
+{
+  "name": "蔚蓝护盾装备",
+  "advancement": "spectrum:progression/unlock_any_azure_dike_equipment",
+  "icon": "spectrum:azure_dike_ring",
+  "category": "spectrum:magical_items_category",
+  "extra_recipe_mappings": {
+    "spectrum:azure_dike_ring": 0,
+    "spectrum:azure_dike_belt": 0,
+    "spectrum:shieldgrasp_amulet": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "将$(l:resources/azurite)石青$(/l)与$(l:general/pigment#blue)蓝色颜料$(/l)的保护性质相结合的创想点燃了你的兴趣。这种材料的周围有一种透明的力场，你费了好些力气才摸着它。$(br2)$(italic)还算有点东西……"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "蔚蓝护盾",
+      "text": "一种魔法力场包裹了你的身躯，保护你免受伤害。$(br)护盾消耗后会缓慢充能到最大值。$(br2)每一件蔚蓝护盾装备都会增加护盾的最大值上限。"
+    },
+    {
+      "type": "spectrum:fusion_shrine_crafting",
+      "title": "蔚蓝护盾戒指",
+      "advancement": "spectrum:progression/unlock_azure_dike_ring",
+      "recipe": "spectrum:fusion_shrine/trinkets/azure_dike_ring",
+      "text": "$(li)提升$(c_green)4$()点$(c_blue)蔚蓝护盾值$()上限。$(li)略微加速$(c_blue)蔚蓝护盾$()充能。"
+    },
+    {
+      "type": "spectrum:fusion_shrine_crafting",
+      "title": "蔚蓝护盾腰带",
+      "advancement": "spectrum:progression/unlock_azure_dike_belt",
+      "recipe": "spectrum:fusion_shrine/trinkets/azure_dike_belt",
+      "text": "$(li)提升$(c_green)6$()点$(c_blue)蔚蓝护盾值$()上限。$(li)增加受击后$(c_blue)蔚蓝护盾$()的恢复，以此加速充能。"
+    },
+    {
+      "type": "spectrum:fusion_shrine_crafting",
+      "title": "坚盾护符",
+      "advancement": "spectrum:progression/unlock_shieldgrasp_amulet",
+      "recipe": "spectrum:fusion_shrine/trinkets/shieldgrasp_amulet",
+      "text": "为护符注入$(l:magic/ink)蓝色墨水$(/l)即可提升$(c_blue)蔚蓝护盾值$()上限。$(br)一开始并不会特别消耗能量，但注入墨水越多，消耗的能量也会越多，并呈指数增长。"
+    }
+  ]
+}

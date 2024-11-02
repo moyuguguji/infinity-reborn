@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{CustomPotionColor:16763190,Enchantments:[{}]}"
+    },
+    "title": "巫毒退散！",
+    "description": "在女巫实验室蜂房中，用哭泣的黑曜石制作一瓶蜂蜜药水！",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/structures/hivenest/craft_honeycomb_ingot",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnl.honey_potion:1b}"
+          }
+        ]
+      }
+    }
+  }
+}

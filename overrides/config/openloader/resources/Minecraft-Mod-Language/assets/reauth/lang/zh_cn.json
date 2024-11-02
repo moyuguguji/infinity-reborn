@@ -1,0 +1,14 @@
+{
+  "reauth.open": "\u5F00\u542FReAuth",
+  "reauth.gui.auth.title": "\u91CD\u65B0\u9A8C\u8BC1\u5C4F\u5E55",
+  "reauth.gui.auth.username": "\u7528\u6237\u540D",
+  "reauth.gui.auth.update": "\u00A79\u53EF\u7528\u66F4\u65B0\uFF1A%s",
+  "reauth.gui.button": "ReAuth\u767B\u5F55",
+  "reauth.status.valid": "\u5728\u7EBF\uFF1A\u00A7l\u00A7a\u2714",
+  "reauth.status.invalid": "\u5728\u7EBF: \u00A7l\u00A7c\u2718",
+  "reauth.status.unknown": "\u5728\u7EBF: \u00A7l\u00A77?",
+  "reauth.login.success": "\u00A7a\u767B\u5F55\u6210\u529F\uFF01",
+  "reauth.login.fail": "\u00A74\u767B\u5F55\u5931\u8D25: %s",
+  "reauth.login.error": "\u00A74\u9519\u8BEF: %s",
+  "reauth.retry": "\u4EE5%s\u8EAB\u4EFD\u767B\u5F55\u5E76\u91CD\u8BD5"
+}

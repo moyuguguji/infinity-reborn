@@ -1,0 +1,50 @@
+{
+    "replace": false,
+    "values": [
+	"mythicmetals:celestium_ingot",
+	"mythicmetals:celestium_nugget",
+	"mythicmetals:celestium_block",
+	"mythicmetals:celestium_anvil",
+	"mythicmetals:celestium_sword",
+	"mythicmetals:celestium_axe",
+	"mythicmetals:celestium_pickaxe",
+	"mythicmetals:celestium_shovel",
+	"mythicmetals:celestium_hoe",
+	"mythicmetals:celestium_helmet",
+	"mythicmetals:celestium_chestplate",
+	"mythicmetals:celestium_leggings",
+	"mythicmetals:celestium_boots",
+
+	"mythicmetals:hallowed_ingot",
+	"mythicmetals:hallowed_nugget",
+	"mythicmetals:hallowed_block",
+	"mythicmetals:hallowed_anvil",
+	"mythicmetals:hallowed_sword",
+	"mythicmetals:hallowed_axe",
+	"mythicmetals:hallowed_pickaxe",
+	"mythicmetals:hallowed_shovel",
+	"mythicmetals:hallowed_hoe",
+	"mythicmetals:hallowed_helmet",
+	"mythicmetals:hallowed_chestplate",
+	"mythicmetals:hallowed_leggings",
+	"mythicmetals:hallowed_boots",
+
+	"mythicmetals:legendary_banglum_sword",
+	"mythicmetals:legendary_banglum_axe",
+	"mythicmetals:legendary_banglum_pickaxe",
+	"mythicmetals:legendary_banglum_shovel",
+	"mythicmetals:legendary_banglum_hoe",
+	"mythicmetals:legendary_banglum_helmet",
+	"mythicmetals:legendary_banglum_chestplate",
+	"mythicmetals:legendary_banglum_leggings",
+	"mythicmetals:legendary_banglum_boots",
+	
+	"mythicmetals:unobtainium_ore",
+	"mythicmetals:deepslate_unobtainium_ore",
+	"mythicmetals:unobtainium",
+	"mythicmetals:unobtainium_block",
+
+	"mythicmetals:red_aegis_sword",
+	"mythicmetals:white_aegis_sword"
+    ]
+}

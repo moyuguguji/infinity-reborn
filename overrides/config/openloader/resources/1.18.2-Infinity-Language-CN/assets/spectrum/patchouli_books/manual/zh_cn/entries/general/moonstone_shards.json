@@ -1,0 +1,20 @@
+{
+    "name": "月长石碎片",
+    "icon": "spectrum:moonstone_shard",
+    "sortnum": 15,
+    "advancement": "spectrum:lategame/collect_moonstone_shard",
+    "category": "spectrum:general_category",
+    "extra_recipe_mappings": {
+      "spectrum:moonstone_shard": 0
+    },
+    "pages": [
+      {
+        "type": "patchouli:text",
+        "text": "你以为你很聪明？以为你知道一切，但这一切都只是一半的事实。$(br)你现在更清楚了。你手中的这块白色、纯洁的宝石，闪烁着柔和、温暖的光芒，就是这一点的纪念碑。"
+      },
+      {
+        "type": "patchouli:text",
+        "text": "你从来都不是无所不能的，也永远不会是。世界上所有的魔法都不是。没有人是。但只要有一点谦卑、关心和支持，你至少可以更接近一点。$(br2)$(bold)$(c_white)纯洁。"
+      }
+    ]
+  }

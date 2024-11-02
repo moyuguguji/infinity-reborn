@@ -1,0 +1,21 @@
+{
+  "name": "黑洞箱",
+  "advancement": "spectrum:progression/unlock_sucking_chest",
+  "icon": "spectrum:sucking_chest",
+  "category": "spectrum:magical_blocks_category",
+  "extra_recipe_mappings": {
+    "spectrum:sucking_chest": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(italic)普通漏斗的痛点相当实在：速度缓慢，范围狭小，极不适合大规模应用。$(br2)用上一点蓝色颜料的魔力的话，大范围内的许多物品都可以被安全地收入囊中了。"
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "title": "基座配方",
+      "recipe": "spectrum:pedestal/tier3/sucking_chest",
+      "text": "黑洞箱的吸收半径是12格。用一格方块盖在箱子上即可停用箱子。箱子内附有过滤器，可以决定什么物品会被吸入箱子。"
+    }
+  ]
+}

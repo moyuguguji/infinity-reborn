@@ -1,0 +1,24 @@
+{
+  "values": [
+    "minecraft:armor_stand",
+    "minecraft:item",
+    "minecraft:experience_orb",
+    "#minecraft:impact_projectiles",
+    "minecraft:area_effect_cloud",
+    "minecraft:boat",
+    "minecraft:end_crystal",
+    "minecraft:evoker_fangs",
+    "minecraft:experience_bottle",
+    "minecraft:falling_block",
+    "minecraft:firework_rocket",
+    "#wormai:minecarts",
+    "minecraft:item_frame",
+    "minecraft:leash_knot",
+    "minecraft:llama_spit",
+    "minecraft:painting",
+    "minecraft:potion",
+    "minecraft:shulker_bullet",
+    "minecraft:tnt",
+    "minecraft:wither_skull"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {}
+        },
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "item": "minecraft:golden_sword",
+                  "nbt": "{dnl.item:1b,dnl.poison_rapier:1b}"
+                }
+              }
+            }
+          }
+        },
+        "entity": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "effects": {
+                  "minecraft:poison": {
+                    "amplifier": {
+                      "min": 0,
+                      "max": 5
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "dnl:items/poison_rapier/poison_0"
+  }
+}

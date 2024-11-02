@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:village",
+    "biomes": "#dnl:hunters_grave",
+    "adapt_noise": true,
+    "spawn_overrides": {},
+    "config": {
+        "start_pool": "dnl:structures/hunters_grave/start",
+        "size": 7
+    }
+}

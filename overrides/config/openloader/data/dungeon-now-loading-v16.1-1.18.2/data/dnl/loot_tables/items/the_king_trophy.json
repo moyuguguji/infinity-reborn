@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"愚弄之剑\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"愚人国王战利品\",\"color\":\"gray\",\"italic\":false}']},HideFlags:2,CustomModelData:16001,dnl.item:1b,dnl.sword_of_the_fool:1b,dnl.trophy:1b}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

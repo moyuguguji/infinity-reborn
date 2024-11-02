@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:redstone_lamp"
+    },
+    "title": "幻象之厅堂",
+    "description": "发现一座宏伟的大厦",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/structures/cleric_hideout/villager_doctor",
+  "criteria": {
+    "locate_gallery_of_illusion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "dnl:gallery_of_illusion"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "locate_gallery_of_illusion"
+    ]
+  ]
+}

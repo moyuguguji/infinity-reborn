@@ -1,0 +1,52 @@
+{
+  "name": "蛋挞",
+  "icon": "spectrum:ashen_tart",
+  "advancement": "spectrum:progression/unlock_tarts",
+  "category": "spectrum:magical_items_category",
+  "extra_recipe_mappings": {
+    "spectrum:jaramel_tart": 0,
+    "spectrum:salted_jaramel_tart": 0,
+    "spectrum:ashen_tart": 0,
+    "spectrum:weeping_tart": 0,
+    "spectrum:whispy_tart": 0,
+    "spectrum:puff_tart": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "尽管你不是最精通的厨师，但即使是这种初级的味道也很棒！$(br)你可以用不同的配料来点缀它，使你在短时间内获得 $(thing)防御能力$()。"
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "title": "焦糖挞",
+      "recipe": "spectrum:pedestal/tier3/food/jaramel_tart",
+      "text": "经典之作。唯一能让这个更美味的东西是你的敌人的眼泪。"
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "advancement": "spectrum:midgame/craft_salted_jaramel_trifle_or_tart",
+      "recipe": "spectrum:pedestal/tier3/food/salted_jaramel_tart",
+      "text": "$(italic)齁的慌"
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "recipe": "spectrum:pedestal/tier3/food/ashen_tart",
+      "text": "让你可以在熔岩中游泳，就像在水里一样。$(br2)但是，这并不能让你免疫火焰。"
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "recipe": "spectrum:pedestal/tier3/food/weeping_tart",
+      "text": "增加游泳速度，并提升水下挖掘速度。"
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "recipe": "spectrum:pedestal/tier3/food/whispy_tart",
+      "text": "让你感觉休息良好，就像睡了一个好觉。吓走恶梦中的生物。（这东西简直是资本家的福音）"
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "recipe": "spectrum:pedestal/tier3/food/puff_tart",
+      "text": "投射物有很小的机会从你身上偏移。"
+    }
+  ]
+}

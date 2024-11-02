@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:sweet_berries"
+    },
+    "title": "当罪恶深入脊髓",
+    "description": "通过吃下禁果获得五颗心的额外生命值，你感受到深重的背德感",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/general/the_sinner",
+  "criteria": {
+    "locate watcher camp": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  }
+}

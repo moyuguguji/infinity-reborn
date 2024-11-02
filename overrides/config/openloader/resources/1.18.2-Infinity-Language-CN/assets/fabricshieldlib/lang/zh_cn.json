@@ -1,0 +1,8 @@
+{   
+    "text.autoconfig.fabricshieldlib.title": "Fabric盾牌库配置",
+    "text.autoconfig.fabricshieldlib.option.enable_tooltips":"启用盾牌工具提示",
+    "text.autoconfig.fabricshieldlib.option.allow_vanilla_shield_enchanting":"允许原版盾牌附魔",
+    "text.autoconfig.fabricshieldlib.option.vanilla_shield_enchantability":"原版盾牌附魔性",
+    "fabricshieldlib.shield_tooltip.start":"被斧头击中时",
+    "fabricshieldlib.shield_tooltip.end":"冷却时间"
+}

@@ -1,0 +1,35 @@
+{
+	"pages":[
+		{
+			"text":"$(italic)画中所见的由灵魂沙与凋灵骷髅头颅组成的三首怪物是什么呢？你想自己组装一个看看，但你在下界要塞砍了三五个小时，除了差点把自己的头给送走以外，你只能从略微松垮的那几个骷髅肩上勉强收集到零星一二。哎呀算了吧，优先考虑自己的脑袋还在不在！",
+			"type":"patchouli:text"
+		},
+		{
+			"item":"spectrum:cow_head",
+			"text":"$(italic)诶等下，还有闪电苦力怕！它们响亮而磅礴的炸裂足以把生物的脑袋直接震下来！（最差情况：你自己）$(br)你试图用$(l:resources/lightning_stones)风暴之石$(/l)复刻这等雷霆震怒。$(br)于是“奇珍猎手”响亮登场！现在你可以肆意$(l:creating_life/mob_heads)枭首$(/l)啦！",
+			"type":"patchouli:spotlight"
+		},
+		{
+			"item":"minecraft:iron_sword{Enchantments: [{id: \"spectrum:treasure_hunter\", lvl: 3s}]}",
+			"text":"在击杀怪物时有几率掉落头。$(br2)附魔等级上限：3$(br)适用于近战武器。$(br)与 抢夺 不兼容。",
+			"type":"patchouli:spotlight",
+			"title":"特点"
+		},
+		{
+			"recipe":"spectrum:enchanter/spectrum_books/book_treasure_hunter",
+			"text":"你可以将所需材料及颜料放入附魔基座周围的物品底座中，为普通的书本注入奇珍猎手附魔。",
+			"type":"spectrum:enchanter_crafting",
+			"title":"附魔配方"
+		},
+		{
+			"recipe":"spectrum:enchantment_upgrade/spectrum/treasure_hunter_level_2",
+			"text":"将奇珍猎手附魔从1级升级至2级的花销并不高昂。$(br)但随着等级逐级递增，所消耗的颜料和经验也会快速增加。",
+			"type":"spectrum:enchanter_upgrading",
+			"title":"附魔升级"
+		}
+	],
+	"advancement":"spectrum:progression/enchantments/treasure_hunter",
+	"name":"奇珍猎手",
+	"icon":"minecraft:iron_sword",
+	"category":"spectrum:enchanting_category"
+}

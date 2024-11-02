@@ -97,6 +97,7 @@ onEvent('entity.hurt', event => {
                 if (offItem.indexOf("shield") >= 0) damage_new = damage_new / 2
                 
                 if(damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25) - target.health >= 0){
+                    target.attack(target.health * 0.9)
                 }else{
                     target.attack(damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25))
                 }
@@ -399,12 +400,11 @@ onEvent('entity.hurt', event => {
             let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
             let result1 = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base get`)
             if (player.stages.has('difficulty_easy')) {
-                if (targetTypes.includes(target.type) && !target.tags.contains('easy')) {
+                if (targetTypes.includes(target.type) && !target.tags.contains('easy') && !target.tags.contains('attacked'))  {
                     let att =event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage get`)
                     let att1 =event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base get`)
                     target.tags.add('easy')
                     target.setMaxHealth(target.maxHealth * 0.5)
-                    target.tags.remove('attacked')
                     event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${(att - att1) % 2 - att1}`)
                 }
             }
@@ -425,18 +425,14 @@ onEvent('entity.hurt', event => {
                     target.heal(target.maxHealth * 0.9)
                     target.attack(target.maxHealth * 0.1)
                 }
-                if (result <= 11 && targetTypes.includes(target.type)) {
-                    event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${result + (10 - result)}`)
-                }
-                else if (result <= 6) {
-                    event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${5 - result + result1}`)
-                }
                 if(!target.tags.contains('banxue')){
-                    if(target.health <= target.maxHealth / 2 && !targetTypes.includes(target.type) &&target.type != "botania:doppleganger"){
-                    target.tags.add('banxue')
-                    target.potionEffects.add('minecraft:resistance', 20, 4, false, false)
-
-               }
+                    let r2 =randomNum(1,100)
+                    if (r2 <= 5) {
+                        if(target.health <= target.maxHealth / 2 && !targetTypes.includes(target.type) &&target.type != "botania:doppleganger"){
+                            target.tags.add('banxue')
+                            target.potionEffects.add('minecraft:resistance', 20, 4, false, false)
+                       }
+                    }
             }
             } else if (player.stages.has('difficulty_impossibleplus')) {
                 if(!target.tags.contains('attacked') && !targetTypes.includes(target.type)&&target.type != "botania:doppleganger"){
@@ -461,25 +457,15 @@ onEvent('entity.hurt', event => {
                     target.heal(target.maxHealth * 0.9)
                     target.attack(target.maxHealth * 0.1)
                 }
-                if (result >= 21 && targetTypes.includes(target.type) && result < 30) {
-                    event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${result - result * 0.1}`)
-                }
-                else if (result <= 21 && targetTypes.includes(target.type) && target.type != "twilightforest:knight_phantom") {
-                    event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${result + (20 - result)}`)
-                }
-                else if (result >= 16 && !targetTypes.includes(target.type)) {
-                    event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${15 - result}`)
-                }
-                else if (result < 15) {
-                    event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${15 - result + result1}`)
-
-                }
                 if(!target.tags.contains('banxue')){
-                    if(target.health <= target.maxHealth / 2 && !targetTypes.includes(target.type) &&target.type != "botania:doppleganger"){
-                    target.tags.add('banxue')
-                    target.potionEffects.add('minecraft:resistance', 60, 4, false, false)
-
-               }
+                    let r1 = randomNum(1,100)
+                    if (r1 <= 10) {
+                        if(target.health <= target.maxHealth / 2 && !targetTypes.includes(target.type) &&target.type != "botania:doppleganger"){
+                            target.tags.add('banxue')
+                            target.potionEffects.add('minecraft:resistance', 60, 4, false, false)
+        
+                       }
+                    }       
             }
 
             }else if(player.stages.has('difficulty_yonghen')){

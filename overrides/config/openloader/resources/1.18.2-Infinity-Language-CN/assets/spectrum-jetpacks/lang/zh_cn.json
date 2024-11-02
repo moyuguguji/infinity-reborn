@@ -1,0 +1,21 @@
+{
+    "item.spectrumjetpacks.gemstone_jetpack": "宝石喷气背包",
+    "item.spectrumjetpacks.bedrock_jetpack": "基岩喷气背包",
+    
+    "item.spectrumjetpacks.jetpack.desc.toggle": "切换:[%s]",
+    "item.spectrumjetpacks.jetpack.desc.hover": "悬停:[%s]",
+    
+    "category.spectrumjetpacks": "彩虹喷气背包",
+    "key.spectrumjetpacks.toggle": "切换喷气动力装置",
+    "key.spectrumjetpacks.hover": "切换喷气悬停",
+    
+    "text.autoconfig.spectrumjetpacks.title": "彩虹喷气背包",
+    "text.autoconfig.spectrumjetpacks.option.soundsEnabled": "启用喷气音效",
+    "text.autoconfig.spectrumjetpacks.option.inkUsagePerTick": "每刻使用墨水量",
+    "text.autoconfig.spectrumjetpacks.option.inkUsagePerTickHovering": "悬停状态每刻使用墨水量",
+    
+    "advancements.spectrumjetpacks.craft_gemstone_jetpack.title": "直抵苍穹！",
+    "advancements.spectrumjetpacks.craft_gemstone_jetpack.description": "制作第一个喷气背包！",
+    "advancements.spectrumjetpacks.craft_bedrock_jetpack.title": "天空并非极限！",
+    "advancements.spectrumjetpacks.craft_bedrock_jetpack.description": "制作第二个喷气背包！"
+  }

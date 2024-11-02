@@ -1,0 +1,15 @@
+{
+  "name": "dnl:structures/temple_of_tears/minor_island/bonus_island/camp",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "dnl:temple_of_tears/minor_island/bonus_island/camp",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:ice"
+    },
+    "title": "瞭望者营地",
+    "description": "发现银瞳的瞭望者们的冰冷营地",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/general/locate_dungeon",
+  "criteria": {
+    "locate_watcher_camp": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "dnl:watcher_camp"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "locate_watcher_camp"
+    ]
+  ]
+}

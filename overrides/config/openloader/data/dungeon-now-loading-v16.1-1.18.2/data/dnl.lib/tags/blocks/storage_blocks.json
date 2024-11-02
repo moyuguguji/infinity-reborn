@@ -1,0 +1,10 @@
+{
+  "values":[
+    "#dnl.lib:chests",
+    "#minecraft:shulker_boxes",
+    "minecraft:barrel",
+    "minecraft:dispenser",
+    "minecraft:dropper",
+    "minecraft:hopper"
+  ]
+}

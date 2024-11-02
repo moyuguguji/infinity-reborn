@@ -717,4 +717,88 @@ event.custom({
     'min_forge_tier': 4,
     'fuel_per_tick': 1000
 })
+event.custom({
+    type: 'alloy_forgery:forging',
+    'inputs': [
+    {
+    "item": 'minecraft:copper_ingot',
+    "count": 2
+    },
+    {
+    "item": 'mythicmetals:bronze_ingot',
+    "count": 1
+    },
+    {
+    "item": 'numismatic-overhaul:bronze_coin',
+    "count": 1
+    },
+    ],
+    'output': {
+    'id': 'numismatic-overhaul:bronze_coin',
+    'count': 10
+    },
+    'min_forge_tier': 1,
+    'fuel_per_tick': 20
+})
+event.custom({
+    type: 'alloy_forgery:forging',
+    'inputs': [
+    {
+    "item": 'mythicmetals:silver_ingot',
+    "count": 1
+    },
+    {
+    "item": 'mythicmetals:silver_ingot',
+    "count": 1
+    },
+    {
+    "item": 'numismatic-overhaul:silver_coin',
+    "count": 1
+    },
+    ],
+    'output': {
+    'id': 'numismatic-overhaul:silver_coin',
+    'count': 3
+    },
+    'min_forge_tier': 2,
+    'fuel_per_tick': 50
+})
+event.custom({
+    type: 'alloy_forgery:forging',
+    'inputs': [
+    {
+    "item": 'minecraft:gold_ingot',
+    "count": 5
+    },
+    {
+    "item": 'mythicmetals:midas_gold_ingot',
+    "count": 5
+    },
+    {
+    "item": 'numismatic-overhaul:gold_coin',
+    "count": 1
+    },
+    ],
+    'output': {
+    'id': 'numismatic-overhaul:gold_coin',
+    'count': 2
+    },
+    'min_forge_tier': 3,
+    'fuel_per_tick': 100
+})
+event.custom({
+    type: 'alloy_forgery:forging',
+    'inputs': [
+    {
+    "item": 'spectrum:pure_gold',
+    "count": 1
+    }
+    ],
+    'output': {
+    'id': 'numismatic-overhaul:gold_coin',
+    'count': 2
+    },
+    'min_forge_tier': 4,
+    'fuel_per_tick': 200
+})
 })

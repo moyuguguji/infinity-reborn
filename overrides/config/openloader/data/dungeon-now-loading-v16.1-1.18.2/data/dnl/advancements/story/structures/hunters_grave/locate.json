@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:andesite"
+    },
+    "title": "猎手之陵墓",
+    "description": "发现一名已逝猎手的皇家陵墓",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/themes/grave/locate",
+  "criteria": {
+    "locate_hunters_grave": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "dnl:hunters_grave"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "locate_hunters_grave"
+    ]
+  ]
+}

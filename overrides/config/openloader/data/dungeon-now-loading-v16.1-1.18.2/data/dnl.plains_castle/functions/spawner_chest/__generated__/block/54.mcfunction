@@ -1,0 +1,17 @@
+#built using mc-build (https://github.com/mc-build/mc-build)
+
+execute positioned ~ ~0.5 ~ run kill @e[type=minecraft:area_effect_cloud,tag=dnl.spawner_chest_bar,tag=dnl.plains_castle_spawner_chest,distance=..1]
+execute align xyz positioned ~-10 ~-1.1 ~-10 store result score #math dnl.count if entity @e[type=minecraft:marker,tag=dnl.spawner,dx=20,dy=9,dz=20]
+execute if score #math dnl.count matches ..0 run summon area_effect_cloud ~ ~0.5 ~ {CustomNameVisible:1b,Duration:40,Tags:["dnl.spawner_chest_bar","dnl.plains_castle_spawner_chest"],CustomName:'{"text":"0 Spawner Remaining","color":"yellow","italic":false}'}
+execute if score #math dnl.count matches 1 run summon area_effect_cloud ~ ~0.5 ~ {CustomNameVisible:1b,Duration:40,Tags:["dnl.spawner_chest_bar","dnl.plains_castle_spawner_chest"],CustomName:'{"text":"1 Spawner Remaining","color":"yellow","italic":false}'}
+execute if score #math dnl.count matches 2 run summon area_effect_cloud ~ ~0.5 ~ {CustomNameVisible:1b,Duration:40,Tags:["dnl.spawner_chest_bar","dnl.plains_castle_spawner_chest"],CustomName:'{"text":"2 Spawner Remaining","color":"yellow","italic":false}'}
+execute if score #math dnl.count matches 3 run summon area_effect_cloud ~ ~0.5 ~ {CustomNameVisible:1b,Duration:40,Tags:["dnl.spawner_chest_bar","dnl.plains_castle_spawner_chest"],CustomName:'{"text":"3 Spawner Remaining","color":"yellow","italic":false}'}
+execute if score #math dnl.count matches 4 run summon area_effect_cloud ~ ~0.5 ~ {CustomNameVisible:1b,Duration:40,Tags:["dnl.spawner_chest_bar","dnl.plains_castle_spawner_chest"],CustomName:'{"text":"4 Spawner Remaining","color":"yellow","italic":false}'}
+execute if score #math dnl.count matches 5 run summon area_effect_cloud ~ ~0.5 ~ {CustomNameVisible:1b,Duration:40,Tags:["dnl.spawner_chest_bar","dnl.plains_castle_spawner_chest"],CustomName:'{"text":"5 Spawner Remaining","color":"yellow","italic":false}'}
+execute if score #math dnl.count matches 6 run summon area_effect_cloud ~ ~0.5 ~ {CustomNameVisible:1b,Duration:40,Tags:["dnl.spawner_chest_bar","dnl.plains_castle_spawner_chest"],CustomName:'{"text":"6 Spawner Remaining","color":"yellow","italic":false}'}
+execute if score #math dnl.count matches 7 run summon area_effect_cloud ~ ~0.5 ~ {CustomNameVisible:1b,Duration:40,Tags:["dnl.spawner_chest_bar","dnl.plains_castle_spawner_chest"],CustomName:'{"text":"7 Spawner Remaining","color":"yellow","italic":false}'}
+execute if score #math dnl.count matches 8 run summon area_effect_cloud ~ ~0.5 ~ {CustomNameVisible:1b,Duration:40,Tags:["dnl.spawner_chest_bar","dnl.plains_castle_spawner_chest"],CustomName:'{"text":"8 Spawner Remaining","color":"yellow","italic":false}'}
+execute if score #math dnl.count matches 9 run summon area_effect_cloud ~ ~0.5 ~ {CustomNameVisible:1b,Duration:40,Tags:["dnl.spawner_chest_bar","dnl.plains_castle_spawner_chest"],CustomName:'{"text":"9 Spawner Remaining","color":"yellow","italic":false}'}
+execute if score #math dnl.count matches 10 run summon area_effect_cloud ~ ~0.5 ~ {CustomNameVisible:1b,Duration:40,Tags:["dnl.spawner_chest_bar","dnl.plains_castle_spawner_chest"],CustomName:'{"text":"10 Spawner Remaining","color":"yellow","italic":false}'}
+execute if score #math dnl.count matches 11.. run summon area_effect_cloud ~ ~0.5 ~ {CustomNameVisible:1b,Duration:40,Tags:["dnl.spawner_chest_bar","dnl.plains_castle_spawner_chest"],CustomName:'{"text":"10+ Spawner Remaining","color":"yellow","italic":false}'}
+advancement revoke @s only dnl.lib:interact_spawner_chest

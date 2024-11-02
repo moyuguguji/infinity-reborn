@@ -1,0 +1,21 @@
+{
+  "name": "月相时钟",
+  "advancement": "spectrum:progression/unlock_crescent_clock",
+  "icon": "spectrum:crescent_clock",
+  "category": "spectrum:magical_items_category",
+  "extra_recipe_mappings": {
+    "spectrum:crescent_clock": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "时间的流动真是迷幻。$(br)伊始与终焉之间的循环往复，永续轮回，就此浓缩在这尊时钟之中吧——敬请见证。"
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "title": "基座配方",
+      "recipe": "spectrum:pedestal/tier2/crescent_clock",
+      "text": "$(italic)阴影隐又现，轮回月复圆。$(br)弥缺而无憾，启明伴入眠。$(br)暗夜思最长，梦醒复彷徨。"
+    }
+  ]
+}

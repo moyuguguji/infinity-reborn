@@ -1,0 +1,28 @@
+{
+  "name": "熔岩海绵",
+  "advancement": "spectrum:progression/unlock_lava_sponge",
+  "icon": "spectrum:lava_sponge",
+  "category": "spectrum:magical_blocks_category",
+  "extra_recipe_mappings": {
+    "spectrum:lava_sponge": 0,
+    "spectrum:wet_lava_sponge": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "熔岩海绵",
+      "text": "$(italic)手持湿漉漉的海绵，你开始畅想有没有类似的、针对熔岩的用具。虽然找不到这种东西，这也拦不住你，自己发明一个便是。$(br2)这下，在世界深处或者传送门的另一边探险可就方便多啦！"
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "title": "基座配方",
+      "recipe": "spectrum:pedestal/tier1/lava_sponge",
+      "text": "——理想很丰满，然而吸满了熔岩的海绵有着相当$(italic)不堪$()的副作用。$(br)早知如此……"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "熔炉燃料",
+      "text": "熔岩海绵是一种高效的熔炉燃料，使用后就会重新变得干燥。"
+    }
+  ]
+}

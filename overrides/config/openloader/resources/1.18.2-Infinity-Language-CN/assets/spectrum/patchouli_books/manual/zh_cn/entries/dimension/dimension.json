@@ -1,0 +1,19 @@
+{
+	"pages":[
+		{
+			"item":"minecraft:bedrock",
+			"text":"$(italic)未完成",
+			"type":"patchouli:spotlight"
+		},
+		{
+			"text":"深广无垠，亦未见天日",
+			"type":"patchouli:text",
+			"title":""
+		}
+	],
+	"advancement":"spectrum:midgame/__enter_dimension",
+	"name":"渊深领域",
+	"icon":"minecraft:bedrock",
+	"sortnum":1,
+	"category":"spectrum:dimension_category"
+}

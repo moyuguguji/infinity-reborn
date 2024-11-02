@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "is_projectile": true,
+            "direct_entity": {
+              "type": "minecraft:trident"
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:ghast",
+          "team": "dnl.g_ghast"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dnl:mobs/guardian_ghast/state/stunned/damage/8"
+  }
+}

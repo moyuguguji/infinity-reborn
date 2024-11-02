@@ -1,0 +1,24 @@
+{
+	"pages":[
+		{
+			"text":"$(italic)你在地下发现了由某个疑似史前文明建造的要塞建筑。$(br)他们的科技似乎早已先进到可以打开异世界传送门，但害虫孳生的问题怎么就没想着管管呢……？",
+			"type":"patchouli:text"
+		},
+		{
+			"item":"minecraft:iron_pickaxe{Enchantments: [{id: \"spectrum:pest_control\", lvl: 1s}]}",
+			"text":"采集被虫蚀的方块的时候清除蠹虫。$(br2)附魔等级上限：1$(br)适用于采掘工具.$(br)与 共振 不兼容。",
+			"type":"patchouli:spotlight",
+			"title":"特点"
+		},
+		{
+			"recipe":"spectrum:enchanter/spectrum_books/book_pest_control",
+			"text":"你可以将所需材料及颜料放入附魔基座周围的物品底座中，为普通的书本注入害虫防治附魔。",
+			"type":"spectrum:enchanter_crafting",
+			"title":"附魔配方"
+		}
+	],
+	"advancement":"spectrum:progression/enchantments/pest_control",
+	"name":"害虫防治",
+	"icon":"minecraft:iron_pickaxe",
+	"category":"spectrum:enchanting_category"
+}

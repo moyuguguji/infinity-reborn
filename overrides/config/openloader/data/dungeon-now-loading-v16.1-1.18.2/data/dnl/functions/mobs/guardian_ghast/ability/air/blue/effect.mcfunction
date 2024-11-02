@@ -1,0 +1,14 @@
+execute as @e[scores={dnl.clock=175}] run function dnl:mobs/guardian_ghast/ability/air/blue/icehail
+execute as @e[scores={dnl.clock=180}] run function dnl:mobs/guardian_ghast/ability/air/blue/icehail
+execute as @e[scores={dnl.clock=185}] run function dnl:mobs/guardian_ghast/ability/air/blue/icehail
+execute as @e[scores={dnl.clock=190}] run function dnl:mobs/guardian_ghast/ability/air/blue/icehail
+execute as @e[scores={dnl.clock=195}] run function dnl:mobs/guardian_ghast/ability/air/blue/icehail
+execute as @e[scores={dnl.clock=200}] run function dnl:mobs/guardian_ghast/ability/air/blue/icehail
+execute as @e[scores={dnl.clock=205}] run function dnl:mobs/guardian_ghast/ability/air/blue/icehail
+execute as @e[scores={dnl.clock=210}] run function dnl:mobs/guardian_ghast/ability/air/blue/icehail
+execute as @e[scores={dnl.clock=215}] run function dnl:mobs/guardian_ghast/ability/air/blue/icehail
+execute as @e[scores={dnl.clock=220}] run function dnl:mobs/guardian_ghast/ability/air/blue/icehail
+execute as @e[scores={dnl.clock=225}] run function dnl:mobs/guardian_ghast/ability/air/blue/icehail
+execute as @e[scores={dnl.clock=230}] run function dnl:mobs/guardian_ghast/ability/air/blue/icehail
+execute as @e[scores={dnl.clock=235}] run function dnl:mobs/guardian_ghast/ability/air/blue/icehail
+execute as @e[scores={dnl.clock=240}] run function dnl:mobs/guardian_ghast/ability/air/blue/icehail

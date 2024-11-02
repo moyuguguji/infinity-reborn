@@ -1,0 +1,24 @@
+{
+  "name": "新的资源",
+  "category": "spectrum:hints_category",
+  "icon": "minecraft:writable_book",
+  "advancement": "spectrum:midgame/build_enchanting_structure",
+  "secret": true,
+  "read_by_default": true,
+  "turnin": "spectrum:collect_four_leaf_clover",
+  "pages": [
+    {
+      "type": "spectrum:hint",
+      "title": "该怎么找",
+      "completion_advancement": "spectrum:collect_four_leaf_clover",
+      "cost": "spectrum:vegetal#16",
+      "text": "在平原上闲逛会不会收获好运呢！"
+    },
+    {
+      "type": "spectrum:hint",
+      "title": "简要说明",
+      "cost": "spectrum:vegetal#48",
+      "text": "平原生物群系会生成三叶草。四叶草的外形和三叶草有所不同。直接采集即可，使用骨粉或自然法杖进行增殖。"
+    }
+  ]
+}

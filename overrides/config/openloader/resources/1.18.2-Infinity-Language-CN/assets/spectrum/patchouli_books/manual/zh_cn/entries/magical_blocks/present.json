@@ -1,0 +1,31 @@
+{
+  "name": "礼物盒",
+  "advancement": "spectrum:progression/unlock_present",
+  "icon": "spectrum:present",
+  "category": "spectrum:magical_blocks_category",
+  "extra_recipe_mappings": {
+    "spectrum:present": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "有一句话叫：礼尚往来，如果你周围的人一直帮助过你。 那么是时候回报一些东西了！。 一点点的 $(l:resources/sparklestone)微光石$(/l) 可以让礼物在五颜六色的粒子雨中爆炸！$(br2)（或者，你可以随时送给未来的自己！）"
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "title": "基座配方",
+      "recipe": "spectrum:pedestal/tier1/present",
+      "text": "点击 礼物 右键你想赠送的物品上。$(br)然后你所要做的就是把它放下，让收件人打开，看着他们高兴地跳起来。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "spectrum:crafting_table/special/wrap_present",
+      "title": "打包",
+      "text": "将一个填充的礼物放在工作台中来包裹它。$(br2)你可以另外添加：$(li)$(l:general/pigment)颜料$() 以获得那些颜料颜色的多彩粒子雨。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)特殊成分的包装纸可以选择：$(li2)红色染料: 红色$(li2)蓝色染料: 蓝色$(li2)青色染料: 青色$(li2)绿色染料: 绿色$(li2)紫色染料: 紫色$(li2)蛋糕: 蛋糕$(li2)花: 条纹$(li2)烟火之星: 繁星$(li2)树苗: 冬天$(li2)孢子花: 彩虹"
+    }
+  ]
+}

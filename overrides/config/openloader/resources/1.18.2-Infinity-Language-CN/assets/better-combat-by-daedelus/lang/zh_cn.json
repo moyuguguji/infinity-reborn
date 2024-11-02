@@ -1,0 +1,11 @@
+{
+  "keybinds.bettercombat.toggle_mine_with_weapons" : "切换武器挖掘能力",
+
+  "hud.bettercombat.mine_with_weapons_on" : "使用武器挖掘: 已开启",
+  "hud.bettercombat.mine_with_weapons_off" : "使用武器挖掘: 已关闭",
+
+  "text.autoconfig.bettercombat.option.client.weaponSwingSoundVolume" : "武器摆动音量 %",
+  "text.autoconfig.bettercombat.option.client.weaponSwingSoundVolume.@Tooltip" : "改变武器摆动声音的音量",
+  "text.autoconfig.bettercombat.option.client.isSweepingParticleEnabled" : "显示横扫效果",
+  "text.autoconfig.bettercombat.option.client.isSweepingParticleEnabled.@Tooltip" : "启用显示剑横扫粒子效果"
+}

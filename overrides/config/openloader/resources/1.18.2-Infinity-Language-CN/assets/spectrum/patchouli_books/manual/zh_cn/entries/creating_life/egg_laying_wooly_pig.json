@@ -1,0 +1,22 @@
+{
+  "name": "下蛋的毛猪",
+  "icon": "spectrum:egg_laying_wooly_pig_head",
+  "advancement": "spectrum:progression/unlock_egg_laying_wooly_pig_head",
+  "category": "spectrum:creating_life_category",
+  "extra_recipe_mappings": {
+    "spectrum:egg_laying_wooly_pig_head": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "下蛋的毛猪",
+      "text": "到目前为止，你的整个 \"创造生命\" 的工作相当复杂。但慢慢地，你觉得你能够移动一些东西。$(br2)从无到有创造生命是一件困难的事情，但结合现有的知识？你感觉有点像弗兰肯斯坦本人。$(br)$(italic)你不确定这是一件好事还是坏事。"
+    },
+    {
+      "type": "spectrum:fusion_shrine_crafting",
+      "title": "融合配方",
+      "recipe": "spectrum:fusion_shrine/egg_laying_wooly_pig_head",
+      "text": "你的造物喜欢吃什么？ 这是有意义的，因为... $(l:creating_life/memories)原因$()."
+    }
+  ]
+}

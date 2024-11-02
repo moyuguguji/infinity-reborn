@@ -1,0 +1,24 @@
+{
+  "name": "新的资源",
+  "category": "spectrum:hints_category",
+  "icon": "minecraft:writable_book",
+  "advancement": "spectrum:midgame/build_advanced_pedestal_structure",
+  "secret": true,
+  "read_by_default": true,
+  "turnin": "spectrum:get_ender_treasure",
+  "pages": [
+    {
+      "type": "spectrum:hint",
+      "title": "怎么找到",
+      "completion_advancement": "spectrum:get_ender_treasure",
+      "cost": "minecraft:ender_pearl#4",
+      "text": "末影人手上具体拿的是什么东西可要好好看清楚了。"
+    },
+    {
+      "type": "spectrum:hint",
+      "title": "简要说明",
+      "cost": "minecraft:ender_pearl#12",
+      "text": "主世界的末影人偶尔会手持某种末地的残片。如果某个末影人手持的是圆石，那兴许并不是圆石，宰一个看看。这种末影人在末地也会生成，但更稀有。"
+    }
+  ]
+}
