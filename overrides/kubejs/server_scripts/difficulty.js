@@ -619,9 +619,6 @@ onEvent('entity.hurt', event => {
                     target.heal(target.maxHealth * 0.9)
                     target.attack(target.maxHealth * 0.1)
                 }
-                if (result > 15 && targetTypes.includes(target.type) && result < 30) {
-                    event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base set ${result - result * 0.1}`)
-                }
             if(!target.tags.contains('banxue')){
                 let random3 = randomNum(1,100)
                 if (random3 <= 20) {
