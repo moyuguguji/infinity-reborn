@@ -12,18 +12,6 @@ onEvent('recipes', event => {
     })
 })
 
-onEvent('entity.hurt', event => {
-    let target = event.getEntity()
-    let player = event.getSource().getPlayer()
-    let damage = event.getDamage()
-    if (player != null) {
-        let mainItem = player.getHeldItem(MAIN_HAND)
-        if (mainItem == 'kubejs:kreska') {
-            player.heal((damage * 0.1) * 0.08)
-        }
-    }
-})
-
 onEvent('player.tick', event => {
     let player = event.player
     let mainItem = player.getHeldItem(MAIN_HAND)
@@ -33,17 +21,12 @@ onEvent('player.tick', event => {
 })
 
 onEvent('item.right_click', event => {
-    if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:kreska') {
-        if (event.player.getHeldItem(OFF_HAND) != 'kubejs:kreska' && event.player.getHeldItem(OFF_HAND) != null) {
-            event.server.runCommandSilent(`title ${event.player.profile.name} actionbar {"text":"你无法在副手持有物品时使用该物品","color":"white"}`)
-        }else 
-        {
+    if (item.right_click == 'kubejs:kreska') { 
             event.player.potionEffects.add('minecraft:speed', 40, 1, false, false)
             event.server.runCommandSilent(`execute at ${event.player.id} run tp ${event.player.id} ^ ^1 ^10`)
             event.server.runCommandSilent(`execute at ${event.player.id} run particle minecraft:portal ${event.player.x} ${event.player.y + 1} ${event.player.z} 0 0.5 0.5 0.5 50`)
             event.player.playSound('minecraft:entity.enderman.teleport')
             event.player.addItemCooldown('kubejs:kreska', 100)
-        }
     }
 })
 

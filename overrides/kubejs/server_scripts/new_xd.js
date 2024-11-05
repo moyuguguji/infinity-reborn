@@ -1,31 +1,3 @@
-onEvent('entity.hurt', event => {
-  let target = event.getEntity()
-  let player = event.getSource().getPlayer()
-  let damage = event.getDamage()
-  if (player != null) {
-    let mainItem = player.getHeldItem(MAIN_HAND)
-    if (mainItem == 'kubejs:mu_jian') {
-      let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
-      target.attack("minecart:player", result * 0.5)
-    }
-    if (mainItem == 'kubejs:mu_jian_seven') {
-      let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
-      target.attack("minecart:player", result * 0.25)
-    }
-    if (mainItem == 'kubejs:yuan_mu_jian') {
-      let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
-      target.attack("minecart:player", result * 2.0)
-    }
-    if (mainItem == 'kubejs:yuan_mu_jian_seven') {
-      let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
-      target.attack("minecart:player", result * 1.0)
-    }
-    if (mainItem == 'kubejs:yuan_mu_jian_one') {
-      let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
-      target.attack("minecart:player", result * 0.5)
-    }
-  }
-})
 onEvent('recipes', e => {
   e.shaped('kubejs:yuan_mu_jian_one', [
     ' A ',
@@ -362,7 +334,7 @@ onEvent("entity.death", event => {
   }
 })
 onEvent('item.right_click',event =>{
-  if (event.player.getHeldItem(MAIN_HAND).id == 'kubejs:boss_rush') {
+  if (event.item.id == 'kubejs:boss_rush') {
     let targetTypes = [
     "minecraft:wither",
     "soulsweapons:chaos_monarch",
@@ -397,10 +369,9 @@ onEvent('item.right_click',event =>{
       let element = targetTypes[index];
       event.server.runCommandSilent(`execute at ${event.player.profile.name} run summon_eldritch ${element} ${event.player.getX() + randomx} ${event.player.getY()} ${event.player.getZ() + randomz}`)
     }
-    event.player.mainHandItem.count -= 1
  }
     //event.server.runCommandSilent(`say ${entity}`)
-    if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:shi_lian') {
+    if (event.item.id == 'kubejs:shi_lian') {
         let test = Ingredient.of('@collectorsalbum').getItemIds()
         for (let index = 0; index < 10; index++) {
             let random = randomNum(1,test.length)

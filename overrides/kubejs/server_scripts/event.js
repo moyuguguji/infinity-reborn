@@ -118,10 +118,8 @@ onEvent('player.tick', event => {
 })
 
 onEvent('item.right_click', event => {
-    if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:ruoshui_sword') {
-        if (event.player.getHeldItem(OFF_HAND) != 'kubejs:ruoshui_sword' && event.player.getHeldItem(OFF_HAND) != null) {
-            event.server.runCommandSilent(`title ${event.player.profile.name} actionbar {"text":"你无法在副手持有物品时使用该物品","color":"white"}`)
-        } else if (event.player.crouching) {
+    if (event.item.id == 'kubejs:ruoshui_sword') {
+        if (event.player.crouching) {
             //泉之治愈-潜行使用恢复最大生命值的一半，冷却时间15秒
             event.player.heal(event.player.maxHealth / 2)
             event.player.addItemCooldown('kubejs:ruoshui_sword', 300)
@@ -139,7 +137,6 @@ onEvent('item.right_click', event => {
 onEvent('entity.hurt', event => {
     let target = event.getEntity()
     let player = event.getSource().getPlayer()
-
     let mainItem
     let offItem
     if (player != null) {
@@ -151,10 +148,68 @@ onEvent('entity.hurt', event => {
                 mainItem.count -= 1
             }
         }
-    }
-    if (mainItem == 'kubejs:infinity_sword') {
-        if (player.crouching) {
-            target.kill()
+        if (mainItem == 'kubejs:infinity_sword') {
+            if (player.crouching) {
+                target.kill()
+            }
+        }
+        if (mainItem == 'kubejs:qixing_sword') {
+            player.heal((damage + target.health * 0.05) * 0.05)
+            target.attack(target.maxHealth * 0.001)
+        }
+        if (mainItem == 'kubejs:nature_spirit') {
+            target.potionEffects.add('minecraft:slowness', 40, 9)
+            target.potionEffects.add('soulsweapons:bleed', 80, 6)
+        }
+        if (mainItem == 'kubejs:sixiang_kaitian') {
+            target.attack(target.health * 0.01)
+        }
+        if (mainItem == 'kubejs:lce_tang') {
+            target.potionEffects.add('minecraft:slowness', 100, 1)
+            target.potionEffects.add('minecraft:weakness', 100, 1)
+        }
+        if (mainItem == 'kubejs:lce_tang') {
+            player.heal((damage * 0.05) * 0.05)
+        }
+        if (mainItem == 'kubejs:ailinghan') {
+            target.attack(player.maxHealth * 0.1)
+        }
+        if (mainItem == 'kubejs:jian_li') {
+            let result = event.server.runCommandSilent(`attribute ${player.id} minecraft:generic.armor get`)
+            if (player.health > player.maxHealth * 0.15) {
+                player.heal(-player.maxHealth * 0.1)
+            }
+            if (player.health < 10 && result < 10) {
+                target.attack(damage * 2.5)
+                target.potionEffects.add('minecraft:slowness', 100, 9)
+                target.potionEffects.add('minecraft:weakness', 100, 9)
+                player.potionEffects.add('minecraft:haste', 20, 9, false, false)
+            } else {
+                target.attack(damage * 0.5)
+            }
+        }
+        if (mainItem == 'kubejs:kreska') {
+            player.heal((damage * 0.1) * 0.08)
+        }
+        if (mainItem == 'kubejs:mu_jian') {
+            let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
+            target.attack("minecart:player", result * 0.5)
+        }
+        if (mainItem == 'kubejs:mu_jian_seven') {
+            let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
+            target.attack("minecart:player", result * 0.25)
+        }
+        if (mainItem == 'kubejs:yuan_mu_jian') {
+            let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
+            target.attack("minecart:player", result * 2.0)
+        }
+        if (mainItem == 'kubejs:yuan_mu_jian_seven') {
+            let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
+            target.attack("minecart:player", result * 1.0)
+        }
+        if (mainItem == 'kubejs:yuan_mu_jian_one') {
+            let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
+            target.attack("minecart:player", result * 0.5)
         }
     }
 })
@@ -192,17 +247,12 @@ onEvent('player.tick', event => {
 
 //野草
 onEvent('item.right_click', event => {
-    if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:yecao_sword') {
-        if (event.player.getHeldItem(OFF_HAND) != null) {
-            event.server.runCommandSilent(`title ${event.player.profile.name} actionbar {"text":"你无法在副手持有物品时使用该物品","color":"white"}`)
-        }
-        else {
-            let player = event.player
-            //右键使用获得5秒抗性5生命恢复5，冷却时间10秒
-            event.player.potionEffects.add('minecraft:regeneration', 100, 4, false, false)
-            event.player.potionEffects.add('minecraft:resistance', 40, 4, false, false)
-            event.player.addItemCooldown('kubejs:yecao_sword', 200)
-        }
+    if (event.item.id == 'kubejs:yecao_sword') {
+        let player = event.player
+        //右键使用获得5秒抗性5生命恢复5，冷却时间10秒
+        event.player.potionEffects.add('minecraft:regeneration', 100, 4, false, false)
+        event.player.potionEffects.add('minecraft:resistance', 40, 4, false, false)
+        event.player.addItemCooldown('kubejs:yecao_sword', 200)
     }
 
 })
@@ -227,16 +277,11 @@ onEvent('player.tick', event => {
 //石剑?
 
 onEvent('item.right_click', event => {
-    if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:putong_stone_sword') {
-        if (event.player.getHeldItem(OFF_HAND) != null) {
-            event.server.runCommandSilent(`title ${event.player.profile.name} actionbar {"text":"你无法在副手持有物品时使用该物品","color":"white"}`)
-        }
-        else {
-            let player = event.player
-            //右键使用获得30秒抗性5，冷却时间600秒
-            event.player.potionEffects.add('minecraft:resistance', 600, 4, false, false)
-            event.player.addItemCooldown('kubejs:putong_stone_sword', 12000)
-        }
+    if (event.item.id == 'kubejs:putong_stone_sword') {
+        let player = event.player
+        //右键使用获得30秒抗性5，冷却时间600秒
+        event.player.potionEffects.add('minecraft:resistance', 600, 4, false, false)
+        event.player.addItemCooldown('kubejs:putong_stone_sword', 12000)
     }
 
 })
@@ -283,22 +328,6 @@ onEvent('player.tick', event => {
         player.potionEffects.add("minecraft:resistance", 1, 1, false, false)//抗性提升
     }
 })
-onEvent('entity.hurt', event => {
-
-    let target = event.getEntity()
-    let player = event.getSource().getPlayer()
-    let entity = event.getSource().getImmediate()
-    let actual = event.getSource().getActual()
-    let damage = event.getDamage()
-    if (player != null) {
-        let mainItem = player.getHeldItem(MAIN_HAND)
-        if (mainItem == 'kubejs:qixing_sword') {
-            player.heal((damage + target.health * 0.05) * 0.05)
-            target.attack("minecart:player", target.maxHealth * 0.001)
-        }
-    }
-
-})
 
 //中子灭杀
 onEvent('item.right_click', event => {
@@ -309,22 +338,6 @@ onEvent('item.right_click', event => {
 
 })
 
-//镐
-onEvent('entity.hurt', event => {
-
-    let target = event.getEntity()
-    let player = event.getSource().getPlayer()
-    let entity = event.getSource().getImmediate()
-    let actual = event.getSource().getActual()
-    let damage = event.getDamage()
-    if (player != null) {
-        let mainItem = player.getHeldItem(MAIN_HAND)
-        if (mainItem == 'kubejs:nature_spirit') {
-            target.potionEffects.add('minecraft:slowness', 40, 9)
-            target.potionEffects.add('soulsweapons:bleed', 80, 6)
-        }
-    }
-})
 onEvent('player.tick', event => {
     let player = event.player
     let mainItem = player.getHeldItem(MAIN_HAND)
@@ -371,18 +384,6 @@ onEvent('player.tick', event => {
     }
 })
 //四象
-onEvent('entity.hurt', event => {
-
-    let target = event.getEntity()
-    let player = event.getSource().getPlayer()
-    if (player != null) {
-        let mainItem = player.getHeldItem(MAIN_HAND)
-        if (mainItem == 'kubejs:sixiang_kaitian') {
-            target.attack("minecart:player", target.health * 0.01)
-        }
-    }
-
-})
 onEvent('player.tick', event => {
     let player = event.player
     if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:sixiang_kaitian') {
@@ -397,7 +398,7 @@ onEvent('player.tick', event => {
 })
 onEvent('item.right_click', event => {
     let player = event.player
-    if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:sixiang_kaitian') {
+    if (event.item.id == 'kubejs:sixiang_kaitian') {
         let randomx = randomNum(-10, 10);
         let randomz = randomNum(-10, 10)
         event.server.runCommandSilent(`execute at ${event.player.id} run summon minecraft:lightning_bolt ${player.getX() + randomx} ${player.getY()} ${player.getZ() + randomz}`)
@@ -585,45 +586,36 @@ onEvent('item.right_click', event => {
 
 })
 onEvent('item.right_click', event => {
-    if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:jing__xin') {
-        if (event.player.getHeldItem(OFF_HAND) != null) {
-            event.server.runCommandSilent(`title ${event.player.profile.name} actionbar {"text":"你无法在副手持有物品时使用该物品","color":"white"}`)
-        } else {
-            event.server.runCommandSilent(`execute at ${event.player.id} run summon minecraft:wither`)
-            event.player.addItemCooldown('kubejs:jing__xin', 100)
-        }
+    if (event.item.id == 'kubejs:jing__xin') {
+        event.server.runCommandSilent(`execute at ${event.player.id} run summon minecraft:wither`)
+        event.player.addItemCooldown('kubejs:jing__xin', 100)
     }
 
 })
 onEvent('item.right_click', event => {
-    if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:x_nuohua') {
-        if (event.player.getHeldItem(OFF_HAND) != null) {
-            event.server.runCommandSilent(`title ${event.player.profile.name} actionbar {"text":"你无法在副手持有物品时使用该物品","color":"white"}`)
-        } else {
-            let random = randomNum(1, 10)
-            switch (random) {
-                case 1:
-                    event.player.give('spectrum:shooting_star_colorful')
-                    break;
-                case 2:
-                    event.player.give('spectrum:shooting_star_glistering')
-                    break;
-                case 3:
-                    event.player.give('spectrum:shooting_star_fiery')
-                    break;
-                case 4:
-                    event.player.give('spectrum:shooting_star_pristine')
-                    break;
-                case 5:
-                    event.player.give('spectrum:shooting_star_gemstone')
-                    break;
-                default:
-                    event.player.give('5x spectrum:shooting_star')
-                    break;
-            }
-            event.player.addItemCooldown('kubejs:x_nuohua', 2400)
+    if (event.item.id == 'kubejs:x_nuohua') {
+        let random = randomNum(1, 10)
+        switch (random) {
+            case 1:
+                event.player.give('spectrum:shooting_star_colorful')
+                break;
+            case 2:
+                event.player.give('spectrum:shooting_star_glistering')
+                break;
+            case 3:
+                event.player.give('spectrum:shooting_star_fiery')
+                break;
+            case 4:
+                event.player.give('spectrum:shooting_star_pristine')
+                break;
+            case 5:
+                event.player.give('spectrum:shooting_star_gemstone')
+                break;
+            default:
+                event.player.give('5x spectrum:shooting_star')
+                break;
         }
-
+        event.player.addItemCooldown('kubejs:x_nuohua', 2400)
     }
 })
 onEvent('player.tick', event => {
@@ -634,39 +626,10 @@ onEvent('player.tick', event => {
         }
     }
 })
-onEvent('entity.hurt', event => {
-
-    let target = event.getEntity()
-    let player = event.getSource().getPlayer()
-    let entity = event.getSource().getImmediate()
-    let actual = event.getSource().getActual()
-    let damage = event.getDamage()
-    if (player != null) {
-        let mainItem = player.getHeldItem(MAIN_HAND)
-        if (mainItem == 'kubejs:lce_tang') {
-            target.potionEffects.add('minecraft:slowness', 100, 1)
-            target.potionEffects.add('minecraft:weakness', 100, 1)
-        }
-    }
-})
-onEvent('entity.hurt', event => {
-    let target = event.getEntity()
-    let player = event.getSource().getPlayer()
-    let damage = event.getDamage()
-    if (player != null) {
-        let mainItem = player.getHeldItem(MAIN_HAND)
-        if (mainItem == 'kubejs:lce_tang') {
-            player.heal((damage * 0.05) * 0.05)
-        }
-    }
-
-})
 onEvent('item.right_click', event => {
     let player = event.player
-    if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:lce_tang') {
-        if (event.player.getHeldItem(OFF_HAND) != 'kubejs:lce_tang' && event.player.getHeldItem(OFF_HAND) != null) {
-            event.server.runCommandSilent(`title ${event.player.profile.name} actionbar {"text":"你无法在副手持有物品时使用该物品","color":"white"}`)
-        } else if (player.crouching) {
+    if (event.item.id == 'kubejs:lce_tang') {
+        if (player.crouching) {
             if (player.health <= 5) {
                 event.server.runCommandSilent(`title ${event.player.profile.name} actionbar {"text":"生命值不足","color":"red","bold":true}`)
             } else {
@@ -677,42 +640,6 @@ onEvent('item.right_click', event => {
         } else {
             event.player.potionEffects.add('minecraft:regeneration', 200, 1, false, false)
             event.player.addItemCooldown('kubejs:lce_tang', 300)
-        }
-    }
-
-})
-onEvent('entity.hurt', event => {
-
-    let target = event.getEntity()
-    let player = event.getSource().getPlayer()
-    if (player != null) {
-        let mainItem = player.getHeldItem(MAIN_HAND)
-        if (mainItem == 'kubejs:ailinghan') {
-            target.attack("minecart:player", player.maxHealth * 0.1)
-        }
-    }
-
-})
-onEvent('entity.hurt', event => {
-
-    let target = event.getEntity()
-    let player = event.getSource().getPlayer()
-    let damage = event.getDamage()
-    if (player != null) {
-        let mainItem = player.getHeldItem(MAIN_HAND)
-        if (mainItem == 'kubejs:jian_li') {
-            let result = event.server.runCommandSilent(`attribute ${player.id} minecraft:generic.armor get`)
-            if (player.health > player.maxHealth * 0.15) {
-                player.heal(-player.maxHealth * 0.1)
-            }
-            if (player.health < 10 && result < 10) {
-                target.attack("minecart:player", damage * 2.5)
-                target.potionEffects.add('minecraft:slowness', 100, 9)
-                target.potionEffects.add('minecraft:weakness', 100, 9)
-                player.potionEffects.add('minecraft:haste', 20, 9, false, false)
-            } else {
-                target.attack("minecart:player", damage * 0.5)
-            }
         }
     }
 
@@ -729,7 +656,7 @@ onEvent('player.tick', event => {
 
 onEvent('item.right_click', event => {
     let player = event.player
-    if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:ailinghan') {
+    if (event.item.id == 'kubejs:ailinghan') {
         if (player.health <= player.maxHealth * 0.3) {
             event.server.runCommandSilent(`title ${event.player.profile.name} actionbar {"text":"生命值不足","color":"red","bold":true}`)
         } else {

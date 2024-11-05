@@ -97,7 +97,7 @@ onEvent('entity.hurt', event => {
                 if (offItem.indexOf("shield") >= 0) damage_new = damage_new / 2
                 
                 if(damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25) - target.health >= 0){
-                    target.attack(target.health * 0.9)
+                    
                 }else{
                     target.attack(damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25))
                 }
