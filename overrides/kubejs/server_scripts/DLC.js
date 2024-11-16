@@ -48,7 +48,6 @@ onEvent('entity.death', event => {//死亡事件
                         explosion.strength(5.0);
                         // 设置是否生成火，默认值为false
                         explosion.explode();
-                        drawParticle(event,5,"minecraft:spit");
                     }
                 }
                 if (entity.type == 'minecraft:magma_cube') {

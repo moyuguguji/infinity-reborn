@@ -273,10 +273,10 @@ onEvent('item.tags', event => {
     ,'spectrum:bedrock_boots','dragonloot:dragon_boots'
     ])
     event.add('tier:6ranged', 
-    ['dragonloot:dragon_bow','spectrum:bedrock_bow','twilightforest:seeker_bow','twilightforest:triple_bow','gobber2:gobber2_bow_end'
+    ['dragonloot:dragon_bow','spectrum:bedrock_bow','twilightforest:seeker_bow','twilightforest:triple_bow','gobber2:gobber2_bow_end','mcdw:bow_call_of_the_void','mcdw:bow_lost_souls'
     ])
     event.add('tier:2ranged1',
-    ['mcdw:crossbow_heavy_crossbow'
+    ['mcdw:crossbow_heavy_crossbow','mcdw:bow_void_bow','mcdw:bow_sabrewing'
     ])
     event.add('tier:3ranged1', 
     ['mcdw:crossbow_slayer_crossbow'

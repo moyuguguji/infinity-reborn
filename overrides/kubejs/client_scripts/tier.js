@@ -95,7 +95,7 @@ onEvent('item.tooltip', tooltip => {
     'emerald_tools:steel_bow','emerald_tools:copper_bow','gateofbabylon:stone_bow','gateofbabylon:iron_bow',
     'gateofbabylon:golden_bow','mcdw:bow_longbow','mcdw:crossbow_dual_crossbow','mcdw:crossbow_heavy_crossbow',
     'mcdw:crossbow_burst_crossbow','spirit:soul_steel_bow','soulsweapons:hunter_pistol','soulsweapons:blunderbuss',
-    'soulsweapons:gatling_gun','soulsweapons:hunter_cannon'
+    'soulsweapons:gatling_gun','soulsweapons:hunter_cannon','mcdw:bow_void_bow','mcdw:bow_sabrewing'
   ], (item, advanced, text) => {
     text.add(1, Text.blue('✦✦·精锻').bold(true))
   })
@@ -114,7 +114,7 @@ onEvent('item.tooltip', tooltip => {
   tooltip.addAdvanced([
     'dragonloot:dragon_bow','dragonloot:dragon_crossbow','mcdw:crossbow_lightning_harp_crossbow','mcdw:crossbow_imploding_crossbow',
     'mcdw:crossbow_pride_of_the_piglins','mcdw:crossbow_veiled_crossbow','spectrum:bedrock_bow','spectrum:bedrock_crossbow',
-    'twilightforest:seeker_bow','twilightforest:triple_bow','gobber2:gobber2_bow_end','spectrum:dreamflayer'
+    'twilightforest:seeker_bow','twilightforest:triple_bow','gobber2:gobber2_bow_end','spectrum:dreamflayer','mcdw:bow_call_of_the_void','mcdw:bow_lost_souls'
   ], (item, advanced, text) => {
     text.add(1, Text.red('✦✦✦✦✦·神器').bold(true))
   })

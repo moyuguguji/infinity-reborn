@@ -1,6 +1,10 @@
 function randomNum(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+function isPlayerSource(source) {
+    if (!source) return false;
+    return source.toString().startsWith('EntityDamageSource (class_3222')
+}
 const whitelist = Ingredient.matchAny([
     'botania:terra_pick',
     'twilightforest:pink_castle_rune_brick',
@@ -136,6 +140,8 @@ onEvent('item.right_click', event => {
 //Infinity
 onEvent('entity.hurt', event => {
     let target = event.getEntity()
+    let source1 = event.getSource()
+    if(!isPlayerSource(source1)) return
     let player = event.getSource().getPlayer()
     let mainItem
     let offItem

@@ -398,7 +398,7 @@ onEvent('item.entity_interact',event =>{
         let profession = entity.fullNBT.VillagerData.profession
       if (ty.includes(profession)) {
         event.cancel()
-        event.server.tell("\u00A74请使用贸易站交易,默认开启,可在任务中关闭")
+        event.server.tell("\u00A74请使用贸易站交易,可在任务中关闭")
     }
     }}}
 })

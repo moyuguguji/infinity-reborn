@@ -3,8 +3,14 @@ onEvent('player.logged_in', event => {
         event.player.stages.add('difficulty_easy')
     }
 })
+function isPlayerSource(source) {
+    if (!source) return false;
+    return source.toString().startsWith('EntityDamageSource (class_3222')
+}
 onEvent('entity.hurt', event => {
     let target = event.getEntity()
+    let source1 = event.getSource()
+    if(source1.getType() === 'player') return
     let source = event.getSource().getActual()
     let damage = event.getDamage()
     let entity = event.getSource().getImmediate()
@@ -36,7 +42,9 @@ onEvent('entity.hurt', event => {
                 }
                 damage_new = damage * 1.1
                 if (offItem.indexOf("shield") >= 0) damage_new = damage_new / 2
-                if(damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25) - target.health > 0){
+                if(damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25) - target.health >= 0){
+                    
+                }else{
                     target.attack(damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25))
                 }
             }
@@ -53,7 +61,9 @@ onEvent('entity.hurt', event => {
                 }
                 damage_new = damage * 1.15
                 if (offItem.indexOf("shield") >= 0) damage_new = damage_new / 2
-                if(damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25) - target.health > 0){
+                if(damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25) - target.health >= 0){
+                    
+                }else{
                     target.attack(damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25))
                 }
             }
@@ -67,7 +77,9 @@ onEvent('entity.hurt', event => {
                 }
                 damage_new = damage * 1.5
                 if (offItem.indexOf("shield") >= 0) damage_new = damage_new / 2
-                if(damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25) - target.health > 0){
+                if(damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25) - target.health >= 0){
+                    
+                }else{
                     target.attack(damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25))
                 }
             }
@@ -81,7 +93,9 @@ onEvent('entity.hurt', event => {
                 }
                 damage_new = damage * 2.5
                 if (offItem.indexOf("shield") >= 0) damage_new = damage_new / 2
-                if(damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25) - target.health > 0){
+                if(damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25) - target.health >= 0){
+                    
+                }else{
                     target.attack(damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25))
                 }
             }
@@ -198,6 +212,8 @@ onEvent('entity.hurt', event => {
 
 onEvent('entity.hurt', event => {
     let target = event.getEntity()
+    let source1 = event.getSource()
+    if(!isPlayerSource(source1)) return
     let play = event.getSource().getPlayer()
     let damage = event.getDamage()
     if (play != null) {
@@ -351,6 +367,8 @@ function randomNum(min, max) {
 
 onEvent('entity.hurt', event => {
     let target = event.getEntity()
+    let source1 = event.getSource()
+    if(!isPlayerSource(source1)) return
     let player = event.getSource().getPlayer()
     let source = event.getSource().getActual()
     let damage = event.getDamage()

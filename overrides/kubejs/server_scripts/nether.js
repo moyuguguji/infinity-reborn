@@ -4,7 +4,6 @@ onEvent('player.logged_in', event => {
   if (!event.player.stages.has('nether')) {
     // 没有则添加该阶段
     event.player.stages.add('nether')
-    event.player.stages.add('villager')
     event.player.give(Item.of('kubejs:difficulty_changer', '{RepairCost:1}'))
     event.player.give(Item.of('20x kubejs:chinese_dumpling'))
     event.player.give(Item.of('2x kubejs:firecracker'))
