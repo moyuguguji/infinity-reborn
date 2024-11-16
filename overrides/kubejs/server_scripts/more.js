@@ -118,7 +118,7 @@ onEvent('recipes', event => {
         "soundEventIdentifier": "block.stone.break"
 
     })
-
+})
 
 
 
@@ -184,4 +184,3 @@ onEvent('recipes', event => {
             }
         }
     })
-})

@@ -540,12 +540,12 @@ onEvent('recipes', event => {
         "count": 1
       },
       {
-        "item": 'minecraft:nether_star',
+        "item": 'spectrum:shooting_star_fiery',
         "count": 1
       },
       {
-        "item": 'spectrum:stardust',
-        "count": 10
+        "item": 'minecraft:nether_star',
+        "count": 1
       },
       {
         "item": 'kubejs:shenqi_ingot',
@@ -555,7 +555,7 @@ onEvent('recipes', event => {
     "result": {
       "item": 'kubejs:qixing_sword'
     },
-    "required_advancement": "spectrum:catch_shooting_star",
+    "required_advancement": "spectrum:collect_all_shooting_star_variants",
     "world_conditions": ["midnight", "new_moon"],
     "start_crafting_effect": "nothing",
     "during_crafting_effects": [

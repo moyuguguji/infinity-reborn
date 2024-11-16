@@ -246,4 +246,95 @@ onEvent('recipes',event => {
         B: 'infinity:special_handlingof_glowing_obsidian',
 		C: 'mcda:gemstone_purple'
 	  })
+	  event.shaped('mcdw:bow_sabrewing', [
+		' AB',
+		'ACB',
+		' AB'
+	  ], 
+      {
+		A: 'minecraft:gold_ingot',
+        B: 'mythicmetals:silver_ingot',
+		C: 'minecraft:iron_ingot'
+	  })
+	  event.shaped('mcdw:bow_void_bow', [
+		' AB',
+		'DCB',
+		' AB'
+	  ], 
+      {
+		A: 'minecraft:amethyst_shard',
+        B: 'minecraft:string',
+		C: 'gobber2:gobber2_block',
+		D: 'minecraft:purpur_block'
+	  })
+	  event.custom({
+		type: 'alloy_forgery:forging',
+		'inputs': [
+		{
+		"item": 'mcdw:bow_ancient_bow',
+		"count": 1
+		},
+		{
+		"item": 'gobber2:gobber2_ingot_nether',
+		"count": 3
+		},
+		{
+		"item": 'heartytrinkets:wither_rib',
+		"count": 10
+		},
+		{
+		"item": 'mcda:upgrade_core_soul',
+		"count": 3
+		},
+		{
+		"item": 'mcda:phantom_bones',
+		"count": 2
+		},
+		{
+		"item": 'mcda:upgrade_core_wither',
+		"count": 2
+		}
+		],
+		'output': {
+		'id': 'mcdw:bow_lost_souls',
+		'count': 1
+		},
+		'min_forge_tier': 3,
+		'fuel_per_tick': 500
+	})
+	event.custom({
+		type: 'alloy_forgery:forging',
+		'inputs': [
+		{
+		"item": 'mcdw:bow_void_bow',
+		"count": 1
+		},
+		{
+		"item": 'gobber2:gobber2_ingot_end',
+		"count": 3
+		},
+		{
+		"item": 'betterend:dragon_bone_block',
+		"count": 16
+		},
+		{
+		"item": 'betterend:eternal_crystal',
+		"count": 16
+		},
+		{
+		"item": 'charm:ender_pearl_block',
+		"count": 2
+		},
+		{
+		"item": 'enderscape:nebulite',
+		"count": 2
+		}
+		],
+		'output': {
+		'id': 'mcdw:bow_call_of_the_void',
+		'count': 1
+		},
+		'min_forge_tier': 4,
+		'fuel_per_tick': 800
+	})
 })

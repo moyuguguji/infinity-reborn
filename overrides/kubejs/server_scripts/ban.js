@@ -84,6 +84,8 @@ onEvent('recipes', event =>{
     event.remove({output:'soulsweapons:blackstone_pedestal'})
     event.remove({output:'yigd:grave'})
     event.remove({output:'scout:satchel'})
+    event.remove({output:'mcdw:bow_void_bow'})
+    event.remove({output:'mcdw:bow_call_of_the_void'})
     event.remove({output:'scout:upgraded_satchel'})
     event.remove({mod: 'wands'})
     event.remove({output: 'travelersbackpack:lapis'})

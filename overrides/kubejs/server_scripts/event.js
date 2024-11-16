@@ -161,7 +161,7 @@ onEvent('entity.hurt', event => {
         }
         if (mainItem == 'kubejs:qixing_sword') {
             player.heal((damage + target.health * 0.05) * 0.05)
-            target.attack(target.maxHealth * 0.001)
+            target.attack(target.maxHealth * 0.005)
         }
         if (mainItem == 'kubejs:nature_spirit') {
             target.potionEffects.add('minecraft:slowness', 40, 9)
@@ -199,23 +199,23 @@ onEvent('entity.hurt', event => {
         }
         if (mainItem == 'kubejs:mu_jian') {
             let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
-            target.attack("minecart:player", result * 0.5)
+            target.attack(result * 0.5)
         }
         if (mainItem == 'kubejs:mu_jian_seven') {
             let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
-            target.attack("minecart:player", result * 0.25)
+            target.attack(result * 0.25)
         }
         if (mainItem == 'kubejs:yuan_mu_jian') {
             let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
-            target.attack("minecart:player", result * 2.0)
+            target.attack(result * 2.0)
         }
         if (mainItem == 'kubejs:yuan_mu_jian_seven') {
             let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
-            target.attack("minecart:player", result * 1.0)
+            target.attack(result * 1.0)
         }
         if (mainItem == 'kubejs:yuan_mu_jian_one') {
             let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
-            target.attack("minecart:player", result * 0.5)
+            target.attack(result * 0.5)
         }
     }
 })
