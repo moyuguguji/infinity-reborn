@@ -158,6 +158,9 @@ onEvent("entity.spawned", event => {
     "twilightforest:knight_phantom"
   ]
   let entity = event.getEntity()
+  if (entity.potionEffects.isActive('kibe:cursed_effect')) {
+    entity.mergeFullNBT({NoAI:true})
+  }
   if (entity.monster || entity.type == "whisperwoods:hirschgeist") {
     if (targetTypes.includes(entity.type)) {
       //entity.setMaxHealth(entity.maxHealth*(0.5))
