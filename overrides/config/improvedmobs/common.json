@@ -299,7 +299,7 @@
       "adventurez:the_eye|REVERSE|ATTRIBUTES",
       "whisperwoods:hirschgeist|REVERSE|ATTRIBUTES",
       "soulsweapons:night_shade|REVERSE|ATTRIBUTES",
-      "bosses_of_mass_destruction:lich|REVERSE|ATTRIBUTES",
+      "bosses_of_mass_destruction:lich",
       "bosses_of_mass_destruction:void_blossom|REVERSE|ATTRIBUTES",
       "bosses_of_mass_destruction:obsidilith|REVERSE|ATTRIBUTES",
       "bosses_of_mass_destruction:gauntlet|REVERSE|ATTRIBUTES",
@@ -537,7 +537,7 @@
       "Difficulty at which mobs are able to steal items",
       "Range: > 0.0"
     ],
-    "input": 10.0
+    "input": 50.0
   },
   "Guardian Chance": {
     "__comment": [
