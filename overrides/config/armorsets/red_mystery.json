@@ -31,7 +31,7 @@
   "fullSetBonuses": [
     {
       "type": "effect",
-      "name": "minecraft:haste",
+      "name": "spectrum:swiftness",
       "value": 1.0,
       "interactionType": "self",
       "interactionDuration": 300,

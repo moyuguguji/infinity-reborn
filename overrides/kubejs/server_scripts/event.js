@@ -189,7 +189,7 @@ onEvent('entity.hurt', event => {
                 target.attack(damage * 2.5)
                 target.potionEffects.add('minecraft:slowness', 100, 9)
                 target.potionEffects.add('minecraft:weakness', 100, 9)
-                player.potionEffects.add('minecraft:haste', 20, 9, false, false)
+                player.potionEffects.add('spectrum:swiftness', 20, 9, false, false)
             } else {
                 target.attack(damage * 0.5)
             }
@@ -351,7 +351,6 @@ onEvent('player.tick', event => {
     if (mainItem == 'kubejs:nature_spirit') {
         player.potionEffects.add('minecraft:night_vision', 240, 0, false, false)
         player.potionEffects.add('minecraft:haste', 20, 1, false, false)
-
         if (event.player.lastAttackedEntity != null && !event.player.lastAttackedEntity.potionEffects.isActive('soulsweapons:bleed')) {
             event.player.lastAttackedEntity.potionEffects.add('soulsweapons:bleed', 80, 6)
             //event.server.runCommandSilent(`effect give ${event.player.lastAttackedEntity.id} minecraft:slowness 5 1 true`)
@@ -362,7 +361,6 @@ onEvent('player.tick', event => {
 onEvent('block.break', event => {
     let player = event.player
     let mainItem = player.getHeldItem(MAIN_HAND)
-
     if (mainItem == 'kubejs:nature_spirit') {
         event.player.heal(1)
         event.player.addFood(2, 0.5)
@@ -628,7 +626,7 @@ onEvent('player.tick', event => {
     if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:lce_tang') {
         let player = event.player
         if (player.health < player.maxHealth * 0.5) {
-            event.player.potionEffects.add('minecraft:haste', 10, 2, false, false)
+            event.player.potionEffects.add('spectrum:swiftness', 10, 2, false, false)
         }
     }
 })
@@ -654,7 +652,7 @@ onEvent('player.tick', event => {
     let player = event.player
     if (player.getHeldItem(MAIN_HAND) == 'kubejs:jian_li') {
         if (player.lastAttackedEntity != null && player.lastAttackedEntity.attackingEntity != null) {
-            player.potionEffects.add('minecraft:haste', 10, 1, false, false)
+            player.potionEffects.add('spectrum:swiftness', 10, 1, false, false)
             player.potionEffects.add('minecraft:strength', 10, 1, false, false)
         }
     }

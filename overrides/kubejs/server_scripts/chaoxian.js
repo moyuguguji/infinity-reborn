@@ -1448,6 +1448,104 @@ onEvent('recipes', event => {
                 "required_advancement": "spectrum:create_onyx_shard"
               }
           )
+          event.custom(
+            {
+                type : "spectrum:enchantment_upgrade",
+                "enchantment": "mcdw:void_shot",
+                "levels": [
+                  {
+                    "experience": 200,
+                    "item": "adventurez:source_stone",
+                    "item_count": 2
+                  },
+                  {
+                    "experience": 400,
+                    "item": "adventurez:source_stone",
+                    "item_count": 4
+                  },
+                  {
+                    "experience": 4000,
+                    "item": "adventurez:source_stone",
+                    "item_count": 4
+                  },{
+                    "experience": 6000,
+                    "item": "adventurez:source_stone",
+                    "item_count": 8
+                  },{
+                    "experience": 9000,
+                    "item": "adventurez:source_stone",
+                    "item_count": 16
+                  },{
+                    "experience": 10000,
+                    "item": "adventurez:source_stone",
+                    "item_count": 32
+                  },{
+                    "experience": 12000,
+                    "item": "adventurez:source_stone",
+                    "item_count": 64
+                  },{
+                    "experience": 20000,
+                    "item": "adventurez:source_stone",
+                    "item_count": 128
+                  },
+                  {
+                    "experience": 20000,
+                    "item": "adventurez:source_stone",
+                    "item_count": 128
+                  }
+                ],
+                "required_advancement": "spectrum:create_onyx_shard"
+              }
+          )
+          event.custom(
+            {
+                type : "spectrum:enchantment_upgrade",
+                "enchantment": "mcdw:void_strike",
+                "levels": [
+                  {
+                    "experience": 200,
+                    "item": "adventurez:source_stone",
+                    "item_count": 2
+                  },
+                  {
+                    "experience": 400,
+                    "item": "adventurez:source_stone",
+                    "item_count": 4
+                  },
+                  {
+                    "experience": 4000,
+                    "item": "adventurez:source_stone",
+                    "item_count": 4
+                  },{
+                    "experience": 6000,
+                    "item": "adventurez:source_stone",
+                    "item_count": 8
+                  },{
+                    "experience": 9000,
+                    "item": "adventurez:source_stone",
+                    "item_count": 16
+                  },{
+                    "experience": 10000,
+                    "item": "adventurez:source_stone",
+                    "item_count": 32
+                  },{
+                    "experience": 12000,
+                    "item": "adventurez:source_stone",
+                    "item_count": 64
+                  },{
+                    "experience": 20000,
+                    "item": "adventurez:source_stone",
+                    "item_count": 128
+                  },
+                  {
+                    "experience": 20000,
+                    "item": "adventurez:source_stone",
+                    "item_count": 128
+                  }
+                ],
+                "required_advancement": "spectrum:create_onyx_shard"
+              }
+          )
             }
             )
     
