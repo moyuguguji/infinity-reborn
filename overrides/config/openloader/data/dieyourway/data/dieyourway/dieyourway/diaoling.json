@@ -9,7 +9,7 @@
         "[\"\",%1$s,{\"text\":\" 被踢出了这个世界,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
         "[\"\",%1$s,{\"text\":\" 变为了一块充满弹性的墓碑,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
         "[\"\",%1$s,{\"text\":\" 爆金币了,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
-        "[\"\",%2$s,{\"text\":\" 饱了 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
+        "[\"\",%2$s,{\"text\":\" 饱了 \",\"bold\":true,\"color\":\"dark_red\"}]",
         "[\"\",%1$s,{\"text\":\" 被超度了,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
         "[\"\",%1$s,{\"text\":\" 失误了,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",
         "[\"\",%1$s,{\"text\":\" 手抽筋了,凶手是 \",\"bold\":true,\"color\":\"dark_red\"},%2$s]",

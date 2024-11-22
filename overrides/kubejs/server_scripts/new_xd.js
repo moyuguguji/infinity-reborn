@@ -249,7 +249,6 @@ onEvent("entity.spawned", event => {
 })
 onEvent("entity.death", event => {
   let entity = event.getEntity()
-  let player = event.getSource().getPlayer()
   if (entity.player) {
     if (entity.stages.has('difficulty_easy')) {
       event.server.runCommandSilent(`improvedmobs difficulty player ${entity.profile.name} add -0.5`)

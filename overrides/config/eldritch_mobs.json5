@@ -23,7 +23,7 @@
 	// Boss bars appears when placing crosshair on buffed mob
 	"crosshairBossBars": true,
 	// Buffed mobs are highlighted after being damaged
-	"turnOnGlowingMobs": true,
+	"turnOnGlowingMobs": false,
 	// Turn off loot for buffed mobs
 	"disableLootDrops": false,
 	// If true, buffed mobs only drop loot when killed by players

@@ -296,6 +296,8 @@ onEvent('item.right_click', event => {
 //七星剑
 onEvent('entity.death', event => {
     let entity = event.getEntity()
+    let source1 = event.getSource()
+    if(!isPlayerSource(source1)) return
     let player = event.getSource().getPlayer()
     if (player != null) {
         if (player.getHeldItem(MAIN_HAND) == 'kubejs:qixing_sword') {
