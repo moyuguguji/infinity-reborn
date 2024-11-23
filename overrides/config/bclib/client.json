@@ -8,7 +8,7 @@
     "acceptFiles [default: true]": true,
     "acceptMods [default: false]": false,
     "displayModInfo [default: true]": true,
-    "debugHashes [default: false]": true
+    "debugHashes [default: false]": false
   },
   "rendering": {
     "customFogRendering [default: true]": true,

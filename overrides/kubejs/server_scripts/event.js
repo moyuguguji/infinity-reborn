@@ -217,6 +217,10 @@ onEvent('entity.hurt', event => {
             let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
             target.attack(result * 0.5)
         }
+        if(mainItem == 'kubejs:sheng_jin'){
+            target.potionEffects.add('extraalchemy:combustion',600,9)
+            event.server.runCommandSilent(`summon minecraft:lightning_bolt ${target.getX()} ${target.getY()} ${target.getZ()}`)
+        }
     }
 })
 
