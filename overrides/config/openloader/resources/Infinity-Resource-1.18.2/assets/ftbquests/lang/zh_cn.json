@@ -19,7 +19,7 @@
 	"block.ftbquests.chest.input_desc": "将物品放在这里以完成任务",
 	"block.ftbquests.chest.output": "输出格",
 	"block.ftbquests.chest.output_desc": "奖励将出现在这里",
-	"item.ftbquests.book": "无限之书",
+	"item.ftbquests.book": "任务之书",
 	"item.ftbquests.lootcrate": "奖励箱",
 	"ftbquests.rarity.common": "常见",
 	"ftbquests.rarity.uncommon": "不常见",

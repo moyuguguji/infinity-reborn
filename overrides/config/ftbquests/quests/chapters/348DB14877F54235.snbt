@@ -87,7 +87,7 @@
 						Count: 1b
 						tag: {
 							StoredEnchantments: [{
-								lvl: 10s
+								lvl: 25s
 								id: "minecraft:fortune"
 							}]
 						}
