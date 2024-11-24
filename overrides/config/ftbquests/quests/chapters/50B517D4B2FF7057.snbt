@@ -72,8 +72,8 @@
 				Count: 1b
 				tag: {
 					BlockEntityTag: {
-						CandleColor: 0
 						CandleAmount: 1
+						CandleColor: 0
 					}
 				}
 			}
@@ -100,8 +100,8 @@
 					Count: 1b
 					tag: {
 						BlockEntityTag: {
-							CandleColor: 0
 							CandleAmount: 1
+							CandleColor: 0
 						}
 					}
 				}

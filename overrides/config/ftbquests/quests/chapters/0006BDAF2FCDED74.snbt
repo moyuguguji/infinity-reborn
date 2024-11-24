@@ -676,10 +676,6 @@
 							Damage: 0
 							HideFlags: 1
 							swa3: { }
-							display: {
-								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"bold\":true,\"text\":\"给你的礼物\"}],\"text\":\"\"}"
-								Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"color\":\"gold\",\"text\":\"   锋利无比,坚不可摧\"}],\"text\":\"\"}"]
-							}
 							AttributeModifiers: [{
 								Slot: "mainhand"
 								Operation: 0
@@ -689,9 +685,13 @@
 									-1153077639
 									1156387476
 								]
-								AttributeName: "minecraft:generic.attack_damage"
 								Amount: 20.0d
+								AttributeName: "minecraft:generic.attack_damage"
 							}]
+							display: {
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"bold\":true,\"text\":\"给你的礼物\"}],\"text\":\"\"}"
+								Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"color\":\"gold\",\"text\":\"   锋利无比,坚不可摧\"}],\"text\":\"\"}"]
+							}
 						}
 					}
 				}

@@ -598,6 +598,8 @@
 			x: -5.25d
 			y: 5.25d
 			subtitle: "不会保留附魔等效果"
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
 			size: 1.5d
 			id: "7402A8B00799FBF4"
 			tasks: [

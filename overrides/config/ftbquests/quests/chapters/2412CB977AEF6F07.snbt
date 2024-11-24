@@ -1140,8 +1140,8 @@
 						tag: {
 							nomadbooks: {
 								Structure: "nomadbooks:campfire3x1x3"
-								Height: 1
 								Width: 3
+								Height: 1
 							}
 						}
 					}

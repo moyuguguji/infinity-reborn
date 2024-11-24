@@ -2371,15 +2371,15 @@
 								bonusDmg: 20.0f
 							}
 							COLD: {
-								slowDur: 10.0f
 								freezeDur: 10.0f
+								slowDur: 10.0f
 								bonusDmg: 20.0f
 							}
 						}
-						durable: 1
 						Tiered: {
 							Tier: "tiered:infinity_melee"
 						}
+						durable: 1
 						display: {
 							Name: "{\"text\":\"【无垠星空·原初试作】\",\"italic\":\"false\",\"bold\":\"true\",\"color\":\"gold\"}"
 						}
@@ -2461,13 +2461,13 @@
 					RepairCost: 1
 					durable: -1
 					Damage: 0
+					Tiered: {
+						Tier: "tiered:infinity_melee"
+					}
 					swa3: {
 						CRIT: {
 							critChance: 0.17114973f
 						}
-					}
-					Tiered: {
-						Tier: "tiered:infinity_melee"
 					}
 				}
 			}
@@ -2735,8 +2735,8 @@
 						}
 						swa3: {
 							COLD: {
-								slowDur: 25.0f
 								freezeDur: 25.0f
+								slowDur: 25.0f
 								bonusDmg: 25.0f
 							}
 						}

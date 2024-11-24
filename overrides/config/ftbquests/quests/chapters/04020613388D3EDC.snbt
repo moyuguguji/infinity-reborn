@@ -159,10 +159,10 @@
 					id: "minecraft:stick"
 					Count: 1b
 					tag: {
-						HideFlags: 1
 						display: {
 							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"我 要 飞\"}],\"text\":\"\"}"
 						}
+						HideFlags: 1
 						Enchantments: [
 							{
 								lvl: 40
@@ -294,7 +294,6 @@
 					id: "spectrum:knowledge_gem"
 					Count: 1b
 					tag: {
-						stored_experience: 1000000000
 						Enchantments: [
 							{
 								lvl: 5s
@@ -305,6 +304,7 @@
 								id: "minecraft:quick_charge"
 							}
 						]
+						stored_experience: 1000000000
 					}
 				}
 				consume_items: false
