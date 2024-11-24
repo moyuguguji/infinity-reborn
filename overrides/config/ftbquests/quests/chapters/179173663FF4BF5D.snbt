@@ -765,18 +765,11 @@
 			]
 			dependencies: ["302E302BDA7BF0F5"]
 			id: "3072D5AD682F4876"
-			tasks: [
-				{
-					id: "0BBC0E7EBBE3E2E8"
-					type: "item"
-					item: "betterend:infusion_pedestal"
-				}
-				{
-					id: "2BF9C597264D3A2A"
-					type: "item"
-					item: "betterend:quartz_pedestal"
-				}
-			]
+			tasks: [{
+				id: "0BBC0E7EBBE3E2E8"
+				type: "item"
+				item: "betterend:infusion_pedestal"
+			}]
 			rewards: [{
 				id: "36B122B80B0912E7"
 				type: "random"
@@ -797,6 +790,7 @@
 					id: "mcdw:sword_the_starless_night"
 					Count: 1b
 					tag: {
+						Damage: 0
 						swa3: {
 							COLD: {
 								slowDur: 4.5f
@@ -804,7 +798,6 @@
 								bonusDmg: 2.0f
 							}
 						}
-						Damage: 0
 					}
 				}
 			}]

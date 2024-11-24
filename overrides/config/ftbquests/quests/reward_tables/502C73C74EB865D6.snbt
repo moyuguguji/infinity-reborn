@@ -1,0 +1,19 @@
+{
+	id: "502C73C74EB865D6"
+	order_index: 12
+	title: "树苗"
+	loot_size: 1
+	rewards: [
+		{ item: "spectrum:orange_sapling" }
+		{ item: "spectrum:magenta_sapling" }
+		{ item: "spectrum:light_blue_sapling" }
+		{ item: "spectrum:yellow_sapling" }
+		{ item: "spectrum:lime_sapling" }
+		{ item: "spectrum:pink_sapling" }
+		{ item: "spectrum:cyan_sapling" }
+		{ item: "spectrum:purple_sapling" }
+		{ item: "spectrum:blue_sapling" }
+		{ item: "spectrum:green_sapling" }
+		{ item: "spectrum:red_sapling" }
+	]
+}

@@ -21,7 +21,6 @@ onEvent("lootjs", (event) => {
     event
         .addLootTypeModifier(LootType.CHEST)
         .hasAnyStage('difficulty_yonghen')
-        .removeLoot("@gofish")
         .removeLoot("artifacts:feral_claws")
         .removeLoot("utilities:feralclaws")
         .removeLoot("utilities:berserkerglove")
@@ -44,6 +43,11 @@ onEvent("lootjs", (event) => {
         .biome("minecraft:soul_sand_valley")
         .addLoot('gofish:soul_crate')
 
+    event
+        .addLootTypeModifier(LootType.FISHING)
+        .randomChance(0.1)
+        .addLoot('kubejs:jiushu_heart_shard')
+    
     event
         .addBlockLootModifier("enchantablespike:diamond_spikes")
         .addLoot("enchantablespike:diamond_spikes")

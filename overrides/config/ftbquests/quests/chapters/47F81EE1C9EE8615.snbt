@@ -562,6 +562,82 @@
 				count: 99
 			}]
 		}
+		{
+			title: "彩色树苗"
+			icon: "spectrum:red_sapling"
+			disable_toast: true
+			x: -3.0d
+			y: 5.25d
+			dependencies: ["7AACC55C1BC80F2A"]
+			hide: true
+			size: 1.5d
+			optional: true
+			can_repeat: true
+			id: "5E67014B4B9DF3BC"
+			tasks: [{
+				id: "036ED4B3DCEA2102"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:silver_coin"
+					Count: 1b
+					tag: { }
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0055697FB57CBE48"
+				type: "choice"
+				icon: "spectrum:red_sapling"
+				exclude_from_claim_all: true
+				table_id: 5777119721865897430L
+			}]
+		}
+		{
+			title: "泰拉升级"
+			x: -5.25d
+			y: 5.25d
+			subtitle: "不会保留附魔等效果"
+			size: 1.5d
+			id: "7402A8B00799FBF4"
+			tasks: [
+				{
+					id: "022DEEE38D2E0F8F"
+					type: "item"
+					title: "任意泰拉镐"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "botania:terra_pick"
+						}
+					}
+				}
+				{
+					id: "112615C6FEAE3D1C"
+					type: "item"
+					item: {
+						id: "botania:mana_tablet"
+						Count: 1b
+						tag: {
+							mana: 500000
+							creative: 1b
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "783DFBDCF02E1DED"
+				type: "item"
+				item: {
+					id: "botania:terra_pick"
+					Count: 1b
+					tag: {
+						mana: 100000000
+						Damage: 0
+					}
+				}
+			}]
+		}
 	]
 	quest_links: [ ]
 }

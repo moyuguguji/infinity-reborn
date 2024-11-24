@@ -36,18 +36,18 @@
 			}]
 			rewards: [
 				{
-					id: "7489281C5FAADAAA"
-					type: "item"
-					auto: "no_toast"
-					item: "ftbquests:book"
-				}
-				{
 					id: "6473E040515D019F"
 					type: "command"
 					title: "点我加入QQ频道"
 					icon: "ecologics:penguin_feather"
 					command: "/tellraw @p [{\"text\":\"点我加入QQ频道\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://pd.qq.com/s/8bsyxitlc\"}}]"
 					player_command: false
+				}
+				{
+					id: "742ADAB1C5054462"
+					type: "item"
+					auto: "no_toast"
+					item: "ftbquests:book"
 				}
 			]
 		}

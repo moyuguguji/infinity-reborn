@@ -21,12 +21,9 @@ onEvent('item.registry', event => {
 		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip14'))
 		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip15'))
 		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip16'))
-		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip23'))
 		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip17'))
 		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip18'))
 		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip19'))
-		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip20'))
-		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip21'))
 		.tooltip(Text.translate('item.kubejs.difficulty_changer.tooltip22'))
 		.rarity(Rarity.EPIC),
 

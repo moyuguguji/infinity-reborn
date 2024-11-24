@@ -3,20 +3,16 @@ event.custom({
     type: 'alloy_forgery:forging',
     'inputs': [
     {
-    "item": "minecraft:blast_furnace",
+    "item": "fabric-furnaces:obsidian_furnace",
     "count": 1
     },
     {
     "item": "mythicmetals:adamantite_block",
-    "count": 2
+    "count": 1
     },
     {
     "item": "twilightforest:fiery_ingot",
     "count": 8
-    },
-    {
-    "item": "mythicmetals:adamantite_ingot",
-    "count": 10
     },
     ],
     'output': {
@@ -49,12 +45,12 @@ event.custom({
     "count": 1
     },
     {
-    "item": "mythicmetals:metallurgium_block",
-    "count": 1
+    "item": "mythicmetals:starrite",
+    "count": 8
     },
     {
-    "item": "mythicmetals:hallowed_block",
-    "count": 3
+    "item": "fabric-furnaces:ethereal_furnace",
+    "count": 1
     },
     {
     "item": "dragonloot:dragon_scale",

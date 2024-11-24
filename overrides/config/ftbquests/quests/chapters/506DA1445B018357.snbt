@@ -1,7 +1,7 @@
 {
 	id: "506DA1445B018357"
 	group: "0B54634113ED2BBC"
-	order_index: 1
+	order_index: 0
 	filename: "506DA1445B018357"
 	title: "光谱世界"
 	icon: "spectrum:manual"
@@ -1463,6 +1463,7 @@
 			]
 		}
 		{
+			title: "[可选]流星"
 			x: 0.0d
 			y: -1.0d
 			subtitle: "天外之物"
@@ -2217,6 +2218,7 @@
 				"“我也很喜欢这株小草，因为三叶草其实就是扑克牌中梅花的由来，而我恰好是Mei_Hua。”"
 			]
 			dependencies: ["5637FEB12ADC8EB3"]
+			optional: true
 			id: "4355E479445EE1F4"
 			tasks: [{
 				id: "1D5CE81DE566D3BF"
@@ -2236,6 +2238,7 @@
 			subtitle: "三万分之一的概率！"
 			description: ["四叶草是三叶草的稀有变种，在西方国家，人们总认为能寻找到四叶草是非常幸运的表现，预示着接下来的行动将会一帆风顺。"]
 			dependencies: ["4355E479445EE1F4"]
+			optional: true
 			id: "20A6E081D6A47E98"
 			tasks: [
 				{
@@ -2378,8 +2381,9 @@
 			x: 4.5d
 			y: 1.0d
 			subtitle: "你对附魔的掌控已然巅峰造极"
-			description: ["使用鎏金之书和七彩碎片的力量将你的祛魔台彻底升级"
-			在界面最右边放置消耗材料
+			description: [
+				"使用鎏金之书和七彩碎片的力量将你的祛魔台彻底升级"
+				"在界面最右边放置消耗材料"
 			]
 			dependencies: ["2BE6F94629B66CAB"]
 			optional: true
@@ -2439,7 +2443,11 @@
 			x: 1.5d
 			y: -5.5d
 			subtitle: "开了就是开了?"
-			description: ["这个方块可以透视周围的物体(等同于观察者视角)"]
+			description: [
+				"这个方块可以透视周围的物体(等同于观察者视角)"
+				""
+				"需要获得午夜残片后制作"
+			]
 			dependencies: ["02AEC569D0486F89"]
 			id: "2646F4AE06A6AD56"
 			tasks: [{

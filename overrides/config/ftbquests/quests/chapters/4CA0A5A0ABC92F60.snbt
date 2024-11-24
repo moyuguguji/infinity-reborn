@@ -20,7 +20,7 @@
 		disable_toast: true
 		x: -1.0d
 		y: 0.0d
-		subtitle: "跟部分村民右键交易可能导致崩溃,酌情取舍"
+		subtitle: "如果你右键村民崩溃可以打开这个"
 		size: 2.0d
 		optional: true
 		can_repeat: true

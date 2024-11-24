@@ -47,11 +47,6 @@
 					type: "item"
 					item: "kubejs:nightbreak"
 				}
-				{
-					id: "50C110A4B1758686"
-					type: "item"
-					item: "kubejs:boss_rush"
-				}
 			]
 		}
 		{
@@ -73,7 +68,6 @@
 					id: "minecraft:written_book"
 					Count: 1b
 					tag: {
-						filtered_title: "赞助者名单"
 						pages: [
 							"{\"text\":\"眉眼生花\\n燕麦\\nShu_Zhix\\n霖\\n不知所起\\n仓鼠发电机\\n小XX\\n跟魂紫说早安\\n跟皮皮说午安\\n跟哈提说晚安\\n时暮\\nkabushu\\n温宁心\\n群男娘\\n\"}"
 							"{\"text\":\"有事打电话\\n萧骁\\n不思蜀\\n镜心\\nIceTang_冰糖\\n于奥港\\nCycle_bai\\n阿拉善\\n吴权彬\\n最硬的骨终喂汪\\n黑白灰\\nL_ingA\\nForeverCangQiong\\nmowenkuo\"}"
@@ -81,6 +75,7 @@
 							"{\"text\":\"甲虫力气大\\nX_nuohua\\n利昂\\n古鳗芽咕\\n456\\n辣椒香菜\\n无敌迷你世界大王\\n幻灵幽露\\n无奈的开学者\\n思念的风\\n白熊 \\nYanHua\\n悠悠闲闲\\n空之名虚之姓\\n\"}"
 							"{\"text\":\"拾贰\\n烟羽\"}"
 						]
+						filtered_title: "赞助者名单"
 						title: "赞助者名单"
 						author: "moyuguguji"
 					}

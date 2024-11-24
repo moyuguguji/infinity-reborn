@@ -587,8 +587,8 @@
 					id: "mcdw:dagger_void_touched_blade"
 					Count: 1b
 					tag: {
-						swa3: { }
 						Damage: 0
+						swa3: { }
 					}
 				}
 			}]

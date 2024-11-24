@@ -160,6 +160,9 @@
 					Count: 1b
 					tag: {
 						HideFlags: 1
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"我 要 飞\"}],\"text\":\"\"}"
+						}
 						Enchantments: [
 							{
 								lvl: 40
@@ -170,9 +173,6 @@
 								id: "elementalenchantments:wind_curse"
 							}
 						]
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"我 要 飞\"}],\"text\":\"\"}"
-						}
 					}
 				}
 			}]

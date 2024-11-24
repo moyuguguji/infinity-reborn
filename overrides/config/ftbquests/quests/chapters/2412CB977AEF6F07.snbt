@@ -1139,8 +1139,8 @@
 						Count: 1b
 						tag: {
 							nomadbooks: {
-								Height: 1
 								Structure: "nomadbooks:campfire3x1x3"
+								Height: 1
 								Width: 3
 							}
 						}

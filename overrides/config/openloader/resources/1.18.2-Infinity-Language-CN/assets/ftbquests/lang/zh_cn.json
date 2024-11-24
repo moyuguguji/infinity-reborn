@@ -35,7 +35,7 @@
   "block.ftbquests.loot_crate_storage": "战利品箱存储器",
   "block.ftbquests.loot_crate_opener": "战利品箱开启器",
   "block.ftbquests.loot_crate_opener.rightclick": "已存储物品：%d",
-  "item.ftbquests.book": "无限之书",
+  "item.ftbquests.book": "任务之书",
   "item.ftbquests.missing_item": "缺失物品",
   "item.ftbquests.barrier.nogui": "GUI仍在开发中",
   "item.ftbquests.barrier.disabled": "仅在编辑模式下工作！",
