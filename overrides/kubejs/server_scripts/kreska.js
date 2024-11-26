@@ -21,7 +21,7 @@ onEvent('player.tick', event => {
 })
 
 onEvent('item.right_click', event => {
-    if (item.right_click == 'kubejs:kreska') { 
+    if (event.item.id == 'kubejs:kreska') { 
             event.player.potionEffects.add('minecraft:speed', 40, 1, false, false)
             event.server.runCommandSilent(`execute at ${event.player.id} run tp ${event.player.id} ^ ^1 ^10`)
             event.server.runCommandSilent(`execute at ${event.player.id} run particle minecraft:portal ${event.player.x} ${event.player.y + 1} ${event.player.z} 0 0.5 0.5 0.5 50`)

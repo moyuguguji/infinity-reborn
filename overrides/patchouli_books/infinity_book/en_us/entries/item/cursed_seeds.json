@@ -12,7 +12,7 @@
       "type": "patchouli:spotlight",
       "item": "kibe:cursed_dirt",
       "link_recipe": true,
-      "text": "可以加快怪物生成,生成的怪物不会有ai(即不会动)$(br)shift空手右键可以查看目前能刷新什么怪$(br)遇到阳光会燃烧"
+      "text": "可以加快怪物生成$(br)shift空手右键可以查看目前能刷新什么怪$(br)遇到阳光会燃烧"
     }
   ]
 }
