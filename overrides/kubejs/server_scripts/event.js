@@ -143,6 +143,7 @@ onEvent('entity.hurt', event => {
     let source1 = event.getSource()
     if(!isPlayerSource(source1)) return
     let player = event.getSource().getPlayer()
+    let damage= event.getDamage()
     let mainItem
     let offItem
     if (player != null) {
