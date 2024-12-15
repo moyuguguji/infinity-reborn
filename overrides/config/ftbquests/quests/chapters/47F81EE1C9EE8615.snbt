@@ -601,6 +601,7 @@
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			size: 1.5d
+			optional: true
 			id: "7402A8B00799FBF4"
 			tasks: [
 				{
@@ -614,6 +615,7 @@
 							value: "botania:terra_pick"
 						}
 					}
+					consume_items: true
 				}
 				{
 					id: "112615C6FEAE3D1C"
@@ -626,6 +628,8 @@
 							creative: 1b
 						}
 					}
+					consume_items: true
+					match_nbt: true
 				}
 			]
 			rewards: [{

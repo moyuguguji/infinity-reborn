@@ -1113,6 +1113,7 @@
 			x: 5.0d
 			y: 10.0d
 			subtitle: "如果图书管理员崩溃的话可以试着用这个交易"
+			description: ["使用这个需要先打开一次村民交易界面,不然会崩溃"]
 			id: "6CAEEDB86BC4A2C8"
 			tasks: [{
 				id: "683408D0C565C2E8"
@@ -1139,9 +1140,9 @@
 						Count: 1b
 						tag: {
 							nomadbooks: {
+								Height: 1
 								Structure: "nomadbooks:campfire3x1x3"
 								Width: 3
-								Height: 1
 							}
 						}
 					}

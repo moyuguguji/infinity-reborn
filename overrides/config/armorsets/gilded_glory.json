@@ -18,9 +18,12 @@
   },
   "fullSetBonuses": [
     {
-      "type": "effect",
-      "name": "minecraft:luck",
-      "value": 2.0,
+      "type": "attribute",
+      "name": "minecraft:generic.luck",
+      "value": 4,
+      "modifierUUID": "5955adc1-513b-49c9-adf9-716c9aaef514",
+      "description": "+4 \u5e78\u8fd0",
+      "attributeOperation": 0,
       "interactionType": "self",
       "interactionDuration": 300,
       "hideBonusDescription": false,

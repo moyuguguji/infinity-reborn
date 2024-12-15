@@ -16,18 +16,6 @@
     "itemKey": "mcda:blue_mystery_armor_boots",
     "mustBeEmpty": false
   },
-  "partialBonusRequiredAmount": 3,
-  "partialSetBonuses": [
-    {
-      "type": "effect",
-      "name": "minecraft:strength",
-      "value": 1.0,
-      "interactionType": "self",
-      "interactionDuration": 300,
-      "hideBonusDescription": false,
-      "onlyImmuneToNewEffects": false
-    }
-  ],
   "fullSetBonuses": [
     {
       "type": "effect",
@@ -48,9 +36,36 @@
       "onlyImmuneToNewEffects": false
     },
     {
-      "type": "effect",
-      "name": "minecraft:strength",
-      "value": 1.0,
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.1,
+      "modifierUUID": "edf3f1bc-9f2c-44c3-bf31-a686876917ed",
+      "description": "+10% \u653b\u51fb\u4f24\u5bb3",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.25,
+      "modifierUUID": "e8c3b0c8-2b63-4abd-819c-f820870a2975",
+      "description": "+25% \u79fb\u52a8\u901f\u5ea6",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "combatroll:count",
+      "value": 2,
+      "modifierUUID": "1ab3f905-396c-419c-84ed-c1004f4baaca",
+      "description": "+2 \u7ffb\u6eda\u6b21\u6570",
+      "attributeOperation": 0,
       "interactionType": "self",
       "interactionDuration": 300,
       "hideBonusDescription": false,

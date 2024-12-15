@@ -40,23 +40,29 @@
         "onlyImmuneToNewEffects": false
       },
       {
-        "type": "effect",
-        "name": "minecraft:haste",
-        "value": 9.0,
+        "type": "attribute",
+        "name": "tiered:generic.dig_speed",
+        "value": 3,
+        "modifierUUID": "30790fc8-f97a-4196-984d-d832cca1b033",
+        "description": "+300% \u6316\u6398\u901f\u5ea6",
+        "attributeOperation": 1,
         "interactionType": "self",
         "interactionDuration": 300,
         "hideBonusDescription": false,
         "onlyImmuneToNewEffects": false
-      },
+    },
       {
-        "type": "effect",
-        "name": "minecraft:speed",
-        "value": 9.0,
+        "type": "attribute",
+        "name": "minecraft:generic.movement_speed",
+        "value": 1,
+        "modifierUUID": "f2681fcd-4c82-4dac-8a8b-75a7aabe7d1a",
+        "description": "+100% \u79fb\u52a8\u901f\u5ea6",
+        "attributeOperation": 1,
         "interactionType": "self",
         "interactionDuration": 300,
         "hideBonusDescription": false,
         "onlyImmuneToNewEffects": false
-      },
+    },
       {
         "type": "effect",
         "name": "minecraft:saturation",

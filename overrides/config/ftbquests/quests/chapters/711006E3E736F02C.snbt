@@ -125,8 +125,8 @@
 					id: "botania:twig_wand"
 					Count: 1b
 					tag: {
-						color2: 7
 						color1: 6
+						color2: 7
 					}
 				}
 			}]

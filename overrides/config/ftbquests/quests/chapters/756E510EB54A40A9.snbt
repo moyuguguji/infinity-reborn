@@ -2348,40 +2348,40 @@
 					id: "kubejs:putong_stone_sword"
 					Count: 1b
 					tag: {
-						Unbreakable: 1b
-						Damage: 0
-						EnchantGiver: {
-							"yigd:soulbound": 1
-							"minecraft:sharpness": 10
-							"gobber2:smithblade": 10
-						}
 						swa3: {
-							CRIT: {
-								critChance: 1.0f
-							}
 							LIFESTEAL: {
 								lifesteal: 25.0f
 							}
-							POISON: {
-								dur: 30.0f
+							COLD: {
+								slowDur: 10.0f
+								freezeDur: 10.0f
 								bonusDmg: 20.0f
+							}
+							CRIT: {
+								critChance: 1.0f
 							}
 							FIRE: {
 								dur: 20.0f
 								bonusDmg: 20.0f
 							}
-							COLD: {
-								freezeDur: 10.0f
-								slowDur: 10.0f
+							POISON: {
+								dur: 30.0f
 								bonusDmg: 20.0f
 							}
 						}
-						Tiered: {
-							Tier: "tiered:infinity_melee"
-						}
 						durable: 1
+						Unbreakable: 1b
 						display: {
 							Name: "{\"text\":\"【无垠星空·原初试作】\",\"italic\":\"false\",\"bold\":\"true\",\"color\":\"gold\"}"
+						}
+						Damage: 0
+						EnchantGiver: {
+							"minecraft:sharpness": 10
+							"gobber2:smithblade": 10
+							"yigd:soulbound": 1
+						}
+						Tiered: {
+							Tier: "tiered:infinity_melee"
 						}
 					}
 				}
@@ -2458,16 +2458,16 @@
 				id: "kubejs:qixing_sword"
 				Count: 1b
 				tag: {
-					RepairCost: 1
-					durable: -1
-					Damage: 0
-					Tiered: {
-						Tier: "tiered:infinity_melee"
-					}
 					swa3: {
 						CRIT: {
 							critChance: 0.17114973f
 						}
+					}
+					durable: -1
+					RepairCost: 1
+					Damage: 0
+					Tiered: {
+						Tier: "tiered:infinity_melee"
 					}
 				}
 			}
@@ -2506,12 +2506,12 @@
 					id: "kubejs:qixing_sword"
 					Count: 1b
 					tag: {
+						swa3: { }
 						RepairCost: 1
+						Damage: 0
 						Tiered: {
 							Tier: "tiered:qixing_melee2"
 						}
-						Damage: 0
-						swa3: { }
 					}
 				}
 			}]
@@ -2670,15 +2670,15 @@
 					id: "kubejs:yecao_sword"
 					Count: 1b
 					tag: {
-						Damage: 0
-						Tiered: {
-							Tier: "tiered:qixing_melee2"
-						}
 						swa3: {
 							POISON: {
 								dur: 25.0f
 								bonusDmg: 25.0f
 							}
+						}
+						Damage: 0
+						Tiered: {
+							Tier: "tiered:qixing_melee2"
 						}
 					}
 				}
@@ -2729,16 +2729,16 @@
 					id: "kubejs:ruoshui_sword"
 					Count: 1b
 					tag: {
+						swa3: {
+							COLD: {
+								slowDur: 25.0f
+								freezeDur: 25.0f
+								bonusDmg: 25.0f
+							}
+						}
 						Damage: 0
 						Tiered: {
 							Tier: "tiered:qixing_melee2"
-						}
-						swa3: {
-							COLD: {
-								freezeDur: 25.0f
-								slowDur: 25.0f
-								bonusDmg: 25.0f
-							}
 						}
 					}
 				}
@@ -2788,16 +2788,16 @@
 					id: "kubejs:qixing_sword"
 					Count: 1b
 					tag: {
-						RepairCost: 1
-						Tiered: {
-							Tier: "tiered:qixing_melee2"
-						}
-						Damage: 0
 						swa3: {
 							FIRE: {
 								dur: 25.0f
 								bonusDmg: 25.0f
 							}
+						}
+						RepairCost: 1
+						Damage: 0
+						Tiered: {
+							Tier: "tiered:qixing_melee2"
 						}
 					}
 				}
@@ -2901,14 +2901,14 @@
 					id: "kubejs:putong_stone_sword"
 					Count: 1b
 					tag: {
-						Damage: 0
-						Tiered: {
-							Tier: "tiered:qixing_melee2"
-						}
 						swa3: {
 							CRIT: {
 								critChance: 1.0f
 							}
+						}
+						Damage: 0
+						Tiered: {
+							Tier: "tiered:qixing_melee2"
 						}
 					}
 				}

@@ -561,6 +561,7 @@
 				"现在它有了。                   @天稽阁主-斩稽"
 			]
 			dependencies: ["02F039E7A5724ABA"]
+			optional: true
 			id: "7970EDF642E739C3"
 			tasks: [{
 				id: "07709618DE22F5A1"

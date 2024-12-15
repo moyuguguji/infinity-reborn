@@ -9,7 +9,7 @@
   },
   "lightningExplosionDensity": {
     "desc:": "Modifies lightning and explosion density, 0.5 \u003d half as many, 2 \u003d twice as many. default:1.0",
-    "lightningExplosionDensity": 0.2
+    "lightningExplosionDensity": 0.01
   },
   "disableLightning": {
     "desc:": "Disables lightning spawns: default:false",

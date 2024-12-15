@@ -2195,10 +2195,10 @@
 					id: "botania:loki_ring"
 					Count: 1b
 					tag: {
-						soulbindUUID: "a78ece70-8472-4628-af51-51de4d8958e9"
 						xOrigin: 0
-						yOrigin: -2147483648
+						soulbindUUID: "a78ece70-8472-4628-af51-51de4d8958e9"
 						zOrigin: 0
+						yOrigin: -2147483648
 					}
 				}
 			}]

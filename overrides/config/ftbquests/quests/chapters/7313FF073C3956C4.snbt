@@ -1147,6 +1147,7 @@
 				"贸易站也可以接取任务,但是用贸易站点开详情界面时必须要先去一个村民那点开一次,不然会奔溃"
 			]
 			dependencies: ["2F0DF9C52403D984"]
+			optional: true
 			id: "6DF5ACDDAA1B087C"
 			tasks: [{
 				id: "1CDA9DAA9A416786"

@@ -466,6 +466,7 @@
 			title: "寻找亚托克斯"
 			x: -8.5d
 			y: 4.0d
+			subtitle: "这个boss在地狱"
 			dependencies: ["5BB7E2C3AE9231D4"]
 			optional: true
 			can_repeat: true

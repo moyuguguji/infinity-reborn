@@ -8,6 +8,7 @@ onEvent('player.logged_in', event => {
     event.player.give(Item.of('20x kubejs:chinese_dumpling'))
     event.player.give(Item.of('2x kubejs:firecracker'))
     event.player.give(Item.of('4x kubejs:red_packet'))
+    event.player.give(Item.of('10x kubejs:shi_lian'))
     event.player.give(Item.of('kubejs:huan_lin_ying'))
     event.player.give('minecraft:stone_sword')
     event.player.give(Item.of('spectrum:present', '{Colors:[{Amount:1,Color:"white"}],Giver:"moyuguguji",GiverUUID:[I;-1015466589,-1697168830,-1474266886,36528245],Items:[{Count:5b,id:"kubejs:jiushu_heart"},{Count:1b,id:"inmis:frayed_backpack"},{Count:5b,id:"things:recall_potion"},{Count:1b,id:"waystones:warp_stone",tag:{Damage:0}},{Count:1b,id:"gobber2:gobber2_ring_miner"}],Variant:"red",Wrapped:1b,display:{Name:\'{"color":"gold","text":"新手礼包"}\'}}'))

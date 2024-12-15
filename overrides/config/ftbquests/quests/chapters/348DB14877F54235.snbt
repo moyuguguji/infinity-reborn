@@ -41,8 +41,8 @@
 							RepairCost: 0
 							EnchantGiver: {
 								"yigd:soulbound": 1
-								"extra_enchantments:incompatibility_curse": 10
 								"imperishableitems:imperishable": 1
+								"extra_enchantments:incompatibility_curse": 10
 							}
 							display: {
 								Name: "{\"text\":\"传奇证章\",\"italic\":\"false\",\"bold\":\"true\"}"
@@ -118,8 +118,8 @@
 							RepairCost: 0
 							EnchantGiver: {
 								"yigd:soulbound": 1
-								"extra_enchantments:incompatibility_curse": 10
 								"imperishableitems:imperishable": 1
+								"extra_enchantments:incompatibility_curse": 10
 							}
 							display: {
 								Name: "{\"text\":\"谢特\",\"italic\":\"false\",\"bold\":\"true\"}"
@@ -171,18 +171,18 @@
 						id: "incubus_core:lunarian_saber"
 						Count: 1b
 						tag: {
+							swa3: { }
 							RepairCost: 0
-							EnchantGiver: {
-								"yigd:soulbound": 1
-								"extra_enchantments:incompatibility_curse": 10
-								"imperishableitems:imperishable": 1
-							}
 							Unbreakable: 1b
-							Damage: 0
 							display: {
 								Name: "{\"text\":\"勤劳之证明\",\"italic\":\"false\",\"bold\":\"true\"}"
 							}
-							swa3: { }
+							Damage: 0
+							EnchantGiver: {
+								"yigd:soulbound": 1
+								"imperishableitems:imperishable": 1
+								"extra_enchantments:incompatibility_curse": 10
+							}
 						}
 					}
 				}
@@ -235,15 +235,15 @@
 						id: "mcdw:crossbow_imploding_crossbow"
 						Count: 1b
 						tag: {
-							Charged: 0b
+							ChargedProjectiles: [ ]
 							Unbreakable: 1b
 							Damage: 0
+							Charged: 0b
 							EnchantGiver: {
-								"mcdw:void_shot": 1
 								"minecraft:quick_charge": 10
 								"mcdw:enigma_resonator": 1
+								"mcdw:void_shot": 1
 							}
-							ChargedProjectiles: [ ]
 						}
 					}
 				}
@@ -257,8 +257,8 @@
 							RepairCost: 0
 							EnchantGiver: {
 								"yigd:soulbound": 1
-								"extra_enchantments:incompatibility_curse": 10
 								"imperishableitems:imperishable": 1
+								"extra_enchantments:incompatibility_curse": 10
 							}
 							display: {
 								Name: "{\"text\":\"肝帝的认可\",\"italic\":\"false\",\"bold\":\"true\",\"color\":\"red\"}"
@@ -300,8 +300,8 @@
 							RepairCost: 0
 							EnchantGiver: {
 								"yigd:soulbound": 1
-								"extra_enchantments:incompatibility_curse": 10
 								"imperishableitems:imperishable": 1
+								"extra_enchantments:incompatibility_curse": 10
 							}
 							display: {
 								Name: "{\"text\":\"传奇证章\",\"italic\":\"false\",\"bold\":\"true\"}"
@@ -321,8 +321,8 @@
 							RepairCost: 0
 							EnchantGiver: {
 								"yigd:soulbound": 1
-								"extra_enchantments:incompatibility_curse": 10
 								"imperishableitems:imperishable": 1
+								"extra_enchantments:incompatibility_curse": 10
 							}
 							display: {
 								Name: "{\"text\":\"谢特\",\"italic\":\"false\",\"bold\":\"true\"}"
@@ -339,18 +339,18 @@
 						id: "incubus_core:lunarian_saber"
 						Count: 1b
 						tag: {
+							swa3: { }
 							RepairCost: 0
-							EnchantGiver: {
-								"yigd:soulbound": 1
-								"extra_enchantments:incompatibility_curse": 10
-								"imperishableitems:imperishable": 1
-							}
 							Unbreakable: 1b
-							Damage: 0
 							display: {
 								Name: "{\"text\":\"勤劳之证明\",\"italic\":\"false\",\"bold\":\"true\"}"
 							}
-							swa3: { }
+							Damage: 0
+							EnchantGiver: {
+								"yigd:soulbound": 1
+								"imperishableitems:imperishable": 1
+								"extra_enchantments:incompatibility_curse": 10
+							}
 						}
 					}
 					consume_items: true
@@ -366,8 +366,8 @@
 							RepairCost: 0
 							EnchantGiver: {
 								"yigd:soulbound": 1
-								"extra_enchantments:incompatibility_curse": 10
 								"imperishableitems:imperishable": 1
+								"extra_enchantments:incompatibility_curse": 10
 							}
 							display: {
 								Name: "{\"text\":\"杀神的认可\",\"italic\":\"false\",\"bold\":\"true\",\"color\":\"red\"}"
@@ -387,8 +387,8 @@
 							RepairCost: 0
 							EnchantGiver: {
 								"yigd:soulbound": 1
-								"extra_enchantments:incompatibility_curse": 10
 								"imperishableitems:imperishable": 1
+								"extra_enchantments:incompatibility_curse": 10
 							}
 							display: {
 								Name: "{\"text\":\"肝帝的认可\",\"italic\":\"false\",\"bold\":\"true\",\"color\":\"red\"}"
@@ -407,20 +407,20 @@
 						id: "mcdw:crossbow_pride_of_the_piglins"
 						Count: 1b
 						tag: {
+							ChargedProjectiles: [ ]
 							RepairCost: 0
 							Unbreakable: 1b
-							Damage: 0
-							EnchantGiver: {
-								"extra_enchantments:supercharge": 10
-								"mcdw:growing": 10
-								"minecraft:quick_charge": 20
-								"minecraft:multishot": 1
-							}
 							Charged: 0b
 							display: {
 								Name: "{\"text\":\"灾厄\",\"italic\":\"false\",\"bold\":\"true\"}"
 							}
-							ChargedProjectiles: [ ]
+							Damage: 0
+							EnchantGiver: {
+								"mcdw:growing": 10
+								"minecraft:quick_charge": 20
+								"minecraft:multishot": 1
+								"extra_enchantments:supercharge": 10
+							}
 						}
 					}
 				}
@@ -431,40 +431,40 @@
 						id: "kubejs:putong_stone_sword"
 						Count: 1b
 						tag: {
-							Unbreakable: 1b
-							Damage: 0
-							EnchantGiver: {
-								"yigd:soulbound": 1
-								"minecraft:sharpness": 10
-								"gobber2:smithblade": 10
-							}
 							swa3: {
-								CRIT: {
-									critChance: 1.0f
-								}
 								LIFESTEAL: {
 									lifesteal: 25.0f
 								}
-								POISON: {
-									dur: 30.0f
+								COLD: {
+									slowDur: 10.0f
+									freezeDur: 10.0f
 									bonusDmg: 20.0f
+								}
+								CRIT: {
+									critChance: 1.0f
 								}
 								FIRE: {
 									dur: 20.0f
 									bonusDmg: 20.0f
 								}
-								COLD: {
-									freezeDur: 10.0f
-									slowDur: 10.0f
+								POISON: {
+									dur: 30.0f
 									bonusDmg: 20.0f
 								}
 							}
-							Tiered: {
-								Tier: "tiered:infinity_melee"
-							}
 							durable: 1
+							Unbreakable: 1b
 							display: {
 								Name: "{\"text\":\"【无垠星空·原初试作】\",\"italic\":\"false\",\"bold\":\"true\",\"color\":\"gold\"}"
+							}
+							Damage: 0
+							EnchantGiver: {
+								"minecraft:sharpness": 10
+								"gobber2:smithblade": 10
+								"yigd:soulbound": 1
+							}
+							Tiered: {
+								Tier: "tiered:infinity_melee"
 							}
 						}
 					}
@@ -517,8 +517,8 @@
 							RepairCost: 0
 							EnchantGiver: {
 								"yigd:soulbound": 1
-								"extra_enchantments:incompatibility_curse": 10
 								"imperishableitems:imperishable": 1
+								"extra_enchantments:incompatibility_curse": 10
 							}
 							display: {
 								Name: "{\"text\":\"杀神的认可\",\"italic\":\"false\",\"bold\":\"true\",\"color\":\"red\"}"
@@ -606,8 +606,8 @@
 					RepairCost: 0
 					EnchantGiver: {
 						"yigd:soulbound": 1
-						"extra_enchantments:incompatibility_curse": 10
 						"imperishableitems:imperishable": 1
+						"extra_enchantments:incompatibility_curse": 10
 					}
 					display: {
 						Name: "{\"text\":\"传奇证章\"}"
@@ -638,8 +638,8 @@
 							RepairCost: 0
 							EnchantGiver: {
 								"yigd:soulbound": 1
-								"extra_enchantments:incompatibility_curse": 10
 								"imperishableitems:imperishable": 1
+								"extra_enchantments:incompatibility_curse": 10
 							}
 							display: {
 								Name: "{\"text\":\"传奇证章\",\"italic\":\"false\",\"bold\":\"true\"}"
@@ -657,8 +657,8 @@
 							RepairCost: 0
 							EnchantGiver: {
 								"yigd:soulbound": 1
-								"extra_enchantments:incompatibility_curse": 10
 								"imperishableitems:imperishable": 1
+								"extra_enchantments:incompatibility_curse": 10
 							}
 							display: {
 								Name: "{\"text\":\"杀神的认可\",\"italic\":\"false\",\"bold\":\"true\",\"color\":\"red\"}"
@@ -676,8 +676,8 @@
 					RepairCost: 0
 					EnchantGiver: {
 						"yigd:soulbound": 1
-						"extra_enchantments:incompatibility_curse": 10
 						"imperishableitems:imperishable": 1
+						"extra_enchantments:incompatibility_curse": 10
 					}
 					display: {
 						Name: "{\"text\":\"谢特\"}"
@@ -707,8 +707,8 @@
 							RepairCost: 0
 							EnchantGiver: {
 								"yigd:soulbound": 1
-								"extra_enchantments:incompatibility_curse": 10
 								"imperishableitems:imperishable": 1
+								"extra_enchantments:incompatibility_curse": 10
 							}
 							display: {
 								Name: "{\"text\":\"谢特\",\"italic\":\"false\",\"bold\":\"true\"}"
@@ -726,8 +726,8 @@
 							RepairCost: 0
 							EnchantGiver: {
 								"yigd:soulbound": 1
-								"extra_enchantments:incompatibility_curse": 10
 								"imperishableitems:imperishable": 1
+								"extra_enchantments:incompatibility_curse": 10
 							}
 							display: {
 								Name: "{\"text\":\"肝帝的认可\",\"italic\":\"false\",\"bold\":\"true\",\"color\":\"red\"}"
@@ -742,18 +742,18 @@
 				id: "incubus_core:lunarian_saber"
 				Count: 1b
 				tag: {
+					swa3: { }
 					RepairCost: 0
-					EnchantGiver: {
-						"yigd:soulbound": 1
-						"extra_enchantments:incompatibility_curse": 10
-						"imperishableitems:imperishable": 1
-					}
 					Unbreakable: 1b
-					Damage: 0
 					display: {
 						Name: "{\"text\":\"勤劳之证明\"}"
 					}
-					swa3: { }
+					Damage: 0
+					EnchantGiver: {
+						"yigd:soulbound": 1
+						"imperishableitems:imperishable": 1
+						"extra_enchantments:incompatibility_curse": 10
+					}
 				}
 			}
 			x: 1.0d
@@ -776,18 +776,18 @@
 					id: "incubus_core:lunarian_saber"
 					Count: 1b
 					tag: {
+						swa3: { }
 						RepairCost: 0
-						EnchantGiver: {
-							"yigd:soulbound": 1
-							"extra_enchantments:incompatibility_curse": 10
-							"imperishableitems:imperishable": 1
-						}
 						Unbreakable: 1b
-						Damage: 0
 						display: {
 							Name: "{\"text\":\"勤劳之证明\",\"italic\":\"false\",\"bold\":\"true\"}"
 						}
-						swa3: { }
+						Damage: 0
+						EnchantGiver: {
+							"yigd:soulbound": 1
+							"imperishableitems:imperishable": 1
+							"extra_enchantments:incompatibility_curse": 10
+						}
 					}
 				}
 			}]
@@ -848,44 +848,8 @@
 						id: "dragonloot:dragon_hoe"
 						Count: 1b
 						tag: {
-							AttributeModifiers: [
-								{
-									Slot: "mainhand"
-									Operation: 0
-									UUID: [I;
-										877607416
-										-1283831843
-										-2054891866
-										335321575
-									]
-									Amount: 10.0d
-									AttributeName: "arcanus:mana_regen"
-								}
-								{
-									Slot: "mainhand"
-									Operation: 0
-									UUID: [I;
-										-1936703278
-										1103774880
-										-1539563384
-										-166224112
-									]
-									Amount: 10.0d
-									AttributeName: "playerex:constitution"
-								}
-								{
-									Slot: "mainhand"
-									Operation: 1
-									UUID: [I;
-										1097049861
-										-1756870790
-										-1717572730
-										-1318738819
-									]
-									Amount: 1.5d
-									AttributeName: "minecraft:generic.movement_speed"
-								}
-							]
+							swa3: { }
+							HideFlags: 3
 							Enchantments: [
 								{
 									lvl: 1
@@ -904,13 +868,49 @@
 									id: "fabricenchantments:replenish"
 								}
 							]
-							Damage: 0
 							display: {
-								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"神秘锄\"}],\"text\":\"\"}"
 								Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"dark_red\",\"text\":\"总之他真的很神秘\"}],\"text\":\"\"}"]
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"神秘锄\"}],\"text\":\"\"}"
 							}
-							HideFlags: 3
-							swa3: { }
+							Damage: 0
+							AttributeModifiers: [
+								{
+									Slot: "mainhand"
+									AttributeName: "arcanus:mana_regen"
+									Operation: 0
+									UUID: [I;
+										877607416
+										-1283831843
+										-2054891866
+										335321575
+									]
+									Amount: 10.0d
+								}
+								{
+									Slot: "mainhand"
+									AttributeName: "playerex:constitution"
+									Operation: 0
+									UUID: [I;
+										-1936703278
+										1103774880
+										-1539563384
+										-166224112
+									]
+									Amount: 10.0d
+								}
+								{
+									Slot: "mainhand"
+									AttributeName: "minecraft:generic.movement_speed"
+									Operation: 1
+									UUID: [I;
+										1097049861
+										-1756870790
+										-1717572730
+										-1318738819
+									]
+									Amount: 1.5d
+								}
+							]
 						}
 					}
 					only_one: true
@@ -1440,12 +1440,8 @@
 						id: "minecraft:leather_boots"
 						Count: 1b
 						tag: {
-							x-coord: -1248.0082846095704d
-							saa1: {
-								DMG_REDUCTION: {
-									dmgReduc: 15.0f
-								}
-							}
+							Unbreakable: 1b
+							HideFlags: 1
 							Enchantments: [
 								{
 									lvl: 1
@@ -1492,12 +1488,22 @@
 									id: "musuen:long_jump"
 								}
 							]
-							Unbreakable: 1b
+							display: {
+								color: 16777215
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"bold\":true,\"color\":\"white\",\"text\":\"冒险家之靴\"}],\"text\":\"\"}"
+							}
+							saa1: {
+								DMG_REDUCTION: {
+									dmgReduc: 15.0f
+								}
+							}
+							z-coord: 621.1824747206133d
 							Damage: 0
-							HideFlags: 1
+							x-coord: -1248.0082846095704d
 							AttributeModifiers: [
 								{
 									Slot: "feet"
+									AttributeName: "minecraft:generic.armor"
 									Operation: 0
 									UUID: [I;
 										-1836217106
@@ -1506,10 +1512,10 @@
 										-796243864
 									]
 									Amount: 20.0d
-									AttributeName: "minecraft:generic.armor"
 								}
 								{
 									Slot: "feet"
+									AttributeName: "minecraft:generic.armor_toughness"
 									Operation: 0
 									UUID: [I;
 										-400741642
@@ -1518,10 +1524,10 @@
 										-1513282078
 									]
 									Amount: 10.0d
-									AttributeName: "minecraft:generic.armor_toughness"
 								}
 								{
 									Slot: "feet"
+									AttributeName: "playerex:fire_resistance"
 									Operation: 0
 									UUID: [I;
 										1532590017
@@ -1530,10 +1536,10 @@
 										1419063891
 									]
 									Amount: 10.0d
-									AttributeName: "playerex:fire_resistance"
 								}
 								{
 									Slot: "feet"
+									AttributeName: "playerex:dexterity"
 									Operation: 0
 									UUID: [I;
 										-1322863896
@@ -1542,10 +1548,10 @@
 										-1691144297
 									]
 									Amount: 10.0d
-									AttributeName: "playerex:dexterity"
 								}
 								{
 									Slot: "feet"
+									AttributeName: "mythicmetals:magic_protection"
 									Operation: 0
 									UUID: [I;
 										1316519016
@@ -1554,10 +1560,10 @@
 										-1731775660
 									]
 									Amount: 10.0d
-									AttributeName: "mythicmetals:magic_protection"
 								}
 								{
 									Slot: "feet"
+									AttributeName: "stepheightentityattribute:stepheight"
 									Operation: 0
 									UUID: [I;
 										39886286
@@ -1566,10 +1572,10 @@
 										2106123713
 									]
 									Amount: 2.0d
-									AttributeName: "stepheightentityattribute:stepheight"
 								}
 								{
 									Slot: "feet"
+									AttributeName: "combatroll:count"
 									Operation: 0
 									UUID: [I;
 										560610639
@@ -1578,10 +1584,10 @@
 										1479775233
 									]
 									Amount: 2.0d
-									AttributeName: "combatroll:count"
 								}
 								{
 									Slot: "feet"
+									AttributeName: "minecraft:generic.flying_speed"
 									Operation: 0
 									UUID: [I;
 										-1007206349
@@ -1590,10 +1596,10 @@
 										1701554014
 									]
 									Amount: 100.0d
-									AttributeName: "minecraft:generic.flying_speed"
 								}
 								{
 									Slot: "feet"
+									AttributeName: "combatroll:distance"
 									Operation: 0
 									UUID: [I;
 										-1121935830
@@ -1602,14 +1608,8 @@
 										1041884406
 									]
 									Amount: 5.0d
-									AttributeName: "combatroll:distance"
 								}
 							]
-							z-coord: 621.1824747206133d
-							display: {
-								color: 16777215
-								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"bold\":true,\"color\":\"white\",\"text\":\"冒险家之靴\"}],\"text\":\"\"}"
-							}
 						}
 					}
 				}
@@ -1669,12 +1669,12 @@
 						id: "minecraft:potion"
 						Count: 1b
 						tag: {
+							Potion: "goblintraders:luck"
 							CustomPotionEffects: [{
+								Duration: 2147483647
 								Id: 26
 								Amplifier: 43b
-								Duration: 2147483647
 							}]
-							Potion: "goblintraders:luck"
 						}
 					}
 					random_bonus: 64
@@ -1735,6 +1735,8 @@
 						id: "mythicmetals:hallowed_chestplate"
 						Count: 1b
 						tag: {
+							Unbreakable: 1b
+							Damage: 0
 							Enchantments: [
 								{
 									lvl: 100s
@@ -1745,8 +1747,6 @@
 									id: "musuen:demonction"
 								}
 							]
-							Unbreakable: 1b
-							Damage: 0
 							display: {
 								Name: "{\"text\":\"食神的护甲\",\"italic\":\"false\",\"bold\":\"true\"}"
 							}
@@ -1762,12 +1762,12 @@
 						id: "minecraft:trident"
 						Count: 1b
 						tag: {
+							Unbreakable: 1b
+							Damage: 0
 							Enchantments: [{
 								lvl: 100s
 								id: "musuen:skewering"
 							}]
-							Unbreakable: 1b
-							Damage: 0
 							display: {
 								Name: "{\"text\":\"食神的餐叉\",\"italic\":\"false\",\"bold\":\"true\"}"
 							}
@@ -2179,6 +2179,8 @@
 						id: "spectrum:voiding_pickaxe"
 						Count: 1b
 						tag: {
+							Unbreakable: 1b
+							Damage: 0
 							Enchantments: [
 								{
 									lvl: 1s
@@ -2197,8 +2199,6 @@
 									id: "musuen:unearthing"
 								}
 							]
-							Unbreakable: 1b
-							Damage: 0
 							display: {
 								Name: "[\"!世界吞噬者!\"]"
 							}
@@ -2335,19 +2335,8 @@
 					id: "minecraft:fishing_rod"
 					Count: 1b
 					tag: {
-						AttributeModifiers: [{
-							Slot: "mainhand"
-							Operation: 0
-							UUID: [I;
-								-1864448025
-								1511998784
-								-1962136476
-								-235976203
-							]
-							Amount: 66.0d
-							AttributeName: "minecraft:generic.luck"
-						}]
-						Damage: 0
+						Unbreakable: 1b
+						HideFlags: 7
 						Enchantments: [
 							{
 								lvl: 5
@@ -2370,12 +2359,23 @@
 								id: "x_enchant:librarian"
 							}
 						]
-						Unbreakable: 1b
 						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"aqua\",\"text\":\"朴实钓竿\"}],\"text\":\"\"}"
 							Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"blue\",\"text\":\"返璞归真的普通钓竿\"}],\"text\":\"\"}"]
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"aqua\",\"text\":\"朴实钓竿\"}],\"text\":\"\"}"
 						}
-						HideFlags: 7
+						Damage: 0
+						AttributeModifiers: [{
+							Slot: "mainhand"
+							AttributeName: "minecraft:generic.luck"
+							Operation: 0
+							UUID: [I;
+								-1864448025
+								1511998784
+								-1962136476
+								-235976203
+							]
+							Amount: 66.0d
+						}]
 					}
 				}
 			}]
@@ -2386,18 +2386,12 @@
 				id: "minecraft:emerald"
 				Count: 1b
 				tag: {
-					display: {
-						Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"dark_green\",\"text\":\"村庄之证\"}],\"text\":\"\"}"
-						Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"green\",\"text\":\"你获得了村民的认可,拿在副手时可以闪避箭矢的攻击和提升一点幸运\"}],\"text\":\"\"}"]
-					}
-					Enchantments: [{
-						lvl: 1
-						id: "yigd:soulbound"
-					}]
 					Unbreakable: 1b
+					HideFlags: 5
 					AttributeModifiers: [
 						{
 							Slot: "offhand"
+							AttributeName: "playerex:evasion"
 							Operation: 0
 							UUID: [I;
 								131160439
@@ -2406,10 +2400,10 @@
 								1919476801
 							]
 							Amount: 1000.0d
-							AttributeName: "playerex:evasion"
 						}
 						{
 							Slot: "offhand"
+							AttributeName: "minecraft:generic.luck"
 							Operation: 0
 							UUID: [I;
 								-1626655346
@@ -2418,10 +2412,16 @@
 								1372934514
 							]
 							Amount: 10.0d
-							AttributeName: "minecraft:generic.luck"
 						}
 					]
-					HideFlags: 5
+					display: {
+						Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"green\",\"text\":\"你获得了村民的认可,拿在副手时可以闪避箭矢的攻击和提升一点幸运\"}],\"text\":\"\"}"]
+						Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"dark_green\",\"text\":\"村庄之证\"}],\"text\":\"\"}"
+					}
+					Enchantments: [{
+						lvl: 1
+						id: "yigd:soulbound"
+					}]
 				}
 			}
 			x: 0.0d
@@ -2469,18 +2469,12 @@
 						id: "minecraft:emerald"
 						Count: 1b
 						tag: {
-							display: {
-								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"dark_green\",\"text\":\"村庄之证\"}],\"text\":\"\"}"
-								Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"green\",\"text\":\"你获得了村民的认可,拿在副手时可以闪避箭矢的攻击和提升一点幸运\"}],\"text\":\"\"}"]
-							}
-							Enchantments: [{
-								lvl: 1
-								id: "yigd:soulbound"
-							}]
 							Unbreakable: 1b
+							HideFlags: 7
 							AttributeModifiers: [
 								{
 									Slot: "offhand"
+									AttributeName: "playerex:evasion"
 									Operation: 0
 									UUID: [I;
 										131160439
@@ -2489,10 +2483,10 @@
 										1919476801
 									]
 									Amount: 1000.0d
-									AttributeName: "playerex:evasion"
 								}
 								{
 									Slot: "offhand"
+									AttributeName: "minecraft:generic.luck"
 									Operation: 0
 									UUID: [I;
 										-1626655346
@@ -2501,10 +2495,16 @@
 										1372934514
 									]
 									Amount: 10.0d
-									AttributeName: "minecraft:generic.luck"
 								}
 							]
-							HideFlags: 7
+							display: {
+								Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"green\",\"text\":\"你获得了村民的认可,拿在副手时可以闪避箭矢的攻击和提升一点幸运\"}],\"text\":\"\"}"]
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"dark_green\",\"text\":\"村庄之证\"}],\"text\":\"\"}"
+							}
+							Enchantments: [{
+								lvl: 1
+								id: "yigd:soulbound"
+							}]
 						}
 					}
 				}
@@ -2538,9 +2538,49 @@
 					id: "mcdw:bow_longbow"
 					Count: 1b
 					tag: {
+						Damage: 0
+						HideFlags: 1
+						AttributeModifiers: [
+							{
+								Slot: "mainhand"
+								AttributeName: "combatroll:count"
+								Operation: 0
+								UUID: [I;
+									499181040
+									-1755166057
+									-2047027500
+									1334911374
+								]
+								Amount: 10.0d
+							}
+							{
+								Slot: "mainhand"
+								AttributeName: "playerex:ranged_damage"
+								Operation: 0
+								UUID: [I;
+									291180914
+									-1692842184
+									-1801306101
+									-1470049815
+								]
+								Amount: 10.0d
+							}
+							{
+								Slot: "mainhand"
+								AttributeName: "combatroll:recharge"
+								Operation: 0
+								UUID: [I;
+									1884454101
+									-1567078467
+									-1320562200
+									860613983
+								]
+								Amount: 10.0d
+							}
+						]
 						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"老猎人的长弓\"}],\"text\":\"\"}"
 							Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"dark_red\",\"text\":\"狩猎大师的证明\"}],\"text\":\"\"}"]
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"老猎人的长弓\"}],\"text\":\"\"}"
 						}
 						Enchantments: [
 							{
@@ -2564,46 +2604,6 @@
 								id: "mcdw:overcharge"
 							}
 						]
-						AttributeModifiers: [
-							{
-								Slot: "mainhand"
-								Operation: 0
-								UUID: [I;
-									499181040
-									-1755166057
-									-2047027500
-									1334911374
-								]
-								Amount: 10.0d
-								AttributeName: "combatroll:count"
-							}
-							{
-								Slot: "mainhand"
-								Operation: 0
-								UUID: [I;
-									291180914
-									-1692842184
-									-1801306101
-									-1470049815
-								]
-								Amount: 10.0d
-								AttributeName: "playerex:ranged_damage"
-							}
-							{
-								Slot: "mainhand"
-								Operation: 0
-								UUID: [I;
-									1884454101
-									-1567078467
-									-1320562200
-									860613983
-								]
-								Amount: 10.0d
-								AttributeName: "combatroll:recharge"
-							}
-						]
-						Damage: 0
-						HideFlags: 1
 					}
 				}
 			}]

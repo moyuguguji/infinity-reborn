@@ -37,7 +37,7 @@
       "type": "attribute",
       "name": "minecraft:generic.armor_toughness",
       "value": 5.0,
-      "modifierUUID": "E1B3515A-B652-011B-1C9A-DBB65C3B7096",
+      "modifierUUID": "d26ff814-e52c-421d-b351-d72d1df5f5d8",
       "description": "+5 armor toughness",
       "interactionType": "self",
       "interactionDuration": 300,

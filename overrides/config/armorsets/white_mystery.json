@@ -16,41 +16,26 @@
     "itemKey": "mcda:white_mystery_armor_boots",
     "mustBeEmpty": false
   },
-  "partialBonusRequiredAmount": 3,
-  "partialSetBonuses": [
-    {
-      "type": "effect",
-      "name": "minecraft:strength",
-      "value": 1.0,
-      "interactionType": "self",
-      "interactionDuration": 300,
-      "hideBonusDescription": false,
-      "onlyImmuneToNewEffects": false
-    }
-  ],
   "fullSetBonuses": [
     {
-      "type": "effect",
-      "name": "mcdw:dynamo",
-      "value": 2.0,
+      "type": "attribute",
+      "name": "tiered:generic.range_attack_damage",
+      "value": 0.15,
+      "modifierUUID": "3c8c2ee3-2d7e-4198-a368-b0d7a5bb37d7",
+      "description": "+15% \u8fdc\u7a0b\u4f24\u5bb3",
+      "attributeOperation": 1,
       "interactionType": "self",
       "interactionDuration": 300,
       "hideBonusDescription": false,
       "onlyImmuneToNewEffects": false
     },
     {
-      "type": "effect",
-      "name": "minecraft:strength",
-      "value": 1.0,
-      "interactionType": "self",
-      "interactionDuration": 300,
-      "hideBonusDescription": false,
-      "onlyImmuneToNewEffects": false
-    },
-    {
-      "type": "effect",
-      "name": "minecraft:strength",
-      "value": 1.0,
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 8,
+      "modifierUUID": "4ce16f37-5842-4a56-ae58-9779d0b50581",
+      "description": "+8 \u653b\u51fb\u4f24\u5bb3",
+      "attributeOperation": 0,
       "interactionType": "self",
       "interactionDuration": 300,
       "hideBonusDescription": false,

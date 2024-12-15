@@ -18,9 +18,12 @@
   },
   "fullSetBonuses": [
     {
-      "type": "effect",
-      "name": "soulsweapons:magic_resistance",
-      "value": 1.0,
+      "type": "attribute",
+      "name": "mythicmetals:magic_protection",
+      "value": 3,
+      "modifierUUID": "826ba693-f05f-43b2-8cf1-b2c344575b20",
+      "description": "+3 \u9b54\u6cd5\u4fdd\u62a4",
+      "attributeOperation": 0,
       "interactionType": "self",
       "interactionDuration": 300,
       "hideBonusDescription": false,

@@ -124,6 +124,7 @@
 			y: -0.5d
 			description: ["FTB任务判定有问题，你可以把任务物品放进任意容器中，然后关闭容器在拿出来即可。"]
 			dependencies: ["0FF0EE9A5D227A0F"]
+			optional: true
 			id: "54796F90CDA392AA"
 			tasks: [{
 				id: "539741EC2C249777"
@@ -182,6 +183,7 @@
 				"“woc，____”"
 			]
 			dependencies: ["5012E90F299676B4"]
+			optional: true
 			id: "0F91A9C806F4391E"
 			tasks: [{
 				id: "30D8D825A9EF3481"
@@ -205,6 +207,7 @@
 				"按下“F10”键可以开关生物信息的显示情况。"
 			]
 			dependencies: ["54796F90CDA392AA"]
+			optional: true
 			id: "5012E90F299676B4"
 			tasks: [{
 				id: "0B1B65AF95B0B68A"

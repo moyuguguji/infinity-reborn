@@ -264,6 +264,8 @@ onEvent("entity.death", event => {
     case "minecraft:ender_dragon":
       event.server.tell("\u00A75末影龙已被打败!")
       event.server.runCommandSilent(`kill @e[type=marker]`)
+      event.server.runCommandSilent(`kill @e[type=minecraft:end_crystal]`)
+      event.server.runCommandSilent(`kill @e[type=area_effect_cloud]`)
       break;
     case "twilightforest:lich":
       event.server.tell("\u00A75巫妖已被打败!")
@@ -368,6 +370,8 @@ onEvent('item.right_click',event =>{
       let element = targetTypes[index];
       event.server.runCommandSilent(`execute at ${event.player.profile.name} run summon_eldritch ${element} ${event.player.getX() + randomx} ${event.player.getY()} ${event.player.getZ() + randomz}`)
     }
+    if(event.server.singlePlayer) return;
+    event.player.mainHandItem.count -= 1
  }
     //event.server.runCommandSilent(`say ${entity}`)
     if (event.item.id == 'kubejs:shi_lian') {

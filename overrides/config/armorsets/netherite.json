@@ -30,7 +30,7 @@
       "type": "attribute",
       "name": "minecraft:generic.armor",
       "value": 5.0,
-      "modifierUUID": "0e01b4a9-4f0c-4f08-aec5-6a1b6b984e33",
+      "modifierUUID": "a73c10ed-3bb4-41f1-8bff-cd6c90c559d9",
       "description": "+5 armor",
       "interactionType": "self",
       "interactionDuration": 300,

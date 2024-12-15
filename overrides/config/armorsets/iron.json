@@ -38,9 +38,12 @@
   },
   "fullSetBonuses": [
     {
-      "type": "effect",
-      "name": "minecraft:strength",
-      "value": 0.0,
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.5,
+      "modifierUUID": "abc30627-b764-4c3d-82c1-5582b2629505",
+      "description": "+0.5 \u653b\u51fb\u4f24\u5bb3",
+      "attributeOperation": 0,
       "interactionType": "self",
       "interactionDuration": 300,
       "hideBonusDescription": false,

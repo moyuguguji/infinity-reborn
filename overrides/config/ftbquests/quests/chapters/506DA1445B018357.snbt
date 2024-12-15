@@ -756,6 +756,7 @@
 				"如对任务流程有任何意见或建议，请到群或频道中反馈，非常感谢。"
 			]
 			dependencies: ["194A0C7FDCBD4476"]
+			optional: true
 			id: "7AF59E2FDA4EBDEF"
 			tasks: [{
 				id: "2055D26027AAD096"
@@ -1262,6 +1263,7 @@
 			]
 			dependencies: ["6CD923D48AF77852"]
 			hide: true
+			optional: true
 			id: "440073C91F3B1DC0"
 			tasks: [
 				{
@@ -1318,8 +1320,10 @@
 				"注意,由于是强行绕过限制,配方rei中不一定会有,记得多看光谱书"
 				"TIP：升级之前先做四个錾制缟玛瑙方解石/玄武石，你会感谢我的。"
 				"TIP：升级时间非常之长，请耐心等待。"
+				"模组书上的黄色问号不用管"
 			]
 			dependencies: ["440073C91F3B1DC0"]
+			optional: true
 			id: "1122A7C68DF8DA62"
 			tasks: [{
 				id: "129762B954F7A37F"
@@ -1352,6 +1356,7 @@
 				"TIP：制作超限附魔需要消耗大量颜料，建议先做自动或半自动化颜料产线。"
 			]
 			dependencies: ["1122A7C68DF8DA62"]
+			optional: true
 			id: "2BE6F94629B66CAB"
 			tasks: [
 				{
@@ -1388,6 +1393,7 @@
 			subtitle: "以下内容均非光谱世界已确定更新的内容，仅供参考"
 			description: ["在末地世界中生成，若主岛下没找到，可以去周边还没去过的地方寻找。"]
 			dependencies: ["1122A7C68DF8DA62"]
+			optional: true
 			id: "7A3F4122CAD87DD9"
 			tasks: [
 				{
@@ -1432,6 +1438,7 @@
 				"附魔基座配方中的共振附魔书暂时无法制作，你需要直接制作带有共振的“共鸣之镐”。"
 			]
 			dependencies: ["7A3F4122CAD87DD9"]
+			optional: true
 			id: "194A0C7FDCBD4476"
 			tasks: [{
 				id: "2A46CF74C3287D03"
@@ -2019,39 +2026,6 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: 0.5d
-			subtitle: "在颜色选取器中用紫色颜料充能"
-			description: ["发射墨水的喷气背包。"]
-			dependencies: [
-				"56F7E5AB654115CE"
-				"5D331D77BFF11B48"
-			]
-			hide: true
-			dependency_requirement: "all_started"
-			optional: true
-			id: "3B563DFC98FC97B8"
-			tasks: [
-				{
-					id: "08B8443C9B8876B4"
-					type: "item"
-					item: "spectrumjetpacks:gemstone_jetpack"
-				}
-				{
-					id: "2CBA3CD133A9FDEB"
-					type: "advancement"
-					advancement: "spectrumjetpacks:craft_jetpack"
-					criterion: ""
-				}
-			]
-			rewards: [{
-				id: "16E3E3BD0C147702"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 1005535573748960953L
-			}]
-		}
-		{
 			x: -6.0d
 			y: 5.0d
 			description: [
@@ -2177,33 +2151,6 @@
 			}]
 			rewards: [{
 				id: "3939BDAC1145A185"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 1005535573748960953L
-			}]
-		}
-		{
-			x: 1.5d
-			y: 0.5d
-			subtitle: "在颜色选取器中用紫色颜料充能"
-			dependencies: ["6CD923D48AF77852"]
-			optional: true
-			id: "14A6D573F546B923"
-			tasks: [
-				{
-					id: "724E345BA23167FF"
-					type: "item"
-					item: "spectrumjetpacks:bedrock_jetpack"
-				}
-				{
-					id: "797B52344E23357F"
-					type: "advancement"
-					advancement: "spectrumjetpacks:craft_bedrock_jetpack"
-					criterion: ""
-				}
-			]
-			rewards: [{
-				id: "4546C4711B77150C"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 1005535573748960953L

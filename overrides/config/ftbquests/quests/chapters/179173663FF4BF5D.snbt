@@ -793,8 +793,8 @@
 						Damage: 0
 						swa3: {
 							COLD: {
-								freezeDur: 4.5f
 								slowDur: 4.5f
+								freezeDur: 4.5f
 								bonusDmg: 2.0f
 							}
 						}

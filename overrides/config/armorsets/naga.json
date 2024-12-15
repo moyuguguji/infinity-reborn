@@ -13,7 +13,7 @@
       "type": "attribute",
       "name": "mythicmetals:magic_protection",
       "value": 3.0,
-      "modifierUUID": "02a7ce9d-7161-44bf-adec-f0e3688463bd",
+      "modifierUUID": "4fb72a4c-4215-4f46-b24e-dd4929e41b78",
       "description": "+3 magic protection",
       "interactionType": "self",
       "interactionDuration": 300,

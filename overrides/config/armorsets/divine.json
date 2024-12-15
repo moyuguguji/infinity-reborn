@@ -16,20 +16,6 @@
     "itemKey": "immersive_armors:divine_boots",
     "mustBeEmpty": false
   },
-  "partialBonusRequiredAmount": 3,
-  "partialSetBonuses": [
-    {
-      "type": "attribute",
-      "name": "minecraft:generic.armor",
-      "value": 5.0,
-      "modifierUUID": "0e01b4a9-4f0c-4f08-aec5-6a1b6b984e33",
-      "description": "+5 armor",
-      "interactionType": "self",
-      "interactionDuration": 300,
-      "hideBonusDescription": false,
-      "onlyImmuneToNewEffects": false
-    }
-  ],
   "fullSetBonuses": [
     {
       "type": "effect",
@@ -41,9 +27,12 @@
       "onlyImmuneToNewEffects": false
     },
     {
-      "type": "effect",
-      "name": "soulsweapons:magic_resistance",
-      "value": 4.0,
+      "type": "attribute",
+      "name": "mythicmetals:magic_protection",
+      "value": 20,
+      "modifierUUID": "13de091a-04d4-4bcd-aa64-a8bc1139d454",
+      "description": "+20 \u9b54\u6cd5\u4fdd\u62a4",
+      "attributeOperation": 0,
       "interactionType": "self",
       "interactionDuration": 300,
       "hideBonusDescription": false,
@@ -53,8 +42,8 @@
       "type": "attribute",
       "name": "minecraft:generic.armor",
       "value": 5.0,
-      "modifierUUID": "0e01b4a9-4f0c-4f08-aec5-6a1b6b984e33",
-      "description": "+5 armor",
+      "modifierUUID": "31d39d02-db7e-4481-bc68-64f5ecc0b0dc",
+      "description": "+5 \u62a4\u7532\u503c",
       "interactionType": "self",
       "interactionDuration": 300,
       "hideBonusDescription": false,
