@@ -3,14 +3,10 @@ onEvent('player.logged_in', event => {
         event.player.stages.add('difficulty_easy')
     }
 })
-function isPlayerSource(source) {
-    if (!source) return false;
-    return source.toString().startsWith('EntityDamageSource (class_3222')
-}
 onEvent('entity.hurt', event => {
     let target = event.getEntity()
     let source1 = event.getSource()
-    if(source1.getType() === 'player') return
+    if(source1.toString().includes('EntityDamageSource (Fake')) return
     let source = event.getSource().getActual()
     let damage = event.getDamage()
     let entity = event.getSource().getImmediate()
@@ -213,7 +209,7 @@ onEvent('entity.hurt', event => {
 onEvent('entity.hurt', event => {
     let target = event.getEntity()
     let source1 = event.getSource()
-    if(!isPlayerSource(source1)) return
+    if(source1.toString().includes('EntityDamageSource (Fake')) return
     let play = event.getSource().getPlayer()
     let damage = event.getDamage()
     if (play != null) {
@@ -368,7 +364,7 @@ function randomNum(min, max) {
 onEvent('entity.hurt', event => {
     let target = event.getEntity()
     let source1 = event.getSource()
-    if(!isPlayerSource(source1)) return
+    if(source1.toString().includes('EntityDamageSource (Fake')) return
     let player = event.getSource().getPlayer()
     let source = event.getSource().getActual()
     let damage = event.getDamage()

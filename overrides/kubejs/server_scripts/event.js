@@ -1,10 +1,6 @@
 function randomNum(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-function isPlayerSource(source) {
-    if (!source) return false;
-    return source.toString().startsWith('EntityDamageSource (class_3222')
-}
 const whitelist = Ingredient.matchAny([
     'botania:terra_pick',
     'twilightforest:pink_castle_rune_brick',
@@ -141,7 +137,7 @@ onEvent('item.right_click', event => {
 onEvent('entity.hurt', event => {
     let target = event.getEntity()
     let source1 = event.getSource()
-    if(!isPlayerSource(source1)) return
+    if(source1.toString().includes('EntityDamageSource (Fake')) return
     let player = event.getSource().getPlayer()
     let damage= event.getDamage()
     let mainItem
@@ -154,32 +150,40 @@ onEvent('entity.hurt', event => {
                 target.kill()
                 mainItem.count -= 1
             }
+            return
         }
         if (mainItem == 'kubejs:infinity_sword') {
             if (player.crouching) {
                 target.kill()
             }
+            return
         }
         if (mainItem == 'kubejs:qixing_sword') {
             player.heal((damage + target.health * 0.05) * 0.05)
-            target.attack(target.maxHealth * 0.005)
+            target.attack(target.maxHealth * 0.01)
+            return
         }
         if (mainItem == 'kubejs:nature_spirit') {
             target.potionEffects.add('minecraft:slowness', 40, 9)
             target.potionEffects.add('soulsweapons:bleed', 80, 6)
+            return
         }
         if (mainItem == 'kubejs:sixiang_kaitian') {
-            target.attack(target.health * 0.01)
+            target.attack(target.health * 0.05)
+            return
         }
         if (mainItem == 'kubejs:lce_tang') {
             target.potionEffects.add('minecraft:slowness', 100, 1)
             target.potionEffects.add('minecraft:weakness', 100, 1)
+            return
         }
         if (mainItem == 'kubejs:lce_tang') {
             player.heal((damage * 0.05) * 0.05)
+            return
         }
         if (mainItem == 'kubejs:ailinghan') {
             target.attack(player.maxHealth * 0.1)
+            return
         }
         if (mainItem == 'kubejs:jian_li') {
             let result = event.server.runCommandSilent(`attribute ${player.id} minecraft:generic.armor get`)
@@ -194,33 +198,41 @@ onEvent('entity.hurt', event => {
             } else {
                 target.attack(damage * 0.5)
             }
+            return
         }
         if (mainItem == 'kubejs:kreska') {
             player.heal((damage * 0.1) * 0.08)
+            return
         }
         if (mainItem == 'kubejs:mu_jian') {
             let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
             target.attack(result * 0.5)
+            return
         }
         if (mainItem == 'kubejs:mu_jian_seven') {
             let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
             target.attack(result * 0.25)
+            return
         }
         if (mainItem == 'kubejs:yuan_mu_jian') {
             let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
             target.attack(result * 2.0)
+            return
         }
         if (mainItem == 'kubejs:yuan_mu_jian_seven') {
             let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
             target.attack(result * 1.0)
+            return
         }
         if (mainItem == 'kubejs:yuan_mu_jian_one') {
             let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
             target.attack(result * 0.5)
+            return
         }
         if(mainItem == 'kubejs:sheng_jin'){
-            target.potionEffects.add('extraalchemy:combustion',600,9)
+            target.potionEffects.add('extraalchemy:combustion',600,10)
             event.server.runCommandSilent(`summon minecraft:lightning_bolt ${target.getX()} ${target.getY()} ${target.getZ()}`)
+            return
         }
     }
 })
