@@ -72,4 +72,5 @@ onEvent('item.registry', event => {
 	.tooltip(Text.translate('圣金'))
 	.maxStackSize(1)
 	.rarity(Rarity.UNCOMMON)
+    .tag('kubejs:sheng_jin')
 })

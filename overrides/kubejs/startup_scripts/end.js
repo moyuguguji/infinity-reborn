@@ -2,8 +2,9 @@
 onEvent('item.registry', event => {
     event.create('shining_star').rarity(Rarity.UNCOMMON).maxStackSize(1)
 
-    event.create('infinity_sword','sword').
-    attackDamageBonus(9999996)
+    event.create('infinity_sword','sword')
+    .tier('infinity')
+    .attackDamageBonus(9999996)
     .maxStackSize(1)
     .speedBaseline(-2)
     .maxDamage(1000000)
@@ -22,4 +23,10 @@ onEvent('item.registry', event => {
     .tooltip('\u00A77无限支配之剑的部件之一')
     .tooltip('\u00A7c没有剑柄的剑刃似乎无法空手掌握，不然会被其上附着的力量轻易反噬。')
     .rarity(Rarity.UNCOMMON)
+    })
+    onEvent('item.registry.tool_tiers', event => {
+        event.add('infinity',tier => {
+            tier.enchantmentValue = 30
+            tier.repairIngredient = '#kubejs:sheng_jin'
+        })
     })
