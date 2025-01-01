@@ -7,7 +7,7 @@ onEvent('player.logged_in', event => {
     event.player.give(Item.of('kubejs:difficulty_changer', '{RepairCost:1}'))
     event.player.give(Item.of('20x kubejs:chinese_dumpling'))
     event.player.give(Item.of('2x kubejs:firecracker'))
-    event.player.give(Item.of('4x kubejs:red_packet'))
+    event.player.give(Item.of('5x kubejs:red_packet'))
     event.player.give(Item.of('10x kubejs:shi_lian'))
     event.player.give(Item.of('kubejs:huan_lin_ying'))
     event.player.give('minecraft:stone_sword')
