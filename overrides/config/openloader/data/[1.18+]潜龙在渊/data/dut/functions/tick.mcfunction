@@ -10,9 +10,5 @@ execute as @e[tag=dut_bydragon,type=!end_crystal] at @s unless entity @e[tag=dut
 execute as @e[tag=dut_bydragon,tag=dut_bydragon0] at @s unless entity @e[tag=dut_dragon] run kill @s
 #技能-末影冲击
 execute as @e[tag=dut_ender_shockwave] at @s run function dut:enderdragon/ender_shockwave/load
-#技能-召唤潜影贝
-execute as @e[tag=dut_summonshulker] at @s run function dut:enderdragon/summon_shulker/load
-#技能-召唤末地水晶
-execute as @e[type=end_crystal,tag=dut_bydragon] at @s run function dut:enderdragon/summon_crystal/particle
 #技能-连发龙息
 execute as @e[tag=dut_charge] at @s run function dut:enderdragon/dragon_charge/particle

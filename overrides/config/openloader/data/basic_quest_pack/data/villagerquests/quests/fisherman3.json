@@ -1,14 +1,14 @@
 {
-    "id": 4,
+    "id": 3,
     "title": "\u6d4b\u8bd5\u6587\u672c",
-    "level": 1,
+    "level": 0,
     "type": "",
     "profession": "fisherman",
     "refresh": 2000,
     "task": [
         "submit",
-        "'minecraft:tropical_fish'",
-        1
+        "minecraft:salmon",
+        5
     ],
     "description":"\u6d4b\u8bd5\u6587\u672c",
     "experience": 100,

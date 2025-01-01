@@ -1,5 +1,5 @@
 {
-    "id": 8,
+    "id": 7,
     "title": "\u6d4b\u8bd5\u6587\u672c",
     "level": 3,
     "type": "",
@@ -7,13 +7,13 @@
     "refresh": 1000,
     "task": [
         "submit",
-        "gofish:terrafish",
+        "gofish:carrot_carp",
         1
     ],
     "description":"\u6d4b\u8bd5\u6587\u672c",
     "experience": 100,
     "reward": [
-       "numismatic-overhaul:gold_coin",
+        "numismatic-overhaul:gold_coin",
         1
     ]
 }

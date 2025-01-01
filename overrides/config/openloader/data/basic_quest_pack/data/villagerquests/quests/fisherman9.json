@@ -1,19 +1,19 @@
 {
-    "id": 10,
+    "id": 9,
     "title": "\u6d4b\u8bd5\u6587\u672c",
-    "level": 5,
+    "level": 3,
     "type": "",
     "profession": "fisherman",
-    "refresh": 500,
+    "refresh": 1000,
     "task": [
         "submit",
-        "gofish:cloudy_crab",
+        "gofish:snowball_fish",
         1
     ],
     "description":"\u6d4b\u8bd5\u6587\u672c",
     "experience": 100,
     "reward": [
-        "numismatic-overhaul:gold_coin",
+       "numismatic-overhaul:gold_coin",
         1
     ]
 }

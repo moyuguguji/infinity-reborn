@@ -1,19 +1,19 @@
 {
-    "id": 6,
+    "id": 5,
     "title": "\u6d4b\u8bd5\u6587\u672c",
-    "level": 3,
+    "level": 1,
     "type": "",
     "profession": "fisherman",
-    "refresh": 1000,
+    "refresh": 2000,
     "task": [
         "submit",
-        "gofish:seaweed_eel",
+        "minecraft:pufferfish",
         1
     ],
     "description":"\u6d4b\u8bd5\u6587\u672c",
     "experience": 100,
     "reward": [
-       "numismatic-overhaul:gold_coin",
-        1
+        "numismatic-overhaul:silver_coin",
+        10
     ]
 }

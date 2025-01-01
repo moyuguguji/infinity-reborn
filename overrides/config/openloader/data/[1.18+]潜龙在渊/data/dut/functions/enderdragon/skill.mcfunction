@@ -24,16 +24,5 @@ execute as @s[scores={dut_stage=3..,dut_random=1..12}] at @s run function dut:en
 #技能-召唤幻翼
 function dut:random
 execute as @s[scores={dut_stage=2..,dut_random=..12}] at @s run function dut:enderdragon/summon_phantom/main
-#技能-召唤潜影贝、末影人
-function dut:random
-execute as @s[scores={dut_stage=2..,dut_random=..12}] at @s run function dut:enderdragon/summon_shulker/set_shulker
-#技能-激怒、加强末影人
-function dut:random
-execute as @s[scores={dut_stage=4..,dut_random=..8}] at @s run execute as @e[type=enderman,distance=..48] at @s run data modify entity @s AngryAt set from entity @p[gamemode=!creative,gamemode=!spectator] UUID
-execute as @s[scores={dut_stage=4..,dut_random=..8}] at @s run execute as @e[type=enderman,distance=..48] run data modify entity @s Health set value 80f
-execute as @s[scores={dut_stage=4..,dut_random=..8}] at @s run execute as @e[type=enderman,distance=..48] run attribute @s generic.attack_knockback base set 1.5
-#技能-召唤末地水晶
-function dut:random
-execute as @s[scores={dut_stage=5..,dut_random=..12}] at @s run function dut:enderdragon/summon_crystal/main
-#function dut:random
-#execute as @s[scores={dut_stage=..,dut_random=}] at @s run function dut:enderdragon
+
+

@@ -1,5 +1,5 @@
 {
-    "id": 9,
+    "id": 8,
     "title": "\u6d4b\u8bd5\u6587\u672c",
     "level": 3,
     "type": "",
@@ -7,7 +7,7 @@
     "refresh": 1000,
     "task": [
         "submit",
-        "gofish:snowball_fish",
+        "gofish:terrafish",
         1
     ],
     "description":"\u6d4b\u8bd5\u6587\u672c",

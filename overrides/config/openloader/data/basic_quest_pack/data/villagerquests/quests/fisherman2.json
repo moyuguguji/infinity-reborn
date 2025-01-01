@@ -1,5 +1,5 @@
 {
-    "id": 3,
+    "id": 2,
     "title": "\u6d4b\u8bd5\u6587\u672c",
     "level": 0,
     "type": "",
@@ -7,7 +7,7 @@
     "refresh": 2000,
     "task": [
         "submit",
-        "minecraft:salmon",
+        "minecraft:cod",
         5
     ],
     "description":"\u6d4b\u8bd5\u6587\u672c",

@@ -1,21 +1,19 @@
 {
-    "id": 1,
+    "id": 11,
     "title": "\u6d4b\u8bd5\u6587\u672c",
-    "level": 3,
+    "level": 5,
     "type": "",
     "profession": "fisherman",
-    "refresh": 100,
+    "refresh": 500,
     "task": [
         "submit",
-        "gofish:bonefish",
+        "gofish:matrix_fish",
         1
     ],
     "description":"\u6d4b\u8bd5\u6587\u672c",
     "experience": 100,
     "reward": [
-        "numismatic-overhaul:silver_coin",
-        30,
         "numismatic-overhaul:gold_coin",
-        1
+        2
     ]
 }
