@@ -64,6 +64,7 @@ key_key.ellemes_container_lib.config:key.keyboard.unknown:NONE
 key_key.entityculling.toggle:key.keyboard.unknown:NONE
 key_key.ingameime.hotkey:key.keyboard.home:NONE
 key_key.inmis.open_backpack:key.keyboard.unknown:NONE
+key_key.ingameime.hotkey:key.keyboard.unknown:NONE
 key_key.inventoryhud.toggle:key.keyboard.unknown:NONE
 key_key.inventoryhud.openconfig:key.keyboard.unknown:NONE
 key_key.inventoryhud.togglepot:key.keyboard.unknown:NONE
@@ -87,7 +88,7 @@ key_key.nyfsquiver.open_quiver:key.keyboard.unknown:NONE
 key_key.nyfsquiver.increase_slot:key.keyboard.unknown:NONE
 key_key.nyfsquiver.decrease_slot:key.keyboard.unknown:NONE
 key_playerex.key.screen:key.keyboard.unknown:NONE
-key_presencefootsteps.settings.key:key.keyboard.f10:NONE
+key_presencefootsteps.settings.key:key.keyboard.unknown:NONE
 key_Camera left:key.keyboard.left:NONE
 key_Camera right:key.keyboard.right:NONE
 key_Camera closer:key.keyboard.up:NONE
