@@ -22,17 +22,14 @@
             ]
         },
         {
-            "type": "generic.max_health",
+            "type": "minecraft:generic.armor",
             "modifier": {
                 "name": "tiered:alioth_armor",
                 "operation": "ADDITION",
-                "amount": 10
+                "amount": 8
             },
             "optional_equipment_slots": [
-                "FEET",
-                "LEGS",
-                "CHEST",
-                "HEAD"
+                "FEET"
             ]
         },
         {

@@ -31,11 +31,25 @@
             ]
         },
         {
-            "type": "generic.max_health",
+            "type": "minecraft:generic.armor",
             "modifier": {
                 "name": "tiered:rare_armor",
                 "operation": "ADDITION",
-                "amount": 3
+                "amount": 2
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
+            "type": "minecraft:generic.armor_toughness",
+            "modifier": {
+                "name": "tiered:rare_armor",
+                "operation": "ADDITION",
+                "amount": 0.75
             },
             "optional_equipment_slots": [
                 "FEET",
