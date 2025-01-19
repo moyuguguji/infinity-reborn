@@ -335,7 +335,7 @@ onEvent("entity.death", event => {
   }
 })
 onEvent('item.right_click',event =>{
-  if (event.item.id == 'kubejs:boss_rush') {
+  if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:boss_rush') {
     let targetTypes = [
     "minecraft:wither",
     "soulsweapons:chaos_monarch",
@@ -374,7 +374,7 @@ onEvent('item.right_click',event =>{
     event.player.mainHandItem.count -= 1
  }
     //event.server.runCommandSilent(`say ${entity}`)
-    if (event.item.id == 'kubejs:shi_lian') {
+    if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:shi_lian') {
         let test = Ingredient.of('@collectorsalbum').getItemIds()
         for (let index = 0; index < 10; index++) {
             let random = randomNum(1,test.length)

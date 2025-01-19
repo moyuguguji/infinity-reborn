@@ -22,17 +22,6 @@
             ]
         },
         {
-            "type": "minecraft:generic.armor",
-            "modifier": {
-                "name": "tiered:megrez_armor",
-                "operation": "ADDITION",
-                "amount": 8
-            },
-            "optional_equipment_slots": [
-                "HEAD"
-            ]
-        },
-        {
             "type": "generic.max_health",
             "modifier": {
                 "name": "tiered:megrez_armor",

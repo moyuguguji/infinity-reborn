@@ -1,0 +1,115 @@
+{
+  "profession": "cartographer",
+  "trades": {
+    "novice": [
+      {
+        "type": "numismatic-overhaul:buy_stack",
+        "price": 96,
+        "buy": {
+          "item": "paper",
+          "count": 24
+        },
+        "max_uses": 16
+      },
+      {
+        "type": "numismatic-overhaul:sell_stack",
+        "price": 500,
+        "sell": {
+          "item": "map",
+          "count": 1
+        },
+        "max_uses": 9,
+        "villager_experience": 10
+      }
+    ],
+    "apprentice": [
+      {
+        "type": "numismatic-overhaul:buy_stack",
+        "price": 50,
+        "buy": {
+          "item": "glass_pane",
+          "count": 12
+        },
+        "max_uses": 16
+      }
+    ],
+    "journeyman": [
+      {
+        "type": "numismatic-overhaul:buy_stack",
+        "price": 500,
+        "buy": {
+          "item": "compass",
+          "count": 1
+        }
+      },
+      {
+        "type": "numismatic-overhaul:sell_map",
+        "price": 10000,
+        "structure": "mansion",
+        "max_uses": 2,
+        "villager_experience": 15
+      },
+      {
+        "type": "numismatic-overhaul:sell_map",
+        "price": 20000,
+        "structure": "end_city",
+        "max_uses": 2,
+        "villager_experience": 20
+      }
+    ],
+    "expert": [
+      {
+        "type": "numismatic-overhaul:sell_stack",
+        "price": 1000,
+        "sell": {
+          "item": "item_frame",
+          "count": 4
+        },
+        "max_uses": 5
+      },
+      {
+        "type": "numismatic-overhaul:sell_stack",
+        "price": 1200,
+        "sell": {
+          "item": "glow_item_frame",
+          "count": 3
+        },
+        "max_uses": 4
+      },
+      {
+        "type": "numismatic-overhaul:sell_tag",
+        "price": 3000,
+        "sell": {
+          "tag": "numismatic-overhaul:banners",
+          "count": 3
+        }
+      }
+    ],
+    "master": [
+      {
+        "type": "numismatic-overhaul:sell_stack",
+        "price": 20000,
+        "sell": {
+          "item": "flower_banner_pattern",
+          "count": 1
+        }
+      },
+      {
+        "type": "numismatic-overhaul:sell_stack",
+        "price": 20000,
+        "sell": {
+          "item": "globe_banner_pattern",
+          "count": 1
+        }
+      },
+      {
+        "type": "numismatic-overhaul:sell_stack",
+        "price": 100000,
+        "sell": {
+          "item": "mojang_banner_pattern",
+          "count": 1
+        }
+      }
+    ]
+  }
+}

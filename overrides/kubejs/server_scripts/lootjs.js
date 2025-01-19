@@ -5,6 +5,11 @@ onEvent("lootjs", (event) => {
         .matchEntity((entity) => {
             entity.isMonster(true)
         })
+        .not((n) => {
+            n.matchEntity((entity) => {
+                entity.anyType("twilightforest:death_tome")
+            })
+        })
         .addWeightedLoot([
             Item.of("kibe:cursed_droplets")
         ])
@@ -275,6 +280,11 @@ onEvent("lootjs", (event) => {
         .matchEntity((entity) => {
             entity.isMonster(true)
         })
+        .not((n) => {
+            n.matchEntity((entity) => {
+                entity.anyType("twilightforest:death_tome")
+            })
+        })
         .pool((p) => {
             p.addWeightedLoot([0, 1], [
                 Item.of("minecraft:book")
@@ -296,6 +306,11 @@ onEvent("lootjs", (event) => {
         .matchEntity((entity) => {
             entity.isMonster(true)
         })
+        .not((n) => {
+            n.matchEntity((entity) => {
+                entity.anyType("twilightforest:death_tome")
+            })
+        })
         .addWeightedLoot([
             Item.of("numismatic-overhaul:gold_coin")
         ])
@@ -306,6 +321,11 @@ onEvent("lootjs", (event) => {
         .hasAnyStage("difficulty_impossible", "difficulty_hard", "difficulty_impossibleplus", "difficulty_yonghen")
         .matchEntity((entity) => {
             entity.isMonster(true)
+        })
+        .not((n) => {
+            n.matchEntity((entity) => {
+                entity.anyType("twilightforest:death_tome")
+            })
         })
         .addWeightedLoot([
             Item.of("numismatic-overhaul:silver_coin")
@@ -329,6 +349,11 @@ onEvent("lootjs", (event) => {
         .matchEntity((entity) => {
             entity.isMonster(true)
         })
+        .not((n) => {
+            n.matchEntity((entity) => {
+                entity.anyType("twilightforest:death_tome")
+            })
+        })
         .pool((p) => {
             p.addLoot("victus:blank_heart_aspect");
             p.limitCount([1, 1]);
@@ -341,6 +366,11 @@ onEvent("lootjs", (event) => {
         .matchEntity((entity) => {
             entity.isMonster(true)
         })
+        .not((n) => {
+            n.matchEntity((entity) => {
+                entity.anyType("twilightforest:death_tome")
+            })
+        })
         .addWeightedLoot([1, 20], [
             Item.of("numismatic-overhaul:bronze_coin")
         ])
@@ -351,6 +381,11 @@ onEvent("lootjs", (event) => {
         .hasAnyStage("difficulty_impossible", "difficulty_hard", "difficulty_normal", "difficulty_impossibleplus", "difficulty_yonghen")
         .matchEntity((entity) => {
             entity.isMonster(true)
+        })
+        .not((n) => {
+            n.matchEntity((entity) => {
+                entity.anyType("twilightforest:death_tome")
+            })
         })
         .addWeightedLoot([
             Item.of("collectorsalbum:common_repacked_card_package").withChance(50),
@@ -368,6 +403,11 @@ onEvent("lootjs", (event) => {
         .matchEntity((entity) => {
             entity.isMonster(true)
         })
+        .not((n) => {
+            n.matchEntity((entity) => {
+                entity.anyType("twilightforest:death_tome")
+            })
+        })
         .addWeightedLoot([
             Item.of("collectorsalbum:epic_repacked_card_package").withChance(70),
             Item.of("collectorsalbum:legendary_repacked_card_package").withChance(10)
@@ -382,6 +422,11 @@ onEvent("lootjs", (event) => {
         .matchEntity((entity) => {
             entity.isMonster(true)
         })
+        .not((n) => {
+            n.matchEntity((entity) => {
+                entity.anyType("twilightforest:death_tome")
+            })
+        })
         .addWeightedLoot([
             Item.of("kubejs:shenqi_ingot").withChance(70)
         ])
@@ -395,6 +440,11 @@ onEvent("lootjs", (event) => {
         .matchEntity((entity) => {
             entity.isMonster(true)
         })
+        .not((n) => {
+            n.matchEntity((entity) => {
+                entity.anyType("twilightforest:death_tome")
+            })
+        })
         .pool((p) => {
             p.addLoot("kubejs:shenqi_shard")
             p.limitCount([1, 3]);
@@ -407,6 +457,11 @@ onEvent("lootjs", (event) => {
         .matchEntity((entity) => {
             entity.isMonster(true)
         })
+        .not((n) => {
+            n.matchEntity((entity) => {
+                entity.anyType("twilightforest:death_tome")
+            })
+        })
         .pool((p) => {
             p.addLoot("collectorsalbum:mythical_repacked_card_package")
             p.limitCount([1, 1]);
@@ -417,6 +472,11 @@ onEvent("lootjs", (event) => {
         .hasAnyStage("difficulty_impossible", "difficulty_hard", "difficulty_normal", "difficulty_impossibleplus", "difficulty_yonghen")
         .matchEntity((entity) => {
             entity.isMonster(true)
+        })
+        .not((n) => {
+            n.matchEntity((entity) => {
+                entity.anyType("twilightforest:death_tome")
+            })
         })
         .addWeightedLoot([
             Item.of("minecraft:diamond").withChance(20),

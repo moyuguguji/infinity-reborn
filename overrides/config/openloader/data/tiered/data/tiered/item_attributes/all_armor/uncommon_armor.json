@@ -31,25 +31,11 @@
             ]
         },
         {
-            "type": "minecraft:generic.armor",
+            "type": "generic.max_health",
             "modifier": {
                 "name": "tiered:uncommon_armor",
                 "operation": "ADDITION",
-                "amount": 1.5
-            },
-            "optional_equipment_slots": [
-                "FEET",
-                "LEGS",
-                "CHEST",
-                "HEAD"
-            ]
-        },
-        {
-            "type": "minecraft:generic.armor_toughness",
-            "modifier": {
-                "name": "tiered:uncommon_armor",
-                "operation": "ADDITION",
-                "amount": 0.5
+                "amount": 4
             },
             "optional_equipment_slots": [
                 "FEET",
