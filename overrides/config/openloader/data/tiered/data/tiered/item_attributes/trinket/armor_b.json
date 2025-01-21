@@ -1,21 +1,21 @@
 {
-  "id": "tiered:hard",
+  "id": "tiered:armor_b",
   "verifiers": [
     {
       "tag": "trinket"
     }
   ],
-  "weight": 50,
+  "weight": 30,
   "style": {
-    "color": "gray"
+    "color": "blue"
   },
   "attributes": [
     {
       "type": "generic.armor",
       "modifier": {
-        "name": "tiered:hard",
+        "name": "tiered:armor_b",
         "operation": "ADDITION",
-        "amount": 1
+        "amount": 2
       }
     }
   ]

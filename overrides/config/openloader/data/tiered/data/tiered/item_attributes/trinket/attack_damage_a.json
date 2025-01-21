@@ -1,5 +1,5 @@
 {
-  "id": "tiered:intrepid",
+  "id": "tiered:attack_damage_a",
   "verifiers": [
     {
       "tag": "trinket"
@@ -7,15 +7,15 @@
   ],
   "weight": 50,
   "style": {
-    "color": "gray"
+    "color": "dark_green"
   },
   "attributes": [
     {
-      "type": "generic.attack_speed",
+      "type": "generic.attack_damage",
       "modifier": {
-        "name": "tiered:intrepid",
+        "name": "tiered:attack_damage_a",
         "operation": "MULTIPLY_BASE",
-        "amount": 0.03
+        "amount": 0.01
       }
     }
   ]

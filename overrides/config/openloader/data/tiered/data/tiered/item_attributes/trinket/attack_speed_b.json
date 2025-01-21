@@ -1,21 +1,21 @@
 {
-  "id": "tiered:jagged",
+  "id": "tiered:attack_speed_b",
   "verifiers": [
     {
       "tag": "trinket"
     }
   ],
-  "weight": 50,
+  "weight": 30,
   "style": {
-    "color": "gray"
+    "color": "blue"
   },
   "attributes": [
     {
-      "type": "generic.attack_damage",
+      "type": "generic.attack_speed",
       "modifier": {
-        "name": "tiered:jagged",
+        "name": "tiered:attack_speed_b",
         "operation": "MULTIPLY_BASE",
-        "amount": 0.01
+        "amount": 0.02
       }
     }
   ]

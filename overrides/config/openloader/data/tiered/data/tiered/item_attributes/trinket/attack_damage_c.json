@@ -1,19 +1,19 @@
 {
-  "id": "tiered:hasty",
+  "id": "tiered:attack_damage_c",
   "verifiers": [
     {
       "tag": "trinket"
     }
   ],
-  "weight": 50,
+  "weight": 15,
   "style": {
-    "color": "gray"
+    "color": "dark_purple"
   },
   "attributes": [
     {
-      "type": "generic.movement_speed",
+      "type": "generic.attack_damage",
       "modifier": {
-        "name": "tiered:hasty",
+        "name": "tiered:attack_damage_c",
         "operation": "MULTIPLY_BASE",
         "amount": 0.03
       }

@@ -22,17 +22,6 @@
             ]
         },
         {
-            "type": "minecraft:generic.armor",
-            "modifier": {
-                "name": "tiered:dubhe_armor",
-                "operation": "ADDITION",
-                "amount": 8
-            },
-            "optional_equipment_slots": [
-                "LEGS"
-            ]
-        },
-        {
             "type": "minecraft:generic.attack_damage",
             "modifier": {
                 "name": "tiered:dubhe_armor",

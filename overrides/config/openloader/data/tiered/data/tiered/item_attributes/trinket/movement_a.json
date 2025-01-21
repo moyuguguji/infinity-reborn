@@ -1,5 +1,5 @@
 {
-  "id": "tiered:brisk",
+  "id": "tiered:movement_a",
   "verifiers": [
     {
       "tag": "trinket"
@@ -7,13 +7,13 @@
   ],
   "weight": 50,
   "style": {
-    "color": "gray"
+    "color": "dark_green"
   },
   "attributes": [
     {
       "type": "generic.movement_speed",
       "modifier": {
-        "name": "tiered:brisk",
+        "name": "tiered:movement_a",
         "operation": "MULTIPLY_BASE",
         "amount": 0.01
       }

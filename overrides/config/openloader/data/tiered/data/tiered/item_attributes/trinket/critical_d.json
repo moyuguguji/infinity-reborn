@@ -1,19 +1,19 @@
 {
-  "id": "tiered:lucky",
+  "id": "tiered:critical_d",
   "verifiers": [
     {
       "tag": "trinket"
     }
   ],
-  "weight": 50,
+  "weight": 5,
   "style": {
-    "color": "gray"
+    "color": "gold"
   },
   "attributes": [
     {
       "type": "playerex:melee_crit_chance",
       "modifier": {
-        "name": "tiered:lucky",
+        "name": "tiered:critical_d",
         "operation": "MULTIPLY_BASE",
         "amount": 0.04
       }
@@ -21,7 +21,7 @@
     {
       "type": "playerex:ranged_crit_chance",
       "modifier": {
-        "name": "tiered:lucky",
+        "name": "tiered:critical_d",
         "operation": "MULTIPLY_BASE",
         "amount": 0.02
       }

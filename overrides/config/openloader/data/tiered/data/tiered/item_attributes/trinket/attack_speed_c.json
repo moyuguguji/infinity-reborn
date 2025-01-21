@@ -1,21 +1,21 @@
 {
-  "id": "tiered:menacing",
+  "id": "tiered:attack_speed_c",
   "verifiers": [
     {
       "tag": "trinket"
     }
   ],
-  "weight": 50,
+  "weight": 15,
   "style": {
-    "color": "gray"
+    "color": "dark_purple"
   },
   "attributes": [
     {
-      "type": "generic.attack_damage",
+      "type": "generic.attack_speed",
       "modifier": {
-        "name": "tiered:menacing",
+        "name": "tiered:attack_speed_c",
         "operation": "MULTIPLY_BASE",
-        "amount": 0.04
+        "amount": 0.03
       }
     }
   ]

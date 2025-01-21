@@ -1,29 +1,29 @@
 {
-  "id": "tiered:armored",
+  "id": "tiered:armor_d",
   "verifiers": [
     {
       "tag": "trinket"
     }
   ],
-  "weight": 50,
+  "weight": 5,
   "style": {
-    "color": "gray"
+    "color": "gold"
   },
   "attributes": [
     {
       "type": "generic.armor",
       "modifier": {
-        "name": "tiered:armored",
+        "name": "tiered:armor_d",
         "operation": "ADDITION",
-        "amount": 3
+        "amount": 4
       }
     },
     {
       "type": "generic.armor_toughness",
       "modifier": {
-        "name": "tiered:armored",
+        "name": "tiered:armor_d",
         "operation": "ADDITION",
-        "amount": 1
+        "amount": 2
       }
     }
   ]

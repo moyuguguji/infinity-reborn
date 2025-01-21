@@ -1,21 +1,21 @@
 {
-  "id": "tiered:fleeting",
+  "id": "tiered:movement_d",
   "verifiers": [
     {
       "tag": "trinket"
     }
   ],
-  "weight": 50,
+  "weight": 5,
   "style": {
-    "color": "gray"
+    "color": "gold"
   },
   "attributes": [
     {
       "type": "generic.movement_speed",
       "modifier": {
-        "name": "tiered:fleeting",
+        "name": "tiered:movement_d",
         "operation": "MULTIPLY_BASE",
-        "amount": 0.02
+        "amount": 0.04
       }
     }
   ]
