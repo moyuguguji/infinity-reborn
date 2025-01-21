@@ -17,68 +17,14 @@ onEvent('recipes',event => {
     //event.smithing('gateofbabylon:gobber_rapier_end', 'gateofbabylon:gobber_rapier_nether', 'gobber2:gobber2_ingot_end')
     //event.smithing('gateofbabylon:end_gobber_katana', 'gateofbabylon:nether_gobber_katana', 'gobber2:gobber2_ingot_end'),
 
-    //event.smithing('gateofbabylon:terra_broadsword', 'gateofbabylon:gobber_broadsword', 'botania:terrasteel_ingot'),
-    //event.smithing('gateofbabylon:terra_spear', 'gateofbabylon:gobber_spear', 'botania:terrasteel_ingot')
-    //event.smithing('gateofbabylon:terra_dagger', 'gateofbabylon:gobber_dagger', 'botania:terrasteel_ingot'),
-    //event.smithing('gateofbabylon:terra_rapier', 'gateofbabylon:gobber_rapier', 'botania:terrasteel_ingot'),
-    //event.smithing('gateofbabylon:terra_katana', 'gateofbabylon:gobber_katana', 'botania:terrasteel_ingot'),
-    //event.smithing('gateofbabylon:terra_haladie', 'gateofbabylon:diamond_haladie', 'botania:terrasteel_ingot'),
+	//泰拉
+    event.smithing('gateofbabylon:terra_broadsword', 'gateofbabylon:nether_gobber_broadsword', 'botania:terrasteel_ingot'),
+    event.smithing('gateofbabylon:terra_spear', 'gateofbabylon:nether_gobber_spear', 'botania:terrasteel_ingot')
+    event.smithing('gateofbabylon:terra_dagger', 'gateofbabylon:nether_gobber_dagger', 'botania:terrasteel_ingot'),
+    event.smithing('gateofbabylon:terra_rapier', 'gateofbabylon:gobber_rapier_nether', 'botania:terrasteel_ingot'),
+    event.smithing('gateofbabylon:terra_katana', 'gateofbabylon:gobber_rapier_nether', 'botania:terrasteel_ingot'),
+    event.smithing('gateofbabylon:terra_haladie', 'gateofbabylon:nether_gobber_katana', 'botania:terrasteel_ingot'),
     event.shapeless('kubejs:shenqi_ingot', ['9x kubejs:shenqi_shard'])
-    //泰拉
-    event.shaped('gateofbabylon:terra_haladie', [
-		'  A',
-		' B ',
-		'A  '
-	  ], 
-      {
-		A: 'botania:terrasteel_ingot',
-        B: 'botania:livingwood_twig',
-	  })
-    event.shaped('gateofbabylon:terra_dagger', [
-		' A ',
-		' B ',
-		'   '
-	  ], 
-      {
-		A: 'botania:terrasteel_ingot',
-        B: 'botania:livingwood_twig',
-	  })
-    event.shaped('gateofbabylon:terra_spear', [
-		'  A',
-		' B ',
-		'B  '
-	  ], 
-      {
-		A: 'botania:terrasteel_ingot',
-        B: 'botania:livingwood_twig',
-	  })
-    event.shaped('gateofbabylon:terra_broadsword', [
-		'  A',
-		'AA ',
-		'BA '
-	  ], 
-      {
-		A: 'botania:terrasteel_ingot',
-        B: 'botania:livingwood_twig',
-	  })
-    event.shaped('gateofbabylon:terra_rapier', [
-		'  A',
-		' A ',
-		'B  '
-	  ], 
-      {
-		A: 'botania:terrasteel_ingot',
-        B: 'botania:livingwood_twig',
-	  })
-    event.shaped('gateofbabylon:terra_katana', [
-		'  A',
-		' A ',
-		'BB '
-	  ], 
-      {
-		A: 'botania:terrasteel_ingot',
-        B: 'botania:livingwood_twig',
-	  })
     //戈伯
     event.shaped('gateofbabylon:gobber_dagger', [
 		' A ',
