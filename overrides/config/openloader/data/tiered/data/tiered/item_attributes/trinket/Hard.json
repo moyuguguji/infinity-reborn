@@ -1,5 +1,5 @@
 {
-  "id": "tiered:movement_a",
+  "id": "tiered:hard",
   "verifiers": [
     {
       "tag": "trinket"
@@ -11,11 +11,11 @@
   },
   "attributes": [
     {
-      "type": "generic.movement_speed",
+      "type": "generic.armor",
       "modifier": {
-        "name": "tiered:movement_a",
-        "operation": "MULTIPLY_BASE",
-        "amount": 0.01
+        "name": "tiered:hard",
+        "operation": "ADDITION",
+        "amount": 1
       }
     }
   ]

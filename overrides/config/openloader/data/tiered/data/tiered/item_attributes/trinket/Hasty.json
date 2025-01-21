@@ -1,21 +1,21 @@
 {
-  "id": "tiered:attack_speed_a",
+  "id": "tiered:hasty",
   "verifiers": [
     {
       "tag": "trinket"
     }
   ],
-  "weight": 50,
+  "weight": 15,
   "style": {
-    "color": "dark_green"
+    "color": "dark_purple"
   },
   "attributes": [
     {
-      "type": "generic.attack_speed",
+      "type": "generic.movement_speed",
       "modifier": {
-        "name": "tiered:attack_speed_a",
+        "name": "tiered:hasty",
         "operation": "MULTIPLY_BASE",
-        "amount": 0.01
+        "amount": 0.03
       }
     }
   ]

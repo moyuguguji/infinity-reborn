@@ -1,29 +1,29 @@
 {
-  "id": "tiered:armor_c",
+  "id": "tiered:warding",
   "verifiers": [
     {
       "tag": "trinket"
     }
   ],
-  "weight": 15,
+  "weight": 5,
   "style": {
-    "color": "dark_purple"
+    "color": "gold"
   },
   "attributes": [
     {
       "type": "generic.armor",
       "modifier": {
-        "name": "tiered:armor_c",
+        "name": "tiered:warding",
         "operation": "ADDITION",
-        "amount": 3
+        "amount": 4
       }
     },
     {
       "type": "generic.armor_toughness",
       "modifier": {
-        "name": "tiered:armor_c",
+        "name": "tiered:warding",
         "operation": "ADDITION",
-        "amount": 1
+        "amount": 2
       }
     }
   ]

@@ -1,21 +1,21 @@
 {
-  "id": "tiered:movement_d",
+  "id": "tiered:angry",
   "verifiers": [
     {
       "tag": "trinket"
     }
   ],
-  "weight": 5,
+  "weight": 15,
   "style": {
-    "color": "gold"
+    "color": "dark_purple"
   },
   "attributes": [
     {
-      "type": "generic.movement_speed",
+      "type": "generic.attack_damage",
       "modifier": {
-        "name": "tiered:movement_d",
+        "name": "tiered:angry",
         "operation": "MULTIPLY_BASE",
-        "amount": 0.04
+        "amount": 0.03
       }
     }
   ]

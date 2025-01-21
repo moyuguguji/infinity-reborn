@@ -1,5 +1,5 @@
 {
-  "id": "tiered:armor_b",
+  "id": "tiered:spiked",
   "verifiers": [
     {
       "tag": "trinket"
@@ -11,11 +11,11 @@
   },
   "attributes": [
     {
-      "type": "generic.armor",
+      "type": "generic.attack_damage",
       "modifier": {
-        "name": "tiered:armor_b",
-        "operation": "ADDITION",
-        "amount": 2
+        "name": "tiered:spiked",
+        "operation": "MULTIPLY_BASE",
+        "amount": 0.02
       }
     }
   ]

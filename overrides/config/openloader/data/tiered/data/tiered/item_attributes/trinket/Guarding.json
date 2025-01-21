@@ -1,21 +1,21 @@
 {
-  "id": "tiered:armor_a",
+  "id": "tiered:guarding",
   "verifiers": [
     {
       "tag": "trinket"
     }
   ],
-  "weight": 50,
+  "weight": 30,
   "style": {
-    "color": "dark_green"
+    "color": "blue"
   },
   "attributes": [
     {
       "type": "generic.armor",
       "modifier": {
-        "name": "tiered:armor_a",
+        "name": "tiered:guarding",
         "operation": "ADDITION",
-        "amount": 1
+        "amount": 2
       }
     }
   ]

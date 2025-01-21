@@ -87,9 +87,32 @@
     "tiered:qixing_melee.label": "本源·七星",
     "tiered:qixing_melee2.label": "本源·禁忌",
 
-    "tiered:meide_qianxun.label": "\u00A7b美德·谦逊",
-    "tiered:meide_qinfen.label": "\u00A7b美德·勤奋",
-    "tiered:meide_jiezhi.label": "\u00A7b美德·节制",
+    "tiered:meide_qianxun.label": "美德·谦逊",
+    "tiered:meide_qinfen.label": "美德·勤奋",
+    "tiered:meide_jiezhi.label": "美德·节制",
+
+    "tiered:hard.label": "坚硬",
+    "tiered:guarding.label": "守护",
+    "tiered:armored.label": "装甲",
+    "tiered:warding.label": "护佑",
+
+    "tiered:jagged.label": "锯齿",
+    "tiered:spiked.label": "尖刺",
+    "tiered:angry.label": "愤怒",
+    "tiered:menacing.label": "险恶",
+
+    "tiered:wild.label": "狂野",
+    "tiered:rash.label": "鲁莽",
+    "tiered:intrepid.label": "勇猛",
+    "tiered:violent.label": "暴力",
+
+    "tiered:precise.label": "精确",
+    "tiered:lucky.label": "幸运",
+
+    "tiered:brisk.label": "轻快",
+    "tiered:fleeting.label": "快速",
+    "tiered:hasty.label": "急速",
+    "tiered:quick.label": "迅捷",
 
     "tiered:pibei.label" :"诅咒·疲惫",
     "tiered:fuxiu.label" :"诅咒·腐朽",
