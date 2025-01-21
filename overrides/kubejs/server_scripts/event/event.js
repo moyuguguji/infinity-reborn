@@ -50,22 +50,6 @@ onEvent('player.tick', event => {
     }
 })
 
-onEvent('item.right_click', event => {
-    if (event.item.id == 'kubejs:ruoshui_sword') {
-        if (event.player.crouching) {
-            //泉之治愈-潜行使用恢复最大生命值的一半，冷却时间15秒
-            event.player.heal(event.player.maxHealth / 2)
-            event.player.addItemCooldown('kubejs:ruoshui_sword', 300)
-        }
-        else {
-            //汽之呼吸-右键使用获得15秒水下呼吸，冷却时间20秒
-            event.server.runCommandSilent(`effect give ${event.player.id} minecraft:water_breathing 15 0 true`)
-            event.player.addItemCooldown('kubejs:ruoshui_sword', 400)
-        }
-    }
-
-})
-
 //Infinity
 onEvent('entity.hurt', event => {
     let target = event.getEntity()
@@ -201,18 +185,6 @@ onEvent('player.tick', event => {
 })
 
 
-//野草
-onEvent('item.right_click', event => {
-    if (event.item.id == 'kubejs:yecao_sword') {
-        let player = event.player
-        //右键使用获得5秒抗性5生命恢复5，冷却时间10秒
-        event.player.potionEffects.add('minecraft:regeneration', 100, 4, false, false)
-        event.player.potionEffects.add('minecraft:resistance', 40, 4, false, false)
-        event.player.addItemCooldown('kubejs:yecao_sword', 200)
-    }
-
-})
-
 onEvent('player.tick', event => {
     let player = event.player
     let mainItem = player.getHeldItem(MAIN_HAND)
@@ -226,18 +198,6 @@ onEvent('player.tick', event => {
         if (player.crouching) {
             player.potionEffects.add('minecraft:saturation', 20, 3, false, false)
         }
-    }
-
-})
-
-//石剑?
-
-onEvent('item.right_click', event => {
-    if (event.item.id == 'kubejs:putong_stone_sword') {
-        let player = event.player
-        //右键使用获得30秒抗性5，冷却时间600秒
-        event.player.potionEffects.add('minecraft:resistance', 600, 4, false, false)
-        event.player.addItemCooldown('kubejs:putong_stone_sword', 12000)
     }
 
 })
@@ -285,15 +245,6 @@ onEvent('player.tick', event => {
         player.potionEffects.add("minecraft:speed", 1, 2, false, false)
         player.potionEffects.add("minecraft:resistance", 1, 1, false, false)//抗性提升
     }
-})
-
-//中子灭杀
-onEvent('item.right_click', event => {
-    if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:zhongzi' || event.player.getHeldItem(OFF_HAND) == 'kubejs:zhongzi') {
-        event.server.runCommandSilent(`/kill @e[type=!minecraft:player]`)
-        event.player.addItemCooldown('kubejs:zhongzi', 24000)
-    }
-
 })
 
 onEvent('player.tick', event => {
@@ -352,14 +303,7 @@ onEvent('player.tick', event => {
         }
     }
 })
-onEvent('item.right_click', event => {
-    let player = event.player
-    if (event.item.id == 'kubejs:sixiang_kaitian') {
-        let randomx = randomNum(-10, 10);
-        let randomz = randomNum(-10, 10)
-        event.server.runCommandSilent(`execute at ${event.player.id} run summon minecraft:lightning_bolt ${player.getX() + randomx} ${player.getY()} ${player.getZ() + randomz}`)
-    }
-})
+
 //白给靴
 onEvent('player.tick', event => {
     let player = event.player
