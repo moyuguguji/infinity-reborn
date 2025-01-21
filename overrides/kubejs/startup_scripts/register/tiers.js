@@ -8,7 +8,7 @@ onEvent('item.registry.tool_tiers', event => {
 	})
 	event.add('shenqi', tier => {
 		tier.enchantmentValue = 30
-		tier.repairIngredient = 'kubejs:shenqi_shard'
+		tier.repairIngredient = '#kubejs:shenqi_shard'
 	})
 	event.add('kreska', tier => {
 		tier.uses = 3000
