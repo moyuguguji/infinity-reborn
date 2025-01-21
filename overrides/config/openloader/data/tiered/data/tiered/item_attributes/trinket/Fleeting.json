@@ -1,0 +1,22 @@
+{
+  "id": "tiered:fleeting",
+  "verifiers": [
+    {
+      "tag": "trinket"
+    }
+  ],
+  "weight": 50,
+  "style": {
+    "color": "gray"
+  },
+  "attributes": [
+    {
+      "type": "generic.movement_speed",
+      "modifier": {
+        "name": "tiered:fleeting",
+        "operation": "MULTIPLY_BASE",
+        "amount": 0.02
+      }
+    }
+  ]
+}

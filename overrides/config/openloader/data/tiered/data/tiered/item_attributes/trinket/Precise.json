@@ -1,0 +1,30 @@
+{
+  "id": "tiered:precise",
+  "verifiers": [
+    {
+      "tag": "trinket"
+    }
+  ],
+  "weight": 50,
+  "style": {
+    "color": "gray"
+  },
+  "attributes": [
+    {
+      "type": "playerex:melee_crit_chance",
+      "modifier": {
+        "name": "tiered:precise",
+        "operation": "MULTIPLY_BASE",
+        "amount": 0.02
+      }
+    },
+    {
+      "type": "playerex:ranged_crit_chance",
+      "modifier": {
+        "name": "tiered:precise",
+        "operation": "MULTIPLY_BASE",
+        "amount": 0.01
+      }
+    }
+  ]
+}

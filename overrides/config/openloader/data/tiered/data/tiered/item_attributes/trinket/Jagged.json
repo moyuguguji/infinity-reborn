@@ -1,0 +1,22 @@
+{
+  "id": "tiered:jagged",
+  "verifiers": [
+    {
+      "tag": "trinket"
+    }
+  ],
+  "weight": 50,
+  "style": {
+    "color": "gray"
+  },
+  "attributes": [
+    {
+      "type": "generic.attack_damage",
+      "modifier": {
+        "name": "tiered:jagged",
+        "operation": "MULTIPLY_BASE",
+        "amount": 0.01
+      }
+    }
+  ]
+}

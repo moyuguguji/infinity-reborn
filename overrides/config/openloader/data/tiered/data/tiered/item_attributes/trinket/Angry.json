@@ -1,0 +1,22 @@
+{
+  "id": "tiered:angry",
+  "verifiers": [
+    {
+      "tag": "trinket"
+    }
+  ],
+  "weight": 50,
+  "style": {
+    "color": "gray"
+  },
+  "attributes": [
+    {
+      "type": "generic.attack_damage",
+      "modifier": {
+        "name": "tiered:angry",
+        "operation": "MULTIPLY_BASE",
+        "amount": 0.03
+      }
+    }
+  ]
+}
