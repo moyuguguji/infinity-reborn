@@ -19,11 +19,13 @@ onEvent('item.registry', event => {
 		.displayName("§6神器碎片")
 		.tooltip(Text.translate('item.kubejs.shenqi_shard.tooltip'))
 		.rarity(Rarity.EPIC)
+		.tag('kubejs:shenqi_shard')
 
 	event.create('shenqi_ingot')
 		.displayName("§6神器零件")
 		.tooltip(Text.translate('item.kubejs.shenqi_ingot.tooltip'))
 		.rarity(Rarity.UNCOMMON)
+		.tag('kubejs:shenqi_shard')
 
 	event.create('sheng_jin')
 		.displayName("§6神金")
