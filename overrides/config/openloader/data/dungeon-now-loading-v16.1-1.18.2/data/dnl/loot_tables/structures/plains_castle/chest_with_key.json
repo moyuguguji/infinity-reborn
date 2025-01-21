@@ -17,15 +17,6 @@
                     "name": "dnl:structures/plains_castle/sword/base"
                 }
             ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:loot_table",
-                    "name": "dnl:items/plains_castle_key"
-                }
-            ]
         }
     ]
 }
