@@ -41,9 +41,9 @@
 
   "enchantment.x_enchant.special": "特殊附魔",
   "enchantment.x_enchant.remove_cursed": "诅咒杀手",
-  "enchantment.x_enchant.remove_cursed.desc": "可在铁砧处移除诅咒",
+  "enchantment.x_enchant.remove_cursed.desc": "可在铁砧处移除物品上的诅咒",
   "enchantment.x_enchant.health_converter": "血肉转化",
-  "enchantment.x_enchant.health_converter.desc": "手握该附魔书时每10秒扣除5颗心去完全修复一个物品, 无法附魔任何其他物品",
+  "enchantment.x_enchant.health_converter.desc": "手握该附魔书时每10秒扣除最大生命值50%的血量(不致死,致死不会修复物品)完全修复一个物品后获得虚弱2, 无法附魔任何其他物品",
   "enchantment.x_enchant.infinity_enhance": "无限增强",
   "enchantment.x_enchant.infinity_enhance.desc": "可在铁砧处为无限弓添加经验修补",
 
