@@ -24,6 +24,7 @@
 			title: "建造传送门"
 			x: -3.0d
 			y: 0.5d
+			subtitle: "植物魔法或者光谱制作方式2选一"
 			description: [
 				"特殊处理的黑曜石用来搭建下界传送门框架，用迷失的灵魂右键下界传送门框架即可打开下界传送门。"
 				"{image:kubejs:textures/ftbq/netherportal.png width:257 height:137 align:1}"
@@ -272,7 +273,7 @@
 			y: 2.0d
 			subtitle: "讨伐难度：地狱；讨伐建议：创造飞行能力"
 			description: [
-				"黑石傀儡需要在下界召唤。首先搭建一个9*9的黑石平台，然后如下图一般在每侧中间放置一个錾制磨制黑石基座，在4个基座上放上镶金黑石碎片即可召唤黑石傀儡。（镶金黑石碎片可以通过击杀猪灵蛮兵获得，与猪灵交易也有小概率获得。）"
+				"黑石傀儡需要在下界召唤。首先搭建一个9*9的黑石平台，在每侧中间放置一个錾制磨制黑石基座，在4个基座上放上镶金黑石碎片即可召唤黑石傀儡,具体投影查看无限之书（镶金黑石碎片可以通过击杀猪灵蛮兵获得，与猪灵交易也有小概率获得。）"
 				"================================================"
 			]
 			dependencies: ["0B1B7F9147006845"]
@@ -365,6 +366,58 @@
 				exclude_from_claim_all: true
 				table_id: 1005535573748960953L
 			}]
+		}
+		{
+			title: "讨伐：混沌君主！"
+			icon: {
+				id: "soulsweapons:chaos_crown"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 6.5d
+			y: 0.5d
+			subtitle: "讨伐难度：简单；讨伐建议：无"
+			description: [
+				"合成黑石基座，使用未知碎片激活基座即可召唤混沌君主。（未知碎片由凋零掉落）"
+				"================================================"
+				"TIP：混沌君主会腐蚀他脚下的土地，所以不要在自己家附近召唤它。"
+			]
+			dependencies: ["32DC410EC16DFBA4"]
+			id: "11919E53BA317CCB"
+			tasks: [
+				{
+					id: "27990120290A7656"
+					type: "item"
+					item: "soulsweapons:blackstone_pedestal"
+				}
+				{
+					id: "22F63B1CB3DE9D5B"
+					type: "item"
+					item: "soulsweapons:shard_of_uncertainty"
+				}
+				{
+					id: "1E43982C743AEAA7"
+					type: "advancement"
+					advancement: "darkbosses:monarch_of_chaos_boss"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "27C2C85BCFB44D4D"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "045FB9E326B54FD4"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+			]
 		}
 	]
 	quest_links: [ ]

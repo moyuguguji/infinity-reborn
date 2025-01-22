@@ -1,5 +1,5 @@
 {
-    "replace": false,
+    "replace": true,
     "values": [
         "kubejs:ametrine_crystal",
         "spectrum:spectral_shard"

@@ -1,0 +1,25 @@
+{
+    "armorSetName": "bow_off",
+    "offHand":{
+      "itemKey": "mcdw:bow_lost_souls",
+      "mixAndMatch": [
+        "mcdw:bow_call_of_the_void"
+      ],
+      "mustBeEmpty": false
+    },
+    "fullSetBonuses": [
+      {
+        "type": "attribute",
+        "name": "tiered:generic.range_attack_damage",
+        "value": 1,
+        "modifierUUID": "50d0123c-5c04-4b33-bfd2-fbd6c7386d16",
+        "description": "+1 \u8fdc\u7a0b\u4f24\u5bb3",
+        "attributeOperation": 0,
+        "interactionType": "self",
+        "interactionDuration": 300,
+        "hideBonusDescription": false,
+        "onlyImmuneToNewEffects": false
+      }
+    ],
+    "hideGeneratedTooltip": false
+  }

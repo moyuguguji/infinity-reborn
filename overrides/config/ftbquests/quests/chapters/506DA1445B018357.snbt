@@ -25,7 +25,11 @@
 			y: -5.5d
 			subtitle: "任务只是指引一条道路，指导书和进度是你最真挚的资料"
 			description: ["本mod的指导书。"]
-			dependencies: ["1D26B4EA81538C0A"]
+			dependencies: [
+				"1D26B4EA81538C0A"
+				"06B89C0B48780A85"
+				"515D3C2DC0BFA8C1"
+			]
 			hide: true
 			dependency_requirement: "one_completed"
 			id: "271877E8E7393D05"
@@ -199,31 +203,20 @@
 			]
 		}
 		{
-			title: "宝石碎片"
+			title: "帕托石碎片"
 			x: -7.5d
 			y: -4.0d
-			description: ["原版地下的紫水晶、高山之上的托帕石。海平面以下的黄水晶。"]
+			subtitle: "获得任意水晶以开启光谱世界之旅"
+			description: ["高山之上的托帕石"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			min_required_tasks: 1
 			id: "1D26B4EA81538C0A"
-			tasks: [
-				{
-					id: "6B06EA47FB1ABA9B"
-					type: "item"
-					item: "spectrum:topaz_shard"
-				}
-				{
-					id: "082CF44512307D11"
-					type: "item"
-					item: "minecraft:amethyst_shard"
-				}
-				{
-					id: "6772DA7789DEFB8C"
-					type: "item"
-					item: "spectrum:citrine_shard"
-				}
-			]
+			tasks: [{
+				id: "6B06EA47FB1ABA9B"
+				type: "item"
+				item: "spectrum:topaz_shard"
+			}]
 			rewards: [{
 				id: "70392D6FCC7CA202"
 				type: "random"
@@ -275,8 +268,9 @@
 		{
 			x: -1.5d
 			y: -7.0d
+			subtitle: "需要收集齐三种水晶"
 			description: [
-				"此处为CMY变种。按照合成表合成后，会直接将原有的紫水晶\\托帕石\\黄水晶七彩基座升级为CMY基座,，这之后你需要把基座挖下来完成任务，然后搭建一级注魔仪式祭坛并打开合成页面来解锁后续任务。"
+				"此处为CMY变种。按照合成表合成后，会直接将原有的紫水晶\\托帕石\\黄水晶七彩基座升级为CMY基座,，这之后你需要把基座挖下来完成任务，然后点击合成界面红色提示符号,按照投影搭建祭坛并打开合成页面来解锁后续任务。"
 				"需要搭配聚集仪式使用，详情请见指导书。"
 			]
 			dependencies: ["380B8D448CD2582B"]
@@ -2402,6 +2396,46 @@
 				id: "662A7EB8D0EA0051"
 				type: "item"
 				item: "spectrum:universe_spyhole"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -3.5d
+			subtitle: "获得任意水晶以开启光谱世界之旅"
+			description: ["海平面以下的黄水晶。"]
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			id: "515D3C2DC0BFA8C1"
+			tasks: [{
+				id: "287A8A33832521D4"
+				type: "item"
+				item: "spectrum:citrine_shard"
+			}]
+			rewards: [{
+				id: "4ABEE26634A70A69"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			x: -8.0d
+			y: -5.0d
+			subtitle: "获得任意水晶以开启光谱世界之旅"
+			description: ["原版地下的紫水晶"]
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			id: "06B89C0B48780A85"
+			tasks: [{
+				id: "6BC3CACAF840EB12"
+				type: "item"
+				item: "minecraft:amethyst_shard"
+			}]
+			rewards: [{
+				id: "34A2F8DB653D5E80"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1005535573748960953L
 			}]
 		}
 	]

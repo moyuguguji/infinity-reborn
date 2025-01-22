@@ -209,7 +209,7 @@
 		{
 			title: "讨伐：远古英雄！"
 			x: 9.0d
-			y: -1.0d
+			y: 0.0d
 			subtitle: "讨伐难度：中等；讨伐建议：具有一定的回复手段和持续作战能力"
 			description: [
 				"使用月石罗盘或在任务中领取boss罗盘（【任务】→【boss列表】→【寻找远古英雄】）以寻找远古英雄的所在地。TIP：用德拉古尔激活旧月祭坛可以召唤远古英雄。"
@@ -242,7 +242,7 @@
 		{
 			title: "讨伐：暴虐之影！"
 			x: 9.0d
-			y: -2.5d
+			y: -1.5d
 			subtitle: "讨伐难度：中等；讨伐建议：足够的恢复能力或防御能力"
 			description: [
 				"在击杀远古英雄之后，暴虐之影会从远古英雄的尸体中出现。"
@@ -312,7 +312,7 @@
 			title: "讨伐：夜巫妖！"
 			icon: "bosses_of_mass_destruction:ancient_anima"
 			x: 9.0d
-			y: 0.5d
+			y: 1.5d
 			subtitle: "讨伐难度：中等；讨伐建议：拥有创造飞行能力或足够的远程伤害能力"
 			description: ["你需要使用击杀亡灵类怪物掉落的灵魂之星寻找巫妖塔，像使用末影之眼一样使用它们。在塔中找到凿石祭坛，在四个凿石祭坛上放上灵魂之星即可召唤夜巫妖。夜巫妖飞行在空中，且召唤时会把时间转换到黑夜。（服务器注意）"]
 			dependencies: ["32DC410EC16DFBA4"]
@@ -602,7 +602,7 @@
 		{
 			title: "讨伐：月光圣骑！"
 			x: 7.5d
-			y: -2.5d
+			y: -1.5d
 			subtitle: "讨伐难度：困难；讨伐建议：足够的防御/吸血能力，足够的近战输出"
 			description: [
 				"你需要在主世界找到另一个大教堂，然后使用日暮精粹右键旧月祭坛来召唤 。"
@@ -644,7 +644,7 @@
 		}
 		{
 			x: 5.5d
-			y: -2.0d
+			y: -1.5d
 			description: [
 				"此物十分珍贵，合成材料也不是廉价货，如果你想复制的话也可以用比前者更少的方式复制一份。"
 				"有了这个你就不必为了召唤月光圣骑再度寻找一个大教堂了。"
@@ -1033,58 +1033,6 @@
 				exclude_from_claim_all: true
 				table_id: 1005535573748960953L
 			}]
-		}
-		{
-			title: "讨伐：混沌君主！"
-			icon: {
-				id: "soulsweapons:chaos_crown"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: 8.5d
-			y: 2.5d
-			subtitle: "讨伐难度：简单；讨伐建议：无"
-			description: [
-				"合成黑石基座，使用未知碎片激活基座即可召唤混沌君主。（未知碎片由凋零掉落）"
-				"================================================"
-				"TIP：混沌君主会腐蚀他脚下的土地，所以不要在自己家附近召唤它。"
-			]
-			dependencies: ["32DC410EC16DFBA4"]
-			id: "11919E53BA317CCB"
-			tasks: [
-				{
-					id: "27990120290A7656"
-					type: "item"
-					item: "soulsweapons:blackstone_pedestal"
-				}
-				{
-					id: "22F63B1CB3DE9D5B"
-					type: "item"
-					item: "soulsweapons:shard_of_uncertainty"
-				}
-				{
-					id: "1E43982C743AEAA7"
-					type: "advancement"
-					advancement: "darkbosses:monarch_of_chaos_boss"
-					criterion: ""
-				}
-			]
-			rewards: [
-				{
-					id: "27C2C85BCFB44D4D"
-					type: "loot"
-					exclude_from_claim_all: true
-					table_id: 1005535573748960953L
-				}
-				{
-					id: "045FB9E326B54FD4"
-					type: "loot"
-					exclude_from_claim_all: true
-					table_id: 5136761027295037695L
-				}
-			]
 		}
 		{
 			icon: {

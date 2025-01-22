@@ -93,7 +93,7 @@
 		"disable_mod": false,
 		"auto_start": false,
 		"space_modules": false,
-		"shadow_text": true,
+		"shadow_text": false,
 		"animations": false,
 		"animationSpeed": 1.0,
 		"fontScale": 1.0,

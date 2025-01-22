@@ -66,45 +66,26 @@
 			}]
 		}
 		{
-			title: "不造成伤害模式"
-			icon: {
-				id: "twilightforest:player_skull_candle"
-				Count: 1b
-				tag: {
-					BlockEntityTag: {
-						CandleColor: 0
-						CandleAmount: 1
-					}
-				}
-			}
+			title: "联机难度异常可以用这个"
+			icon: "minecraft:carved_pumpkin"
 			disable_toast: true
-			x: 0.0d
-			y: 3.0d
-			subtitle: "点击切换开启/关闭"
-			description: ["开启之后不破甲伤害将不会回血,而是不造成伤害.默认关闭注:开启后伤害判定将不会吃最终伤害,包括但不限于亢龙,灵魂共振,两循环的伤害释放,谨慎开启"]
-			dependencies: ["738EC65A3C5D8366"]
-			size: 2.0d
+			x: -3.75d
+			y: -2.25d
+			subtitle: "难度是256格内所有玩家的平均值,所以只降自己难度是没用的"
+			size: 1.5d
 			optional: true
 			can_repeat: true
-			id: "3238EE5FA05CDFF8"
+			id: "1E1BA4329B885133"
 			tasks: [{
-				id: "77D4AE33D0BDF8C3"
+				id: "3D867745DCC88AD0"
 				type: "checkmark"
 			}]
 			rewards: [{
-				id: "4BB26128E2DD2F23"
+				id: "5ED6574F143730BC"
 				type: "custom"
-				title: "开启/关闭不造成伤害模式"
-				icon: {
-					id: "twilightforest:player_skull_candle"
-					Count: 1b
-					tag: {
-						BlockEntityTag: {
-							CandleColor: 0
-							CandleAmount: 1
-						}
-					}
-				}
+				title: "所有玩家难度归零"
+				icon: "voidtotem:totem_of_void_undying"
+				auto: "disabled"
 			}]
 		}
 	]

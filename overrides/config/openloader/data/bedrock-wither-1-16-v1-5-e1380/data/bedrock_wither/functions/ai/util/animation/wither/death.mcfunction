@@ -24,5 +24,4 @@ scoreboard players operation #TEMP1 MobAIOther *= #poz_y1 MobAIOther
 
 execute as @e[type=minecraft:area_effect_cloud,tag=TEMP1] run function bedrock_wither:ai/util/animation/wither/particle_spin
 
-execute as @s[scores={MobAITick=200}] run summon creeper ~ ~ ~ {powered:0b,ExplosionRadius:7b,Fuse:0,ignited:1b,Tags:["TEMP2"],CustomName:'{"text":"Nether Star"}'}
 execute as @s[scores={MobAITick=201..}] run data merge entity @s {PickupDelay:0,Invulnerable:0b,NoGravity:0b,Age:-5999s,Motion:[0.0,0.0,0.0]}

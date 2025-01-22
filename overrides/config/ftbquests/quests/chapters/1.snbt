@@ -157,7 +157,6 @@
 			x: 0.0d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "服务器难度问题自行百科搜索怪物增强解决"
 			description: ["这里本质上是通过指令来调整玩家的难度数值，是为了让种田休闲玩家和硬核挑战玩家可以根据自身情况调整游戏压力。"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
