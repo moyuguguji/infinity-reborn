@@ -28,28 +28,6 @@ const whitelist = Ingredient.matchAny([
 var lastResult = [];
 var lastItemCount = 0;
 
-//doo
-onEvent('player.tick', event => {
-    if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:ruoshui_sword') {
-        if (event.player.crouching) {
-            //海之屏障-潜行时给予抗性2
-            event.player.potionEffects.add("minecraft:resistance", 10, 1, false, false)
-        }
-        if (event.player.attackingEntity != null) {
-            //冰之霜寒-战斗时冻结攻击你的目标
-            event.server.runCommandSilent(`effect give ${event.player.attackingEntity.id} minecraft:slowness 3 9 true`)
-        }
-        //水之净化-立刻熄灭你身上的火焰
-        event.player.extinguish()
-
-        //河之湍急-处于战斗状态时获得速度效果
-        if (event.player.lastAttackedEntity != null && event.player.lastAttackedEntity.attackingEntity != null) {
-            event.player.potionEffects.add("minecraft:speed", 10, 1, false, false)
-        }
-
-    }
-})
-
 //Infinity
 onEvent('entity.hurt', event => {
     let target = event.getEntity()
@@ -155,257 +133,6 @@ onEvent('entity.hurt', event => {
 })
 
 
-
-onEvent('player.tick', event => {
-    let player = event.player
-    let mainItem = player.getHeldItem(MAIN_HAND)
-    if (mainItem == 'kubejs:infinity_sword') {
-        player.potionEffects.add("minecraft:resistance", 10, 4, false, false)
-    }
-})
-
-//剑柄
-onEvent('player.tick', event => {
-    let player = event.player
-    let mainItem = player.getHeldItem(MAIN_HAND)
-    if (mainItem == 'kubejs:infinity_sword_a') {
-        player.potionEffects.add("minecraft:resistance", 10, 4, false, false)
-    }
-})
-
-//剑刃
-onEvent('player.tick', event => {
-    let player = event.player
-    let mainItem = player.getHeldItem(MAIN_HAND)
-
-    if (mainItem == 'kubejs:infinity_sword_b') {
-        player.potionEffects.add('minecraft:instant_damage', 1, 0, false, false)
-    }
-
-})
-
-
-onEvent('player.tick', event => {
-    let player = event.player
-    let mainItem = player.getHeldItem(MAIN_HAND)
-
-    if (mainItem == 'kubejs:yecao_sword') {
-        player.potionEffects.add('minecraft:fire_resistance', 20, 0, false, false)
-        //event.server.runCommand(`say ${event.level.getBlock(player.getX()-1,player.getY()-1,player.getZ()-1).getId()}`)
-        if (event.level.getBlock(player.getX() - 1, player.getY() - 1, player.getZ() - 1) == 'minecraft:grass_block') {
-            player.potionEffects.add('minecraft:speed', 20, 3, false, false)
-        }
-        if (player.crouching) {
-            player.potionEffects.add('minecraft:saturation', 20, 3, false, false)
-        }
-    }
-
-})
-
-
-//七星剑
-onEvent('entity.death', event => {
-    let entity = event.getEntity()
-    let source1 = event.getSource()
-    if(!isPlayerSource(source1)) return
-    let player = event.getSource().getPlayer()
-    if (player != null) {
-        if (player.getHeldItem(MAIN_HAND) == 'kubejs:qixing_sword') {
-            player.potionEffects.add('minecraft:absorption', 200, 3, false, false)
-            let chance = randomNum(1, 2)
-            if (chance == 1) {
-                if (entity.type == 'minecraft:creeper') {
-                    player.give('minecraft:creeper_head')
-                }
-                if (entity.player) {
-                    event.server.runCommandSilent(`give ${player.name} minecraft:player_head{SkullOwner:"${entity.name}"} 1`)
-                }
-                if (entity.type == 'minecraft:zombie') {
-                    player.give('minecraft:zombie_head')
-                }
-                if (entity.type == 'minecraft:skeleton') {
-                    player.give('minecraft:skeleton_skull')
-                }
-                if (entity.type == 'minecraft:wither_skeleton') {
-                    player.give('minecraft:wither_skeleton_skull')
-                }
-                if (entity.type == 'minecraft:ender_dragon') {
-                    player.give('minecraft:dragon_head')
-                }
-            }
-
-        }
-    }
-})
-
-onEvent('player.tick', event => {
-    let player = event.player
-    let mainItem = player.getHeldItem(MAIN_HAND)
-    if (mainItem == 'kubejs:qixing_sword') {
-        player.potionEffects.add("minecraft:speed", 1, 2, false, false)
-        player.potionEffects.add("minecraft:resistance", 1, 1, false, false)//抗性提升
-    }
-})
-
-onEvent('player.tick', event => {
-    let player = event.player
-    let mainItem = player.getHeldItem(MAIN_HAND)
-
-    if (mainItem == 'kubejs:nature_spirit') {
-        player.potionEffects.add('minecraft:night_vision', 240, 0, false, false)
-        player.potionEffects.add('minecraft:haste', 20, 1, false, false)
-        if (event.player.lastAttackedEntity != null && !event.player.lastAttackedEntity.potionEffects.isActive('soulsweapons:bleed')) {
-            event.player.lastAttackedEntity.potionEffects.add('soulsweapons:bleed', 80, 6)
-            //event.server.runCommandSilent(`effect give ${event.player.lastAttackedEntity.id} minecraft:slowness 5 1 true`)
-            //event.server.runCommandSilent(`effect give ${event.player.lastAttackedEntity.id} minecraft:weakness 5 1 true`)
-        }
-    }
-})
-onEvent('block.break', event => {
-    let player = event.player
-    let mainItem = player.getHeldItem(MAIN_HAND)
-    if (mainItem == 'kubejs:nature_spirit') {
-        event.player.heal(1)
-        event.player.addFood(2, 0.5)
-    }
-})
-
-
-onEvent('block.right_click', event => {
-    if (event.player.getHeldItem(MAIN_HAND) == 'xps:xp_remover') {
-        if (event.player.getHeldItem(OFF_HAND) != 'spectrum:knowledge_gem') {
-        }
-        else {
-            event.player.tell(`§c§l宝石不允许你这样做`)
-            event.cancel()
-        }
-    }
-})
-onEvent('player.tick', event => {
-    let player = event.player
-    if (event.player.getHeldItem(MAIN_HAND) == 'spectrum:knowledge_gem' || event.player.getHeldItem(OFF_HAND) == 'spectrum:knowledge_gem') {
-        if (event.level.getBlock(player.getX(), player.getY() - 1, player.getZ()) == 'kibe:xp_drain' || event.level.getBlock(player.getX(), player.getY() + 1, player.getZ()) == 'kibe:xp_drain' || event.level.getBlock(player.getX() - 1, player.getY() - 1, player.getZ() - 1) == 'kibe:xp_drain' || event.level.getBlock(player.getX(), player.getY() - 0.5, player.getZ()) == 'kibe:xp_drain') {
-            event.server.runCommandSilent(`clear ${event.player.profile.name} spectrum:knowledge_gem`)
-            event.player.tell(`§c§l宝石无法承受此能量`)
-        }
-    }
-})
-//四象
-onEvent('player.tick', event => {
-    let player = event.player
-    if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:sixiang_kaitian') {
-        if (event.player.lastAttackedEntity != null && event.player.lastAttackedEntity.attackingEntity != null) {
-            event.player.potionEffects.add('minecraft:regeneration', 10, 1, false, false)
-            event.player.potionEffects.add('minecraft:strength', 10, 4, false, false)
-        }
-        if (player.health > player.maxHealth % 2) {
-            event.player.potionEffects.add('minecraft:resistance', 10, 1, false, false)
-        }
-    }
-})
-
-//白给靴
-onEvent('player.tick', event => {
-    let player = event.player
-    let boots = player.getFeetArmorItem()
-
-    if (boots == 'kubejs:baigei_boots') {
-        player.potionEffects.add('minecraft:speed', 20, 1, false, false)
-        player.potionEffects.add('extraalchemy:detection', 20, 0, false, false)
-        player.potionEffects.add('minecraft:resistance', 10, 3, false, false)
-        player.potionEffects.add('minecraft:regeneration', 10, 2, false, false)
-    }
-})
-onEvent('item.right_click', event => {
-    if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:boss_compass1') {
-        event.server.runCommandSilent(`ftbranks add ${event.player.profile.name} locate`)
-        event.player.runCommand(`locate bosses_of_mass_destruction:lich_tower`)
-        event.server.runCommandSilent(`ftbranks remove ${event.player.profile.name} locate`)
-        event.player.mainHandItem.count -= 1
-        return
-    }
-    if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:boss_compass2') {
-        event.server.runCommandSilent(`ftbranks add ${event.player.profile.name} locate`)
-        event.player.runCommand(`locate bosses_of_mass_destruction:gauntlet_arena`)
-        event.server.runCommandSilent(`ftbranks remove ${event.player.profile.name} locate`)
-        event.player.mainHandItem.count -= 1
-        return
-    }
-
-    if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:boss_compass3') {
-        event.server.runCommandSilent(`ftbranks add ${event.player.profile.name} locate`)
-        event.player.runCommand(`locate bosses_of_mass_destruction:obsidilith_arena`)
-        event.server.runCommandSilent(`ftbranks remove ${event.player.profile.name} locate`)
-        event.player.mainHandItem.count -= 1
-        return
-    }
-
-    if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:boss_compass4') {
-        event.server.runCommandSilent(`ftbranks add ${event.player.profile.name} locate`)
-        event.player.runCommand(`locate bosses_of_mass_destruction:void_blossom`)
-        event.server.runCommandSilent(`ftbranks remove ${event.player.profile.name} locate`)
-        event.player.mainHandItem.count -= 1
-        return
-        //event.server.runCommandSilent(`clear ${event.player.profile.name} kubejs:boss_compass4 1`)
-    }
-
-    if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:boss_compass5') {
-        event.server.runCommandSilent(`ftbranks add ${event.player.profile.name} locate`)
-        event.player.runCommand(`locate soulsweapons:champions_graves`)
-        event.server.runCommandSilent(`ftbranks remove ${event.player.profile.name} locate`)
-        event.player.mainHandItem.count -= 1
-        return
-    }
-
-    if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:boss_compass6') {
-        event.server.runCommandSilent(`ftbranks add ${event.player.profile.name} locate`)
-        event.player.runCommand(`locate soulsweapons:cathedral_of_resurrection`)
-        event.server.runCommandSilent(`ftbranks remove ${event.player.profile.name} locate`)
-        event.player.mainHandItem.count -= 1
-        return
-    }
-
-    if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:boss_compass7') {
-        event.server.runCommandSilent(`ftbranks add ${event.player.profile.name} locate`)
-        event.player.runCommand(`locate soulsweapons:decaying_kingdom`)
-        event.server.runCommandSilent(`ftbranks remove ${event.player.profile.name} locate`)
-        event.player.mainHandItem.count -= 1
-        return
-    }
-    if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:yan_qiu') {
-        let d = event.player.fullNBT.Dimension
-        if (d == 'minecraft:the_end') {
-            event.server.runCommandSilent(`execute at ${event.player.id} run summon adventurez:the_eye ${event.player.getX()} ${event.player.getY()} ${event.player.getZ()}`)
-            event.player.mainHandItem.count -= 1
-        } else {
-            event.server.runCommandSilent(`title ${event.player.profile.name} actionbar {"text":"需要在末地使用","color":"deepskyblue","bold":true}`)
-        }
-        return
-    }
-    if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:hei_shi') {
-        let d = event.player.fullNBT.Dimension
-        if (d == 'minecraft:the_nether') {
-            event.server.runCommandSilent(`execute at ${event.player.id} run summon adventurez:stone_golem ${event.player.getX()} ${event.player.getY()} ${event.player.getZ()}`)
-            event.player.mainHandItem.count -= 1
-        } else {
-            event.server.runCommandSilent(`title ${event.player.profile.name} actionbar {"text":"需要在地狱使用","color":"deepskyblue","bold":true}`)
-        }
-        return
-    }
-})
-onEvent('item.right_click', event => {
-    let input = event.player.getHeldItem(MAIN_HAND) == 'kubejs:sao_di'
-    switch (input) {
-        case true:
-            if (event.player.op) {
-                clearLag(event.server);
-                event.player.addItemCooldown('kubejs:sao_di', 100)
-            } else {
-                event.player.tell([Text.lightPurple('[扫地机器人]'), "你没有权限这样做"]);
-            }
-            break;
-    }
-})
 onEvent('level.tick', event => {
     let moon = event.level.getMoonPhase()
     let day = event.level.getLocalTime()
@@ -446,124 +173,30 @@ onEvent('level.tick', event => {
         }
     }
 })
-onEvent('item.right_click', event => {
-    let moon = event.level.getMoonPhase()
-    if (event.player.getHeldItem(MAIN_HAND) == 'spectrum:crescent_clock') {
-        switch (moon) {
-            case 0:
-                event.server.runCommandSilent(`title ${event.player.profile.name} actionbar {"text":"今天的月相是满月","color":"deepskyblue","bold":true}`)
-                //event.server.tell(`今天的月相是满月`)
-                break;
-            case 1:
-                event.server.runCommandSilent(`title ${event.player.profile.name} actionbar {"text":"今天的月相是亏凸月","color":"deepskyblue","bold":true}`)
-                break;
-            case 2:
-                event.server.runCommandSilent(`title ${event.player.profile.name} actionbar {"text":"今天的月相是下弦月","color":"deepskyblue","bold":true}`)
-                //event.server.tell(`今天的月相是下弦月`)
-                break;
-            case 3:
-                event.server.runCommandSilent(`title ${event.player.profile.name} actionbar {"text":"今天的月相是残月","color":"deepskyblue","bold":true}`)
-                //event.server.tell(`今天的月相是残月`)
-                break;
-            case 4:
-                event.server.runCommandSilent(`title ${event.player.profile.name} actionbar {"text":"今天的月相是新月","color":"deepskyblue","bold":true}`)
-                //event.server.tell(`今天的月相是新月`)
-                break;
-            case 5:
-                event.server.runCommandSilent(`title ${event.player.profile.name} actionbar {"text":"今天的月相是蛾眉月","color":"deepskyblue","bold":true}`)
-                //event.server.tell(`今天的月相是蛾眉月`)
-                break;
-            case 6:
-                event.server.runCommandSilent(`title ${event.player.profile.name} actionbar {"text":"今天的月相是上弦月","color":"deepskyblue","bold":true}`)
-                //event.server.tell(`今天的月相是上弦月`)
-                break;
-            case 7:
-                event.server.runCommandSilent(`title ${event.player.profile.name} actionbar {"text":"今天的月相是盈凸月","color":"deepskyblue","bold":true}`)
-                //event.server.tell(`今天的月相是盈凸月`)
-                break;
-        }
-    }
 
+onEvent("entity.spawned", event => {
+	let bossName = bossList[event.getEntity().type]
+	if (!bossName) return
+	event.server.tell(`\u00A75${bossName}已经苏醒!`)
 })
-onEvent('item.right_click', event => {
-    if (event.item.id == 'kubejs:jing__xin') {
-        event.server.runCommandSilent(`execute at ${event.player.id} run summon minecraft:wither`)
-        event.player.addItemCooldown('kubejs:jing__xin', 100)
-    }
 
-})
-onEvent('item.right_click', event => {
-    if (event.item.id == 'kubejs:x_nuohua') {
-        let random = randomNum(1, 10)
-        switch (random) {
-            case 1:
-                event.player.give('spectrum:shooting_star_colorful')
-                break;
-            case 2:
-                event.player.give('spectrum:shooting_star_glistering')
-                break;
-            case 3:
-                event.player.give('spectrum:shooting_star_fiery')
-                break;
-            case 4:
-                event.player.give('spectrum:shooting_star_pristine')
-                break;
-            case 5:
-                event.player.give('spectrum:shooting_star_gemstone')
-                break;
-            default:
-                event.player.give('5x spectrum:shooting_star')
-                break;
-        }
-        event.player.addItemCooldown('kubejs:x_nuohua', 2400)
-    }
-})
-onEvent('player.tick', event => {
-    if (event.player.getHeldItem(MAIN_HAND) == 'kubejs:lce_tang') {
-        let player = event.player
-        if (player.health < player.maxHealth * 0.5) {
-            event.player.potionEffects.add('spectrum:swiftness', 10, 2, false, false)
-        }
-    }
-})
-onEvent('item.right_click', event => {
+onEvent('block.break', event => {
     let player = event.player
-    if (event.item.id == 'kubejs:lce_tang') {
-        if (player.crouching) {
-            if (player.health <= 5) {
-                event.server.runCommandSilent(`title ${event.player.profile.name} actionbar {"text":"生命值不足","color":"red","bold":true}`)
-            } else {
-                player.heal(-5)
-                event.player.potionEffects.add('minecraft:speed', 600, 1, false, false)
-                event.player.potionEffects.add('minecraft:strength', 600, 2, false, false)
-            }
-        } else {
-            event.player.potionEffects.add('minecraft:regeneration', 200, 1, false, false)
-            event.player.addItemCooldown('kubejs:lce_tang', 300)
-        }
-    }
-
-})
-onEvent('player.tick', event => {
-    let player = event.player
-    if (player.getHeldItem(MAIN_HAND) == 'kubejs:jian_li') {
-        if (player.lastAttackedEntity != null && player.lastAttackedEntity.attackingEntity != null) {
-            player.potionEffects.add('spectrum:swiftness', 10, 1, false, false)
-            player.potionEffects.add('minecraft:strength', 10, 1, false, false)
-        }
+    let mainItem = player.getHeldItem(MAIN_HAND)
+    if (mainItem == 'kubejs:nature_spirit') {
+        event.player.heal(1)
+        event.player.addFood(2, 0.5)
     }
 })
 
-onEvent('item.right_click', event => {
-    let player = event.player
-    if (event.item.id == 'kubejs:ailinghan') {
-        if (player.health <= player.maxHealth * 0.3) {
-            event.server.runCommandSilent(`title ${event.player.profile.name} actionbar {"text":"生命值不足","color":"red","bold":true}`)
-        } else {
-            player.heal(-player.maxHealth * 0.3)
-            event.player.potionEffects.add('minecraft:strength', 180, 9, false, false)
-            event.player.addItemCooldown('kubejs:ailinghan', 320)
+
+onEvent('block.right_click', event => {
+    if (event.player.getHeldItem(MAIN_HAND) == 'xps:xp_remover') {
+        if (event.player.getHeldItem(OFF_HAND) != 'spectrum:knowledge_gem') {
+        }
+        else {
+            event.player.tell(`§c§l宝石不允许你这样做`)
+            event.cancel()
         }
     }
-
 })

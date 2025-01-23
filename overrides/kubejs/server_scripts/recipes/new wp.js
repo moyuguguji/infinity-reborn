@@ -18,12 +18,12 @@ onEvent('recipes',event => {
     //event.smithing('gateofbabylon:end_gobber_katana', 'gateofbabylon:nether_gobber_katana', 'gobber2:gobber2_ingot_end'),
 
 	//泰拉
-    event.smithing('gateofbabylon:terra_broadsword', 'gateofbabylon:nether_gobber_broadsword', 'botania:terrasteel_ingot'),
-    event.smithing('gateofbabylon:terra_spear', 'gateofbabylon:nether_gobber_spear', 'botania:terrasteel_ingot')
-    event.smithing('gateofbabylon:terra_dagger', 'gateofbabylon:nether_gobber_dagger', 'botania:terrasteel_ingot'),
-    event.smithing('gateofbabylon:terra_rapier', 'gateofbabylon:gobber_rapier_nether', 'botania:terrasteel_ingot'),
-    event.smithing('gateofbabylon:terra_katana', 'gateofbabylon:gobber_rapier_nether', 'botania:terrasteel_ingot'),
-    event.smithing('gateofbabylon:terra_haladie', 'gateofbabylon:nether_gobber_katana', 'botania:terrasteel_ingot'),
+    event.smithing('gateofbabylon:terra_broadsword', Item.of('gateofbabylon:nether_gobber_broadsword').ignoreNBT(), 'botania:terrasteel_ingot'),
+    event.smithing('gateofbabylon:terra_spear', Item.of('gateofbabylon:nether_gobber_spear').ignoreNBT(), 'botania:terrasteel_ingot')
+    event.smithing('gateofbabylon:terra_dagger', Item.of('gateofbabylon:nether_gobber_dagger').ignoreNBT(), 'botania:terrasteel_ingot'),
+    event.smithing('gateofbabylon:terra_rapier', Item.of('gateofbabylon:gobber_rapier_nether').ignoreNBT(), 'botania:terrasteel_ingot'),
+    event.smithing('gateofbabylon:terra_katana', Item.of('gateofbabylon:nether_gobber_katana').ignoreNBT(), 'botania:terrasteel_ingot'),
+    event.smithing('gateofbabylon:terra_haladie', Item.of('gateofbabylon:nether_gobber_haladie').ignoreNBT(), 'botania:terrasteel_ingot'),
     event.shapeless('kubejs:shenqi_ingot', ['9x kubejs:shenqi_shard'])
     //戈伯
     event.shaped('gateofbabylon:gobber_dagger', [
