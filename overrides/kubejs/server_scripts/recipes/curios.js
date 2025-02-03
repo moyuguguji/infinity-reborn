@@ -7,7 +7,7 @@ onEvent('recipes', event => {
   .keepIngredient('kubejs:disintegration_tablet')
 
   .keepIngredient('kubejs:disintegration_tablet')
-  event.shapeless('kubejs:spectral_silt', [Item.of('kubejs:disintegration_tablet').ignoreNBT(),'@utilities' ])
+  event.shapeless('kubejs:spectral_silt', [Item.of('kubejs:disintegration_tablet').ignoreNBT(),'#utilities:item' ])
   .keepIngredient('kubejs:disintegration_tablet')
   event.shapeless(Item.of('patchouli:guide_book', '{"patchouli:book":"patchouli:infinity_book"}'),['minecraft:diamond','minecraft:book']).id('kubejs:infinity_book')
 })

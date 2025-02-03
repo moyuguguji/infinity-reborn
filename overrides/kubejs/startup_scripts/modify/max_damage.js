@@ -97,5 +97,8 @@ onEvent('item.modification', event => {
 	event.modify(["gobber2:gobber2_helmet_dragon", "gobber2:gobber2_chestplate_dragon", "gobber2:gobber2_leggings_dragon", "gobber2:gobber2_boots_dragon"], item => {
 		item.maxDamage = 9999
 	})
-
+	event.modify('botania:terra_sword', item => {
+		item.maxDamage = 50000
+		item.fireResistant = true
+	})
 })

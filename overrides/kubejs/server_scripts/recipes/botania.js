@@ -171,7 +171,6 @@ onEvent('recipes', event => {
 })
 onEvent('recipes', event => {
 	event.custom({
-		id: "botania:petal_apothecary/entropinnyum",
 		type: "botania:petal_apothecary",
 		"output": {
 			"item": 'botania:entropinnyum'
@@ -198,7 +197,7 @@ onEvent('recipes', event => {
 				"item": 'botania:red_petal'
 			}
 		]
-	})
+	}).id("botania:petal_apothecary/entropinnyum")
 
 })
 onEvent('recipes', event => {

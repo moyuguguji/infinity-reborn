@@ -30,12 +30,6 @@ onEvent('item.modification', event => {
 		modification.removeAttribute("minecraft:generic.attack_speed", "fa233e1c-4180-4865-b01b-bcce9785aca3")
 		modification.addAttribute("minecraft:generic.attack_speed", "fa233e1c-4180-4865-b01b-bcce9785aca3", "Weapon modifier", -3.3, "addition")
 	})
-	event.modify("gateofbabylon:netherite_spear", modification => {
-		modification.removeAttribute("minecraft:generic.attack_damage", "cb3f55d3-645c-4f38-a497-9c13a33db5cf")
-		modification.addAttribute("minecraft:generic.attack_damage", "cb3f55d3-645c-4f38-a497-9c13a33db5cf", "Weapon modifier", 12, "addition")
-		modification.removeAttribute("minecraft:generic.attack_speed", "fa233e1c-4180-4865-b01b-bcce9785aca3")
-		modification.addAttribute("minecraft:generic.attack_speed", "fa233e1c-4180-4865-b01b-bcce9785aca3", "Weapon modifier", -2.4, "addition")
-	})
 	event.modify("gateofbabylon:netherite_broadsword", modification => {
 		modification.removeAttribute("minecraft:generic.attack_damage", "cb3f55d3-645c-4f38-a497-9c13a33db5cf")
 		modification.addAttribute("minecraft:generic.attack_damage", "cb3f55d3-645c-4f38-a497-9c13a33db5cf", "Weapon modifier", 19, "addition")
@@ -132,11 +126,6 @@ onEvent('item.modification', event => {
 		modification.removeAttribute("minecraft:generic.attack_speed", "fa233e1c-4180-4865-b01b-bcce9785aca3")
 		modification.addAttribute("minecraft:generic.attack_speed", "fa233e1c-4180-4865-b01b-bcce9785aca3", "Weapon modifier", -2.2, "addition")
 	})
-
-	event.modify("dragonloot:dragon_sword", modification => {
-		modification.removeAttribute("minecraft:generic.attack_damage", "cb3f55d3-645c-4f38-a497-9c13a33db5cf")
-		modification.addAttribute("minecraft:generic.attack_damage", "cb3f55d3-645c-4f38-a497-9c13a33db5cf", "Weapon modifier", 7.5, "addition")
-	})
 	event.modify("mcdw:sword_obsidian_claymore", modification => {
 		modification.removeAttribute("minecraft:generic.attack_speed", "fa233e1c-4180-4865-b01b-bcce9785aca3")
 		modification.addAttribute("minecraft:generic.attack_speed", "fa233e1c-4180-4865-b01b-bcce9785aca3", "Weapon modifier", -3.2, "addition")
@@ -152,10 +141,6 @@ onEvent('item.modification', event => {
 
 	event.modify('botania:terra_sword', item => {
 		item.maxDamage = 50000
-		item.fireResistant = true
-	})
-	event.modify('gobber2:gobber2_special_item', item => {
-		item.setmaxStackSize(8)
 		item.fireResistant = true
 	})
 

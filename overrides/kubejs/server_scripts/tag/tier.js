@@ -285,3 +285,12 @@ onEvent('item.tags', event => {
 	event.removeAll('twilightforest:portal/activator')
 	event.add('twilightforest:portal/activator', ['gobber2:gobber2_ingot'])
 })
+// 在 kubejs/server_scripts 目录下的脚本文件中编写
+onEvent('tags.items', event => {
+	Ingredient.of('@utilities').getItemIds().forEach(element => {
+        event.add(
+			'utilities:item', // 标签名称（格式为 namespace:tag_name）
+			[element] // 获取该模组所有物品
+		  )
+    });
+  })

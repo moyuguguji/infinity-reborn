@@ -7,7 +7,7 @@
     "refresh": 2000,
     "task": [
         "submit",
-        "'minecraft:tropical_fish'",
+        "minecraft:tropical_fish",
         1
     ],
     "description":"\u6d4b\u8bd5\u6587\u672c",
