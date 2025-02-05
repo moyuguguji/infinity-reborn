@@ -1,0 +1,32 @@
+{
+    "music.gu": {
+      "sounds": [
+        {
+          "name": "kubejs:gu",
+          "pitch": 1.0,
+          "volume": 1.0
+        }
+      ],
+      "subtitle": "subtitles.kubejs.gu"
+    },
+    "v_gu": {
+      "sounds": [
+        {
+          "name": "kubejs:v_gu",
+          "pitch": 1.0,
+          "volume": 1.0
+        }
+      ],
+      "subtitle": "subtitles.kubejs.v_gu"
+    },
+    "cat": {
+      "sounds": [
+        {
+          "name": "kubejs:cat",
+          "pitch": 1.0,
+          "volume": 1.0
+        }
+      ],
+      "subtitle": "subtitles.kubejs.cat"
+    }
+  }

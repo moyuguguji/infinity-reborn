@@ -214,4 +214,10 @@ onEvent('item.registry', event => {
 		.tooltip(Text.translate('右键使用显示最近的boss建筑'))
 		.maxStackSize(1)
 		.rarity(Rarity.EPIC)
+	event.create('gu')
+		.displayName("灵感菇")
+		//.tooltip(Text.translate('item.kubejs.chinese_dumpling.tooltip'))
+		.food((food) => {
+			food.hunger(4).saturation(0.5).effect('minecraft:slow_falling', 100, 0, 1.0).effect('minecraft:levitation', 100, 0, 1.0)
+		})
 })
