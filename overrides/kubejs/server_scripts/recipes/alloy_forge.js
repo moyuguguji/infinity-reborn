@@ -764,4 +764,27 @@ onEvent('recipes', event => {
 		'min_forge_tier': 4,
 		'fuel_per_tick': 200
 	})
+	event.custom({
+		type: 'alloy_forgery:forging',
+		'inputs': [
+		{
+			"item": 'numismatic-overhaul:gold_coin',
+			"count": 1
+		},
+		{
+			"item": 'numismatic-overhaul:silver_coin',
+			"count": 30
+		},
+		{
+			"item": 'mythicmetals:hallowed_nugget',
+			"count": 3
+		}
+	    ],
+		'output': {
+			'id': 'kubejs:gold_coin',
+			'count': 1
+		},
+		'min_forge_tier': 2,
+		'fuel_per_tick': 50
+	})
 })

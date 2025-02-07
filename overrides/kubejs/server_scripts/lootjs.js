@@ -744,8 +744,18 @@ onEvent("lootjs", (event) => {
             Item.of("mythicmetals:banglum_chunk").withChance(1),//聚爆石
             Item.of("mythicmetals:stormyx_shell").withChance(1)//风暴石外壳
         ])
-        event
+    event
         .addEntityLootModifier("minecraft:wither","soulsweapons:chaos_monarch","minecraft:ender_dragon","soulsweapons:moonknight","soulsweapons:accursed_lord_boss","soulsweapons:draugr_boss","adventurez:stone_golem","adventurez:void_shadow","adventurez:the_eye","whisperwoods:hirschgeist","soulsweapons:night_shade","terrarianslimes:king_slime","bosses_of_mass_destruction:lich","bosses_of_mass_destruction:void_blossom","bosses_of_mass_destruction:gauntlet","bosses_of_mass_destruction:obsidilith","botania:doppleganger","soulsweapons:returning_knight",)
         .randomChance(1.0)
         .addLoot('numismatic-overhaul:gold_coin')
+
+    event
+        .addBlockLootModifier("minecraft:mushroom_stem")
+        .randomChance(0.1)
+        .addLoot("kubejs:gu")
+
+    event
+        .addBlockLootModifier("minecraft:red_mushroom_block")
+        .randomChance(0.1)
+        .addLoot("kubejs:gu")
 })

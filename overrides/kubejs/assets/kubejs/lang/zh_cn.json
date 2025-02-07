@@ -71,5 +71,7 @@
 	"item.kubejs.difficulty_changer.tooltip22": "§7- 其余与大师难度一致,仅供挑战",
 	"subtitles.kubejs.gu": "灵感菇:企鹅",
 	"subtitles.kubejs.v_gu": "灵感菇:村民",
-	"subtitles.kubejs.cat": "灵感菇:猫"
+	"subtitles.kubejs.cat": "灵感菇:猫",
+	"item.kubejs.gold_coin.tooltip": "§6用于饰品重铸",
+	"item.kubejs.gold_coin.tooltip1": "沟槽的哥布林还在追我"
 }
