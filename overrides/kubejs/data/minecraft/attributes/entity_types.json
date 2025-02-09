@@ -1,7 +1,7 @@
 {
     "values": {
         "minecraft:ender_dragon": {
-            "minecraft:generic.max_health": 500.0,
+            "minecraft:generic.max_health": 450.0,
             "minecraft:generic.attack_damage": 100.0,
             "minecraft:generic.armor": 30.0,
             "minecraft:generic.armor_toughness": 5.0,

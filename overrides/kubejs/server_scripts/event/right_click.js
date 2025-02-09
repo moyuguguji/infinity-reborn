@@ -112,6 +112,34 @@ const rightClickEventInHand = {
 
 
 const rightClickEventMainHand = {
+	'kubejs:starter_bag': function(event){
+		let bag = [
+			"5x kubejs:jiushu_heart","inmis:frayed_backpack","5x things:recall_potion","waystones:warp_stone","gobber2:gobber2_ring_miner"
+		]
+		let player = event.player
+		for (let index = 0; index < bag.length; index++) {
+			player.give(bag[index])
+		}
+	},
+	'kubejs:miner_quests': function(event){
+		let loot = [
+			'mythicmetals:bronze_ingot',
+			'mythicmetals:durasteel_ingot',
+			'mythicmetals:aquarium_ingot',
+			'mythicmetals:carmot_ingot',
+			'mythicmetals:quadrillum_ingot',
+			'mythicmetals:banglum_ingot',
+			'3x mythicmetals:adamantite_nugget',
+			'3x soulsweapons:moonstone',
+			'3x soulsweapons:verglas'
+		]
+		let player = event.player
+		for (let index = 0; index < 10; index++) {
+			player.give(loot[randomNum(0,loot.length)]) 
+		}
+		player.give('30x numismatic-overhaul:silver_coin')
+		player.mainHandItem.count -= 1
+	},
 	'kubejs:boss_rush': function(event) {
 		let player = event.player
 		Object.keys(bossList).forEach(entityType => {
@@ -270,7 +298,16 @@ const rightClickEventMainHand = {
 			player.stages.remove('difficulty_yonghen')
 			player.stages.add('difficulty_yonghen')
 			player.playSound('minecraft:entity.ender_dragon.growl')
-			player.give(Item.of('spectrum:present', '{Colors:[{Amount:1,Color:"white"}],Giver:"moyuguguji",GiverUUID:[I;-1015466589,-1697168830,-1474266886,36528245],Items:[{Count:1b,id:"inmis:frayed_backpack",tag:{Inventory:[{Slot:0,Stack:{Count:1b,id:"toms_storage:ts.inventory_connector"}},{Slot:1,Stack:{Count:1b,id:"toms_storage:ts.crafting_terminal"}},{Slot:2,Stack:{Count:3b,id:"expandedstorage:diamond_barrel"}},{Slot:3,Stack:{Count:1b,id:"mcdw:sword_iron_sword_var",tag:{Damage:0,swa3:{}}}},{Slot:4,Stack:{Count:16b,id:"things:recall_potion"}},{Slot:5,Stack:{Count:1b,id:"things:socks",tag:{}}},{Slot:6,Stack:{Count:1b,id:"waystones:warp_stone",tag:{Damage:0}}},{Slot:7,Stack:{Count:1b,id:"extraalchemy:potion_bag",tag:{}}},{Slot:8,Stack:{Count:8b,id:"minecraft:golden_apple"}}]}},{Count:1b,id:"mcda:spelunker_armor_helmet",tag:{Damage:0,saa1:{}}},{Count:1b,id:"mcda:spelunker_armor_chestplate",tag:{Damage:0,saa1:{}}},{Count:1b,id:"mcda:spelunker_armor_leggings",tag:{Damage:0,saa1:{}}},{Count:1b,id:"mcda:spelunker_armor_boots",tag:{Damage:0,saa1:{}}}],Variant:"red",Wrapped:1b,display:{Name:\'{"italic":false,"extra":[{"text":""},{"color":"gold","text":"冒险礼包"}],"text":""}\'}}'))
+			let yonghen = [
+				Item.of('mcda:spelunker_armor_helmet'),
+				Item.of('mcda:spelunker_armor_chestplate'),
+				Item.of('mcda:spelunker_armor_leggings'),
+				Item.of('mcda:spelunker_armor_boots'),
+				Item.of('inmis:frayed_backpack', '{Inventory:[{Slot:0,Stack:{Count:1b,id:"toms_storage:ts.inventory_connector"}},{Slot:1,Stack:{Count:1b,id:"toms_storage:ts.crafting_terminal"}},{Slot:2,Stack:{Count:3b,id:"expandedstorage:diamond_barrel"}},{Slot:3,Stack:{Count:1b,id:"mcdw:sword_iron_sword_var",tag:{Damage:0,swa3:{}}}},{Slot:4,Stack:{Count:16b,id:"things:recall_potion"}},{Slot:5,Stack:{Count:1b,id:"things:socks",tag:{}}},{Slot:6,Stack:{Count:1b,id:"waystones:warp_stone",tag:{Damage:0}}},{Slot:7,Stack:{Count:1b,id:"extraalchemy:potion_bag",tag:{}}},{Slot:8,Stack:{Count:8b,id:"minecraft:golden_apple"}}]}')
+			]
+			for (let index = 0; index < yonghen.length; index++) {
+				player.give(yonghen[index])
+			}
 			player.stages.add('lb')
 			event.server.runCommandSilent(`title ${player.profile.name} actionbar {"text":"当前难度：永恒","color":"aqua","bold":true}`)
 		} else {

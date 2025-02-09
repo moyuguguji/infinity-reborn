@@ -1,7 +1,7 @@
 {
 	id: "1A4687805E617B3B"
 	order_index: 11
-	title: "tom"
+	title: "{loot_table.12}"
 	loot_size: 1
 	rewards: [
 		{ item: "toms_storage:ts.inventory_connector" }

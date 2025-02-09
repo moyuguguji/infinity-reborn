@@ -3,7 +3,7 @@
 	group: "0B54634113ED2BBC"
 	order_index: 0
 	filename: "506DA1445B018357"
-	title: "光谱世界"
+	title: "{chapter.12.title}"
 	icon: "spectrum:manual"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -23,14 +23,13 @@
 		{
 			x: -6.0d
 			y: -5.5d
-			subtitle: "任务只是指引一条道路，指导书和进度是你最真挚的资料"
-			description: ["本mod的指导书。"]
+			subtitle: "{chapter.12.quest.1.subtitle}"
+			description: ["{chapter.12.quest.1.description.1}"]
 			dependencies: [
 				"1D26B4EA81538C0A"
 				"06B89C0B48780A85"
 				"515D3C2DC0BFA8C1"
 			]
-			hide: true
 			dependency_requirement: "one_completed"
 			id: "271877E8E7393D05"
 			tasks: [{
@@ -46,15 +45,11 @@
 			}]
 		}
 		{
-			title: "宝石粉末"
+			title: "{chapter.12.quest.2.title}"
 			x: -4.5d
 			y: -7.0d
-			description: [
-				"使用铁砧把宝石碎片砸成粉末，为七彩基座的合成提供“染料”。"
-				"你可以一次放多组来压,你的铁砧越高压的越多"
-			]
+			description: ["{chapter.12.quest.2.description.1}"]
 			dependencies: ["00A78BD1F10BE5D5"]
-			hide: true
 			min_required_tasks: 1
 			id: "4F507917FD331CA5"
 			tasks: [
@@ -62,16 +57,6 @@
 					id: "123CA6A1DEE05DCE"
 					type: "item"
 					item: "spectrum:amethyst_powder"
-				}
-				{
-					id: "4C819826E7C273AF"
-					type: "item"
-					item: "spectrum:topaz_powder"
-				}
-				{
-					id: "384C98AAAA16AD7C"
-					type: "item"
-					item: "spectrum:citrine_powder"
 				}
 				{
 					id: "7C75C015D2847D62"
@@ -100,10 +85,7 @@
 			x: -9.0d
 			y: -1.5d
 			description: [
-				"这是一个很新、更新频率也很高的mod。"
-				"以下任务仅供参考，大家游玩时遇到问题可以先自己努力解决一下哦！"
-				"================================================"
-				"PS：本mod的推进需要逐渐解锁进度（不能跳过进度），如果指导书不提示新的内容的话，就努力解锁新的进度吧~"
+				"{chapter.12.quest.3.description.1}"
 				"{image:kubejs:textures/ftbq/10.png width:100 height:100 align:1}"
 			]
 			dependencies: ["027AAA6A3553F7DB"]
@@ -113,7 +95,7 @@
 			tasks: [{
 				id: "4FEAC8A25B89E3A2"
 				type: "checkmark"
-				title: "关于光谱世界"
+				title: "{chapter.12.quest.3.task.1.title}"
 			}]
 			rewards: [
 				{
@@ -159,19 +141,15 @@
 		{
 			x: -6.0d
 			y: -7.0d
-			description: [
-				"托帕石、紫水晶、黄水晶三种基座做出一种即可。"
-				"TIP：做出来需要先放下右键打开合成页面才能解锁下一步。"
-			]
+			description: ["{chapter.12.quest.4.description.1}"]
 			dependencies: ["271877E8E7393D05"]
-			hide: true
 			min_required_tasks: 1
 			id: "00A78BD1F10BE5D5"
 			tasks: [
 				{
 					id: "7A4EE0CF6A089CF2"
 					type: "item"
-					title: "任意基座"
+					title: "{chapter.12.quest.4.task.1.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -203,11 +181,11 @@
 			]
 		}
 		{
-			title: "帕托石碎片"
+			title: "{chapter.12.quest.5.title}"
 			x: -7.5d
 			y: -4.0d
-			subtitle: "获得任意水晶以开启光谱世界之旅"
-			description: ["高山之上的托帕石"]
+			subtitle: "{chapter.12.quest.5.subtitle}"
+			description: ["{chapter.12.quest.5.description.1}"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			min_required_tasks: 1
@@ -227,15 +205,13 @@
 		{
 			x: -3.0d
 			y: -7.0d
-			description: [
-				"七彩基座既可以进行mod中的合成，也可以进行原版合成。"
-				"使用红石信号或者用这个法杖，激活七彩基座的合成。"
-				"拿到这只画笔之后，你需要在七彩基座上进行一次消耗宝石粉的合成来解锁后续步骤（如合成模板）。"
-				"================================================"
-				"“每个魔法mod都应该有一根法杖。”"
+			description: ["{chapter.12.quest.6.description.1}"]
+			dependencies: [
+				"4F507917FD331CA5"
+				"4929277AC11875DD"
+				"5EF371628CAF40D7"
 			]
-			dependencies: ["4F507917FD331CA5"]
-			hide: true
+			dependency_requirement: "one_completed"
 			id: "380B8D448CD2582B"
 			tasks: [
 				{
@@ -268,13 +244,9 @@
 		{
 			x: -1.5d
 			y: -7.0d
-			subtitle: "需要收集齐三种水晶"
-			description: [
-				"此处为CMY变种。按照合成表合成后，会直接将原有的紫水晶\\托帕石\\黄水晶七彩基座升级为CMY基座,，这之后你需要把基座挖下来完成任务，然后点击合成界面红色提示符号,按照投影搭建祭坛并打开合成页面来解锁后续任务。"
-				"需要搭配聚集仪式使用，详情请见指导书。"
-			]
+			subtitle: "{chapter.12.quest.7.subtitle}"
+			description: ["{chapter.12.quest.7.description.1}"]
 			dependencies: ["380B8D448CD2582B"]
-			hide: true
 			id: "288285DBDAB1C5FD"
 			tasks: [
 				{
@@ -318,12 +290,11 @@
 			]
 		}
 		{
-			title: "微光石"
+			title: "{chapter.12.quest.8.title}"
 			x: 0.0d
 			y: -7.0d
-			description: [" 在海平面高度（即1-63层）生成。"]
+			description: ["{chapter.12.quest.8.description.1}"]
 			dependencies: ["288285DBDAB1C5FD"]
-			hide: true
 			id: "5E210CF7E49C569C"
 			tasks: [
 				{
@@ -356,10 +327,9 @@
 		{
 			x: 1.5d
 			y: -7.0d
-			subtitle: "直接拿是得不到进度的"
-			description: ["右键可以放出一团灰色物质，即微生物。"]
+			subtitle: "{chapter.12.quest.9.subtitle}"
+			description: ["{chapter.12.quest.9.description.1}"]
 			dependencies: ["5E210CF7E49C569C"]
-			hide: true
 			id: "309077656D4899C2"
 			tasks: [
 				{
@@ -390,11 +360,11 @@
 			]
 		}
 		{
+			title: "{chapter.12.quest.10.title}"
 			x: 3.0d
 			y: -7.0d
-			description: ["将作物方块如西瓜南瓜或树叶，放在微生物旁边，作物被腐蚀后打破获取。"]
+			description: ["{chapter.12.quest.10.description.1}"]
 			dependencies: ["309077656D4899C2"]
-			hide: true
 			id: "50196DC829EF6061"
 			tasks: [
 				{
@@ -427,15 +397,14 @@
 		{
 			x: 4.5d
 			y: -7.0d
-			description: ["你可以自己制作树苗。"]
+			description: ["{chapter.12.quest.11.description.1}"]
 			dependencies: ["50196DC829EF6061"]
-			hide: true
 			id: "7AACC55C1BC80F2A"
 			tasks: [
 				{
 					id: "49D8FDC343C262C5"
 					type: "item"
-					title: "任意颜色树苗"
+					title: "{chapter.12.quest.11.task.1.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -473,16 +442,12 @@
 			]
 		}
 		{
-			title: "基础颜料"
+			title: "{chapter.12.quest.12.title}"
 			x: 4.5d
 			y: -5.5d
-			subtitle: "商店貌似有了新东西"
-			description: [
-				"你可以在野外中发现不同颜色的染色树，"
-				"然后撸掉树叶收集颜料。"
-			]
+			subtitle: "{chapter.12.quest.12.subtitle}"
+			description: ["{chapter.12.quest.12.description.1}"]
 			dependencies: ["7AACC55C1BC80F2A"]
-			hide: true
 			id: "5637FEB12ADC8EB3"
 			tasks: [
 				{
@@ -543,7 +508,7 @@
 				{
 					id: "46407E5A459F83E1"
 					type: "advancement"
-					title: "收集齐上面这几个颜料"
+					title: "{chapter.12.quest.12.task.12.title}"
 					icon: "botania:cosmetic_questgiver_mark"
 					advancement: "spectrum:collect_all_basic_pigments_besides_brown"
 					criterion: ""
@@ -567,14 +532,9 @@
 		{
 			x: 3.0d
 			y: -5.5d
-			subtitle: "你需要先把基础基座升级才能解锁配方"
-			description: [
-				"你需要搭建融合仪式，对准融合圣坛右键即可展开透视图，搭建完成之后随便将一个物品右键放上去即可解锁成就。"
-				""
-				"如果你只做无限剑,推到这就可以不推了"
-			]
+			subtitle: "{chapter.12.quest.13.subtitle}"
+			description: ["{chapter.12.quest.13.description.1}"]
 			dependencies: ["5637FEB12ADC8EB3"]
-			hide: true
 			min_required_tasks: 1
 			id: "12766F7759AA7EE6"
 			tasks: [
@@ -614,10 +574,9 @@
 			x: 1.5d
 			y: -4.0d
 			description: [
-				"在新月的月相下按照配方放置岩浆，托帕石，黄水晶，和紫水晶。合成时会有明显的音效。“新月”即天空中的月相为一圈白色而中空。"
-				"后续流程会消耗不少缟玛瑙，建议你一次放64个黄水晶、紫水晶和托帕石，一次合成64个缟玛瑙。"
+				"{chapter.12.quest.14.description.1}"
 				"{image:kubejs:textures/ftbq/moon.png width:170 height:140 align:1}"
-				"/time set 114514 ，该指令可以带你快速达到新月（喜）。"
+				"{chapter.12.quest.14.description.2}"
 			]
 			dependencies: ["12766F7759AA7EE6"]
 			hide: true
@@ -653,11 +612,7 @@
 		{
 			x: 0.0d
 			y: -4.0d
-			description: [
-				"和CMY升级一样，直接升级基座。"
-				"================================================"
-				"升级完基座够还需要升级周围的多方块结构，升级完多方块结构之后右键缟玛瑙七彩基座解锁成就和后续任务。"
-			]
+			description: ["{chapter.12.quest.15.description.1}"]
 			dependencies: ["4CE9B355B43E155E"]
 			hide: true
 			id: "7B51BFDD655E1281"
@@ -704,9 +659,11 @@
 		{
 			x: -1.5d
 			y: -2.5d
-			description: ["在下界中挖掘获得。"]
+			subtitle: "{chapter.12.quest.16.subtitle}"
+			description: ["{chapter.12.quest.16.description.1}"]
 			dependencies: ["59D6B500E090C86B"]
 			hide: true
+			min_required_tasks: 2
 			id: "48F57785B56CE5C5"
 			tasks: [
 				{
@@ -744,18 +701,14 @@
 		{
 			x: 3.0d
 			y: 5.0d
-			description: [
-				"光谱世界是一个流程极其完整、内容繁多、各方面紧密性很强的优质mod。"
-				"即便我已经尽可能扩展任务线，但本阶段展现在玩家面前的仍只是spectrum（光谱世界）mod的冰山一角，还有非常多的精彩的内容亟待你去探索，譬如头颅科技、墨水魔法、渊深世界（暂未更新的新次元）以及养育小火龙（画饼更新）等等。"
-				"如对任务流程有任何意见或建议，请到群或频道中反馈，非常感谢。"
-			]
+			description: ["{chapter.12.quest.17.description.1}"]
 			dependencies: ["194A0C7FDCBD4476"]
 			optional: true
 			id: "7AF59E2FDA4EBDEF"
 			tasks: [{
 				id: "2055D26027AAD096"
 				type: "checkmark"
-				title: "碎碎念"
+				title: "{chapter.12.quest.17.task.1.title}"
 			}]
 			rewards: [{
 				id: "4FD7DD554C04DA47"
@@ -766,7 +719,7 @@
 		{
 			x: 0.0d
 			y: -2.5d
-			description: ["解锁棕色树苗前需要完成缟玛瑙基座结构。"]
+			description: ["{chapter.12.quest.18.description.1}"]
 			dependencies: ["7B51BFDD655E1281"]
 			hide: true
 			id: "59D6B500E090C86B"
@@ -806,7 +759,7 @@
 		{
 			x: -3.0d
 			y: -4.0d
-			description: ["做出这个液体水晶桶之后必须泡在液体水晶里一次才能继续接下来的任务。"]
+			description: ["{chapter.12.quest.19.description.1}"]
 			dependencies: ["715195FE8612B929"]
 			hide: true
 			id: "4CE237AE8F58B2CB"
@@ -841,8 +794,8 @@
 		{
 			x: -1.5d
 			y: -1.0d
-			subtitle: "如果你没有解锁配方,记得去找奇毒苇"
-			description: ["如同对待微生物那般将蚀解之瓶放在黑曜石的附近，挖掘被腐蚀的黑曜石即可获取新的资源。"]
+			subtitle: "{chapter.12.quest.20.subtitle}"
+			description: ["{chapter.12.quest.20.description.1}"]
 			dependencies: ["48F57785B56CE5C5"]
 			hide: true
 			id: "7945125249DD7028"
@@ -877,10 +830,7 @@
 		{
 			x: -3.0d
 			y: -1.0d
-			description: [
-				"使用蚀解之瓶倒在黑曜石中挖掘微生物掉落"
-				"就像褪解之瓶那样。"
-			]
+			description: ["{chapter.12.quest.21.description.1}"]
 			dependencies: ["7945125249DD7028"]
 			hide: true
 			id: "58CB04E34DFCAC0D"
@@ -916,11 +866,8 @@
 			x: -4.5d
 			y: -2.5d
 			shape: "circle"
-			subtitle: "制作无限之剑剑身的材料之一"
-			description: [
-				"在雷雨天气闪电劈到的地方生成，"
-				"你也可以使用特殊附魔自行生成雷电。"
-			]
+			subtitle: "{chapter.12.quest.22.subtitle}"
+			description: ["{chapter.12.quest.22.description.1}"]
 			dependencies: ["58CB04E34DFCAC0D"]
 			id: "116BF87094EA4E42"
 			tasks: [
@@ -960,7 +907,7 @@
 		{
 			x: -4.5d
 			y: -1.0d
-			description: ["合成该物品时，融合圣坛附近会生成很多午夜溶液，这种溶液会杀死生物、吞噬掉落的物品、改变接触到的某些方块（甚至水方块），请务必在旁边监督。"]
+			description: ["{chapter.12.quest.23.description.1}"]
 			dependencies: [
 				"58CB04E34DFCAC0D"
 				"4CE237AE8F58B2CB"
@@ -998,10 +945,7 @@
 		{
 			x: -4.5d
 			y: 0.5d
-			description: [
-				"在制作午夜像差时会生成午夜溶液（可以用桶收集）"
-				"任何生物死在午夜溶液中都会掉落午夜残片。"
-			]
+			description: ["{chapter.12.quest.24.description.1}"]
 			dependencies: ["1E114E9019D2C90E"]
 			hide: true
 			id: "4DC63D1752013975"
@@ -1036,7 +980,7 @@
 		{
 			x: -1.5d
 			y: 0.5d
-			description: ["这将是你能制造出的最强生命——他们甚至以这个世界最为坚硬的基岩为食！"]
+			description: ["{chapter.12.quest.25.description.1}"]
 			dependencies: [
 				"4DC63D1752013975"
 				"0F5773559E05C414"
@@ -1074,7 +1018,7 @@
 		{
 			x: -3.0d
 			y: 2.0d
-			description: ["主世界地下挖掘获得。"]
+			description: ["{chapter.12.quest.26.description.1}"]
 			dependencies: [
 				"027AAA6A3553F7DB"
 				"58CB04E34DFCAC0D"
@@ -1113,11 +1057,8 @@
 			x: -1.5d
 			y: 2.0d
 			shape: "circle"
-			subtitle: "制作无限之剑剑柄的材料之一"
-			description: [
-				"使用坏灭之瓶倒在基岩上挖掘微生物掉落。"
-				"不要放任他吞噬基岩，不然你会后悔的。"
-			]
+			subtitle: "{chapter.12.quest.27.subtitle}"
+			description: ["{chapter.12.quest.27.description.1}"]
 			dependencies: ["2F08F5EB273B58D8"]
 			hide: true
 			id: "6CD923D48AF77852"
@@ -1169,11 +1110,7 @@
 		{
 			x: -1.5d
 			y: -4.0d
-			description: [
-				"美人鱼草在主世界海底生成，成熟后美人鱼宝石会飘在水面上。"
-				"================================================"
-				"TIP：由于群系的限制，冷冻深海群系海面以下只会生成美人鱼草。"
-			]
+			description: ["{chapter.12.quest.28.description.1}"]
 			dependencies: ["7B51BFDD655E1281"]
 			hide: true
 			id: "715195FE8612B929"
@@ -1206,11 +1143,12 @@
 			]
 		}
 		{
-			title: "芙兰朵露之翼[可选任务]"
+			title: "{chapter.12.quest.29.title}"
 			x: -1.5d
 			y: -8.5d
-			subtitle: "“一个没有耐久且不用烟花的鞘翅”"
+			subtitle: "{chapter.12.quest.29.subtitle}"
 			dependencies: ["288285DBDAB1C5FD"]
+			hide: true
 			optional: true
 			id: "66221472C5C98E3A"
 			tasks: [{
@@ -1226,16 +1164,12 @@
 			}]
 		}
 		{
-			title: "天体怀表[可选任务]"
+			title: "{chapter.12.quest.30.title}"
 			x: 3.0d
 			y: -4.0d
-			description: [
-				"右键可以加速时间，方便你更快达到新月。"
-				"生存模式暂不可用并非你不能使用，而是正常流程中生存模式不可获取。"
-				"PS:不要使用过多,不然怪物会变得过于强大"
-				"使用吊床也可以，详见【实用工具】→【像婴儿一样的睡眠】。"
-			]
+			description: ["{chapter.12.quest.30.description.1}"]
 			dependencies: ["12766F7759AA7EE6"]
+			hide: true
 			optional: true
 			id: "5BAC0510191FA425"
 			tasks: [{
@@ -1245,16 +1179,12 @@
 			}]
 		}
 		{
-			title: "光谱扩展"
+			title: "{chapter.12.quest.31.title}"
 			icon: "spectrum:moonstone_shard"
 			x: 0.0d
 			y: 2.0d
-			subtitle: "以下内容均非光谱世界已确定更新的内容，仅供参考"
-			description: [
-				"注意，由于这之后的内容作者仅在1.19以及后续版本更新，不确定1.18的未开放内容和1.19正式版内容是否有差距，请根据个人实践结合百科内容进行判断。"
-				""
-				"从远古遗迹中获得三种水晶母岩,获取望舒琼浆之后在灵魂灌注台中合成缟玛瑙母岩"
-			]
+			subtitle: "{chapter.12.quest.31.subtitle}"
+			description: ["{chapter.12.quest.31.description.1}"]
 			dependencies: ["6CD923D48AF77852"]
 			hide: true
 			optional: true
@@ -1263,7 +1193,7 @@
 				{
 					id: "5AD81B3D4B6E27C7"
 					type: "checkmark"
-					title: "光谱扩展"
+					title: "{chapter.12.quest.31.task.1.title}"
 				}
 				{
 					id: "1E4D36F2FB718505"
@@ -1305,17 +1235,12 @@
 			]
 		}
 		{
-			title: "月长石基座"
+			title: "{chapter.12.quest.32.title}"
 			icon: "spectrum:pedestal_moonstone"
 			x: 1.5d
 			y: 2.0d
-			subtitle: "以下内容均非光谱世界已确定更新的内容，仅供参考"
-			description: [
-				"注意,由于是强行绕过限制,配方rei中不一定会有,记得多看光谱书"
-				"TIP：升级之前先做四个錾制缟玛瑙方解石/玄武石，你会感谢我的。"
-				"TIP：升级时间非常之长，请耐心等待。"
-				"模组书上的黄色问号不用管"
-			]
+			subtitle: "{chapter.12.quest.32.subtitle}"
+			description: ["{chapter.12.quest.32.description.1}"]
 			dependencies: ["440073C91F3B1DC0"]
 			optional: true
 			id: "1122A7C68DF8DA62"
@@ -1341,14 +1266,11 @@
 			]
 		}
 		{
-			title: "七彩碎片"
+			title: "{chapter.12.quest.33.title}"
 			x: 3.0d
 			y: 2.0d
-			subtitle: "以下内容均非光谱世界已确定更新的内容，仅供参考"
-			description: [
-				"在融合神龛中制作并获得七彩碎片后，你将会解锁附魔基座中的超限附魔章节；在这之后，超限附魔将是你提升战力的主要手段。"
-				"TIP：制作超限附魔需要消耗大量颜料，建议先做自动或半自动化颜料产线。"
-			]
+			subtitle: "{chapter.12.quest.33.subtitle}"
+			description: ["{chapter.12.quest.33.description.1}"]
 			dependencies: ["1122A7C68DF8DA62"]
 			optional: true
 			id: "2BE6F94629B66CAB"
@@ -1381,11 +1303,11 @@
 			]
 		}
 		{
-			title: "苍绿之石"
+			title: "{chapter.12.quest.34.title}"
 			x: 1.5d
 			y: 3.5d
-			subtitle: "以下内容均非光谱世界已确定更新的内容，仅供参考"
-			description: ["在末地世界中生成，若主岛下没找到，可以去周边还没去过的地方寻找。"]
+			subtitle: "{chapter.12.quest.34.subtitle}"
+			description: ["{chapter.12.quest.34.description.1}"]
 			dependencies: ["1122A7C68DF8DA62"]
 			optional: true
 			id: "7A3F4122CAD87DD9"
@@ -1423,14 +1345,11 @@
 			]
 		}
 		{
-			title: "共振镐"
+			title: "{chapter.12.quest.35.title}"
 			x: 3.0d
 			y: 3.5d
-			subtitle: "以下内容均非光谱世界已确定更新的内容，仅供参考"
-			description: [
-				"你可以挖刷怪笼了。"
-				"附魔基座配方中的共振附魔书暂时无法制作，你需要直接制作带有共振的“共鸣之镐”。"
-			]
+			subtitle: "{chapter.12.quest.35.subtitle}"
+			description: ["{chapter.12.quest.35.description.1}"]
 			dependencies: ["7A3F4122CAD87DD9"]
 			optional: true
 			id: "194A0C7FDCBD4476"
@@ -1465,15 +1384,11 @@
 			]
 		}
 		{
-			title: "[可选]流星"
+			title: "{chapter.12.quest.36.title}"
 			x: 0.0d
 			y: -1.0d
-			subtitle: "天外之物"
-			description: [
-				"夜晚会有流星从天降落，打爆流星即可获取流星碎片，或者潜行右键捡起流星用铁砧压破也可。"
-				""
-				"获取方式随缘,或许哪天流星就砸你头上了呢?传说灵魂魔法可以将生物的灵魂变成流星"
-			]
+			subtitle: "{chapter.12.quest.36.subtitle}"
+			description: ["{chapter.12.quest.36.description.1}"]
 			dependencies: ["59D6B500E090C86B"]
 			hide: true
 			optional: true
@@ -1513,12 +1428,10 @@
 			]
 		}
 		{
-			x: -4.5d
-			y: -5.5d
+			x: -4.0d
+			y: -5.0d
 			description: [
-				"附魔基座可以消耗颜料制作附魔书以及直接对物品进行附魔，是提升装备附魔水平的最佳方法，是后期提升战力的不二选择。"
-				"================================================"
-				"TIP：完成附魔仪式基座的建造需要在角落倒上液体水晶，最少需要四桶。"
+				"{chapter.12.quest.37.description.1}"
 				"{image:kubejs:textures/ftbq/2023-07-28_19.57.46.png width:128 height:123 align:1}"
 			]
 			dependencies: ["4CE237AE8F58B2CB"]
@@ -1561,10 +1474,7 @@
 		{
 			x: -4.5d
 			y: -4.0d
-			description: [
-				"知识宝石可以附魔效率和快速填装；前者可以提高知识宝石存储经验的上限，后者可以加速往知识宝石里存储经验的速度。"
-				"想要为知识宝石附魔效率和快速填装必须在附魔基座上进行，也就是你必须制作两个知识宝石才能进行附魔。"
-			]
+			description: ["{chapter.12.quest.38.description.1}"]
 			dependencies: ["4CE237AE8F58B2CB"]
 			optional: true
 			id: "3A977758D7357A5B"
@@ -1583,8 +1493,9 @@
 		{
 			x: 4.5d
 			y: -8.5d
-			description: ["位于沼泽生物群系。"]
+			description: ["{chapter.12.quest.39.description.1}"]
 			dependencies: ["7AACC55C1BC80F2A"]
+			hide: true
 			id: "6DD1E9341E34E29A"
 			tasks: [
 				{
@@ -1617,11 +1528,7 @@
 		{
 			x: 0.0d
 			y: -5.5d
-			description: [
-				"抢下末影人手里拿的奇怪方块。"
-				"================================================"
-				"“等、等等？末影人手里拿的是。。。原石？”"
-			]
+			description: ["{chapter.12.quest.40.description.1}"]
 			dependencies: ["7B51BFDD655E1281"]
 			optional: true
 			id: "02AEC569D0486F89"
@@ -1654,9 +1561,9 @@
 			]
 		}
 		{
-			x: -3.0d
+			x: -2.5d
 			y: -5.5d
-			description: ["使用药水工作站进行一次炼制即可解锁成就"]
+			description: ["{chapter.12.quest.41.description.1}"]
 			dependencies: ["715195FE8612B929"]
 			optional: true
 			id: "54B18C774EF22FE1"
@@ -1691,7 +1598,7 @@
 		{
 			x: -3.0d
 			y: 3.5d
-			description: ["精炼石青可以用来制作光谱蔚蓝系列的饰品。"]
+			description: ["{chapter.12.quest.42.description.1}"]
 			dependencies: ["0F5773559E05C414"]
 			id: "7A371AB5EA5F3986"
 			tasks: [
@@ -1723,13 +1630,13 @@
 			]
 		}
 		{
-			title: "光谱蔚蓝地牢"
+			title: "{chapter.12.quest.43.title}"
 			x: -4.5d
 			y: 5.0d
 			description: [
-				"佩戴蔚蓝护盾戒指即可穿过光谱蔚蓝地牢的防护屏障。"
+				"{chapter.12.quest.43.description.1}"
 				"{image:kubejs:textures/ftbq/spectrum_relic.png width:256 height:137 align:1}"
-				"穿过屏障后还有一层红石解密，利用全视透镜找到红石线的起点，将拉杆放置在起点并激活就可以解开大门了。"
+				"{chapter.12.quest.43.description.2}"
 			]
 			dependencies: ["7A371AB5EA5F3986"]
 			id: "4FA6BFF5B11A4EC3"
@@ -1764,7 +1671,7 @@
 		{
 			x: -4.5d
 			y: 2.0d
-			description: ["创造生命的第一步！"]
+			description: ["{chapter.12.quest.44.description.1}"]
 			dependencies: [
 				"4DC63D1752013975"
 				"7A371AB5EA5F3986"
@@ -1802,7 +1709,7 @@
 		{
 			x: -6.0d
 			y: -2.5d
-			description: ["自动收集母岩上生长成熟的矿物簇，也可以配合墨水井（尚未实现）提炼墨水。"]
+			description: ["{chapter.12.quest.45.description.1}"]
 			dependencies: ["116BF87094EA4E42"]
 			optional: true
 			id: "6A70688CE69F99FB"
@@ -1831,13 +1738,13 @@
 			}
 			x: 0.0d
 			y: 0.5d
-			description: ["基岩装备均自带一定附魔，你可以合成它们，或将附魔据为己用，或以此为跳板继续变强。"]
+			description: ["{chapter.12.quest.46.description.1}"]
 			dependencies: ["6CD923D48AF77852"]
 			id: "6CE26B24CB40E642"
 			tasks: [{
 				id: "3B0AFD5C4387DCDA"
 				type: "checkmark"
-				title: "基岩盔甲和工具"
+				title: "{chapter.12.quest.46.task.1.title}"
 			}]
 			rewards: [{
 				id: "16B6774136DC6CFA"
@@ -1847,14 +1754,10 @@
 			}]
 		}
 		{
-			title: "种植玉藤"
+			title: "{chapter.12.quest.47.title}"
 			x: -6.0d
 			y: 3.5d
-			description: [
-				"在蔚蓝地牢的深处，你将会发现一颗失去活性的种子，万幸的是，你掌握了复活这颗种子的方法；玉藤是极其较弱的植物，只有在月光下才能生长且每夜最多生长一个阶段，而其一旦被日光照射就会马上失去活性。"
-				"================================================"
-				"“万幸的是，你掌握了复活这颗种子的方法，千千万万次。”"
-			]
+			description: ["{chapter.12.quest.47.description.1}"]
 			dependencies: [
 				"275A0F585FBD2541"
 				"651C28CAE854B433"
@@ -1889,10 +1792,10 @@
 			]
 		}
 		{
-			title: "复活，但不是我的爱人"
+			title: "{chapter.12.quest.48.title}"
 			x: -6.0d
 			y: 2.0d
-			description: ["利用奇珍猎手附魔或其他途径获取生物头颅，在灵魂灌注台上用该生物喜欢的食物和植本质唤醒蕴藏于头颅深处的灵魂，即可将生物的回忆封存在蛋中；将蛋放在地上几天便可以孵化出该种生物。"]
+			description: ["{chapter.12.quest.48.description.1}"]
 			dependencies: ["275A0F585FBD2541"]
 			optional: true
 			id: "6C549B8189876609"
@@ -1918,15 +1821,11 @@
 			]
 		}
 		{
-			title: "下蛋的毛猪"
+			title: "{chapter.12.quest.49.title}"
 			x: -6.0d
 			y: 0.5d
-			subtitle: "复活与喂养都需要苋菜"
-			description: [
-				"光谱作者赋予你的究极生物。"
-				"================================================"
-				"“下蛋的毛猪，牛子去哪里了？”"
-			]
+			subtitle: "{chapter.12.quest.49.subtitle}"
+			description: ["{chapter.12.quest.49.description.1}"]
 			dependencies: ["6C549B8189876609"]
 			optional: true
 			id: "18DF456E1A56DCD1"
@@ -1954,7 +1853,7 @@
 		{
 			x: 3.0d
 			y: -2.5d
-			description: ["将颜料转换为墨水，可以用于发射、储存以及为饰品升级。"]
+			description: ["{chapter.12.quest.50.description.1}"]
 			dependencies: ["4CE9B355B43E155E"]
 			id: "56F7E5AB654115CE"
 			tasks: [
@@ -1988,7 +1887,7 @@
 		{
 			x: 4.5d
 			y: -1.0d
-			description: ["墨水屏可以储存颜料选取器中转换出的墨水。"]
+			description: ["{chapter.12.quest.51.description.1}"]
 			dependencies: ["56F7E5AB654115CE"]
 			id: "0BCBC476BE6FA8B2"
 			tasks: [
@@ -2022,11 +1921,7 @@
 		{
 			x: -6.0d
 			y: 5.0d
-			description: [
-				"当玉藤完全成熟后，用空瓶子可以收获其花蜜；饮下花蜜后可以获得超级强的生命爆发回复，此外，将其与耐久不满的物品合成可完全恢复其耐久。"
-				"================================================"
-				"“附魔画布，你只不过是出生在没有我的时代的凡夫俗子罢了。”"
-			]
+			description: ["{chapter.12.quest.52.description.1}"]
 			dependencies: ["494C83C4596F5FF0"]
 			optional: true
 			id: "7BD9945C70E88D38"
@@ -2062,7 +1957,7 @@
 			x: -1.5d
 			y: 3.5d
 			description: [
-				"进度达到这里，你便可以解锁光谱三大地牢之一的基岩地牢了，用坏灭之瓶破坏门口的基岩即可进入。"
+				"{chapter.12.quest.53.description.1}"
 				"{image:kubejs:textures/ftbq/jiyan.png width:180 height:100 align:1}"
 			]
 			dependencies: ["2F08F5EB273B58D8"]
@@ -2070,34 +1965,30 @@
 			tasks: [{
 				id: "1CDDA83D7A551ACF"
 				type: "checkmark"
-				title: "光谱基岩地牢"
+				title: "{chapter.12.quest.53.task.1.title}"
 			}]
 		}
 		{
-			title: "光谱调色地牢"
+			title: "{chapter.12.quest.54.title}"
 			x: 1.5d
 			y: -2.5d
 			description: [
-				"任务线到达这里，你已经可以着手破解三种地牢中的调色地牢。"
+				"{chapter.12.quest.54.description.1}"
 				"{image:kubejs:textures/ftbq/tiaose.png width:196 height:126 align:1}"
-				"破开这个保护门的关键是颜色树的配方；合成颜色树时需要消耗不同种类不同数量的粉末，按照保护门上方孢子花的颜色，在下方的保护圆盘上放入合成与其相同颜色颜色树时消耗的粉末即可打开保护门。"
+				"{chapter.12.quest.54.description.2}"
 			]
 			dependencies: ["4CE9B355B43E155E"]
 			id: "75EB3CA204BE74C1"
 			tasks: [{
 				id: "7EB5C1669F137287"
 				type: "checkmark"
-				title: "光谱颜色地牢"
+				title: "{chapter.12.quest.54.task.1.title}"
 			}]
 		}
 		{
 			x: -1.5d
 			y: 5.0d
-			description: [
-				"在光谱基岩地牢中获取的花瓣，似乎具有一种魔力。"
-				"================================================"
-				"“在视线触碰到那朵花瓣的一刹那，我感觉我的心脏跳动的都快了几分，血液像大河奔流入海一般在血管里横冲直撞，杀戮的欲望直冲云霄。”"
-			]
+			description: ["{chapter.12.quest.55.description.1}"]
 			dependencies: ["3660C7ACAF4E08ED"]
 			id: "4ADEA4FA1526CE3E"
 			tasks: [{
@@ -2113,10 +2004,10 @@
 			}]
 		}
 		{
-			title: "苋菜粒"
+			title: "{chapter.12.quest.56.title}"
 			x: 1.5d
 			y: -1.0d
-			description: ["“总有一种生物会喜欢吃他的，那种生物一定又会下蛋、又会产奶、又能剪毛、还能吃肉。。。”"]
+			description: ["{chapter.12.quest.56.description.1}"]
 			dependencies: ["75EB3CA204BE74C1"]
 			optional: true
 			id: "44F05BA1279FD750"
@@ -2153,13 +2044,9 @@
 		{
 			x: 4.5d
 			y: -4.0d
-			description: [
-				"爱尔兰人很喜欢这些开着紫红色花的小草，并称之为三叶草，他们认为吃下三叶草的叶子可以获得敏捷又有灵活的力量。"
-				"================================================"
-				"“荒天帝在遥远的万古眉头一皱，转而食指大动。”"
-				"“我也很喜欢这株小草，因为三叶草其实就是扑克牌中梅花的由来，而我恰好是Mei_Hua。”"
-			]
+			description: ["{chapter.12.quest.58.description.1}"]
 			dependencies: ["5637FEB12ADC8EB3"]
+			hide: true
 			optional: true
 			id: "4355E479445EE1F4"
 			tasks: [{
@@ -2177,8 +2064,8 @@
 		{
 			x: 4.5d
 			y: -2.5d
-			subtitle: "三万分之一的概率！"
-			description: ["四叶草是三叶草的稀有变种，在西方国家，人们总认为能寻找到四叶草是非常幸运的表现，预示着接下来的行动将会一帆风顺。"]
+			subtitle: "{chapter.12.quest.59.subtitle}"
+			description: ["{chapter.12.quest.59.description.1}"]
 			dependencies: ["4355E479445EE1F4"]
 			optional: true
 			id: "20A6E081D6A47E98"
@@ -2219,7 +2106,7 @@
 		{
 			x: -4.5d
 			y: 3.5d
-			description: ["可以在光谱蔚蓝地牢中找到。"]
+			description: ["{chapter.12.quest.60.description.1}"]
 			dependencies: [
 				"027AAA6A3553F7DB"
 				"4FA6BFF5B11A4EC3"
@@ -2239,10 +2126,10 @@
 			}]
 		}
 		{
-			title: "铋晶科技"
+			title: "{chapter.12.quest.61.title}"
 			x: 0.0d
 			y: 3.5d
-			subtitle: "以下内容均非光谱世界已确定更新的内容，仅供参考"
+			subtitle: "{chapter.12.quest.61.subtitle}"
 			dependencies: ["1122A7C68DF8DA62"]
 			optional: true
 			id: "2C622CF2C07E45A4"
@@ -2271,8 +2158,8 @@
 		{
 			x: 0.0d
 			y: 5.0d
-			subtitle: "以下内容均非光谱世界已确定更新的内容，仅供参考"
-			description: ["小型铋晶芽可以种植在与铁相关的方块上（如铁块），在生长时周围必须有铁块供其吸收能量。"]
+			subtitle: "{chapter.12.quest.62.subtitle}"
+			description: ["{chapter.12.quest.62.description.1}"]
 			dependencies: ["2C622CF2C07E45A4"]
 			optional: true
 			id: "703BDC86051012F5"
@@ -2299,8 +2186,8 @@
 		{
 			x: 1.5d
 			y: 5.0d
-			subtitle: "以下内容均非光谱世界已确定更新的内容，仅供参考"
-			description: ["结晶室可以用来种植一些原版或模组中的矿物；使用时，将矿物“种植”在结晶室上，之后结晶室的侧面会显示需要使用的墨水颜色，将存有对应颜色墨水的墨水瓶或墨水混合器放入后即可开始生长；种植矿物时有多种催化剂可供选择，具体可查看本mod指导书的配方。"]
+			subtitle: "{chapter.12.quest.63.subtitle}"
+			description: ["{chapter.12.quest.63.description.1}"]
 			dependencies: [
 				"7A3F4122CAD87DD9"
 				"703BDC86051012F5"
@@ -2322,11 +2209,8 @@
 		{
 			x: 4.5d
 			y: 1.0d
-			subtitle: "你对附魔的掌控已然巅峰造极"
-			description: [
-				"使用鎏金之书和七彩碎片的力量将你的祛魔台彻底升级"
-				"在界面最右边放置消耗材料"
-			]
+			subtitle: "{chapter.12.quest.64.subtitle}"
+			description: ["{chapter.12.quest.64.description.1}"]
 			dependencies: ["2BE6F94629B66CAB"]
 			optional: true
 			id: "5372EB0354DDD939"
@@ -2345,8 +2229,8 @@
 		{
 			x: 4.5d
 			y: 2.5d
-			subtitle: "魔力共振"
-			description: ["将磨制七彩碎片块置于魔力池下即可用七彩碎片的力量从彩色原木中提取颜料"]
+			subtitle: "{chapter.12.quest.65.subtitle}"
+			description: ["{chapter.12.quest.65.description.1}"]
 			dependencies: ["2BE6F94629B66CAB"]
 			optional: true
 			id: "038FCF046B7B86E4"
@@ -2365,7 +2249,7 @@
 		{
 			x: 6.0d
 			y: 2.5d
-			subtitle: "无尽的魔力"
+			subtitle: "{chapter.12.quest.66.subtitle}"
 			dependencies: ["038FCF046B7B86E4"]
 			optional: true
 			id: "1EDA65B90D71CDB6"
@@ -2384,13 +2268,10 @@
 		{
 			x: 1.5d
 			y: -5.5d
-			subtitle: "开了就是开了?"
-			description: [
-				"这个方块可以透视周围的物体(等同于观察者视角)"
-				""
-				"需要获得午夜残片后制作"
-			]
+			subtitle: "{chapter.12.quest.67.subtitle}"
+			description: ["{chapter.12.quest.67.description.1}"]
 			dependencies: ["02AEC569D0486F89"]
+			optional: true
 			id: "2646F4AE06A6AD56"
 			tasks: [{
 				id: "662A7EB8D0EA0051"
@@ -2401,8 +2282,8 @@
 		{
 			x: -6.5d
 			y: -3.5d
-			subtitle: "获得任意水晶以开启光谱世界之旅"
-			description: ["海平面以下的黄水晶。"]
+			subtitle: "{chapter.12.quest.68.subtitle}"
+			description: ["{chapter.12.quest.68.description.1}"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			id: "515D3C2DC0BFA8C1"
@@ -2421,8 +2302,8 @@
 		{
 			x: -8.0d
 			y: -5.0d
-			subtitle: "获得任意水晶以开启光谱世界之旅"
-			description: ["原版地下的紫水晶"]
+			subtitle: "{chapter.12.quest.69.subtitle}"
+			description: ["{chapter.12.quest.69.description.1}"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			id: "06B89C0B48780A85"
@@ -2436,6 +2317,60 @@
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 1005535573748960953L
+			}]
+		}
+		{
+			title: "{chapter.12.quest.70.title}"
+			icon: "spectrum:topaz_powder"
+			x: -4.5d
+			y: -6.0d
+			dependencies: ["00A78BD1F10BE5D5"]
+			id: "5EF371628CAF40D7"
+			tasks: [
+				{
+					id: "5A1D780DF3C0DA0F"
+					type: "item"
+					item: "spectrum:topaz_powder"
+				}
+				{
+					id: "6FA18A4480401ADB"
+					type: "advancement"
+					advancement: "spectrum:collect_gemstone_powder"
+					criterion: ""
+				}
+			]
+			rewards: [{
+				id: "6E11105327D26C4B"
+				type: "advancement"
+				advancement: "spectrum:collect_gemstone_powder"
+				criterion: ""
+			}]
+		}
+		{
+			title: "{chapter.12.quest.71.title}"
+			icon: "spectrum:citrine_powder"
+			x: -4.5d
+			y: -8.0d
+			dependencies: ["00A78BD1F10BE5D5"]
+			id: "4929277AC11875DD"
+			tasks: [
+				{
+					id: "5A11150527456E37"
+					type: "item"
+					item: "spectrum:citrine_powder"
+				}
+				{
+					id: "01A9458C0B55ED3C"
+					type: "advancement"
+					advancement: "spectrum:collect_gemstone_powder"
+					criterion: ""
+				}
+			]
+			rewards: [{
+				id: "5C96ED6B72B85C19"
+				type: "advancement"
+				advancement: "spectrum:collect_gemstone_powder"
+				criterion: ""
 			}]
 		}
 	]

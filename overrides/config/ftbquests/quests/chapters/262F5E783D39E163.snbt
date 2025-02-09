@@ -3,7 +3,7 @@
 	group: "2D4526175EFBC1B2"
 	order_index: 1
 	filename: "262F5E783D39E163"
-	title: "暮色森林"
+	title: "{chapter.9.title}"
 	icon: "twilightforest:twilight_portal_miniature_structure"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -21,12 +21,12 @@
 	}]
 	quests: [
 		{
-			title: "前往暮色"
+			title: "{chapter.9.quest.1.title}"
 			icon: "twilightforest:twilight_portal_miniature_structure"
 			x: -8.5d
 			y: 2.0d
 			description: [
-				"挖一个2x2的坑，然后倒满水 在四个面放任意花，水里扔个戈伯锭即可开启暮色传送门。"
+				"{chapter.9.quest.1.description.1}"
 				"{image:kubejs:textures/ftbq/twilight.png width:200 height:130 align:1}"
 			]
 			dependencies: ["027AAA6A3553F7DB"]
@@ -48,10 +48,9 @@
 			x: -6.5d
 			y: 2.0d
 			description: [
-				"魔法地图会用不同的颜色显示暮色森林各个群系，用图标显示特殊建筑的所在位置。"
-				""
+				"{chapter.9.quest.2.description.1}"
 				"{image:kubejs:textures/ftbq/map.png width:100 height:100 align:1}"
-				"下表为各建筑对应的对标："
+				"{chapter.9.quest.2.description.2}"
 				"{image:kubejs:textures/ftbq/map2.png width:175 height:200 align:1}"
 			]
 			dependencies: ["5FBDB3162466DBD9"]
@@ -73,7 +72,7 @@
 			icon: "twilightforest:charm_of_keeping_1"
 			x: -3.5d
 			y: 0.0d
-			description: ["放在背包里，可以充当死亡不掉落的作用，等级越高的护符可保留的背包范围越大。"]
+			description: ["{chapter.9.quest.3.description.1}"]
 			dependencies: ["35E4EEBF2966F7DB"]
 			optional: true
 			id: "4A47625AB6A07B6B"
@@ -102,15 +101,11 @@
 			}]
 		}
 		{
-			title: "讨伐：娜迦！"
+			title: "{chapter.9.quest.4.title}"
 			x: -4.5d
 			y: 2.0d
-			subtitle: "讨伐难度：简单；讨伐建议：善用盾牌和弓箭"
-			description: [
-				"这是你的第一个考验你对盾牌运用的导师。"
-				"================================================"
-				"PS：某些武器持盾也可以获得不同于双持出招，但同样很强力的出招方式，比如单手的普通剑。"
-			]
+			subtitle: "{chapter.9.quest.4.subtitle}"
+			description: ["{chapter.9.quest.4.description.1}"]
 			dependencies: ["3899DECE76473D1D"]
 			id: "35E4EEBF2966F7DB"
 			tasks: [
@@ -145,7 +140,7 @@
 			icon: "twilightforest:charm_of_life_1"
 			x: -3.5d
 			y: 4.0d
-			description: ["放在背包里可以充当不死图腾的效果。等级越高的符咒在濒死时回复的血量越多。"]
+			description: ["{chapter.9.quest.5.description.1}"]
 			dependencies: ["35E4EEBF2966F7DB"]
 			optional: true
 			id: "167DC6260F08F575"
@@ -169,12 +164,12 @@
 			}]
 		}
 		{
-			title: "讨伐？谜题羊？"
+			title: "{chapter.9.quest.6.title}"
 			x: -6.5d
 			y: 4.0d
 			shape: "rsquare"
-			subtitle: "讨伐难度：？？？；讨伐建议：？？？"
-			description: ["“真的要杀死它吗？”"]
+			subtitle: "{chapter.9.quest.6.subtitle}"
+			description: ["{chapter.9.quest.6.description.1}"]
 			dependencies: ["3899DECE76473D1D"]
 			size: 1.5d
 			id: "03D0B0978BF86FB0"
@@ -201,7 +196,7 @@
 		{
 			x: -6.0d
 			y: 0.0d
-			description: ["“这些树苗除了分类树有点用之外，其他在本包都没什么用，但是我想难为你bushi”"]
+			description: ["{chapter.9.quest.7.description.1}"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			size: 1.5d
@@ -247,7 +242,7 @@
 		{
 			x: 0.5d
 			y: 3.5d
-			description: ["拆解台肯定是ban掉的，不要做梦了。"]
+			description: ["{chapter.9.quest.8.description.1}"]
 			dependencies: [
 				"027AAA6A3553F7DB"
 				"615A2A1A324F4D67"
@@ -276,17 +271,17 @@
 			]
 		}
 		{
-			title: "前往暮色最终城堡"
+			title: "{chapter.9.quest.9.title}"
 			x: 7.0d
 			y: 3.5d
-			subtitle: "到达暮色最高城！"
-			description: ["“时隔这么久，暮色仍然没有更新出最新的boss，所以这座巨大的城堡基本就是个空壳。”"]
+			subtitle: "{chapter.9.quest.9.subtitle}"
+			description: ["{chapter.9.quest.9.description.1}"]
 			dependencies: ["652CBA57728ADDCF"]
 			id: "00FF658D8A728CA0"
 			tasks: [{
 				id: "4D05BAC1F2D7B0C3"
 				type: "structure"
-				title: "抵达终焉城堡"
+				title: "{chapter.9.quest.9.task.1.title}"
 				icon: {
 					id: "patchouli:guide_book"
 					Count: 1b
@@ -314,10 +309,7 @@
 		{
 			x: 7.0d
 			y: 2.0d
-			description: [
-				"用来燃烧高原荆棘。"
-				"巨魔喜欢这种具有青铜光泽的宝贝，巨魔非常珍惜他们，巨魔会把巨魔最喜欢的宝贝放在最安全的地方，巨魔觉得巨型黑曜石里面的宝箱最安全。"
-			]
+			description: ["{chapter.9.quest.10.description.1}"]
 			dependencies: ["6C8D82CE418EBBEF"]
 			id: "652CBA57728ADDCF"
 			tasks: [
@@ -347,7 +339,7 @@
 			}]
 		}
 		{
-			title: "讨伐：巨人族！"
+			title: "{chapter.9.quest.11.title}"
 			icon: {
 				id: "twilightforest:giant_sword"
 				Count: 1b
@@ -357,11 +349,8 @@
 			}
 			x: 5.5d
 			y: 2.0d
-			subtitle: "讨伐难度：简单；讨伐建议：无"
-			description: [
-				"巨人剑拥有无与伦比的攻击范围，但相应的，巨大的剑身使其难以挥舞，不够强大的人是无法驾驭这柄武器的。"
-				"巨人镐能够破坏巨型圆石、巨型橡木和巨型黑曜石。"
-			]
+			subtitle: "{chapter.9.quest.11.subtitle}"
+			description: ["{chapter.9.quest.11.description.1}"]
 			dependencies: ["7A3F4EBAD53DEB1E"]
 			id: "6C8D82CE418EBBEF"
 			tasks: [
@@ -398,10 +387,7 @@
 		{
 			x: 5.0d
 			y: 3.5d
-			description: [
-				"在巨魔洞窟中的宝箱中有概率开到，击杀巨魔也有概率掉落其随身携带的魔豆。"
-				"魔豆可以种植在暮色高原的肥沃泥土上，之后会长出巨大的通天豆茎，助你快速抵达云上小屋。"
-			]
+			description: ["{chapter.9.quest.12.description.1}"]
 			dependencies: ["7A3F4EBAD53DEB1E"]
 			optional: true
 			id: "459F1D78F4B49528"
@@ -418,7 +404,7 @@
 			}]
 		}
 		{
-			title: "前往暮色高原"
+			title: "{chapter.9.quest.13.title}"
 			x: 3.5d
 			y: 2.0d
 			dependencies: [
@@ -441,16 +427,11 @@
 			}]
 		}
 		{
-			title: "讨伐：暮色恶魂！"
+			title: "{chapter.9.quest.14.title}"
 			x: 1.5d
 			y: 2.0d
-			subtitle: "讨伐难度：中等；讨伐建议：查看攻略"
-			description: [
-				"希望你不是一个只会劈砍的莽夫。"
-				"================================================"
-				"“一个刚愎自用的男爵，一座幽暗深邃的高塔，一场本不应该存在的灾难。”"
-				"“没人知道发生了什么，只剩下那只名为暮色恶魂的生物盘踞在高塔顶部，徘徊在破碎不堪的废墟上，对自己昔日的住所毫不珍惜的肆意破坏。”"
-			]
+			subtitle: "{chapter.9.quest.14.subtitle}"
+			description: ["{chapter.9.quest.14.description.1}"]
 			dependencies: ["78C3922D0F17AB63"]
 			id: "6B1BC4A2A7B0ED4A"
 			tasks: [
@@ -482,11 +463,11 @@
 			]
 		}
 		{
-			title: "讨伐：九头蛇！"
+			title: "{chapter.9.quest.15.title}"
 			x: 1.5d
 			y: 4.5d
-			subtitle: "讨伐难度：困难；讨伐建议：抵抗火焰与远程攻击的能力"
-			description: ["强大的九头蛇栖身于火焰沼泽的深处，当玩家接近它所栖身的洞穴时，九头蛇就会出现，并毫不留情地杀死一切试图闯入它的领地范围的人。"]
+			subtitle: "{chapter.9.quest.15.subtitle}"
+			description: ["{chapter.9.quest.15.description.1}"]
 			dependencies: ["615A2A1A324F4D67"]
 			id: "1A7831E3B72C20BC"
 			tasks: [
@@ -518,15 +499,11 @@
 			]
 		}
 		{
-			title: "讨伐：冰雪女王！"
+			title: "{chapter.9.quest.16.title}"
 			x: 1.5d
 			y: -0.5d
-			subtitle: "讨伐难度：中等；讨伐建议：拥有飞行能力或精准的箭术"
-			description: [
-				"野心勃勃的冰雪女王是这片森林中最危险的独裁者。她将自己封藏在冰川之上，于极光宫殿的最顶层的禁室中，妄图以此隔绝一切外来的威胁。当你在极光宫殿中看见满是冰做成的螺旋楼梯时，那么上面就一定是冰雪女王的藏身之地了。"
-				"================================================"
-				"“当玫瑰花开时，我们见到了上帝。”"
-			]
+			subtitle: "{chapter.9.quest.16.subtitle}"
+			description: ["{chapter.9.quest.16.description.1}"]
 			dependencies: ["37CA18187EB337AA"]
 			id: "77ABAE960300D29F"
 			tasks: [
@@ -558,11 +535,11 @@
 			]
 		}
 		{
-			title: "讨伐：雪怪首领！"
+			title: "{chapter.9.quest.17.title}"
 			x: -0.5d
 			y: -0.5d
-			subtitle: "讨伐难度：简单；讨伐建议：善用弓箭"
-			description: ["比起担心这个boss，你更应该注意脚下，别掉到虚空去了。"]
+			subtitle: "{chapter.9.quest.17.subtitle}"
+			description: ["{chapter.9.quest.17.description.1}"]
 			dependencies: ["73EE9254E54EDB50"]
 			id: "37CA18187EB337AA"
 			tasks: [
@@ -594,12 +571,12 @@
 			]
 		}
 		{
-			title: "讨伐：米诺菇！"
+			title: "{chapter.9.quest.18.title}"
 			icon: "twilightforest:minoshroom_trophy"
 			x: -0.5d
 			y: 4.5d
-			subtitle: "讨伐难度：中等；讨伐建议：远程输出或方块卡位"
-			description: ["你需要吃下牛头人沙拉以解锁九头蛇的护身结界。"]
+			subtitle: "{chapter.9.quest.18.subtitle}"
+			description: ["{chapter.9.quest.18.description.1}"]
 			dependencies: ["73EE9254E54EDB50"]
 			id: "615A2A1A324F4D67"
 			tasks: [
@@ -631,15 +608,11 @@
 			]
 		}
 		{
-			title: "讨伐：幻影骑士！"
+			title: "{chapter.9.quest.19.title}"
 			x: -0.5d
 			y: 2.0d
-			subtitle: "讨伐难度：中等；讨伐建议：足够的回复能力，较好的眼神"
-			description: [
-				"这家伙躲得地方有些刁钻，希望你有耐心的寻找。"
-				"================================================"
-				"“高塔的主人曾是暮色文明中最强大的一环， 在他逝去之后守护城堡的骑士转变成了在黑暗森林中游荡的鬼魂。”"
-			]
+			subtitle: "{chapter.9.quest.19.subtitle}"
+			description: ["{chapter.9.quest.19.description.1}"]
 			dependencies: ["73EE9254E54EDB50"]
 			id: "78C3922D0F17AB63"
 			tasks: [
@@ -671,15 +644,11 @@
 			]
 		}
 		{
-			title: "讨伐：巫妖！"
+			title: "{chapter.9.quest.20.title}"
 			x: -2.5d
 			y: 2.0d
-			subtitle: "讨伐难度：简单；讨伐建议：看看攻略"
-			description: [
-				"这盾可真烦人啊，你该想想如何破开这免疫物理攻击的盾。"
-				"================================================"
-				"这是一场智慧与力量的试炼，希望你不会是一个只会厮杀的野蛮汉。"
-			]
+			subtitle: "{chapter.9.quest.20.subtitle}"
+			description: ["{chapter.9.quest.20.description.1}"]
 			dependencies: ["35E4EEBF2966F7DB"]
 			id: "73EE9254E54EDB50"
 			tasks: [
@@ -714,8 +683,8 @@
 			x: 9.0d
 			y: 4.5d
 			shape: "gear"
-			subtitle: "这是制作无限之剑的材料之一"
-			description: ["TIP：黄金之眼是末地boss【眼球】的掉落物"]
+			subtitle: "{chapter.9.quest.21.subtitle}"
+			description: ["{chapter.9.quest.21.description.1}"]
 			dependencies: ["476955A39948155A"]
 			size: 1.5d
 			id: "470219365766296B"
@@ -734,8 +703,8 @@
 		{
 			x: 4.5d
 			y: 0.0d
-			subtitle: "你会喜欢这把武器的"
-			description: ["品质重置材料为下界合金。"]
+			subtitle: "{chapter.9.quest.22.subtitle}"
+			description: ["{chapter.9.quest.22.description.1}"]
 			dependencies: ["7A3F4EBAD53DEB1E"]
 			id: "7BE56C7E4F1738E7"
 			tasks: [{
@@ -751,7 +720,7 @@
 			}]
 		}
 		{
-			title: "讨伐：鹿之精魄！"
+			title: "{chapter.9.quest.23.title}"
 			icon: {
 				id: "whisperwoods:hirschgeist_skull"
 				Count: 1b
@@ -761,11 +730,8 @@
 			}
 			x: 8.0d
 			y: 0.0d
-			subtitle: "讨伐难度：中等；讨伐建议：利用鹿之精魄只能近战的特性打游击战"
-			description: [
-				"暮色森林的一方霸主。"
-				"如果你没有足够硬的实力最好不要轻易挑战。"
-			]
+			subtitle: "{chapter.9.quest.23.subtitle}"
+			description: ["{chapter.9.quest.23.description.1}"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			size: 2.0d
@@ -791,11 +757,11 @@
 			]
 		}
 		{
-			title: "立方护符"
+			title: "{chapter.9.quest.24.title}"
 			x: 9.0d
 			y: 2.0d
-			subtitle: "用于合成混沌宝珠。"
-			description: ["击杀噩兆立方有2%的概率掉落立方护符，用于合成混沌宝珠。"]
+			subtitle: "{chapter.9.quest.24.subtitle}"
+			description: ["{chapter.9.quest.24.description.1}"]
 			dependencies: ["00FF658D8A728CA0"]
 			id: "476955A39948155A"
 			tasks: [{
@@ -811,17 +777,12 @@
 			}]
 		}
 		{
-			title: "精金锻钢炉（层级3）"
+			title: "{chapter.9.quest.25.title}"
 			x: 3.5d
 			y: 4.5d
-			subtitle: "必须有的高级锻炉"
+			subtitle: "{chapter.9.quest.25.subtitle}"
 			description: [
-				"必须使用2级炉锻造获得，也是锻造4级锻炉核心之炉"
-				"容量：192000"
-				"效率：300%"
-				"PS:你可以使用精金块或者精金锻炉砖搭建"
-				"================================================"
-				"暮色森林的树底下可能有活根存在。"
+				"{chapter.9.quest.25.description.1}"
 				"{image:kubejs:textures/ftbq/root.png width:100 height:100 align:1}"
 			]
 			min_required_dependencies: 2
@@ -871,11 +832,8 @@
 		{
 			x: 0.5d
 			y: -2.0d
-			subtitle: "这是力量的代价"
-			description: [
-				"这把武器将不会再可以附加任何新的力量，但相对的，他会有代价的给你在前期无与伦比的威慑力。"
-				"TIP：玻璃剑只有一点耐久，且按其代码推算，每次使用玻璃剑都会消耗一千点耐久，所以单纯的耐久附魔对其用处不大。"
-			]
+			subtitle: "{chapter.9.quest.26.subtitle}"
+			description: ["{chapter.9.quest.26.description.1}"]
 			dependencies: ["77ABAE960300D29F"]
 			optional: true
 			id: "26A99350D57ADE4A"
@@ -898,11 +856,11 @@
 			}]
 		}
 		{
-			title: "有潜力的远程武器"
+			title: "{chapter.9.quest.27.title}"
 			x: 2.5d
 			y: -2.0d
-			subtitle: "独特的远程武器"
-			description: ["你不会被它们不亮眼的伤害欺骗的，对吗？"]
+			subtitle: "{chapter.9.quest.27.subtitle}"
+			description: ["{chapter.9.quest.27.description.1}"]
 			dependencies: ["77ABAE960300D29F"]
 			optional: true
 			id: "57B936C6A67F2BFB"
@@ -938,14 +896,10 @@
 			}]
 		}
 		{
-			title: "不知道哪来的蛋糕"
+			title: "{chapter.9.quest.28.title}"
 			x: 0.5d
 			y: 1.0d
-			description: [
-				"真是奇怪，明明是蛋糕的形状，却是肉的口感和味道。"
-				"================================================"
-				"TIP：试验品115可以像普通蛋糕那样放在地上；用红石右键试验品115可以让其获得自我再生的能力。"
-			]
+			description: ["{chapter.9.quest.28.description.1}"]
 			dependencies: ["78C3922D0F17AB63"]
 			id: "0B322F0C26B487EF"
 			tasks: [{
@@ -955,10 +909,10 @@
 			}]
 		}
 		{
-			title: "迷宫破坏者"
+			title: "{chapter.9.quest.29.title}"
 			x: -1.5d
 			y: 5.5d
-			description: ["“在暗无天日的迷宫里像只无头苍蝇般乱窜的日子我真是受够了，我决定授予你这个！”"]
+			description: ["{chapter.9.quest.29.description.1}"]
 			dependencies: ["615A2A1A324F4D67"]
 			optional: true
 			id: "3755F7E93762CF5B"

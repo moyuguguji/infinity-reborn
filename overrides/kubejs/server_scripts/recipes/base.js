@@ -350,6 +350,16 @@ onEvent('recipes', event => {
 		B: 'botania:cosmetic_cat_ears',
 	})
 
+	event.shaped('kubejs:snowstormcane', [
+		' A ',
+		'CAB',
+		' A '
+	], {
+		A: 'minecraft:iron_ingot',
+		B: 'minecraft:snowball',
+		C: 'minecraft:blue_ice'
+	})
+
 	event.custom({
 		type: 'alloy_forgery:forging',
 		'inputs': [{

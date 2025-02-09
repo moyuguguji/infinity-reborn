@@ -61,9 +61,9 @@
   "text.villagerquests.tasks": "任务",
   "text.villagerquests.rewards": "奖励",
   "text.villagerquests.refreshing": "任务刷新时间：%d",
-  "text.villagerquests.collected": "已收集：",
-  "text.villagerquests.killed": "已击杀：",
-  "text.villagerquests.explored": "已探索：",
+  "text.villagerquests.collected": "收集：",
+  "text.villagerquests.killed": "击杀：",
+  "text.villagerquests.explored": "探索：",
   "text.villagerquests.questTimeout": "任务 %1$s 因超时失败",
   "text.villagerquests.questGiverDied": "任务 %1$s 因任务发布者死亡失败",
   "text.villagerquests.questGiverDespawn": "任务 %1$s 因任务发布者消失失败",
@@ -72,9 +72,5 @@
   "merchant.quests": "任务",
 
   "commands.villagerquests.changed": "任务已编辑",
-  "commands.villagerquests.changeFail": "%1$s 没有这个任务",
-  "quests.villagerquests.1.title": "1111",
-  "quests.villagerquests.1.description": "2222",
-  "1.title":"钓鱼任务",
-  "villagerquests.1.title":"钓鱼任务"
+  "commands.villagerquests.changeFail": "%1$s 没有这个任务"
 }

@@ -1,7 +1,7 @@
 {
 	id: "158BF2290F8A75BF"
 	order_index: 5
-	title: "奇异饰品"
+	title: "{loot_table.6}"
 	loot_size: 1
 	rewards: [
 		{ item: "artifacts:umbrella", weight: 10 }

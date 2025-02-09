@@ -3,7 +3,7 @@
 	group: "4DD3698DF322EEDB"
 	order_index: 0
 	filename: "0D5012EE04308BC4"
-	title: "储存系统"
+	title: "{chapter.21.title}"
 	icon: "expandedstorage:diamond_chest"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			description: ["基础的存储"]
+			description: ["{chapter.21.quest.1.description.1}"]
 			dependencies: ["62CD35B4D7C5D6C2"]
 			id: "3887B13CA03E9CEC"
 			tasks: [{
@@ -56,7 +56,7 @@
 		{
 			x: 6.0d
 			y: 0.0d
-			description: ["连爆炸都无法损毁。"]
+			description: ["{chapter.21.quest.5.description.1}"]
 			dependencies: ["067688D666A831AB"]
 			id: "14AB2D5F66BD49BD"
 			tasks: [{
@@ -68,10 +68,7 @@
 		{
 			x: 7.5d
 			y: 0.0d
-			description: [
-				"火焰也无法烧尽！"
-				"至高的储存能力！"
-			]
+			description: ["{chapter.21.quest.6.description.1}"]
 			dependencies: ["14AB2D5F66BD49BD"]
 			id: "6332CB1E7A8A2A8C"
 			tasks: [{
@@ -149,10 +146,7 @@
 		{
 			x: -1.5d
 			y: 3.0d
-			description: [
-				"随身携带的小箱子，可以堆叠不死图腾等特殊道具。"
-				"提升等级会增加储存空间和堆叠上限。"
-			]
+			description: ["{chapter.21.quest.13.description.1}"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			id: "68533006768BF360"
@@ -265,7 +259,7 @@
 			x: 7.5d
 			y: 3.0d
 			shape: "circle"
-			description: ["将便携式的黑盒放入框架，变成一个方块式储物盒。"]
+			description: ["{chapter.21.quest.19.description.1}"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			optional: true
@@ -285,19 +279,14 @@
 		{
 			x: 6.0d
 			y: 5.5d
-			description: [
-				"简单好用自带合成的背包。"
-				"其他部分探索获得的旅行者背包还会给佩戴者增加某些buff，比如蝙蝠背包，龙背包等。（PS：穿戴后需要在背包页面左边打开功能才会有buff）"
-				" "
-				"我猜你肯定还记得我教过你要去哪里查mod资料。"
-			]
+			description: ["{chapter.21.quest.20.description.1}"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			id: "5B555A8CF306E25E"
 			tasks: [{
 				id: "6211EEF3C1E4DE73"
 				type: "item"
-				title: "任意背包"
+				title: "{chapter.21.quest.20.task.1.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -318,8 +307,7 @@
 			x: -1.5d
 			y: 5.5d
 			description: [
-				"这是一个简化的储存版ae2."
-				"不需要任何线缆的把你的所有箱子连接在一起，只需要他们在任意面上直接接触。"
+				"{chapter.21.quest.21.description.1}"
 				"{image:kubejs:textures/ftbq/toms_storage.png width:180 height:100 align:1}"
 			]
 			dependencies: ["027AAA6A3553F7DB"]
@@ -328,17 +316,13 @@
 			tasks: [{
 				id: "3EC38B47861BE33F"
 				type: "checkmark"
-				title: "tom的简易储存"
+				title: "{chapter.21.quest.21.task.1.title}"
 			}]
 		}
 		{
 			x: 1.5d
 			y: 5.0d
-			description: [
-				"本mod的核心物品，所有你希望并入储存网络的箱子都应互相连接，且至少有一个箱子和驱动器连接。"
-				""
-				"摆放箱子的时候切记不可以让两个箱子连接在一起，你可以通过蹲着放置的方式来实现。"
-			]
+			description: ["{chapter.21.quest.22.description.1}"]
 			dependencies: ["3B1F49F98146B468"]
 			id: "3ED4375227A692E0"
 			tasks: [{
@@ -356,10 +340,7 @@
 		{
 			x: 1.5d
 			y: 6.0d
-			description: [
-				"本mod另一核心物品，将其与存储驱动器放置在一起，即可访问储存网络。"
-				"右键打开存储界面，可以进行合成，适配rei。"
-			]
+			description: ["{chapter.21.quest.23.description.1}"]
 			dependencies: ["3B1F49F98146B468"]
 			id: "34B001698E943339"
 			tasks: [{
@@ -380,17 +361,14 @@
 			x: -1.5d
 			y: 0.5d
 			shape: "gear"
-			description: [
-				"繁复的箱子可以解决你的储存问题"
-				"对于箱子特性的描述同样适用于同等级的桶。"
-			]
+			description: ["{chapter.21.quest.24.description.1}"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			id: "62CD35B4D7C5D6C2"
 			tasks: [{
 				id: "1A4328145F848E33"
 				type: "checkmark"
-				title: "基础的存储"
+				title: "{chapter.21.quest.24.task.1.title}"
 			}]
 			rewards: [{
 				id: "06EEFF353674F255"
@@ -402,13 +380,7 @@
 		{
 			x: 3.0d
 			y: 5.5d
-			description: [
-				"蹲着右键可以绑定到合成终端。"
-				"在一定范围内，用你的“指针对准”合成终端，即可远程打开储存界面。"
-				""
-				""
-				"“要你何用？”"
-			]
+			description: ["{chapter.21.quest.25.description.1}"]
 			dependencies: [
 				"3ED4375227A692E0"
 				"34B001698E943339"
@@ -429,12 +401,7 @@
 		{
 			x: 4.5d
 			y: 5.5d
-			description: [
-				"绑定方式如前。"
-				"这个终端可以无视指针对准的条件，在一定范围内随意打开储存界面。"
-				"在连接的存储驱动器旁放一个一级信标即可无限距离使用。放置一个满级信标即可无视距离与纬度的限制使用。（PS：这需要箱子们所在的区域保持加载状态，你可以使用区块加载器实现这一功能。）"
-				"“后者说人话就是在地狱也能打开主世界的”"
-			]
+			description: ["{chapter.21.quest.26.description.1}"]
 			dependencies: ["261182F08FC7A1F1"]
 			id: "7EB0C92228380C82"
 			tasks: [{
@@ -452,7 +419,7 @@
 		{
 			x: -1.5d
 			y: 4.0d
-			description: ["朴素的背包，升级后会增加储存空间。"]
+			description: ["{chapter.21.quest.27.description.1}"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			id: "4F17AC66DB4DC73D"
@@ -556,10 +523,7 @@
 		{
 			x: 7.5d
 			y: 4.0d
-			description: [
-				"这是一个没有贴图的背包"
-				"现在它有了。                   @天稽阁主-斩稽"
-			]
+			description: ["{chapter.21.quest.33.description.1}"]
 			dependencies: ["02F039E7A5724ABA"]
 			optional: true
 			id: "7970EDF642E739C3"

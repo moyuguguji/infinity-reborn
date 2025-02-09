@@ -9,6 +9,9 @@ onEvent('player.tick', event => {
 })
 
 const playerTickEventMainHand = {
+	'kubejs:snowstormcane': function(event) {
+		event.player.potionEffects.add("minecraft:speed", 25, 2, false, false)
+	},
 	'kubejs:kreska': function(event) {
 		event.player.potionEffects.add("extraalchemy:detection", 25, 1, false, false)
 	},

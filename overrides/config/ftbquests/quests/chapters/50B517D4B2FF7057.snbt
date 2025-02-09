@@ -3,33 +3,25 @@
 	group: ""
 	order_index: 3
 	filename: "50B517D4B2FF7057"
-	title: "难度模式"
+	title: "{chapter.4.title}"
 	disable_toast: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "难度介绍"
+			title: "{chapter.4.quest.1.title}"
 			icon: "kubejs:difficulty_changer"
 			x: 0.0d
 			y: 0.0d
-			subtitle: "使用难度切换器切换难度,难度切换器合成可以开启永恒模式"
-			description: [
-				"经典难度下怪物会概率掉落额外的铜币会掉落三种稀有度的卡包，有概率掉落4种原版矿物。"
-				""
-				"专家难度下会概率掉落额外的银币和稀有度更高的两种卡包，boss有概率会掉模组矿物,怪物有概率掉神器碎片，怪物有概率掉落空白之心，箱子里有概率出现额外的附魔书，箱子里有概率出现额外的救赎之心。"
-				""
-				"大师难度下凋零骷髅必掉头，怪物概率掉落额外金币，概率掉落神话卡包，boss必定掉落模组矿物(数量更多)，怪物有概率掉落神器零件，箱子里有概率出现额外更强的附魔书。"
-				""
-				"永恒模式新增了大部分机制,部分战利品修改,击杀boss会增加一定难度(第一次击杀部分boss会大幅增加),击杀怪物概率增加难度,根据难度值怪物的数值会改变,救赎之心无法减到50以下难度"
-			]
+			subtitle: "{chapter.4.quest.1.subtitle}"
+			description: ["{chapter.4.quest.1.description.1}"]
 			size: 4.0d
 			can_repeat: true
 			id: "738EC65A3C5D8366"
 			tasks: [{
 				id: "02E9C3FBC2704232"
 				type: "checkmark"
-				title: "经典及以上伤害不够的话会导致给怪物回血,请注意"
+				title: "{chapter.4.quest.1.task.1.title}"
 			}]
 			rewards: [{
 				id: "09CFCA069E427C9A"
@@ -38,7 +30,7 @@
 			}]
 		}
 		{
-			title: "查看你的个人难度值"
+			title: "{chapter.4.quest.2.title}"
 			icon: {
 				id: "adventurez:prime_eye"
 				Count: 1b
@@ -49,7 +41,7 @@
 			disable_toast: true
 			x: -3.75d
 			y: 0.0d
-			subtitle: "在服务器比较有用的功能"
+			subtitle: "{chapter.4.quest.2.subtitle}"
 			size: 2.5d
 			optional: true
 			can_repeat: true
@@ -61,17 +53,17 @@
 			rewards: [{
 				id: "3F0AC9770FC2A108"
 				type: "custom"
-				title: "查看个人难度值"
+				title: "{chapter.4.quest.2.reward.1.title}"
 				icon: "minecraft:enchanted_golden_apple"
 			}]
 		}
 		{
-			title: "联机难度异常可以用这个"
+			title: "{chapter.4.quest.3.title}"
 			icon: "minecraft:carved_pumpkin"
 			disable_toast: true
 			x: -3.75d
 			y: -2.25d
-			subtitle: "难度是256格内所有玩家的平均值,所以只降自己难度是没用的"
+			subtitle: "{chapter.4.quest.3.subtitle}"
 			size: 1.5d
 			optional: true
 			can_repeat: true
@@ -83,7 +75,7 @@
 			rewards: [{
 				id: "5ED6574F143730BC"
 				type: "custom"
-				title: "所有玩家难度归零"
+				title: "{chapter.4.quest.3.reward.1.title}"
 				icon: "voidtotem:totem_of_void_undying"
 				auto: "disabled"
 			}]

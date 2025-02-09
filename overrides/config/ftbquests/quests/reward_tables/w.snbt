@@ -1,7 +1,7 @@
 {
 	id: "4841C898F786DF49"
 	order_index: 6
-	title: "飞升之戒"
+	title: "{loot_table.7}"
 	loot_size: 1
 	rewards: [
 		{ item: "ringsofascension:ring_fire_resistance" }

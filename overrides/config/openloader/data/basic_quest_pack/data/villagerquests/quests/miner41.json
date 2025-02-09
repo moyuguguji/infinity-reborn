@@ -1,0 +1,18 @@
+{
+    "id": 41,
+    "title": "\u6d4b\u8bd5\u6587\u672c",
+    "level": 5,
+    "type": "mine",
+    "profession": "miner",
+    "refresh": 2000,
+    "task": [
+        "submit",
+        "minecraft:ancient_debris",
+        2
+    ],
+    "description": "\u6d4b\u8bd5\u6587\u672c",
+    "experience": 50,
+    "reward": [
+        "kubejs:miner_quests",1
+    ]
+}

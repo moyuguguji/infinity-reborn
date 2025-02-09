@@ -3,16 +3,16 @@
 	group: "5D8C97B73DA1279B"
 	order_index: 0
 	filename: "348DB14877F54235"
-	title: "奇怪成就"
+	title: "{chapter.24.title}"
 	icon: "spectrum:wither_head"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "人形杀凋机"
+			title: "{chapter.24.quest.1.title}"
 			x: -0.5d
 			y: 0.0d
-			description: ["“如果你需要的话”"]
+			description: ["{chapter.24.quest.1.description.1}"]
 			dependencies: ["67DA3672A4085FE7"]
 			hide: true
 			id: "05E6A32747363A07"
@@ -53,13 +53,10 @@
 			]
 		}
 		{
-			title: "冶炼大师"
+			title: "{chapter.24.quest.2.title}"
 			x: 2.5d
 			y: 0.0d
-			description: [
-				"“你不会真的要去挖吧”"
-				"“你不会的，对吗？”"
-			]
+			description: ["{chapter.24.quest.2.description.1}"]
 			dependencies: ["0AF526CBD940C290"]
 			hide: true
 			id: "6421198F50D153F6"
@@ -130,11 +127,11 @@
 			]
 		}
 		{
-			title: "超级人形盾构机"
+			title: "{chapter.24.quest.3.title}"
 			x: 1.0d
 			y: -1.0d
 			shape: "rsquare"
-			description: ["“干点正事去吧”"]
+			description: ["{chapter.24.quest.3.description.1}"]
 			dependencies: ["7313FF073C3956C4"]
 			hide: true
 			size: 2.0d
@@ -189,14 +186,11 @@
 			]
 		}
 		{
-			title: "一把好弩？？"
+			title: "{chapter.24.quest.4.title}"
 			x: 4.0d
 			y: 0.0d
-			subtitle: "哦，我的天哪！"
-			description: [
-				"哦，天哪，这么糟糕的任务，你不会还要完成吧？"
-				"为了一把破弩？"
-			]
+			subtitle: "{chapter.24.quest.4.subtitle}"
+			description: ["{chapter.24.quest.4.description.1}"]
 			dependencies: ["6421198F50D153F6"]
 			hide: true
 			id: "5FA7B3488B0AF86A"
@@ -269,14 +263,11 @@
 			]
 		}
 		{
-			title: "肝神！"
+			title: "{chapter.24.quest.5.title}"
 			x: 1.0d
 			y: 3.0d
-			subtitle: "无可比拟的传奇！"
-			description: [
-				"传奇之人应有传奇的奖励，之前的奖励可能让你误认为没有价值，但我认为，你的经历值得嘉奖，等等？你不会把那些东西扔了吧？！"
-				"或许成为一个善良的人能帮助你重新拿到这些东西。"
-			]
+			subtitle: "{chapter.24.quest.5.subtitle}"
+			description: ["{chapter.24.quest.5.description.1}"]
 			hide_dependency_lines: true
 			min_required_dependencies: 5
 			dependencies: [
@@ -479,8 +470,7 @@
 		{
 			x: -2.0d
 			y: 0.0d
-			subtitle: "你真是我见过的最传奇的人了"
-			description: [""]
+			subtitle: "{chapter.24.quest.6.subtitle}"
 			dependencies: ["05E6A32747363A07"]
 			hide: true
 			id: "338233F128C59862"
@@ -535,11 +525,11 @@
 			]
 		}
 		{
-			title: "打赏点3"
+			title: "{chapter.24.quest.7.title}"
 			x: 5.5d
 			y: -1.0d
-			subtitle: "糟糕的破弩"
-			description: ["这可真是一把糟糕的弩，不是吗。"]
+			subtitle: "{chapter.24.quest.7.subtitle}"
+			description: ["{chapter.24.quest.7.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["5FA7B3488B0AF86A"]
 			hide: true
@@ -556,10 +546,10 @@
 			}]
 		}
 		{
-			title: "打赏点2"
+			title: "{chapter.24.quest.8.title}"
 			x: -3.5d
 			y: -1.0d
-			subtitle: "真是吓人"
+			subtitle: "{chapter.24.quest.8.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["338233F128C59862"]
 			hide: true
@@ -577,10 +567,10 @@
 			}]
 		}
 		{
-			title: "打赏点1"
+			title: "{chapter.24.quest.9.title}"
 			x: 1.0d
 			y: -3.0d
-			subtitle: "做点正事吧"
+			subtitle: "{chapter.24.quest.9.subtitle}"
 			hide_dependency_lines: true
 			dependencies: ["01C8A484FDCBBE67"]
 			hide: true
@@ -616,8 +606,8 @@
 			}
 			x: -3.0d
 			y: 1.0d
-			subtitle: "弄丢了？"
-			description: ["善良之人的嘉奖，这东西很重要"]
+			subtitle: "{chapter.24.quest.10.subtitle}"
+			description: ["{chapter.24.quest.10.description.1}"]
 			dependencies: ["7AEC5DE0101252EB"]
 			hide: true
 			optional: true
@@ -686,8 +676,8 @@
 			}
 			x: 5.0d
 			y: 1.0d
-			subtitle: "弄丢了？"
-			description: ["善良之人的嘉奖，这东西很重要"]
+			subtitle: "{chapter.24.quest.11.subtitle}"
+			description: ["{chapter.24.quest.11.description.1}"]
 			dependencies: ["1094065E8A05FF1B"]
 			hide: true
 			optional: true
@@ -758,8 +748,8 @@
 			}
 			x: 1.0d
 			y: 1.0d
-			subtitle: "弄丢了？"
-			description: ["善良之人的嘉奖，这东西很重要"]
+			subtitle: "{chapter.24.quest.12.subtitle}"
+			description: ["{chapter.24.quest.12.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["293EEB54696C325B"]
 			hide: true
@@ -793,15 +783,11 @@
 			}]
 		}
 		{
-			title: "粒粒皆辛苦"
+			title: "{chapter.24.quest.13.title}"
 			x: 1.0d
 			y: 2.0d
-			subtitle: "在进度里可以查看进度"
-			description: [
-				"“发挥你的种田基因”"
-				"   享受你的成果吧"
-				"   不要太着急"
-			]
+			subtitle: "{chapter.24.quest.13.subtitle}"
+			description: ["{chapter.24.quest.13.description.1}"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			id: "5A0365E930687CA3"
@@ -925,11 +911,11 @@
 			]
 		}
 		{
-			title: "被抓到惹"
+			title: "{chapter.24.quest.14.title}"
 			x: 1.0d
 			y: 4.0d
-			subtitle: "这都被你发现了"
-			description: ["跑路三人组"]
+			subtitle: "{chapter.24.quest.14.subtitle}"
+			description: ["{chapter.24.quest.14.description.1}"]
 			dependencies: ["5A0365E930687CA3"]
 			hide: true
 			invisible_until_tasks: 1
@@ -937,7 +923,7 @@
 			tasks: [{
 				id: "3EC9949E56AB1256"
 				type: "checkmark"
-				title: "跑路三人组"
+				title: "{chapter.24.quest.14.task.1.title}"
 			}]
 			rewards: [
 				{
@@ -985,14 +971,11 @@
 			]
 		}
 		{
-			title: "这....这这是什么呀"
+			title: "{chapter.24.quest.15.title}"
 			x: -1.0d
 			y: 2.5d
-			subtitle: "你可能未曾见过的怪物们"
-			description: [
-				""
-				"这是整合包里最稀有的几个怪物,要是你能杀齐那你定是天运之子呀"
-			]
+			subtitle: "{chapter.24.quest.15.subtitle}"
+			description: ["{chapter.24.quest.15.description.1}"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			id: "0BC2E55F6C0250EB"
@@ -1117,14 +1100,11 @@
 			]
 		}
 		{
-			title: "不是很闪,但是很少"
+			title: "{chapter.24.quest.16.title}"
 			x: 3.0d
 			y: 2.5d
-			subtitle: "它真的和钻石差不多吗?"
-			description: [
-				"如果你聪慧点，这个聪慧并不难得到。"
-				"你的脑子偶尔会因为聪慧灵光一闪，一下子收获一大堆经验。"
-			]
+			subtitle: "{chapter.24.quest.16.subtitle}"
+			description: ["{chapter.24.quest.16.description.1}"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			id: "12DD3CF3EDA8900F"
@@ -1138,7 +1118,7 @@
 				{
 					id: "7D90D8BE48EC7806"
 					type: "questsadditions:break"
-					title: "挖64个璀璨矿,深板岩的不算哦"
+					title: "{chapter.24.quest.16.task.2.title}"
 					block_type: 0
 					block: "things:gleaming_ore"
 					value: 64L
@@ -1169,7 +1149,7 @@
 			]
 		}
 		{
-			title: "传奇冒险家!"
+			title: "{chapter.24.quest.17.title}"
 			icon: {
 				id: "minecraft:golden_boots"
 				Count: 1b
@@ -1179,8 +1159,8 @@
 			}
 			x: 1.0d
 			y: 5.0d
-			subtitle: "你走遍了整个世界"
-			description: ["ps:小心跑图把档卡崩)"]
+			subtitle: "{chapter.24.quest.17.subtitle}"
+			description: ["{chapter.24.quest.17.description.1}"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			id: "01BB99DAD4187EAC"
@@ -1616,10 +1596,10 @@
 			]
 		}
 		{
-			title: "幸运?"
+			title: "{chapter.24.quest.18.title}"
 			x: -1.0d
 			y: 1.5d
-			subtitle: "你是幸运还是埋头苦找呢?"
+			subtitle: "{chapter.24.quest.18.subtitle}"
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			hide_text_until_complete: false
@@ -1682,11 +1662,11 @@
 			]
 		}
 		{
-			title: "美食评论家"
+			title: "{chapter.24.quest.19.title}"
 			x: 3.0d
 			y: 1.5d
-			subtitle: "吃遍MC！"
-			description: ["“有啥吃啥”"]
+			subtitle: "{chapter.24.quest.19.subtitle}"
+			description: ["{chapter.24.quest.19.description.1}"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			id: "02248D2CD2277FE0"
@@ -1694,28 +1674,28 @@
 				{
 					id: "423577A5936498AF"
 					type: "advancement"
-					title: "尝遍作物盛景中所有能吃的食物"
+					title: "{chapter.24.quest.19.task.1.title}"
 					advancement: "croptopia:gather_food"
 					criterion: ""
 				}
 				{
 					id: "75ABB13FF44EED90"
 					type: "advancement"
-					title: "尝遍原版美食，即便是对身体不好的"
+					title: "{chapter.24.quest.19.task.2.title}"
 					advancement: "minecraft:husbandry/balanced_diet"
 					criterion: ""
 				}
 				{
 					id: "51657DFDC6C2EF8B"
 					type: "advancement"
-					title: "非常的新鲜，非常的美味（以香烤海苔为佐料，用黑石鳟和烤土豆做出至尊料理。）"
+					title: "{chapter.24.quest.19.task.3.title}"
 					advancement: "gofish:fishing/grilled_blackstone_deluxe"
 					criterion: ""
 				}
 				{
 					id: "1055982131469378"
 					type: "advancement"
-					title: "用满月钓到的鱼做出星间水产煲吧。"
+					title: "{chapter.24.quest.19.task.4.title}"
 					advancement: "gofish:fishing/aquatic_astral_stew"
 					criterion: ""
 				}
@@ -1784,11 +1764,11 @@
 			]
 		}
 		{
-			title: "明胶世界之旅"
+			title: "{chapter.24.quest.20.title}"
 			icon: "terrarianslimes:royal_gel"
 			x: -1.0d
 			y: 3.5d
-			subtitle: "打败每一种史莱姆!"
+			subtitle: "{chapter.24.quest.20.subtitle}"
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			id: "10394B9E79E68D79"
@@ -2001,10 +1981,10 @@
 			]
 		}
 		{
-			title: "强身健体(雾)"
+			title: "{chapter.24.quest.21.title}"
 			x: 3.0d
 			y: 3.5d
-			subtitle: "突然的奖励"
+			subtitle: "{chapter.24.quest.21.subtitle}"
 			invisible: true
 			id: "54DAA2CCC8AF46C3"
 			tasks: [{
@@ -2039,7 +2019,7 @@
 			]
 		}
 		{
-			title: "我买买买!!!"
+			title: "{chapter.24.quest.22.title}"
 			x: 0.0d
 			y: 4.0d
 			dependencies: ["027AAA6A3553F7DB"]
@@ -2087,7 +2067,7 @@
 			]
 		}
 		{
-			title: "行万里路"
+			title: "{chapter.24.quest.23.title}"
 			x: 2.0d
 			y: 4.0d
 			dependencies: ["027AAA6A3553F7DB"]
@@ -2138,7 +2118,7 @@
 			]
 		}
 		{
-			title: "大挖特挖!"
+			title: "{chapter.24.quest.24.title}"
 			x: -0.5d
 			y: -2.5d
 			dependencies: ["027AAA6A3553F7DB"]
@@ -2208,10 +2188,10 @@
 			]
 		}
 		{
-			title: "煎蛋盛宴"
+			title: "{chapter.24.quest.25.title}"
 			x: 2.5d
 			y: -2.5d
-			subtitle: "将龙蛋放到岩浆块上等一会就会变成煎蛋了"
+			subtitle: "{chapter.24.quest.25.subtitle}"
 			dependencies: [
 				"027AAA6A3553F7DB"
 				"7BC9EF328769CA36"
@@ -2307,10 +2287,10 @@
 			]
 		}
 		{
-			title: "今天你空军了吗?"
+			title: "{chapter.24.quest.26.title}"
 			x: 1.0d
 			y: -4.5d
-			subtitle: "虽然mc里不会空军"
+			subtitle: "{chapter.24.quest.26.subtitle}"
 			dependencies: ["3022F8914C5B5968"]
 			hide: true
 			id: "533713607C41872C"
@@ -2381,7 +2361,7 @@
 			}]
 		}
 		{
-			title: "房地产经纪人"
+			title: "{chapter.24.quest.27.title}"
 			icon: {
 				id: "minecraft:emerald"
 				Count: 1b
@@ -2426,7 +2406,7 @@
 			}
 			x: 0.0d
 			y: 3.0d
-			subtitle: "让所有的村民住在你的世界里"
+			subtitle: "{chapter.24.quest.27.subtitle}"
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			id: "08957853429A69F6"
@@ -2511,10 +2491,10 @@
 			]
 		}
 		{
-			title: "狩猎大师"
+			title: "{chapter.24.quest.28.title}"
 			x: 2.0d
 			y: 3.0d
-			subtitle: "获得所有的动物头颅"
+			subtitle: "{chapter.24.quest.28.subtitle}"
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			id: "1452A7DB6B7A665B"

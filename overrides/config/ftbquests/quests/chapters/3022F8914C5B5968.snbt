@@ -3,7 +3,7 @@
 	group: "4DD3698DF322EEDB"
 	order_index: 2
 	filename: "3022F8914C5B5968"
-	title: "茶余饭后"
+	title: "{chapter.23.title}"
 	icon: {
 		id: "minecraft:fishing_rod"
 		Count: 1b
@@ -19,7 +19,7 @@
 			disable_toast: true
 			x: -8.0d
 			y: -2.0d
-			description: ["诚有斯言：饱暖思淫欲。茶余饭后繁殖一下人类，这很正常不是吗。"]
+			description: ["{chapter.23.quest.1.description.1}"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			optional: true
@@ -27,13 +27,13 @@
 			tasks: [{
 				id: "37B199824E03A92F"
 				type: "checkmark"
-				title: "更多的村民"
+				title: "{chapter.23.quest.1.task.1.title}"
 			}]
 		}
 		{
 			x: -8.5d
 			y: -0.5d
-			description: ["使村民转职为地狱旅者。"]
+			description: ["{chapter.23.quest.2.description.1}"]
 			dependencies: ["112347F734F40B51"]
 			optional: true
 			id: "4FA9B82FCD02090C"
@@ -46,7 +46,7 @@
 		{
 			x: -7.5d
 			y: -0.5d
-			description: ["使村民转职为猎人。"]
+			description: ["{chapter.23.quest.3.description.1}"]
 			dependencies: ["112347F734F40B51"]
 			optional: true
 			id: "440302897E3B45A7"
@@ -59,7 +59,7 @@
 		{
 			x: -8.5d
 			y: 0.5d
-			description: ["使村民转职为护林员"]
+			description: ["{chapter.23.quest.4.description.1}"]
 			dependencies: ["112347F734F40B51"]
 			optional: true
 			id: "75CE6DA78754C070"
@@ -72,7 +72,7 @@
 		{
 			x: -7.5d
 			y: 0.5d
-			description: ["使村民转职为工程师"]
+			description: ["{chapter.23.quest.5.description.1}"]
 			dependencies: ["112347F734F40B51"]
 			optional: true
 			id: "3C9A3EF0A5CD63BD"
@@ -85,7 +85,7 @@
 		{
 			x: -8.5d
 			y: 1.5d
-			description: ["使村民转职为矿工。"]
+			description: ["{chapter.23.quest.6.description.1}"]
 			dependencies: ["112347F734F40B51"]
 			optional: true
 			id: "179363BEC3FD2F15"
@@ -98,7 +98,7 @@
 		{
 			x: -7.5d
 			y: 1.5d
-			description: ["使村民转职为海洋学家"]
+			description: ["{chapter.23.quest.7.description.1}"]
 			dependencies: ["112347F734F40B51"]
 			optional: true
 			id: "181A77296EDDEB0E"
@@ -111,7 +111,7 @@
 		{
 			x: -8.5d
 			y: 2.5d
-			description: ["使村民转职为园艺师。"]
+			description: ["{chapter.23.quest.8.description.1}"]
 			dependencies: ["112347F734F40B51"]
 			optional: true
 			id: "67350E8461A70320"
@@ -124,7 +124,7 @@
 		{
 			x: -7.5d
 			y: 2.5d
-			description: ["使村民转职为终界旅者。"]
+			description: ["{chapter.23.quest.9.description.1}"]
 			dependencies: ["112347F734F40B51"]
 			optional: true
 			id: "1D636573584F5603"
@@ -135,10 +135,10 @@
 			}]
 		}
 		{
-			title: "成为一个钓鱼佬的第一步"
+			title: "{chapter.23.quest.10.title}"
 			x: 1.0d
 			y: 1.5d
-			description: ["茶余饭后化身钓鱼佬。"]
+			description: ["{chapter.23.quest.10.description.1}"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			id: "314AB380E74AEEB9"
@@ -155,13 +155,10 @@
 			}]
 		}
 		{
-			title: "升级我的鱼竿"
+			title: "{chapter.23.quest.11.title}"
 			x: 2.5d
 			y: 0.5d
-			description: [
-				"我的钓竿变得更坚固了，但我还是钓不到鱼。"
-				"不过或许我可以尝试去岩浆里找找鱼的踪迹。"
-			]
+			description: ["{chapter.23.quest.11.description.1}"]
 			dependencies: ["314AB380E74AEEB9"]
 			id: "7EB1F855CA38BE13"
 			tasks: [{
@@ -370,32 +367,32 @@
 			disable_toast: true
 			x: -3.0d
 			y: 1.5d
-			description: ["这些鱼竿都要从钓到的箱子里开出。"]
+			description: ["{chapter.23.quest.20.description.1}"]
 			dependencies: ["314AB380E74AEEB9"]
 			id: "5E4A29BE8E269DF3"
 			tasks: [{
 				id: "67A151C1E2CF7D00"
 				type: "checkmark"
-				title: "鱼竿收集者"
+				title: "{chapter.23.quest.20.task.1.title}"
 			}]
 		}
 		{
 			disable_toast: true
 			x: 3.5d
 			y: 1.5d
-			description: ["这一大堆奇奇怪怪的箱子为什么会被我钓上来？"]
+			description: ["{chapter.23.quest.21.description.1}"]
 			dependencies: ["314AB380E74AEEB9"]
 			id: "2272834FCD7D4573"
 			tasks: [{
 				id: "10CE006D2CA11145"
 				type: "checkmark"
-				title: "该死的，钓鱼佬除了鱼什么都能钓到。"
+				title: "{chapter.23.quest.21.task.1.title}"
 			}]
 		}
 		{
 			x: 5.0d
 			y: 0.0d
-			description: ["这种寻常的东西到处都是。"]
+			description: ["{chapter.23.quest.22.description.1}"]
 			dependencies: ["2272834FCD7D4573"]
 			id: "1C3D9A7B1FABE548"
 			tasks: [{
@@ -407,7 +404,7 @@
 		{
 			x: 6.0d
 			y: 0.0d
-			description: ["沉重的铁箱子，全世界都有人丢进海里。"]
+			description: ["{chapter.23.quest.23.description.1}"]
 			dependencies: ["2272834FCD7D4573"]
 			id: "206C5DA00145204E"
 			tasks: [{
@@ -419,7 +416,7 @@
 		{
 			x: 7.0d
 			y: 0.0d
-			description: ["珍贵的金箱子，全世界都有这种粗心的人，把金首饰掉进海里。"]
+			description: ["{chapter.23.quest.24.description.1}"]
 			dependencies: ["2272834FCD7D4573"]
 			id: "3FFA4AFDE1C45671"
 			tasks: [{
@@ -431,10 +428,7 @@
 		{
 			x: 8.0d
 			y: 0.0d
-			description: [
-				"钻石恒久远，一颗永流传。"
-				"很显然，全世界都有人求婚失败转头把钻戒丢进水里。"
-			]
+			description: ["{chapter.23.quest.25.description.1}"]
 			dependencies: ["2272834FCD7D4573"]
 			id: "1C6093C9A7646972"
 			tasks: [{
@@ -446,7 +440,7 @@
 		{
 			x: 5.0d
 			y: 1.0d
-			description: ["从冰缝里钓出鱼来。"]
+			description: ["{chapter.23.quest.26.description.1}"]
 			dependencies: ["2272834FCD7D4573"]
 			id: "67B54B01A4A680A7"
 			tasks: [{
@@ -458,7 +452,7 @@
 		{
 			x: 6.0d
 			y: 1.0d
-			description: ["没想到沼泽的烂泥里还有这种东西。"]
+			description: ["{chapter.23.quest.27.description.1}"]
 			dependencies: ["2272834FCD7D4573"]
 			id: "22AFFCA602D01E7E"
 			tasks: [{
@@ -470,7 +464,7 @@
 		{
 			x: 7.0d
 			y: 1.0d
-			description: ["平原和森林的水中浸满了这种箱子。"]
+			description: ["{chapter.23.quest.28.description.1}"]
 			dependencies: ["2272834FCD7D4573"]
 			id: "70A693A037B1D022"
 			tasks: [{
@@ -482,7 +476,7 @@
 		{
 			x: 5.0d
 			y: 2.0d
-			description: ["我在岩浆里发现了这个。"]
+			description: ["{chapter.23.quest.29.description.1}"]
 			dependencies: ["2272834FCD7D4573"]
 			id: "16D51DDF8A0EDF9C"
 			tasks: [{
@@ -494,7 +488,7 @@
 		{
 			x: 6.0d
 			y: 2.0d
-			description: ["灵魂沙与岩浆的融合产生了奇怪的魔法，让我找到了这东西。"]
+			description: ["{chapter.23.quest.30.description.1}"]
 			dependencies: ["2272834FCD7D4573"]
 			id: "280DCA76BD9C5492"
 			tasks: [{
@@ -506,7 +500,7 @@
 		{
 			x: 7.0d
 			y: 2.0d
-			description: ["我撑的伞上落满了“头皮屑”，最终钓到了这玩意儿。"]
+			description: ["{chapter.23.quest.31.description.1}"]
 			dependencies: ["2272834FCD7D4573"]
 			id: "35EA553010E8DB0E"
 			tasks: [{
@@ -518,7 +512,7 @@
 		{
 			x: 9.0d
 			y: 1.5d
-			description: ["缀满了星辰闪光的盒子，只有在月亮致圆致亮之时才能找到。"]
+			description: ["{chapter.23.quest.32.description.1}"]
 			dependencies: ["2272834FCD7D4573"]
 			id: "032482ED020E4DFE"
 			tasks: [{
@@ -536,7 +530,7 @@
 		{
 			x: 5.0d
 			y: 3.0d
-			description: ["虽然末地没有水，但虚空中产生了这玩意儿，让人工湖也能有所收获。"]
+			description: ["{chapter.23.quest.33.description.1}"]
 			dependencies: ["2272834FCD7D4573"]
 			id: "7885DFFDCE5F74B6"
 			tasks: [{
@@ -549,24 +543,19 @@
 			disable_toast: true
 			x: 1.0d
 			y: 3.5d
-			description: [
-				"虽然只是几条鱼苗，但总算能应付老婆的斥责。"
-				""
-				""
-				"“我要保护好这个钓点，可不能让别人知道了。”"
-			]
+			description: ["{chapter.23.quest.34.description.1}"]
 			dependencies: ["314AB380E74AEEB9"]
 			id: "70C5CA3A1AF5901A"
 			tasks: [{
 				id: "1A256BD67A0F3610"
 				type: "checkmark"
-				title: "总算有点收获了"
+				title: "{chapter.23.quest.34.task.1.title}"
 			}]
 		}
 		{
 			x: 1.0d
 			y: -0.5d
-			description: ["鸟枪换大炮。"]
+			description: ["{chapter.23.quest.35.description.1}"]
 			dependencies: ["314AB380E74AEEB9"]
 			id: "11C78A31CA30037C"
 			tasks: [{
@@ -584,7 +573,7 @@
 		{
 			x: 2.0d
 			y: -0.5d
-			description: ["钓不到鱼不死不休！"]
+			description: ["{chapter.23.quest.36.description.1}"]
 			dependencies: ["314AB380E74AEEB9"]
 			id: "45B6455A5E6B8689"
 			tasks: [{
@@ -1265,7 +1254,7 @@
 		{
 			x: 0.0d
 			y: -0.5d
-			description: ["幸运小鱼儿。"]
+			description: ["{chapter.23.quest.62.description.1}"]
 			dependencies: ["314AB380E74AEEB9"]
 			id: "6CA530F7C5413372"
 			tasks: [{
@@ -1290,7 +1279,7 @@
 			tasks: [{
 				id: "283862A082FFA8D8"
 				type: "checkmark"
-				title: "寒冷群系"
+				title: "{chapter.23.quest.63.task.1.title}"
 			}]
 		}
 		{
@@ -1302,7 +1291,7 @@
 			tasks: [{
 				id: "12D08BDC608D5AC8"
 				type: "checkmark"
-				title: "平顶山"
+				title: "{chapter.23.quest.64.task.1.title}"
 			}]
 		}
 		{
@@ -1314,7 +1303,7 @@
 			tasks: [{
 				id: "58C29EA9439B9E1B"
 				type: "checkmark"
-				title: "沼泽"
+				title: "{chapter.23.quest.65.task.1.title}"
 			}]
 		}
 		{
@@ -1326,7 +1315,7 @@
 			tasks: [{
 				id: "58B77FACDE94F2E1"
 				type: "checkmark"
-				title: "平原与森林"
+				title: "{chapter.23.quest.66.task.1.title}"
 			}]
 		}
 		{
@@ -1338,7 +1327,7 @@
 			tasks: [{
 				id: "06FA3FA24EF43E70"
 				type: "checkmark"
-				title: "满月之时"
+				title: "{chapter.23.quest.67.task.1.title}"
 			}]
 		}
 		{
@@ -1350,11 +1339,11 @@
 			tasks: [{
 				id: "185D0974CBFFBF05"
 				type: "checkmark"
-				title: "在雨中"
+				title: "{chapter.23.quest.68.task.1.title}"
 			}]
 		}
 		{
-			title: "在主世界y值200以上的水里可以钓到。"
+			title: "{chapter.23.quest.69.title}"
 			disable_toast: true
 			x: 2.0d
 			y: 5.5d
@@ -1363,7 +1352,7 @@
 			tasks: [{
 				id: "05BA24DFC0154028"
 				type: "checkmark"
-				title: "不知道在哪"
+				title: "{chapter.23.quest.69.task.1.title}"
 			}]
 		}
 		{
@@ -1375,7 +1364,7 @@
 			tasks: [{
 				id: "556BE23287345F4D"
 				type: "checkmark"
-				title: "地狱岩浆里"
+				title: "{chapter.23.quest.70.task.1.title}"
 			}]
 		}
 		{
@@ -1387,7 +1376,7 @@
 			tasks: [{
 				id: "5915B46241E45B12"
 				type: "checkmark"
-				title: "玄武岩三角洲"
+				title: "{chapter.23.quest.71.task.1.title}"
 			}]
 		}
 		{
@@ -1399,7 +1388,7 @@
 			tasks: [{
 				id: "07636D6AD42006D4"
 				type: "checkmark"
-				title: "灵魂沙峡谷"
+				title: "{chapter.23.quest.72.task.1.title}"
 			}]
 		}
 		{
@@ -1411,7 +1400,7 @@
 			tasks: [{
 				id: "1D41F95AB4A9FCFD"
 				type: "checkmark"
-				title: "末地"
+				title: "{chapter.23.quest.73.task.1.title}"
 			}]
 		}
 		{

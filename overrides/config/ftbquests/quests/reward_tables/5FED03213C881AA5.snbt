@@ -1,7 +1,7 @@
 {
 	id: "5FED03213C881AA5"
 	order_index: 9
-	title: "光谱"
+	title: "{loot_table.10}"
 	loot_size: 1
 	rewards: [
 		{ item: "spectrum:topaz_shard", count: 10 }

@@ -3,7 +3,7 @@
 	group: "2D4526175EFBC1B2"
 	order_index: 0
 	filename: "7313FF073C3956C4"
-	title: "原初世界"
+	title: "{chapter.8.title}"
 	icon: "minecraft:grass_block"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -21,7 +21,7 @@
 	}]
 	quests: [
 		{
-			title: "初来乍到"
+			title: "{chapter.8.quest.1.title}"
 			icon: "minecraft:grass_block"
 			disable_toast: true
 			x: -7.0d
@@ -32,7 +32,7 @@
 			tasks: [{
 				id: "70742D7026B235C2"
 				type: "dimension"
-				title: "新生之地"
+				title: "{chapter.8.quest.1.task.1.title}"
 				disable_toast: true
 				dimension: "minecraft:overworld"
 			}]
@@ -47,13 +47,13 @@
 		{
 			x: -7.0d
 			y: -1.5d
-			subtitle: "想致富先撸树"
+			subtitle: "{chapter.8.quest.2.subtitle}"
 			dependencies: ["263182083E9E7774"]
 			id: "18275DC5303FAFA0"
 			tasks: [{
 				id: "423D0A851EFD93E7"
 				type: "item"
-				title: "任意原木"
+				title: "{chapter.8.quest.2.task.1.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -72,7 +72,7 @@
 		{
 			x: -8.5d
 			y: 2.0d
-			description: ["整合包中删除了石制工具的工具合成方式，改为使用燧石作为木头的上位替代。"]
+			description: ["{chapter.8.quest.3.description.1}"]
 			dependencies: ["2F0DF9C52403D984"]
 			optional: true
 			id: "0B4C8D1E23AAA139"
@@ -144,7 +144,7 @@
 		{
 			x: 3.0d
 			y: 2.0d
-			description: ["戈伯系列装备和工具将是你未来一段的时间好帮手。"]
+			description: ["{chapter.8.quest.5.description.1}"]
 			dependencies: ["4EB4675BB9984883"]
 			id: "565A517185DF9950"
 			tasks: [{
@@ -167,19 +167,11 @@
 			]
 		}
 		{
-			title: "戈伯锻造材料"
+			title: "{chapter.8.quest.6.title}"
 			x: 1.0d
 			y: 2.0d
-			subtitle: "合成戈伯锭的材料"
-			description: [
-				"深海金属矿：可通过在海底和河底挖掘深海金属矿获得。"
-				""
-				"锰矿石：在主世界四十一层生成概率最高。"
-				""
-				"四层矿石：在主世界35层生成概率最高。"
-				""
-				"戈伯矿石：在5层以下大量生成。"
-			]
+			subtitle: "{chapter.8.quest.6.subtitle}"
+			description: ["{chapter.8.quest.6.description.1}"]
 			dependencies: ["101189C9EB665FB6"]
 			id: "4EB4675BB9984883"
 			tasks: [
@@ -207,15 +199,11 @@
 			}]
 		}
 		{
-			title: "讨伐：远古英雄！"
+			title: "{chapter.8.quest.7.title}"
 			x: 9.0d
 			y: 0.0d
-			subtitle: "讨伐难度：中等；讨伐建议：具有一定的回复手段和持续作战能力"
-			description: [
-				"使用月石罗盘或在任务中领取boss罗盘（【任务】→【boss列表】→【寻找远古英雄】）以寻找远古英雄的所在地。TIP：用德拉古尔激活旧月祭坛可以召唤远古英雄。"
-				"================================================"
-				"“有个故事讲到，在历史长河所能记载的极限之前，游侠与骑士曾共同讨伐逃出封印的恶魔，经过九天十夜的死战，游侠与骑士最终战胜了不可一世的恶魔，但那恶魔实在是太过强大了，在最终时刻，游侠大义凛然，以自己的生命为代价，拼死将恶魔逼回了封印之中，而游侠的伙伴骑士，据说是与世长存，一直活到了现在……”"
-			]
+			subtitle: "{chapter.8.quest.7.subtitle}"
+			description: ["{chapter.8.quest.7.description.1}"]
 			dependencies: ["32DC410EC16DFBA4"]
 			id: "3AB25BFC35ED4493"
 			tasks: [{
@@ -240,15 +228,11 @@
 			]
 		}
 		{
-			title: "讨伐：暴虐之影！"
+			title: "{chapter.8.quest.8.title}"
 			x: 9.0d
 			y: -1.5d
-			subtitle: "讨伐难度：中等；讨伐建议：足够的恢复能力或防御能力"
-			description: [
-				"在击杀远古英雄之后，暴虐之影会从远古英雄的尸体中出现。"
-				"================================================"
-				"“那具历经无数风霜的骨骼终究倒下了，在那空洞的眼窝里你似乎看到一抹不甘，一抹留恋，以及一抹期许。黝黑的空洞里只剩下大口大口的喘息声，但黑暗角落里的玄色棺椁中突然传来讥笑的声音，一股蓝色的风自狭缝中吹了出来。那声音忽远忽近，从四面八方传到倒下的骨骼旁：‘跨越千年万年，还是我活了下来，你死去了。’。原来远古英雄眼中的期许是这种意思。”"
-			]
+			subtitle: "{chapter.8.quest.8.subtitle}"
+			description: ["{chapter.8.quest.8.description.1}"]
 			dependencies: ["3AB25BFC35ED4493"]
 			id: "1AA597C88E816253"
 			tasks: [{
@@ -273,18 +257,11 @@
 			]
 		}
 		{
-			title: "讨伐：莫德凯撒！"
+			title: "{chapter.8.quest.9.title}"
 			x: 4.0d
 			y: -0.5d
-			subtitle: "讨伐难度：特殊；讨伐建议：最好有单次120以上的伤害再打"
-			description: [
-				"你需要在主世界中找到大教堂，然后在其中找到旧日祭坛，用迷失的灵魂召唤莫德凯撒。"
-				"================================================"
-				"“你知道吗，我奶奶说，她年轻的时候就见过护国骑士了，跟她还说我们的护国骑士是从上古活下来了，连上上上上上上上上任皇帝都见过呢！”"
-				"“拜托我们可是科学世界，这种扯淡的东西也就你会信了吧。”"
-				"“你说他明明也是个普通人，为什么能活那么久呢？”"
-				"“他肯定没活那么久，你被骗了！”"
-			]
+			subtitle: "{chapter.8.quest.9.subtitle}"
+			description: ["{chapter.8.quest.9.description.1}"]
 			dependencies: ["32DC410EC16DFBA4"]
 			id: "2661980BC534404A"
 			tasks: [{
@@ -309,12 +286,12 @@
 			]
 		}
 		{
-			title: "讨伐：夜巫妖！"
+			title: "{chapter.8.quest.10.title}"
 			icon: "bosses_of_mass_destruction:ancient_anima"
 			x: 9.0d
 			y: 1.5d
-			subtitle: "讨伐难度：中等；讨伐建议：拥有创造飞行能力或足够的远程伤害能力"
-			description: ["你需要使用击杀亡灵类怪物掉落的灵魂之星寻找巫妖塔，像使用末影之眼一样使用它们。在塔中找到凿石祭坛，在四个凿石祭坛上放上灵魂之星即可召唤夜巫妖。夜巫妖飞行在空中，且召唤时会把时间转换到黑夜。（服务器注意）"]
+			subtitle: "{chapter.8.quest.10.subtitle}"
+			description: ["{chapter.8.quest.10.description.1}"]
 			dependencies: ["32DC410EC16DFBA4"]
 			id: "2DF48F5B040D7823"
 			tasks: [{
@@ -339,12 +316,12 @@
 			]
 		}
 		{
-			title: "讨伐：虚空之花！"
+			title: "{chapter.8.quest.11.title}"
 			icon: "bosses_of_mass_destruction:void_thorn"
 			x: 6.5d
 			y: 3.5d
-			subtitle: "讨伐难度：简单；讨伐建议：足够的防御能力或足够的远程伤害能力"
-			description: ["将虚空百合种在地上，花粉会指引你如何找到最近的虚空之花。（如果虚空百合没有反应，请先检查视频设置里粒子效果是否调整为全部）"]
+			subtitle: "{chapter.8.quest.11.subtitle}"
+			description: ["{chapter.8.quest.11.description.1}"]
 			dependencies: ["32DC410EC16DFBA4"]
 			id: "48DF3D8A679435E4"
 			tasks: [{
@@ -372,19 +349,13 @@
 			icon: "piercingpaxels:passive_smelt"
 			x: -1.0d
 			y: 2.0d
-			description: [
-				"搭建冶炼炉来冶炼高级矿物，同等级的冶炼炉只需建造一个。搭建方法参考无限之书"
-				"可以使用煤炭/岩浆/木炭等提供能源。"
-				""
-				"需要先制作一个锻炉控制器(任意材质)，但请注意它的层级(如深板岩的为2)。部分配方需要高层级的锻炉才能冶炼。锻炉正下方的方块可以换成漏斗来输出物品。"
-				"================================================"
-			]
+			description: ["{chapter.8.quest.12.description.1}"]
 			dependencies: ["476311F6AC1B2243"]
 			id: "101189C9EB665FB6"
 			tasks: [{
 				id: "0CAFB4DB2D529C89"
 				type: "checkmark"
-				title: "冶炼高级矿物"
+				title: "{chapter.8.quest.12.task.1.title}"
 			}]
 			rewards: [{
 				id: "0CE1E0B19EBE66BB"
@@ -394,16 +365,12 @@
 			}]
 		}
 		{
-			title: "砖块锻炉（层级1）"
+			title: "{chapter.8.quest.13.title}"
 			icon: "alloy_forgery:bricks_forge_controller"
 			x: -2.5d
 			y: 2.0d
-			subtitle: "不太廉价的廉价货"
-			description: [
-				"总之比石头的强些"
-				"容量：50000"
-				"效率：125%"
-			]
+			subtitle: "{chapter.8.quest.13.subtitle}"
+			description: ["{chapter.8.quest.13.description.1}"]
 			dependencies: ["101189C9EB665FB6"]
 			optional: true
 			id: "46C16EE44F239FED"
@@ -422,16 +389,12 @@
 			]
 		}
 		{
-			title: "石砖锻炉（层级1）"
+			title: "{chapter.8.quest.14.title}"
 			icon: "alloy_forgery:stone_bricks_forge_controller"
 			x: -1.5d
 			y: 0.5d
-			subtitle: "廉价货"
-			description: [
-				"效率计量单位"
-				"容量：48000"
-				"效率：100%"
-			]
+			subtitle: "{chapter.8.quest.14.subtitle}"
+			description: ["{chapter.8.quest.14.description.1}"]
 			dependencies: ["101189C9EB665FB6"]
 			optional: true
 			id: "4B1C0D1CEC91C994"
@@ -450,16 +413,12 @@
 			]
 		}
 		{
-			title: "海晶石锻炉（层级2）"
+			title: "{chapter.8.quest.15.title}"
 			icon: "alloy_forgery:prismarine_bricks_forge_controller"
 			x: -1.5d
 			y: 3.5d
-			subtitle: "略慢的大炉子"
-			description: [
-				"不耐高温的保温材料"
-				"容量：128000"
-				"效率：150%"
-			]
+			subtitle: "{chapter.8.quest.15.subtitle}"
+			description: ["{chapter.8.quest.15.description.1}"]
 			dependencies: ["101189C9EB665FB6"]
 			optional: true
 			id: "3CBEB517A24607F8"
@@ -478,16 +437,12 @@
 			]
 		}
 		{
-			title: "深板岩锻炉（层级2）"
+			title: "{chapter.8.quest.16.title}"
 			icon: "alloy_forgery:deepslate_bricks_forge_controller"
 			x: 0.0d
 			y: 0.5d
-			subtitle: "略贵的廉价货"
-			description: [
-				"保温能力强于石头"
-				"容量：96000"
-				"效率：175%"
-			]
+			subtitle: "{chapter.8.quest.16.subtitle}"
+			description: ["{chapter.8.quest.16.description.1}"]
 			dependencies: ["101189C9EB665FB6"]
 			optional: true
 			id: "60AE7AF518F8E473"
@@ -506,16 +461,12 @@
 			]
 		}
 		{
-			title: "抛光黑石炉锻炉（层级2）"
+			title: "{chapter.8.quest.17.title}"
 			icon: "alloy_forgery:polished_blackstone_forge_controller"
 			x: 0.0d
 			y: 3.5d
-			subtitle: "高温地区的材料"
-			description: [
-				"耐受高温的强大材料"
-				"容量：72000"
-				"效率：200%"
-			]
+			subtitle: "{chapter.8.quest.17.subtitle}"
+			description: ["{chapter.8.quest.17.description.1}"]
 			dependencies: ["101189C9EB665FB6"]
 			optional: true
 			id: "23AA8B0398F8751D"
@@ -534,16 +485,12 @@
 			]
 		}
 		{
-			title: "讨伐：史莱姆王！"
+			title: "{chapter.8.quest.18.title}"
 			icon: "terrarianslimes:slime_crown"
 			x: 4.5d
 			y: 3.5d
-			subtitle: "讨伐难度：简单；讨伐建议：足够的抗性或远程伤害能力"
-			description: [
-				"你需要制作史莱姆王冠来召唤史莱姆王。"
-				"================================================"
-				"“即便是孱弱到不行的史莱姆，拥有能夺取对方能力的‘掠夺者’以及精通世界真理的‘大贤者’这两项能力后，也是能成为世界最强の魔王的吧！”"
-			]
+			subtitle: "{chapter.8.quest.18.subtitle}"
+			description: ["{chapter.8.quest.18.description.1}"]
 			dependencies: ["32DC410EC16DFBA4"]
 			id: "7E33DE7DE9F14FF8"
 			tasks: [
@@ -576,7 +523,7 @@
 		{
 			x: -4.0d
 			y: -1.0d
-			subtitle: "一把相当强力的前期武器"
+			subtitle: "{chapter.8.quest.19.subtitle}"
 			dependencies: ["3DD77F75AE982826"]
 			optional: true
 			id: "3078FE20208EDB9E"
@@ -600,20 +547,11 @@
 			}]
 		}
 		{
-			title: "讨伐：月光圣骑！"
+			title: "{chapter.8.quest.20.title}"
 			x: 7.5d
 			y: -1.5d
-			subtitle: "讨伐难度：困难；讨伐建议：足够的防御/吸血能力，足够的近战输出"
-			description: [
-				"你需要在主世界找到另一个大教堂，然后使用日暮精粹右键旧月祭坛来召唤 。"
-				"月光圣骑是一个具有两个阶段的强力boss，免疫弓箭，伤害颇高，谨慎对待。"
-				"================================================"
-				"“又有个故事讲到，在无尽的时间长河的尽头，一位冒险者挑战并击败了我们的护国骑士。”"
-				"“姥姥，你不是说那时候的护国骑士是坏人吗？那冒险者帮助我们击败他不是好事吗？”"
-				"“当护国骑士倒下后，一缕魔气涌出他的身体，冒险者与那魔气从白天缠斗到黑夜，从他口中我们才知道，护国骑士并不是坏人，相反，千百年来，他都以肉身锁住了恶魔的一半灵魂。在月光下，冒险者与骑士的灵魂并肩作战，终于彻底消灭了恶魔，解除了危机。”"
-				"“后来呢后来呢？”"
-				"“护国骑士乘着月光与冒险者切磋了三百回合，最终在日光、悲忸的哭声与爽朗的大笑声中消失不见，去往另一个世界。”"
-			]
+			subtitle: "{chapter.8.quest.20.subtitle}"
+			description: ["{chapter.8.quest.20.description.1}"]
 			dependencies: ["1AA597C88E816253"]
 			id: "2A37DB4C5176902C"
 			tasks: [{
@@ -645,10 +583,7 @@
 		{
 			x: 5.5d
 			y: -1.5d
-			description: [
-				"此物十分珍贵，合成材料也不是廉价货，如果你想复制的话也可以用比前者更少的方式复制一份。"
-				"有了这个你就不必为了召唤月光圣骑再度寻找一个大教堂了。"
-			]
+			description: ["{chapter.8.quest.21.description.1}"]
 			dependencies: ["2A37DB4C5176902C"]
 			id: "2710CAF55FC46347"
 			tasks: [{
@@ -671,15 +606,11 @@
 			]
 		}
 		{
-			title: "恶魔附魔"
+			title: "{chapter.8.quest.22.title}"
 			x: -3.5d
 			y: 3.0d
 			description: [
-				"恶魔附魔，一种以玩家生命作为代价驱动的附魔。"
-				"================================================"
-				"在附魔台附近摆放至少 3 个凋灵骷髅头颅。头颅越多，获得恶魔附魔的几率越高。"
-				""
-				"恶魔附魔不仅消耗经验和青金石，还会消耗附近7格半径内生物的生命值（优先排除玩家）。生命值总量不满足要求时会扣除玩家的生命值。（1心=2生命值。40心=80生命值）"
+				"{chapter.8.quest.22.description.1}"
 				"{image:kubejs:textures/ftbq/fumo.png width:200 height:95 align:1}"
 			]
 			dependencies: ["08F9BF423B2906E5"]
@@ -705,7 +636,7 @@
 			}]
 		}
 		{
-			title: "工作台"
+			title: "{chapter.8.quest.23.title}"
 			x: -7.0d
 			y: 0.5d
 			dependencies: ["18275DC5303FAFA0"]
@@ -723,22 +654,22 @@
 			}]
 		}
 		{
-			title: "关于boss"
+			title: "{chapter.8.quest.24.title}"
 			icon: "botania:cosmetic_questgiver_mark"
 			x: 6.0d
 			y: 0.5d
-			subtitle: "注意，任务流程中逐渐浮出水面的boss们并非你直接可以讨伐的目标，除了暮色的boss外，讨伐boss并不需要依照任何顺序。"
+			subtitle: "{chapter.8.quest.24.subtitle}"
 			dependencies: ["565A517185DF9950"]
 			size: 2.0d
 			id: "32DC410EC16DFBA4"
 			tasks: [{
 				id: "43CE10506D29737F"
 				type: "checkmark"
-				title: "已阅"
+				title: "{chapter.8.quest.24.task.1.title}"
 			}]
 		}
 		{
-			title: "你冒险开始的第一天"
+			title: "{chapter.8.quest.25.title}"
 			x: -4.0d
 			y: -3.5d
 			dependencies: ["027AAA6A3553F7DB"]
@@ -767,7 +698,7 @@
 			]
 		}
 		{
-			title: "你开始在这个世界上立足"
+			title: "{chapter.8.quest.26.title}"
 			x: -2.0d
 			y: -3.5d
 			dependencies: [
@@ -815,7 +746,7 @@
 			]
 		}
 		{
-			title: "好吧,你是真的闲"
+			title: "{chapter.8.quest.27.title}"
 			x: 0.0d
 			y: -3.5d
 			dependencies: ["04C39DE9789CF158"]
@@ -847,10 +778,10 @@
 			]
 		}
 		{
-			title: "好吧,你这也挺惨的"
+			title: "{chapter.8.quest.28.title}"
 			x: 2.0d
 			y: -2.0d
-			description: ["“在死与生的界限逐渐模糊之后，我窥见关于永生的一丝真相。”"]
+			description: ["{chapter.8.quest.28.description.1}"]
 			dependencies: ["185D5EDC65B1C487"]
 			optional: true
 			invisible: true
@@ -913,10 +844,10 @@
 			]
 		}
 		{
-			title: "第一次的死亡"
+			title: "{chapter.8.quest.29.title}"
 			x: -2.0d
 			y: -2.0d
-			description: ["“死亡如风，常伴吾身”"]
+			description: ["{chapter.8.quest.29.description.1}"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			optional: true
@@ -944,7 +875,7 @@
 			]
 		}
 		{
-			title: "死亡永无止境"
+			title: "{chapter.8.quest.30.title}"
 			x: 0.0d
 			y: -2.0d
 			dependencies: [
@@ -992,8 +923,8 @@
 		{
 			x: -5.0d
 			y: 0.5d
-			subtitle: "有时候摸箱子比挖矿收益要高"
-			description: ["虽然有点快，但钻石确实是本包的基础物资。"]
+			subtitle: "{chapter.8.quest.31.subtitle}"
+			description: ["{chapter.8.quest.31.description.1}"]
 			dependencies: ["2F0DF9C52403D984"]
 			id: "3DD77F75AE982826"
 			tasks: [{
@@ -1009,10 +940,10 @@
 			}]
 		}
 		{
-			title: "提升自己！"
+			title: "{chapter.8.quest.32.title}"
 			x: -5.0d
 			y: 2.0d
-			description: ["附魔在本包中是最重要的提升战斗力手段，切记随着冒险收集高级附魔并将其化为己用。"]
+			description: ["{chapter.8.quest.32.description.1}"]
 			dependencies: ["3DD77F75AE982826"]
 			id: "08F9BF423B2906E5"
 			tasks: [
@@ -1047,19 +978,15 @@
 			}
 			x: -2.0d
 			y: -1.0d
-			subtitle: "来自无限：重生1群群友：辣椒香菜"
-			description: [
-				"辣椒香菜提醒你：珍爱随身装备，关心装备耐久，学会自己修理装备。"
-				""
-				"实力不够不要放副手哦"
-			]
+			subtitle: "{chapter.8.quest.33.subtitle}"
+			description: ["{chapter.8.quest.33.description.1}"]
 			dependencies: ["476311F6AC1B2243"]
 			id: "73564B8D8E331790"
 			tasks: [
 				{
 					id: "1D5F7F68AE3F875A"
 					type: "checkmark"
-					title: "群小助手提醒你~"
+					title: "{chapter.8.quest.33.task.1.title}"
 				}
 				{
 					id: "1BA8BC41114080A8"
@@ -1084,16 +1011,12 @@
 			}]
 		}
 		{
-			title: "村民任务"
+			title: "{chapter.8.quest.34.title}"
 			icon: "minecraft:emerald"
 			x: -7.0d
 			y: 2.0d
-			subtitle: "将军,村庄的马桶又堵了!"
-			description: [
-				"头上有问号的村民可以接取任务,在交易界面右上角点开任务详情"
-				""
-				"贸易站也可以接取任务,但是用贸易站点开详情界面时必须要先去一个村民那点开一次,不然会奔溃"
-			]
+			subtitle: "{chapter.8.quest.34.subtitle}"
+			description: ["{chapter.8.quest.34.description.1}"]
 			dependencies: ["2F0DF9C52403D984"]
 			optional: true
 			id: "6DF5ACDDAA1B087C"

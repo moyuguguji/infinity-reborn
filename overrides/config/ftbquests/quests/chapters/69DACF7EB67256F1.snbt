@@ -3,7 +3,7 @@
 	group: "2918506B9F30927F"
 	order_index: 5
 	filename: "69DACF7EB67256F1"
-	title: "炼器宗师"
+	title: "{chapter.20.title}"
 	icon: {
 		id: "betterend:aeternium_hammer"
 		Count: 1b
@@ -11,7 +11,7 @@
 			Damage: 0
 		}
 	}
-	subtitle: ["炼器秘法，装备的二次强化"]
+	subtitle: ["{chapter.20.subtitle}"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [{
@@ -28,17 +28,12 @@
 	}]
 	quests: [
 		{
-			title: "如何修改品质"
+			title: "{chapter.20.quest.1.title}"
 			icon: "minecraft:anvil"
 			x: 2.5d
 			y: -2.5d
-			subtitle: "品质修改只能使用【原版】的【铁砧】"
-			description: [
-				"品质更改需要【催化剂】和对应装备的【修复材料】。还需要你的铁砧和装备都是满耐久"
-				""
-				""
-				"饰品的品质也能重铸"
-			]
+			subtitle: "{chapter.20.quest.1.subtitle}"
+			description: ["{chapter.20.quest.1.description.1}"]
 			dependencies: ["347055DAF7FDB87E"]
 			id: "4E9D4C3243DC06D1"
 			tasks: [
@@ -49,7 +44,7 @@
 				{
 					id: "5DC0F722F1F8F710"
 					type: "item"
-					title: "仅限原版铁砧"
+					title: "{chapter.20.quest.1.task.2.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -66,17 +61,12 @@
 			}]
 		}
 		{
-			title: "如何天赋更新"
+			title: "{chapter.20.quest.2.title}"
 			icon: "mythicmetals:hallowed_anvil"
 			x: -1.5d
 			y: -3.0d
-			subtitle: "天赋修改可以使用任意【砧】"
-			description: [
-				"在任意砧上使用【青金石块】可以刷新物品的【天赋】，当然有时候觉醒【天赋】也会存在失败的情况，但无论如何，这都不会保留原有的【天赋】。这可能会让装备变得更强，也可能变得更弱。"
-				""
-				""
-				"对于有【天赋】的装备使用【天赋强化石】可以花费20等级在任意【砧】上执行一次天赋强化，这也有可能失败，但这不会为你的装备带来负面影响，它不会变得更弱，所以不用担心；但也不会变得更强，仅仅是保留原样而已。"
-			]
+			subtitle: "{chapter.20.quest.2.subtitle}"
+			description: ["{chapter.20.quest.2.description.1}"]
 			dependencies: ["7968DC7E215BD20C"]
 			id: "3D2738E321BE92ED"
 			tasks: [
@@ -87,7 +77,7 @@
 				{
 					id: "7A45C603695147A2"
 					type: "item"
-					title: "任何砧都可以"
+					title: "{chapter.20.quest.2.task.2.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -107,14 +97,8 @@
 			icon: "botania:cosmetic_questgiver_mark"
 			x: 4.0d
 			y: -4.0d
-			subtitle: "何为【品质】"
-			description: [
-				"装备自带的品质，决定了物品的强度，从低到高，包括："
-				"破烂<普通<不凡<稀有<史诗<神话品质，但有时候你的装备会出现一些邪恶的品质。"
-				""
-				"【邪恶品质】：这是一种装备打造中出现的一些特殊品质，他们拥有着极其强大的单一属性，但同时也将需要你支付一些，小小的代价。"
-				"【邪恶品质】仅限于剑与盾"
-			]
+			subtitle: "{chapter.20.quest.3.subtitle}"
+			description: ["{chapter.20.quest.3.description.1}"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			id: "347055DAF7FDB87E"
@@ -122,12 +106,12 @@
 				{
 					id: "5EDD672885A47EB5"
 					type: "checkmark"
-					title: "品质"
+					title: "{chapter.20.quest.3.task.1.title}"
 				}
 				{
 					id: "7251AB4D10E7A93C"
 					type: "observation"
-					title: "修改品质"
+					title: "{chapter.20.quest.3.task.2.title}"
 					icon: "minecraft:anvil"
 					timer: 35L
 					observe_type: 0
@@ -139,48 +123,29 @@
 			icon: "botania:cosmetic_questgiver_mark"
 			x: 0.5d
 			y: -3.5d
-			subtitle: "何为【天赋】"
-			description: [
-				"【天赋】是武器带有的奇奇怪怪的彩色词条，包含："
-				"【伤害减免】：减免对应比例的伤害"
-				"【击退抗性】：减少被击退效果"
-				"【最大生命值】：增加你的最大生命值"
-				""
-				"攻击属性天赋："
-				"【重击】：你的攻击会有对应概率造成一次强力攻击，这不同于原版暴击。"
-				"【火焰伤害】：你的攻击会增加对应数值，并且还将附加对应数值的灼烧效果。"
-				"【寒冷伤害】：你的攻击增加对应数值，并且还会附带对应效果寒冷和伤害。"
-				"【中毒伤害】：你的攻击增加对应数值，并且附带对应数值强度的中毒。"
-				"【吸血】：你回复造成伤害对应比例的血量。"
-			]
+			subtitle: "{chapter.20.quest.4.subtitle}"
+			description: ["{chapter.20.quest.4.description.1}"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			id: "7968DC7E215BD20C"
 			tasks: [{
 				id: "3007C950F77C68D9"
 				type: "checkmark"
-				title: "天赋"
+				title: "{chapter.20.quest.4.task.1.title}"
 			}]
 			rewards: [{
 				id: "3EE73B07AE36E527"
 				type: "item"
-				title: "刷新/觉醒词条的道具"
+				title: "{chapter.20.quest.4.reward.1.title}"
 				item: "minecraft:lapis_block"
 			}]
 		}
 		{
-			title: "转生系统"
+			title: "{chapter.20.quest.5.title}"
 			x: 0.0d
 			y: -1.5d
-			subtitle: "何为转生系统？"
-			description: [
-				"【天赋】是拥有上限的，如何稳定获取【天赋】是一个难题，获得超越上限的【天赋】更是难上加难。"
-				"但转生石可以做到这点，但代价是你的装备会被完全重置，不过相对的你可以获得对应的超越上限的【天赋】"
-				""
-				"但如此强大的力量不是什么装备都可以驾驭的，基本上，至少能承受三级锻炉的装备才可以使用此物，你需要在锻造台上使用转生石。"
-				""
-				"所有可以使用转生石的装备都会标注，但是转生石也是有等级的，装备不可使用更加高级的转生石。"
-			]
+			subtitle: "{chapter.20.quest.5.subtitle}"
+			description: ["{chapter.20.quest.5.description.1}"]
 			dependencies: ["7968DC7E215BD20C"]
 			id: "229D05A1A967C5A2"
 			tasks: [{
@@ -190,11 +155,11 @@
 			}]
 		}
 		{
-			title: "Ⅰ阶转生石"
+			title: "{chapter.20.quest.6.title}"
 			x: 0.0d
 			y: 1.5d
-			subtitle: "很基础的转生石"
-			description: ["这些都是在三级及以上的锻炉制作的。"]
+			subtitle: "{chapter.20.quest.6.subtitle}"
+			description: ["{chapter.20.quest.6.description.1}"]
 			dependencies: ["229D05A1A967C5A2"]
 			id: "58DB2D34114D2378"
 			tasks: [
@@ -227,11 +192,11 @@
 			}]
 		}
 		{
-			title: "Ⅱ阶转生石"
+			title: "{chapter.20.quest.7.title}"
 			x: -2.0d
 			y: 2.0d
-			subtitle: "十分高级的转生石"
-			description: ["价格十分的昂贵"]
+			subtitle: "{chapter.20.quest.7.subtitle}"
+			description: ["{chapter.20.quest.7.description.1}"]
 			dependencies: ["229D05A1A967C5A2"]
 			id: "4E5F3AC2B5EB70C3"
 			tasks: [
@@ -259,10 +224,10 @@
 			}]
 		}
 		{
-			title: "催化剂"
+			title: "{chapter.20.quest.8.title}"
 			x: 1.0d
 			y: -0.5d
-			description: ["放在【铁砧】右侧插槽的催化剂，无论什么装备都必须有此物的帮助才可重铸品质。"]
+			description: ["{chapter.20.quest.8.description.1}"]
 			dependencies: ["4E9D4C3243DC06D1"]
 			id: "647DCB3D2674C0C8"
 			tasks: [{
@@ -274,10 +239,7 @@
 		{
 			x: 2.0d
 			y: 0.5d
-			description: [
-				"如果你实在想不到物品的【修复材料】，你可以试试【神铸晶】"
-				"另外，弓、弩、盾牌等都是使用此物锻造属性。"
-			]
+			description: ["{chapter.20.quest.9.description.1}"]
 			dependencies: ["4E9D4C3243DC06D1"]
 			id: "54E1507A48291E24"
 			tasks: [{
@@ -289,7 +251,7 @@
 		{
 			x: -5.0d
 			y: -1.0d
-			description: ["它强化成功的最高概率也仅有33%，而且随着天赋数值的提升，这个概率还会不断的下降。"]
+			description: ["{chapter.20.quest.10.description.1}"]
 			dependencies: ["3D2738E321BE92ED"]
 			id: "6B002CC9A77C8BCC"
 			tasks: [{

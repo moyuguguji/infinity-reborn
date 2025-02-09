@@ -3,7 +3,7 @@
 	group: "0B54634113ED2BBC"
 	order_index: 1
 	filename: "711006E3E736F02C"
-	title: "植物魔法"
+	title: "{chapter.13.title}"
 	icon: "botania:lexicon"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -23,11 +23,7 @@
 		{
 			x: -6.0d
 			y: 0.5d
-			description: [
-				"植物魔法百科全书，你会需要的。"
-				"================================================"
-				"“恭喜你发现宝藏！”"
-			]
+			description: ["{chapter.13.quest.1.description.1}"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			size: 2.0d
@@ -47,7 +43,7 @@
 		{
 			x: -8.0d
 			y: 1.0d
-			description: ["收纳你所采集的所有颜色的神秘花，不论高矮。"]
+			description: ["{chapter.13.quest.2.description.1}"]
 			dependencies: ["480B659B63B90B16"]
 			id: "03A11168304BB373"
 			tasks: [{
@@ -66,10 +62,7 @@
 			x: -3.0d
 			y: 0.5d
 			description: [
-				"最基础也最重要的功能花（也许）。"
-				"使用方法："
-				"把白雏菊放在地上，然后将任意原木或石头（注：不是圆石）将白雏菊围起来，如果出现粒子效果就说明正在转化，请耐心等待"
-				"================================================"
+				"{chapter.13.quest.3.description.1}"
 				"{image:kubejs:textures/ftbq/bcj.png width:200 height:200 align:1}"
 			]
 			dependencies: ["31AF2DC5C9E1BB86"]
@@ -77,7 +70,7 @@
 			tasks: [{
 				id: "5179838AE7D0D0D9"
 				type: "observation"
-				title: "白雏菊"
+				title: "{chapter.13.quest.3.task.1.title}"
 				icon: "botania:pure_daisy"
 				timer: 25L
 				observe_type: 0
@@ -93,7 +86,7 @@
 		{
 			x: 1.5d
 			y: 1.5d
-			description: ["储存产能花产出的魔力。"]
+			description: ["{chapter.13.quest.4.description.1}"]
 			dependencies: ["79E81F0D0846832B"]
 			id: "3AABC8E7533D2158"
 			tasks: [{
@@ -111,11 +104,7 @@
 		{
 			x: -0.5d
 			y: 1.0d
-			description: [
-				"用于调节不同的装置。"
-				"================================================"
-				"“每个魔法mod都该有一根法杖，不是吗？”"
-			]
+			description: ["{chapter.13.quest.5.description.1}"]
 			dependencies: ["21853980AEDF8B54"]
 			id: "79E81F0D0846832B"
 			tasks: [{
@@ -140,17 +129,13 @@
 		{
 			x: 2.0d
 			y: 0.0d
-			description: [
-				"我所推荐的前期产能花。"
-				"================================================"
-				"“当然没有人规定不能前中后期全用火红莲doge”"
-			]
+			description: ["{chapter.13.quest.6.description.1}"]
 			dependencies: ["79E81F0D0846832B"]
 			id: "622651527A5344FC"
 			tasks: [{
 				id: "64AE6E132EEC8D8D"
 				type: "observation"
-				title: "火红莲"
+				title: "{chapter.13.quest.6.task.1.title}"
 				icon: "botania:endoflame"
 				timer: 15L
 				observe_type: 0
@@ -166,7 +151,7 @@
 		{
 			x: 0.0d
 			y: 2.5d
-			description: ["缓慢但可控的魔力转移方式。"]
+			description: ["{chapter.13.quest.7.description.1}"]
 			dependencies: ["79E81F0D0846832B"]
 			id: "20FB30F769472C50"
 			tasks: [{
@@ -184,13 +169,13 @@
 		{
 			x: -4.5d
 			y: 2.0d
-			description: ["制作花朵，丢完花瓣之后记得丢一个种子。"]
+			description: ["{chapter.13.quest.8.description.1}"]
 			dependencies: ["480B659B63B90B16"]
 			id: "31AF2DC5C9E1BB86"
 			tasks: [{
 				id: "25247428EBD98FDB"
 				type: "observation"
-				title: "花药台"
+				title: "{chapter.13.quest.8.task.1.title}"
 				icon: "botania:apothecary_default"
 				timer: 25L
 				observe_type: 0
@@ -206,7 +191,7 @@
 		{
 			x: -2.0d
 			y: 2.5d
-			description: ["合成完时记得丢活石哟。"]
+			description: ["{chapter.13.quest.9.description.1}"]
 			dependencies: ["79E81F0D0846832B"]
 			id: "5658863739082F5C"
 			tasks: [{
@@ -224,7 +209,7 @@
 		{
 			x: 1.5d
 			y: 3.5d
-			description: ["植魔的基础材料，也是合成戈伯锭的材料之一"]
+			description: ["{chapter.13.quest.10.description.1}"]
 			dependencies: ["3AABC8E7533D2158"]
 			id: "64365265717EB081"
 			tasks: [{
@@ -274,15 +259,11 @@
 			}]
 		}
 		{
-			title: "彼方兰"
+			title: "{chapter.13.quest.13.title}"
 			icon: "botania:gourmaryllis"
 			x: 4.0d
 			y: -0.5d
-			description: [
-				"给彼方兰丢出食物来产能。"
-				"================================================"
-				"“养花×，养猪✓”"
-			]
+			description: ["{chapter.13.quest.13.description.1}"]
 			dependencies: ["6705C2F5802E6E11"]
 			id: "5922BF1DDE1E062E"
 			tasks: [{
@@ -291,11 +272,11 @@
 			}]
 		}
 		{
-			title: "热爆花"
+			title: "{chapter.13.quest.14.title}"
 			icon: "botania:entropinnyum"
-			x: 5.0d
+			x: 5.5d
 			y: 2.0d
-			description: ["利用tnt爆炸来产能。"]
+			description: ["{chapter.13.quest.14.description.1}"]
 			dependencies: ["6705C2F5802E6E11"]
 			id: "0BC50F6C1C779650"
 			tasks: [{
@@ -304,15 +285,11 @@
 			}]
 		}
 		{
-			title: "贪食花"
+			title: "{chapter.13.quest.15.title}"
 			icon: "botania:kekimurus"
 			x: 6.0d
 			y: 1.0d
-			description: [
-				"“吃掉”摆放在附近的蛋糕来产能。"
-				"================================================"
-				"“蛋糕是个谎言！”"
-			]
+			description: ["{chapter.13.quest.15.description.1}"]
 			dependencies: ["6705C2F5802E6E11"]
 			id: "426CD7CD07A2DAEC"
 			tasks: [{
@@ -321,11 +298,11 @@
 			}]
 		}
 		{
-			title: "粘球草产能"
+			title: "{chapter.13.quest.16.title}"
 			icon: "botania:narslimmus"
 			x: 5.0d
 			y: -0.5d
-			description: ["吞噬附近的史莱姆来产能。"]
+			description: ["{chapter.13.quest.16.description.1}"]
 			dependencies: ["6705C2F5802E6E11"]
 			id: "552F1E0718D4CC49"
 			tasks: [{
@@ -337,11 +314,7 @@
 			icon: "botania:terra_plate"
 			x: 6.0d
 			y: 4.0d
-			description: [
-				"制作泰拉锭所必须的装置，当然，不止合成泰拉锭。"
-				"================================================"
-				"TIP：下界疣块可以分解成下界疣，下界疣块可以用转换之杖获取；主世界的部分遗迹中也有下界疣和下界疣块的存在。"
-			]
+			description: ["{chapter.13.quest.17.description.1}"]
 			dependencies: ["2F32F5B4426C3269"]
 			id: "2C444D2AB54B65C3"
 			tasks: [
@@ -365,7 +338,7 @@
 				{
 					id: "6FB3D458E3774DC0"
 					type: "observation"
-					title: "泰拉凝聚板需要火花传递魔力！"
+					title: "{chapter.13.quest.17.task.4.title}"
 					icon: "botania:terra_plate"
 					timer: 35L
 					observe_type: 0
@@ -382,12 +355,7 @@
 		{
 			x: 4.0d
 			y: 3.0d
-			description: [
-				"可以在25*25*25范围内高速传导魔力，使用泰拉凝聚板时基本都要用火花以传递魔力。"
-				"手持火花升级组件右键即可为火花赋予不同的功能。"
-				"================================================"
-				"TIP：猎人村民会出售烈焰棒。"
-			]
+			description: ["{chapter.13.quest.18.description.1}"]
 			dependencies: ["622651527A5344FC"]
 			id: "2F32F5B4426C3269"
 			tasks: [{
@@ -405,7 +373,7 @@
 		{
 			x: 4.5d
 			y: 5.0d
-			description: ["植物魔法的终极材料。"]
+			description: ["{chapter.13.quest.19.description.1}"]
 			dependencies: ["2C444D2AB54B65C3"]
 			id: "2A30DF4FD035D7D4"
 			tasks: [{
@@ -429,15 +397,11 @@
 			]
 		}
 		{
-			title: "精灵门"
+			title: "{chapter.13.quest.20.title}"
 			icon: "botania:quartz_elven"
 			x: 8.0d
 			y: 4.0d
-			description: [
-				"花费魔力与精灵交易，自然水晶需要放在魔力池的上面，不然激活不了。"
-				"================================================"
-				"“精灵们喜欢吃面包。”"
-			]
+			description: ["{chapter.13.quest.20.description.1}"]
 			dependencies: ["2C444D2AB54B65C3"]
 			id: "4D00BB7A0FCE4C32"
 			tasks: [
@@ -481,13 +445,13 @@
 		{
 			x: 4.5d
 			y: 1.0d
-			description: ["有一些难度的自动化产能方式（但不多）。"]
+			description: ["{chapter.13.quest.21.description.1}"]
 			dependencies: ["622651527A5344FC"]
 			id: "6705C2F5802E6E11"
 			tasks: [{
 				id: "2B5D4862CAF20909"
 				type: "checkmark"
-				title: "更加高效的产能方式"
+				title: "{chapter.13.quest.21.task.1.title}"
 			}]
 			rewards: [{
 				id: "7C6EAEB3503D5828"
@@ -550,7 +514,7 @@
 		{
 			x: 10.0d
 			y: 4.0d
-			description: ["把植物魔法交给精灵们，用一些魔力交换她们拥有的知识。"]
+			description: ["{chapter.13.quest.25.description.1}"]
 			dependencies: ["4D00BB7A0FCE4C32"]
 			id: "2DC6044863690E1F"
 			tasks: [{
@@ -572,13 +536,12 @@
 			}]
 		}
 		{
-			title: "盖亚仪式"
+			title: "{chapter.13.quest.26.title}"
 			icon: "botania:gaia_pylon"
 			x: 10.0d
 			y: 2.5d
 			description: [
-				"你需要先搭建与盖亚战斗的场所；以信标为圆心的12格的圆做底面(可以使用盖世六分仪确定圆的范围)，底面和底面之上6层的圆柱体区域内不能有其他方块。"
-				"================================================"
+				"{chapter.13.quest.26.description.1}"
 				"{image:kubejs:textures/ftbq/gaiya.png width:119 height:98 align:1}"
 			]
 			dependencies: [
@@ -658,7 +621,7 @@
 		{
 			x: -2.0d
 			y: 4.0d
-			description: ["如果你是一个小白，透镜学你可以开个创造档慢慢研究。"]
+			description: ["{chapter.13.quest.29.description.1}"]
 			dependencies: ["20FB30F769472C50"]
 			id: "4049E9B711DC7755"
 			tasks: [{
@@ -742,11 +705,11 @@
 			]
 		}
 		{
-			title: "阿卡纳蔷薇"
+			title: "{chapter.13.quest.32.title}"
 			icon: "botania:rosa_arcana"
 			x: 6.0d
 			y: 0.0d
-			description: ["吸取玩家的经验或地上的经验来产能。"]
+			description: ["{chapter.13.quest.32.description.1}"]
 			dependencies: ["6705C2F5802E6E11"]
 			id: "45B688454B595552"
 			tasks: [{
@@ -757,7 +720,7 @@
 		{
 			x: 10.0d
 			y: 0.5d
-			description: ["用这个代替泰拉锭激活盖亚仪式即可召唤盖亚守护者II。"]
+			description: ["{chapter.13.quest.33.description.1}"]
 			dependencies: ["131C38F322085224"]
 			id: "7514522F0DEA0742"
 			tasks: [{
@@ -769,7 +732,7 @@
 		{
 			x: -3.5d
 			y: 3.5d
-			description: ["用植物酿造台为污血吊坠赋能；赋能后的污血吊坠在佩戴后可以通过消耗魔力的方式提供buff。"]
+			description: ["{chapter.13.quest.34.description.1}"]
 			dependencies: ["5658863739082F5C"]
 			id: "0E844F574999BDD5"
 			tasks: [

@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 5
 	filename: "4CA0A5A0ABC92F60"
-	title: "功能调整"
+	title: "{chapter.6.title}"
 	icon: {
 		id: "additionaladditions:wrench"
 		Count: 1b
@@ -15,12 +15,12 @@
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [{
-		title: "开启/关闭部分村民右键交易"
+		title: "{chapter.6.quest.1.title}"
 		icon: "minecraft:lectern"
 		disable_toast: true
 		x: -1.0d
 		y: 0.0d
-		subtitle: "如果你右键村民崩溃可以打开这个"
+		subtitle: "{chapter.6.quest.1.subtitle}"
 		size: 2.0d
 		optional: true
 		can_repeat: true
@@ -32,7 +32,7 @@
 		rewards: [{
 			id: "740A45205A854354"
 			type: "custom"
-			title: "开启/关闭"
+			title: "{chapter.6.quest.1.reward.1.title}"
 			icon: "minecraft:lectern"
 		}]
 	}]

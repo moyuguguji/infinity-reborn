@@ -1,7 +1,7 @@
 {
 	id: "194AB8AF4BDC5D8B"
 	order_index: 4
-	title: "钓鱼佬的奖励"
+	title: "{loot_table.5}"
 	icon: "gofish:golden_fish"
 	loot_size: 1
 	use_title: true

@@ -226,4 +226,17 @@ onEvent('item.registry', event => {
 		.tooltip(Text.translate('item.kubejs.gold_coin.tooltip1'))
 		.maxStackSize(64)
 		.rarity(Rarity.UNCOMMON)
+
+	event.create('miner_quests')
+		.displayName("矿工任务奖励袋(初级)")
+
+	event.create('fisherman_quests')
+		.displayName("渔夫任务奖励袋(初级)")
+
+	event.create('farmer_quests')
+		.displayName("农民任务奖励袋(初级)")
+
+	event.create('starter_bag')
+		.displayName("新手礼包")
+		.tooltip(Text.translate('右键使用'))
 })

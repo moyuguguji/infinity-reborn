@@ -3,14 +3,14 @@
 	group: ""
 	order_index: 2
 	filename: "1"
-	title: "难度调整"
+	title: "{chapter.3.title}"
 	icon: "kubejs:paolude_xiaxin"
 	disable_toast: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "难度减10"
+			title: "{chapter.3.quest.1.title}"
 			icon: "kubejs:jiushu_heart"
 			disable_toast: true
 			x: 3.0d
@@ -26,12 +26,12 @@
 			rewards: [{
 				id: "3B0A3998FA09ED28"
 				type: "custom"
-				title: "难度-10"
+				title: "{chapter.3.quest.1.reward.1.title}"
 				icon: "kubejs:jiushu_heart_shard"
 			}]
 		}
 		{
-			title: "难度加10"
+			title: "{chapter.3.quest.2.title}"
 			icon: "minecraft:creeper_head"
 			disable_toast: true
 			x: 3.0d
@@ -51,12 +51,12 @@
 			rewards: [{
 				id: "48F04EA7FA7F0BAA"
 				type: "custom"
-				title: "难度+10"
+				title: "{chapter.3.quest.2.reward.1.title}"
 				icon: "victus:broken_heart"
 			}]
 		}
 		{
-			title: "难度减100"
+			title: "{chapter.3.quest.3.title}"
 			icon: "kubejs:jiushu_heart"
 			disable_toast: true
 			x: -3.0d
@@ -72,12 +72,12 @@
 			rewards: [{
 				id: "6362DFB350668F2B"
 				type: "custom"
-				title: "难度-100"
+				title: "{chapter.3.quest.3.reward.1.title}"
 				icon: "kubejs:jiushu_heart"
 			}]
 		}
 		{
-			title: "难度加100"
+			title: "{chapter.3.quest.4.title}"
 			icon: "minecraft:creeper_head"
 			disable_toast: true
 			x: -3.0d
@@ -97,17 +97,17 @@
 			rewards: [{
 				id: "3E97189C9020FE20"
 				type: "custom"
-				title: "难度+100"
+				title: "{chapter.3.quest.4.reward.1.title}"
 				icon: "victus:broken_heart"
 			}]
 		}
 		{
-			title: "难度归零"
+			title: "{chapter.3.quest.5.title}"
 			icon: "minecraft:clock"
 			disable_toast: true
 			x: 0.0d
 			y: -4.5d
-			subtitle: "你依旧可以继续加减"
+			subtitle: "{chapter.3.quest.5.subtitle}"
 			dependencies: ["74C39EB32A2520AA"]
 			size: 3.0d
 			can_repeat: true
@@ -119,19 +119,19 @@
 			rewards: [{
 				id: "50A12DC8DA1CE3AA"
 				type: "custom"
-				title: "难度归零"
+				title: "{chapter.3.quest.5.reward.1.title}"
 				icon: "kubejs:jiushu_heart"
 				team_reward: false
 				auto: "disabled"
 			}]
 		}
 		{
-			title: "难度到上限"
+			title: "{chapter.3.quest.6.title}"
 			icon: "spectrum:crescent_clock"
 			disable_toast: true
 			x: 0.0d
 			y: 4.5d
-			subtitle: "你依旧可以继续加减"
+			subtitle: "{chapter.3.quest.6.subtitle}"
 			dependencies: [
 				"027AAA6A3553F7DB"
 				"74C39EB32A2520AA"
@@ -147,17 +147,17 @@
 			rewards: [{
 				id: "07CB3D64C540EFAB"
 				type: "custom"
-				title: "难度到上限"
+				title: "{chapter.3.quest.6.reward.1.title}"
 				icon: "victus:broken_heart"
 			}]
 		}
 		{
-			title: "关于这里的难度调整"
+			title: "{chapter.3.quest.7.title}"
 			icon: "botania:cosmetic_questgiver_mark"
 			x: 0.0d
 			y: 0.0d
 			shape: "hexagon"
-			description: ["这里本质上是通过指令来调整玩家的难度数值，是为了让种田休闲玩家和硬核挑战玩家可以根据自身情况调整游戏压力。"]
+			description: ["{chapter.3.quest.7.description.1}"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			size: 5.0d
@@ -165,7 +165,7 @@
 			tasks: [{
 				id: "4058B29960FCF9C7"
 				type: "checkmark"
-				title: "已阅"
+				title: "{chapter.3.quest.7.task.1.title}"
 			}]
 		}
 	]

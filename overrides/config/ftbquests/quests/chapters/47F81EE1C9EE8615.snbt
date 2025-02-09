@@ -3,13 +3,13 @@
 	group: "5D8C97B73DA1279B"
 	order_index: 1
 	filename: "47F81EE1C9EE8615"
-	title: "奇异商店"
+	title: "{chapter.25.title}"
 	disable_toast: true
 	default_quest_shape: "square"
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "购买奇异饰品"
+			title: "{chapter.25.quest.1.title}"
 			icon: "artifacts:feral_claws"
 			disable_toast: true
 			x: -2.0d
@@ -41,13 +41,13 @@
 			}]
 		}
 		{
-			title: "购买飞升之戒"
+			title: "{chapter.25.quest.2.title}"
 			icon: "ringsofascension:ring_flight"
 			disable_toast: true
 			x: 0.5d
 			y: 0.0d
 			shape: "square"
-			subtitle: "这里没有飞行戒指"
+			subtitle: "{chapter.25.quest.2.subtitle}"
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			size: 2.0d
@@ -74,12 +74,12 @@
 			}]
 		}
 		{
-			title: "卡片回收"
+			title: "{chapter.25.quest.3.title}"
 			x: -4.5d
 			y: 0.0d
 			shape: "square"
-			subtitle: "回收多余的卡片"
-			description: ["一次完成多个并不会增加奖励量"]
+			subtitle: "{chapter.25.quest.3.subtitle}"
+			description: ["{chapter.25.quest.3.description.1}"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			size: 2.0d
@@ -91,7 +91,7 @@
 				{
 					id: "1A7689D2D983BE10"
 					type: "item"
-					title: "常见"
+					title: "{chapter.25.quest.3.task.1.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -105,7 +105,7 @@
 				{
 					id: "5772EED8C14E81F7"
 					type: "item"
-					title: "非凡"
+					title: "{chapter.25.quest.3.task.2.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -119,7 +119,7 @@
 				{
 					id: "69673D2377AE9874"
 					type: "item"
-					title: "稀有"
+					title: "{chapter.25.quest.3.task.3.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -133,7 +133,7 @@
 				{
 					id: "2412333F703B43F5"
 					type: "item"
-					title: "史诗"
+					title: "{chapter.25.quest.3.task.4.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -147,7 +147,7 @@
 				{
 					id: "78328ADF184D589F"
 					type: "item"
-					title: "传说"
+					title: "{chapter.25.quest.3.task.5.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -161,7 +161,7 @@
 				{
 					id: "142CA44ED27EFBBA"
 					type: "item"
-					title: "神话"
+					title: "{chapter.25.quest.3.task.6.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -183,7 +183,7 @@
 			}]
 		}
 		{
-			title: "存储套装"
+			title: "{chapter.25.quest.4.title}"
 			icon: "toms_storage:ts.inventory_connector"
 			x: -5.25d
 			y: 2.25d
@@ -229,12 +229,12 @@
 			]
 		}
 		{
-			title: "回忆药水"
+			title: "{chapter.25.quest.5.title}"
 			icon: "things:recall_potion"
 			x: -3.0d
 			y: 2.25d
 			shape: "square"
-			subtitle: "喝下之后即可回到出生点"
+			subtitle: "{chapter.25.quest.5.subtitle}"
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			size: 1.5d
@@ -259,7 +259,7 @@
 			}]
 		}
 		{
-			title: "地图购买"
+			title: "{chapter.25.quest.6.title}"
 			icon: "twilightforest:filled_magic_map"
 			x: -0.75d
 			y: 2.25d
@@ -288,7 +288,7 @@
 			}]
 		}
 		{
-			title: "购买传送石碑"
+			title: "{chapter.25.quest.7.title}"
 			icon: "waystones:waystone"
 			x: 1.5d
 			y: 2.25d
@@ -312,7 +312,7 @@
 			rewards: [{
 				id: "62A96E077381322B"
 				type: "choice"
-				title: "传送石碑"
+				title: "{chapter.25.quest.7.reward.1.title}"
 				icon: "waystones:waystone"
 				team_reward: false
 				exclude_from_claim_all: true
@@ -320,13 +320,13 @@
 			}]
 		}
 		{
-			title: "魔力太麻烦了!"
+			title: "{chapter.25.quest.8.title}"
 			icon: "botania:mana_pool"
 			x: -5.25d
 			y: 3.75d
 			shape: "square"
-			subtitle: "v我5金给半池子魔力"
-			description: ["丢进魔力池使用"]
+			subtitle: "{chapter.25.quest.8.subtitle}"
+			description: ["{chapter.25.quest.8.description.1}"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			size: 1.5d
@@ -357,7 +357,7 @@
 			}]
 		}
 		{
-			title: "光谱新手礼包"
+			title: "{chapter.25.quest.9.title}"
 			icon: "spectrum:pedestal_basic_amethyst"
 			x: -3.0d
 			y: 3.75d
@@ -388,7 +388,7 @@
 			}]
 		}
 		{
-			title: "(´。＿。｀)"
+			title: "{chapter.25.quest.10.title}"
 			icon: {
 				id: "explorerscompass:explorerscompass"
 				Count: 1b
@@ -397,7 +397,7 @@
 			x: -0.75d
 			y: 3.75d
 			shape: "square"
-			subtitle: "为什么你玩冒险包要这个w(ﾟДﾟ)w"
+			subtitle: "{chapter.25.quest.10.subtitle}"
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			size: 1.5d
@@ -434,7 +434,7 @@
 			}]
 		}
 		{
-			title: "或者?"
+			title: "{chapter.25.quest.11.title}"
 			icon: "botania:creative_pool"
 			x: -7.5d
 			y: 3.75d
@@ -470,7 +470,7 @@
 			}]
 		}
 		{
-			title: "刷怪套件"
+			title: "{chapter.25.quest.12.title}"
 			icon: "minecraft:spawner"
 			x: 1.5d
 			y: 3.75d
@@ -501,7 +501,7 @@
 			}]
 		}
 		{
-			title: "金币转换"
+			title: "{chapter.25.quest.13.title}"
 			x: -7.0d
 			y: 0.0d
 			dependencies: ["027AAA6A3553F7DB"]
@@ -532,7 +532,7 @@
 			}]
 		}
 		{
-			title: "银币转换"
+			title: "{chapter.25.quest.14.title}"
 			x: -7.0d
 			y: -2.0d
 			dependencies: ["027AAA6A3553F7DB"]
@@ -563,7 +563,7 @@
 			}]
 		}
 		{
-			title: "彩色树苗"
+			title: "{chapter.25.quest.15.title}"
 			icon: "spectrum:red_sapling"
 			disable_toast: true
 			x: -3.0d
@@ -594,10 +594,10 @@
 			}]
 		}
 		{
-			title: "泰拉升级"
+			title: "{chapter.25.quest.16.title}"
 			x: -5.25d
 			y: 5.25d
-			subtitle: "不会保留附魔等效果"
+			subtitle: "{chapter.25.quest.16.subtitle}"
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			size: 1.5d
@@ -607,7 +607,7 @@
 				{
 					id: "022DEEE38D2E0F8F"
 					type: "item"
-					title: "任意泰拉镐"
+					title: "{chapter.25.quest.16.task.1.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b

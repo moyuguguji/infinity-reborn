@@ -2,7 +2,7 @@
     "id": 5,
     "title": "\u6d4b\u8bd5\u6587\u672c",
     "level": 1,
-    "type": "",
+    "type": "mine",
     "profession": "fisherman",
     "refresh": 2000,
     "task": [

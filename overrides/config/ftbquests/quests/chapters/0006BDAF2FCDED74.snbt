@@ -3,7 +3,7 @@
 	group: "4DD3698DF322EEDB"
 	order_index: 1
 	filename: "0006BDAF2FCDED74"
-	title: "准备开饭"
+	title: "{chapter.22.title}"
 	icon: {
 		id: "farmersdelight:skillet"
 		Count: 1b
@@ -17,12 +17,12 @@
 		{
 			x: 0.5d
 			y: 0.0d
-			description: ["在冒险的路上也要兼顾饮食的多样性，不是吗？"]
+			description: ["{chapter.22.quest.1.description.1}"]
 			id: "6427C41F65F5ABD3"
 			tasks: [{
 				id: "26BCA6599B36125B"
 				type: "checkmark"
-				title: "厨具"
+				title: "{chapter.22.quest.1.task.1.title}"
 			}]
 		}
 		{
@@ -375,22 +375,18 @@
 			icon: "botania:cosmetic_questgiver_mark"
 			x: 4.0d
 			y: -1.0d
-			description: ["很显然整合包里的食物不止这些，这些仅为列举。"]
+			description: ["{chapter.22.quest.35.description.1}"]
 			id: "66AB2CE8A81A78BB"
 			tasks: [{
 				id: "5D04416682826C80"
 				type: "checkmark"
-				title: "注意"
+				title: "{chapter.22.quest.35.task.1.title}"
 			}]
 		}
 		{
 			x: 4.5d
 			y: 2.0d
-			description: [
-				"众所周知炉子也是烹饪的重要部分。"
-				"================================================"
-				"“巧妇难为无米之炊，如果连炊都谈不上，更没有巧妇了。”"
-			]
+			description: ["{chapter.22.quest.36.description.1}"]
 			id: "4387BC2D13356363"
 			tasks: [{
 				id: "16AA1A86B1BA9AFE"
@@ -543,10 +539,7 @@
 		{
 			x: 4.5d
 			y: 3.5d
-			description: [
-				"神秘熔炉消耗燃料的速度极快，你可以考虑使用冶炼火。"
-				"TIP：直接讲物品放进神秘熔炉烧制，最初的一个物品烧制进度与原版相同，而燃料消耗的速度是原版的16倍，如果想要节约燃料以及提高效率，可以用漏斗向神秘熔炉内填装物品，这样第一个物品的烧制速度会是正常的32倍。"
-			]
+			description: ["{chapter.22.quest.45.description.1}"]
 			dependencies: ["325F8759FEA4E425"]
 			id: "1A7A0D5A57DB4473"
 			tasks: [{
@@ -573,11 +566,7 @@
 			disable_toast: true
 			x: 8.5d
 			y: -3.0d
-			description: [
-				"你需要拿着食物，然后右键放入午餐盒中"
-				""
-				"放入食物后只需要手持右键午餐盒即可食用"
-			]
+			description: ["{chapter.22.quest.46.description.1}"]
 			id: "3A42ACEF828E5101"
 			tasks: [{
 				id: "363F523A14385835"
@@ -605,10 +594,10 @@
 			}]
 		}
 		{
-			title: "蛋糕?"
+			title: "{chapter.22.quest.48.title}"
 			x: 6.5d
 			y: -3.0d
-			subtitle: "这为什么要个蛋糕?"
+			subtitle: "{chapter.22.quest.48.subtitle}"
 			id: "767DBD385E87C489"
 			tasks: [{
 				id: "4CFA0A9DF8235B92"
@@ -624,10 +613,10 @@
 			}]
 		}
 		{
-			title: "蛋糕是个谎言!"
+			title: "{chapter.22.quest.49.title}"
 			x: 5.0d
 			y: -3.0d
-			subtitle: "嘿,但是真的给你准备了个蛋糕"
+			subtitle: "{chapter.22.quest.49.subtitle}"
 			dependencies: ["767DBD385E87C489"]
 			hide: true
 			id: "74AC67E7349F7992"

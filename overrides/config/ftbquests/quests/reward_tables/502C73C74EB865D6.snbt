@@ -1,7 +1,7 @@
 {
 	id: "502C73C74EB865D6"
 	order_index: 12
-	title: "树苗"
+	title: "{loot_table.13}"
 	loot_size: 1
 	rewards: [
 		{ item: "spectrum:orange_sapling" }

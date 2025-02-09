@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 4
 	filename: "boss"
-	title: "讨伐列表"
+	title: "{chapter.5.title}"
 	icon: "bosses_of_mass_destruction:brimstone_nectar"
 	disable_toast: true
 	default_quest_shape: "rsquare"
@@ -156,7 +156,6 @@
 			}
 			x: -6.5d
 			y: 5.0d
-			description: [""]
 			id: "4BC1D85290DBEAF1"
 			tasks: [{
 				id: "774A100AC3BBA68C"
@@ -309,7 +308,7 @@
 			}]
 		}
 		{
-			title: "末影龙"
+			title: "{chapter.5.quest.25.title}"
 			icon: "minecraft:dragon_egg"
 			disable_toast: true
 			x: -1.0d
@@ -337,7 +336,7 @@
 			}]
 		}
 		{
-			title: "寻找虚空之花"
+			title: "{chapter.5.quest.27.title}"
 			x: -12.5d
 			y: 1.0d
 			dependencies: ["5BB7E2C3AE9231D4"]
@@ -358,7 +357,7 @@
 			}]
 		}
 		{
-			title: "寻找地狱之手"
+			title: "{chapter.5.quest.28.title}"
 			x: -10.5d
 			y: 1.0d
 			dependencies: ["5BB7E2C3AE9231D4"]
@@ -379,7 +378,7 @@
 			}]
 		}
 		{
-			title: "寻找夜巫妖"
+			title: "{chapter.5.quest.29.title}"
 			x: -8.5d
 			y: 1.0d
 			dependencies: ["5BB7E2C3AE9231D4"]
@@ -400,7 +399,7 @@
 			}]
 		}
 		{
-			title: "寻找黑曜石之柱"
+			title: "{chapter.5.quest.30.title}"
 			x: -6.5d
 			y: 1.0d
 			dependencies: ["5BB7E2C3AE9231D4"]
@@ -421,7 +420,7 @@
 			}]
 		}
 		{
-			title: "寻找远古英雄"
+			title: "{chapter.5.quest.31.title}"
 			x: -12.5d
 			y: 4.0d
 			dependencies: ["5BB7E2C3AE9231D4"]
@@ -442,7 +441,7 @@
 			}]
 		}
 		{
-			title: "寻找莫德凯撒"
+			title: "{chapter.5.quest.32.title}"
 			x: -10.5d
 			y: 4.0d
 			dependencies: ["5BB7E2C3AE9231D4"]
@@ -463,10 +462,10 @@
 			}]
 		}
 		{
-			title: "寻找亚托克斯"
+			title: "{chapter.5.quest.33.title}"
 			x: -8.5d
 			y: 4.0d
-			subtitle: "这个boss在地狱"
+			subtitle: "{chapter.5.quest.33.subtitle}"
 			dependencies: ["5BB7E2C3AE9231D4"]
 			optional: true
 			can_repeat: true
@@ -485,23 +484,18 @@
 			}]
 		}
 		{
-			title: "寻找类任务的注意事项"
+			title: "{chapter.5.quest.34.title}"
 			icon: "kubejs:nightbreak"
 			x: -10.0d
 			y: -1.25d
-			subtitle: "这里并不是你找boss的第一选择"
-			description: [
-				"此界面只是给你一个你需要打的BOSS的列表，不会提供任何的奖励！"
-				""
-				"这里的几个可以用罗盘找的boss,大部分都有自己自带的搜寻方式,这里应该是你的最终寻找手段而不是第一选择"
-				"============================================="
-			]
+			subtitle: "{chapter.5.quest.34.subtitle}"
+			description: ["{chapter.5.quest.34.description.1}"]
 			size: 2.5d
 			id: "5BB7E2C3AE9231D4"
 			tasks: [{
 				id: "0B005527D4D9A68A"
 				type: "checkmark"
-				title: "注意！"
+				title: "{chapter.5.quest.34.task.1.title}"
 			}]
 		}
 		{

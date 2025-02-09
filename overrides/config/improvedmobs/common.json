@@ -25,7 +25,8 @@
       "Format is <minimum current difficulty>-<increase every 2400 ticks>",
       "Example [\"0-0.01\",\"10-0.1\",\"30-0\"]",
       "So the difficulty increases by 0.01 every 2400 ticks (->0.1 per mc day since a mc day has 24000 ticks) till it reaches a difficulty of 10.",
-      "Then it increases by 1 per mc day till it reaches 30 and then stops."
+      "Then it increases by 1 per mc day till it reaches 30 and then stops.",
+      "If you want to use negative values use | instead of - as the delimiter."
     ],
     "input": [
       "0-0.1",
@@ -85,7 +86,9 @@
       "DISTANCE: Uses the distance to the position defined in Center Position to define the difficulty",
       "DISTANCESPAWN: Uses the distance to the world spawn to define the difficulty",
       "If the type is any of the distance types the functionality of Difficulty Increase is changed to the following where the 1. value is the minimum distance and the 2. is the difficulty that applies. ",
-      "E.g. [\"0-0\",\"1000-5\" translates to 0 difficulty between 0-1000 distance and 5 difficulty for distance >= 1000",
+      "E.g. [\"0-0\",\"1000-5\"] translates to 0 difficulty between 0-1000 distance and 5 difficulty for distance >= 1000",
+      "You can also define it as a triple x-y-z instead where z is the increase per block in for that area.",
+      "E.g. [\"0-0-0.1\",\"1000-5-1\"] the difficulty increases between 0-1000 by 0.1 per block and >= 1000 by 1 per block with a starting value of 5",
       "Allowed Values: GLOBAL, PLAYERMAX, PLAYERMEAN, DISTANCE, DISTANCESPAWN"
     ],
     "input": "PLAYERMEAN"
@@ -99,14 +102,15 @@
   "Entity Configs": {
     "__comment": [
       "Entities added here will be blacklisted from their assigned flags. Usage:",
-      "<entity registry name> or <namespace> followed by any of:",
-      "[ALL,ATTRIBUTES,ARMOR,HELDITEMS,BLOCKBREAK,USEITEM,LADDER,STEAL,GUARDIAN,PHANTOM,TARGETVILLAGER,NEUTRALAGGRO,REVERSE].",
+      "<entity registry name> or <namespace> or <#tag> followed by any of:",
+      "[ALL,ATTRIBUTES,ARMOR,HELDITEMS,BLOCKBREAK,USEITEM,LADDER,STEAL,GUARDIAN,PHANTOM,TARGETVILLAGER,NEUTRALAGGRO,PEHKUI,REVERSE].",
       "Having no flags is equal to ALL. Use REVERSE to reverse all flags. Some flags do nothing for certain mobs!",
       "Examples (without <>):",
       "<minecraft:sheep> (equal to minecraft:sheep|ALL) excludes sheeps from all modifications",
       "<minecraft:sheep|REVERSE|ATTRIBUTES will> add sheep to attributes modification only",
+      "<#minecraft:raiders|ATTRIBUTES> will add all entities in the raiders tag to everything except attributes",
       "<minecraft:sheep|ATTRIBUTES> will add sheep to everything except attributes",
-      "<minecraft> blacklists all minecraft mobs from everything"
+      "<minecraft> disables everything for all minecraft mobs"
     ],
     "input": [
       "earthtojavamobs:fancy_chicken",
@@ -299,21 +303,28 @@
       "adventurez:the_eye|REVERSE|ATTRIBUTES",
       "whisperwoods:hirschgeist|REVERSE|ATTRIBUTES",
       "soulsweapons:night_shade|REVERSE|ATTRIBUTES",
-      "bosses_of_mass_destruction:lich",
+      "bosses_of_mass_destruction:lich|REVERSE|ATTRIBUTES",
       "bosses_of_mass_destruction:void_blossom|REVERSE|ATTRIBUTES",
       "bosses_of_mass_destruction:obsidilith|REVERSE|ATTRIBUTES",
       "bosses_of_mass_destruction:gauntlet|REVERSE|ATTRIBUTES",
-      "botania:pixie|REVERSE|ATTRIBUTES"
+      "botania:pixie|REVERSE|ATTRIBUTES",
+      "bosses_of_mass_destruction:blue_fireball",
+      "bosses_of_mass_destruction:soul_star",
+      "bosses_of_mass_destruction:petal_blade",
+      "bosses_of_mass_destruction:spore_ball",
+      "bosses_of_mass_destruction:comet"
     ]
   },
   "Flag Blacklist": {
     "__comment": [
       "Any of the following ",
-      "[ATTRIBUTES, ARMOR, HELDITEMS, BLOCKBREAK, USEITEM, LADDER, STEAL, GUARDIAN, PHANTOM, TARGETVILLAGER, NEUTRALAGGRO]",
+      "[ATTRIBUTES, ARMOR, HELDITEMS, BLOCKBREAK, USEITEM, LADDER, STEAL, GUARDIAN, PHANTOM, TARGETVILLAGER, NEUTRALAGGRO, PEHKUI]",
       "added here will disable that feature completely.",
       "E.g. [\"GUARDIAN\"] will disable the guardian feature"
     ],
-    "input": []
+    "input": [
+      "TARGETVILLAGER"
+    ]
   },
   "Attribute Whitelist": {
     "__comment": [
@@ -381,23 +392,60 @@
     ],
     "input": false
   },
-  "Use Scaling Health Mod": {
+  "Pehkui Whitelist": {
     "__comment": [
-      "Should the scaling health mods difficulty system be used instead of this ones. (Requires scaling health mod)"
+      "Treat PEHKUI flags as whitelist (Needs pehkui installed)"
     ],
     "input": false
+  },
+  "Use Scaling Health Mod": {
+    "__comment": [
+      "Should the scaling health mods difficulty system be used instead of this ones. (Requires scaling health mod)",
+      "Allowed Values: OFF, ON, ADD"
+    ],
+    "input": "OFF"
   },
   "Use Player EX Mod": {
     "__comment": [
-      "If true and playerEx is installed will use the level from playerEx as difficulty"
+      "If true and playerEx is installed will use the level from playerEx as difficulty",
+      "Allowed Values: OFF, ON, ADD"
     ],
-    "input": false
+    "input": "OFF"
+  },
+  "PlayerEX Scaling": {
+    "__comment": [
+      "Scaling for playerEX integration",
+      "Range: > 0.0"
+    ],
+    "input": 1.0
   },
   "Use LevelZ Mod": {
     "__comment": [
-      "If true and LevelZ is installed will use the the total skill level from LevelZ as difficulty"
+      "If true and LevelZ is installed will use the total skill level from LevelZ as difficulty",
+      "Allowed Values: OFF, ON, ADD"
     ],
-    "input": false
+    "input": "OFF"
+  },
+  "LevelZ Scaling": {
+    "__comment": [
+      "Scaling for LevelZ integration",
+      "Range: > 0.0"
+    ],
+    "input": 1.0
+  },
+  "Use Runecraftory Mod": {
+    "__comment": [
+      "If true and Runecraftory is installed will use the level from Runecraftory as difficulty",
+      "Allowed Values: OFF, ON, ADD"
+    ],
+    "input": "OFF"
+  },
+  "Runecraftory Scaling": {
+    "__comment": [
+      "Scaling for Runecraftory integration",
+      "Range: > 0.0"
+    ],
+    "input": 1.0
   },
   "Use pehkui Mod": {
     "__comment": [
@@ -419,25 +467,33 @@
     ],
     "input": 0.5
   },
+  "Size Chance": {
+    "__comment": [
+      "Chance that a mob will be affected by size changes",
+      "Range: 0.0 ~ 1.0"
+    ],
+    "input": 0.5
+  },
   "Block Break Whitelist": {
     "__comment": [
       "Whitelist for blocks, which can be actively broken. ",
-      "Usage: <registry name;classname;tag;namespace> put \"!\" infront to exclude blocks",
+      "Usage: id|namespace|#tag. Put \"!\" infront to exclude blocks. E.g. \"minecraft\", \"minecraft:dirt\" or \"#minecraft:planks\"",
       "Note: If you include common blocks (like grass blocks) the pathfinding can have undesirable results."
     ],
     "input": [
-      "forge:glass",
-      "forge:glass_panes",
-      "minecraft:fence_gates",
-      "forge:fence_gates",
-      "minecraft:wooden_doors"
+      "#c:dirt",
+      "#minecraft:dirt",
+      "yigd:grave",
+      "#minecraft:saplings",
+      "#minecraft:leaves",
+      "#minecraft:mineable/shovel"
     ]
   },
   "Breaklist as Blacklist": {
     "__comment": [
       "Treat Block Whitelist as Blocklist"
     ],
-    "input": false
+    "input": true
   },
   "Sound": {
     "__comment": [
@@ -466,6 +522,12 @@
     ],
     "input": 20
   },
+  "Ignore Harvest Check": {
+    "__comment": [
+      "By default mobs can only break the block they can harvest with the current tool they holding. Set this to true to disable that check (The block will not drop if they cant harvest it though!)."
+    ],
+    "input": false
+  },
   "Restore delay": {
     "__comment": [
       "Blocks will be restored after x ticks being broken. If set to 0 will never restore",
@@ -479,6 +541,28 @@
       "If mobs should break blocks when not chasing a target"
     ],
     "input": false
+  },
+  "Breaker Sight Ignore": {
+    "__comment": [
+      "Chance a breaker mob to ignore line of sight",
+      "Range: 0.0 ~ 1.0"
+    ],
+    "input": 0.5
+  },
+  "Breaking Speed Base": {
+    "__comment": [
+      "A modifier to the breaking speed",
+      "Range: > 0.0"
+    ],
+    "input": 1.0
+  },
+  "Breaking Speed Add": {
+    "__comment": [
+      "Addition to breaking speed modifier based on difficulty.",
+      "Final modifier is base + addition * difficulty",
+      "Range: > 0.0"
+    ],
+    "input": 0.15
   },
   "Stealer Chance": {
     "__comment": [
@@ -502,14 +586,18 @@
     ],
     "input": [
       "minecraft:diamond_pickaxe;1",
-      "minecraft:iron_axe;2"
+      "minecraft:iron_axe;2",
+      "#c:tools/pickaxes",
+      "#c:pickaxes",
+      "#minecraft:cluster_max_harvestables",
+      "#bookshelf:axes"
     ]
   },
   "Break BlockEntities": {
     "__comment": [
       "Should mobs be able to break block entities? Evaluated before the break list"
     ],
-    "input": true
+    "input": false
   },
   "Neutral Aggressive Chance": {
     "__comment": [
@@ -552,6 +640,20 @@
       "Range: 0.0 ~ 1.0"
     ],
     "input": 0.55
+  },
+  "TNT Block Destruction": {
+    "__comment": [
+      "Set this to true to allow tnt thrown by mobs to destroy blocks"
+    ],
+    "input": false
+  },
+  "Generic Sight Ignore": {
+    "__comment": [
+      "Chance for a mob to ignore line of sight",
+      "This config ONLY affects villager target, neutral aggressive and auto targeting feature",
+      "Range: 0.0 ~ 1.0"
+    ],
+    "input": 0.5
   },
   "Item Blacklist": {
     "__comment": [
@@ -617,7 +719,7 @@
       "Adds additional x*difficulty% to base equip chance",
       "Range: > 0.0"
     ],
-    "input": 4.0
+    "input": 2.0
   },
   "Weapon Chance": {
     "__comment": [
@@ -638,7 +740,7 @@
       "Base chance for each armor pieces to get enchanted",
       "Range: 0.0 ~ 1.0"
     ],
-    "input": 0.25
+    "input": 0.5
   },
   "Enchanting Addition": {
     "__comment": [
@@ -858,7 +960,9 @@
       "elementalenchantments:light_curse",
       "elementalenchantments:wind_curse",
       "#elementalenchantments",
-      "#musuen"
+      "#musuen",
+      "mcda:death_barter",
+      "x_enchant:halo_effect_-_effect.extraalchemy.crumbling"
     ]
   },
   "Enchanting Whitelist": {

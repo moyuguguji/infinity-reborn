@@ -1,7 +1,7 @@
 {
 	id: "51325D2FABDA415D"
 	order_index: 7
-	title: "卡片回收"
+	title: "{loot_table.8}"
 	loot_size: 1
 	rewards: [
 		{ item: "collectorsalbum:legendary_repacked_card_package" }

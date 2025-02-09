@@ -3,7 +3,7 @@
 	group: "2D4526175EFBC1B2"
 	order_index: 2
 	filename: "0AF526CBD940C290"
-	title: "下界之地"
+	title: "{chapter.10.title}"
 	icon: "minecraft:netherrack"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -21,12 +21,12 @@
 	}]
 	quests: [
 		{
-			title: "建造传送门"
+			title: "{chapter.10.quest.1.title}"
 			x: -3.0d
 			y: 0.5d
-			subtitle: "植物魔法或者光谱制作方式2选一"
+			subtitle: "{chapter.10.quest.1.subtitle}"
 			description: [
-				"特殊处理的黑曜石用来搭建下界传送门框架，用迷失的灵魂右键下界传送门框架即可打开下界传送门。"
+				"{chapter.10.quest.1.description.1}"
 				"{image:kubejs:textures/ftbq/netherportal.png width:257 height:137 align:1}"
 			]
 			dependencies: ["0C35A0A8CEB01268"]
@@ -52,7 +52,7 @@
 			}]
 		}
 		{
-			title: "前往下界"
+			title: "{chapter.10.quest.2.title}"
 			icon: "minecraft:netherrack"
 			x: -1.0d
 			y: 0.5d
@@ -79,16 +79,12 @@
 			]
 		}
 		{
-			title: "讨伐：地狱之手！"
+			title: "{chapter.10.quest.3.title}"
 			icon: "bosses_of_mass_destruction:blazing_eye"
 			x: 3.0d
 			y: -1.5d
-			subtitle: "讨伐难度：地狱；讨伐建议：强力的防御与回复能力，强大的远程输出能力，备好不死图腾"
-			description: [
-				"在下界中找到黑石组成的挑战之地，用镐子破坏封印即可召唤下界之手。（使用连锁挖掘封印可以召唤多个地狱之手。）"
-				"================================================"
-				"TIP：需要用弓箭或镐子击打弱点（眼球）才能唤醒地狱之手。"
-			]
+			subtitle: "{chapter.10.quest.3.subtitle}"
+			description: ["{chapter.10.quest.3.description.1}"]
 			dependencies: ["0B1B7F9147006845"]
 			id: "31CAE030EB6EE661"
 			tasks: [{
@@ -115,7 +111,7 @@
 		{
 			x: 1.0d
 			y: 0.5d
-			description: ["合成下界戈伯锭的材料之一。"]
+			description: ["{chapter.10.quest.4.description.1}"]
 			dependencies: ["606F8D312E3CD95E"]
 			id: "111AEA908CBD7A23"
 			tasks: [{
@@ -131,15 +127,12 @@
 			}]
 		}
 		{
-			title: "讨伐：亚托克斯！"
+			title: "{chapter.10.quest.5.title}"
 			icon: "soulsweapons:lord_soul_red"
 			x: 5.0d
 			y: -1.0d
-			subtitle: "讨伐难度：中等；讨伐建议：无"
-			description: [
-				"你可以使用月石罗盘或boss罗盘寻找亚托克斯的所在地。"
-				"TIP：用凋零恶魔之心激活黑石基座可以复活亚托克斯。"
-			]
+			subtitle: "{chapter.10.quest.5.subtitle}"
+			description: ["{chapter.10.quest.5.description.1}"]
 			dependencies: ["0B1B7F9147006845"]
 			id: "21A1E9E65D7D11B7"
 			tasks: [{
@@ -187,7 +180,7 @@
 		{
 			x: 1.0d
 			y: 2.0d
-			description: ["合成下界戈伯锭的材料之一。"]
+			description: ["{chapter.10.quest.7.description.1}"]
 			dependencies: ["606F8D312E3CD95E"]
 			id: "017DB777ABE56E5A"
 			tasks: [{
@@ -203,10 +196,10 @@
 			}]
 		}
 		{
-			title: "下界特产"
+			title: "{chapter.10.quest.8.title}"
 			x: 1.0d
 			y: -1.0d
-			description: ["合成下界戈伯锭的材料们（耀金在主世界生成）"]
+			description: ["{chapter.10.quest.8.description.1}"]
 			dependencies: ["606F8D312E3CD95E"]
 			id: "267C9BF54CE180AF"
 			tasks: [
@@ -234,17 +227,12 @@
 			}]
 		}
 		{
-			title: " 讨伐：凋零！"
+			title: "{chapter.10.quest.9.title}"
 			icon: "minecraft:nether_star"
 			x: 5.0d
 			y: 0.5d
-			subtitle: "讨伐难度：中等-困难；讨伐建议：这还用建议？"
-			description: [
-				"本整合包的凋零经过了加强。"
-				"本包的凋零经过了加强；你每杀死一只凋零，都会让下一只凋零更加强大。"
-				"================================================"
-				"“不能杀死我的！终究会让我更加强大！”"
-			]
+			subtitle: "{chapter.10.quest.9.subtitle}"
+			description: ["{chapter.10.quest.9.description.1}"]
 			dependencies: ["0B1B7F9147006845"]
 			id: "5817C97811C89FDB"
 			tasks: [{
@@ -268,14 +256,11 @@
 			]
 		}
 		{
-			title: "讨伐：黑石傀儡！"
+			title: "{chapter.10.quest.10.title}"
 			x: 5.0d
 			y: 2.0d
-			subtitle: "讨伐难度：地狱；讨伐建议：创造飞行能力"
-			description: [
-				"黑石傀儡需要在下界召唤。首先搭建一个9*9的黑石平台，在每侧中间放置一个錾制磨制黑石基座，在4个基座上放上镶金黑石碎片即可召唤黑石傀儡,具体投影查看无限之书（镶金黑石碎片可以通过击杀猪灵蛮兵获得，与猪灵交易也有小概率获得。）"
-				"================================================"
-			]
+			subtitle: "{chapter.10.quest.10.subtitle}"
+			description: ["{chapter.10.quest.10.description.1}"]
 			dependencies: ["0B1B7F9147006845"]
 			id: "512E6CEC8B35C62E"
 			tasks: [
@@ -307,11 +292,11 @@
 			]
 		}
 		{
-			title: "用雷电击穿两界壁垒"
+			title: "{chapter.10.quest.11.title}"
 			x: -5.0d
 			y: 0.5d
-			subtitle: "制作“特殊处理的黑曜石”的材料之一"
-			description: ["闪电劈中黑曜石会将其转化为绯红黑曜石，你可以制作闪电箭来人工制造闪电。"]
+			subtitle: "{chapter.10.quest.11.subtitle}"
+			description: ["{chapter.10.quest.11.description.1}"]
 			dependencies: ["37C390D86B5B5639"]
 			id: "0C35A0A8CEB01268"
 			tasks: [{
@@ -330,7 +315,7 @@
 		{
 			x: 3.0d
 			y: 2.5d
-			description: ["一把或许还不错的中期武器。"]
+			description: ["{chapter.10.quest.12.description.1}"]
 			dependencies: ["0B1B7F9147006845"]
 			optional: true
 			id: "64635CA43D21AAA0"
@@ -348,7 +333,7 @@
 			}]
 		}
 		{
-			title: "搭建下界传送门的准备工作"
+			title: "{chapter.10.quest.13.title}"
 			x: -7.0d
 			y: 0.5d
 			dependencies: ["027AAA6A3553F7DB"]
@@ -368,7 +353,7 @@
 			}]
 		}
 		{
-			title: "讨伐：混沌君主！"
+			title: "{chapter.10.quest.14.title}"
 			icon: {
 				id: "soulsweapons:chaos_crown"
 				Count: 1b
@@ -378,13 +363,9 @@
 			}
 			x: 6.5d
 			y: 0.5d
-			subtitle: "讨伐难度：简单；讨伐建议：无"
-			description: [
-				"合成黑石基座，使用未知碎片激活基座即可召唤混沌君主。（未知碎片由凋零掉落）"
-				"================================================"
-				"TIP：混沌君主会腐蚀他脚下的土地，所以不要在自己家附近召唤它。"
-			]
-			dependencies: ["32DC410EC16DFBA4"]
+			subtitle: "{chapter.10.quest.14.subtitle}"
+			description: ["{chapter.10.quest.14.description.1}"]
+			dependencies: ["5817C97811C89FDB"]
 			id: "11919E53BA317CCB"
 			tasks: [
 				{

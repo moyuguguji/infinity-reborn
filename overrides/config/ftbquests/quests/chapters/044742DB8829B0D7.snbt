@@ -3,7 +3,7 @@
 	group: "0B54634113ED2BBC"
 	order_index: 2
 	filename: "044742DB8829B0D7"
-	title: "灵魂魔法"
+	title: "{chapter.14.title}"
 	icon: "spirit:soul_crystal"
 	default_quest_shape: "square"
 	default_hide_dependency_lines: false
@@ -23,15 +23,7 @@
 		{
 			x: 3.0d
 			y: -2.0d
-			description: [
-				"你每次击杀的生物将灵魂储存到水晶内，达到一定数量放在灵魂牢笼中，可以将水晶内储存的灵魂实体化（暨可自定义的刷怪笼）。"
-				""
-				"而灵魂收割者附魔则可以增加每次杀死生物收获的灵魂。"
-				""
-				"可容纳至多512个同种灵魂，期间分为（Null）Eins、Zwei、Drei、Vier四个等级，未分层的层称为“Null”"
-				""
-				"具体请查看灵魂牢笼的信息（对着灵魂牢笼按U查看）"
-			]
+			description: ["{chapter.14.quest.1.description.1}"]
 			dependencies: ["40A23FC8277F105C"]
 			id: "1A27706C876642BD"
 			tasks: [{
@@ -49,7 +41,7 @@
 		{
 			x: 0.5d
 			y: -1.5d
-			description: ["本mod的核心方块，用于刷出怪物，需要将存有一定灵魂的灵魂水晶放入，具体要求和说明可“U”键灵魂牢笼查看。"]
+			description: ["{chapter.14.quest.2.description.1}"]
 			dependencies: ["764C8252D4FF2513"]
 			id: "40A23FC8277F105C"
 			tasks: [{
@@ -75,12 +67,8 @@
 		{
 			x: 2.5d
 			y: 2.0d
-			subtitle: "中间放水晶里收集的灵魂"
-			description: [
-				"mod本身并没有更新相关配方，本包为其添加了一些用处，用于召唤一些生物，查看基座配方，最后需空手右键单击进行仪式。"
-				""
-				"如何搭建参考无限之书"
-			]
+			subtitle: "{chapter.14.quest.3.subtitle}"
+			description: ["{chapter.14.quest.3.description.1}"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			id: "683A3D6C712A8750"
@@ -107,7 +95,7 @@
 		{
 			x: -1.5d
 			y: 2.0d
-			description: ["使用这把弓时不会消耗箭矢，转而消耗灵魂水晶里的灵魂；如果你的灵魂水晶不小心装进了不需要的灵魂，可以通过这把弓清空灵魂水晶中的灵魂。"]
+			description: ["{chapter.14.quest.4.description.1}"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			id: "483544FA889E5E05"
@@ -126,7 +114,7 @@
 		{
 			x: -2.0d
 			y: -2.0d
-			description: ["挖掘刷怪笼时会掉落破碎的刷怪笼，用于合成灵魂牢笼。"]
+			description: ["{chapter.14.quest.5.description.1}"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			id: "764C8252D4FF2513"

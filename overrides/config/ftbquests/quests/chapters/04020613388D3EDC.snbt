@@ -3,7 +3,7 @@
 	group: "5D8C97B73DA1279B"
 	order_index: 2
 	filename: "04020613388D3EDC"
-	title: "隐藏成就"
+	title: "{chapter.26.title}"
 	icon: "things:gleaming_compound"
 	disable_toast: true
 	default_quest_shape: "square"
@@ -100,17 +100,17 @@
 			}]
 		}
 		{
-			title: "摸摸小猫"
+			title: "{chapter.26.quest.6.title}"
 			x: -1.0d
 			y: -2.5d
-			subtitle: "猫猫可爱捏"
+			subtitle: "{chapter.26.quest.6.subtitle}"
 			optional: true
 			invisible: true
 			id: "16CCC47CD878429D"
 			tasks: [{
 				id: "55F1FB70564DE6C5"
 				type: "questsadditions:interaction"
-				title: "摸10次猫"
+				title: "{chapter.26.quest.6.task.1.title}"
 				entity: "minecraft:cat"
 				nbt: { }
 				value: 10L
@@ -131,10 +131,10 @@
 			]
 		}
 		{
-			title: "把怪物们送上天"
+			title: "{chapter.26.quest.7.title}"
 			x: 2.0d
 			y: -2.5d
-			subtitle: "就跟打棒球一样"
+			subtitle: "{chapter.26.quest.7.subtitle}"
 			optional: true
 			secret: true
 			id: "698ED742033CF3FD"
@@ -258,7 +258,7 @@
 		{
 			x: 2.0d
 			y: -4.0d
-			subtitle: "木剑传说!"
+			subtitle: "{chapter.26.quest.12.subtitle}"
 			dependencies: ["30FD89984A1E117F"]
 			optional: true
 			id: "2C56FBA862475235"
@@ -281,7 +281,7 @@
 			}]
 		}
 		{
-			title: "知识学爆"
+			title: "{chapter.26.quest.13.title}"
 			x: -4.0d
 			y: -2.5d
 			optional: true
@@ -318,7 +318,7 @@
 			}]
 		}
 		{
-			title: "我草,我飞起来啦"
+			title: "{chapter.26.quest.14.title}"
 			x: -4.0d
 			y: -1.0d
 			optional: true

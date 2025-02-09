@@ -3,9 +3,9 @@
 	group: "2918506B9F30927F"
 	order_index: 2
 	filename: "0B7315F6F0EE99FC"
-	title: "饰品列表"
+	title: "{chapter.17.title}"
 	icon: "additionaladditions:gold_ring"
-	subtitle: ["角色的二次强化"]
+	subtitle: ["{chapter.17.subtitle}"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -180,7 +180,7 @@
 		{
 			x: 4.0d
 			y: 1.5d
-			subtitle: "因为BUG，已禁用"
+			subtitle: "{chapter.17.quest.10.subtitle}"
 			optional: true
 			id: "30D08A458687C92E"
 			tasks: [{
@@ -724,8 +724,8 @@
 		{
 			x: -5.0d
 			y: -0.5d
-			subtitle: "因为BUG，已禁用"
-			description: ["已禁用"]
+			subtitle: "{chapter.17.quest.39.subtitle}"
+			description: ["{chapter.17.quest.39.description.1}"]
 			optional: true
 			id: "606C794826728F00"
 			tasks: [{
@@ -749,7 +749,7 @@
 		{
 			x: -6.0d
 			y: -0.5d
-			subtitle: "因为BUG，已禁用"
+			subtitle: "{chapter.17.quest.40.subtitle}"
 			optional: true
 			id: "5DD8E07B257AEC5E"
 			tasks: [{
@@ -2065,10 +2065,7 @@
 		{
 			x: 0.5d
 			y: 5.0d
-			description: [
-				"打开命运的潘多拉魔盒，获取你的宝物。"
-				"每次击杀盖亚守护者二都会获得一个命运骰子，最多开出六个不重复的植魔专属饰品。"
-			]
+			description: ["{chapter.17.quest.111.description.1}"]
 			size: 2.0d
 			id: "6157F0D6364684F6"
 			tasks: [{
@@ -2080,7 +2077,7 @@
 		{
 			x: -1.0d
 			y: 6.5d
-			description: ["消耗魔力以供无限食用。"]
+			description: ["{chapter.17.quest.112.description.1}"]
 			dependencies: ["6157F0D6364684F6"]
 			id: "6B04C8BE9A0A58A1"
 			tasks: [{
@@ -2104,7 +2101,7 @@
 		{
 			x: 0.5d
 			y: 6.5d
-			description: ["消耗魔力发动远程攻击。"]
+			description: ["{chapter.17.quest.113.description.1}"]
 			dependencies: ["6157F0D6364684F6"]
 			id: "0D31B07A54F43189"
 			tasks: [{
@@ -2128,10 +2125,7 @@
 		{
 			x: 2.0d
 			y: 6.5d
-			description: [
-				"可以用于设定传送点以及在任何地点消耗魔力传送到该传送点。"
-				"还可以强化【天翼族之冠】，使其在飞行魔力耗光之后仍可以继续飞行。"
-			]
+			description: ["{chapter.17.quest.114.description.1}"]
 			dependencies: ["6157F0D6364684F6"]
 			id: "25EAC081975B4C89"
 			tasks: [{
@@ -2155,7 +2149,7 @@
 		{
 			x: 1.5d
 			y: 7.5d
-			description: ["增加20点生命值。"]
+			description: ["{chapter.17.quest.115.description.1}"]
 			dependencies: ["6157F0D6364684F6"]
 			id: "06D2E67E8EAC8CD5"
 			tasks: [{
@@ -2185,7 +2179,7 @@
 		{
 			x: 0.5d
 			y: 8.0d
-			description: ["配合泰拉镐使用，可自定义挖掘范围；也可单独使用一次性放置大量方块。"]
+			description: ["{chapter.17.quest.116.description.1}"]
 			dependencies: ["6157F0D6364684F6"]
 			id: "72423DEFE3F644D2"
 			tasks: [{
@@ -2212,7 +2206,7 @@
 		{
 			x: -0.5d
 			y: 7.5d
-			description: ["将泰拉镐的挖掘范围从平面扩大成正方体。"]
+			description: ["{chapter.17.quest.117.description.1}"]
 			dependencies: ["6157F0D6364684F6"]
 			id: "40EBB06865098FF1"
 			tasks: [{
@@ -2816,13 +2810,13 @@
 			disable_toast: true
 			x: -8.0d
 			y: 6.0d
-			description: ["很显然这里列举的饰品只是一部分，也仅仅为列举，并没有让你收集全的意思。"]
+			description: ["{chapter.17.quest.154.description.1}"]
 			size: 4.0d
 			id: "4F711C6FBE38D154"
 			tasks: [{
 				id: "038DA9EA2BF0A0E5"
 				type: "checkmark"
-				title: "关于饰品"
+				title: "{chapter.17.quest.154.task.1.title}"
 			}]
 		}
 	]

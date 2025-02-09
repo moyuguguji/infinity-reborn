@@ -3,19 +3,16 @@
 	group: "2918506B9F30927F"
 	order_index: 3
 	filename: "076CC35D136A2EAE"
-	title: "强化血条"
+	title: "{chapter.18.title}"
 	icon: "heartytrinkets:canister_belt"
-	subtitle: ["丰富多彩的血条~"]
+	subtitle: ["{chapter.18.subtitle}"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			x: 0.5d
 			y: 0.0d
-			description: [
-				"每个槽位最多安装十个对应颜色的心罐，每一个心罐加一颗心生命上限。"
-				"下述颜色心的获取方式可能有魔改。"
-			]
+			description: ["{chapter.18.quest.1.description.1}"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			id: "2C04B214A91BDE19"
@@ -28,7 +25,7 @@
 		{
 			x: 0.5d
 			y: -1.5d
-			description: ["蓝色的心由末影龙掉落。"]
+			description: ["{chapter.18.quest.2.description.1}"]
 			dependencies: ["2C04B214A91BDE19"]
 			id: "6BD9C57685375000"
 			tasks: [{
@@ -40,7 +37,7 @@
 		{
 			x: -1.0d
 			y: 0.0d
-			description: ["红色的心由所有怪物概率掉落。"]
+			description: ["{chapter.18.quest.3.description.1}"]
 			dependencies: ["2C04B214A91BDE19"]
 			id: "4F25BD1914B43DD7"
 			tasks: [{
@@ -52,7 +49,7 @@
 		{
 			x: 0.5d
 			y: 1.5d
-			description: ["橙色的心由boss级生物掉落，包括暮色的boss们。"]
+			description: ["{chapter.18.quest.4.description.1}"]
 			dependencies: ["2C04B214A91BDE19"]
 			id: "55FD30B9E8FB0FB2"
 			tasks: [{
@@ -64,7 +61,7 @@
 		{
 			x: 2.0d
 			y: 0.0d
-			description: ["绿色的心由唤魔者掉落。"]
+			description: ["{chapter.18.quest.5.description.1}"]
 			dependencies: ["2C04B214A91BDE19"]
 			id: "028134716291581A"
 			tasks: [{
@@ -76,7 +73,7 @@
 		{
 			x: 4.0d
 			y: -1.0d
-			description: ["烤肉之心是饥饿者的完美的解决方案。当破碎时，它会非常猛烈地将一块烤好的肉塞进你的嘴里。这会使你饱和，从而治愈你几颗心，除非你真的饿了。"]
+			description: ["{chapter.18.quest.6.description.1}"]
 			dependencies: ["4F6C27BF64A505CB"]
 			id: "697C796AACC0873A"
 			tasks: [{
@@ -88,7 +85,7 @@
 		{
 			x: 4.0d
 			y: 0.0d
-			description: ["将下界的灼热带入主世界。炽烈之心利用火焰的力量将你附近的4个敌人点燃几秒钟。"]
+			description: ["{chapter.18.quest.7.description.1}"]
 			dependencies: ["4F6C27BF64A505CB"]
 			id: "2C7ADF0161951E20"
 			tasks: [{
@@ -100,7 +97,7 @@
 		{
 			x: 4.0d
 			y: 1.0d
-			description: ["只有2秒冷却时间，箭术之心对于群体控制非常有用。当被打破时，一连串的箭矢将射向你最靠近你的三个敌人，每一支箭都将精确地瞄准。一旦击中，箭的击退属性将迅速击退你附近的目标。"]
+			description: ["{chapter.18.quest.8.description.1}"]
 			dependencies: ["4F6C27BF64A505CB"]
 			id: "6559F5DC3AF44CC4"
 			tasks: [{
@@ -112,7 +109,7 @@
 		{
 			x: 5.0d
 			y: 1.0d
-			description: ["众所周知，糖作为一种物质可以让你快速行走，这种特性在试图快速逃逸时无疑是很方便的。因此，当速度之心破碎时，你会获得速度II."]
+			description: ["{chapter.18.quest.9.description.1}"]
 			dependencies: ["4F6C27BF64A505CB"]
 			id: "7FC5F7A3A89B4F55"
 			tasks: [{
@@ -124,7 +121,7 @@
 		{
 			x: 5.0d
 			y: 0.0d
-			description: ["绿宝石是村民贸易中使用的一种通用货币，当用于制作自定义心时，可能不会直接引发任何效果。因此，绿宝石之心的作用可能看起来相当随机，但相当有用。破碎时，它将为所有 效果心减少20%CD，免费的嗷！"]
+			description: ["{chapter.18.quest.10.description.1}"]
 			dependencies: ["4F6C27BF64A505CB"]
 			id: "1399A5E24F36B987"
 			tasks: [{
@@ -136,7 +133,7 @@
 		{
 			x: 5.0d
 			y: -1.0d
-			description: ["一个相当简单的概念，双倍之心是你血条中的必备品。当破碎时，它可以填充2个心的位置，这能够有效地治愈你的血量"]
+			description: ["{chapter.18.quest.11.description.1}"]
 			dependencies: ["4F6C27BF64A505CB"]
 			id: "3588F31167D79459"
 			tasks: [{
@@ -148,7 +145,7 @@
 		{
 			x: 6.0d
 			y: -1.0d
-			description: ["毫无疑问，Minecraft最具标志性的生物。没有苦力怕之心就没有灵魂。它的存在与作用与您想象的完全一样。当心破碎时，你会boom~并且原地升天。"]
+			description: ["{chapter.18.quest.12.description.1}"]
 			dependencies: ["4F6C27BF64A505CB"]
 			id: "62D911E9E71357F8"
 			tasks: [{
@@ -160,7 +157,7 @@
 		{
 			x: 6.0d
 			y: 0.0d
-			description: ["众所周知，末影龙会吐龙息，emmm..这很不卫生！因此，把它做成自定义心似乎是个不好的想法。好吧，在实践中，它并不像听起来那么危险。实际上，使用紫颂果进行消毒后，它是完全安全的。当激活时，龙息之心会在你受伤时在你的脚下生成一团龙息。"]
+			description: ["{chapter.18.quest.13.description.1}"]
 			dependencies: ["4F6C27BF64A505CB"]
 			id: "285F79E593F8CD98"
 			tasks: [{
@@ -172,7 +169,7 @@
 		{
 			x: 6.0d
 			y: 1.0d
-			description: ["生命恢复作为一个概念，以前已经探索过很多次。青金石之心能够把青金石的经验亲和力嵌入到一个心中，以实现此目的。如果你在它激活时获得了足够的经验，你将被治愈1HP。在这个过程中，这个心也会自我破碎，需要冷却一小段时间。"]
+			description: ["{chapter.18.quest.14.description.1}"]
 			dependencies: ["4F6C27BF64A505CB"]
 			id: "25DFF391CA01E341"
 			tasks: [{
@@ -184,7 +181,7 @@
 		{
 			x: 7.0d
 			y: 1.0d
-			description: ["尽管构造非常简单，但药水之心却是相当奇特的。当第一次激活时，它实际上是没有作用的。要利用其能力，请喝一瓶药水。药水不会发挥效果，而是存入了药水之心中。下次当这个心破碎时，它会消耗掉里面的药水，并应用里面存放的药水效果。"]
+			description: ["{chapter.18.quest.15.description.1}"]
 			dependencies: ["4F6C27BF64A505CB"]
 			id: "0DA0CBED335E24FA"
 			tasks: [{
@@ -196,7 +193,7 @@
 		{
 			x: 7.0d
 			y: -1.0d
-			description: ["召唤之心在破碎时会做什么？ 生成保护你的恼鬼并不是它的特别之处。相反，它的奇怪之处在于你如何获得它。你无法通过制作来获得它(已经被作者破解了)，因为唤魔者对其魔法的施法咒语非常保密。因此，需要做的是将空白之心交给唤魔者，唤魔者会将其转换为召唤之心。"]
+			description: ["{chapter.18.quest.16.description.1}"]
 			dependencies: ["4F6C27BF64A505CB"]
 			id: "526651D7A9E6B3F9"
 			tasks: [{
@@ -208,7 +205,7 @@
 		{
 			x: 8.0d
 			y: -1.0d
-			description: ["不幸的是，从高处摔下来是您在日常旅行中可能遇到的。为了防止跌落悬崖造成的巨大伤害，请使用轻盈之心。如果出现不幸坠落的情况，它将使你免疫所有坠落伤害，并进入冷却。"]
+			description: ["{chapter.18.quest.17.description.1}"]
 			dependencies: ["4F6C27BF64A505CB"]
 			id: "139555968806DA18"
 			tasks: [{
@@ -220,7 +217,7 @@
 		{
 			x: 8.0d
 			y: 0.0d
-			description: ["当你读到这篇文章时，你的头脑被迈达斯的故事和他的黄金之触所玷污，你可能会期待从黄金之心中得到类似的东西。好吧，我很高兴地告诉你，没门。相反，当破碎时，它会赋予你伤害吸收效果。不仅如此，血量越低，伤害吸收的效果等级也越高。"]
+			description: ["{chapter.18.quest.18.description.1}"]
 			dependencies: ["4F6C27BF64A505CB"]
 			id: "4A73635036569990"
 			tasks: [{
@@ -232,7 +229,7 @@
 		{
 			x: 8.0d
 			y: 1.0d
-			description: ["就像喝掉牛奶一样有用。奶酪之心本身是一种更好地使用牛奶的方式，它可以在破碎后立即消除所有负面的药水效果。"]
+			description: ["{chapter.18.quest.19.description.1}"]
 			dependencies: ["4F6C27BF64A505CB"]
 			id: "750B48F965C9D6B6"
 			tasks: [{
@@ -244,7 +241,7 @@
 		{
 			x: 9.0d
 			y: 1.0d
-			description: ["直接销毁你吃下去的所有心。"]
+			description: ["{chapter.18.quest.20.description.1}"]
 			dependencies: ["4F6C27BF64A505CB"]
 			id: "67B0EE0CCD55F8E4"
 			tasks: [{
@@ -256,7 +253,7 @@
 		{
 			x: 9.0d
 			y: 0.0d
-			description: ["在移动时，它以一种有品位的方式冻结你的脚，赋予在冰上滑动更高的速度。然而，这也带来了副作用。"]
+			description: ["{chapter.18.quest.21.description.1}"]
 			dependencies: ["4F6C27BF64A505CB"]
 			id: "5787FFC30DEB0B6F"
 			tasks: [{
@@ -268,7 +265,7 @@
 		{
 			x: 9.0d
 			y: -1.0d
-			description: ["潮涌核心无疑是水下进行的任何工作不可或缺的伴侣，但它不能够挪动。海洋之心能在激活期间赋予你潮涌能量来解决此问题。"]
+			description: ["{chapter.18.quest.22.description.1}"]
 			dependencies: ["4F6C27BF64A505CB"]
 			id: "3A17713E2282E17C"
 			tasks: [{
@@ -280,7 +277,7 @@
 		{
 			x: 10.0d
 			y: -1.0d
-			description: ["图腾之心是您可以制作的最强大的心之一。触发后，它会首先检查您的物品栏中是否有任何不死图腾。如果有，它会消耗它，恢复15HP并继续冷却10秒。如果你没有任何图腾，只有5HP被恢复，并且该心将有2.5分钟的冷却时间。"]
+			description: ["{chapter.18.quest.23.description.1}"]
 			dependencies: ["4F6C27BF64A505CB"]
 			id: "5D2BCD23273405E5"
 			tasks: [{
@@ -292,7 +289,7 @@
 		{
 			x: 10.0d
 			y: 0.0d
-			description: ["你能召唤出的最强的同伴之一无疑是铁傀儡。现在雇用一个，就像以前一样，使用传统方法可能是相当昂贵的事情。不用担心，因为钢铁之心会解决你的问题。一旦破碎，一个铁傀儡将被召唤。但是，请小心。"]
+			description: ["{chapter.18.quest.24.description.1}"]
 			dependencies: ["4F6C27BF64A505CB"]
 			id: "11252EFD1A4B7DDE"
 			tasks: [{
@@ -304,7 +301,7 @@
 		{
 			x: 10.0d
 			y: 1.0d
-			description: ["回收你已经吃下去的所有心。"]
+			description: ["{chapter.18.quest.25.description.1}"]
 			dependencies: ["4F6C27BF64A505CB"]
 			id: "6CD7D410528D1538"
 			tasks: [{
@@ -318,24 +315,18 @@
 			disable_toast: true
 			x: 7.0d
 			y: -3.0d
-			description: [
-				"吃下不同种类的心将会给你一些增益或效果。"
-				"有些增益在心没有被打破时生效（如钻石），有些则是在打破时生效（如金）。"
-				"带着“心碎”buff的怪物死亡时有概率掉落空白之心；在专家以上难度，所有怪物都会随机掉落空白之心。"
-				"================================================"
-				"“还说你不花心？”"
-			]
+			description: ["{chapter.18.quest.26.description.1}"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			id: "4F6C27BF64A505CB"
 			tasks: [{
 				id: "4632608E12376780"
 				type: "checkmark"
-				title: "自定义心指南"
+				title: "{chapter.18.quest.26.task.1.title}"
 			}]
 		}
 		{
-			title: "恭喜你凑齐了所有的心,现在你能得到它了"
+			title: "{chapter.18.quest.27.title}"
 			icon: "victus:diamond_heart_aspect"
 			x: 7.0d
 			y: 0.0d
@@ -370,7 +361,7 @@
 			tasks: [{
 				id: "0A7CBBDC89CBB566"
 				type: "checkmark"
-				title: "噫，唔（赞赏）"
+				title: "{chapter.18.quest.27.task.1.title}"
 			}]
 			rewards: [{
 				id: "2452B19F1691656D"

@@ -1,5 +1,3 @@
-//概率事件
-
 onEvent('player.logged_in', event => {
 	if (!event.player.stages.has('difficulty_normal') && !event.player.stages.has('difficulty_easy') && !event.player.stages.has('difficulty_hard') && !event.player.stages.has('difficulty_impossible') && !event.player.stages.has('difficulty_impossibleplus') && !event.player.stages.has('difficulty_yonghen')) {
 		event.player.stages.add('difficulty_easy')

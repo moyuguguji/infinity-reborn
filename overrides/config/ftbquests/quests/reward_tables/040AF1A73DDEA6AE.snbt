@@ -1,7 +1,7 @@
 {
 	id: "040AF1A73DDEA6AE"
 	order_index: 10
-	title: "刷怪"
+	title: "{loot_table.11}"
 	loot_size: 1
 	rewards: [
 		{ item: "kibe:cursed_dirt", count: 5 }

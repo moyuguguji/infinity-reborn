@@ -3,7 +3,7 @@
 	group: "2918506B9F30927F"
 	order_index: 1
 	filename: "1D7B20530FC2F4D8"
-	title: "护甲展示"
+	title: "{chapter.16.title}"
 	icon: {
 		id: "gobber2:gobber2_chestplate_dragon"
 		Count: 1b
@@ -11,7 +11,7 @@
 			Damage: 0
 		}
 	}
-	subtitle: ["保护自己的核心装备"]
+	subtitle: ["{chapter.16.subtitle}"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -20,12 +20,12 @@
 			disable_toast: true
 			x: 0.0d
 			y: -5.0d
-			description: ["这里只是提供一种发展的思路，并非强制要求如此进行，这是一场自由的旅行，勇敢的追，不是吗？"]
+			description: ["{chapter.16.quest.1.description.1}"]
 			id: "57CF4142F2A4B21D"
 			tasks: [{
 				id: "3C5DB2A2E4E53B8C"
 				type: "checkmark"
-				title: "注意"
+				title: "{chapter.16.quest.1.task.1.title}"
 			}]
 		}
 		{
@@ -188,28 +188,22 @@
 			disable_toast: true
 			x: 0.0d
 			y: -1.5d
-			subtitle: "关联的套装均为无法破坏"
-			description: [
-				"本整合包添加了mc地下城mod。"
-				"地下城是mojang开发的一款我的世界背景的动作冒险游戏，更多信息可以百度查询。"
-				"该mod的衣服和武器都有一段小小的描述，遗憾的是，这些描述仅在mc地下城中发挥作用，所以请不要问我穿了XXX套装怎么没有效果，因为确实没有。"
-				"================================================"
-				"“嘿，mojang，你打算什么时候复活Reuben”"
-			]
+			subtitle: "{chapter.16.quest.9.subtitle}"
+			description: ["{chapter.16.quest.9.description.1}"]
 			id: "4414FF368FEE1026"
 			tasks: [{
 				id: "5A8940A099180C73"
 				type: "checkmark"
-				title: "关于地下城的装备"
+				title: "{chapter.16.quest.9.task.1.title}"
 			}]
 		}
 		{
-			title: "镶金荣光套装"
+			title: "{chapter.16.quest.10.title}"
 			icon: "mcda:gilded_glory_helmet"
 			x: -1.0d
 			y: -0.5d
-			subtitle: "战士高阶套装1"
-			description: ["在你面对死亡时可能有意想不到的好运帮助你"]
+			subtitle: "{chapter.16.quest.10.subtitle}"
+			description: ["{chapter.16.quest.10.description.1}"]
 			dependencies: ["4414FF368FEE1026"]
 			id: "2BB3BA3E3B7555A2"
 			tasks: [
@@ -242,15 +236,12 @@
 			}]
 		}
 		{
-			title: "英雄套装"
+			title: "{chapter.16.quest.11.title}"
 			icon: "mcda:heros_armor_helmet"
 			x: 0.0d
 			y: 0.0d
-			subtitle: "战士传说套装"
-			description: [
-				"村庄英雄（冤大头）的证明。"
-				"拥有不错的防御属性，如果能弄到的话，绝对是很强的装备。"
-			]
+			subtitle: "{chapter.16.quest.11.subtitle}"
+			description: ["{chapter.16.quest.11.description.1}"]
 			dependencies: ["4414FF368FEE1026"]
 			id: "5EBDA5ED9BE0209C"
 			tasks: [
@@ -306,12 +297,12 @@
 			}]
 		}
 		{
-			title: "幽魂套装"
+			title: "{chapter.16.quest.13.title}"
 			icon: "mcda:gourdian_armor_helmet"
 			x: 0.0d
 			y: -2.5d
-			subtitle: "游侠传奇套装"
-			description: ["综合防御与远程伤害的套装，近战伤害加成也不低。游侠首选。"]
+			subtitle: "{chapter.16.quest.13.subtitle}"
+			description: ["{chapter.16.quest.13.description.1}"]
 			dependencies: ["4414FF368FEE1026"]
 			id: "1A1D11047F9AAAC8"
 			tasks: [
@@ -368,12 +359,12 @@
 			}]
 		}
 		{
-			title: "泰坦套装"
+			title: "{chapter.16.quest.14.title}"
 			icon: "mcda:titans_shroud_helmet"
 			x: 1.0d
 			y: -0.5d
-			subtitle: "战士高阶套装2"
-			description: ["可以让被你攻击的敌人深陷泥潭"]
+			subtitle: "{chapter.16.quest.14.subtitle}"
+			description: ["{chapter.16.quest.14.description.1}"]
 			dependencies: ["4414FF368FEE1026"]
 			id: "67634E2235C94F22"
 			tasks: [
@@ -430,16 +421,12 @@
 			}]
 		}
 		{
-			title: "潜影套装"
+			title: "{chapter.16.quest.15.title}"
 			icon: "mcda:sturdy_shulker_armor_helmet"
 			x: 0.0d
 			y: 1.0d
-			subtitle: "战士传奇套装"
-			description: [
-				"潜影壳般的不动如山，和笨重。"
-				"你将不惧潜影壳的特殊力量，同时你获得了发射潜影弹的能力"
-				"作为一个战士，如果可以获得这套装备，输出和防御都是极其夸张的。"
-			]
+			subtitle: "{chapter.16.quest.15.subtitle}"
+			description: ["{chapter.16.quest.15.description.1}"]
 			dependencies: ["4414FF368FEE1026"]
 			id: "0D5F5CA4A14C07BB"
 			tasks: [
@@ -496,7 +483,7 @@
 			}]
 		}
 		{
-			title: "暴戾之锋锐"
+			title: "{chapter.16.quest.16.title}"
 			icon: {
 				id: "mcda:white_mystery_armor_helmet"
 				Count: 1b
@@ -506,12 +493,8 @@
 			}
 			x: -2.0d
 			y: -3.0d
-			subtitle: "其徐如林"
-			description: [
-				"锋锐之加护。"
-				"护甲可获白色未知套装效果。"
-				"更偏向伤害。"
-			]
+			subtitle: "{chapter.16.quest.16.subtitle}"
+			description: ["{chapter.16.quest.16.description.1}"]
 			dependencies: ["4414FF368FEE1026"]
 			id: "5F29E996DE713D39"
 			tasks: [
@@ -544,7 +527,7 @@
 			}]
 		}
 		{
-			title: "暴戾之迅猛"
+			title: "{chapter.16.quest.17.title}"
 			icon: {
 				id: "mcda:red_mystery_armor_helmet"
 				Count: 1b
@@ -554,12 +537,8 @@
 			}
 			x: -1.0d
 			y: -3.5d
-			subtitle: "侵略如火"
-			description: [
-				"迅猛之加护。"
-				"护甲可获红色未知套装效果。"
-				"更偏向攻速。"
-			]
+			subtitle: "{chapter.16.quest.17.subtitle}"
+			description: ["{chapter.16.quest.17.description.1}"]
 			dependencies: ["4414FF368FEE1026"]
 			id: "0007D7CFE6FBA264"
 			tasks: [
@@ -592,7 +571,7 @@
 			}]
 		}
 		{
-			title: "均衡之全能"
+			title: "{chapter.16.quest.18.title}"
 			icon: {
 				id: "mcda:purple_mystery_armor_helmet"
 				Count: 1b
@@ -602,12 +581,8 @@
 			}
 			x: 0.0d
 			y: -3.5d
-			subtitle: "中庸之道"
-			description: [
-				"全能之加护。"
-				"护甲可获紫色未知套装效果。"
-				"全能型加成。"
-			]
+			subtitle: "{chapter.16.quest.18.subtitle}"
+			description: ["{chapter.16.quest.18.description.1}"]
 			dependencies: ["4414FF368FEE1026"]
 			id: "77F546172D38C442"
 			tasks: [
@@ -648,7 +623,7 @@
 			]
 		}
 		{
-			title: "御守之稳重"
+			title: "{chapter.16.quest.19.title}"
 			icon: {
 				id: "mcda:green_mystery_armor_helmet"
 				Count: 1b
@@ -658,12 +633,8 @@
 			}
 			x: 2.0d
 			y: -3.0d
-			subtitle: "不动如山"
-			description: [
-				"稳重之加护。"
-				"护甲可获绿色未知套装效果。"
-				"更偏向防护。"
-			]
+			subtitle: "{chapter.16.quest.19.subtitle}"
+			description: ["{chapter.16.quest.19.description.1}"]
 			dependencies: ["4414FF368FEE1026"]
 			id: "3618F3541A5E3D40"
 			tasks: [
@@ -696,7 +667,7 @@
 			}]
 		}
 		{
-			title: "御守之矫健"
+			title: "{chapter.16.quest.20.title}"
 			icon: {
 				id: "mcda:blue_mystery_armor_helmet"
 				Count: 1b
@@ -706,12 +677,8 @@
 			}
 			x: 1.0d
 			y: -3.5d
-			subtitle: "其疾如风"
-			description: [
-				"矫健之加护。"
-				"护甲可获蓝色未知套装效果。"
-				"更偏向移速。"
-			]
+			subtitle: "{chapter.16.quest.20.subtitle}"
+			description: ["{chapter.16.quest.20.description.1}"]
 			dependencies: ["4414FF368FEE1026"]
 			id: "3DB820D7D6E9286A"
 			tasks: [
@@ -784,11 +751,11 @@
 			}]
 		}
 		{
-			title: "这些装备都得到了增强"
+			title: "{chapter.16.quest.23.title}"
 			icon: "botania:cosmetic_questgiver_mark"
 			x: -4.5d
 			y: -3.5d
-			description: ["因为其阶段流程的原因，他们都得到了增强。"]
+			description: ["{chapter.16.quest.23.description.1}"]
 			id: "64AE73FA898EE57E"
 			tasks: [{
 				id: "4865A310ABBC5DF7"
@@ -815,7 +782,7 @@
 		{
 			x: -6.5d
 			y: -2.5d
-			description: ["你需要自己设置按键激活这套护甲的特殊力量。"]
+			description: ["{chapter.16.quest.25.description.1}"]
 			dependencies: ["64AE73FA898EE57E"]
 			id: "1CE682C34E406F7A"
 			tasks: [{
@@ -929,7 +896,7 @@
 			}]
 		}
 		{
-			title: "混沌套装"
+			title: "{chapter.16.quest.31.title}"
 			x: -5.5d
 			y: -3.5d
 			dependencies: ["64AE73FA898EE57E"]
@@ -960,16 +927,12 @@
 			]
 		}
 		{
-			title: "游侠传说"
+			title: "{chapter.16.quest.32.title}"
 			icon: "mcda:shadow_walker_armor_helmet"
 			x: -1.0d
 			y: -1.5d
-			subtitle: "射手高阶套装1"
-			description: [
-				"很廉价的套装，自带无限耐久。"
-				"暗影行者，全套免疫摔落，并且连续奔跑提速。"
-				"功能性较多的射手套装，套装有不错的远程伤害加成。"
-			]
+			subtitle: "{chapter.16.quest.32.subtitle}"
+			description: ["{chapter.16.quest.32.description.1}"]
 			dependencies: ["4414FF368FEE1026"]
 			id: "1C1E7914AD7A8AD8"
 			tasks: [
@@ -1026,15 +989,12 @@
 			}]
 		}
 		{
-			title: "孤狼传说"
+			title: "{chapter.16.quest.33.title}"
 			icon: "mcda:black_wolf_armor_helmet"
 			x: 2.0d
 			y: -1.5d
-			subtitle: "射手传说套装2"
-			description: [
-				"属于弓箭手套装分支的套装，可观的加伤。"
-				"不过没法和弓箭手套装的增幅相比。"
-			]
+			subtitle: "{chapter.16.quest.33.subtitle}"
+			description: ["{chapter.16.quest.33.description.1}"]
 			dependencies: ["4414FF368FEE1026"]
 			id: "1B301C738E8E8618"
 			tasks: [
@@ -1091,12 +1051,12 @@
 			}]
 		}
 		{
-			title: "雪影传说"
+			title: "{chapter.16.quest.34.title}"
 			icon: "mcda:arctic_fox_armor_helmet"
 			x: -2.0d
 			y: -1.5d
-			subtitle: "射手传说套装1"
-			description: ["更偏向功能性的射手传说套装。伤害稍微高点。"]
+			subtitle: "{chapter.16.quest.34.subtitle}"
+			description: ["{chapter.16.quest.34.description.1}"]
 			dependencies: ["4414FF368FEE1026"]
 			id: "6B6A4620782656FB"
 			tasks: [
@@ -1156,11 +1116,8 @@
 			icon: "mcda:archers_helmet"
 			x: 1.0d
 			y: -1.5d
-			subtitle: "射手高阶套装2"
-			description: [
-				"很廉价的套装，自带无限耐久。"
-				"恐怖的套装加伤，如果只需要远程伤害的话，这套衣服甚至超过他的上位。"
-			]
+			subtitle: "{chapter.16.quest.35.subtitle}"
+			description: ["{chapter.16.quest.35.description.1}"]
 			dependencies: ["4414FF368FEE1026"]
 			id: "472E4139FF1AEF87"
 			tasks: [
@@ -1193,10 +1150,10 @@
 			}]
 		}
 		{
-			title: "下界合金与戈伯合为一体"
+			title: "{chapter.16.quest.36.title}"
 			x: 1.0d
 			y: -4.5d
-			subtitle: "不朽之物"
+			subtitle: "{chapter.16.quest.36.subtitle}"
 			dependencies: ["57CF4142F2A4B21D"]
 			id: "631591D71932983E"
 			tasks: [{
@@ -1206,10 +1163,10 @@
 			}]
 		}
 		{
-			title: "众神予你祝福"
+			title: "{chapter.16.quest.37.title}"
 			x: -1.0d
 			y: -4.5d
-			subtitle: "不朽之物"
+			subtitle: "{chapter.16.quest.37.subtitle}"
 			dependencies: ["57CF4142F2A4B21D"]
 			id: "1FD0E4BB57175369"
 			tasks: [{
@@ -1223,7 +1180,7 @@
 			}]
 		}
 		{
-			title: "河豚是如何拥抱的？"
+			title: "{chapter.16.quest.38.title}"
 			x: 0.0d
 			y: -6.0d
 			dependencies: ["57CF4142F2A4B21D"]
@@ -1241,7 +1198,7 @@
 			}]
 		}
 		{
-			title: "不免疫万箭齐发，但也差不多"
+			title: "{chapter.16.quest.39.title}"
 			x: 1.0d
 			y: -5.5d
 			dependencies: ["57CF4142F2A4B21D"]
@@ -1259,13 +1216,10 @@
 			}]
 		}
 		{
-			title: "力不竭，战不止！"
+			title: "{chapter.16.quest.40.title}"
 			x: -1.0d
 			y: -5.5d
-			description: [
-				"================================================"
-				"“披发亢歌！至死不休！”"
-			]
+			description: ["{chapter.16.quest.40.description.1}"]
 			dependencies: ["57CF4142F2A4B21D"]
 			id: "61948977F276F966"
 			tasks: [{

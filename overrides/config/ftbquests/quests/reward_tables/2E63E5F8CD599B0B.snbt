@@ -1,7 +1,7 @@
 {
 	id: "2E63E5F8CD599B0B"
 	order_index: 1
-	title: "新手奖励"
+	title: "{loot_table.2}"
 	loot_size: 1
 	use_title: true
 	rewards: [

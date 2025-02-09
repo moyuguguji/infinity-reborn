@@ -3,7 +3,7 @@
 	group: "2D4526175EFBC1B2"
 	order_index: 3
 	filename: "179173663FF4BF5D"
-	title: "终末之旅"
+	title: "{chapter.11.title}"
 	icon: "minecraft:end_stone"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -21,7 +21,7 @@
 	}]
 	quests: [
 		{
-			title: "前往末地"
+			title: "{chapter.11.quest.1.title}"
 			icon: "minecraft:end_stone"
 			x: -3.5d
 			y: -0.5d
@@ -63,7 +63,7 @@
 		{
 			x: 5.0d
 			y: -0.5d
-			description: ["合成末影戈伯锭的材料之一。"]
+			description: ["{chapter.11.quest.3.description.1}"]
 			dependencies: ["4CC496C6F67ECC1C"]
 			id: "3E0D5FF75A4E9B1D"
 			tasks: [{
@@ -79,16 +79,13 @@
 			}]
 		}
 		{
-			title: "讨伐：末影龙！"
+			title: "{chapter.11.quest.4.title}"
 			icon: "minecraft:dragon_egg"
 			x: -1.5d
 			y: -0.5d
-			subtitle: "讨伐难度：中等-困难：讨伐建议：这还用建议？"
+			subtitle: "{chapter.11.quest.4.subtitle}"
 			description: [
-				"你每杀死一条末影龙，都会使接下来的末影龙属性更强。"
-				"TIP：本包添加了强化末影龙的mod，在进行讨伐战时你无法创造模式飞行。"
-				"================================================"
-				"你可以使用末地水晶复活末影龙，将四个末地水晶分别放在教堂四方的基岩上即可。"
+				"{chapter.11.quest.4.description.1}"
 				"{image:kubejs:textures/ftbq/fuhuomoyinglong.png width:144 height:90 align:1}"
 			]
 			dependencies: ["0CEDE251E1251429"]
@@ -115,7 +112,7 @@
 			]
 		}
 		{
-			title: "讨伐：眼球！"
+			title: "{chapter.11.quest.5.title}"
 			icon: {
 				id: "adventurez:prime_eye"
 				Count: 1b
@@ -125,11 +122,8 @@
 			}
 			x: -1.5d
 			y: -2.5d
-			subtitle: "讨伐难度：简单；讨伐建议：创造飞行能力或远程输出能力"
-			description: [
-				"召唤仪式参考无限之书，有粒子效果冒出就是正在召唤，请耐心等待"
-				"眼球死后会在死亡地点生成一个传送门，前往虚空之影的所在纬度。"
-			]
+			subtitle: "{chapter.11.quest.5.subtitle}"
+			description: ["{chapter.11.quest.5.description.1}"]
 			dependencies: ["302E302BDA7BF0F5"]
 			id: "2C5A7460D61847D0"
 			tasks: [{
@@ -156,11 +150,7 @@
 		{
 			x: -3.5d
 			y: -4.0d
-			description: [
-				"合成闪耀之星的材料之一。"
-				"================================================"
-				"“woc，____！”"
-			]
+			description: ["{chapter.11.quest.6.description.1}"]
 			dependencies: ["27BDB8EB14207BC2"]
 			id: "6B545BDB254B7A99"
 			tasks: [{
@@ -176,15 +166,14 @@
 			}]
 		}
 		{
-			title: "讨伐：虚空之影！"
+			title: "{chapter.11.quest.7.title}"
 			x: -3.5d
 			y: -2.5d
-			subtitle: "讨伐难度：困难；讨伐建议：强大的远程输出能力"
+			subtitle: "{chapter.11.quest.7.subtitle}"
 			description: [
-				"虚空之影的伤害判定在它的下方。"
-				"================================================"
+				"{chapter.11.quest.7.description.1}"
 				"{image:kubejs:textures/ftbq/void.png width:200 height:130 align:1}"
-				"TIP：杀死虚空之影生成的影之宝箱固定刷新出龙蛋和超越原版的附魔，可以通过刷虚空之影的方式获取；虚空之影每隔一段时间便会重生。"
+				"{chapter.11.quest.7.description.2}"
 			]
 			dependencies: ["2C5A7460D61847D0"]
 			id: "27BDB8EB14207BC2"
@@ -212,13 +201,8 @@
 		{
 			x: -7.5d
 			y: -0.5d
-			subtitle: "只需要寻找12个不同的末影之眼"
-			description: [
-				"末影之眼失落人间，被不同的主人寻获，在不同的气息浸染下，竟分化成了很多不同的形态，这下好了，得收集12种末影之眼才能去找老朋友末影龙“叙叙旧”了。"
-				"================================================"
-				"以上末影之眼的分布结构并不完全精确，实际上一些眼睛会生成在很多遗迹的箱子里，譬如沙漠的法老金字塔也能找到沙漠之眼。"
-				"TIP：本包已经很贴心的为部分眼睛添加了符合设定的合成方式。"
-			]
+			subtitle: "{chapter.11.quest.8.subtitle}"
+			description: ["{chapter.11.quest.8.description.1}"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			id: "17DFD26338E03804"
@@ -237,7 +221,7 @@
 		{
 			x: -9.0d
 			y: -2.0d
-			description: ["可以在沉船中获得。"]
+			description: ["{chapter.11.quest.9.description.1}"]
 			dependencies: ["17DFD26338E03804"]
 			id: "1884C1EA6E2A741F"
 			tasks: [{
@@ -255,7 +239,7 @@
 		{
 			x: -8.5d
 			y: -3.0d
-			description: ["在雪屋的地下室找到。"]
+			description: ["{chapter.11.quest.10.description.1}"]
 			dependencies: ["17DFD26338E03804"]
 			id: "7865FC1ECF5536BF"
 			tasks: [{
@@ -273,7 +257,7 @@
 		{
 			x: -7.5d
 			y: -3.0d
-			description: ["在与掠夺者相关的的建筑中可以找到。"]
+			description: ["{chapter.11.quest.11.description.1}"]
 			dependencies: ["17DFD26338E03804"]
 			id: "3D39312CAD944538"
 			tasks: [{
@@ -291,7 +275,7 @@
 		{
 			x: -6.5d
 			y: -3.0d
-			description: ["在废弃矿井和地牢中可以找到。"]
+			description: ["{chapter.11.quest.12.description.1}"]
 			dependencies: ["17DFD26338E03804"]
 			id: "67E11848FDD47F00"
 			tasks: [{
@@ -309,7 +293,7 @@
 		{
 			x: -9.0d
 			y: -1.0d
-			description: ["在下界要塞中可以找到。"]
+			description: ["{chapter.11.quest.13.description.1}"]
 			dependencies: ["17DFD26338E03804"]
 			id: "68F2852771AA73F1"
 			tasks: [{
@@ -327,7 +311,7 @@
 		{
 			x: -8.0d
 			y: -2.0d
-			description: ["在沙漠神殿中可以找到。"]
+			description: ["{chapter.11.quest.14.description.1}"]
 			dependencies: ["17DFD26338E03804"]
 			id: "40E57AAA35093634"
 			tasks: [{
@@ -345,7 +329,7 @@
 		{
 			x: -7.0d
 			y: -2.0d
-			description: ["在丛林神殿中可以找到。"]
+			description: ["{chapter.11.quest.15.description.1}"]
 			dependencies: ["17DFD26338E03804"]
 			id: "4C0D98F61F6BF673"
 			tasks: [{
@@ -363,7 +347,7 @@
 		{
 			x: -6.0d
 			y: -2.0d
-			description: ["在猪灵堡垒宝箱中获得。"]
+			description: ["{chapter.11.quest.16.description.1}"]
 			dependencies: ["17DFD26338E03804"]
 			id: "4049988A3E8E16CF"
 			tasks: [{
@@ -381,10 +365,7 @@
 		{
 			x: -9.0d
 			y: 0.0d
-			description: [
-				"从大师级牧师村民手中购买。"
-				"如果你刚升到五级的牧师交易这颗眼睛的选项是锁住的，别担心，他只是需要一点时间补货。"
-			]
+			description: ["{chapter.11.quest.17.description.1}"]
 			dependencies: ["17DFD26338E03804"]
 			id: "10AF6239A78DA517"
 			tasks: [{
@@ -402,7 +383,7 @@
 		{
 			x: -8.0d
 			y: 1.0d
-			description: ["通过击杀远古守卫者获得，并非百分百掉落，只有约30%的概率。"]
+			description: ["{chapter.11.quest.18.description.1}"]
 			dependencies: ["17DFD26338E03804"]
 			id: "6888241599065DCA"
 			tasks: [{
@@ -420,7 +401,7 @@
 		{
 			x: -7.0d
 			y: 1.0d
-			description: ["通过击杀唤魔者掉落，不过这位更是重量级，只有约百分之五的概率掉落，新版本中也可图书管理员交易获得。"]
+			description: ["{chapter.11.quest.19.description.1}"]
 			dependencies: ["17DFD26338E03804"]
 			id: "52ABC2670DC73315"
 			tasks: [{
@@ -438,7 +419,7 @@
 		{
 			x: -6.0d
 			y: 1.0d
-			description: ["通过击杀凋灵获得。"]
+			description: ["{chapter.11.quest.20.description.1}"]
 			dependencies: ["17DFD26338E03804"]
 			id: "26AACD5EA87A1C40"
 			tasks: [{
@@ -456,7 +437,7 @@
 		{
 			x: -9.0d
 			y: 1.0d
-			description: ["合成获得。"]
+			description: ["{chapter.11.quest.21.description.1}"]
 			dependencies: ["17DFD26338E03804"]
 			id: "184C4B3BCC199234"
 			tasks: [{
@@ -474,11 +455,7 @@
 		{
 			x: -8.5d
 			y: 2.0d
-			description: [
-				"合成获得。"
-				"骷髅马只会在雷暴天的骷髅陷阱中生成，详情可移步mc wiki查询。"
-				"也可以合成植魔里的骷髅病毒，右键已驯服的马，可以变成骷髅马。"
-			]
+			description: ["{chapter.11.quest.22.description.1}"]
 			dependencies: ["17DFD26338E03804"]
 			id: "221482499CE97D3A"
 			tasks: [{
@@ -496,7 +473,7 @@
 		{
 			x: -7.5d
 			y: 2.0d
-			description: ["合成获得。"]
+			description: ["{chapter.11.quest.23.description.1}"]
 			dependencies: ["17DFD26338E03804"]
 			id: "06B6DB5020E722E6"
 			tasks: [{
@@ -514,7 +491,7 @@
 		{
 			x: -6.5d
 			y: 2.0d
-			description: ["在附魔时有小概率获得。"]
+			description: ["{chapter.11.quest.24.description.1}"]
 			dependencies: ["17DFD26338E03804"]
 			id: "392C5CC343208165"
 			tasks: [{
@@ -533,13 +510,13 @@
 			icon: "minecraft:end_portal_frame"
 			x: -5.5d
 			y: -0.5d
-			description: ["原本的末影之眼彻底摸鱼了，你必须使用16种特殊的末影之眼才能找到末地要塞。"]
+			description: ["{chapter.11.quest.25.description.1}"]
 			dependencies: ["17DFD26338E03804"]
 			id: "6D73385681670306"
 			tasks: [{
 				id: "78C501FB0D891896"
 				type: "structure"
-				title: "找到末地要塞"
+				title: "{chapter.11.quest.25.task.1.title}"
 				structure: "betterstrongholds:stronghold"
 			}]
 			rewards: [{
@@ -550,15 +527,13 @@
 			}]
 		}
 		{
-			title: "讨伐：黑曜石之柱！"
+			title: "{chapter.11.quest.26.title}"
 			icon: "bosses_of_mass_destruction:obsidian_heart"
 			x: 0.5d
 			y: -2.5d
-			subtitle: "讨伐难度：困难；讨伐建议：铺好平台或创造飞行能力"
+			subtitle: "{chapter.11.quest.26.subtitle}"
 			description: [
-				"在末地主岛之外找到这样的结构（见下图）"
-				"找到中心的黑曜石祭坛，然后放上末影之眼"
-				"================================================"
+				"{chapter.11.quest.26.description.1}"
 				"{image:kubejs:textures/ftbq/2022-08-18_15.18.30.png width:200 height:130 align:1}"
 			]
 			dependencies: ["302E302BDA7BF0F5"]
@@ -587,7 +562,7 @@
 		{
 			x: 3.0d
 			y: -2.5d
-			description: ["合成末影戈伯锭的材料之一。"]
+			description: ["{chapter.11.quest.27.description.1}"]
 			dependencies: ["4CC496C6F67ECC1C"]
 			id: "7393807F10C36C3E"
 			tasks: [{
@@ -605,10 +580,7 @@
 		{
 			x: -1.5d
 			y: 1.5d
-			description: [
-				"把末影碎片在铁砧中使用任意锻锤砸成粉末。"
-				"你也可以使用末影珍珠砸成粉末，只不过需要下界合金锻锤来砸。"
-			]
+			description: ["{chapter.11.quest.28.description.1}"]
 			dependencies: ["302E302BDA7BF0F5"]
 			id: "3AB5B6EBE3F49B64"
 			tasks: [{
@@ -626,7 +598,7 @@
 		{
 			x: -1.5d
 			y: 3.0d
-			description: ["使用铊锭或铁锭配合末影粉熔炼成终界铁锭。"]
+			description: ["{chapter.11.quest.29.description.1}"]
 			dependencies: ["3AB5B6EBE3F49B64"]
 			id: "09B2D3CF286D2AF8"
 			tasks: [{
@@ -644,7 +616,7 @@
 		{
 			x: 0.5d
 			y: 4.0d
-			description: ["太古合金锭是一个套娃环节，具体可以看合成表"]
+			description: ["{chapter.11.quest.30.description.1}"]
 			dependencies: ["09B2D3CF286D2AF8"]
 			id: "2FF672D6D8025BD2"
 			tasks: [{
@@ -730,7 +702,7 @@
 		{
 			x: 4.0d
 			y: 3.0d
-			description: ["制作无限之剑剑身的核心材料。"]
+			description: ["{chapter.11.quest.34.description.1}"]
 			dependencies: [
 				"0ACE0FA61EEA47C1"
 				"0B573C25C398FFEE"
@@ -759,10 +731,7 @@
 		{
 			x: -3.5d
 			y: 1.5d
-			description: [
-				"灌注基座仪式可以用于制作一些附魔书。"
-				"TIP：进行灌注仪式要注意摆放物品的方向（合成表上北下南）。"
-			]
+			description: ["{chapter.11.quest.35.description.1}"]
 			dependencies: ["302E302BDA7BF0F5"]
 			id: "3072D5AD682F4876"
 			tasks: [{
@@ -780,7 +749,7 @@
 		{
 			x: 8.0d
 			y: -3.0d
-			subtitle: "面板相当高的强力武器。"
+			subtitle: "{chapter.11.quest.36.subtitle}"
 			dependencies: ["1D1DCE89D27673CC"]
 			id: "407C6FBB72BA4DF0"
 			tasks: [{
@@ -803,10 +772,10 @@
 			}]
 		}
 		{
-			title: "始与末"
+			title: "{chapter.11.quest.37.title}"
 			x: 8.0d
 			y: 0.0d
-			subtitle: "双持始末体验更佳"
+			subtitle: "{chapter.11.quest.37.subtitle}"
 			dependencies: ["1D1DCE89D27673CC"]
 			id: "0BF9D3423404F8BF"
 			tasks: [
@@ -835,16 +804,12 @@
 			]
 		}
 		{
-			title: "末地石砖锻炉（层级4）"
+			title: "{chapter.11.quest.38.title}"
 			icon: "alloy_forgery:end_stone_bricks_forge_controller"
 			x: 0.5d
 			y: -0.5d
-			subtitle: "终级锻造炉"
-			description: [
-				"唯一的4级炉，不仅可以增加部分材料的产量，也是唯一锻造末影戈伯和系列武器的顶级锻造炉"
-				"容量：400000"
-				"效率：375%"
-			]
+			subtitle: "{chapter.11.quest.38.subtitle}"
+			description: ["{chapter.11.quest.38.description.1}"]
 			dependencies: ["302E302BDA7BF0F5"]
 			id: "4CC496C6F67ECC1C"
 			tasks: [
@@ -876,19 +841,11 @@
 			]
 		}
 		{
-			title: "支线-难得素冶炼炉（层级5）"
+			title: "{chapter.11.quest.39.title}"
 			x: 1.5d
 			y: 1.0d
-			subtitle: "终极之上的顶级存在"
-			description: [
-				"来自肝神的设想，非主线需求。"
-				""
-				"你需要使用4级的锻造炉煅烧出这个造价恐怖的锻炉核心"
-				"容量：1000w"
-				"效率：1000%"
-				""
-				"难得素熔炉的容量，还是效率都远超末地锻炉，它的烧炼速度是石砖锻炉的1000%"
-			]
+			subtitle: "{chapter.11.quest.39.subtitle}"
+			description: ["{chapter.11.quest.39.description.1}"]
 			dependencies: ["4CC496C6F67ECC1C"]
 			optional: true
 			id: "1771CFA17FF3A63D"
@@ -929,7 +886,7 @@
 		{
 			x: 4.0d
 			y: -1.5d
-			description: ["合成末影戈伯锭的主要材料之一。"]
+			description: ["{chapter.11.quest.40.description.1}"]
 			dependencies: [
 				"027AAA6A3553F7DB"
 				"4CC496C6F67ECC1C"
@@ -945,7 +902,7 @@
 		{
 			x: -5.0d
 			y: 3.0d
-			description: ["这本书是BetterEnd（更好的末地）Mod作者撰写的，用于从末地开始生存的玩家及整合包，所以你打不开。"]
+			description: ["{chapter.11.quest.41.description.1}"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			size: 2.0d
