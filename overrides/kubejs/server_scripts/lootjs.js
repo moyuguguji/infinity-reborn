@@ -742,7 +742,8 @@ onEvent("lootjs", (event) => {
             Item.of("mythicmetals:adamantite_nugget").withChance(50),//精金
             Item.of("mythicmetals:stormyx_nugget").withChance(60),//风暴锭
             Item.of("mythicmetals:banglum_chunk").withChance(1),//聚爆石
-            Item.of("mythicmetals:stormyx_shell").withChance(1)//风暴石外壳
+            Item.of("mythicmetals:stormyx_shell").withChance(1),//风暴石外壳
+            Item.of("mythicmetals:unobtainium").withChance(5)
         ])
     event
         .addEntityLootModifier("minecraft:wither","soulsweapons:chaos_monarch","minecraft:ender_dragon","soulsweapons:moonknight","soulsweapons:accursed_lord_boss","soulsweapons:draugr_boss","adventurez:stone_golem","adventurez:void_shadow","adventurez:the_eye","whisperwoods:hirschgeist","soulsweapons:night_shade","terrarianslimes:king_slime","bosses_of_mass_destruction:lich","bosses_of_mass_destruction:void_blossom","bosses_of_mass_destruction:gauntlet","bosses_of_mass_destruction:obsidilith","botania:doppleganger","soulsweapons:returning_knight",)
