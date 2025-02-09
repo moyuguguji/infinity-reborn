@@ -120,6 +120,7 @@ const rightClickEventMainHand = {
 		for (let index = 0; index < bag.length; index++) {
 			player.give(bag[index])
 		}
+		player.mainHandItem.count -= 1
 	},
 	'kubejs:miner_quests': function(event){
 		let loot = [
