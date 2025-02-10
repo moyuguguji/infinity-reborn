@@ -1209,12 +1209,6 @@
 					criterion: ""
 				}
 				{
-					id: "14240016ECCF9F88"
-					type: "item"
-					item: "spectrum:budding_moonstone"
-					count: 64
-				}
-				{
 					id: "7B9B39B626DCC149"
 					type: "advancement"
 					advancement: "spectrum:midgame/craft_moonstone_pedestal"

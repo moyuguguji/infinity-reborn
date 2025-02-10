@@ -1129,7 +1129,6 @@
 				{
 					id: "08842F01A89F22F5"
 					type: "item"
-					auto: "invisible"
 					item: {
 						id: "minecraft:enchanted_book"
 						Count: 1b
@@ -1415,7 +1414,6 @@
 				{
 					id: "53EC44EC5D52759D"
 					type: "item"
-					auto: "invisible"
 					item: {
 						id: "minecraft:leather_boots"
 						Count: 1b
@@ -1630,7 +1628,6 @@
 				{
 					id: "1A807FFD2954713A"
 					type: "item"
-					auto: "invisible"
 					item: "spectrum:lucky_roll"
 					random_bonus: 64
 				}

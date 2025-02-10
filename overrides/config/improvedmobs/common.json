@@ -618,7 +618,7 @@
       "Difficulty at which mobs are able to break blocks",
       "Range: > 0.0"
     ],
-    "input": 2.0
+    "input": 15.0
   },
   "Difficulty Steal AI": {
     "__comment": [
