@@ -1,0 +1,28 @@
+{
+    "id": "tiered:keen",
+    "verifiers": [
+              {
+                "tag": "c:swords"
+              },
+              {
+                "tag": "tier:weapon"
+              }
+    ],
+    "weight": 80,
+    "style": {
+        "color": "white"
+    },
+     "attributes": [
+        {
+            "type": "playerex:melee_crit_chance",
+             "modifier": {
+                 "name": "tiered:keen",
+                 "operation": "MULTIPLY_BASE",
+                 "amount": 0.03
+             },
+             "optional_equipment_slots": [
+                 "MAINHAND"
+             ]
+         }
+    ]
+}

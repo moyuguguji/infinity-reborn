@@ -5,9 +5,9 @@
       "tag": "trinket"
     }
   ],
-  "weight": 50,
+  "weight": 55,
   "style": {
-    "color": "gray"
+    "color": "green"
   },
   "attributes": [
     {

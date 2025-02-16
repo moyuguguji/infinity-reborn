@@ -5,7 +5,7 @@
             "tag": "tiered:multi_tool"
         }
     ],
-    "weight": 360,
+    "weight": 100,
     "style": {
         "color": "dark_green"
     },

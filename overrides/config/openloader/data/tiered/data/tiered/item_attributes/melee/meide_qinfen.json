@@ -1,0 +1,73 @@
+{
+    "id": "tiered:meide_qinfen",
+    "verifiers": [
+        {
+            "tag": "tier:weapon"
+        },
+        {
+          "tag": "c:swords"
+        }
+    ],
+    "weight": 5,
+    "style": {
+        "color": "aqua"
+    },
+   
+    "attributes": [
+        {
+            "type": "playerex:melee_crit_chance",
+            "modifier": {
+                "name": "tiered:meide_qinfen",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": -0.25
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "minecraft:generic.attack_damage",
+            "modifier": {
+                "name": "tiered:meide_qinfen",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.2
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "minecraft:generic.luck",
+            "modifier": {
+                "name": "tiered:meide_qinfen",
+                "operation": "ADDITION",
+                "amount": 5.0
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "minecraft:generic.attack_speed",
+            "modifier": {
+                "name": "tiered:meide_qinfen",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 1.2
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "playerex:melee_crit_damage",
+            "modifier": {
+                "name": "tiered:meide_qinfen",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": -0.9
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

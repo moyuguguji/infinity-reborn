@@ -1,0 +1,50 @@
+{
+    "id": "tiered:godly",
+    "verifiers": [
+              {
+                "tag": "c:swords"
+              },
+              {
+                "tag": "tier:weapon"
+              }
+    ],
+    "weight": 75,
+    "style": {
+        "color": "gold"
+    },
+     "attributes": [
+        {
+            "type": "playerex:melee_crit_chance",
+             "modifier": {
+                 "name": "tiered:godly",
+                 "operation": "MULTIPLY_BASE",
+                 "amount": 0.05
+             },
+             "optional_equipment_slots": [
+                 "MAINHAND"
+             ]
+         },
+         {
+             "type": "minecraft:generic.attack_damage",
+             "modifier": {
+                 "name": "tiered:godly",
+                 "operation": "MULTIPLY_BASE",
+                 "amount": 0.15
+             },
+             "optional_equipment_slots": [
+                 "MAINHAND"
+             ]
+         },
+         {
+            "type": "tiered:generic.durable",
+             "modifier": {
+                 "name": "tiered:godly",
+                 "operation": "MULTIPLY_BASE",
+                 "amount": 0.15
+             },
+             "optional_equipment_slots": [
+                 "MAINHAND"
+             ]
+         }
+    ]
+}

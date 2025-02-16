@@ -1,0 +1,51 @@
+{
+    "id": "tiered:meide_qianxun",
+    "verifiers": [
+        {
+            "tag": "tier:weapon"
+        },
+        {
+          "tag": "c:swords"
+        }
+    ],
+    "weight": 5,
+    "style": {
+        "color": "aqua"
+    },
+    
+    "attributes": [
+        {
+            "type": "playerex:melee_crit_chance",
+            "modifier": {
+                "name": "tiered:meide_qianxun",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": -0.5
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "minecraft:generic.attack_damage",
+            "modifier": {
+                "name": "tiered:meide_qianxun",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": -0.05
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "playerex:melee_crit_damage",
+            "modifier": {
+                "name": "tiered:meide_qianxun",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 3.3
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

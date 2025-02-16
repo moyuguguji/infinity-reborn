@@ -5,9 +5,9 @@
       "tag": "trinket"
     }
   ],
-  "weight": 50,
+  "weight": 55,
   "style": {
-    "color": "gray"
+    "color": "green"
   },
   "attributes": [
     {
@@ -16,6 +16,14 @@
         "name": "tiered:spiked",
         "operation": "MULTIPLY_BASE",
         "amount": 0.02
+      }
+    },
+    {
+      "type": "tiered:generic.range_attack_damage",
+      "modifier": {
+        "name": "tiered:angry",
+        "operation": "MULTIPLY_BASE",
+        "amount": 0.005
       }
     }
   ]

@@ -1,0 +1,29 @@
+{
+    "id": "tiered:pointy",
+    "verifiers": [
+        {
+            "tag": "tier:weapon"
+        },
+        {
+          "tag": "c:swords"
+        }
+    ],
+    "weight": 75,
+    "style": {
+        "color": "yellow"
+    },
+    
+    "attributes": [
+        {
+            "type": "minecraft:generic.attack_damage",
+            "modifier": {
+                "name": "tiered:pointy",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.1
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

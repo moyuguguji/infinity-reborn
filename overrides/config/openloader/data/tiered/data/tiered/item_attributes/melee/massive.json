@@ -1,0 +1,29 @@
+{
+    "id": "tiered:massive",
+    "verifiers": [
+        {
+            "tag": "tier:weapon"
+        },
+        {
+          "tag": "c:swords"
+        }
+    ],
+    "weight": 75,
+    "style": {
+        "color": "yellow"
+    },
+    
+    "attributes": [
+        {
+            "type": "playerex:melee_crit_damage",
+            "modifier": {
+                "name": "tiered:massive",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.18
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

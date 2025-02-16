@@ -2,15 +2,6 @@
   "id": "tiered:broken",
   "verifiers": [
     {
-      "tag": "tier:1armor"
-    },
-    {
-      "tag": "tier:1weapon"
-    },
-    {
-      "tag": "tier:1ranged"
-    },
-    {
       "tag": "c:shovels"
     },
     {

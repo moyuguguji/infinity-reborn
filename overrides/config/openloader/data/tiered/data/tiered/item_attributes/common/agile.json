@@ -1,0 +1,53 @@
+{
+    "id": "tiered:agile",
+    "verifiers": [
+              {
+                "tag": "c:swords"
+              },
+              {
+                "tag": "tier:weapon"
+              },
+              {
+                "tag": "tier:ranged"
+              }
+    ],
+    "weight": 75,
+    "style": {
+        "color": "green"
+    },
+     "attributes": [
+        {
+           "type": "playerex:melee_crit_chance",
+            "modifier": {
+                "name": "tiered:agile",
+                "operation": "MULTIPLY_BASE",
+                "amount": 0.03
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "minecraft:generic.attack_speed",
+            "modifier": {
+                "name": "tiered:agile",
+                "operation": "MULTIPLY_BASE",
+                "amount": 0.1
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "playerex:ranged_crit_chance",
+            "modifier": {
+                "name": "tiered:agile",
+                "operation": "MULTIPLY_BASE",
+                "amount": 0.015
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

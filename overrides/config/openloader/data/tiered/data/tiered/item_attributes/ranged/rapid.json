@@ -1,0 +1,39 @@
+{
+    "id": "tiered:rapid",
+    "verifiers": [
+        {
+            "tag": "c:bows"
+        },
+        {
+            "tag": "c:crossbows"
+        }
+    ],
+    "weight": 300,
+    "style": {
+        "color": "light_purple"
+    },
+    "attributes": [
+        {
+            "type": "playerex:ranged_crit_damage",
+            "modifier": {
+                "name": "tiered:rapid",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.1
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "minecraft:generic.movement_speed",
+            "modifier": {
+                "name": "tiered:rapid",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.15
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

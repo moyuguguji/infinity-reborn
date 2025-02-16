@@ -1,0 +1,29 @@
+{
+    "id": "tiered:small",
+    "verifiers": [
+        {
+            "tag": "tier:weapon"
+        },
+        {
+          "tag": "c:swords"
+        }
+    ],
+    "weight": 60,
+    "style": {
+        "color": "dark_gray"
+    },
+    
+    "attributes": [
+        {
+            "type": "playerex:melee_crit_damage",
+            "modifier": {
+                "name": "tiered:small",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": -0.1
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

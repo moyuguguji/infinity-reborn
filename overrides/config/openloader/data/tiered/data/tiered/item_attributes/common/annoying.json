@@ -1,0 +1,53 @@
+{
+    "id": "tiered:annoying",
+    "verifiers": [
+              {
+                "tag": "c:swords"
+              },
+              {
+                "tag": "tier:weapon"
+              },
+              {
+                "tag": "tier:ranged"
+              }
+    ],
+    "weight": 60,
+    "style": {
+        "color": "dark_gray"
+    },
+     "attributes": [
+        {
+            "type": "minecraft:generic.attack_damage",
+            "modifier": {
+                "name": "tiered:annoying",
+                "operation": "MULTIPLY_BASE",
+                "amount": -0.20
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+         {
+             "type": "minecraft:generic.attack_speed",
+             "modifier": {
+                 "name": "tiered:annoying",
+                 "operation": "MULTIPLY_BASE",
+                 "amount": -0.15
+             },
+             "optional_equipment_slots": [
+                 "MAINHAND"
+             ]
+         },
+         {
+            "type": "tiered:generic.range_attack_damage",
+            "modifier": {
+                "name": "tiered:annoying",
+                "operation": "MULTIPLY_BASE",
+                "amount": -0.1
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

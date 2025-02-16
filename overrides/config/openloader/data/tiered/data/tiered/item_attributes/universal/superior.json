@@ -1,0 +1,50 @@
+{
+    "id": "tiered:superior",
+    "verifiers": [
+              {
+                "tag": "c:swords"
+              },
+              {
+                "tag": "tier:weapon"
+              }
+    ],
+    "weight": 75,
+    "style": {
+        "color": "green"
+    },
+     "attributes": [
+        {
+            "type": "playerex:melee_crit_chance",
+             "modifier": {
+                 "name": "tiered:superior",
+                 "operation": "MULTIPLY_BASE",
+                 "amount": 0.03
+             },
+             "optional_equipment_slots": [
+                 "MAINHAND"
+             ]
+         },
+         {
+             "type": "minecraft:generic.attack_damage",
+             "modifier": {
+                 "name": "tiered:superior",
+                 "operation": "MULTIPLY_BASE",
+                 "amount": 0.1
+             },
+             "optional_equipment_slots": [
+                 "MAINHAND"
+             ]
+         },
+         {
+            "type": "tiered:generic.durable",
+             "modifier": {
+                 "name": "tiered:superior",
+                 "operation": "MULTIPLY_BASE",
+                 "amount": 0.1
+             },
+             "optional_equipment_slots": [
+                 "MAINHAND"
+             ]
+         }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "id": "tiered:ruthless",
+    "verifiers": [
+              {
+                "tag": "c:swords"
+              },
+              {
+                "tag": "tier:weapon"
+              }
+    ],
+    "weight": 75,
+    "style": {
+        "color": "dark_purple"
+    },
+     "attributes": [
+        {
+            "type": "minecraft:generic.attack_damage",
+            "modifier": {
+                "name": "tiered:ruthless",
+                "operation": "MULTIPLY_BASE",
+                "amount": 0.18
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+           "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:ruthless",
+                "operation": "MULTIPLY_BASE",
+                "amount": -0.1
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}
