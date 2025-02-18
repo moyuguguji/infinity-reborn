@@ -218,7 +218,7 @@ onEvent('item.registry', event => {
 		.displayName("灵感菇")
 		//.tooltip(Text.translate('item.kubejs.chinese_dumpling.tooltip'))
 		.food((food) => {
-			food.hunger(4).saturation(0.5).alwaysEdible(true).effect('minecraft:slow_falling', 100, 0, 1.0).effect('minecraft:levitation', 100, 0, 1.0).a
+			food.hunger(4).saturation(0.5).alwaysEdible(true).effect('minecraft:slow_falling', 100, 0, 1.0).effect('minecraft:levitation', 100, 0, 1.0)
 		})
 	event.create('gold_coin')
 		.displayName("异界金币")
