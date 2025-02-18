@@ -1,0 +1,6 @@
+{
+  "item": "minecraft:redstone",
+  "slotLimit": 10,
+  "addItemSpeed": 1,
+  "addItemTransferFrequency": 1
+}

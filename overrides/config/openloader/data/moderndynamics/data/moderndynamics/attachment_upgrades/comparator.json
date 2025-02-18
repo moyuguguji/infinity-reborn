@@ -1,0 +1,7 @@
+{
+  "item": "minecraft:redstone_block",
+  "slotLimit": 10,
+  "enableAdvancedBehavior": true,
+  "addItemSpeed": 2,
+  "addItemTransferFrequency": 2
+}

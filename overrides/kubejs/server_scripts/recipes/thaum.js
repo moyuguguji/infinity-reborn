@@ -128,7 +128,7 @@ onEvent('recipes', event => {
     ],
     "key": {
       "A": {
-        "item": 'utilities:watch'
+        "item": 'kubejs:difficulty_changer'
       },
       "B": {
         "item": 'minecraft:amethyst_cluster'
@@ -251,10 +251,6 @@ onEvent('recipes', event => {
       },
       {
         "item": 'kubejs:shining_star',//闪耀之星
-        "count": 1
-      },
-      {
-        "item": 'gobber2:dragon_star',//龙之星
         "count": 1
       },
       {

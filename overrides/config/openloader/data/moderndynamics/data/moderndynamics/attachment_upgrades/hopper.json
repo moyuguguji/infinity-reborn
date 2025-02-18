@@ -1,0 +1,6 @@
+{
+  "item": "minecraft:iron_block",
+  "slotLimit": 10,
+  "addFilterSlots": 10,
+  "addItemCount": 10
+}

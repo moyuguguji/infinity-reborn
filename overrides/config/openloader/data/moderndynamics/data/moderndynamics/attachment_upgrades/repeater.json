@@ -1,0 +1,6 @@
+{
+  "item": "minecraft:iron_ingot",
+  "slotLimit": 10,
+  "addFilterSlots": 5,
+  "addItemCount": 5
+}
