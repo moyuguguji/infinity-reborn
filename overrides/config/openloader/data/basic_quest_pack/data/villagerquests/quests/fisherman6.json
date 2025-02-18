@@ -2,7 +2,7 @@
     "id": 6,
     "title": "\u6d4b\u8bd5\u6587\u672c",
     "level": 3,
-    "type": "mine",
+    "icon": "numismatic-overhaul:silver_coin",
     "profession": "fisherman",
     "refresh": 1000,
     "task": [
