@@ -1,11 +1,14 @@
 {
     "id": "tiered:deadly_ranged",
     "verifiers": [
-        {
+         {
             "tag": "c:bows"
         },
         {
             "tag": "c:crossbows"
+        },
+        {
+            "tag": "c:ranged_weapons"
         }
     ],
     "weight": 300,

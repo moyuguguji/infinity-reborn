@@ -8,6 +8,9 @@
         "tag": "tier:weapon"
       },
       {
+        "tag": "c:weapons"
+      },
+      {
         "tag": "tier:ranged"
       }
     ],

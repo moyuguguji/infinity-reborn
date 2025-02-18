@@ -1,11 +1,14 @@
 {
     "id": "tiered:sluggish",
     "verifiers": [
-              {
+               {
                 "tag": "c:swords"
               },
               {
                 "tag": "tier:weapon"
+              },
+              {
+                "tag": "c:weapons"
               },
               {
                 "tag": "tier:ranged"

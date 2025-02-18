@@ -6,6 +6,9 @@
       },
       {
         "tag": "tier:weapon"
+      },
+      {
+        "tag": "c:melee_weapons"
       }
     ],
     "weight": 60,

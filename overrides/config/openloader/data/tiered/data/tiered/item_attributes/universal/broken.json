@@ -1,11 +1,14 @@
 {
     "id": "tiered:broken_weapon",
     "verifiers": [
-              {
+               {
                 "tag": "c:swords"
               },
               {
                 "tag": "tier:weapon"
+              },
+              {
+                "tag": "c:melee_weapons"
               }
     ],
     "weight": 60,

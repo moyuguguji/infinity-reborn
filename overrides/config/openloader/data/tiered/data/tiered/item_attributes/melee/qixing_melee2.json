@@ -2,7 +2,7 @@
     "id": "tiered:qixing_melee2",
     "verifiers": [
         {
-            "tag": "c:swords"
+            "tag": "c:melee_weapons"
         }
     ],
     "weight": -1,

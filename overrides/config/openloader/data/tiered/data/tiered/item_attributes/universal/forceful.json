@@ -1,11 +1,14 @@
 {
     "id": "tiered:forceful",
     "verifiers": [
-              {
+               {
                 "tag": "c:swords"
               },
               {
                 "tag": "tier:weapon"
+              },
+              {
+                "tag": "c:melee_weapons"
               }
     ],
     "weight": 80,
