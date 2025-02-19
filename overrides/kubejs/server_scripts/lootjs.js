@@ -759,4 +759,54 @@ onEvent("lootjs", (event) => {
         .addBlockLootModifier("minecraft:red_mushroom_block")
         .randomChance(0.1)
         .addLoot("kubejs:gu")
+    
+    event
+        .addLootTableModifier("spectrum:chests/wireless_redstone_main")
+        .removeLoot('minecraft:emerald')
+        .removeLoot('minecraft:amethyst_shard')
+        .removeLoot('spectrum:topaz_shard')
+        .removeLoot('spectrum:citrine_shard')
+        .removeLoot('minecraft:diamond')
+        .removeLoot('#spectrum:gemstone_buds')
+        .removeLoot('#spectrum:pigments')
+
+    event
+        .addLootTableModifier("spectrum:chests/ancient_ruins_main")
+        .removeLoot('minecraft:emerald')
+        .removeLoot('minecraft:amethyst_shard')
+        .removeLoot('spectrum:topaz_shard')
+        .removeLoot('spectrum:citrine_shard')
+        .removeLoot('minecraft:diamond')
+        .removeLoot('#spectrum:gemstone_buds')
+        .removeLoot('#spectrum:pigments')
+
+    event
+        .addLootTableModifier("spectrum:chests/color_combinations_black")
+        .removeLoot('minecraft:emerald')
+        .removeLoot('minecraft:amethyst_shard')
+        .removeLoot('spectrum:topaz_shard')
+        .removeLoot('spectrum:citrine_shard')
+        .removeLoot('minecraft:diamond')
+        .removeLoot('#spectrum:gemstone_buds')
+        .removeLoot('#spectrum:pigments')
+
+    event
+        .addLootTableModifier("spectrum:chests/color_combinations_cmy")
+        .removeLoot('minecraft:emerald')
+        .removeLoot('minecraft:amethyst_shard')
+        .removeLoot('spectrum:topaz_shard')
+        .removeLoot('spectrum:citrine_shard')
+        .removeLoot('minecraft:diamond')
+        .removeLoot('#spectrum:gemstone_buds')
+        .removeLoot('#spectrum:pigments')
+
+    event
+        .addLootTableModifier("spectrum:chests/wireless_redstone_main")
+        .removeLoot('minecraft:emerald')
+        .removeLoot('minecraft:amethyst_shard')
+        .removeLoot('spectrum:topaz_shard')
+        .removeLoot('spectrum:citrine_shard')
+        .removeLoot('minecraft:diamond')
+        .removeLoot('#spectrum:gemstone_buds')
+        .removeLoot('#spectrum:pigments')
 })

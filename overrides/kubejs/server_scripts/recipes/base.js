@@ -6,6 +6,7 @@ onEvent('recipes', event => {
 	event.shapeless('4x spectrum:topaz_shard', ['spectrum:topaz_block'])
 	event.shapeless('4x spectrum:citrine_shard', ['spectrum:citrine_block'])
 	event.shapeless('kubejs:jiushu_heart', ['4x kubejs:jiushu_heart_shard'])
+	event.shapeless('kubejs:jiushu_heart_shard', ['9x #c:crops'])
 
 	//event.smithing(Item.of('kubejs:infinity_sword').withNBT('{Unbreakable:1}') ,'kubejs:infinity_sword_a', 'kubejs:infinity_sword_b')
 

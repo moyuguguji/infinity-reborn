@@ -24,7 +24,7 @@
             "playerex:wither_resistance": 0.05
         },
         "playerex:luckiness": {
-            "minecraft:generic.luck": 0.5,
+            "minecraft:generic.luck": 0.01,
             "playerex:evasion": 0.05,
             "playerex:melee_crit_chance": 0.02,
             "playerex:ranged_crit_chance": 0.015
