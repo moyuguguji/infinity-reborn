@@ -43,9 +43,9 @@
 #Allows bundles to be dyed.
 "ColoredBundles Enabled" = true
 #Throw dye into a nether portal to change its color.
-"ColoredNetherPortals Enabled" = true
+"ColoredNetherPortals Enabled" = false
 #Shows cardinal points and XYZ coordinates when holding a compass.
-"CompassOverlay Enabled" = true
+"CompassOverlay Enabled" = false
 #Coral can be combined with sea lanterns to make colored variants.
 "CoralSeaLanterns Enabled" = true
 #Coral Squids spawn near coral in warm oceans.
@@ -90,7 +90,7 @@
 #Button to automatically tidy inventories.
 "InventoryTidying Enabled" = false
 #A functional block that speeds up cooking of clay, glass, bricks and terracotta.
-"Kilns Enabled" = true
+"Kilns Enabled" = false
 #Drop an item onto a lava bucket item to destroy it.
 "LavaBucketDestroysItems Enabled" = true
 #Use a noteblock while sneaking to lower its pitch by one semitone.
@@ -130,7 +130,7 @@
 #Right-clicking on a grass path block with a hoe turns it back into dirt.
 "PathToDirt Enabled" = true
 #Player-only pressure plates crafted using gilded blackstone.
-"PlayerPressurePlates Enabled" = true
+"PlayerPressurePlates Enabled" = false
 #Allows crafting from inventory if the player has a crafting table in their inventory.
 "PortableCrafting Enabled" = true
 #Right-click with a hoe to quickly harvest and replant a fully-grown crop.
@@ -179,19 +179,19 @@
 #A totem will work from anywhere in the player's inventory as well as held in the main or offhand.
 "TotemWorksFromInventory Enabled" = false
 #Barrels available in all types of vanilla wood.
-"VariantBarrels Enabled" = true
+"VariantBarrels Enabled" = false
 #Variant bars crafted from vanilla metal ingots.
-"VariantBars Enabled" = true
+"VariantBars Enabled" = false
 #Bookshelves available in all types of vanilla wood.
-"VariantBookshelves Enabled" = true
+"VariantBookshelves Enabled" = false
 #Variant chains crafted from vanilla metal ingots and nuggets.
-"VariantChains Enabled" = true
+"VariantChains Enabled" = false
 #Chests available in all types of vanilla wood.
-"VariantChests Enabled" = true
+"VariantChests Enabled" = false
 #Ladders available in all types of vanilla wood.
-"VariantLadders Enabled" = true
+"VariantLadders Enabled" = false
 #Variants lanterns crafted from vanilla metal nuggets and torches.
-"VariantLanterns Enabled" = true
+"VariantLanterns Enabled" = false
 #Mobs may spawn with different textures.
 "VariantMobTextures Enabled" = true
 #Villagers are attracted when the player holds a block of emeralds.
@@ -293,7 +293,7 @@
 
 [ExtraTrades]
 	#If true, librarians will buy any enchanted book in return for emeralds.
-	"Enchanted books" = true
+	"Enchanted books" = false
 	#If true, armorers, weaponsmiths and toolsmiths will buy chipped or damaged anvils along with iron ingots in return for repaired anvils.
 	"Repaired anvils" = true
 	#If true, leatherworkers will sell leather in return for rotten flesh.
