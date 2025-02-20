@@ -910,13 +910,13 @@ onEvent('recipes', event => {
     "black": 2,
     "experience": 0,
     "pattern": [
-      "ABA",
+      "ABF",
       "CEC",
       "CDC"
     ],
     "key": {
       "A": {
-        "item": 'spectrum:scarlet_fragments'
+        "item": 'spectrum:red_pigment'
       },
       "B": {
         "item": 'minecraft:lapis_block'
@@ -928,7 +928,10 @@ onEvent('recipes', event => {
         "item": 'spectrum:polished_calcite'
       },
       "E": {
-        "item": 'botania:gaia_ingot'
+        "item": 'mythicmetals:hallowed_ingot'
+      },
+      "F": {
+        "item": 'spectrum:cyan_pigment'
       }
 
     },

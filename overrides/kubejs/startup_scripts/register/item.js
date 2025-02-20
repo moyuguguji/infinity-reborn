@@ -239,4 +239,8 @@ onEvent('item.registry', event => {
 	event.create('starter_bag')
 		.displayName("新手礼包")
 		.tooltip(Text.translate('右键使用'))
+
+	event.create('moon_clock')
+		.displayName("新月怀表")
+		.tooltip(Text.translate('右键使用快进到新月(一次性)'))
 })

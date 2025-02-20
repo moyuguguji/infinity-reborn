@@ -132,48 +132,6 @@ onEvent('entity.hurt', event => {
     }
 })
 
-
-onEvent('level.tick', event => {
-    let moon = event.level.getMoonPhase()
-    let day = event.level.getLocalTime()
-    if (day % 24000 == 1) {
-        switch (moon) {
-            case 0:
-                event.server.runCommandSilent(`title @a actionbar {"text":"今天的月相是满月","color":"deepskyblue","bold":true}`)
-                //event.server.tell(`今天的月相是满月`)
-                break;
-            case 1:
-                event.server.runCommandSilent(`title @a actionbar {"text":"今天的月相是亏凸月","color":"deepskyblue","bold":true}`)
-                break;
-            case 2:
-                event.server.runCommandSilent(`title @a actionbar {"text":"今天的月相是下弦月","color":"deepskyblue","bold":true}`)
-                //event.server.tell(`今天的月相是下弦月`)
-                break;
-            case 3:
-                event.server.runCommandSilent(`title @a actionbar {"text":"今天的月相是残月","color":"deepskyblue","bold":true}`)
-                //event.server.tell(`今天的月相是残月`)
-                break;
-            case 4:
-                event.server.runCommandSilent(`title @a actionbar {"text":"今天的月相是新月","color":"deepskyblue","bold":true}`)
-                //event.server.tell(`今天的月相是新月`)
-                break;
-            case 5:
-                event.server.runCommandSilent(`title @a actionbar {"text":"今天的月相是蛾眉月","color":"deepskyblue","bold":true}`)
-                //event.server.tell(`今天的月相是蛾眉月`)
-                break;
-            case 6:
-                event.server.runCommandSilent(`title @a actionbar {"text":"今天的月相是上弦月","color":"deepskyblue","bold":true}`)
-                //event.server.tell(`今天的月相是上弦月`)
-                break;
-            case 7:
-                event.server.runCommandSilent(`title @a actionbar {"text":"今天的月相是盈凸月","color":"deepskyblue","bold":true}`)
-                //event.server.tell(`今天的月相是盈凸月`)
-                break;
-
-        }
-    }
-})
-
 onEvent("entity.spawned", event => {
 	let bossName = bossList[event.getEntity().type]
 	if (!bossName) return

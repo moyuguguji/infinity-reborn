@@ -809,4 +809,74 @@ onEvent("lootjs", (event) => {
         .removeLoot('minecraft:diamond')
         .removeLoot('#spectrum:gemstone_buds')
         .removeLoot('#spectrum:pigments')
+
+        event
+        .addLootTableModifier("dungeoncrawl:chests/stage_1")
+        .randomChance(0.25) // 战利品表条件：添加掉落概率
+        .addWeightedLoot([2, 10], [
+            Item.of("mythicmetals:aquarium_ingot").withChance(30),//深海金属
+            Item.of('mythicmetals:mythril_ingot').withChance(10),//秘银
+            Item.of('mythicmetals:quadrillum_ingot').withChance(50),//四层
+            Item.of('mythicmetals:banglum_ingot').withChance(40),//班古姆
+            Item.of('mythicmetals:orichalcum_ingot').withChance(10),//山铜
+            Item.of('mythicmetals:silver_ingot').withChance(40),//银
+            Item.of('mythicmetals:carmot_ingot').withChance(15),
+            Item.of('numismatic-overhaul:money_bag', '{Combined:1b,Values:[L;0L,10L,0L]}')//钱//耀金
+        ])
+    event
+        .addLootTableModifier("dungeoncrawl:chests/stage_2")
+        .randomChance(0.45) // 战利品表条件：添加掉落概率
+        .addWeightedLoot([4, 10], [
+            Item.of("mythicmetals:aquarium_ingot").withChance(30),//深海金属
+            Item.of('mythicmetals:mythril_ingot').withChance(10),//秘银
+            Item.of('mythicmetals:quadrillum_ingot').withChance(50),//四层
+            Item.of('mythicmetals:banglum_ingot').withChance(40),//班古姆
+            Item.of('mythicmetals:orichalcum_ingot').withChance(10),//山铜
+            Item.of('mythicmetals:silver_ingot').withChance(40),//银
+            Item.of('mythicmetals:carmot_ingot').withChance(15),
+            Item.of('numismatic-overhaul:money_bag', '{Combined:1b,Values:[L;0L,20L,0L]}')//钱//耀金
+        ])
+    event
+        .addLootTableModifier("dungeoncrawl:chests/stage_3")
+        .randomChance(0.6) // 战利品表条件：添加掉落概率
+        .addWeightedLoot([5, 14], [
+            Item.of("mythicmetals:aquarium_ingot").withChance(30),//深海金属
+            Item.of('mythicmetals:mythril_ingot').withChance(10),//秘银
+            Item.of('mythicmetals:quadrillum_ingot').withChance(50),//四层
+            Item.of('mythicmetals:banglum_ingot').withChance(40),//班古姆
+            Item.of('mythicmetals:orichalcum_ingot').withChance(10),//山铜
+            Item.of('mythicmetals:silver_ingot').withChance(40),//银
+            Item.of('mythicmetals:carmot_ingot').withChance(15),//耀金
+            Item.of('numismatic-overhaul:money_bag', '{Combined:1b,Values:[L;0L,30L,0L]}')//钱
+        ])
+    event
+        .addLootTableModifier("dungeoncrawl:chests/stage_4")
+        .randomChance(0.75) // 战利品表条件：添加掉落概率
+        .addWeightedLoot([8, 18], [
+            Item.of("mythicmetals:aquarium_ingot").withChance(55),//深海金属
+            Item.of('mythicmetals:mythril_ingot').withChance(25),//秘银
+            Item.of('mythicmetals:quadrillum_ingot').withChance(55),//四层
+            Item.of('mythicmetals:banglum_ingot').withChance(45),//班古姆
+            Item.of('mythicmetals:orichalcum_ingot').withChance(25),//山铜
+            Item.of('mythicmetals:silver_ingot').withChance(45),//银
+            Item.of('mythicmetals:carmot_ingot').withChance(25),//耀金
+            Item.of('mythicmetals:adamantite_ingot').withChance(20),//精金
+            Item.of('mythicmetals:kyber_ingot').withChance(5),//凯伯
+            Item.of('numismatic-overhaul:money_bag', '{Combined:1b,Values:[L;0L,40L,0L]}')//钱
+        ])
+    event
+        .addLootTableModifier("dungeoncrawl:chests/stage_5")
+        .randomChance(1.0) // 战利品表条件：添加掉落概率
+        .addWeightedLoot([10, 25], [
+            Item.of("mythicmetals:aquarium_ingot").withChance(60),//深海金属
+            Item.of('mythicmetals:mythril_ingot').withChance(30),//秘银
+            Item.of('mythicmetals:banglum_ingot').withChance(50),//班古姆
+            Item.of('mythicmetals:orichalcum_ingot').withChance(30),//山铜
+            Item.of('mythicmetals:silver_ingot').withChance(50),//银
+            Item.of('mythicmetals:carmot_ingot').withChance(30),//耀金
+            Item.of('mythicmetals:adamantite_ingot').withChance(25),//精金
+            Item.of('mythicmetals:kyber_ingot').withChance(10),//凯伯
+            Item.of('numismatic-overhaul:money_bag', '{Combined:1b,Values:[L;0L,50L,0L]}')//钱
+        ])
+
 })

@@ -240,6 +240,40 @@ const rightClickEventMainHand = {
 			player.tell([Text.lightPurple('[扫地机器人]'), "你没有权限这样做"]);
 		}
 	},
+	'kubejs:moon_clock': function(event) {
+		switch (event.level.getMoonPhase()) {
+			case 0:
+				event.server.runCommandSilent(`time add 4d`)
+				event.player.mainHandItem.count -= 1
+				break;
+			case 1:
+				event.server.runCommandSilent(`time add 3d`)
+				event.player.mainHandItem.count -= 1
+				break;
+			case 2:
+				event.server.runCommandSilent(`time add 2d`)
+				event.player.mainHandItem.count -= 1
+				break;
+			case 3:
+				event.server.runCommandSilent(`time add 1d`)
+				event.player.mainHandItem.count -= 1
+				break;
+			case 4:
+				break;
+			case 5:
+				event.server.runCommandSilent(`time add 7d`)
+				event.player.mainHandItem.count -= 1
+				break;
+			case 6:
+				event.server.runCommandSilent(`time add 6d`)
+				event.player.mainHandItem.count -= 1
+				break;
+			case 7:
+				event.server.runCommandSilent(`time add 5d`)
+				event.player.mainHandItem.count -= 1
+				break;
+			}
+		},
 	'spectrum:crescent_clock': function(event) {
 		let player = event.player
 		switch (event.level.getMoonPhase()) {
