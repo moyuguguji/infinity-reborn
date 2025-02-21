@@ -486,7 +486,11 @@
       "yigd:grave",
       "#minecraft:saplings",
       "#minecraft:leaves",
-      "#minecraft:mineable/shovel"
+      "#minecraft:mineable/shovel",
+      "darkutils",
+      "kibe",
+      "moderndynamics",
+      "#spectrum:player_only_glass"
     ]
   },
   "Breaklist as Blacklist": {
@@ -618,7 +622,7 @@
       "Difficulty at which mobs are able to break blocks",
       "Range: > 0.0"
     ],
-    "input": 15.0
+    "input": 20.0
   },
   "Difficulty Steal AI": {
     "__comment": [
