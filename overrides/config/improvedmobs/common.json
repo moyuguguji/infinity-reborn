@@ -490,7 +490,8 @@
       "darkutils",
       "kibe",
       "moderndynamics",
-      "#spectrum:player_only_glass"
+      "#spectrum:player_only_glass",
+      "#c:glass"
     ]
   },
   "Breaklist as Blacklist": {
