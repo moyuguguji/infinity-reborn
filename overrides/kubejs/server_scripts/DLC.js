@@ -146,8 +146,7 @@ onEvent('recipes', event => {//光谱
         ],
         "result": {
             "item": 'spectrum:budding_moonstone'
-        },
-        "required_advancement": "spectrum:build_fusion_shrine"
+        }
     })
 })
 onEvent('recipes', event => {//永恒

@@ -260,6 +260,18 @@
 				item: "kubejs:strong_fossil"
 			}]
 		}
+		{
+			x: 3.5d
+			y: -0.5d
+			description: ["用于饰品重铸"]
+			dependencies: ["4E9D4C3243DC06D1"]
+			id: "71B499CCD96E7D98"
+			tasks: [{
+				id: "41230E4D4E9B3305"
+				type: "item"
+				item: "kubejs:gold_coin"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

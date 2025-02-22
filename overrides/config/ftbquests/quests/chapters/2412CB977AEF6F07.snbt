@@ -171,7 +171,7 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 7.0d
 			y: 4.0d
 			description: ["{chapter.19.quest.9.description.1}"]
 			id: "5672BE9A8530451F"
@@ -554,31 +554,6 @@
 				id: "522BB67114DACF39"
 				type: "item"
 				item: "xps:handbook"
-			}]
-		}
-		{
-			title: "{chapter.19.quest.28.title}"
-			x: 7.0d
-			y: 4.0d
-			description: ["{chapter.19.quest.28.description.1}"]
-			id: "783FC4E2B4A9EF76"
-			tasks: [
-				{
-					id: "58308DFAD8CA617A"
-					type: "item"
-					item: "minecraft:hopper"
-				}
-				{
-					id: "13BB876D63493502"
-					type: "item"
-					item: "hplus:upgrade_base"
-				}
-			]
-			rewards: [{
-				id: "1D9D7C2E0C4A67F6"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 1005535573748960953L
 			}]
 		}
 		{
@@ -1060,18 +1035,6 @@
 		{
 			x: 7.0d
 			y: 10.0d
-			subtitle: "{chapter.19.quest.55.subtitle}"
-			description: ["{chapter.19.quest.55.description.1}"]
-			id: "5EF930699ACBD382"
-			tasks: [{
-				id: "1179BABB231082B6"
-				type: "item"
-				item: "hplus:wrench"
-			}]
-		}
-		{
-			x: 8.0d
-			y: 10.0d
 			subtitle: "{chapter.19.quest.56.subtitle}"
 			description: ["{chapter.19.quest.56.description.1}"]
 			id: "5FAC6D85F06F842A"
@@ -1079,6 +1042,67 @@
 				id: "4C1D28597771333C"
 				type: "item"
 				item: "bew76:wrench"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 4.0d
+			subtitle: "给我干哪来了,这还是xx包吗?"
+			description: ["用于传输物品"]
+			dependencies: ["5CC8D2A1F4AAF533"]
+			id: "127E60F0B9B02FA1"
+			tasks: [{
+				id: "4EDEDA63A27EC83D"
+				type: "item"
+				item: "moderndynamics:item_pipe"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 4.0d
+			subtitle: "新月锤(并不)"
+			description: ["潜行右键取下管道,右键可以将组件卸下"]
+			id: "5CC8D2A1F4AAF533"
+			tasks: [{
+				id: "17A1C2D4E78C3156"
+				type: "item"
+				item: "moderndynamics:wrench"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.0d
+			description: ["放在要输出的管道接口上"]
+			dependencies: ["5CC8D2A1F4AAF533"]
+			id: "7E7FB0BE7396ED40"
+			tasks: [{
+				id: "200D9A12223D866D"
+				type: "item"
+				item: "moderndynamics:extractor"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 3.0d
+			description: ["用于分流物品"]
+			dependencies: ["5CC8D2A1F4AAF533"]
+			id: "602ABE47D5800364"
+			tasks: [{
+				id: "1CF9530E437007E4"
+				type: "item"
+				item: "moderndynamics:filter"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 4.0d
+			description: ["用于一次抽取大量容器"]
+			dependencies: ["5CC8D2A1F4AAF533"]
+			id: "5F6CD2EA20FB10F3"
+			tasks: [{
+				id: "505B1AA725169936"
+				type: "item"
+				item: "moderndynamics:attractor"
 			}]
 		}
 	]

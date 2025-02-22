@@ -336,6 +336,39 @@
 				table_id: 5136761027295037695L
 			}]
 		}
+		{
+			x: -5.5d
+			y: -2.5d
+			optional: true
+			invisible: true
+			id: "27110048DE7DA256"
+			tasks: [{
+				id: "01F7E72FA8060274"
+				type: "item"
+				item: {
+					id: "kubejs:snowstormcane"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "473CD9AE1D35BFF9"
+				type: "item"
+				item: {
+					id: "graveyard:skull_pile"
+					Count: 1b
+					tag: {
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"text\":\"这是金鸢尾兰帝国的一种特色雕塑(?)，专门用于纪念那些被沙头之后头又被沙皇吃掉的史官们，外观及其可怖，或许可以用来唬人?\"}],\"text\":\"\"}"]
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"京观\"}],\"text\":\"\"}"
+						}
+					}
+				}
+				count: 20
+			}]
+		}
 	]
 	quest_links: [ ]
 }

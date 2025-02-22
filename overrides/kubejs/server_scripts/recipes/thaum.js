@@ -469,6 +469,234 @@ onEvent('recipes', event => {
     },
   })
   event.custom({
+    type: "spectrum:enchanter",
+    "time": 600,
+    "required_experience": 2500,
+    "ingredients": [
+      {
+        "item": 'minecraft:book'
+      },
+      {
+        "item": 'spectrum:cyan_pigment'
+      },
+      {
+        "item": 'spectrum:cyan_pigment'
+      },
+      {
+        "item": 'spectrum:sparklestone_gem'
+      },
+      {
+        "item": 'spectrum:lightning_stone'
+      },
+      {
+        "item": 'spectrum:light_blue_pigment'
+      },
+      {
+        "item": 'spectrum:light_blue_pigment'
+      },
+      {
+        "item": 'spectrum:sparklestone_gem'
+      },
+      {
+        "item": 'spectrum:lightning_stone'
+      }
+    ],
+    "result": {
+      "item": "minecraft:enchanted_book",
+      "nbt": "{StoredEnchantments: [{id: \"elementalenchantments:elec_aspect\", lvl: 2s}]}"
+    }
+  })
+  event.custom({
+    type: "spectrum:enchanter",
+    "time": 600,
+    "required_experience": 3000,
+    "ingredients": [
+      {
+        "item": 'minecraft:book'
+      },
+      {
+        "item": 'spectrum:yellow_pigment'//1
+      },
+      {
+        "item": 'spectrum:yellow_pigment'//2
+      },
+      {
+        "item": 'minecraft:totem_of_undying'//3
+      },
+      {
+        "item": 'minecraft:golden_apple'//4
+      },
+      {
+        "item": 'spectrum:orange_pigment'//5
+      },
+      {
+        "item": 'spectrum:orange_pigment'//6
+      },
+      {
+        "item": 'minecraft:totem_of_undying'//7
+      },
+      {
+        "item": 'minecraft:golden_apple'//8
+      }
+    ],
+    "result": {
+      "item": "minecraft:enchanted_book",
+      "nbt": "{StoredEnchantments: [{id: \"x_enchant:rebirth\", lvl: 1s}]}"
+    }
+  })
+  event.custom({
+    type: "spectrum:enchanter",
+    "time": 600,
+    "required_experience": 2000,
+    "ingredients": [
+      {
+        "item": 'minecraft:book'
+      },
+      {
+        "item": 'spectrum:red_pigment'//1
+      },
+      {
+        "item": 'spectrum:red_pigment'//2
+      },
+      {
+        "item": 'minecraft:smooth_quartz'//3
+      },
+      {
+        "item": 'minecraft:iron_ingot'//4
+      },
+      {
+        "item": 'spectrum:black_pigment'//5
+      },
+      {
+        "item": 'spectrum:black_pigment'//6
+      },
+      {
+        "item": 'minecraft:iron_ingot'//7
+      },
+      {
+        "item": 'minecraft:iron_ingot'//8
+      }
+    ],
+    "result": {
+      "item": "minecraft:enchanted_book",
+      "nbt": "{StoredEnchantments: [{id: \"gobber2:smithblade\", lvl: 1s}]}"
+    }
+  })
+  event.custom({
+    type: "spectrum:enchanter",
+    "time": 200,
+    "required_experience": 200,
+    "ingredients": [
+      {
+        "item": 'minecraft:book'
+      },
+      {
+        "item": 'spectrum:purple_pigment'//1
+      },
+      {
+        "item": 'spectrum:quitoxic_powder'//2
+      },
+      {
+        "item": 'spectrum:amethyst_powder'//3
+      },
+      {
+        "item": 'xps:xp_dust'//4
+      },
+      {
+        "item": 'spectrum:purple_pigment'//5
+      },
+      {
+        "item": 'spectrum:quitoxic_powder'//6
+      },
+      {
+        "item": 'spectrum:amethyst_powder'//7
+      },
+      {
+        "item": 'xps:xp_dust'//8
+      }
+    ],
+    "result": {
+      "item": "minecraft:enchanted_book",
+      "nbt": "{StoredEnchantments: [{id: \"x_enchant:remove_cursed\", lvl: 1s}]}"
+    }
+  })
+  event.custom({
+  type: "spectrum:enchanter",
+  "time": 300,
+  "required_experience": 100,
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "spectrum:yellow_pigment"
+    },
+    {
+      "item": "spectrum:yellow_pigment"
+    },
+    {
+      "item": 'spectrum:moonstone_shard'
+    },
+    {
+      "item": "spectrum:neolith"
+    },
+    {
+      "item": "spectrum:yellow_pigment"
+    },
+    {
+      "item": "spectrum:yellow_pigment"
+    },
+    {
+      "item": 'spectrum:moonstone_shard'
+    },
+    {
+      "item": "spectrum:neolith"
+    }
+  ],
+  "result": {
+    "item": "minecraft:enchanted_book",
+    "nbt": "{StoredEnchantments: [{id: \"spectrum:tight_grip\", lvl: 1s}]}"
+  }
+  }).id("spectrum:enchanter/spectrum_books/book_tight_grip")
+  event.custom({
+  type: "spectrum:enchanter",
+  "time": 300,
+  "required_experience": 100,
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "spectrum:green_pigment"
+    },
+    {
+      "item": "spectrum:green_pigment"
+    },
+    {
+      "item": 'spectrum:moonstone_shard'
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "spectrum:green_pigment"
+    },
+    {
+      "item": "spectrum:green_pigment"
+    },
+    {
+      "item": 'spectrum:moonstone_shard'
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "result": {
+    "item": "minecraft:enchanted_book",
+    "nbt": "{StoredEnchantments: [{id: \"spectrum:sniper\", lvl: 1s}]}"
+  }
+  }).id("spectrum:enchanter/spectrum_books/book_sniper")
+  event.custom({
     type: "spectrum:pedestal",
     "time": 600,
     "tier": "basic",

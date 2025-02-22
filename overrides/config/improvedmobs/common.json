@@ -592,10 +592,11 @@
     "input": [
       "minecraft:diamond_pickaxe;1",
       "minecraft:iron_axe;2",
-      "#c:tools/pickaxes",
+      "#c:mining_tools",
       "#c:pickaxes",
       "#minecraft:cluster_max_harvestables",
-      "#bookshelf:axes"
+      "#bookshelf:axes",
+      "#c:tools"
     ]
   },
   "Break BlockEntities": {

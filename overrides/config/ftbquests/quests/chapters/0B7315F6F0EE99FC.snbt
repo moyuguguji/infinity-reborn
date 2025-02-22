@@ -1597,22 +1597,6 @@
 		{
 			x: 6.0d
 			y: 4.0d
-			id: "3C494DFB2C7CC5C5"
-			tasks: [{
-				id: "2C85779C1D97AF28"
-				type: "item"
-				item: "botania:balance_cloak"
-			}]
-			rewards: [{
-				id: "3CFF6B8C5C6605B5"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 1005535573748960953L
-			}]
-		}
-		{
-			x: 7.0d
-			y: 4.0d
 			id: "4494470567B57CA4"
 			tasks: [{
 				id: "7960F5EA1B3F3351"
@@ -1697,7 +1681,7 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 7.0d
 			y: 4.0d
 			id: "133A559D5AC35907"
 			tasks: [{
@@ -1729,7 +1713,7 @@
 			}]
 		}
 		{
-			x: 9.0d
+			x: 8.0d
 			y: 4.0d
 			id: "2C89336C0AEDC909"
 			tasks: [{

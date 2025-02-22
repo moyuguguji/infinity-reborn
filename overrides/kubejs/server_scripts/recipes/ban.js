@@ -56,6 +56,7 @@ onEvent('recipes', event =>{
     event.remove({output:'botania:terra_sword'})
     event.remove({output:'botania:thunder_sword'})
     event.remove({output:'botania:star_sword'})
+    event.remove({output:'botania:balance_cloak'})
     
     event.remove({output:'morevillagers:purpur_altar'})
 

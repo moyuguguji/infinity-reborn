@@ -133,13 +133,9 @@
 			dependencies: ["79E81F0D0846832B"]
 			id: "622651527A5344FC"
 			tasks: [{
-				id: "64AE6E132EEC8D8D"
-				type: "observation"
-				title: "{chapter.13.quest.6.task.1.title}"
-				icon: "botania:endoflame"
-				timer: 15L
-				observe_type: 0
-				to_observe: "botania:endoflame"
+				id: "35BF3FF5B666E3B4"
+				type: "item"
+				item: "botania:endoflame"
 			}]
 			rewards: [{
 				id: "3C6AA255D40E2557"
@@ -544,11 +540,7 @@
 				"{chapter.13.quest.26.description.1}"
 				"{image:kubejs:textures/ftbq/gaiya.png width:119 height:98 align:1}"
 			]
-			dependencies: [
-				"2DC6044863690E1F"
-				"027AAA6A3553F7DB"
-			]
-			hide: true
+			dependencies: ["2DC6044863690E1F"]
 			dependency_requirement: "one_completed"
 			id: "5DEEDE9C790DCA0C"
 			tasks: [

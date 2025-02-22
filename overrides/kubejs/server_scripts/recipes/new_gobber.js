@@ -542,7 +542,7 @@ onEvent('recipes', event => {
          'item':'minecraft:diamond'
        },
        {
-        'item':'mythicmetals:aquarium_ingot'
+        'item':'mythicmetals:kyber_ingot'
        },
        {
         'item':'botania:manasteel_ingot'

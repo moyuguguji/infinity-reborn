@@ -523,6 +523,7 @@
 		{
 			x: 7.5d
 			y: 4.0d
+			subtitle: "注意!合成不会保留背包内物品"
 			description: ["{chapter.21.quest.33.description.1}"]
 			dependencies: ["02F039E7A5724ABA"]
 			optional: true

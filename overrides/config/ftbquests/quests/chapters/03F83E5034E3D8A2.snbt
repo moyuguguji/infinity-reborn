@@ -530,33 +530,6 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.24.title}"
-			icon: {
-				id: "adventurez:prime_eye"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: -3.0d
-			y: 2.0d
-			shape: "hexagon"
-			subtitle: "{chapter.2.quest.24.subtitle}"
-			description: ["{chapter.2.quest.24.description.1}"]
-			hide: true
-			id: "6F102163B599B6DE"
-			tasks: [{
-				id: "2E8F462EFC2F9B40"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "296262729E9E4F93"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 3342768205198891787L
-			}]
-		}
-		{
 			icon: {
 				id: "charm:atlas"
 				Count: 1b

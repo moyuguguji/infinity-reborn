@@ -568,6 +568,11 @@
 					advancement: "spectrum:build_fusion_shrine"
 					criterion: ""
 				}
+				{
+					id: "7D2204EB92D6B34C"
+					type: "item"
+					item: "kubejs:moon_clock"
+				}
 			]
 		}
 		{
@@ -864,7 +869,7 @@
 		}
 		{
 			x: -4.5d
-			y: -2.5d
+			y: -1.0d
 			shape: "circle"
 			subtitle: "{chapter.12.quest.22.subtitle}"
 			description: ["{chapter.12.quest.22.description.1}"]
@@ -905,8 +910,8 @@
 			]
 		}
 		{
-			x: -4.5d
-			y: -1.0d
+			x: -3.0d
+			y: -2.5d
 			description: ["{chapter.12.quest.23.description.1}"]
 			dependencies: [
 				"58CB04E34DFCAC0D"
@@ -943,7 +948,7 @@
 			]
 		}
 		{
-			x: -4.5d
+			x: -3.0d
 			y: 0.5d
 			description: ["{chapter.12.quest.24.description.1}"]
 			dependencies: ["1E114E9019D2C90E"]
@@ -1016,8 +1021,8 @@
 			]
 		}
 		{
-			x: -3.0d
-			y: 2.0d
+			x: -4.5d
+			y: 0.5d
 			description: ["{chapter.12.quest.26.description.1}"]
 			dependencies: [
 				"027AAA6A3553F7DB"
@@ -1054,8 +1059,8 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: 2.0d
+			x: 0.0d
+			y: 0.5d
 			shape: "circle"
 			subtitle: "{chapter.12.quest.27.subtitle}"
 			description: ["{chapter.12.quest.27.description.1}"]
@@ -1199,6 +1204,12 @@
 					id: "1E4D36F2FB718505"
 					type: "item"
 					item: "spectrum:budding_moonstone"
+				}
+				{
+					id: "760B419B31AFD811"
+					type: "item"
+					item: "botania:gaia_ingot"
+					consume_items: true
 				}
 			]
 			rewards: [
@@ -1422,8 +1433,8 @@
 			]
 		}
 		{
-			x: -4.0d
-			y: -5.0d
+			x: -3.0d
+			y: -5.5d
 			description: [
 				"{chapter.12.quest.37.description.1}"
 				"{image:kubejs:textures/ftbq/2023-07-28_19.57.46.png width:128 height:123 align:1}"
@@ -1555,7 +1566,7 @@
 			]
 		}
 		{
-			x: -2.5d
+			x: -1.5d
 			y: -5.5d
 			description: ["{chapter.12.quest.41.description.1}"]
 			dependencies: ["715195FE8612B929"]
@@ -1590,8 +1601,8 @@
 			]
 		}
 		{
-			x: -3.0d
-			y: 3.5d
+			x: -4.5d
+			y: 2.0d
 			description: ["{chapter.12.quest.42.description.1}"]
 			dependencies: ["0F5773559E05C414"]
 			id: "7A371AB5EA5F3986"
@@ -1625,8 +1636,8 @@
 		}
 		{
 			title: "{chapter.12.quest.43.title}"
-			x: -4.5d
-			y: 5.0d
+			x: -3.0d
+			y: 2.0d
 			description: [
 				"{chapter.12.quest.43.description.1}"
 				"{image:kubejs:textures/ftbq/spectrum_relic.png width:256 height:137 align:1}"
@@ -1664,12 +1675,10 @@
 		}
 		{
 			x: -4.5d
-			y: 2.0d
+			y: 3.5d
+			subtitle: "需要先解锁午夜残片"
 			description: ["{chapter.12.quest.44.description.1}"]
-			dependencies: [
-				"4DC63D1752013975"
-				"7A371AB5EA5F3986"
-			]
+			dependencies: ["7A371AB5EA5F3986"]
 			hide: true
 			id: "275A0F585FBD2541"
 			tasks: [
@@ -1701,7 +1710,7 @@
 			]
 		}
 		{
-			x: -6.0d
+			x: -4.5d
 			y: -2.5d
 			description: ["{chapter.12.quest.45.description.1}"]
 			dependencies: ["116BF87094EA4E42"]
@@ -1730,7 +1739,7 @@
 					}]
 				}
 			}
-			x: 0.0d
+			x: 1.5d
 			y: 0.5d
 			description: ["{chapter.12.quest.46.description.1}"]
 			dependencies: ["6CD923D48AF77852"]
@@ -1749,8 +1758,8 @@
 		}
 		{
 			title: "{chapter.12.quest.47.title}"
-			x: -6.0d
-			y: 3.5d
+			x: -4.5d
+			y: 5.0d
 			description: ["{chapter.12.quest.47.description.1}"]
 			dependencies: [
 				"275A0F585FBD2541"
@@ -1914,7 +1923,7 @@
 		}
 		{
 			x: -6.0d
-			y: 5.0d
+			y: 3.5d
 			description: ["{chapter.12.quest.52.description.1}"]
 			dependencies: ["494C83C4596F5FF0"]
 			optional: true
@@ -1949,7 +1958,7 @@
 		}
 		{
 			x: -1.5d
-			y: 3.5d
+			y: 2.0d
 			description: [
 				"{chapter.12.quest.53.description.1}"
 				"{image:kubejs:textures/ftbq/jiyan.png width:180 height:100 align:1}"
@@ -1981,7 +1990,7 @@
 		}
 		{
 			x: -1.5d
-			y: 5.0d
+			y: 3.5d
 			description: ["{chapter.12.quest.55.description.1}"]
 			dependencies: ["3660C7ACAF4E08ED"]
 			id: "4ADEA4FA1526CE3E"
@@ -2018,7 +2027,7 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: -1.5d
 			y: 5.0d
 			dependencies: ["4ADEA4FA1526CE3E"]
 			optional: true
@@ -2098,7 +2107,7 @@
 			]
 		}
 		{
-			x: -4.5d
+			x: -3.0d
 			y: 3.5d
 			description: ["{chapter.12.quest.60.description.1}"]
 			dependencies: [

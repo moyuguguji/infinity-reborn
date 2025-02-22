@@ -2291,20 +2291,12 @@
 			dependencies: ["3022F8914C5B5968"]
 			hide: true
 			id: "533713607C41872C"
-			tasks: [
-				{
-					id: "28C512FD96EEF343"
-					type: "item"
-					item: "minecraft:cod"
-					consume_items: true
-				}
-				{
-					id: "4C761CDDB87FC527"
-					type: "advancement"
-					advancement: "spectrum:midgame/fish_in_many_liquids"
-					criterion: ""
-				}
-			]
+			tasks: [{
+				id: "28C512FD96EEF343"
+				type: "item"
+				item: "minecraft:cod"
+				consume_items: true
+			}]
 			rewards: [{
 				id: "10D4E8288D8DCFCC"
 				type: "item"
@@ -2579,6 +2571,100 @@
 							{
 								lvl: 10
 								id: "mcdw:overcharge"
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "通通杀头!"
+			x: 2.0d
+			y: 2.0d
+			subtitle: "呱,是沙皇!大家快退!"
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			optional: true
+			id: "5C16F04C17DD2408"
+			tasks: [
+				{
+					id: "34FDA1083471A9AD"
+					type: "advancement"
+					title: "获取所有生物的头颅"
+					advancement: "spectrum:midgame/collect_all_mob_heads"
+					criterion: ""
+				}
+				{
+					id: "61F2A20A7F9037DC"
+					type: "advancement"
+					advancement: "spectrum:midgame/collect_mob_head_using_treasure_hunter"
+					criterion: ""
+				}
+			]
+			rewards: [{
+				id: "243E82761ED664A5"
+				type: "item"
+				item: {
+					id: "minecraft:golden_axe"
+					Count: 1b
+					tag: {
+						swa3: { }
+						Unbreakable: 1b
+						HideFlags: 3
+						Enchantments: [
+							{
+								lvl: 10
+								id: "fabricenchantments:consumer"
+							}
+							{
+								lvl: 20
+								id: "mcdw:rampaging"
+							}
+							{
+								lvl: 100
+								id: "spectrum:treasure_hunter"
+							}
+							{
+								lvl: 100
+								id: "fabricenchantments:beheading"
+							}
+							{
+								lvl: 20
+								id: "minecraft:sharpness"
+							}
+						]
+						display: {
+							Lore: [
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"传说中金鸢尾兰帝国用来沙头的用具,据说砍了无数史官用来做京观\"}],\"text\":\"\"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"dark_purple\",\"text\":\"其上仿佛还能听到史官的哀嚎\"}],\"text\":\"\"}"
+							]
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"沙头斧\"}],\"text\":\"\"}"
+						}
+						Damage: 0
+						AttributeModifiers: [
+							{
+								Slot: "mainhand"
+								AttributeName: "minecraft:generic.attack_damage"
+								Operation: 0
+								UUID: [I;
+									1459401958
+									1292716146
+									-1130490597
+									-535804058
+								]
+								Amount: 20.0d
+							}
+							{
+								Slot: "mainhand"
+								AttributeName: "minecraft:generic.attack_speed"
+								Operation: 0
+								UUID: [I;
+									-1631725604
+									271206987
+									-2047656277
+									-1129034081
+								]
+								Amount: 1.0d
 							}
 						]
 					}

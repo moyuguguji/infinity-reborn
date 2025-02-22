@@ -122,6 +122,7 @@
 			x: -3.0d
 			y: 0.5d
 			dependencies: ["3DD77F75AE982826"]
+			optional: true
 			id: "476311F6AC1B2243"
 			tasks: [{
 				id: "0DC2A83B8D170D06"
@@ -146,6 +147,7 @@
 			y: 2.0d
 			description: ["{chapter.8.quest.5.description.1}"]
 			dependencies: ["4EB4675BB9984883"]
+			optional: true
 			id: "565A517185DF9950"
 			tasks: [{
 				id: "79D79BB211FFC08A"
@@ -173,6 +175,7 @@
 			subtitle: "{chapter.8.quest.6.subtitle}"
 			description: ["{chapter.8.quest.6.description.1}"]
 			dependencies: ["101189C9EB665FB6"]
+			optional: true
 			id: "4EB4675BB9984883"
 			tasks: [
 				{
@@ -183,7 +186,7 @@
 				{
 					id: "0F82274EB741D7A3"
 					type: "item"
-					item: "mythicmetals:aquarium_ingot"
+					item: "mythicmetals:kyber_ingot"
 				}
 				{
 					id: "52EF32ADDA85FCB5"
@@ -200,18 +203,32 @@
 		}
 		{
 			title: "{chapter.8.quest.7.title}"
-			x: 9.0d
-			y: 0.0d
+			x: 8.0d
+			y: 0.5d
 			subtitle: "{chapter.8.quest.7.subtitle}"
 			description: ["{chapter.8.quest.7.description.1}"]
 			dependencies: ["32DC410EC16DFBA4"]
+			min_required_tasks: 1
 			id: "3AB25BFC35ED4493"
-			tasks: [{
-				id: "02A4066F190AA51E"
-				type: "advancement"
-				advancement: "darkbosses:old_champions_remains_boss"
-				criterion: ""
-			}]
+			tasks: [
+				{
+					id: "52FF8E9BAF66AB20"
+					type: "advancement"
+					advancement: "darkbosses:old_champions_remains_boss"
+					criterion: ""
+				}
+				{
+					id: "189AB82F2AF307B5"
+					type: "item"
+					item: {
+						id: "soulsweapons:draugr"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 			rewards: [
 				{
 					id: "31DA7959AA8EFAA1"
@@ -229,8 +246,8 @@
 		}
 		{
 			title: "{chapter.8.quest.8.title}"
-			x: 9.0d
-			y: -1.5d
+			x: 7.5d
+			y: -1.0d
 			subtitle: "{chapter.8.quest.8.subtitle}"
 			description: ["{chapter.8.quest.8.description.1}"]
 			dependencies: ["3AB25BFC35ED4493"]
@@ -258,7 +275,7 @@
 		}
 		{
 			title: "{chapter.8.quest.9.title}"
-			x: 4.0d
+			x: 3.5d
 			y: -0.5d
 			subtitle: "{chapter.8.quest.9.subtitle}"
 			description: ["{chapter.8.quest.9.description.1}"]
@@ -288,8 +305,8 @@
 		{
 			title: "{chapter.8.quest.10.title}"
 			icon: "bosses_of_mass_destruction:ancient_anima"
-			x: 9.0d
-			y: 1.5d
+			x: 7.0d
+			y: 2.0d
 			subtitle: "{chapter.8.quest.10.subtitle}"
 			description: ["{chapter.8.quest.10.description.1}"]
 			dependencies: ["32DC410EC16DFBA4"]
@@ -318,8 +335,8 @@
 		{
 			title: "{chapter.8.quest.11.title}"
 			icon: "bosses_of_mass_destruction:void_thorn"
-			x: 6.5d
-			y: 3.5d
+			x: 4.5d
+			y: 2.0d
 			subtitle: "{chapter.8.quest.11.subtitle}"
 			description: ["{chapter.8.quest.11.description.1}"]
 			dependencies: ["32DC410EC16DFBA4"]
@@ -351,6 +368,7 @@
 			y: 2.0d
 			description: ["{chapter.8.quest.12.description.1}"]
 			dependencies: ["476311F6AC1B2243"]
+			optional: true
 			id: "101189C9EB665FB6"
 			tasks: [{
 				id: "0CAFB4DB2D529C89"
@@ -487,8 +505,8 @@
 		{
 			title: "{chapter.8.quest.18.title}"
 			icon: "terrarianslimes:slime_crown"
-			x: 4.5d
-			y: 3.5d
+			x: 3.0d
+			y: 0.5d
 			subtitle: "{chapter.8.quest.18.subtitle}"
 			description: ["{chapter.8.quest.18.description.1}"]
 			dependencies: ["32DC410EC16DFBA4"]
@@ -548,7 +566,7 @@
 		}
 		{
 			title: "{chapter.8.quest.20.title}"
-			x: 7.5d
+			x: 6.0d
 			y: -1.5d
 			subtitle: "{chapter.8.quest.20.subtitle}"
 			description: ["{chapter.8.quest.20.description.1}"]
@@ -581,7 +599,7 @@
 			]
 		}
 		{
-			x: 5.5d
+			x: 4.5d
 			y: -1.5d
 			description: ["{chapter.8.quest.21.description.1}"]
 			dependencies: ["2A37DB4C5176902C"]
@@ -659,7 +677,7 @@
 			x: 6.0d
 			y: 0.5d
 			subtitle: "{chapter.8.quest.24.subtitle}"
-			dependencies: ["565A517185DF9950"]
+			hide_dependency_lines: true
 			size: 2.0d
 			id: "32DC410EC16DFBA4"
 			tasks: [{
@@ -981,6 +999,7 @@
 			subtitle: "{chapter.8.quest.33.subtitle}"
 			description: ["{chapter.8.quest.33.description.1}"]
 			dependencies: ["476311F6AC1B2243"]
+			optional: true
 			id: "73564B8D8E331790"
 			tasks: [
 				{
