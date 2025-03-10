@@ -55,7 +55,12 @@ onEvent('entity.hurt', event => {
         }
         if (mainItem == 'kubejs:qixing_sword') {
             player.heal((damage + target.health * 0.05) * 0.05)
+            if(target.maxHealth * 0.01 >= target.health && target.health > 0){
+                target.setHealth(1)
+            }else
+            {
             target.attack(target.maxHealth * 0.01)
+            }
             return
         }
         if (mainItem == 'kubejs:nature_spirit') {
@@ -64,7 +69,11 @@ onEvent('entity.hurt', event => {
             return
         }
         if (mainItem == 'kubejs:sixiang_kaitian') {
+            if(target.health * 0.05 >= target.health && target.health > 0){
+                target.setHealth(1)
+            }else{
             target.attack(target.health * 0.05)
+            }
             return
         }
         if (mainItem == 'kubejs:lce_tang') {
@@ -77,7 +86,11 @@ onEvent('entity.hurt', event => {
             return
         }
         if (mainItem == 'kubejs:ailinghan') {
+            if(player.maxHealth * 0.1 >= target.health && target.health > 0){
+                target.setHealth(1)
+            }else{
             target.attack(player.maxHealth * 0.1)
+        }
             return
         }
         if (mainItem == 'kubejs:jian_li') {
@@ -86,12 +99,20 @@ onEvent('entity.hurt', event => {
                 player.heal(-player.maxHealth * 0.1)
             }
             if (player.health < 10 && result < 10) {
+                if(damage * 2.5 >= target.health && target.health > 0){
+                    target.setHealth(1)
+                }else{
                 target.attack(damage * 2.5)
+                }
                 target.potionEffects.add('minecraft:slowness', 100, 9)
                 target.potionEffects.add('minecraft:weakness', 100, 9)
                 player.potionEffects.add('spectrum:swiftness', 20, 9, false, false)
             } else {
+                if(damage * 0.5 >= target.health && target.health > 0){
+                    target.setHealth(1)
+                }else{
                 target.attack(damage * 0.5)
+                }
             }
             return
         }
@@ -101,27 +122,47 @@ onEvent('entity.hurt', event => {
         }
         if (mainItem == 'kubejs:mu_jian') {
             let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
+            if(result * 0.5 >= target.health && target.health > 0){
+                target.setHealth(1)
+            }else{
             target.attack(result * 0.5)
+            }
             return
         }
         if (mainItem == 'kubejs:mu_jian_seven') {
             let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
+            if(result * 0.25 >= target.health && target.health > 0){
+                target.setHealth(1)
+            }else{
             target.attack(result * 0.25)
+            }
             return
         }
         if (mainItem == 'kubejs:yuan_mu_jian') {
             let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
+            if(result * 2.0 >= target.health && target.health > 0){
+                target.setHealth(1)
+            }else{
             target.attack(result * 2.0)
+            }
             return
         }
         if (mainItem == 'kubejs:yuan_mu_jian_seven') {
             let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
+            if(result * 1.0 >= target.health && target.health > 0){
+                target.setHealth(1)
+            }else{
             target.attack(result * 1.0)
+            }
             return
         }
         if (mainItem == 'kubejs:yuan_mu_jian_one') {
             let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
+            if(result * 0.5 >= target.health && target.health > 0){
+                target.setHealth(1)
+            }else{
             target.attack(result * 0.5)
+            }
             return
         }
         if(mainItem == 'kubejs:sheng_jin'){
@@ -136,6 +177,18 @@ onEvent("entity.spawned", event => {
 	let bossName = bossList[event.getEntity().type]
 	if (!bossName) return
 	event.server.tell(`\u00A75${bossName}已经苏醒!`)
+})
+
+onEvent("entity.spawned", event => {
+    let entity = event.getEntity()
+    if (!entity.monster) return
+    if (entity.potionEffects.isActive('kibe:cursed_effect') && entity.type != 'minecraft:enderman') {
+        event.server.scheduleInTicks(1, schedule => {
+            if(entity.getHeldItem(MAIN_HAND) == null && entity.getHeldItem(OFF_HAND) == null) return
+            entity.mainHandItem.count -= 1
+            entity.offHandItem.count -= 1
+         })
+    }
 })
 
 onEvent('block.break', event => {

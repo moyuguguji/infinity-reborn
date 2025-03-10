@@ -45,6 +45,7 @@ const rightClickEventInHand = {
 	'kubejs:sixiang_kaitian': function(event) {
 		let randomx = randomNum(-10, 10);
 		let randomz = randomNum(-10, 10)
+		let player = event.player
 		event.server.runCommandSilent(`execute at ${event.player.id} run summon minecraft:lightning_bolt ${player.getX() + randomx} ${player.getY()} ${player.getZ() + randomz}`)
 	},
 	'kubejs:jing__xin': function(event) {
