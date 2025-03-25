@@ -10,15 +10,14 @@ onEvent('entity.hurt', event => {
 	let source = event.getSource().getActual()
 	let damage = event.getDamage()
 	let entity = event.getSource().getImmediate()
-
-	//event.server.runCommand(`say ${target.potionEffects.active.toString().includes('resistance x 2')}`)
+ 
+	//event.server.runCommand(`say ${target.maxHealth - target.health}`)
 
 	if (target.player) {
 		let offItem = target.getHeldItem(OFF_HAND).getId()
 		let damage_new
 		let armor_result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
 		let armor_toughness_result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor_toughness get`)
-		//event.server.runCommand(`say ${armor_result}`)
 		if (target.stages.has('difficulty_easy')) {
 			if (source != null) {
 				if (entity != null && !entity.living) {
@@ -35,10 +34,13 @@ onEvent('entity.hurt', event => {
 					//event.cancel()
 					entity.kill()
 				}
-				damage_new = damage * 1.1
+				damage_new = damage * 0.1
 				if (offItem.indexOf("shield") >= 0) damage_new = damage_new / 2
 				if (damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25) - target.health >= 0) {
-
+					event.server.scheduleInTicks(1, schedule => {
+						if(target.health < 1) return
+						target.setHealth(1)
+					 })
 				} else {
 					target.attack(damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25))
 				}
@@ -53,10 +55,13 @@ onEvent('entity.hurt', event => {
 					//event.cancel()
 					entity.kill()
 				}
-				damage_new = damage * 1.15
+				damage_new = damage * 0.15
 				if (offItem.indexOf("shield") >= 0) damage_new = damage_new / 2
 				if (damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25) - target.health >= 0) {
-
+					event.server.scheduleInTicks(1, schedule => {
+						if(target.health < 1) return
+						target.setHealth(1)
+					 })
 				} else {
 					target.attack(damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25))
 				}
@@ -68,10 +73,13 @@ onEvent('entity.hurt', event => {
 					//event.cancel()
 					entity.kill()
 				}
-				damage_new = damage * 1.5
+				damage_new = damage * 0.5
 				if (offItem.indexOf("shield") >= 0) damage_new = damage_new / 2
 				if (damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25) - target.health >= 0) {
-
+					event.server.scheduleInTicks(1, schedule => {
+						if(target.health < 1) return
+						target.setHealth(1)
+					 })
 				} else {
 					target.attack(damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25))
 				}
@@ -83,10 +91,13 @@ onEvent('entity.hurt', event => {
 					//event.cancel()
 					entity.kill()
 				}
-				damage_new = damage * 2.5
+				damage_new = damage * 1.0
 				if (offItem.indexOf("shield") >= 0) damage_new = damage_new / 2
 				if (damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25) - target.health >= 0) {
-
+					event.server.scheduleInTicks(1, schedule => {
+						if(target.health < 1) return
+						target.setHealth(1)
+					 })
 				} else {
 					target.attack(damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25))
 				}
@@ -98,11 +109,15 @@ onEvent('entity.hurt', event => {
 					//event.cancel()
 					entity.kill()
 				}
-				damage_new = damage * 3.0
+				damage_new = damage * 1.5
 				if (offItem.indexOf("shield") >= 0) damage_new = damage_new / 2
 
 				if (damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25) - target.health >= 0) {
-
+					event.server.scheduleInTicks(1, schedule => {
+						if(target.health < 1) {
+							target.setHealth(1)
+						}	
+					 })
 				} else {
 					target.attack(damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25))
 				}

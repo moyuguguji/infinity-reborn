@@ -53,6 +53,9 @@ onEvent('entity.death', event => {//死亡事件
     let player = event.getSource().getPlayer()
     if (player != null) {
         if (player.stages.has('difficulty_yonghen')) {
+            if (entity.animal || entity.watercreature || entity.type == 'minecraft:axolotl') {
+                player.potionEffects.add('minecraft:weakness', 100, 1)
+            }
             if (entity.monster || entity.type =="whisperwoods:hirschgeist") {
                 let targetTypes1 = [
                     "twilightforest:naga", "twilightforest:lich", "terrarianslimes:king_slime"
