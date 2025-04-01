@@ -160,7 +160,6 @@
 		.tooltip('\u00A7c舍吾皮肉:当生命与护甲值小于10点时,额外造成200%的伤害')
 		.tooltip('\u00A73断汝筋骨：当舍吾皮肉触发时,攻击造成5秒虚弱10缓慢10,攻击后获得1秒迅捷10')
 		.tooltip('\u00A7c--一把来自异界的武器')
-		.tooltip('\u00A7c注:本武器不会计算击杀数和连杀加成')
 
 	event.create('infinity_sword', 'sword')
 		.tier('infinity')

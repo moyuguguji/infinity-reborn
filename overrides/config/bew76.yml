@@ -22,4 +22,7 @@ blacklist_blocks:
 - lootr:lootr_chest
 - minecraft:spawner
 - lootr:lootr_barrel
+- dankstorage:dock
+- minecraft:nether_portal
+- minecraft:end_portal
 

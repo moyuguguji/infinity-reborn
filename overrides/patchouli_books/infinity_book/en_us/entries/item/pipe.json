@@ -1,0 +1,32 @@
+{
+    "name": "管道",
+    "icon": "moderndynamics:item_pipe",
+    "category": "patchouli:item",
+    "pages": [
+      {
+        "type": "patchouli:crafting",
+        "recipe": "moderndynamics:item_pipe",
+        "text":"用于传输物品,一个管道每个面都能有一个接口"
+      },
+      {
+        "type": "patchouli:crafting",
+        "recipe": "moderndynamics:fluid_pipe",
+        "text":"用于传输流体,一个管道每个面都能有一个接口"
+      },
+      {
+        "type": "patchouli:crafting",
+        "recipe": "moderndynamics:extractor",
+        "text":"用于从容器中抽取物体"
+      },
+      {
+        "type": "patchouli:crafting",
+        "recipe": "moderndynamics:filter",
+        "text":"用于分流物品"
+      },
+      {
+        "type": "patchouli:crafting",
+        "recipe": "moderndynamics:attractor",
+        "text":"用于从多个容器中提取物体"
+      }
+    ]
+  }

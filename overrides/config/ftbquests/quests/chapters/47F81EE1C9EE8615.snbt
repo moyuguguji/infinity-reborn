@@ -439,6 +439,8 @@
 			x: -7.5d
 			y: 3.75d
 			shape: "square"
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
 			size: 1.5d
 			optional: true
 			can_repeat: true

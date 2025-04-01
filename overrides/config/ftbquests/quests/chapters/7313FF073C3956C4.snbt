@@ -678,6 +678,8 @@
 			y: 0.5d
 			subtitle: "{chapter.8.quest.24.subtitle}"
 			hide_dependency_lines: true
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
 			size: 2.0d
 			id: "32DC410EC16DFBA4"
 			tasks: [{

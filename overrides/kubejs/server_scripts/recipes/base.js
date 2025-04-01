@@ -7,7 +7,8 @@ onEvent('recipes', event => {
 	event.shapeless('4x spectrum:citrine_shard', ['spectrum:citrine_block'])
 	event.shapeless('kubejs:jiushu_heart', ['4x kubejs:jiushu_heart_shard'])
 	event.shapeless('kubejs:jiushu_heart_shard', ['9x #c:crops'])
-
+	event.shapeless(Item.of('kibe:tank', '{BlockEntityTag:{amount:1296000L,variant:{fluid:"kibe:liquid_xp"}}}'), [Item.of('kibe:tank', '{BlockEntityTag:{amount:1296000L,variant:{fluid:"xps:xp_fluid"}}}')])
+	event.shapeless(Item.of('kibe:tank', '{BlockEntityTag:{amount:1296000L,variant:{fluid:"xps:xp_fluid"}}}'), [Item.of('kibe:tank', '{BlockEntityTag:{amount:1296000L,variant:{fluid:"kibe:liquid_xp"}}}')])
 	//event.smithing(Item.of('kubejs:infinity_sword').withNBT('{Unbreakable:1}') ,'kubejs:infinity_sword_a', 'kubejs:infinity_sword_b')
 
 	let multiSmelt = (output, input, includeBlasting) => {

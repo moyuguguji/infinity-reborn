@@ -85,12 +85,17 @@
 			y: -1.5d
 			subtitle: "{chapter.10.quest.3.subtitle}"
 			description: ["{chapter.10.quest.3.description.1}"]
+			hide_dependency_lines: true
+			dependencies: [
+				"027AAA6A3553F7DB"
+				"606F8D312E3CD95E"
+			]
+			hide: true
 			id: "31CAE030EB6EE661"
 			tasks: [{
-				id: "7EE86AC5CFDF6692"
-				type: "advancement"
-				advancement: "darkbosses:nether_gauntlet_boss"
-				criterion: ""
+				id: "1B0F7E995E3D28D5"
+				type: "item"
+				item: "bosses_of_mass_destruction:blazing_eye"
 			}]
 			rewards: [
 				{
@@ -133,6 +138,8 @@
 			y: -1.0d
 			subtitle: "{chapter.10.quest.5.subtitle}"
 			description: ["{chapter.10.quest.5.description.1}"]
+			hide_dependency_lines: true
+			dependencies: ["606F8D312E3CD95E"]
 			id: "21A1E9E65D7D11B7"
 			tasks: [{
 				id: "196719162E8D5AE0"
@@ -233,6 +240,7 @@
 			y: 0.5d
 			subtitle: "{chapter.10.quest.9.subtitle}"
 			description: ["{chapter.10.quest.9.description.1}"]
+			dependencies: ["606F8D312E3CD95E"]
 			id: "5817C97811C89FDB"
 			tasks: [{
 				id: "7A47B82FFC80242C"
@@ -260,6 +268,8 @@
 			y: 2.0d
 			subtitle: "{chapter.10.quest.10.subtitle}"
 			description: ["{chapter.10.quest.10.description.1}"]
+			hide_dependency_lines: true
+			dependencies: ["606F8D312E3CD95E"]
 			id: "512E6CEC8B35C62E"
 			tasks: [
 				{

@@ -18,6 +18,7 @@ onEvent('entity.hurt', event => {
 		let damage_new
 		let armor_result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
 		let armor_toughness_result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor_toughness get`)
+		//event.server.runCommand(`say ${entity.living}`)
 		if (target.stages.has('difficulty_easy')) {
 			if (source != null) {
 				if (entity != null && !entity.living) {

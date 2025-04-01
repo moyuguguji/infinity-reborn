@@ -41,6 +41,18 @@
 					auto: "no_toast"
 					item: "ftbquests:book"
 				}
+				{
+					id: "13BE87D574A6D72F"
+					type: "item"
+					auto: "no_toast"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "patchouli:infinity_book"
+						}
+					}
+				}
 			]
 		}
 		{

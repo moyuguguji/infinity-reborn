@@ -2,22 +2,7 @@
     "id": "tiered:legendary_armor",
     "verifiers": [
         {
-            "tag": "tier:3armor"
-        },
-        {
-            "tag": "tier:4armor"
-        },
-        {
-            "tag": "tier:5helmet"
-        },
-        {
-            "tag": "tier:5chestplate"
-        },
-        {
-            "tag": "tier:5leggings"
-        },
-        {
-            "tag": "tier:5boots"
+            "tag": "c:armor"
         }
     ],
     "weight": 35,

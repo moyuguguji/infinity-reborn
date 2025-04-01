@@ -1002,7 +1002,7 @@
       "Health will be multiplied by 1 + difficulty*0.016*x. Set to 0 to disable",
       "Range: > 0.0"
     ],
-    "input": 0.65
+    "input": 0.75
   },
   "Max Health Increase": {
     "__comment": [
@@ -1023,21 +1023,21 @@
       "Damage will be multiplied by 1 + difficulty*0.008*x. Set to 0 to disable",
       "Range: > 0.0"
     ],
-    "input": 10.0
+    "input": 2.5
   },
   "Max Damage Increase": {
     "__comment": [
       "Damage will be multiplied by at maximum this. Set to 0 means no limit",
       "Range: > 0.0"
     ],
-    "input": 100.0
+    "input": 0
   },
   "Speed Increase": {
     "__comment": [
       "Speed will be increased by difficulty*0.0008*x. Set to 0 to disable",
       "Range: > 0.0"
     ],
-    "input": 0.25
+    "input": 0.1
   },
   "Max Speed": {
     "__comment": [
@@ -1079,7 +1079,7 @@
       "Projectile Damage will be multiplied by 1 + difficulty*0.008*x. Set to 0 to disable",
       "Range: > 0.0"
     ],
-    "input": 25.0
+    "input": 15.0
   },
   "Max Projectile Damage": {
     "__comment": [
@@ -1093,7 +1093,7 @@
       "Explosion Damage will be multiplied by 1 + difficulty*0.003*x. Set to 0 to disable",
       "Range: > 0.0"
     ],
-    "input": 20.0
+    "input": 10.0
   },
   "Max Explosion Damage": {
     "__comment": [

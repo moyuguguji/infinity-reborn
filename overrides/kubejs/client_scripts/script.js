@@ -12,3 +12,10 @@ onEvent("item.tooltip", tooltip => {
 		text.add(2, Text.gold('仅适用于:夜巫妖,虚空之花,地狱之手,黑曜石之柱').bold(true))
 	})
 })
+onEvent('rei.information', event => {
+	event.add('mythicmetals:aquarium_pearl', '激水珍珠', ['挖掘深海金属矿石概率掉落'])
+	event.add('mythicmetals:banglum_chunk', '聚爆石碎块', ['挖掘班古姆矿石概率掉落'])
+	event.add('mythicmetals:stormyx_shell', '风暴石外壳', ['挖掘风暴矿石概率掉落'])
+	event.add('mythicmetals:raw_kyber', '凯伯', ['在紫水晶洞的方解石中概率生成'])
+	event.add('mcda:frost_crystal', '冰霜水晶', ['挖掘蓝冰概率掉落'])
+  })

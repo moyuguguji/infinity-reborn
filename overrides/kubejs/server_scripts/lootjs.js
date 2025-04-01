@@ -816,9 +816,9 @@ onEvent("lootjs", (event) => {
         .addWeightedLoot([2, 10], [
             Item.of('mythicmetals:mythril_ingot').withChance(10),//秘银
             Item.of('mythicmetals:quadrillum_ingot').withChance(50),//四层
-            Item.of('mythicmetals:banglum_ingot').withChance(40),//班古姆
+            Item.of('kubejs:crystal_tiered').withChance(50),//神铸
             Item.of('mythicmetals:orichalcum_ingot').withChance(10),//山铜
-            Item.of('mythicmetals:silver_ingot').withChance(40),//银
+            Item.of('kubejs:ametrine_crystal').withChance(50),//紫金
             Item.of('mythicmetals:carmot_ingot').withChance(15),
             Item.of('numismatic-overhaul:money_bag', '{Combined:1b,Values:[L;0L,10L,0L]}')//钱//耀金
         ])
@@ -828,9 +828,9 @@ onEvent("lootjs", (event) => {
         .addWeightedLoot([4, 10], [
             Item.of('mythicmetals:mythril_ingot').withChance(10),//秘银
             Item.of('mythicmetals:quadrillum_ingot').withChance(50),//四层
-            Item.of('mythicmetals:banglum_ingot').withChance(40),//班古姆
+            Item.of('kubejs:crystal_tiered').withChance(50),//神铸
             Item.of('mythicmetals:orichalcum_ingot').withChance(10),//山铜
-            Item.of('mythicmetals:silver_ingot').withChance(40),//银
+            Item.of('kubejs:ametrine_crystal').withChance(50),//紫金
             Item.of('mythicmetals:carmot_ingot').withChance(15),
             Item.of('numismatic-overhaul:money_bag', '{Combined:1b,Values:[L;0L,20L,0L]}')//钱//耀金
         ])
@@ -840,9 +840,9 @@ onEvent("lootjs", (event) => {
         .addWeightedLoot([5, 14], [
             Item.of('mythicmetals:mythril_ingot').withChance(10),//秘银
             Item.of('mythicmetals:quadrillum_ingot').withChance(50),//四层
-            Item.of('mythicmetals:banglum_ingot').withChance(40),//班古姆
+            Item.of('kubejs:crystal_tiered').withChance(50),//神铸
             Item.of('mythicmetals:orichalcum_ingot').withChance(10),//山铜
-            Item.of('mythicmetals:silver_ingot').withChance(40),//银
+            Item.of('kubejs:ametrine_crystal').withChance(50),//紫金
             Item.of('mythicmetals:carmot_ingot').withChance(15),//耀金
             Item.of('numismatic-overhaul:money_bag', '{Combined:1b,Values:[L;0L,30L,0L]}')//钱
         ])
@@ -852,9 +852,9 @@ onEvent("lootjs", (event) => {
         .addWeightedLoot([8, 18], [
             Item.of('mythicmetals:mythril_ingot').withChance(25),//秘银
             Item.of('mythicmetals:quadrillum_ingot').withChance(55),//四层
-            Item.of('mythicmetals:banglum_ingot').withChance(45),//班古姆
+            Item.of('kubejs:crystal_tiered').withChance(50),//神铸
             Item.of('mythicmetals:orichalcum_ingot').withChance(25),//山铜
-            Item.of('mythicmetals:silver_ingot').withChance(45),//银
+            Item.of('kubejs:ametrine_crystal').withChance(50),//紫金
             Item.of('mythicmetals:carmot_ingot').withChance(25),//耀金
             Item.of('mythicmetals:adamantite_ingot').withChance(20),//精金
             Item.of('mythicmetals:kyber_ingot').withChance(5),//凯伯
@@ -865,9 +865,9 @@ onEvent("lootjs", (event) => {
         .randomChance(1.0) // 战利品表条件：添加掉落概率
         .addWeightedLoot([10, 25], [
             Item.of('mythicmetals:mythril_ingot').withChance(30),//秘银
-            Item.of('mythicmetals:banglum_ingot').withChance(50),//班古姆
+            Item.of('kubejs:crystal_tiered').withChance(50),//神铸
             Item.of('mythicmetals:orichalcum_ingot').withChance(30),//山铜
-            Item.of('mythicmetals:silver_ingot').withChance(50),//银
+            Item.of('kubejs:ametrine_crystal').withChance(50),//紫金
             Item.of('mythicmetals:carmot_ingot').withChance(30),//耀金
             Item.of('mythicmetals:adamantite_ingot').withChance(25),//精金
             Item.of('mythicmetals:kyber_ingot').withChance(10),//凯伯

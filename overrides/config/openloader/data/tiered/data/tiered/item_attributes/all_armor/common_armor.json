@@ -2,10 +2,7 @@
     "id": "tiered:common_armor",
     "verifiers": [
         {
-            "tag": "tier:1armor"
-        },
-        {
-            "tag": "tier:2armor"
+            "tag": "c:armor"
         }
     ],
     "weight": 300,

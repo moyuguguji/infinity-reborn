@@ -2,19 +2,7 @@
     "id": "tiered:unique_armor",
     "verifiers": [
         {
-            "tag": "tier:4armor"
-        },
-        {
-            "tag": "tier:5helmet"
-        },
-        {
-            "tag": "tier:5chestplate"
-        },
-        {
-            "tag": "tier:5leggings"
-        },
-        {
-            "tag": "tier:5boots"
+            "tag": "c:armor"
         }
     ],
     "weight": 15,
@@ -41,7 +29,7 @@
             "modifier": {
                 "name": "tiered:unique_armor",
                 "operation": "ADDITION",
-                "amount": 4
+                "amount": 5
             },
             "optional_equipment_slots": [
                 "FEET",
@@ -69,7 +57,7 @@
             "modifier": {
                 "name": "tiered:unique_armor",
                 "operation": "ADDITION",
-                "amount": 3
+                "amount": 6
             },
             "optional_equipment_slots": [
                 "FEET",

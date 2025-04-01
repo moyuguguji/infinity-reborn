@@ -2,13 +2,7 @@
     "id": "tiered:uncommon_armor",
     "verifiers": [
         {
-            "tag": "tier:1armor"
-        },
-        {
-            "tag": "tier:2armor"
-        },
-        {
-            "tag": "tier:3armor"
+            "tag": "c:armor"
         }
     ],
     "weight": 350,

@@ -180,24 +180,6 @@
 		{
 			x: 4.0d
 			y: 1.5d
-			subtitle: "{chapter.17.quest.10.subtitle}"
-			optional: true
-			id: "30D08A458687C92E"
-			tasks: [{
-				id: "2FD7C95AD1264D3C"
-				type: "item"
-				item: "ringsofascension:ring_experience"
-			}]
-			rewards: [{
-				id: "1810157C81AF25B2"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 1005535573748960953L
-			}]
-		}
-		{
-			x: 5.0d
-			y: 1.5d
 			id: "7782D79924E1589B"
 			tasks: [{
 				id: "3A6BE7B0EBC02E66"
@@ -276,7 +258,7 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 5.0d
 			y: 1.5d
 			id: "53F4451D9569CEA4"
 			tasks: [{
@@ -292,7 +274,7 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 6.0d
 			y: 1.5d
 			id: "1C57F36E535CCE6B"
 			tasks: [{
@@ -341,7 +323,7 @@
 		}
 		{
 			x: 8.0d
-			y: -0.5d
+			y: 1.5d
 			id: "279D356AE3893798"
 			tasks: [{
 				id: "74BCEB2ABC970ED0"
@@ -372,7 +354,7 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 7.0d
 			y: 1.5d
 			id: "12E6E7555B8CBE01"
 			tasks: [{
@@ -722,55 +704,6 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -0.5d
-			subtitle: "{chapter.17.quest.39.subtitle}"
-			description: ["{chapter.17.quest.39.description.1}"]
-			optional: true
-			id: "606C794826728F00"
-			tasks: [{
-				id: "26C93EBA20088EDD"
-				type: "item"
-				item: {
-					id: "utilities:bandofregeneration"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "4F7DEBD3A60423F0"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 1005535573748960953L
-			}]
-		}
-		{
-			x: -6.0d
-			y: -0.5d
-			subtitle: "{chapter.17.quest.40.subtitle}"
-			optional: true
-			id: "5DD8E07B257AEC5E"
-			tasks: [{
-				id: "3FA063412A97BEE8"
-				type: "item"
-				item: {
-					id: "utilities:shackle"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "74EA235B7F75C747"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 1005535573748960953L
-			}]
-		}
-		{
 			x: -6.0d
 			y: 0.5d
 			id: "2C004EE73A13FF90"
@@ -859,7 +792,7 @@
 			}]
 		}
 		{
-			x: -7.0d
+			x: -6.0d
 			y: -0.5d
 			id: "0E0EC5C403FEF28F"
 			tasks: [{
@@ -882,7 +815,7 @@
 		}
 		{
 			x: -8.0d
-			y: -0.5d
+			y: 2.5d
 			id: "1DE2219C80082215"
 			tasks: [{
 				id: "2934A80268A7FDFF"
@@ -925,31 +858,8 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: 1.5d
-			optional: true
-			id: "16DEF045DCD1EC51"
-			tasks: [{
-				id: "53DBAE3016BC80F8"
-				type: "item"
-				item: {
-					id: "utilities:stopwatch"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "28E7649561567D03"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 1005535573748960953L
-			}]
-		}
-		{
-			x: -9.0d
-			y: 1.0d
+			x: -5.0d
+			y: -0.5d
 			id: "3BFD5F532B75FF7D"
 			tasks: [{
 				id: "6A1F25C4AA320D50"
@@ -971,7 +881,7 @@
 		}
 		{
 			x: -8.0d
-			y: 2.5d
+			y: 1.5d
 			id: "52C1F2733E9346C8"
 			tasks: [{
 				id: "0BF20DD255AD3CCF"
@@ -1195,23 +1105,6 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 5.0d
-			optional: true
-			id: "300C0D24EEA8536B"
-			tasks: [{
-				id: "13555B501A1F4108"
-				type: "item"
-				item: "things:broken_watch"
-			}]
-			rewards: [{
-				id: "021C238EC301D60C"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 1005535573748960953L
-			}]
-		}
-		{
 			x: -4.0d
 			y: 5.0d
 			id: "2BF3E450E5956E82"
@@ -1312,8 +1205,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 7.0d
+			x: -3.0d
+			y: 5.0d
 			id: "376443652A89C099"
 			tasks: [{
 				id: "7FC0E1C52198F54D"

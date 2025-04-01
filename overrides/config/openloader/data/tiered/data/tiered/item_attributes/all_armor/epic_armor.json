@@ -2,13 +2,7 @@
     "id": "tiered:epic_armor",
     "verifiers": [
         {
-            "tag": "tier:2armor"
-        },
-        {
-            "tag": "tier:3armor"
-        },
-        {
-            "tag": "tier:4armor"
+            "tag": "c:armor"
         }
     ],
     "weight": 80,

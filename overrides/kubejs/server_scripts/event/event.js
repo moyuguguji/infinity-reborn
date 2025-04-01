@@ -95,7 +95,7 @@ onEvent('entity.hurt', event => {
         }
         if (mainItem == 'kubejs:jian_li') {
             let result = event.server.runCommandSilent(`attribute ${player.id} minecraft:generic.armor get`)
-            if (player.health > player.maxHealth * 0.15) {
+            if (player.health > player.maxHealth * 0.11) {
                 player.heal(-player.maxHealth * 0.1)
             }
             if (player.health < 10 && result < 10) {
