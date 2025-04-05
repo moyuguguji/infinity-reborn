@@ -7,6 +7,11 @@
       "type": "patchouli:spotlight",
       "item": "minecraft:potion{Potion:'extraalchemy:photosynthesis'}",
       "text":"当你站在阳光下时，你的饥饿值会缓慢补充"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:enchanted_book{Enchantments: [{id: \"x_enchant:halo_effect_-_effect.extraalchemy.photosynthesis\", lvl: 1s}]}",
+      "text":"此药水效果的光环附魔"
     }
   ]
 }

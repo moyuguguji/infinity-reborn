@@ -97,7 +97,6 @@
 			y: 1.0d
 			description: ["{chapter.1.quest.3.description.1}"]
 			dependencies: ["6FD67E00C769E643"]
-			hide: true
 			id: "0FF0EE9A5D227A0F"
 			tasks: [{
 				id: "472167884584FEF9"
@@ -112,37 +111,20 @@
 			}]
 		}
 		{
-			icon: "ftbquests:book"
-			x: -2.5d
-			y: -0.5d
-			description: ["{chapter.1.quest.4.description.1}"]
-			dependencies: ["0FF0EE9A5D227A0F"]
-			optional: true
-			id: "54796F90CDA392AA"
-			tasks: [{
-				id: "539741EC2C249777"
-				type: "checkmark"
-				title: "{chapter.1.quest.4.task.1.title}"
-			}]
-			rewards: [{
-				id: "20FCA10A1E0A58E0"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 3342768205198891787L
-			}]
-		}
-		{
 			title: "{chapter.1.quest.5.title}"
 			icon: "incubus_core:debug_flame"
-			x: 2.0d
-			y: 1.0d
+			x: 0.0d
+			y: 0.0d
 			shape: "hexagon"
 			description: [
 				"{chapter.1.quest.5.description.1}"
 				"{image:kubejs:textures/ftbq/unicode1.png width:206 height:124 align:1}"
 				"{image:kubejs:textures/ftbq/unicode2.png width:206 height:124 align:1}"
 			]
-			dependencies: ["129A6C95D977784F"]
+			dependencies: [
+				"0F91A9C806F4391E"
+				"4D09C17C8AACAE50"
+			]
 			optional: true
 			id: "015D255D3A92CF17"
 			tasks: [{
@@ -167,10 +149,10 @@
 		{
 			title: "{chapter.1.quest.6.title}"
 			icon: "kibe:pocket_crafting_table"
-			x: 0.5d
-			y: -0.5d
+			x: -1.0d
+			y: -1.0d
 			description: ["{chapter.1.quest.6.description.1}"]
-			dependencies: ["5012E90F299676B4"]
+			dependencies: ["129A6C95D977784F"]
 			optional: true
 			id: "0F91A9C806F4391E"
 			tasks: [{
@@ -186,32 +168,11 @@
 			}]
 		}
 		{
-			title: "{chapter.1.quest.7.title}"
-			icon: "heartytrinkets:red_heart"
-			x: -1.0d
-			y: -0.5d
-			description: ["{chapter.1.quest.7.description.1}"]
-			dependencies: ["54796F90CDA392AA"]
-			optional: true
-			id: "5012E90F299676B4"
-			tasks: [{
-				id: "0B1B65AF95B0B68A"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "49B80A22D42AC9A1"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 3342768205198891787L
-			}]
-		}
-		{
 			icon: "museumcurator:museumchecklist"
-			x: 2.0d
-			y: -0.5d
+			x: -2.0d
+			y: 0.0d
 			description: ["{chapter.1.quest.8.description.1}"]
-			dependencies: ["0F91A9C806F4391E"]
-			optional: true
+			dependencies: ["6FD67E00C769E643"]
 			id: "129A6C95D977784F"
 			tasks: [{
 				id: "090BDFF1FD506DF3"
@@ -241,11 +202,14 @@
 					"patchouli:book": "patchouli:infinity_book"
 				}
 			}
-			x: 3.5d
-			y: -0.5d
+			x: -2.5d
+			y: -1.0d
 			subtitle: "{chapter.1.quest.9.subtitle}"
-			description: ["{chapter.1.quest.9.description.1}"]
-			dependencies: ["129A6C95D977784F"]
+			description: [
+				"{chapter.1.quest.9.description.1}"
+				"当放在背包中时,可以长按ctrl查看书内相关的物品"
+			]
+			dependencies: ["6FD67E00C769E643"]
 			optional: true
 			id: "056935F82AD7722E"
 			tasks: [{
@@ -263,6 +227,38 @@
 					}
 				}
 			}]
+		}
+		{
+			icon: "collectorsalbum:mythical_card_package"
+			x: -1.0d
+			y: 1.0d
+			description: ["{chapter.2.quest.6.description.1}"]
+			dependencies: ["129A6C95D977784F"]
+			optional: true
+			id: "4D09C17C8AACAE50"
+			tasks: [{
+				id: "6FD89FB6C2B288D9"
+				type: "checkmark"
+				title: "{chapter.2.quest.6.task.1.title}"
+			}]
+			rewards: [
+				{
+					id: "0E193642BE550646"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 3342768205198891787L
+				}
+				{
+					id: "4A70859203C68A95"
+					type: "item"
+					item: "collectorsalbum:mythical_card_package"
+				}
+				{
+					id: "7323B596F0D9F6C6"
+					type: "item"
+					item: "collectorsalbum:album"
+				}
+			]
 		}
 	]
 	quest_links: [ ]

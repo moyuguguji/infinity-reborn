@@ -59,6 +59,11 @@ onEvent('recipes', event =>{
     event.remove({output:'botania:balance_cloak'})
     
     event.remove({output:'morevillagers:purpur_altar'})
+    event.remove({output:'emerald_tools:copper_treeaxe'})
+    event.remove({output:'emerald_tools:emerald_helmet'})
+    event.remove({output:'emerald_tools:emerald_chestplate'})
+    event.remove({output:'emerald_tools:emerald_leggings'})
+    event.remove({output:'emerald_tools:emerald_boots'})
 
     event.remove({output:'alloy_forgery:end_stone_bricks_forge_controller'})
     event.remove({output:'alloy_forgery:adamantite_block_forge_controller'})

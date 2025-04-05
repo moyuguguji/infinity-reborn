@@ -379,13 +379,9 @@ const rightClickEventMainHand = {
 			player.mainHandItem.count -= 1
 		} else {
 			if (player.stages.has('difficulty_yonghen')) {
-				event.server.runCommandSilent(`improvedmobs difficulty player ${player.profile.name} add -2`)
-				if (lmd <= 50) {
-					event.server.runCommandSilent(`improvedmobs difficulty player ${player.profile.name} set 50`)
+				if (lmd <= 52) return
+					event.server.runCommandSilent(`improvedmobs difficulty player ${player.profile.name} add -2`)
 					player.mainHandItem.count -= 1
-				} else {
-					player.mainHandItem.count -= 1
-				}
 			}
 			if (!player.stages.has('difficulty_yonghen')) {
 				event.server.runCommandSilent(`improvedmobs difficulty player ${player.profile.name} add -2`)

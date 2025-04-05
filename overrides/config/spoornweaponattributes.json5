@@ -10,7 +10,7 @@
 	*/
 	"upgradeItem": "kubejs:strong_fossil",
 	// Upgrade level cost [default = 1]
-	"upgradeLevelCost": 20,
+	"upgradeLevelCost": 10,
 	// Apply Attributes Automatically on Inventory Tick [default = true]
 	"applyOnInventoryTick": true,
 	// Critical Hit attribute config

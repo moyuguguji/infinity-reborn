@@ -117,7 +117,6 @@
 			icon: "minecraft:lectern"
 			x: 3.0d
 			y: 0.0d
-			subtitle: "{chapter.2.quest.5.subtitle}"
 			description: ["{chapter.2.quest.5.description.1}"]
 			id: "4593B1276F36C8EB"
 			tasks: [{
@@ -131,37 +130,6 @@
 				exclude_from_claim_all: true
 				table_id: 3342768205198891787L
 			}]
-		}
-		{
-			icon: "collectorsalbum:mythical_card_package"
-			x: -4.0d
-			y: -2.0d
-			description: ["{chapter.2.quest.6.description.1}"]
-			hide: true
-			id: "4D09C17C8AACAE50"
-			tasks: [{
-				id: "6FD89FB6C2B288D9"
-				type: "checkmark"
-				title: "{chapter.2.quest.6.task.1.title}"
-			}]
-			rewards: [
-				{
-					id: "0E193642BE550646"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 3342768205198891787L
-				}
-				{
-					id: "4A70859203C68A95"
-					type: "item"
-					item: "collectorsalbum:mythical_card_package"
-				}
-				{
-					id: "7323B596F0D9F6C6"
-					type: "item"
-					item: "collectorsalbum:album"
-				}
-			]
 		}
 		{
 			title: "{chapter.2.quest.7.title}"
@@ -574,6 +542,25 @@
 			}]
 			rewards: [{
 				id: "20CD0CD52F350CF1"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3342768205198891787L
+			}]
+		}
+		{
+			title: "{chapter.1.quest.7.title}"
+			icon: "heartytrinkets:red_heart"
+			x: -4.0d
+			y: -2.0d
+			description: ["{chapter.1.quest.7.description.1}"]
+			optional: true
+			id: "5012E90F299676B4"
+			tasks: [{
+				id: "0B1B65AF95B0B68A"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "49B80A22D42AC9A1"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 3342768205198891787L

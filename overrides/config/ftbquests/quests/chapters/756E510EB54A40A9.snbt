@@ -2131,7 +2131,6 @@
 			x: -7.5d
 			y: 2.5d
 			subtitle: "{chapter.15.quest.103.subtitle}"
-			description: ["{chapter.15.quest.103.description.1}"]
 			id: "2830D50EE5EC3229"
 			tasks: [
 				{

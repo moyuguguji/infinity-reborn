@@ -1,3 +1,0 @@
-tellraw @s "Settings"
-tellraw @s {"text":"Click to enable the Nether.","color":"green","hoverEvent":{"action":"show_text","contents":[{"text":"Click to enable the Nether"}]},"clickEvent":{"action":"run_command","value":"/scoreboard players set choice nether 0"}}
-tellraw @s {"text":"Click to disable the Nether.","color":"red","hoverEvent":{"action":"show_text","contents":[{"text":"Click to disable the Nether"}]},"clickEvent":{"action":"run_command","value":"/scoreboard players set choice nether 1"}}

@@ -189,6 +189,9 @@ onEvent("lootjs", (event) => {
         .removeLoot("additionaladditions:glow_stick")
         .removeLoot("additionaladditions:rope")
         .removeLoot("farmersdelight:rope")
+        .removeLoot("minecraft:gold_nugget")
+        .removeLoot("minecraft:iron_nugget")
+        .removeLoot("numismatic-overhaul:bronze_coin")
 
     event
         .addLootTypeModifier(LootType.CHEST)
@@ -197,12 +200,12 @@ onEvent("lootjs", (event) => {
 
     event
         .addLootTypeModifier(LootType.CHEST)
-        .randomChance(0.025)
+        .randomChance(0.05)
         .addLoot("gobber2:gobber2_special_item")
 
     event
         .addLootTypeModifier(LootType.CHEST)
-        .randomChance(0.025)
+        .randomChance(0.035)
         .addLoot("kubejs:red_packet")
 
     event
@@ -210,21 +213,6 @@ onEvent("lootjs", (event) => {
         .hasAnyStage("difficulty_hard", "difficulty_impossible", "difficulty_impossibleplus", "difficulty_yonghen")
         .randomChance(0.5)
         .addLoot("kubejs:jiushu_heart_shard")
-
-    event
-        .addLootTypeModifier(LootType.CHEST)
-        .randomChance(0.3)
-        .addLoot("collectorsalbum:common_card_package")
-
-    event
-        .addLootTypeModifier(LootType.CHEST)
-        .randomChance(0.2)
-        .addLoot("collectorsalbum:uncommon_card_package")
-
-    event
-        .addLootTypeModifier(LootType.CHEST)
-        .randomChance(0.15)
-        .addLoot("collectorsalbum:rare_card_package")
 
     event
         .addLootTypeModifier(LootType.CHEST)
@@ -240,6 +228,26 @@ onEvent("lootjs", (event) => {
         .addLootTypeModifier(LootType.CHEST)
         .randomChance(0.025)
         .addLoot("collectorsalbum:mythical_card_package")
+
+    event
+        .addLootTypeModifier(LootType.CHEST)
+        .randomChance(0.15)
+        .addLoot('kubejs:ametrine_crystal')
+    
+    event
+        .addLootTypeModifier(LootType.CHEST)
+        .randomChance(0.1)
+        .addLoot('kubejs:crystal_tiered')
+
+    event
+        .addLootTypeModifier(LootType.CHEST)
+        .randomChance(0.01)
+        .addLoot('kubejs:gold_coin')
+
+    event
+        .addLootTypeModifier(LootType.CHEST)
+        .randomChance(0.15)
+        .addLoot('kubejs:strong_fossil')
 
     event
         .addBlockLootModifier("#c:ores")
@@ -359,42 +367,6 @@ onEvent("lootjs", (event) => {
             p.limitCount([1, 1]);
         });
 
-    event
-        .addLootTypeModifier(LootType.ENTITY)// 获取LootActionsBuilder
-        .randomChance(0.5) // 战利品表条件：添加掉落概率
-        .hasAnyStage("difficulty_impossible", "difficulty_hard", "difficulty_normal")
-        .matchEntity((entity) => {
-            entity.isMonster(true)
-        })
-        .not((n) => {
-            n.matchEntity((entity) => {
-                entity.anyType("twilightforest:death_tome")
-            })
-        })
-        .addWeightedLoot([1, 20], [
-            Item.of("numismatic-overhaul:bronze_coin")
-        ])
-
-    event
-        .addLootTypeModifier(LootType.ENTITY)// 获取LootActionsBuilder
-        .randomChance(0.1) // 战利品表条件：添加掉落概率
-        .hasAnyStage("difficulty_impossible", "difficulty_hard", "difficulty_normal", "difficulty_impossibleplus", "difficulty_yonghen")
-        .matchEntity((entity) => {
-            entity.isMonster(true)
-        })
-        .not((n) => {
-            n.matchEntity((entity) => {
-                entity.anyType("twilightforest:death_tome")
-            })
-        })
-        .addWeightedLoot([
-            Item.of("collectorsalbum:common_repacked_card_package").withChance(50),
-            Item.of("collectorsalbum:uncommon_repacked_card_package").withChance(30),
-            Item.of("collectorsalbum:rare_repacked_card_package").withChance(10),
-        ])
-        .pool((p) => {
-            p.limitCount([1, 1]);
-        });
 
     event
         .addLootTypeModifier(LootType.ENTITY)// 获取LootActionsBuilder

@@ -115,7 +115,7 @@ onEvent('entity.hurt', event => {
 
 				if (damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25) - target.health >= 0) {
 					event.server.scheduleInTicks(1, schedule => {
-						if(target.health < 1) {
+						if(target.health > 1) {
 							target.setHealth(1)
 						}	
 					 })

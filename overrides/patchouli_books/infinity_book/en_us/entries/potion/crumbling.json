@@ -7,6 +7,11 @@
       "type": "patchouli:spotlight",
       "item": "minecraft:potion{Potion:'extraalchemy:crumbling'}",
       "text":"拥有该效果时，脚下的泥土、沙子、沙砾将会被瓦解成掉落物"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:enchanted_book{Enchantments: [{id: \"x_enchant:halo_effect_-_effect.extraalchemy.crumbling\", lvl: 1s}]}",
+      "text":"此药水效果的光环附魔"
     }
   ]
 }

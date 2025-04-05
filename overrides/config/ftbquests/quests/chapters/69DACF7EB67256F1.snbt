@@ -95,7 +95,7 @@
 		}
 		{
 			icon: "botania:cosmetic_questgiver_mark"
-			x: 4.0d
+			x: 2.5d
 			y: -4.0d
 			subtitle: "{chapter.20.quest.3.subtitle}"
 			description: ["{chapter.20.quest.3.description.1}"]
@@ -121,8 +121,8 @@
 		}
 		{
 			icon: "botania:cosmetic_questgiver_mark"
-			x: 0.5d
-			y: -3.5d
+			x: 0.0d
+			y: -3.0d
 			subtitle: "{chapter.20.quest.4.subtitle}"
 			description: ["{chapter.20.quest.4.description.1}"]
 			dependencies: ["027AAA6A3553F7DB"]
@@ -157,7 +157,7 @@
 		{
 			title: "{chapter.20.quest.6.title}"
 			x: 0.0d
-			y: 1.5d
+			y: 0.0d
 			subtitle: "{chapter.20.quest.6.subtitle}"
 			description: ["{chapter.20.quest.6.description.1}"]
 			dependencies: ["229D05A1A967C5A2"]
@@ -193,8 +193,8 @@
 		}
 		{
 			title: "{chapter.20.quest.7.title}"
-			x: -2.0d
-			y: 2.0d
+			x: -1.5d
+			y: -0.5d
 			subtitle: "{chapter.20.quest.7.subtitle}"
 			description: ["{chapter.20.quest.7.description.1}"]
 			dependencies: ["229D05A1A967C5A2"]
@@ -225,8 +225,8 @@
 		}
 		{
 			title: "{chapter.20.quest.8.title}"
-			x: 1.0d
-			y: -0.5d
+			x: 1.5d
+			y: -1.5d
 			description: ["{chapter.20.quest.8.description.1}"]
 			dependencies: ["4E9D4C3243DC06D1"]
 			id: "647DCB3D2674C0C8"
@@ -238,7 +238,7 @@
 		}
 		{
 			x: 2.0d
-			y: 0.5d
+			y: -0.5d
 			description: ["{chapter.20.quest.9.description.1}"]
 			dependencies: ["4E9D4C3243DC06D1"]
 			id: "54E1507A48291E24"
@@ -249,8 +249,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -1.0d
+			x: -3.5d
+			y: -3.0d
 			description: ["{chapter.20.quest.10.description.1}"]
 			dependencies: ["3D2738E321BE92ED"]
 			id: "6B002CC9A77C8BCC"
@@ -261,8 +261,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -0.5d
+			x: 3.0d
+			y: -1.0d
 			description: ["用于饰品重铸"]
 			dependencies: ["4E9D4C3243DC06D1"]
 			id: "71B499CCD96E7D98"

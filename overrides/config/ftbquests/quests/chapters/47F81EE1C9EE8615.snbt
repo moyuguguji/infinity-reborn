@@ -341,7 +341,6 @@
 					Count: 1b
 					tag: { }
 				}
-				count: 5L
 				consume_items: true
 			}]
 			rewards: [{

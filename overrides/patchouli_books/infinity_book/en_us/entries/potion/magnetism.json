@@ -7,6 +7,11 @@
       "type": "patchouli:spotlight",
       "item": "minecraft:potion{Potion:'extraalchemy:magnetism'}",
       "text":"吸引掉落物的范围更大"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:enchanted_book{Enchantments: [{id: \"x_enchant:halo_effect_-_effect.extraalchemy.detection\", lvl: 1s}]}",
+      "text":"此药水效果的光环附魔"
     }
   ]
 }

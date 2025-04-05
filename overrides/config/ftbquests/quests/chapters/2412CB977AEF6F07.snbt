@@ -994,18 +994,6 @@
 		{
 			x: 5.0d
 			y: 10.0d
-			subtitle: "{chapter.19.quest.53.subtitle}"
-			description: ["{chapter.19.quest.53.description.1}"]
-			id: "6CAEEDB86BC4A2C8"
-			tasks: [{
-				id: "683408D0C565C2E8"
-				type: "item"
-				item: "tradingpost:trading_post"
-			}]
-		}
-		{
-			x: 6.0d
-			y: 10.0d
 			subtitle: "{chapter.19.quest.54.subtitle}"
 			description: ["{chapter.19.quest.54.description.1}"]
 			id: "52D50B50D9B22ADA"
@@ -1033,7 +1021,7 @@
 			]
 		}
 		{
-			x: 7.0d
+			x: 6.0d
 			y: 10.0d
 			subtitle: "{chapter.19.quest.56.subtitle}"
 			description: ["{chapter.19.quest.56.description.1}"]
