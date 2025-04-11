@@ -12,7 +12,7 @@
 	#( ( level / 3 ) + 1 )
 	#count
 	#( level + count )
-	power_expression = "4"
+	power_expression = "level * 5"
 	#True if page turn is allowed
 	page_turn = true
 	#Item cost when disenchant.
@@ -24,7 +24,7 @@
 	creative_mode = false
 	#What consumables to use
 	#Allowed Values: NONE, ITEM, EXPERIENCE
-	power = "ITEM"
+	power = "EXPERIENCE"
 	#Disenchant type will not be editable
 	#Allowed Values: DEFAULT, DISENCHANT
 	type = "DEFAULT"

@@ -358,7 +358,7 @@ onEvent('recipes', event => {
   event.custom({
     type: "spectrum:enchanter",
     "time": 10000,
-    "required_experience": 500000000,
+    "required_experience": 50000,
     "ingredients": [
       {
         "item": 'infusion_table:infusion_table'//太古合金剑刃

@@ -511,7 +511,7 @@
       "Chance for a mob to be able to break blocks",
       "Range: 0.0 ~ 1.0"
     ],
-    "input": 0.3
+    "input": 0.01
   },
   "Breaker Initial Cooldown": {
     "__comment": [
@@ -525,7 +525,7 @@
       "Cooldown for breaking blocks",
       "Range: > 0"
     ],
-    "input": 20
+    "input": 80
   },
   "Ignore Harvest Check": {
     "__comment": [
@@ -559,7 +559,7 @@
       "A modifier to the breaking speed",
       "Range: > 0.0"
     ],
-    "input": 1.0
+    "input": 0.00
   },
   "Breaking Speed Add": {
     "__comment": [
@@ -567,7 +567,7 @@
       "Final modifier is base + addition * difficulty",
       "Range: > 0.0"
     ],
-    "input": 0.15
+    "input": 0.01
   },
   "Stealer Chance": {
     "__comment": [
@@ -581,7 +581,13 @@
       "List of blocks mobs shouldn't steal from. You can also add a modid to blacklist whole mods"
     ],
     "input": [
-      "spirit:soul_cage"
+      "spirit:soul_cage",
+      "toms_storage:ts.inventory_connector",
+      "toms_storage:ts.open_crate",
+      "moderndynamics:item_pipe",
+      "spectrum:sucking_chest",
+      "spectrum:ender_hopper",
+      "kibe:vacuum_hopper"
     ]
   },
   "Breaking items": {
