@@ -145,9 +145,6 @@
   "minecraft:air": {
     "mcdw:enigma_resonator": 1
   },
-  "betterend:aeternium_sword": {
-    "x_enchant:weakness": 1
-  },
   "mcdw:sickle_frost_scythe": {
     "mcdw:freezing": 1
   },
