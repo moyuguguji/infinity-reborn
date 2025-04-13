@@ -7,11 +7,6 @@ onEvent('recipes', event =>{
     event.remove({output:'darkutils:charm_portal'})
     event.remove({output:'minecraft:flint'})
 
-    event.remove({output:'betterend:aeternium_shovel_head'})
-    event.remove({output:'betterend:aeternium_pickaxe_head'})
-    event.remove({output:'betterend:aeternium_axe_head'})
-    event.remove({output:'betterend:aeternium_hoe_head'})
-
     event.remove({output:'mythicmetals:copper_sword'})
     event.remove({output:'mythicmetals:copper_shovel'})
     event.remove({output:'mythicmetals:copper_axe'})

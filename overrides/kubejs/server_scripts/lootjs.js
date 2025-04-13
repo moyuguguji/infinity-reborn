@@ -53,9 +53,6 @@ onEvent("lootjs", (event) => {
         .randomChance(0.1)
         .addLoot('kubejs:jiushu_heart_shard')
     
-    event
-        .addBlockLootModifier("enchantablespike:diamond_spikes")
-        .addLoot("enchantablespike:diamond_spikes")
 
     event
         .addBlockLootModifier("twilightforest:sorting_log_core")

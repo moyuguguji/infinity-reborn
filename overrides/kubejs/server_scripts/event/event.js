@@ -55,7 +55,7 @@ onEvent('entity.hurt', event => {
         }
         if (mainItem == 'kubejs:qixing_sword') {
             player.heal((damage + target.health * 0.05) * 0.05)
-            if(target.maxHealth * 0.01 >= target.health && target.health > 0){
+            if(target.maxHealth * 0.01 >= target.health && target.health > 0 && target.type != 'dummmmmmy:target_dummy'){
                 target.setHealth(1)
             }else
             {
@@ -69,7 +69,7 @@ onEvent('entity.hurt', event => {
             return
         }
         if (mainItem == 'kubejs:sixiang_kaitian') {
-            if(target.health * 0.05 >= target.health && target.health > 0){
+            if(target.health * 0.05 >= target.health && target.health > 0 && target.type != 'dummmmmmy:target_dummy'){
                 target.setHealth(1)
             }else{
             target.attack(target.health * 0.05)
@@ -86,7 +86,7 @@ onEvent('entity.hurt', event => {
             return
         }
         if (mainItem == 'kubejs:ailinghan') {
-            if(player.maxHealth * 0.1 >= target.health && target.health > 0){
+            if(player.maxHealth * 0.1 >= target.health && target.health > 0 && target.type != 'dummmmmmy:target_dummy'){
                 target.setHealth(1)
             }else{
             target.attack(player.maxHealth * 0.1)
@@ -99,7 +99,7 @@ onEvent('entity.hurt', event => {
                 player.heal(-player.maxHealth * 0.1)
             }
             if (player.health < 10 && result < 10) {
-                if(damage * 2.5 >= target.health && target.health > 0){
+                if(damage * 2.5 >= target.health && target.health > 0 && target.type != 'dummmmmmy:target_dummy'){
                     target.setHealth(1)
                 }else{
                 target.attack(damage * 2.5)
@@ -108,7 +108,7 @@ onEvent('entity.hurt', event => {
                 target.potionEffects.add('minecraft:weakness', 100, 9)
                 player.potionEffects.add('spectrum:swiftness', 20, 9, false, false)
             } else {
-                if(damage * 0.5 >= target.health && target.health > 0){
+                if(damage * 0.5 >= target.health && target.health > 0 && target.type != 'dummmmmmy:target_dummy'){
                     target.setHealth(1)
                 }else{
                 target.attack(damage * 0.5)
@@ -122,7 +122,7 @@ onEvent('entity.hurt', event => {
         }
         if (mainItem == 'kubejs:mu_jian') {
             let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
-            if(result * 0.5 >= target.health && target.health > 0){
+            if(result * 0.5 >= target.health && target.health > 0 && target.type != 'dummmmmmy:target_dummy'){
                 target.setHealth(1)
             }else{
             target.attack(result * 0.5)
@@ -131,7 +131,7 @@ onEvent('entity.hurt', event => {
         }
         if (mainItem == 'kubejs:mu_jian_seven') {
             let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
-            if(result * 0.25 >= target.health && target.health > 0){
+            if(result * 0.25 >= target.health && target.health > 0 && target.type != 'dummmmmmy:target_dummy'){
                 target.setHealth(1)
             }else{
             target.attack(result * 0.25)
@@ -140,7 +140,7 @@ onEvent('entity.hurt', event => {
         }
         if (mainItem == 'kubejs:yuan_mu_jian') {
             let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
-            if(result * 2.0 >= target.health && target.health > 0){
+            if(result * 2.0 >= target.health && target.health > 0 && target.type != 'dummmmmmy:target_dummy'){
                 target.setHealth(1)
             }else{
             target.attack(result * 2.0)
@@ -149,7 +149,7 @@ onEvent('entity.hurt', event => {
         }
         if (mainItem == 'kubejs:yuan_mu_jian_seven') {
             let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
-            if(result * 1.0 >= target.health && target.health > 0){
+            if(result * 1.0 >= target.health && target.health > 0 && target.type != 'dummmmmmy:target_dummy'){
                 target.setHealth(1)
             }else{
             target.attack(result * 1.0)
@@ -158,7 +158,7 @@ onEvent('entity.hurt', event => {
         }
         if (mainItem == 'kubejs:yuan_mu_jian_one') {
             let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
-            if(result * 0.5 >= target.health && target.health > 0){
+            if(result * 0.5 >= target.health && target.health > 0 && target.type != 'dummmmmmy:target_dummy'){
                 target.setHealth(1)
             }else{
             target.attack(result * 0.5)

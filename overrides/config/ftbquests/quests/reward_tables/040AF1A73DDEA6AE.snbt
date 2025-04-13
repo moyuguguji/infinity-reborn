@@ -6,7 +6,6 @@
 	rewards: [
 		{ item: "kibe:cursed_dirt", count: 5 }
 		{ item: "darkutils:damage_plate_player", count: 5 }
-		{ item: "enchantablespike:diamond_spikes", count: 5 }
 		{ item: "darkutils:vector_plate", count: 5 }
 	]
 }

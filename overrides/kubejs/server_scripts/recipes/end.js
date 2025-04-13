@@ -1,21 +1,4 @@
 onEvent('recipes', event => {
-    event.stonecutting('betterend:aeternium_hoe_head', 'betterend:aeternium_axe_head')
-    event.stonecutting('betterend:aeternium_pickaxe_head', 'betterend:aeternium_axe_head')
-    event.stonecutting('betterend:aeternium_shovel_head', 'betterend:aeternium_axe_head')
-
-    event.stonecutting('betterend:aeternium_axe_head', 'betterend:aeternium_hoe_head')
-    event.stonecutting('betterend:aeternium_pickaxe_head', 'betterend:aeternium_hoe_head')
-    event.stonecutting('betterend:aeternium_shovel_head', 'betterend:aeternium_hoe_head')
-
-    event.stonecutting('betterend:aeternium_axe_head', 'betterend:aeternium_pickaxe_head')
-    event.stonecutting('betterend:aeternium_hoe_head', 'betterend:aeternium_pickaxe_head')
-    event.stonecutting('betterend:aeternium_shovel_head', 'betterend:aeternium_pickaxe_head')
-
-    event.stonecutting('betterend:aeternium_axe_head', 'betterend:aeternium_shovel_head')
-    event.stonecutting('betterend:aeternium_hoe_head', 'betterend:aeternium_shovel_head')
-    event.stonecutting('betterend:aeternium_pickaxe_head', 'betterend:aeternium_shovel_head')
-
-    event.smithing('betterend:aeternium_sword_blade', Item.of('betterend:aeternium_hammer').ignoreNBT(), 'betterend:aeternium_ingot')
     event.custom({
         type: "spectrum:fusion_shrine",
         "group": "horse_armor",

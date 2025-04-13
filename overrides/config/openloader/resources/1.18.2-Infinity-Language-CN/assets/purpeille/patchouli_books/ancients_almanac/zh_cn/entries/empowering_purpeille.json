@@ -1,0 +1,18 @@
+{
+    "name":"紫晶增强",
+    "icon":"purpeille:smoldered_purpeille_ingot",
+    "category":"purpeille:applications",
+    "pages":[{"type":"patchouli:text",
+    "text":"虚空张力是一种强大的力量，但对一些古代材料却没有影响。紫晶锭就是其中之一。首先，你也可以在紫晶锭上使用虚空张力，只是不能在锭状形态下使用。"},
+    {"type":"patchouli:text",
+    "text":"所有紫晶工具、盔甲和武器都是可以$(bold)抵抗虚空$()的，虚空张力不会吞噬它们从而瓦解消失，也不会增强它们的特性，它们会像大多数其他虚空亲和材料一样出现在末地的中心。如果你在游走于末地岛屿时不幸遭遇危险，放心，你所有的紫晶装备都会保留下来。"},
+    {"type":"patchouli:text",
+    "text":"紫晶锭是可以增强的，这种新形式的紫晶锭有特定的用途，将在这个类别中进一步讨论。这种形式被称为$(item)余烬紫晶锭$()。目前，只需要制作一个锭。在接下来的章节中会详细说明"},
+    {"type":"patchouli:relations",
+    "entries":["purpeille:resources"],
+    "title":"参考页面",
+    "text":"使用目录查看如何制作$(item)余烬紫晶锭$()。"}],
+    "advancement":"purpeille:purpeille/purpeille_ingot",
+    "turnin":"purpeille:purpeille/smoldered_purpeille_ingot",
+    "sortnum":0
+}

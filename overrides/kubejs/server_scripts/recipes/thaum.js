@@ -222,7 +222,7 @@ onEvent('recipes', event => {
       "item": 'kubejs:ruoshui_sword'
     },
     "required_advancement": "spectrum:build_fusion_shrine",
-    "world_conditions": ["day", "CLEAR_SKY"],
+    "world_conditions": [],
     "start_crafting_effect": "nothing",
     "during_crafting_effects": [
       "visual_explosions_on_shrine"
@@ -238,7 +238,7 @@ onEvent('recipes', event => {
     "fluid": "minecraft:lava",
     "ingredients": [
       {
-        "item": 'betterend:aeternium_sword_blade',//太古合金剑
+        "item": 'gobber2:gobber2_sword_end',//太古合金剑
         "count": 1
       },
       {
@@ -317,10 +317,6 @@ onEvent('recipes', event => {
     "ingredients": [
       {
         "item": 'soulsweapons:chaos_orb',//混沌珠
-        "count": 1
-      },
-      {
-        "item": 'gobber2:dragon_star',//龙之星
         "count": 1
       },
       {

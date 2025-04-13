@@ -1,0 +1,20 @@
+{
+    "name":"紫晶",
+    "icon":"purpeille:purpeille_ingot",
+    "category":"purpeille:basics",
+    "pages":[{"type":"patchouli:text",
+    "text":"紫晶的产生是在这个研究领域中一直存在一个谜团，如果$(item)紫晶尘土$()是随着时间的推移而形成的，为什么紫晶呈现出有目的的生成呢？无论如何，这种金属在这个世界中还有许多秘密，仅仅执着于它的存在是无意义的。"},
+    {"type":"patchouli:smelting",
+    "recipe":"purpeille:items/purpeille_ingot_smelting",
+    "text":"这种极品的物质并不是那么简单，预计熔炼它会花费相当长的时间。使用$(item)高炉$()可以获得最快的熔炼速度。"},
+    {"type":"patchouli:text",
+    "text":"和其他金属一样，紫晶可以用来制作各种工具、护甲和武器。我们的实验表明，它比下界合金更强和更耐用。我们认识到，为了获得紫晶，需要付出相当大的努力，但与其他选择相比，收益并不大。我们希望您要有耐心，因为这种材料尚有更多值得探索的地方。"},
+    {"type":"patchouli:crafting",
+    "recipe":"purpeille:gear/purpeille_boots",
+    "text":"与大多数鞋类不同，紫晶提供了最耐用的鞋子。传统的鞋子设计要么太重要么太脆弱。这种鞋子的制作配方节省了两个锭。"},
+    {"type":"patchouli:text",
+    "text":"如果您已经获得了足够数量的紫晶，更不用说$(item)残存砖块$()了，那么您已经准备好踏上超越之旅了。您必须适应您新获得的力量，成为为数不多的先祖追随者之一。从这里开始，您的故事只会变得更加吸引人。"}],
+    "advancement":"purpeille:purpeille/preserved_dust",
+    "turnin":"purpeille:purpeille/purpeille_ingot",
+    "sortnum":2
+}

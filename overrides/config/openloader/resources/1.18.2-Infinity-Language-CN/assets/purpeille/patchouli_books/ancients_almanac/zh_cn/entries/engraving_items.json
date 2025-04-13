@@ -1,0 +1,17 @@
+{
+    "name":"启示",
+    "icon":"purpeille:purpeille_sword",
+    "category":"purpeille:applications",
+    "pages":[{"type":"patchouli:text",
+    "text":"$(item)余烬紫晶锭$() 可以用来雕刻物品，它只限于雕刻紫晶装备，其他类型的装备无效。"},
+    {"type":"patchouli:text",
+    "text":"雕刻是通过在工作台中放置一件紫晶装备和一个$(item)余烬紫晶锭$()来完成的。紫晶装备放在正中心，余烬紫晶锭放在其余八个空位之一。"},
+    {"type":"patchouli:spotlight",
+    "item":"purpeille:purpeille_sword{WarpathData: {Revelation: 'purpeille:totality'}, AttributeModifiers: [{Amount: 2.0d, Slot: 'mainhand', AttributeName: 'minecraft:generic.max_health', Operation: 0, UUID: [I; 744996952, 1566460729, -1729907733, -1721370645], Name: 'Warpath modifier'}]}",
+    "title":"被雕刻的剑",
+    "text":"这是一把雕刻过的$(item)紫晶剑$()。将您的鼠标悬停在插图上，即可查看它的铭文。$(bold)完整$()是一种$(bold)启示$()，是铭文其中的一种，它是通过将$(item)余烬紫晶锭$()放置在工作台第一排的第三个空位创建的。"},
+    {"type":"patchouli:text",
+    "text":"您注意到持有这个物品会给予您最大生命值+2的奖励。每个$(bold)启示$()都会为您提供独特的奖励。工具和武器应该握在您的主手中，而护甲则应该穿戴以获得它们的奖励。"}],
+    "advancement":"purpeille:purpeille/smoldered_purpeille_ingot",
+    "sortnum":1
+}

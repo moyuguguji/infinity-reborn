@@ -1,0 +1,17 @@
+{
+    "name":"古代之门",
+    "icon":"purpeille:ancient_gateway",
+    "category":"purpeille:machinery",
+    "pages":[{"type":"patchouli:crafting",
+    "recipe":"purpeille:blocks/ancient_gateway",
+    "text":"$(bold)古代之门$()是一种依赖于时间并可配置的传送装置，古代人用它来在重要前哨站之间进行旅行。"},
+    {"type":"patchouli:text",
+    "text":"为了启动这个传送门，请将一个封装核心放入其中，传送门会立即打开，并观察机器的正面，眼睛所指的方向就是使用者将要传送的方向。$(br2)启动后，使用红石持续给传送机供电。使用封装核心时，传送速度为每秒5个方块，这个速度会因不同核心等级而有所调整。"},
+    {"type":"patchouli:text",
+    "text":"要激活传送门，请切断供电。任何站在装置正上方的玩家都将沿着指定方向直线传送，传送距离取决于充能时间。$(br2)$(item)空灵核心$()会将玩家传送到他们所看的方向，不受传送门方向的影响。"},
+    {"type":"patchouli:text",
+    "text":"使用传送门旅行的距离没有固有限制，但无论核心等级如何，内部核心的耐久度都以每20个方块的速率递减。即使传送距离少于20个方块，仍会扣除一点耐久度。"}],
+    "advancement":"purpeille:purpeille/encased_core",
+    "turnin":"purpeille:purpeille/ancient_gateway",
+    "sortnum":2
+}

@@ -1,0 +1,19 @@
+{
+    "name":"铭文系统",
+    "icon":"purpeille:purpeille_pickaxe",
+    "category":"purpeille:applications",
+    "pages":[{"type":"patchouli:text",
+    "text":"在强化过程中最重要的因素是$(bold)铭文系统$()。铭文最大有两个组件，其中$(bold)启示$()可以单独存在，$(bold)相位$()必须在$(bold)启示$()存在的基础上才能产生"},
+    {"type":"patchouli:text",
+    "text":"$(bold)启示$()和$(bold)相位$()很重要，因为它们决定了$(bold)协同作用$()，即一个组件与另一个组件的相互作用程度。"},
+    {"type":"patchouli:text",
+    "text":"具有相反协同作用的带来了负增益，当协同作用是中性时，增益不会改变。当具有相同的协同作用时，会形成极大的增益。我们总结出规律,颜色相同的$(bold)启示$()和$(bold)相位$()会给装备带来极大增益，恰巧的是，所有极大增益的配方在工作台内物品放置位置都为一条直线"},
+    {"type":"patchouli:spotlight",
+    "item":"purpeille:purpeille_shovel{WarpathData: {Revelation: 'purpeille:bound', Aspect: 'purpeille:limitless'}, AttributeModifiers: [{Amount: 0.6825d, Slot: 'mainhand', AttributeName: 'purpeille:generic.jump_boost', Operation: 2, UUID: [I; 744996952, 1566460729, -1729907733, -1721370645], Name: 'Warpath modifier'}]}",
+    "title":"协同作用",
+    "text":"这是一把铲子，它有两个组件并且具有完全一致的$(bold)协同作用$()。请注意增益的显著增加，以及铭文下方的文字。"},
+    {"type":"patchouli:text",
+    "text":"除了极大增益之外，还存在微小增益。微小增益并没有明确的规律，但是在合成过程中很容易发现，目前我们只是知道和$(bold)亲和性$()这种特性有关，还需要等待进一步研究。"}],
+    "advancement":"purpeille:purpeille/smoldered_purpeille_ingot",
+    "sortnum":3
+}

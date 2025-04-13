@@ -28,8 +28,8 @@ onEvent('item.tags', event => {
 		['minecraft:diamond_sword', 'additionaladditions:rose_gold_sword', 'minecraft:trident', 'additionaladditions:gilded_netherite_sword',
 			'emerald_tools:obsidian_sword', 'emerald_tools:steel_sword', 'emerald_tools:amethyst_sword', 'emerald_tools:ruby_sword',
 			'emerald_tools:emerald_sword', 'soulsweapons:guts_sword', 'soulsweapons:bluemoon_shortsword', 'soulsweapons:bluemoon_greatsword',
-			'soulsweapons:sting', 'soulsweapons:dragon_staff', 'soulsweapons:withered_wabbajack', 'betterend:aeternium_sword',
-			'betterend:thallasium_sword', 'betterend:terminite_sword', 'botania:manasteel_sword', 'botania:elementium_sword',
+			'soulsweapons:sting', 'soulsweapons:dragon_staff', 'soulsweapons:withered_wabbajack',
+			 'botania:manasteel_sword', 'botania:elementium_sword',
 			'botania:star_sword', 'botania:thunder_sword', 'gateofbabylon:diamond_dagger', 'gateofbabylon:diamond_spear',
 			'gateofbabylon:diamond_broadsword', 'gateofbabylon:diamond_rapier', 'gateofbabylon:diamond_haladie', 'gateofbabylon:diamond_waraxe',
 			'gateofbabylon:diamond_katana', 'mcdw:axe_encrusted_anchor', 'mcdw:axe_highland', 'mcdw:dagger_backstabber',
@@ -154,7 +154,6 @@ onEvent('item.tags', event => {
 		])
 	event.add('tier:2armor',
 		['minecraft:diamond_helmet', 'minecraft:diamond_chestplate', 'minecraft:diamond_leggings', 'minecraft:diamond_boots',
-			'betterend:crystalite_helmet', 'betterend:crystalite_chestplate', 'betterend:crystalite_leggings', 'betterend:crystalite_boots',
 			'emerald_tools:ruby_helmet', 'emerald_tools:ruby_chestplate', 'emerald_tools:ruby_leggings', 'emerald_tools:ruby_boots',
 			'emerald_tools:amethyst_helmet', 'emerald_tools:amethyst_chestplate', 'emerald_tools:amethyst_leggings', 'emerald_tools:amethyst_boots',
 			'emerald_tools:emerald_helmet', 'emerald_tools:emerald_chestplate', 'emerald_tools:emerald_leggings', 'emerald_tools:emerald_boots',
@@ -285,6 +284,7 @@ onEvent('item.tags', event => {
 	event.removeAll('twilightforest:portal/activator')
 	event.add('twilightforest:portal/activator', ['gobber2:gobber2_ingot'])
 	event.add('kubejs:s_weapon', ['kubejs:qixing_sword', 'kubejs:ruoshui_sword','kubejs:yecao_sword','kubejs:putong_stone_sword','kubejs:sixiang_kaitian','kubejs:lce_tang','kubejs:ailinghan','kubejs:jian_li','kubejs:infinity_sword','kubejs:kreska','kubejs:nature_spirit'])
+	event.add('purpeille:warpath_base', ['kubejs:infinity_sword', 'kubejs:ruoshui_sword','kubejs:yecao_sword','kubejs:putong_stone_sword','kubejs:sixiang_kaitian','kubejs:lce_tang','kubejs:ailinghan','kubejs:jian_li','kubejs:infinity_sword','kubejs:kreska','kubejs:nature_spirit'])
 })
 // 在 kubejs/server_scripts 目录下的脚本文件中编写
 onEvent('tags.items', event => {

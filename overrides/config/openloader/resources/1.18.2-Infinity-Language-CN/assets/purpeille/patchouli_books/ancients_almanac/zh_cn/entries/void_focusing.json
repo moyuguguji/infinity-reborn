@@ -1,0 +1,17 @@
+{
+    "name":"虚空聚焦",
+    "icon":"purpeille:ancient_oven",
+    "category":"purpeille:machinery",
+    "pages":[{"type":"patchouli:crafting",
+    "recipe":"purpeille:blocks/ancient_oven",
+    "text":"在追求机械化的过程中，古代人的第一步是将虚空张力隔离并集中在特定物品上。这个过程被称为$(bold)虚空聚焦$()，而我们对他们的发明进行的复刻就是$(item)古代熔炉$()。"},
+    {"type":"patchouli:text",
+    "text":"虚空聚焦涉及从虚空中提取能量并将其指向单个物体。这样做会对尝试的任何物体造成巨大的负担，但是古代熔炉的外壳足够坚固以承受这种负担...在某种程度上。$(br2)每次虚空聚焦过程完成后，古代熔炉都会根据产出的物品受到一定程度的损坏。"},
+    {"type":"patchouli:text",
+    "text":"古代熔炉拥有$(bold)昏暗度$()级别，指示其所受的损坏程度。在昏暗的阶段时，顶部环发出的光线减弱，砖块明显出现裂纹。此外，在昏暗度级别之间的过渡中，该机器会发出可听见的退化声音。$(br2)虽然看起来很严重，但不用担心，因为有方法来修复它们。"},
+    {"type":"patchouli:text",
+    "text":"通过将自然资源投入熔炉，似乎可以将一些能量返还给虚空，逆转昏暗过程并修复机器。$(br2)这些自然资源包括$(item)铁$()、$(item)黄金$()和$(item)钻石$()，每种资源都有不同的修复完成时间和修复价值。$(br2)所有这些资源都会输出无关紧要的其他物品，因此最好将它们过滤掉。"}],
+    "advancement":"purpeille:purpeille/ancient_mechanical_bricks",
+    "turnin":"purpeille:purpeille/ancient_oven",
+    "sortnum":0
+}

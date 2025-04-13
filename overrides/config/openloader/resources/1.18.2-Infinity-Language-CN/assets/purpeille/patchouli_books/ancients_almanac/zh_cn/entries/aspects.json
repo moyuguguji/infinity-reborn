@@ -1,0 +1,16 @@
+{
+    "name":"相位",
+    "icon":"purpeille:preserved_dust",
+    "category":"purpeille:applications",
+    "pages":[{"type":"patchouli:text",
+    "text":"$(bold)相位$()是铭文的第二个组成部分，也可以不存在。一个$(bold)相位$()不能单独存在，它必须伴随着$(bold)启示$()一起。$(br2)创建$(bold)相位$()的方法是将$(item)紫晶尘土$()和$(item)余烬紫晶锭$()一同放入到工作台中。"},
+    {"type":"patchouli:spotlight",
+    "item":"purpeille:purpeille_sword{WarpathData: {Revelation: 'purpeille:totality', Aspect: 'purpeille:heroic'}, AttributeModifiers: [{Amount: 4.2d, Slot: 'mainhand', AttributeName: 'minecraft:generic.max_health', Operation: 0, UUID: [I; 744996952, 1566460729, -1729907733, -1721370645], Name: 'Warpath modifier'}]}",
+    "title":"完整的铭文",
+    "text":"在之前的$(bold)雕刻$()过程中铭文上添加了$(bold)完整$()这种$(bold)启示$()，这次在铭文中添加的$(bold)相位$()是$(bold)英勇$()，其产生是通过将$(item)紫晶尘土$()放入工作台第三排的第一个空位中创建的。注意颜色的不同，组件的位置带来的不同增益。"},
+    {"type":"patchouli:text",
+    "text":"尝试创建你自己的铭文，让不同的装备尝试不同的$(bold)启示$()和$(bold)相位$()组合，找到一个你喜欢的增益。$(br2)请注意，你可以将一个带有铭文的物品单独放入工作台来移除铭文。"}],
+    "advancement":"purpeille:purpeille/smoldered_purpeille_ingot",
+    "turnin":"purpeille:purpeille/warpath",
+    "sortnum":2
+}

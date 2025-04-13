@@ -1,0 +1,16 @@
+{
+    "name":"虚空张力",
+    "icon":"purpeille:remnant_chunk",
+    "category":"purpeille:basics",
+    "pages":[{"type":"patchouli:text",
+    "text":"与其他文明不同，古代人发现了虚空的真正力量并接纳了它。当暴露于虚空之下，大多数材料都会在张力下瓦解，但有些材料却能更紧密地结合在一起。$(br2)从紫珀遗迹获得的两种资源都展现了后一种特性。"},
+    {"type":"patchouli:text",
+    "text":"我们发现,将紫珀遗迹发现的两种材料扔到末地虚空下,他们不会被虚空张力瓦解从而消失，而是以一种更紧密的形式掉落在末地主岛的末影传送门附近，后续我们也将持续对此现象进行研究和记录。"},
+    {"type":"patchouli:relations",
+    "entries":["purpeille:resources"],
+    "title":"参考页面",
+    "text":"在这一点上，$(bold)目录$()非常有用。无论您的进度如何，它都为任何主题提供简要的解释，既可以用来复习已有知识，也可以作为新概念的参考。$(br2)上述条目的前两页应该有助于您的进展。"}],
+    "advancement":"purpeille:purpeille/impure_preserved_dust",
+    "turnin":"purpeille:purpeille/preserved_dust",
+    "sortnum":1
+}

@@ -1,0 +1,12 @@
+{
+    "name":"科研团队",
+    "icon":"minecraft:lectern",
+    "category":"purpeille:introduction",
+    "pages":[{"type":"patchouli:text",
+    "text":"$(bold)古代研究团队$()，简称A.R.T.，在我们最初的发现被世人认可之后，得到了Spades大学的资助。$(br2)多年来，我们一直致力于这个事业，已经发现了许多东西，并且没有计划过停止。"},
+    {"type":"patchouli:link",
+    "text":"随着对古代人的更多发现，年鉴将相应地进行更新。$(br2)如果您想支持我们的科研团队，或者有任何问题，轻轻点击本页面底部即可。",
+    "url":"https://discord.gg/QYymKz84tR",
+    "link_text":"Discord Link"}],
+    "sortnum":2
+}

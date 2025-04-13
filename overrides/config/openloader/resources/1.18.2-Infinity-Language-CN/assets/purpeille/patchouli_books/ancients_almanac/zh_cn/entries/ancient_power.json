@@ -1,0 +1,16 @@
+{
+    "name":"远古力量",
+    "icon":"purpeille:encased_core",
+    "category":"purpeille:machinery",
+    "pages":[{"type":"patchouli:text",
+    "text":"所有远古装置的主要动力源（除了古代熔炉）是$(item)封装核心$()。它有不同的等级，每个等级都有自己的效率和耐久性。$(br2)封装核心是一次性的，尽管寿命很长，但不能重新填充。"},
+    {"type":"patchouli:text",
+    "text":"要制造基本的$(item)封装核心$()，只需在$(item)古代熔炉$()中烧制$(bold)末影之眼$()。这将需要相当长的时间，但对于装置的能量消耗并不是很大，因此在需要修理之前，你可以制作相当多的封装核心。"},
+    {"type":"patchouli:relations",
+    "entries":["purpeille:cores"],
+    "title":"参考页面",
+    "text":"请访问目录了解更多关于不同封装核心以及如何使用它们的信息。"}],
+    "advancement":"purpeille:purpeille/ancient_oven",
+    "turnin":"purpeille:purpeille/encased_core",
+    "sortnum":1
+}

@@ -147,9 +147,9 @@ onEvent('recipes', event => {
 		'BBB'
 	], {
 		A: 'minecraft:purpur_block',
-		B: 'betterend:flavolite_bricks',
+		B: 'purpeille:remnant_brick',
 		C: 'minecraft:dragon_head',
-		D: 'enderscape:nebulite'
+		D: 'purpeille:ultraviolet_prism'
 	})
 
 	event.shaped('minecraft:amethyst_cluster', [
@@ -295,7 +295,7 @@ onEvent('recipes', event => {
 	], {
 		A: 'spectrum:bedrock_dust',
 		B: 'mythicmetals:unobtainium',
-		C: 'enderscape:nebulite',
+		C: 'purpeille:smoldered_purpeille_ingot',
 		D: 'minecraft:nether_star'
 	})
 

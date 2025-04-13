@@ -1,0 +1,18 @@
+{
+    "name":"寻找遗迹",
+    "icon":"purpeille:purpur_remnants",
+    "category":"purpeille:basics",
+    "pages":[{"type":"patchouli:text",
+    "text":"一段时间之前，我们的一个研究团队驻扎在一个废弃的末地城市并且开始挖掘该地区。他们发现了一种地下材料，类似于紫珀，但又有一种古老的特质。这一发现成为我们对先祖研究的基础，从而有了这本年鉴。"},
+    {"type":"patchouli:text",
+    "text":"此材料散布在至少40米范围内的末地城周围。我们的团队发现，爆炸是一种可行的挖掘方法，但由于其不稳定，这也带来了一定的风险。"},
+    {"type":"patchouli:image",
+    "images":["purpeille:textures/gui/entries/remnants.png"],
+    "title":"未被发现的遗迹",
+    "border":true,
+    "text":"一幅展示了一些裸露的紫晶矿石的插图。"},
+    {"type":"patchouli:text",
+    "text":"紫晶矿石被厚厚的末地石层层包裹，这一层末地石经历了数千年才得以形成。然而，由于其深紫色的颜色，因此您可以轻松地发现它们。挖掘矿石会得到$(item)残存碎片$()和$(item)不纯的紫晶尘土$()，前者可以用高级别的时运采集更多。这本手册的关键在于您获得足够数量的两者。"}],
+    "sortnum":0,
+    "turnin":"purpeille:purpeille/impure_preserved_dust"
+}

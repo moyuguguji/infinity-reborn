@@ -3,20 +3,50 @@
     "version": "1.18.2",
     "modLoaders": [
       {
-        "id": "fabric-0.14.24",
+        "id": "fabric-0.16.13",
         "primary": true
       }
     ]
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "infinity-reborn-v3.0-Beta5",
-  "version": "v3.0-Beta5",
+  "name": "infinity-reborn-v3.0-Beta6",
+  "version": "v3.0-Beta6",
   "author": "infinity-reborn",
   "files": [
     {
       "projectID": 618175,
       "fileID": 3769568,
+      "required": true
+    },
+    {
+      "projectID": 1196599,
+      "fileID": 6196255,
+      "required": true
+    },
+    {
+      "projectID": 959237,
+      "fileID": 5501217,
+      "required": true
+    },
+    {
+      "projectID": 1054538,
+      "fileID": 5491062,
+      "required": true
+    },
+    {
+      "projectID": 1087831,
+      "fileID": 6125382,
+      "required": true
+    },
+    {
+      "projectID": 666944,
+      "fileID": 4707833,
+      "required": true
+    },
+    {
+      "projectID": 495476,
+      "fileID": 5729909,
       "required": true
     },
     {
@@ -305,18 +335,13 @@
       "required": true
     },
     {
-      "projectID": 619550,
-      "fileID": 3808822,
-      "required": true
-    },
-    {
       "projectID": 257814,
       "fileID": 3827354,
       "required": true
     },
     {
       "projectID": 566642,
-      "fileID": 3959521,
+      "fileID": 4454022,
       "required": true
     },
     {
@@ -411,7 +436,7 @@
     },
     {
       "projectID": 615351,
-      "fileID": 3959337,
+      "fileID": 6299287,
       "required": true
     },
     {
@@ -520,11 +545,6 @@
       "required": true
     },
     {
-      "projectID": 536638,
-      "fileID": 3873999,
-      "required": true
-    },
-    {
       "projectID": 455508,
       "fileID": 4480991,
       "required": true
@@ -601,7 +621,7 @@
     },
     {
       "projectID": 472657,
-      "fileID": 4375247,
+      "fileID": 5423715,
       "required": true
     },
     {
@@ -641,7 +661,12 @@
     },
     {
       "projectID": 438365,
-      "fileID": 4019439,
+      "fileID": 5026837,
+      "required": true
+    },
+    {
+      "projectID": 609887,
+      "fileID": 3915790,
       "required": true
     },
     {
@@ -871,7 +896,7 @@
     },
     {
       "projectID": 500087,
-      "fileID": 4418739,
+      "fileID": 4943243,
       "required": true
     },
     {
@@ -1181,7 +1206,7 @@
     },
     {
       "projectID": 575402,
-      "fileID": 3959587,
+      "fileID": 4454456,
       "required": true
     },
     {
@@ -1391,7 +1416,7 @@
     },
     {
       "projectID": 530309,
-      "fileID": 3959431,
+      "fileID": 4494307,
       "required": true
     },
     {
@@ -1505,11 +1530,6 @@
       "required": true
     },
     {
-      "projectID": 413596,
-      "fileID": 3814370,
-      "required": true
-    },
-    {
       "projectID": 399798,
       "fileID": 3573935,
       "required": true
@@ -1520,13 +1540,8 @@
       "required": true
     },
     {
-      "projectID": 495191,
-      "fileID": 3814359,
-      "required": true
-    },
-    {
       "projectID": 556489,
-      "fileID": 3999317,
+      "fileID": 4490685,
       "required": true
     },
     {
@@ -1566,7 +1581,7 @@
     },
     {
       "projectID": 532730,
-      "fileID": 3959269,
+      "fileID": 4435494,
       "required": true
     },
     {

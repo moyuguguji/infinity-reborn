@@ -1,0 +1,10 @@
+{
+    "name":"远古先人",
+    "icon":"purpeille:monolithic_purpur",
+    "category":"purpeille:introduction",
+    "pages":[{"type":"patchouli:text",
+    "text":"在整个年鉴中，我们将提及一个称之为$(bold)古代人$()的族群。我们对他们的外貌、态度或交流方式了解甚少，但通过研究他们的技术，我们了解了他们的习惯。$(br2)这些人始终追求进步，真正比他们的同时代人更为先进。"},
+    {"type":"patchouli:text",
+    "text":"尽管我们已经发现了许多关于他们的信息，但仍有许多发现尚未解释，例如在后面的章节中您将会了解到铭文和$(item)紫晶装备$()的特性。$(br2)追忆古代人的道路是一段漫长之旅，这将考验您的能力，但也会赋予您无与伦比的力量。"}],
+    "sortnum":1
+}

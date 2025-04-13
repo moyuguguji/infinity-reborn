@@ -260,11 +260,11 @@ onEvent('recipes',event => {
 		"count": 3
 		},
 		{
-		"item": 'betterend:dragon_bone_block',
+		"item": 'purpeille:ultraviolet_prism',
 		"count": 16
 		},
 		{
-		"item": 'betterend:eternal_crystal',
+		"item": 'purpeille:metallic_lightning',
 		"count": 16
 		},
 		{
@@ -272,7 +272,7 @@ onEvent('recipes',event => {
 		"count": 2
 		},
 		{
-		"item": 'enderscape:nebulite',
+		"item": 'purpeille:smoldered_purpeille_ingot',
 		"count": 2
 		}
 		],

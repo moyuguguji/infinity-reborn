@@ -52,7 +52,7 @@ onEvent('recipes', event => {
     'DB '
   ], {
     A: 'mythicmetals:hallowed_ingot',
-    B: 'enderscape:nebulite',
+    B: 'purpeille:metallic_lightning',
     C: '#soulsweapons:lord_soul',
     D: 'gobber2:gobber2_rod_nether'
   })

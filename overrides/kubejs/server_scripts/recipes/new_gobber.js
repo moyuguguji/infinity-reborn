@@ -635,7 +635,7 @@ onEvent('recipes', event => {
           'item':'gobber2:gobber2_ingot_nether'
         },
         {
-           'item':'enderscape:nebulite'
+           'item':'purpeille:smoldered_purpeille_ingot'
          },
          {
           'item':'minecraft:nether_star'
