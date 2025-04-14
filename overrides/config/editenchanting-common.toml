@@ -12,7 +12,7 @@
 	#( ( level / 3 ) + 1 )
 	#count
 	#( level + count )
-	power_expression = "level * 5"
+	power_expression = "level * 10"
 	#True if page turn is allowed
 	page_turn = true
 	#Item cost when disenchant.
