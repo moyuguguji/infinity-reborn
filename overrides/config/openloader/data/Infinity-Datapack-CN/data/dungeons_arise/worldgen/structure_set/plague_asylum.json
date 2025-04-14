@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "dungeons_arise:plague_asylum",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 637271616,
+    "spacing": 220,
+    "separation": 180,
+    "type": "minecraft:random_spread"
+  }
+}

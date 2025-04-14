@@ -40,12 +40,12 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -1.5d
+			x: 2.5d
+			y: -0.5d
 			dependencies: [
 				"7393807F10C36C3E"
 				"3E0D5FF75A4E9B1D"
-				"42113EBA3E66BAD9"
+				"27C1BA95C1F0A586"
 			]
 			id: "1D1DCE89D27673CC"
 			tasks: [{
@@ -61,8 +61,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -0.5d
+			x: 1.5d
+			y: 0.5d
 			description: ["{chapter.11.quest.3.description.1}"]
 			dependencies: ["4CC496C6F67ECC1C"]
 			id: "3E0D5FF75A4E9B1D"
@@ -560,8 +560,8 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: -2.5d
+			x: 1.5d
+			y: -1.5d
 			description: ["{chapter.11.quest.27.description.1}"]
 			dependencies: ["4CC496C6F67ECC1C"]
 			id: "7393807F10C36C3E"
@@ -578,177 +578,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 1.5d
-			description: ["{chapter.11.quest.28.description.1}"]
-			dependencies: ["302E302BDA7BF0F5"]
-			id: "3AB5B6EBE3F49B64"
-			tasks: [{
-				id: "41417E9871B7477E"
-				type: "item"
-				item: "betterend:ender_dust"
-			}]
-			rewards: [{
-				id: "5028C7EBFF462EBE"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 1005535573748960953L
-			}]
-		}
-		{
-			x: -1.5d
-			y: 3.0d
-			description: ["{chapter.11.quest.29.description.1}"]
-			dependencies: ["3AB5B6EBE3F49B64"]
-			id: "09B2D3CF286D2AF8"
-			tasks: [{
-				id: "1D87FF0086783A96"
-				type: "item"
-				item: "betterend:terminite_ingot"
-			}]
-			rewards: [{
-				id: "00126A2A722919FD"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 1005535573748960953L
-			}]
-		}
-		{
-			x: 0.5d
-			y: 4.0d
-			description: ["{chapter.11.quest.30.description.1}"]
-			dependencies: ["09B2D3CF286D2AF8"]
-			id: "2FF672D6D8025BD2"
-			tasks: [{
-				id: "6FE04ADBE4871FFB"
-				type: "item"
-				item: "betterend:aeternium_ingot"
-			}]
-			rewards: [{
-				id: "1541F587235889E6"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 1005535573748960953L
-			}]
-		}
-		{
-			x: 0.5d
-			y: 2.0d
-			dependencies: ["09B2D3CF286D2AF8"]
-			id: "71B34F5999254754"
-			tasks: [{
-				id: "1298B9C935064495"
-				type: "item"
-				item: {
-					id: "betterend:terminite_anvil"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "6F539A577651C464"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 1005535573748960953L
-			}]
-		}
-		{
-			x: 2.5d
-			y: 2.0d
-			dependencies: [
-				"71B34F5999254754"
-				"2FF672D6D8025BD2"
-			]
-			id: "0B573C25C398FFEE"
-			tasks: [{
-				id: "5CB3DC510FC69ECE"
-				type: "item"
-				item: {
-					id: "betterend:aeternium_anvil"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "349B428F1DD0BC90"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 1005535573748960953L
-			}]
-		}
-		{
-			x: 2.5d
-			y: 4.0d
-			dependencies: ["2FF672D6D8025BD2"]
-			id: "0ACE0FA61EEA47C1"
-			tasks: [{
-				id: "3558E6DA46703DAB"
-				type: "item"
-				item: {
-					id: "betterend:aeternium_hammer"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "5407651D66C11AA3"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 1005535573748960953L
-			}]
-		}
-		{
-			x: 4.0d
-			y: 3.0d
-			description: ["{chapter.11.quest.34.description.1}"]
-			dependencies: [
-				"0ACE0FA61EEA47C1"
-				"0B573C25C398FFEE"
-			]
-			id: "445741577DD02933"
-			tasks: [{
-				id: "313F03CD19FE09AA"
-				type: "item"
-				item: "betterend:aeternium_sword_blade"
-			}]
-			rewards: [
-				{
-					id: "30C99C9CDB633B6B"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 1005535573748960953L
-				}
-				{
-					id: "605C12DE713DD4B8"
-					type: "loot"
-					exclude_from_claim_all: true
-					table_id: 5136761027295037695L
-				}
-			]
-		}
-		{
-			x: -3.5d
-			y: 1.5d
-			description: ["{chapter.11.quest.35.description.1}"]
-			dependencies: ["302E302BDA7BF0F5"]
-			id: "3072D5AD682F4876"
-			tasks: [{
-				id: "0BBC0E7EBBE3E2E8"
-				type: "item"
-				item: "betterend:infusion_pedestal"
-			}]
-			rewards: [{
-				id: "36B122B80B0912E7"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 1005535573748960953L
-			}]
-		}
-		{
-			x: 8.0d
-			y: -3.0d
+			x: 3.5d
+			y: -1.5d
 			subtitle: "{chapter.11.quest.36.subtitle}"
 			dependencies: ["1D1DCE89D27673CC"]
 			id: "407C6FBB72BA4DF0"
@@ -773,8 +604,8 @@
 		}
 		{
 			title: "{chapter.11.quest.37.title}"
-			x: 8.0d
-			y: 0.0d
+			x: 3.5d
+			y: 0.5d
 			subtitle: "{chapter.11.quest.37.subtitle}"
 			dependencies: ["1D1DCE89D27673CC"]
 			id: "0BF9D3423404F8BF"
@@ -842,7 +673,7 @@
 		}
 		{
 			title: "{chapter.11.quest.39.title}"
-			x: 1.5d
+			x: 0.5d
 			y: 1.0d
 			subtitle: "{chapter.11.quest.39.subtitle}"
 			description: ["{chapter.11.quest.39.description.1}"]
@@ -884,40 +715,153 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: -1.5d
-			description: ["{chapter.11.quest.40.description.1}"]
-			dependencies: [
-				"027AAA6A3553F7DB"
-				"4CC496C6F67ECC1C"
+			title: "紫晶矿物"
+			x: -3.5d
+			y: 1.0d
+			description: [
+				"在紫晶矿石或者随机矿石中可以获取"
+				"紫晶矿石:在末地城附近生成"
 			]
-			hide: true
-			id: "42113EBA3E66BAD9"
-			tasks: [{
-				id: "1A7E73CBE24284E5"
-				type: "item"
-				item: "enderscape:nebulite"
+			dependencies: ["0CEDE251E1251429"]
+			id: "1F6B9E5680FE2D9A"
+			tasks: [
+				{
+					id: "721CB52C3A2B07DA"
+					type: "item"
+					item: "purpeille:impure_preserved_dust"
+				}
+				{
+					id: "3C4F39770497452B"
+					type: "item"
+					item: "purpeille:remnant_chunk"
+				}
+			]
+			rewards: [{
+				id: "062C70867AEFBB24"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5136761027295037695L
 			}]
 		}
 		{
-			x: -5.0d
-			y: 3.0d
-			description: ["{chapter.11.quest.41.description.1}"]
-			dependencies: ["027AAA6A3553F7DB"]
-			hide: true
-			size: 2.0d
-			id: "4020CD6738C660EB"
+			x: -3.5d
+			y: 2.5d
+			subtitle: "产物会在末地传送门附近生成"
+			description: ["将不纯洁的紫晶尘土丢入虚空获取"]
+			dependencies: ["1F6B9E5680FE2D9A"]
+			id: "1114D47AD65C69F4"
 			tasks: [{
-				id: "47892549CD94000C"
+				id: "6A24D014F89B2B4B"
 				type: "item"
-				item: "betterend:guidebook"
-				consume_items: true
+				item: "purpeille:preserved_dust"
 			}]
 			rewards: [{
-				id: "2C2CA7E5959A1E30"
+				id: "073D8BAE20902A0A"
 				type: "random"
 				exclude_from_claim_all: true
-				table_id: 1005535573748960953L
+				table_id: 5136761027295037695L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			subtitle: "产物会在末地传送门附近生成"
+			description: ["将残存碎片丢入虚空获取"]
+			dependencies: ["1F6B9E5680FE2D9A"]
+			id: "0111A1FA17762ABE"
+			tasks: [{
+				id: "63EE32D5824762B1"
+				type: "item"
+				item: "purpeille:remnant_brick"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			subtitle: "产物会在末地传送门附近生成"
+			description: ["将残存砖块丢入虚空获取"]
+			dependencies: [
+				"0111A1FA17762ABE"
+				"1114D47AD65C69F4"
+			]
+			id: "037F0F68B2B36EDC"
+			tasks: [{
+				id: "1AF2E78C23A1DF0B"
+				type: "item"
+				item: "purpeille:ancient_mechanical_bricks"
+			}]
+			rewards: [{
+				id: "5ED741B37BDD7DD3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5136761027295037695L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			subtitle: "拿物品右键使用"
+			description: [
+				"合成红色伤害物品会损耗熔炉,造成一定量的损耗后会无法使用"
+				"合成绿色伤害的物品能修复损耗"
+				"ps:不要拿管道对这个方块进行输入/输出,会停摆"
+			]
+			dependencies: ["037F0F68B2B36EDC"]
+			id: "73C2F5CDE66CD14A"
+			tasks: [{
+				id: "2E1708343AD67697"
+				type: "item"
+				item: "purpeille:ancient_oven"
+			}]
+			rewards: [{
+				id: "7717262081BB457B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5136761027295037695L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.0d
+			dependencies: ["525EEA02DFF2697F"]
+			id: "0424FB7E30542341"
+			tasks: [{
+				id: "3102B1A2DACCE81E"
+				type: "item"
+				item: "purpeille:purpeille_ingot"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			dependencies: ["0424FB7E30542341"]
+			id: "27C1BA95C1F0A586"
+			tasks: [{
+				id: "4DAFE7AC5A3CA62B"
+				type: "item"
+				item: "purpeille:smoldered_purpeille_ingot"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.0d
+			dependencies: ["73C2F5CDE66CD14A"]
+			id: "525EEA02DFF2697F"
+			tasks: [{
+				id: "4C15B3D4966C69CD"
+				type: "item"
+				item: "purpeille:ultraviolet_prism"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			dependencies: ["1D1DCE89D27673CC"]
+			id: "2CF9EAC556F00DBF"
+			tasks: [{
+				id: "05B45CED3E6B8104"
+				type: "item"
+				item: "kubejs:sheng_jin"
 			}]
 		}
 	]

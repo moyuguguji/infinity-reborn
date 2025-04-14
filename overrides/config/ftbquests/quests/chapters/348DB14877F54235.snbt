@@ -1869,13 +1869,6 @@
 					value: 1L
 				}
 				{
-					id: "32C3CCCE304BCD72"
-					type: "kill"
-					icon: "minecraft:slime_ball"
-					entity: "betterend:end_slime"
-					value: 1L
-				}
-				{
 					id: "1E9618865B7E3023"
 					type: "kill"
 					icon: "terrarianslimes:black_slime_ball"

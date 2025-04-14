@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "dungeons_arise:giant_mushroom",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 497362534,
+    "spacing": 75,
+    "separation": 35,
+    "type": "minecraft:random_spread"
+  }
+}

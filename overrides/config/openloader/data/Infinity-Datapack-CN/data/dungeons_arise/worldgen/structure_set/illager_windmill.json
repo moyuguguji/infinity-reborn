@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "dungeons_arise:illager_windmill",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 277746726,
+    "spacing": 65,
+    "separation": 30,
+    "type": "minecraft:random_spread"
+  }
+}

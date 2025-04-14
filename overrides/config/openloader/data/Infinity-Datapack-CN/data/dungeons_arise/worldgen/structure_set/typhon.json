@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "dungeons_arise:typhon",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 357769433,
+    "spacing": 75,
+    "separation": 45,
+    "type": "minecraft:random_spread"
+  }
+}

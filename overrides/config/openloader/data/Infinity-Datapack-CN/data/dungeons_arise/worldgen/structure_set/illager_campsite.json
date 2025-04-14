@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "dungeons_arise:illager_campsite",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 372632837,
+    "spacing": 70,
+    "separation": 40,
+    "type": "minecraft:random_spread"
+  }
+}

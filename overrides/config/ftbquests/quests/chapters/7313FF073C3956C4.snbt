@@ -203,11 +203,12 @@
 		}
 		{
 			title: "{chapter.8.quest.7.title}"
-			x: 8.0d
-			y: 0.5d
+			x: 4.5d
+			y: 2.0d
 			subtitle: "{chapter.8.quest.7.subtitle}"
 			description: ["{chapter.8.quest.7.description.1}"]
-			dependencies: ["32DC410EC16DFBA4"]
+			hide_dependency_lines: true
+			dependencies: ["263182083E9E7774"]
 			min_required_tasks: 1
 			id: "3AB25BFC35ED4493"
 			tasks: [
@@ -246,8 +247,8 @@
 		}
 		{
 			title: "{chapter.8.quest.8.title}"
-			x: 7.5d
-			y: -1.0d
+			x: 6.0d
+			y: 2.0d
 			subtitle: "{chapter.8.quest.8.subtitle}"
 			description: ["{chapter.8.quest.8.description.1}"]
 			dependencies: ["3AB25BFC35ED4493"]
@@ -275,11 +276,12 @@
 		}
 		{
 			title: "{chapter.8.quest.9.title}"
-			x: 3.5d
-			y: -0.5d
+			x: 3.0d
+			y: 3.5d
 			subtitle: "{chapter.8.quest.9.subtitle}"
 			description: ["{chapter.8.quest.9.description.1}"]
-			dependencies: ["32DC410EC16DFBA4"]
+			hide_dependency_lines: true
+			dependencies: ["263182083E9E7774"]
 			id: "2661980BC534404A"
 			tasks: [{
 				id: "42F75FA46CCC3835"
@@ -305,11 +307,12 @@
 		{
 			title: "{chapter.8.quest.10.title}"
 			icon: "bosses_of_mass_destruction:ancient_anima"
-			x: 7.0d
-			y: 2.0d
+			x: 6.0d
+			y: 0.5d
 			subtitle: "{chapter.8.quest.10.subtitle}"
 			description: ["{chapter.8.quest.10.description.1}"]
-			dependencies: ["32DC410EC16DFBA4"]
+			hide_dependency_lines: true
+			dependencies: ["263182083E9E7774"]
 			id: "2DF48F5B040D7823"
 			tasks: [{
 				id: "5BB08FF8611E47F6"
@@ -336,10 +339,11 @@
 			title: "{chapter.8.quest.11.title}"
 			icon: "bosses_of_mass_destruction:void_thorn"
 			x: 4.5d
-			y: 2.0d
+			y: 3.5d
 			subtitle: "{chapter.8.quest.11.subtitle}"
 			description: ["{chapter.8.quest.11.description.1}"]
-			dependencies: ["32DC410EC16DFBA4"]
+			hide_dependency_lines: true
+			dependencies: ["263182083E9E7774"]
 			id: "48DF3D8A679435E4"
 			tasks: [{
 				id: "67A16364F806FDD3"
@@ -509,7 +513,8 @@
 			y: 0.5d
 			subtitle: "{chapter.8.quest.18.subtitle}"
 			description: ["{chapter.8.quest.18.description.1}"]
-			dependencies: ["32DC410EC16DFBA4"]
+			hide_dependency_lines: true
+			dependencies: ["263182083E9E7774"]
 			id: "7E33DE7DE9F14FF8"
 			tasks: [
 				{
@@ -567,10 +572,11 @@
 		{
 			title: "{chapter.8.quest.20.title}"
 			x: 6.0d
-			y: -1.5d
+			y: 3.5d
 			subtitle: "{chapter.8.quest.20.subtitle}"
 			description: ["{chapter.8.quest.20.description.1}"]
-			dependencies: ["1AA597C88E816253"]
+			hide_dependency_lines: true
+			dependencies: ["263182083E9E7774"]
 			id: "2A37DB4C5176902C"
 			tasks: [{
 				id: "6CD8BAC4369493DC"
@@ -600,9 +606,10 @@
 		}
 		{
 			x: 4.5d
-			y: -1.5d
+			y: 0.5d
 			description: ["{chapter.8.quest.21.description.1}"]
-			dependencies: ["2A37DB4C5176902C"]
+			hide_dependency_lines: true
+			dependencies: ["263182083E9E7774"]
 			id: "2710CAF55FC46347"
 			tasks: [{
 				id: "2A7A1F9998E2A009"
@@ -669,23 +676,6 @@
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 1005535573748960953L
-			}]
-		}
-		{
-			title: "{chapter.8.quest.24.title}"
-			icon: "botania:cosmetic_questgiver_mark"
-			x: 6.0d
-			y: 0.5d
-			subtitle: "{chapter.8.quest.24.subtitle}"
-			hide_dependency_lines: true
-			dependencies: ["027AAA6A3553F7DB"]
-			hide: true
-			size: 2.0d
-			id: "32DC410EC16DFBA4"
-			tasks: [{
-				id: "43CE10506D29737F"
-				type: "checkmark"
-				title: "{chapter.8.quest.24.task.1.title}"
 			}]
 		}
 		{

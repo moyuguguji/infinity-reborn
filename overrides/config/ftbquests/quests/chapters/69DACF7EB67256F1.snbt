@@ -5,7 +5,7 @@
 	filename: "69DACF7EB67256F1"
 	title: "{chapter.20.title}"
 	icon: {
-		id: "betterend:aeternium_hammer"
+		id: "gobber2:gobber2_hammer"
 		Count: 1b
 		tag: {
 			Damage: 0

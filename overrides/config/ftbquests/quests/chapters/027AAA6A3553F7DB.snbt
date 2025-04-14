@@ -97,6 +97,7 @@
 			y: 1.0d
 			description: ["{chapter.1.quest.3.description.1}"]
 			dependencies: ["6FD67E00C769E643"]
+			optional: true
 			id: "0FF0EE9A5D227A0F"
 			tasks: [{
 				id: "472167884584FEF9"
