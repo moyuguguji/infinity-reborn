@@ -373,7 +373,7 @@ onEvent('entity.hurt', event => {
 			let result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
 			let result1 = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor base get`)
 			if (player.stages.has('difficulty_easy')) {
-				if (targetTypes.includes(target.type) && !target.tags.contains('easy') && !target.tags.contains('attacked')) {
+				if (targetTypes.includes(target.type) && !target.tags.contains('easy') && !target.tags.contains('attacked') && target.type != "terrarianslimes:king_slime") {
 					let att = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage get`)
 					let att1 = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base get`)
 					target.tags.add('easy')

@@ -148,7 +148,7 @@ onEvent('item.registry', event => {
 	event.create('yong_hen_star')
 		.displayName("\u00A7b永恒之星")
 		.tooltip('右键切换永恒难度')
-		.tooltip('\u00A74没脑子不要玩!')
+		.tooltip('\u00A74不推荐一周目游玩')
 		.rarity('Epic')
 		.maxStackSize(1)
 
@@ -243,4 +243,9 @@ onEvent('item.registry', event => {
 	event.create('moon_clock')
 		.displayName("新月怀表")
 		.tooltip(Text.translate('右键使用快进到新月(一次性)'))
+
+	event.create('cat')
+		.displayName("小猫老师")
+		.rarity(Rarity.UNCOMMON)
+		.tooltip(Text.translate('第一个完成no戈伯挑战的人'))
 })

@@ -1,0 +1,20 @@
+{
+  "dump_registries": true,
+  "mobifier": {
+    "terrarianslimes:king_slime": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.max_health": "*0.1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.knockback_resistance": "*1"
+        }
+      }
+    ]
+  }
+}

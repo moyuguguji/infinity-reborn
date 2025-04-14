@@ -226,21 +226,29 @@ onEvent("lootjs", (event) => {
         .randomChance(0.025)
         .addLoot("collectorsalbum:mythical_card_package")
 
-    event
+        event
         .addLootTypeModifier(LootType.CHEST)
-        .randomChance(0.15)
-        .addLoot('kubejs:ametrine_crystal')
+        .randomChance(0.20)
+        .pool((p) => {
+            p.addLoot("kubejs:ametrine_crystal");
+            p.limitCount([1, 8]);
+        });
     
     event
         .addLootTypeModifier(LootType.CHEST)
-        .randomChance(0.1)
-        .addLoot('kubejs:crystal_tiered')
+        .randomChance(0.15)
+        .pool((p) => {
+            p.addLoot("kubejs:crystal_tiered");
+            p.limitCount([1, 4]);
+        });
 
     event
         .addLootTypeModifier(LootType.CHEST)
-        .randomChance(0.01)
-        .addLoot('kubejs:gold_coin')
-
+        .randomChance(0.02)
+        .pool((p) => {
+            p.addLoot("kubejs:gold_coin");
+            p.limitCount([1, 3]);
+        })
     event
         .addLootTypeModifier(LootType.CHEST)
         .randomChance(0.15)

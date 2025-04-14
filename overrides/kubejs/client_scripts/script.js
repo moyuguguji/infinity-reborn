@@ -13,9 +13,14 @@ onEvent("item.tooltip", tooltip => {
 	})
 })
 onEvent('rei.information', event => {
-	event.add('mythicmetals:aquarium_pearl', '激水珍珠', ['挖掘深海金属矿石概率掉落'])
-	event.add('mythicmetals:banglum_chunk', '聚爆石碎块', ['挖掘班古姆矿石概率掉落'])
-	event.add('mythicmetals:stormyx_shell', '风暴石外壳', ['挖掘风暴矿石概率掉落'])
-	event.add('mythicmetals:raw_kyber', '凯伯', ['在紫水晶洞的方解石中概率生成'])
-	event.add('mcda:frost_crystal', '冰霜水晶', ['挖掘蓝冰概率掉落'])
+	function info(item,titel,mess) {
+		event.add(item,titel,[mess])
+	}
+	info('mythicmetals:aquarium_pearl', '激水珍珠', '挖掘深海金属矿石概率掉落')
+	info('mythicmetals:banglum_chunk', '聚爆石碎块', '挖掘班古姆矿石概率掉落')
+	info('mythicmetals:stormyx_shell', '风暴石外壳', '挖掘风暴矿石概率掉落')
+	info('mythicmetals:raw_kyber', '凯伯', '在紫水晶洞的方解石中概率生成')
+	info('mcda:frost_crystal', '冰霜水晶', '挖掘蓝冰概率掉落')
+	info('soulsweapons:chaos_robes','混沌长袍','击杀混沌君主掉落')
+	info('adventurez:prime_eye','黄金之眼','击杀眼球掉落')
   })

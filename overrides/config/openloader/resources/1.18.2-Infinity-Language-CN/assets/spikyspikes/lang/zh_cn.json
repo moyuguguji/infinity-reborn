@@ -1,0 +1,24 @@
+{
+    "block.spikyspikes.diamond_spike": "钻石尖刺",
+    "block.spikyspikes.diamond_spike.description": "被击杀的生物会像玩家击杀一样掉落所有战利品。可通过铁砧应用大部分剑的附魔。",
+    "block.spikyspikes.golden_spike": "金质尖刺",
+    "block.spikyspikes.golden_spike.description": "被击杀的生物只会掉落经验而不产生任何战利品。",
+    "block.spikyspikes.iron_spike": "铁质尖刺",
+    "block.spikyspikes.iron_spike.description": "被击杀的生物只会掉落普通战利品而无经验。",
+    "block.spikyspikes.netherite_spike": "下界合金尖刺",
+    "block.spikyspikes.netherite_spike.description": "被击杀的生物会像玩家击杀一样掉落所有战利品。可通过铁砧应用大部分剑的附魔。抵抗爆炸，不会伤害玩家。",
+    "block.spikyspikes.stone_spike": "石质尖刺",
+    "block.spikyspikes.stone_spike.description": "被击杀的生物不会掉落任何战利品或经验。",
+    "block.spikyspikes.wooden_spike": "木质尖刺",
+    "block.spikyspikes.wooden_spike.description": "会缓慢伤害生物，但不会造成致命伤害。",
+    
+    "death.attack.spike": "%1$s 如今安息在一个没那么尖刺的世界里",
+    "death.attack.spike.player": "%1$s 在试图逃离 %2$s 时未能留意脚下",
+    
+    "item.spikyspikes.spike.tooltip.damage": "伤害值：%s",
+    "item.spikyspikes.spike.tooltip.hearts": "%s 颗心",
+    "item.spikyspikes.spike.tooltip.more": "按住 %s 获取详细信息",
+    "item.spikyspikes.spike.tooltip.shift": "Shift键",
+    
+    "itemGroup.spikyspikes.main": "尖刺重重"
+  }

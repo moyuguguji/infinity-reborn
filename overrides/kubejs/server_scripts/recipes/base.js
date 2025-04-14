@@ -440,6 +440,8 @@ onEvent('recipes', event => {
 		C: 'gobber2:gobber2_glob_end',
 		D: 'minecraft:ender_eye'
 	}).id('purpeille:blocks/ancient_oven')
+
+	event.smithing('spikyspikes:netherite_spike',Item.of('spikyspikes:diamond_spike').ignoreNBT(),'minecraft:netherite_ingot').id('spikyspikes:netherite_spike')
 })
 
 onEvent('recipes', event => {
