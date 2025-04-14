@@ -764,6 +764,50 @@ onEvent('recipes', event => {
 		'min_forge_tier': 4,
 		'fuel_per_tick': 200
 	})
+
+	event.custom({
+		type: 'alloy_forgery:forging',
+		'inputs': [{
+			"item": 'purpeille:purpeille_ingot',
+			"count": 1
+		}],
+		'output': {
+			'id': 'purpeille:smoldered_purpeille_ingot',
+			'count': 1
+		},
+		'min_forge_tier': 4,
+		'fuel_per_tick': 300
+	})
+
+	event.custom({
+		type: 'alloy_forgery:forging',
+		'inputs': [{
+			"item": 'minecraft:netherite_ingot',
+			"count": 1
+		},
+		{
+			"item": 'purpeille:preserved_dust',
+			"count": 1
+		},
+		{
+			"item": 'purpeille:ultraviolet_prism',
+			"count": 4
+		}
+	],
+		'output': {
+			'id': 'purpeille:purpeille_ingot',
+			'count': 1
+		},
+		'overrides': {
+			"5+": {
+				"id": 'purpeille:purpeille_ingot',
+				"count": 2
+			}
+		},
+		'min_forge_tier': 4,
+		'fuel_per_tick': 250
+	})
+
 	event.custom({
 		type: 'alloy_forgery:forging',
 		'inputs': [

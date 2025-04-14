@@ -279,14 +279,6 @@ onEvent('recipes', event => {
 		]
 	})
 
-	event.shaped('kibe:iron_spikes', [
-		' A ',
-		'ABA',
-		'   '
-	], {
-		A: Item.of('minecraft:iron_sword').ignoreNBT(),
-		B: 'minecraft:iron_block'
-	})
 
 	event.shaped('things:hardening_catalyst', [
 		'ABA',
@@ -419,6 +411,35 @@ onEvent('recipes', event => {
 		B: 'things:gleaming_compound',
 		C: 'minecraft:netherite_block'
 	}).id('things:empty_agglomeration')
+
+	event.shaped('purpeille:remnant_bricks', [
+		' A ',
+		'ABA',
+		' A '
+	], {
+		A: 'purpeille:remnant_brick',
+		B: 'purpeille:preserved_dust'
+	}).id('purpeille:blocks/remnant_bricks')
+
+	event.shaped('purpeille:monolithic_purpur', [
+		'AAA',
+		'ABA',
+		'AAA'
+	], {
+		A: 'purpeille:remnant_brick',
+		B: 'purpeille:preserved_dust'
+	}).id('purpeille:blocks/monolithic_purpur')
+
+	event.shaped('purpeille:ancient_oven', [
+		'ADA',
+		'BCB',
+		'AAA'
+	], {
+		A: 'purpeille:ancient_mechanical_bricks',
+		B: 'purpeille:remnant_brick',
+		C: 'gobber2:gobber2_glob_end',
+		D: 'minecraft:ender_eye'
+	}).id('purpeille:blocks/ancient_oven')
 })
 
 onEvent('recipes', event => {

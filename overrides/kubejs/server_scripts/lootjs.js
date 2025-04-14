@@ -842,5 +842,12 @@ onEvent("lootjs", (event) => {
             Item.of('mythicmetals:kyber_ingot').withChance(10),//凯伯
             Item.of('numismatic-overhaul:money_bag', '{Combined:1b,Values:[L;0L,50L,0L]}')//钱
         ])
+        event
+        .addLootTableModifier("minecraft:chests/end_city_treasure")
+        .randomChance(0.5) // 战利品表条件：添加掉落概率
+        .addWeightedLoot([1, 8], [
+            Item.of('purpeille:preserved_dust').withChance(20),
+            Item.of('purpeille:remnant_brick').withChance(80)
+        ])
 
 })

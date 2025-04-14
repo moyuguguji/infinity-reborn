@@ -89,6 +89,15 @@ onEvent('recipes', event =>{
     event.remove({output:'scout:upgraded_satchel'})
     event.remove({mod: 'wands'})
     event.remove({output: 'travelersbackpack:lapis'})
+
+    event.remove({output: 'purpeille:remnant_bricks'})
+    event.remove({output: 'purpeille:purpeille_ingot'})
+    event.remove({output: 'purpeille:smoldered_purpeille_ingot'})
+
+    event.remove({output: 'kibe:stone_spikes'})
+    event.remove({output: 'kibe:gold_spikes'})
+    event.remove({output: 'kibe:diamond_spikes'})
+    
     event.smelting('betteranimalsplus:fried_egg'/* 输出物品 */, '#forge:eggs'/* 输入物品 */)
 })
 
