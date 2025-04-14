@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:village",
+  "biomes": "#minecraft:is_forest",
+  "adapt_noise": true,
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "full",
+      "spawns": [
+        {
+          "type": "minecraft:illusioner",
+          "weight": 1,
+          "minCount": 1,
+          "maxCount": 1
+        }
+      ]
+    }
+  },
+  "config": {
+    "start_pool": "technics_structures:wild_house",
+    "size": 1
+  }
+}

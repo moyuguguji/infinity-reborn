@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "technics_structures:end_spike",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 16,
+    "separation": 15,
+    "salt": 895890417
+  }
+}

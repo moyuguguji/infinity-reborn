@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:village",
+  "biomes": "minecraft:small_end_islands",
+  "adapt_noise": false,
+  "spawn_overrides": {},
+  "config": {
+    "start_pool": "technics_structures:end_airship",
+    "size": 1
+  }
+}

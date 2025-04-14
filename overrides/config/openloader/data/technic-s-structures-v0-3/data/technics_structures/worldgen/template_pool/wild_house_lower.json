@@ -1,0 +1,24 @@
+{
+  "name": "technics_structures:wild_house_lower",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "technics_structures:wild_house_lower",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "technics_structures:empty",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}
