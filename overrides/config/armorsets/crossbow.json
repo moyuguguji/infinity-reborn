@@ -22,5 +22,5 @@
         "onlyImmuneToNewEffects": false
       }
     ],
-    "hideGeneratedTooltip": false
+    "hideGeneratedTooltip": true
   }

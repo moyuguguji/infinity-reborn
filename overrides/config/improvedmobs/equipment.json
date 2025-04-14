@@ -1010,14 +1010,6 @@
       461,
       4.312
     ],
-    "betterend:crystalite_boots": [
-      101,
-      7.192
-    ],
-    "betterend:terminite_boots": [
-      262,
-      5.904
-    ],
     "betternether:cincinnasite_boots": [
       606,
       3.152
@@ -1460,14 +1452,6 @@
       461,
       4.312
     ],
-    "betterend:crystalite_leggings": [
-      101,
-      7.192
-    ],
-    "betterend:terminite_leggings": [
-      262,
-      5.904
-    ],
     "betternether:cincinnasite_leggings": [
       606,
       3.152
@@ -1499,10 +1483,6 @@
     "emerald_tools:steel_leggings": [
       665,
       2.68
-    ],
-    "enderscape:drift_leggings": [
-      358,
-      5.136
     ],
     "gobber2:gobber2_leggings_dragon": [
       -100,
@@ -1929,22 +1909,6 @@
     "additionaladditions:rose_gold_chestplate": [
       461,
       4.312
-    ],
-    "betterend:crystalite_chestplate": [
-      101,
-      7.192
-    ],
-    "betterend:elytra_armored": [
-      1,
-      12.624
-    ],
-    "betterend:elytra_crystalite": [
-      101,
-      7.192
-    ],
-    "betterend:terminite_chestplate": [
-      262,
-      5.904
     ],
     "betternether:cincinnasite_chestplate": [
       606,
@@ -2419,14 +2383,6 @@
     "additionaladditions:rose_gold_helmet": [
       461,
       4.312
-    ],
-    "betterend:crystalite_helmet": [
-      101,
-      7.192
-    ],
-    "betterend:terminite_helmet": [
-      262,
-      5.904
     ],
     "betternether:cincinnasite_helmet": [
       606,

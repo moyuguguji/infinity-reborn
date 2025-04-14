@@ -389,6 +389,11 @@
 					consume_items: true
 					match_nbt: true
 				}
+				{
+					id: "734E49035160ECE4"
+					type: "item"
+					item: "kubejs:cat"
+				}
 			]
 			rewards: [
 				{

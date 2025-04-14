@@ -1,5 +1,5 @@
 {
-    "armorSetName": "crossbow_off",
+    "armorSetName": "dbow_off",
     "offHand":{
       "itemKey": "mcdw:crossbow_dual_crossbow",
       "mixAndMatch": [
@@ -22,5 +22,5 @@
         "onlyImmuneToNewEffects": false
       }
     ],
-    "hideGeneratedTooltip": false
+    "hideGeneratedTooltip": true
   }

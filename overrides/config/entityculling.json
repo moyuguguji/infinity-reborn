@@ -4,8 +4,7 @@
   "blockEntityWhitelist": [
     "create:rope_pulley",
     "minecraft:beacon",
-    "create:hose_pulley",
-    "betterend:eternal_pedestal"
+    "create:hose_pulley"
   ],
   "entityWhitelist": [
     "botania:mana_burst"
