@@ -46,7 +46,7 @@
 		// Minimum damage percentage [default = 2.5]
 		"minDmgReduction": 2.5,
 		// Maximum damage percentage] [default = 90]
-		"maxDmgReduction": 12.0,
+		"maxDmgReduction": 10.0,
 		/* True if damage reduction should be calculated using a Gaussian distribution, else it will be a linearly random
 		   value between the minDmgReduction and maxDmgReduction [default = true]
 		*/
@@ -63,11 +63,11 @@
 		   from the original movement speed.  So if you have 4 armor items each 25%, you ultimately get 100% bonus movement speed.
 		   Note: The tooltip will show movementSpeed * 10, so it looks like a nicer integer value.
 		*/
-		"attributeChance": 0.0,
+		"attributeChance": 0.001,
 		// Minimum movement speed boost percentage [default = 1]
 		"minSpeed": 1.0,
 		// Maximum movement speed boost percentage [default = 100]
-		"maxSpeed": 100.0,
+		"maxSpeed": 25.0,
 		/* True if movement speed boost should be calculated using a Gaussian distribution, else it will be a linearly random
 		   value between the minSpeed and maxSpeed [default = true]
 		*/
@@ -83,7 +83,7 @@
 		   Knockback Resistance is a rate from 0 to 1, where 1 means 100% knockback resistance, 0.5 means 50%.
 		   Note: The tooltip will show knockbackResistance * 100, so it looks like a nicer integer value.
 		*/
-		"attributeChance": 0.09,
+		"attributeChance": 0.00,
 		// Minimum knockback resistance (this is a rate from 0 to 1) [default = 0.01]
 		"minKnockbackResistance": 0.01,
 		// Maximum knockback resistance (this is a rate from 0 to 1) [default = 0.25]
