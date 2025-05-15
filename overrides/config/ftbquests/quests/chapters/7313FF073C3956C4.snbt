@@ -119,32 +119,8 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: 1.0d
 			y: 0.5d
-			dependencies: ["3DD77F75AE982826"]
-			optional: true
-			id: "476311F6AC1B2243"
-			tasks: [{
-				id: "0DC2A83B8D170D06"
-				type: "item"
-				item: {
-					id: "minecraft:diamond_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "6730A6CF88B70EA1"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 1005535573748960953L
-			}]
-		}
-		{
-			x: 3.0d
-			y: 2.0d
 			description: ["{chapter.8.quest.5.description.1}"]
 			dependencies: ["4EB4675BB9984883"]
 			optional: true
@@ -170,8 +146,8 @@
 		}
 		{
 			title: "{chapter.8.quest.6.title}"
-			x: 1.0d
-			y: 2.0d
+			x: -1.0d
+			y: 0.5d
 			subtitle: "{chapter.8.quest.6.subtitle}"
 			description: ["{chapter.8.quest.6.description.1}"]
 			dependencies: ["101189C9EB665FB6"]
@@ -203,7 +179,7 @@
 		}
 		{
 			title: "{chapter.8.quest.7.title}"
-			x: 4.5d
+			x: 1.0d
 			y: 2.0d
 			subtitle: "{chapter.8.quest.7.subtitle}"
 			description: ["{chapter.8.quest.7.description.1}"]
@@ -247,7 +223,7 @@
 		}
 		{
 			title: "{chapter.8.quest.8.title}"
-			x: 6.0d
+			x: 2.5d
 			y: 2.0d
 			subtitle: "{chapter.8.quest.8.subtitle}"
 			description: ["{chapter.8.quest.8.description.1}"]
@@ -276,7 +252,7 @@
 		}
 		{
 			title: "{chapter.8.quest.9.title}"
-			x: 3.0d
+			x: 1.0d
 			y: 3.5d
 			subtitle: "{chapter.8.quest.9.subtitle}"
 			description: ["{chapter.8.quest.9.description.1}"]
@@ -307,7 +283,7 @@
 		{
 			title: "{chapter.8.quest.10.title}"
 			icon: "bosses_of_mass_destruction:ancient_anima"
-			x: 6.0d
+			x: 4.0d
 			y: 0.5d
 			subtitle: "{chapter.8.quest.10.subtitle}"
 			description: ["{chapter.8.quest.10.description.1}"]
@@ -338,7 +314,7 @@
 		{
 			title: "{chapter.8.quest.11.title}"
 			icon: "bosses_of_mass_destruction:void_thorn"
-			x: 4.5d
+			x: 2.5d
 			y: 3.5d
 			subtitle: "{chapter.8.quest.11.subtitle}"
 			description: ["{chapter.8.quest.11.description.1}"]
@@ -368,10 +344,10 @@
 		}
 		{
 			icon: "piercingpaxels:passive_smelt"
-			x: -1.0d
-			y: 2.0d
+			x: -3.0d
+			y: 0.5d
 			description: ["{chapter.8.quest.12.description.1}"]
-			dependencies: ["476311F6AC1B2243"]
+			dependencies: ["3DD77F75AE982826"]
 			optional: true
 			id: "101189C9EB665FB6"
 			tasks: [{
@@ -387,82 +363,10 @@
 			}]
 		}
 		{
-			title: "{chapter.8.quest.13.title}"
-			icon: "alloy_forgery:bricks_forge_controller"
-			x: -2.5d
-			y: 2.0d
-			subtitle: "{chapter.8.quest.13.subtitle}"
-			description: ["{chapter.8.quest.13.description.1}"]
-			dependencies: ["101189C9EB665FB6"]
-			optional: true
-			id: "46C16EE44F239FED"
-			tasks: [
-				{
-					id: "053D941D709C3235"
-					type: "item"
-					item: "alloy_forgery:bricks_forge_controller"
-				}
-				{
-					id: "1445916C31F281C7"
-					type: "item"
-					item: "minecraft:bricks"
-					count: 16L
-				}
-			]
-		}
-		{
-			title: "{chapter.8.quest.14.title}"
-			icon: "alloy_forgery:stone_bricks_forge_controller"
-			x: -1.5d
-			y: 0.5d
-			subtitle: "{chapter.8.quest.14.subtitle}"
-			description: ["{chapter.8.quest.14.description.1}"]
-			dependencies: ["101189C9EB665FB6"]
-			optional: true
-			id: "4B1C0D1CEC91C994"
-			tasks: [
-				{
-					id: "25969F02C32DC9C0"
-					type: "item"
-					item: "alloy_forgery:stone_bricks_forge_controller"
-				}
-				{
-					id: "3E5CD8C6C087D0F4"
-					type: "item"
-					item: "minecraft:stone_bricks"
-					count: 16L
-				}
-			]
-		}
-		{
-			title: "{chapter.8.quest.15.title}"
-			icon: "alloy_forgery:prismarine_bricks_forge_controller"
-			x: -1.5d
-			y: 3.5d
-			subtitle: "{chapter.8.quest.15.subtitle}"
-			description: ["{chapter.8.quest.15.description.1}"]
-			dependencies: ["101189C9EB665FB6"]
-			optional: true
-			id: "3CBEB517A24607F8"
-			tasks: [
-				{
-					id: "3E3150BCB8A279C7"
-					type: "item"
-					item: "minecraft:prismarine_bricks"
-					count: 16L
-				}
-				{
-					id: "1BCB754F51009BBB"
-					type: "item"
-					item: "alloy_forgery:prismarine_bricks_forge_controller"
-				}
-			]
-		}
-		{
 			title: "{chapter.8.quest.16.title}"
 			icon: "alloy_forgery:deepslate_bricks_forge_controller"
-			x: 0.0d
-			y: 0.5d
+			x: -3.0d
+			y: -1.0d
 			subtitle: "{chapter.8.quest.16.subtitle}"
 			description: ["{chapter.8.quest.16.description.1}"]
 			dependencies: ["101189C9EB665FB6"]
@@ -485,8 +389,8 @@
 		{
 			title: "{chapter.8.quest.17.title}"
 			icon: "alloy_forgery:polished_blackstone_forge_controller"
-			x: 0.0d
-			y: 3.5d
+			x: -3.0d
+			y: 2.0d
 			subtitle: "{chapter.8.quest.17.subtitle}"
 			description: ["{chapter.8.quest.17.description.1}"]
 			dependencies: ["101189C9EB665FB6"]
@@ -509,8 +413,8 @@
 		{
 			title: "{chapter.8.quest.18.title}"
 			icon: "terrarianslimes:slime_crown"
-			x: 3.0d
-			y: 0.5d
+			x: 4.0d
+			y: 3.5d
 			subtitle: "{chapter.8.quest.18.subtitle}"
 			description: ["{chapter.8.quest.18.description.1}"]
 			hide_dependency_lines: true
@@ -544,35 +448,9 @@
 			]
 		}
 		{
-			x: -4.0d
-			y: -1.0d
-			subtitle: "{chapter.8.quest.19.subtitle}"
-			dependencies: ["3DD77F75AE982826"]
-			optional: true
-			id: "3078FE20208EDB9E"
-			tasks: [{
-				id: "128A6B127499D76B"
-				type: "item"
-				item: {
-					id: "mcdw:dagger_void_touched_blade"
-					Count: 1b
-					tag: {
-						Damage: 0
-						swa3: { }
-					}
-				}
-			}]
-			rewards: [{
-				id: "7B9DEE97BA98B0EA"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 1005535573748960953L
-			}]
-		}
-		{
 			title: "{chapter.8.quest.20.title}"
-			x: 6.0d
-			y: 3.5d
+			x: 4.0d
+			y: 2.0d
 			subtitle: "{chapter.8.quest.20.subtitle}"
 			description: ["{chapter.8.quest.20.description.1}"]
 			hide_dependency_lines: true
@@ -605,7 +483,7 @@
 			]
 		}
 		{
-			x: 4.5d
+			x: 2.5d
 			y: 0.5d
 			description: ["{chapter.8.quest.21.description.1}"]
 			hide_dependency_lines: true
@@ -632,8 +510,8 @@
 		}
 		{
 			title: "{chapter.8.quest.22.title}"
-			x: -3.5d
-			y: 3.0d
+			x: -5.0d
+			y: 3.5d
 			description: [
 				"{chapter.8.quest.22.description.1}"
 				"{image:kubejs:textures/ftbq/fumo.png width:200 height:95 align:1}"
@@ -986,11 +864,11 @@
 					}]
 				}
 			}
-			x: -2.0d
+			x: -5.0d
 			y: -1.0d
 			subtitle: "{chapter.8.quest.33.subtitle}"
 			description: ["{chapter.8.quest.33.description.1}"]
-			dependencies: ["476311F6AC1B2243"]
+			dependencies: ["3DD77F75AE982826"]
 			optional: true
 			id: "73564B8D8E331790"
 			tasks: [

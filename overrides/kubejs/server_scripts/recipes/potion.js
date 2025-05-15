@@ -82,4 +82,104 @@ onEvent('recipes', event => {
         ]
       })
 
+      event.custom({
+        "type": "spectrum:potion_workshop_reacting",
+        "item": 'bosses_of_mass_destruction:blazing_eye',
+        "modifiers": [
+          {
+        "flat_potency_bonus": 1.5,
+        "multiplicative_duration_modifier": 1.5,
+        "multiplicative_potency_modifier": 1.5
+          }
+        ]
+      })
+
+      event.custom({
+        "type": "spectrum:potion_workshop_reacting",
+        "item": 'bosses_of_mass_destruction:ancient_anima',
+        "modifiers": [
+          {
+           "make_effects_positive": true,
+           "negate_decreasing_duration": true,
+           "fast_drinkable": true,
+           "flat_duration_bonus_ticks": 200,
+           "multiplicative_potency_modifier": 0.5,
+           "additional_random_positive_effect_count": 1.0
+          }
+        ]
+      })
+
+      event.custom({
+        "type": "spectrum:potion_workshop_reacting",
+        "item": 'bosses_of_mass_destruction:void_thorn',
+        "modifiers": [
+          {
+           "additional_random_negative_effect_count": 2.0,
+           "multiplicative_potency_modifier": 2.5,
+           "flat_duration_bonus_ticks": 1200,
+           "flat_yield_bonus": -1.0
+          }
+        ]
+      })
+
+      event.custom({
+        "type": "spectrum:potion_workshop_reacting",
+        "item": 'twilightforest:fiery_blood',
+        "modifiers": [
+          {
+           "flat_potency_bonus": 1.2,
+           "potent_decreasing_effect": true
+          }
+        ]
+      })
+
+      event.custom({
+       "type": "spectrum:potion_workshop_reacting",
+        "item": 'twilightforest:fiery_tears',
+        "modifiers": [
+          {
+           "flat_potency_bonus": 1.2,
+           "potent_decreasing_effect": true
+          }
+        ]
+      })
+
+      event.custom({
+        "type": "spectrum:potion_workshop_reacting",
+        "item": 'adventurez:source_stone',
+        "modifiers": [
+          {
+           'additional_random_positive_effect_count': 20.0,
+           "flat_duration_bonus_ticks": 12000,
+           "multiplicative_potency_modifier": 5.0
+          }
+        ]
+      })
+
+      event.custom({
+        "type": "spectrum:potion_workshop_reacting",
+        "item": 'adventurez:stone_golem_heart',
+        "modifiers": [
+          {
+           "additional_random_negative_effect_count": 5.0,
+           'additional_random_positive_effect_count': 10.0,
+           "flat_potency_bonus": 4.0,
+           "negate_decreasing_duration": true,
+           "no_particles": true,
+           "flat_duration_bonus_ticks": 6000
+          }
+        ]
+      })
+
+      event.custom({
+        "type": "spectrum:potion_workshop_reacting",
+        "item": 'bosses_of_mass_destruction:crystal_fruit',
+        "modifiers": [
+          {
+           'additional_random_positive_effect_count': 4.0,
+           "flat_potency_bonus": 1.0,
+          }
+        ]
+      })
+
 })

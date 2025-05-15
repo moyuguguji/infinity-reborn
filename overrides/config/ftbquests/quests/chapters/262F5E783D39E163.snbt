@@ -51,7 +51,7 @@
 				"{chapter.9.quest.2.description.1}"
 				"{image:kubejs:textures/ftbq/map.png width:100 height:100 align:1}"
 				"{chapter.9.quest.2.description.2}"
-				"{image:kubejs:textures/ftbq/map2.png width:175 height:200 align:1}"
+				"{image:kubejs:textures/ftbq/map2.png width:210 height:250 align:1}"
 			]
 			dependencies: ["5FBDB3162466DBD9"]
 			dependency_requirement: "one_completed"
@@ -701,25 +701,6 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 0.0d
-			subtitle: "{chapter.9.quest.22.subtitle}"
-			description: ["{chapter.9.quest.22.description.1}"]
-			dependencies: ["7A3F4EBAD53DEB1E"]
-			id: "7BE56C7E4F1738E7"
-			tasks: [{
-				id: "7ED5820E048AFACC"
-				type: "item"
-				item: {
-					id: "mcdw:sword_obsidian_claymore"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
 			title: "{chapter.9.quest.23.title}"
 			icon: {
 				id: "whisperwoods:hirschgeist_skull"
@@ -787,7 +768,6 @@
 			]
 			min_required_dependencies: 2
 			dependencies: [
-				"3CBEB517A24607F8"
 				"60AE7AF518F8E473"
 				"23AA8B0398F8751D"
 				"1A7831E3B72C20BC"

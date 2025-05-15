@@ -1,0 +1,19 @@
+#Damage dealt by a wooden spike.
+#Range: 4.9E-324 ~ 1.7976931348623157E308
+wooden_spike_damage = 1.0
+#Damage dealt by a netherite spike.
+#Range: 4.9E-324 ~ 1.7976931348623157E308
+netherite_spike_damage = 25.0
+#Damage dealt by a stone spike.
+#Range: 4.9E-324 ~ 1.7976931348623157E308
+stone_spike_damage = 2.0
+#Damage dealt by a diamond spike.
+#Range: 4.9E-324 ~ 1.7976931348623157E308
+diamond_spike_damage = 15.0
+#Damage dealt by a golden spike.
+#Range: 4.9E-324 ~ 1.7976931348623157E308
+golden_spike_damage = 6.0
+#Damage dealt by a iron spike.
+#Range: 4.9E-324 ~ 1.7976931348623157E308
+iron_spike_damage = 4.0
+

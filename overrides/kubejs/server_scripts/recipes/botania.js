@@ -29,16 +29,6 @@ onEvent('recipes', event => {
 
 	})
 
-	event.shaped('explorerscompass:explorerscompass', [
-		'BAB',
-		'ACA',
-		'BAB'
-	], {
-		A: 'botania:elementium_ingot',
-		B: 'botania:mana_string',
-		C: 'the_bumblezone:honey_compass'
-	})
-
 	event.custom({
 		type: "botania:terra_plate",
 		"mana": 1000000,

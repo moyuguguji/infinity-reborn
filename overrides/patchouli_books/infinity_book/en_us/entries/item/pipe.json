@@ -8,6 +8,40 @@
         "recipe": "moderndynamics:item_pipe",
         "text":"用于传输物品,一个管道每个面都能有一个接口"
       },
+     {
+      "type": "patchouli:image",
+      "images":["patchouli:textures/pipe.png"],
+      "text":"与容器连接的管道",
+      "border": true
+     },
+      {
+        "type": "patchouli:crafting",
+        "recipe": "moderndynamics:extractor",
+        "text":"用于从容器中抽取物体"
+      },
+      {
+        "type": "patchouli:image",
+        "images":["patchouli:textures/pipe1.png"],
+        "text":"组件放置位置",
+        "border": true
+       },
+      {
+        "type": "patchouli:crafting",
+        "recipe": "moderndynamics:attractor",
+        "text":"用于从多个容器中提取物体"
+      },
+      {
+        "type": "patchouli:image",
+        "images":["patchouli:textures/pipe2.png"],
+        "text":"可以提取所有与管道连接的容器,但不会同时提取",
+        "border": true
+       },
+       {
+        "type": "patchouli:image",
+        "images":["patchouli:textures/pipe3.png"],
+        "text":"组件面板介绍$(br)高清图详见任务书",
+        "border": true
+       },
       {
         "type": "patchouli:crafting",
         "recipe": "moderndynamics:fluid_pipe",
@@ -15,18 +49,8 @@
       },
       {
         "type": "patchouli:crafting",
-        "recipe": "moderndynamics:extractor",
-        "text":"用于从容器中抽取物体"
-      },
-      {
-        "type": "patchouli:crafting",
         "recipe": "moderndynamics:filter",
         "text":"用于分流物品"
-      },
-      {
-        "type": "patchouli:crafting",
-        "recipe": "moderndynamics:attractor",
-        "text":"用于从多个容器中提取物体"
       }
     ]
   }

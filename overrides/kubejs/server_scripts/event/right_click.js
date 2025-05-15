@@ -115,7 +115,7 @@ const rightClickEventInHand = {
 const rightClickEventMainHand = {
 	'kubejs:starter_bag': function(event){
 		let bag = [
-			"5x kubejs:jiushu_heart","inmis:frayed_backpack","5x things:recall_potion","waystones:warp_stone","gobber2:gobber2_ring_miner"
+			"5x kubejs:jiushu_heart","inmis:gilded_backpack","5x things:recall_potion","waystones:warp_stone","gobber2:gobber2_ring_miner"
 		]
 		let player = event.player
 		for (let index = 0; index < bag.length; index++) {

@@ -389,11 +389,6 @@
 					consume_items: true
 					match_nbt: true
 				}
-				{
-					id: "734E49035160ECE4"
-					type: "item"
-					item: "kubejs:cat"
-				}
 			]
 			rewards: [
 				{
@@ -469,6 +464,11 @@
 					id: "419551865A2E6A7A"
 					type: "item"
 					item: "gobber2:gobber2_ring_stealth"
+				}
+				{
+					id: "773753A25F30C5E4"
+					type: "item"
+					item: "kubejs:cat"
 				}
 			]
 		}

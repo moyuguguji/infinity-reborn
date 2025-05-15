@@ -11,6 +11,14 @@ onEvent("item.tooltip", tooltip => {
 	tooltip.addAdvanced('bosses_of_mass_destruction:brimstone_nectar', (item, advanced, text) => {
 		text.add(2, Text.gold('仅适用于:夜巫妖,虚空之花,地狱之手,黑曜石之柱').bold(true))
 	})
+	tooltip.addAdvanced('minecraft:elytra', (item, advanced, text) => {
+		text.add(1, Text.gold('按L键切换鞘翅飞行模式').bold(true))
+	})
+	Ingredient.of('@icarus').getItemIds().forEach(element => {
+		tooltip.addAdvanced(element, (item, advanced, text) => {
+			text.add(1, Text.gold('按L键切换鞘翅飞行模式').bold(true))
+		})
+    });
 })
 onEvent('rei.information', event => {
 	function info(item,titel,mess) {

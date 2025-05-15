@@ -82,7 +82,7 @@
 			title: "{chapter.10.quest.3.title}"
 			icon: "bosses_of_mass_destruction:blazing_eye"
 			x: 3.0d
-			y: -1.5d
+			y: -1.0d
 			subtitle: "{chapter.10.quest.3.subtitle}"
 			description: ["{chapter.10.quest.3.description.1}"]
 			hide_dependency_lines: true
@@ -318,26 +318,6 @@
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 1005535573748960953L
-			}]
-		}
-		{
-			x: 3.0d
-			y: 2.5d
-			description: ["{chapter.10.quest.12.description.1}"]
-			dependencies: ["0B1B7F9147006845"]
-			optional: true
-			id: "64635CA43D21AAA0"
-			tasks: [{
-				id: "7D9EAAB7606262F7"
-				type: "item"
-				item: {
-					id: "mcdw:sword_sinister"
-					Count: 1b
-					tag: {
-						Damage: 0
-						swa3: { }
-					}
-				}
 			}]
 		}
 		{

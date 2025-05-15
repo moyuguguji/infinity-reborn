@@ -124,10 +124,107 @@
 						Count: 1b
 						tag: { }
 					}
-					command: "/tellraw @a [{\"text\":\"\\u00A7b点我支持作者\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://pic.imgdb.cn/item/669a95aed9c307b7e96bb087.png?w=400&h=300\"}}]"
+					command: "/tellraw @a [{\"text\":\"\\u00A7b点我支持作者\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://afdian.com/a/moyuguguji\"}}]"
 					player_command: false
 				}
 			]
+		}
+		{
+			title: "合成无限剑"
+			icon: {
+				id: "kubejs:infinity_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: -2.5d
+			subtitle: "如果你不想动一点光谱又想做无限剑的选择(冒险宝宝专供!)"
+			description: ["因为没有配方，所以只能ftb合成了"]
+			id: "6EB0899AF4B4F93A"
+			tasks: [
+				{
+					id: "27591E0F26DFAC7A"
+					type: "item"
+					item: "kubejs:shining_star"
+					consume_items: true
+				}
+				{
+					id: "31644793607DD8EC"
+					type: "item"
+					item: "soulsweapons:chaos_orb"
+					consume_items: true
+				}
+				{
+					id: "1B872A4D166CA975"
+					type: "item"
+					item: "bosses_of_mass_destruction:obsidian_heart"
+					consume_items: true
+				}
+				{
+					id: "24810FD6ED6CD274"
+					type: "item"
+					item: "soulsweapons:essence_of_luminescence"
+					consume_items: true
+				}
+				{
+					id: "37F818E9C08010F9"
+					type: "item"
+					item: "infinity:sculk_core"
+					consume_items: true
+				}
+				{
+					id: "2A23A1E78634C21D"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_sword_end"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "7627BD252CD1C562"
+					type: "item"
+					item: "kubejs:sheng_jin"
+					consume_items: true
+				}
+				{
+					id: "1F16B128F9C9CC27"
+					type: "item"
+					item: "kubejs:soul_bone"
+					consume_items: true
+				}
+				{
+					id: "708275A3338E0E12"
+					type: "item"
+					item: "kubejs:crystal_tiered"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "1ECEDEA14325B8EA"
+					type: "item"
+					item: "adventurez:stone_golem_heart"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "2EA5CFC5A349CC2D"
+				type: "item"
+				team_reward: false
+				item: {
+					id: "kubejs:infinity_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				only_one: true
+			}]
 		}
 	]
 	quest_links: [ ]

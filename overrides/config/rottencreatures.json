@@ -6,7 +6,7 @@
     "swampy_weight": 80,
     "undead_miner_weight": 20,
     "mummy_weight": 20,
-    "dead_beard_weight": 1,
+    "dead_beard_weight": 0,
     "immortal_chance": 0.025
   }
 }

@@ -578,63 +578,6 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -1.5d
-			subtitle: "{chapter.11.quest.36.subtitle}"
-			dependencies: ["1D1DCE89D27673CC"]
-			id: "407C6FBB72BA4DF0"
-			tasks: [{
-				id: "17621813362303B2"
-				type: "item"
-				item: {
-					id: "mcdw:sword_the_starless_night"
-					Count: 1b
-					tag: {
-						Damage: 0
-						swa3: {
-							COLD: {
-								slowDur: 4.5f
-								freezeDur: 4.5f
-								bonusDmg: 2.0f
-							}
-						}
-					}
-				}
-			}]
-		}
-		{
-			title: "{chapter.11.quest.37.title}"
-			x: 3.5d
-			y: 0.5d
-			subtitle: "{chapter.11.quest.37.subtitle}"
-			dependencies: ["1D1DCE89D27673CC"]
-			id: "0BF9D3423404F8BF"
-			tasks: [
-				{
-					id: "600C172617B0210F"
-					type: "item"
-					item: {
-						id: "mcdw:dagger_the_beginning"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "0A52C1D027437316"
-					type: "item"
-					item: {
-						id: "mcdw:dagger_the_end"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
 			title: "{chapter.11.quest.38.title}"
 			icon: "alloy_forgery:end_stone_bricks_forge_controller"
 			x: 0.5d
@@ -854,8 +797,9 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: 4.0d
 			y: -0.5d
+			subtitle: "最终金属!"
 			dependencies: ["1D1DCE89D27673CC"]
 			id: "2CF9EAC556F00DBF"
 			tasks: [{
@@ -863,6 +807,26 @@
 				type: "item"
 				item: "kubejs:sheng_jin"
 			}]
+			rewards: [
+				{
+					id: "5102C53C429D69B7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5136761027295037695L
+				}
+				{
+					id: "01FE4F15513160CD"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5206663203530399561L
+				}
+				{
+					id: "2F98C6175EA1361C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1552600754727581119L
+				}
+			]
 		}
 	]
 	quest_links: [ ]

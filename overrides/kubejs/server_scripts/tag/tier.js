@@ -284,7 +284,7 @@ onEvent('item.tags', event => {
 	event.removeAll('twilightforest:portal/activator')
 	event.add('twilightforest:portal/activator', ['gobber2:gobber2_ingot'])
 	event.add('kubejs:s_weapon', ['kubejs:qixing_sword', 'kubejs:ruoshui_sword','kubejs:yecao_sword','kubejs:putong_stone_sword','kubejs:sixiang_kaitian','kubejs:lce_tang','kubejs:ailinghan','kubejs:jian_li','kubejs:infinity_sword','kubejs:kreska','kubejs:nature_spirit'])
-	event.add('purpeille:warpath_base', ['kubejs:infinity_sword', 'kubejs:ruoshui_sword','kubejs:yecao_sword','kubejs:putong_stone_sword','kubejs:sixiang_kaitian','kubejs:lce_tang','kubejs:ailinghan','kubejs:jian_li','kubejs:infinity_sword','kubejs:kreska','kubejs:nature_spirit'])
+	event.add('purpeille:warpath_base', ['kubejs:infinity_sword', 'kubejs:ruoshui_sword','kubejs:yecao_sword','kubejs:putong_stone_sword','kubejs:sixiang_kaitian','kubejs:lce_tang','kubejs:ailinghan','kubejs:jian_li','kubejs:infinity_sword','kubejs:kreska','kubejs:nature_spirit','purpeille:ancient_mechanical_bricks'])
 })
 // 在 kubejs/server_scripts 目录下的脚本文件中编写
 onEvent('tags.items', event => {

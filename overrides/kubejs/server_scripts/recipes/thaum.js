@@ -45,6 +45,76 @@ onEvent('recipes', event => {
 
   event.custom({
     type: "spectrum:pedestal",
+    "time": 40,
+    "tier": "basic",
+    "cyan": 10,
+    "magenta": 20,
+    "yellow": 0,
+    "white": 0,
+    "black": 0,
+    "experience": 100,
+    "pattern": [
+      "BAB",
+      "C C",
+      "BBB"
+    ],
+    "key": {
+      "A": {
+        "item": 'minecraft:ender_pearl'
+      },
+      "B": {
+        "item": 'minecraft:obsidian'
+      },
+      "C": {
+        "item": 'minecraft:light_blue_dye'
+      }
+    },
+    "result": {
+      "item": 'spectrum:sucking_chest',
+      "count": 1
+    }
+  }).id('spectrum:pedestal/tier3/sucking_chest')
+
+  event.custom({
+    type: "spectrum:pedestal",
+    "time": 40,
+    "tier": "basic",
+    "cyan": 10,
+    "magenta": 10,
+    "yellow": 10,
+    "white": 0,
+    "black": 0,
+    "experience": 100,
+    "pattern": [
+      "EAE",
+      "CDC",
+      "BBB"
+    ],
+    "key": {
+      "A": {
+        "item": 'minecraft:repeater'
+      },
+      "B": {
+        "item": 'spectrum:polished_basalt'
+      },
+      "C": {
+        "item": 'spectrum:polished_calcite'
+      },
+      "D": {
+        "item": 'minecraft:crafting_table'
+      },
+      "E": {
+        "item": 'minecraft:copper_ingot'
+      }
+    },
+    "result": {
+      "item": 'spectrum:restocking_chest',
+      "count": 1
+    }
+  }).id('spectrum:pedestal/tier3/restocking_chest')
+
+  event.custom({
+    type: "spectrum:pedestal",
     "time": 200,
     "tier": "basic",
     "cyan": 2,
@@ -128,7 +198,7 @@ onEvent('recipes', event => {
     ],
     "key": {
       "A": {
-        "item": 'kubejs:difficulty_changer'
+        "item": 'minecraft:clock'
       },
       "B": {
         "item": 'minecraft:amethyst_cluster'
@@ -1164,4 +1234,96 @@ onEvent('recipes', event => {
       "count": 1
     }
   })
+
+  event.custom({
+  type: "spectrum:pedestal",
+  "time": 600,
+  "tier": "advanced",
+  "magenta": 2,
+  "yellow": 2,
+  "cyan": 2,
+  "black": 2,
+  "white": 0,
+  "experience": 2.0,
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "tag": "spectrum:player_only_glass"
+    },
+    "B": {
+      "item": "spectrum:ender_treasure"
+    }
+  },
+  "result": {
+    "item": "spectrum:universe_spyhole",
+    "count": 8
+  },
+  "required_advancement": "spectrum:midgame/build_advanced_pedestal_structure"
+  }).id('spectrum:pedestal/tier3/universe_spyhole')
+  
+  event.custom({
+  type: "spectrum:pedestal",
+  "group": "item_bowls",
+  "time": 120,
+  "tier": "advanced",
+  "cyan": 0,
+  "magenta": 0,
+  "yellow": 0,
+  "white": 0,
+  "black": 1,
+  "experience": 1.0,
+  "pattern": [
+    "S S",
+    "XSX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "spectrum:polished_basalt"
+    },
+    "S": {
+      "item": "spectrum:sparklestone_gem"
+    }
+  },
+  "result": {
+    "item": "spectrum:item_bowl_basalt",
+    "count": 1
+  },
+  "required_advancement": "spectrum:midgame/enter_liquid_crystal"
+  }).id('spectrum:pedestal/tier3/item_bowl_basalt')
+
+  event.custom({
+  type: "spectrum:pedestal",
+  "group": "item_bowls",
+  "time": 120,
+  "tier": "advanced",
+  "cyan": 0,
+  "magenta": 0,
+  "yellow": 0,
+  "white": 0,
+  "black": 1,
+  "experience": 1.0,
+  "pattern": [
+    "S S",
+    "XSX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "spectrum:polished_calcite"
+    },
+    "S": {
+      "item": "spectrum:sparklestone_gem"
+    }
+  },
+  "result": {
+    "item": "spectrum:item_bowl_calcite",
+    "count": 1
+  },
+  "required_advancement": "spectrum:midgame/enter_liquid_crystal"
+  }).id('spectrum:pedestal/tier3/item_bowl_calcite')
 })

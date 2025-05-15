@@ -1,0 +1,27 @@
+{
+  "name": "难度介绍",
+  "icon": "kubejs:difficulty_changer",
+  "category": "patchouli:first",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "kubejs:kjs_8so954tici5vzb2krnclpreyi",
+      "recipe2": "kubejs:kjs_2ydurus6q9b1hkbxdn7sdellf"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "经典难度下怪物会概率掉落掉落三种稀有度的卡包，有概率掉落4种原版矿物。$(br)$(br)专家难度下会概率掉落额外的银币和稀有度更高的两种卡包，boss有概率会掉模组矿物,怪物有概率掉神器碎片，怪物有概率掉落空白之心，箱子里有概率出现额外的附魔书，箱子里有概率出现额外的救赎之心。$(br)$(br)大师难度下凋零骷髅必掉头，怪物概率掉落额外金币，概率掉落神话卡包，boss必定掉落模组矿物(数量更多)，怪物有概率掉落神器零件，箱子里有概率出现额外更强的附魔书。$(br)$(br)永恒模式新增了大部分机制,部分战利品修改,击杀boss会增加一定难度(第一次击杀部分boss会大幅增加),击杀怪物概率增加难度,根据难度值怪物的数值会改变,救赎之心无法减到50以下难度"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "kubejs:kjs_823vi4vlc9vwr2n9ysiax4hvu",
+      "text": "左下角显示的即是难度值,可以用救赎之心减少,但不能为0$(br)$(br)影响怪物的ai,武器装备,附魔,血量.速度等,难度值高并不会有额外掉落等相关内容"
+    },    
+    {
+      "type": "patchouli:image",
+      "images":["patchouli:textures/difficulty.png"],
+      "text":"显示的难度值",
+      "border": true
+    }
+  ]
+}

@@ -1060,7 +1060,10 @@
 		{
 			x: 8.5d
 			y: 3.0d
-			description: ["放在要输出的管道接口上"]
+			description: [
+				"放在要输出的管道接口上"
+				"{image:patchouli:textures/pipe3.png width:180 height:180 align:1}"
+			]
 			dependencies: ["5CC8D2A1F4AAF533"]
 			id: "7E7FB0BE7396ED40"
 			tasks: [{

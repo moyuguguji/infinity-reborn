@@ -813,11 +813,7 @@ onEvent('recipes', event => {
 		'inputs': [
 		{
 			"item": 'numismatic-overhaul:gold_coin',
-			"count": 1
-		},
-		{
-			"item": 'numismatic-overhaul:silver_coin',
-			"count": 30
+			"count": 2
 		},
 		{
 			"item": 'mythicmetals:hallowed_nugget',

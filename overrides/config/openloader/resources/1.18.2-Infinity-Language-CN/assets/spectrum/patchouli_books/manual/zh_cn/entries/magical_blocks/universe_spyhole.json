@@ -1,6 +1,6 @@
 {
   "name": "全视透镜",
-  "advancement": "spectrum:progression/unlock_universe_spyhole",
+  "advancement": "spectrum:midgame/build_advanced_pedestal_structure",
   "icon": "spectrum:universe_spyhole",
   "category": "spectrum:magical_blocks_category",
   "extra_recipe_mappings": {

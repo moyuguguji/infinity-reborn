@@ -4,9 +4,9 @@
   "category": "patchouli:other",
   "pages": [
     {
-      "type": "patchouli:text",
-      "text": "当你死亡时，将在死亡位置生成墓碑，墓碑将保留你身上所有除灵魂绑定外的物品。"
-      
+      "type": "patchouli:spotlight",
+      "item": "yigd:death_scroll",
+      "text": "当你死亡时，将在死亡位置生成墓碑，墓碑将保留你身上所有除灵魂绑定外的物品。$(br)右键死亡卷轴可以传送到死亡地点(无法跨维度)"
     },    
     {
       "type": "patchouli:image",

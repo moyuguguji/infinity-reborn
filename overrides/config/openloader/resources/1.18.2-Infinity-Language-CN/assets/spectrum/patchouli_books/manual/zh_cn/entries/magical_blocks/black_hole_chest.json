@@ -1,6 +1,5 @@
 {
   "name": "黑洞箱",
-  "advancement": "spectrum:progression/unlock_sucking_chest",
   "icon": "spectrum:sucking_chest",
   "category": "spectrum:magical_blocks_category",
   "extra_recipe_mappings": {
