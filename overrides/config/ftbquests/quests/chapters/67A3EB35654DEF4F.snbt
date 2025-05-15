@@ -142,6 +142,8 @@
 			y: -2.5d
 			subtitle: "如果你不想动一点光谱又想做无限剑的选择(冒险宝宝专供!)"
 			description: ["因为没有配方，所以只能ftb合成了"]
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
 			id: "6EB0899AF4B4F93A"
 			tasks: [
 				{
