@@ -1,0 +1,160 @@
+{
+	id: "687274A1B2367536"
+	group: ""
+	order_index: 5
+	filename: "687274A1B2367536"
+	title: "神秘板块"
+	icon: "voidtotem:totem_of_void_undying"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.0d
+			y: -1.0d
+			subtitle: "一些攻略"
+			description: ["如果你需要的话"]
+			id: "55067FDC9F960A37"
+			tasks: [{
+				id: "4850637F54A8EFD8"
+				type: "checkmark"
+				title: "攻略相关"
+			}]
+		}
+		{
+			title: "附魔画布介绍"
+			icon: "spectrum:enchantment_canvas"
+			x: -2.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["55067FDC9F960A37"]
+			hide: true
+			id: "51B5DD53445A7449"
+			tasks: [{
+				id: "5BF7BCE0DA23C39B"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "伪 编辑附魔"
+			icon: "editenchanting:enchantment_edit_table"
+			x: -0.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["55067FDC9F960A37"]
+			hide: true
+			id: "5E709BCC426442D3"
+			tasks: [{
+				id: "7EB57509EB8AEA68"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "种植玉藤"
+			icon: "spectrum:hibernating_jade_vine_seeds"
+			x: 1.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["55067FDC9F960A37"]
+			hide: true
+			id: "20295A73235FA651"
+			tasks: [{
+				id: "1FF9D041FFFE4E6A"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "获取风暴之石"
+			icon: "spectrum:lightning_stone"
+			x: 2.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["55067FDC9F960A37"]
+			hide: true
+			id: "588303B330C2ECBB"
+			tasks: [{
+				id: "5AEEC739F59252AC"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "画布"
+			x: -2.0d
+			y: 2.0d
+			description: ["{image:kubejs:textures/ftbq/enchantment_canvas.png width:200 height:200 align:1}"]
+			dependencies: ["51B5DD53445A7449"]
+			hide: true
+			id: "23B0186A51949D4A"
+			tasks: [{
+				id: "76FB13150C7FD949"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "附魔"
+			x: -0.5d
+			y: 2.0d
+			description: ["{image:kubejs:textures/ftbq/enchantment.png width:200 height:300 align:1}"]
+			dependencies: ["5E709BCC426442D3"]
+			hide: true
+			id: "689A9FDE1E279B7D"
+			tasks: [{
+				id: "49822F0F92B1A1E7"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "玉藤"
+			x: 1.0d
+			y: 2.0d
+			description: ["{image:kubejs:textures/ftbq/jade.png width:200 height:400 align:1}"]
+			dependencies: ["20295A73235FA651"]
+			hide: true
+			id: "4DB399E51D26CB8D"
+			tasks: [{
+				id: "0B61BAABC08916E8"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "风暴之石"
+			x: 2.5d
+			y: 2.0d
+			description: ["{image:kubejs:textures/ftbq/mlightning_stone.png width:200 height:200 align:1}"]
+			dependencies: ["588303B330C2ECBB"]
+			hide: true
+			id: "38F01DCB0B6C5DEC"
+			tasks: [{
+				id: "1D6FA6F87C1422DE"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "植魔附魔台使用"
+			icon: "botania:enchanter"
+			x: 4.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["55067FDC9F960A37"]
+			hide: true
+			id: "01738DE73D1BCD17"
+			tasks: [{
+				id: "0F6626A2705662E1"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "植魔附魔台"
+			x: 4.0d
+			y: 2.0d
+			description: ["{image:kubejs:textures/ftbq/botania.png width:200 height:200 align:1}"]
+			dependencies: ["01738DE73D1BCD17"]
+			hide: true
+			id: "20ABDDBC308C1465"
+			tasks: [{
+				id: "735152D7F0AAF903"
+				type: "checkmark"
+			}]
+		}
+	]
+	quest_links: [ ]
+}
