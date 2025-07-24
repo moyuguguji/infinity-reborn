@@ -10,11 +10,16 @@ onEvent('entity.hurt', event => {
 	let source = event.getSource().getActual()
 	let damage = event.getDamage()
 	let entity = event.getSource().getImmediate()
- 
+   
 	//event.server.runCommand(`say ${target.maxHealth - target.health}`)
-
+	
 	if (target.player) {
-		let offItem = target.getHeldItem(OFF_HAND).getId()
+		let offItem = target.getHeldItem(OFF_HAND).id
+		//let t=Object.keys(offItem)
+		//event.server.runCommand(`say ${offItem.nbt.Damage}`)
+		//offItem.nbt.Damage
+		//let da = offItem.nbt.Damage
+		let shield = ['mythicmetals:stormyx_shield','twilightforest:knightmetal_shield','gateofbabylon:netherite_shield','gateofbabylon:diamond_shield','gateofbabylon:golden_shield','minecraft:shield','bygonenether:gilded_netherite_shield','gateofbabylon:stone_shield','gateofbabylon:iron_shield','mcdw:shield_vanguard','mcdw:shield_tower_guard','mcdw:shield_royal_guard']
 		let damage_new
 		let armor_result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor get`)
 		let armor_toughness_result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.armor_toughness get`)
@@ -35,7 +40,7 @@ onEvent('entity.hurt', event => {
 					entity.kill()
 				}
 				damage_new = damage * 0.1
-				if (offItem.indexOf("shield") >= 0) damage_new = damage_new / 2
+				if (shield.includes(offItem)) damage_new = damage_new / 2
 				if (damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25) - target.health >= 0) {
 					event.server.scheduleInTicks(1, schedule => {
 						if(target.health < 1) return
@@ -56,7 +61,7 @@ onEvent('entity.hurt', event => {
 					entity.kill()
 				}
 				damage_new = damage * 0.15
-				if (offItem.indexOf("shield") >= 0) damage_new = damage_new / 2
+				if (shield.includes(offItem)) damage_new = damage_new / 2
 				if (damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25) - target.health >= 0) {
 					event.server.scheduleInTicks(1, schedule => {
 						if(target.health < 1) return
@@ -74,7 +79,7 @@ onEvent('entity.hurt', event => {
 					entity.kill()
 				}
 				damage_new = damage * 0.5
-				if (offItem.indexOf("shield") >= 0) damage_new = damage_new / 2
+				if (shield.includes(offItem)) damage_new = damage_new / 2
 				if (damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25) - target.health >= 0) {
 					event.server.scheduleInTicks(1, schedule => {
 						if(target.health < 1) return
@@ -92,7 +97,7 @@ onEvent('entity.hurt', event => {
 					entity.kill()
 				}
 				damage_new = damage * 1.0
-				if (offItem.indexOf("shield") >= 0) damage_new = damage_new / 2
+				if (shield.includes(offItem)) damage_new = damage_new / 2
 				if (damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25) - target.health >= 0) {
 					event.server.scheduleInTicks(1, schedule => {
 						if(target.health < 1) return
@@ -110,7 +115,13 @@ onEvent('entity.hurt', event => {
 					entity.kill()
 				}
 				damage_new = damage * 1.5
-				if (offItem.indexOf("shield") >= 0) damage_new = damage_new / 2
+				if (shield.includes(offItem)){
+					let r3 = randomNum(1,100)
+					if (r3 <= 70) {
+						target.damageHeldItem(OFF_HAND,100)
+						return
+					}
+				}
 
 				if (damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25) - target.health >= 0) {
 					event.server.scheduleInTicks(1, schedule => {
@@ -187,7 +198,7 @@ onEvent('entity.hurt', event => {
 					}
 				}
 				if (target.health > 2 && source.type == 'minecraft:wither') {
-					target.heal(-1)
+					target.attack(1)
 				}
 				if (entity.type == 'terrarianslimes:spiked_ice_slime' || entity.type == 'terrarianslimes:ice_slime') {
 					if (!target.potionEffects.isActive('rottencreatures:freeze')) {
@@ -209,12 +220,17 @@ onEvent('entity.hurt', event => {
 						target.potionEffects.add('minecraft:weakness', 60, 0)
 					}
 				}
+
+				if (entity.type == 'minecraft:area_effect_cloud') {
+					target.attack(target.maxHealth * 0.02)
+					//target.tell(1)
+				}
 			}
 		}
 	}
 
 })
-
+//减伤
 onEvent('entity.hurt', event => {
 	let target = event.getEntity()
 	let source1 = event.getSource()
@@ -318,7 +334,7 @@ onEvent('recipes', event => {
 	event.shapeless('kubejs:difficulty_changer', ['minecraft:clock'])
 })
 
-
+//生物受击
 onEvent('entity.hurt', event => {
 	let target = event.getEntity()
 	let source1 = event.getSource()
@@ -575,6 +591,11 @@ onEvent('entity.hurt', event => {
 					target.heal(target.maxHealth * 0.9)
 					target.attack(target.maxHealth * 0.1)
 				}
+				let riding = target.ridingEntity
+				if (riding != null && !riding.monster) {
+					riding.kill()
+				}
+				//event.server.runCommand(`say ${riding}`)
 				if (!target.tags.contains('banxue')) {
 					let random3 = randomNum(1, 100)
 					if (random3 <= 20) {
@@ -630,7 +651,6 @@ onEvent('entity.hurt', event => {
 						event.server.runCommandSilent(`execute at ${player.profile.name} run tp ${player.profile.name} ${x + randoms} ${y} ${z + randoms}`)
 					}
 				}
-
 			}
 		}
 	}

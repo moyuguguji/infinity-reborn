@@ -22,9 +22,9 @@
             [ "GGG","G0G","GGG" ]
         ],
         "mapping": {
-            "G": "minecraft:deepslate_bricks",
-            "W": "alloy_forgery:deepslate_bricks_forge_controller",
-            "0": "minecraft:deepslate_bricks"
+            "G": "#minecraft:forge_brick",
+            "W": "#minecraft:forge_controller",
+            "0": "#minecraft:forge_brick"
         },
         "symmetrical": true
     },
@@ -39,9 +39,9 @@
             [ "GGG","A0G","GGG" ]
         ],
         "mapping": {
-            "G": "minecraft:deepslate_bricks",
-            "W": "alloy_forgery:deepslate_bricks_forge_controller",
-            "0": "minecraft:deepslate_bricks",
+            "G": "#minecraft:forge_brick",
+            "W": "#minecraft:forge_controller",
+            "0": "#minecraft:forge_brick",
             "A": "minecraft:hopper"
         },
         "symmetrical": true

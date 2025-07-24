@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:deepslate_bricks",
+    "kubejs:adamantite_brick",
+    "minecraft:end_stone_bricks",
+    "mythicmetals:unobtainium_block"
+  ]
+}

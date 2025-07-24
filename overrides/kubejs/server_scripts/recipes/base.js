@@ -234,17 +234,6 @@ onEvent('recipes', event => {
 		B: 'minecraft:stick'
 	})
 
-	event.shaped('origins:orb_of_origin', [
-		'ABA',
-		'CDC',
-		'ABA'
-	], {
-		A: 'minecraft:nether_star',
-		B: 'botania:ender_air_bottle',
-		C: 'botania:gaia_ingot',
-		D: 'minecraft:dragon_egg'
-	})
-
 	event.custom({
 		type: "botania:runic_altar",
 		"output": {
@@ -412,15 +401,6 @@ onEvent('recipes', event => {
 		C: 'minecraft:netherite_block'
 	}).id('things:empty_agglomeration')
 
-	event.shaped('purpeille:remnant_bricks', [
-		' A ',
-		'ABA',
-		' A '
-	], {
-		A: 'purpeille:remnant_brick',
-		B: 'purpeille:preserved_dust'
-	}).id('purpeille:blocks/remnant_bricks')
-
 	event.shaped('purpeille:monolithic_purpur', [
 		'AAA',
 		'ABA',
@@ -440,6 +420,15 @@ onEvent('recipes', event => {
 		C: 'gobber2:gobber2_glob_end',
 		D: 'minecraft:ender_eye'
 	}).id('purpeille:blocks/ancient_oven')
+
+	event.shaped('256x gobber2:gobber2_foo_end', [
+		'AAA',
+		'ABA',
+		'AAA'
+	], {
+		A: 'gobber2:gobber2_foo_end',
+		B: 'kubejs:coal_singularity',
+	}).keepIngredient('kubejs:coal_singularity')
 
 	event.smithing('spikyspikes:netherite_spike',Item.of('spikyspikes:diamond_spike').ignoreNBT(),'minecraft:netherite_ingot').id('spikyspikes:netherite_spike')
 })

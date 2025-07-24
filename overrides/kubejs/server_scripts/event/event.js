@@ -81,6 +81,12 @@ onEvent('entity.hurt', event => {
             target.potionEffects.add('minecraft:weakness', 100, 1)
             return
         }
+        if (mainItem == 'kubejs:whip') {
+            target.attack(1)
+            target.potionEffects.add('minecraft:haste', 60, 2)
+            target.potionEffects.add('minecraft:speed', 60, 2)
+            return
+        }
         if (mainItem == 'kubejs:lce_tang') {
             player.heal((damage * 0.05) * 0.05)
             return

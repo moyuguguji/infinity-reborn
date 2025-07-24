@@ -509,7 +509,7 @@ onEvent('recipes', event => {
       B:'bosses_of_mass_destruction:blazing_eye',
       C:'mythicmetals:celestium_ingot',
       D:'minecraft:nether_star',
-      E:'minecraft:dragon_egg'
+      E:'dragonloot:dragon_scale'
 
     }).id('infinity:dragon_star')
 
@@ -523,7 +523,7 @@ onEvent('recipes', event => {
       B:'bosses_of_mass_destruction:blazing_eye',
       C:'botania:gaia_ingot',
       D:Item.of('soulsweapons:chaos_robes').ignoreNBT(),
-      E:'minecraft:dragon_egg'
+      E:'dragonloot:dragon_scale'
 
     }).id('infinity:dragon_elytra')
 
@@ -638,7 +638,8 @@ onEvent('recipes', event => {
            'item':'purpeille:smoldered_purpeille_ingot'
          },
          {
-          'item':'minecraft:nether_star'
+          'item':'progressivebosses:nether_star_shard',
+          "count": 3
         },
       ],
       'output': {

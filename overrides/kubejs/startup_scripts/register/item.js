@@ -248,4 +248,151 @@ onEvent('item.registry', event => {
 		.displayName("小猫老师")
 		.rarity(Rarity.UNCOMMON)
 		.tooltip(Text.translate('第一个完成no戈伯挑战的人'))
+
+	event.create('coal_singularity')
+		.displayName("煤奇点")
+		.rarity(Rarity.UNCOMMON)
+		.burnTime(999999999)
+
+	event.create('primordial_shard')
+		.displayName("本源碎片")
+		.tooltip(Text.translate('用于制作高品质核心'))
+		.rarity(Rarity.UNCOMMON)
+
+	event.create('primordial_qixing')
+		.displayName("本源核心-七星")
+		.tooltip('\u00A7b使用后重置武器一切效果')
+		.tooltip(Text.translate('item.kubejs.primordial_qixing.tooltip'))
+		.rarity(Rarity.UNCOMMON)
+
+	event.create('primordial_ruoshui')
+		.displayName("本源核心-若水")
+		.tooltip('\u00A7b使用后重置武器一切效果')
+		.tooltip(Text.translate('item.kubejs.primordial_ruoshui.tooltip'))
+		.rarity(Rarity.UNCOMMON)
+
+	event.create('primordial_stone')
+		.displayName("本源核心-石剑?")
+		.tooltip('\u00A7b使用后重置武器一切效果')
+		.tooltip(Text.translate('item.kubejs.primordial_stone.tooltip'))
+		.rarity(Rarity.UNCOMMON)
+
+	event.create('primordial_yecao')
+		.displayName("本源核心-野草")
+		.tooltip('\u00A7b使用后重置武器一切效果')
+		.tooltip(Text.translate('item.kubejs.primordial_yecao.tooltip'))
+		.rarity(Rarity.UNCOMMON)
+
+	function primordial(id,displayname,text) {
+		event.create(id)
+		.displayName(displayname)
+		.tooltip('\u00A7b使用后重置武器一切效果')
+		.tooltip(Text.translate('item.kubejs.primordial_upgrade.tooltip'))
+		.tooltip(text)
+		.rarity(Rarity.UNCOMMON)
+	}
+
+	function primordial_poison(id,displayname,text) {
+		event.create(id)
+		.displayName(displayname)
+		.tooltip('\u00A7b使用后重置武器一切效果')
+		.tooltip(Text.translate('item.kubejs.primordial_poison.tooltip'))
+		.tooltip(text)
+		.rarity(Rarity.UNCOMMON)
+	}
+
+	function primordial_yuan(id,displayname,text) {
+		event.create(id)
+		.displayName(displayname)
+		.tooltip('\u00A7b使用后重置武器一切效果')
+		.tooltip(Text.translate('item.kubejs.primordial_yuan.tooltip'))
+		.tooltip(text)
+		.rarity(Rarity.UNCOMMON)
+	}
+
+	function primordial_crit(id,displayname,text) {
+		event.create(id)
+		.displayName(displayname)
+		.tooltip('\u00A7b使用后重置武器一切效果')
+		.tooltip(Text.translate('item.kubejs.primordial_crit.tooltip'))
+		.tooltip(text)
+		.rarity(Rarity.UNCOMMON)
+	}
+
+	function primordial_lifesteal(id,displayname,text) {
+		event.create(id)
+		.displayName(displayname)
+		.tooltip('\u00A7b使用后重置武器一切效果')
+		.tooltip(Text.translate('item.kubejs.primordial_lifesteal.tooltip'))
+		.tooltip(text)
+		.rarity(Rarity.UNCOMMON)
+	}
+
+	function primordial_ren(id,displayname,text) {
+		event.create(id)
+		.displayName(displayname)
+		.tooltip('\u00A7b使用后重置武器一切效果')
+		.tooltip(Text.translate('item.kubejs.primordial_ren.tooltip'))
+		.tooltip(text)
+		.rarity(Rarity.UNCOMMON)
+	}
+
+	function primordial_frost(id,displayname,text) {
+		event.create(id)
+		.displayName(displayname)
+		.tooltip('\u00A7b使用后重置武器一切效果')
+		.tooltip(Text.translate('item.kubejs.primordial_frost.tooltip'))
+		.tooltip(text)
+		.rarity(Rarity.UNCOMMON)
+	}
+
+	function primordial_fire(id,displayname,text) {
+		event.create(id)
+		.displayName(displayname)
+		.tooltip('\u00A7b使用后重置武器一切效果')
+		.tooltip(Text.translate('item.kubejs.primordial_fire.tooltip'))
+		.tooltip(text)
+		.rarity(Rarity.UNCOMMON)
+	}
+
+	primordial('primordial_qixing_upgrade',"本源重塑融合核心-七星",Text.translate('item.kubejs.primordial_qixing.tooltip'))
+	primordial('primordial_ruoshui_upgrade',"本源重塑融合核心-若水",Text.translate('item.kubejs.primordial_ruoshui.tooltip'))
+	primordial('primordial_stone_upgrade',"本源重塑融合核心-石剑?",Text.translate('item.kubejs.primordial_stone.tooltip'))
+	primordial('primordial_yecao_upgrade',"本源重塑融合核心-野草",Text.translate('item.kubejs.primordial_yecao.tooltip'))
+
+	primordial_poison('primordial_qixing_upgrade_poison',"本源蚀骨融合核心-七星",Text.translate('item.kubejs.primordial_qixing.tooltip'))
+	primordial_poison('primordial_ruoshui_upgrade_poison',"本源蚀骨融合核心-若水",Text.translate('item.kubejs.primordial_ruoshui.tooltip'))
+	primordial_poison('primordial_stone_upgrade_poison',"本源蚀骨融合核心-石剑?",Text.translate('item.kubejs.primordial_stone.tooltip'))
+	primordial_poison('primordial_yecao_upgrade_poison',"本源蚀骨融合核心-野草",Text.translate('item.kubejs.primordial_yecao.tooltip'))
+
+	primordial_yuan('primordial_qixing_upgrade_yuan',"本源元素融合核心-七星",Text.translate('item.kubejs.primordial_qixing.tooltip'))
+	primordial_yuan('primordial_ruoshui_upgrade_yuan',"本源元素融合核心-若水",Text.translate('item.kubejs.primordial_ruoshui.tooltip'))
+	primordial_yuan('primordial_stone_upgrade_yuan',"本源元素融合核心-石剑?",Text.translate('item.kubejs.primordial_stone.tooltip'))
+	primordial_yuan('primordial_yecao_upgrade_yuan',"本源元素融合核心-野草",Text.translate('item.kubejs.primordial_yecao.tooltip'))
+
+	primordial_crit('primordial_qixing_upgrade_crit',"本源强袭融合核心-七星",Text.translate('item.kubejs.primordial_qixing.tooltip'))
+	primordial_crit('primordial_ruoshui_upgrade_crit',"本源强袭融合核心-若水",Text.translate('item.kubejs.primordial_ruoshui.tooltip'))
+	primordial_crit('primordial_stone_upgrade_crit',"本源强袭融合核心-石剑?",Text.translate('item.kubejs.primordial_stone.tooltip'))
+	primordial_crit('primordial_yecao_upgrade_crit',"本源强袭融合核心-野草",Text.translate('item.kubejs.primordial_yecao.tooltip'))
+
+	primordial_lifesteal('primordial_qixing_upgrade_lifesteal',"本源吸血融合核心-七星",Text.translate('item.kubejs.primordial_qixing.tooltip'))
+	primordial_lifesteal('primordial_ruoshui_upgrade_lifesteal',"本源吸血融合核心-若水",Text.translate('item.kubejs.primordial_ruoshui.tooltip'))
+	primordial_lifesteal('primordial_stone_upgrade_lifesteal',"本源吸血融合核心-石剑?",Text.translate('item.kubejs.primordial_stone.tooltip'))
+	primordial_lifesteal('primordial_yecao_upgrade_lifesteal',"本源吸血融合核心-野草",Text.translate('item.kubejs.primordial_yecao.tooltip'))
+
+	primordial_ren('primordial_qixing_upgrade_ren',"本源重刃融合核心-七星",Text.translate('item.kubejs.primordial_qixing.tooltip'))
+	primordial_ren('primordial_ruoshui_upgrade_ren',"本源重刃融合核心-若水",Text.translate('item.kubejs.primordial_ruoshui.tooltip'))
+	primordial_ren('primordial_stone_upgrade_ren',"本源重刃融合核心-石剑?",Text.translate('item.kubejs.primordial_stone.tooltip'))
+	primordial_ren('primordial_yecao_upgrade_ren',"本源重刃融合核心-野草",Text.translate('item.kubejs.primordial_yecao.tooltip'))
+
+	primordial_frost('primordial_qixing_upgrade_frost',"本源凛冽融合核心-七星",Text.translate('item.kubejs.primordial_qixing.tooltip'))
+	primordial_frost('primordial_ruoshui_upgrade_frost',"本源凛冽融合核心-若水",Text.translate('item.kubejs.primordial_ruoshui.tooltip'))
+	primordial_frost('primordial_stone_upgrade_frost',"本源凛冽融合核心-石剑?",Text.translate('item.kubejs.primordial_stone.tooltip'))
+	primordial_frost('primordial_yecao_upgrade_frost',"本源凛冽融合核心-野草",Text.translate('item.kubejs.primordial_yecao.tooltip'))
+
+	primordial_fire('primordial_qixing_upgrade_fire',"本源灼炎融合核心-七星",Text.translate('item.kubejs.primordial_qixing.tooltip'))
+	primordial_fire('primordial_ruoshui_upgrade_fire',"本源灼炎融合核心-若水",Text.translate('item.kubejs.primordial_ruoshui.tooltip'))
+	primordial_fire('primordial_stone_upgrade_fire',"本源灼炎融合核心-石剑?",Text.translate('item.kubejs.primordial_stone.tooltip'))
+	primordial_fire('primordial_yecao_upgrade_fire',"本源灼炎融合核心-野草",Text.translate('item.kubejs.primordial_yecao.tooltip'))
+	
 })

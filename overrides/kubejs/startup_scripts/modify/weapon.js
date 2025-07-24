@@ -18,30 +18,6 @@ onEvent('item.modification', event => {
 		modification.removeAttribute("minecraft:generic.attack_speed", "fa233e1c-4180-4865-b01b-bcce9785aca3")
 		modification.addAttribute("minecraft:generic.attack_speed", "fa233e1c-4180-4865-b01b-bcce9785aca3", "Weapon modifier", -2.7, "addition")
 	})
-	event.modify("gateofbabylon:netherite_katana", modification => {
-		modification.removeAttribute("minecraft:generic.attack_damage", "cb3f55d3-645c-4f38-a497-9c13a33db5cf")
-		modification.addAttribute("minecraft:generic.attack_damage", "cb3f55d3-645c-4f38-a497-9c13a33db5cf", "Weapon modifier", 10, "addition")
-		modification.removeAttribute("minecraft:generic.attack_speed", "fa233e1c-4180-4865-b01b-bcce9785aca3")
-		modification.addAttribute("minecraft:generic.attack_speed", "fa233e1c-4180-4865-b01b-bcce9785aca3", "Weapon modifier", -2.1, "addition")
-	})
-	event.modify("gateofbabylon:netherite_waraxe", modification => {
-		modification.removeAttribute("minecraft:generic.attack_damage", "cb3f55d3-645c-4f38-a497-9c13a33db5cf")
-		modification.addAttribute("minecraft:generic.attack_damage", "cb3f55d3-645c-4f38-a497-9c13a33db5cf", "Weapon modifier", 17, "addition")
-		modification.removeAttribute("minecraft:generic.attack_speed", "fa233e1c-4180-4865-b01b-bcce9785aca3")
-		modification.addAttribute("minecraft:generic.attack_speed", "fa233e1c-4180-4865-b01b-bcce9785aca3", "Weapon modifier", -3.3, "addition")
-	})
-	event.modify("gateofbabylon:netherite_broadsword", modification => {
-		modification.removeAttribute("minecraft:generic.attack_damage", "cb3f55d3-645c-4f38-a497-9c13a33db5cf")
-		modification.addAttribute("minecraft:generic.attack_damage", "cb3f55d3-645c-4f38-a497-9c13a33db5cf", "Weapon modifier", 19, "addition")
-		modification.removeAttribute("minecraft:generic.attack_speed", "fa233e1c-4180-4865-b01b-bcce9785aca3")
-		modification.addAttribute("minecraft:generic.attack_speed", "fa233e1c-4180-4865-b01b-bcce9785aca3", "Weapon modifier", -3.0, "addition")
-	})
-	event.modify("gateofbabylon:netherite_haladie", modification => {
-		modification.removeAttribute("minecraft:generic.attack_damage", "cb3f55d3-645c-4f38-a497-9c13a33db5cf")
-		modification.addAttribute("minecraft:generic.attack_damage", "cb3f55d3-645c-4f38-a497-9c13a33db5cf", "Weapon modifier", 8.5, "addition")
-		modification.removeAttribute("minecraft:generic.attack_speed", "fa233e1c-4180-4865-b01b-bcce9785aca3")
-		modification.addAttribute("minecraft:generic.attack_speed", "fa233e1c-4180-4865-b01b-bcce9785aca3", "Weapon modifier", -2.7, "addition")
-	})
 	event.modify("twilightforest:block_and_chain", modification => {
 		modification.removeAttribute("minecraft:generic.attack_damage", "cb3f55d3-645c-4f38-a497-9c13a33db5cf")
 		modification.addAttribute("minecraft:generic.attack_damage", "cb3f55d3-645c-4f38-a497-9c13a33db5cf", "Weapon modifier", 12.5, "addition")

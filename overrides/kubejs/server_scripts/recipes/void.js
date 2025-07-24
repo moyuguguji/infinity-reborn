@@ -122,6 +122,76 @@ onEvent('recipes', event => {
         })
 
     event.custom({
+        "type": "purpeille:ancient_oven",
+        "input": {
+            "item": "bosses_of_mass_destruction:soul_star"
+        },
+        "damage": 150,
+        "cook_time": 1200,
+        "result": [
+            {
+                "item": "bosses_of_mass_destruction:ancient_anima"
+            }
+        ]
+        })
+
+    event.custom({
+        "type": "purpeille:ancient_oven",
+        "input": {
+            "item": "bosses_of_mass_destruction:void_lily"
+        },
+        "damage": 150,
+        "cook_time": 1200,
+        "result": [
+            {
+                "item": "bosses_of_mass_destruction:crystal_fruit"
+            }
+        ]
+        })
+
+    event.custom({
+        "type": "purpeille:ancient_oven",
+        "input": {
+            "item": "kubejs:xu_wu"
+        },
+        "damage": 150,
+        "cook_time": 1200,
+        "result": [
+            {
+                "item": "bosses_of_mass_destruction:blazing_eye"
+            }
+        ]
+        })
+
+    event.custom({
+        "type": "purpeille:ancient_oven",
+        "input": {
+            "item": "bosses_of_mass_destruction:crystal_fruit"
+        },
+        "damage": 150,
+        "cook_time": 1200,
+        "result": [
+            {
+                "item": "bosses_of_mass_destruction:void_thorn"
+            }
+        ]
+        })
+
+    event.custom({
+        "type": "purpeille:ancient_oven",
+        "input": {
+            "item": "minecraft:coal_block"
+        },
+        "damage": 300,
+        "cook_time": 2400,
+        "result": [
+            {
+                "item": "kubejs:coal_singularity"
+            }
+        ]
+        })
+
+    event.custom({
     "type": "voidcrafting:void_crafting",
     "input": {
         "item": "minecraft:totem_of_undying"
@@ -261,6 +331,18 @@ onEvent('recipes', event => {
     "result": 
         {
         "item": "minecraft:enchanted_golden_apple"
+        },
+    "radius": 10
+    })
+
+    event.custom({
+    "type": "voidcrafting:void_crafting",
+    "input": {
+        "item": "purpeille:remnant_bricks"
+    },
+    "result": 
+        {
+        "item": "purpeille:ancient_mechanical_bricks"
         },
     "radius": 10
     })

@@ -202,8 +202,8 @@ onEvent('recipes', event => {
         "count": 1
       },
       {
-        "item": "minecraft:nether_star",
-        "count": 2
+        "item": "progressivebosses:nether_star_shard",
+        "count": 4
       },
       {
         "item": "soulsweapons:crimson_ingot",

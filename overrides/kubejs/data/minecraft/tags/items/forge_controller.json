@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "alloy_forgery:deepslate_bricks_forge_controller",
+    "alloy_forgery:adamantite_block_forge_controller",
+    "alloy_forgery:end_stone_bricks_forge_controller",
+    "alloy_forgery:unobtainium_block_forge_controller"
+  ]
+}

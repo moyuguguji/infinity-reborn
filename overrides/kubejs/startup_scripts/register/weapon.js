@@ -181,4 +181,13 @@
 		.tooltip('-[OA]风雪的遗孤')
 		.tooltip('§5归乡')
 		.tooltip('-手持时获得速度3')
+
+	event.create('whip', 'sword')
+		.displayName("鞭子")
+		.attackDamageBonus(0)
+		.maxStackSize(1)
+		.speedBaseline(-0.8)
+		.maxDamage(100)
+		.tooltip('攻击生物造成1点真实伤害,使其获得速度3急迫3')
+		//.tooltip('-[OA]风雪的遗孤')
 })

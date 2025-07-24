@@ -94,7 +94,7 @@ onEvent('recipes', event => {
         B: 'minecraft:experience_bottle',
         C: 'mcda:upgrade_core_soul',
         D: 'mcda:upgrade_core_wither',
-        E: 'minecraft:nether_star'
+        E: 'progressivebosses:nether_star_shard'
 	  })
 
       event.shapeless('ringsofascension:ring_magnetism', ['gobber2:gobber2_ring','mcda:upgrade_core_metal','things:item_magnet'])

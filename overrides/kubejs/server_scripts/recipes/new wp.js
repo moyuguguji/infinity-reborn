@@ -179,7 +179,7 @@ onEvent('recipes',event => {
 	  ], 
       {
 		A: 'adventurez:source_stone',
-        B: 'minecraft:dragon_egg',
+        B: 'dragonloot:dragon_scale',
 		C: 'minecraft:ender_chest'
 	  })
 	  event.shaped('darkutils:charm_portal', [

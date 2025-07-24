@@ -427,7 +427,7 @@ onEvent('recipes', event => {
 			},
 			{
 				"item": "minecraft:nether_star",
-				"count": 8
+				"count": 1
 			},
 			{
 				"item": "gobber2:gobber2_medallion_nether",
@@ -458,7 +458,7 @@ onEvent('recipes', event => {
 			},
 			{
 				"item": "minecraft:nether_star",
-				"count": 8
+				"count": 1
 			},
 			{
 				"item": "gobber2:gobber2_medallion_nether",
@@ -489,7 +489,7 @@ onEvent('recipes', event => {
 			},
 			{
 				"item": "minecraft:nether_star",
-				"count": 8
+				"count": 1
 			},
 			{
 				"item": "gobber2:gobber2_medallion_nether",
