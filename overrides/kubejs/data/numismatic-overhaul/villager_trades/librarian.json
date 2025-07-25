@@ -55,15 +55,6 @@
         "max_uses": 12
       },
       {
-        "type": "numismatic-overhaul:sell_stack",
-        "sell": {
-          "item": "minecraft:lantern",
-          "count": 4
-        },
-        "price": 200,
-        "max_uses": 12
-      },
-      {
         "type": "numismatic-overhaul:enchant_item",
         "level": 10,
         "allow_treasure": false,
@@ -124,33 +115,13 @@
     ],
     "expert": [
       {
-        "type": "numismatic-overhaul:sell_stack",
-        "sell": {
-          "item": "minecraft:writable_book",
-          "count": 1
-        },
-        "price": 890,
-        "max_uses": 12
+        "type": "numismatic-overhaul:enchant_item",
+        "level": 50,
+        "allow_treasure": true,
+        "max_uses": 2,
+        "base_price": 4000
       },
-      {
-        "type": "numismatic-overhaul:sell_stack",
-        "sell": {
-          "item": "minecraft:compass",
-          "count": 1
-        },
-        "price": 700,
-        "max_uses": 12
-      },
-      {
-        "type": "numismatic-overhaul:sell_stack",
-        "sell": {
-          "item": "minecraft:clock",
-          "count": 1
-        },
-        "price": 900,
-        "max_uses": 12
-      },
-      {
+       {
         "type": "numismatic-overhaul:enchant_item",
         "level": 50,
         "allow_treasure": true,
@@ -159,15 +130,6 @@
       }
     ],
     "master": [
-      {
-        "type": "numismatic-overhaul:sell_stack",
-        "sell": {
-          "item": "minecraft:name_tag",
-          "count": 2
-        },
-        "price": 800,
-        "max_uses": 12
-      },
       {
         "type": "numismatic-overhaul:enchant_item",
         "level": 65,

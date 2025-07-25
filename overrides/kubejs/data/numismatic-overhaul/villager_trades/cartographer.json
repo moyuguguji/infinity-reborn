@@ -4,7 +4,7 @@
     "novice": [
       {
         "type": "numismatic-overhaul:buy_stack",
-        "price": 96,
+        "price": 100,
         "buy": {
           "item": "paper",
           "count": 24
@@ -18,258 +18,276 @@
           "item": "map",
           "count": 1
         },
-        "max_uses": 9,
-        "villager_experience": 10
+        "max_uses": 99,
+        "villager_experience": 100
       }
     ],
     "apprentice": [
       {
-        "type": "numismatic-overhaul:buy_stack",
-        "price": 50,
-        "buy": {
-          "item": "glass_pane",
-          "count": 12
-        },
-        "max_uses": 16
+        "type": "numismatic-overhaul:sell_map",
+        "price": 3000,
+        "structure": "dungeons_arise:merchant_campsite",
+        "max_uses": 1,
+        "villager_experience": 500
       },
       {
         "type": "numismatic-overhaul:sell_map",
-        "price": 10000,
-        "structure": "dungeons_arise:merchant_campsite",
+        "price": 2500,
+        "structure": "dungeons_arise:illager_galley",
         "max_uses": 1,
-        "villager_experience": 15
+        "villager_experience": 500
+      },
+      {
+        "type": "numismatic-overhaul:sell_map",
+        "price": 3500,
+        "structure": "dungeons_arise:abandoned_temple",
+        "max_uses": 1,
+        "villager_experience": 500
+      },
+      {
+        "type": "numismatic-overhaul:sell_map",
+        "price": 4500,
+        "structure": "dungeons_arise:illager_campsite",
+        "max_uses": 1,
+        "villager_experience": 500
+      }, 
+      {
+        "type": "numismatic-overhaul:sell_map",
+        "price": 3000,
+        "structure": "dungeons_arise:mushroom_village",
+        "max_uses": 1,
+        "villager_experience": 500
+      }, 
+      {
+        "type": "numismatic-overhaul:sell_map",
+        "price": 3000,
+        "structure": "dnl:cleric_hideout",
+        "max_uses": 1,
+        "villager_experience": 500
+      }, 
+      {
+        "type": "numismatic-overhaul:sell_map",
+        "price": 2500,
+        "structure": "dnl:forgotten_field",
+        "max_uses": 1,
+        "villager_experience": 500
+      }, 
+      {
+        "type": "numismatic-overhaul:sell_map",
+        "price": 2000,
+        "structure": "igloo",
+        "max_uses": 1,
+        "villager_experience": 500
       }
     ],
     "journeyman": [
-      {
-        "type": "numismatic-overhaul:buy_stack",
-        "price": 500,
-        "buy": {
-          "item": "compass",
-          "count": 1
-        }
-      },
       {
         "type": "numismatic-overhaul:sell_map",
         "price": 10000,
         "structure": "mansion",
         "max_uses": 1,
-        "villager_experience": 15
+        "villager_experience": 500
       },
       {
         "type": "numismatic-overhaul:sell_map",
         "price": 20000,
         "structure": "end_city",
         "max_uses": 1,
-        "villager_experience": 20
+        "villager_experience": 500
       },
-       {
-      "type": "numismatic-overhaul:sell_map",
-      "price": 15000,
-      "structure": "dungeons_arise:heavenly_rider",
-      "max_uses": 1,
-      "villager_experience": 20
-    },
-    {
-      "type": "numismatic-overhaul:sell_map",
-      "price": 15000,
-      "structure": "dungeons_arise:heavenly_conqueror",
-      "max_uses": 1,
-      "villager_experience": 20
-    },
-    {
-      "type": "numismatic-overhaul:sell_map",
-      "price": 12000,
-      "structure": "dungeons_arise:illager_fort",
-      "max_uses": 1,
-      "villager_experience": 18
-    }
+      {
+        "type": "numismatic-overhaul:sell_map",
+        "price": 5000,
+        "structure": "dungeons_arise:illager_corsair",
+        "max_uses": 1,
+        "villager_experience": 500
+      },
+      {
+        "type": "numismatic-overhaul:sell_map",
+        "price": 5000,
+        "structure": "dungeons_arise:undead_pirate_ship",
+        "max_uses": 1,
+        "villager_experience": 500
+      },
+      {
+        "type": "numismatic-overhaul:sell_map",
+        "price": 5500,
+        "structure": "dungeons_arise:illager_windmill",
+        "max_uses": 1,
+        "villager_experience": 500
+      }, 
+      {
+        "type": "numismatic-overhaul:sell_map",
+        "price": 6000,
+        "structure": "dnl:deep_oasis",
+        "max_uses": 1,
+        "villager_experience": 500
+      }, 
+      {
+        "type": "numismatic-overhaul:sell_map",
+        "price": 5500,
+        "structure": "dnl:plains_castle",
+        "max_uses": 1,
+        "villager_experience": 500
+      }, 
+      {
+        "type": "numismatic-overhaul:sell_map",
+        "price": 15000,
+        "structure": "mostructures:big_pyramid",
+        "max_uses": 1,
+        "villager_experience": 500
+      }, 
+      {
+        "type": "numismatic-overhaul:sell_map",
+        "price": 15000,
+        "structure": "mostructures:pillager_factory",
+        "max_uses": 1,
+        "villager_experience": 500
+      }
     ],
     "expert": [
       {
         "type": "numismatic-overhaul:sell_map",
-        "price": 10000,
-        "structure": "dungeons_arise:mushroom_village",
+        "price": 25000,
+        "structure": "dungeons_arise:mining_system",
         "max_uses": 1,
-        "villager_experience": 15
+        "villager_experience": 500
       },
       {
         "type": "numismatic-overhaul:sell_map",
-        "price": 10000,
-        "structure": "dungeons_arise:illager_campsite",
+        "price": 40000,
+        "structure": "dungeons_arise:heavenly_rider",
         "max_uses": 1,
-        "villager_experience": 15
+        "villager_experience": 500
       },
       {
         "type": "numismatic-overhaul:sell_map",
-        "price": 10000,
-        "structure": "dungeons_arise:abandoned_temple",
+        "price": 40000,
+        "structure": "dungeons_arise:heavenly_conqueror",
         "max_uses": 1,
-        "villager_experience": 15
+        "villager_experience": 500
       },
       {
         "type": "numismatic-overhaul:sell_map",
-        "price": 10000,
-        "structure": "dungeons_arise:giant_mushroom",
+        "price": 25000,
+        "structure": "dungeons_arise:illager_fort",
         "max_uses": 1,
-        "villager_experience": 15
+        "villager_experience": 500
       },
       {
         "type": "numismatic-overhaul:sell_map",
-        "price": 10000,
-        "structure": "dungeons_arise:illager_windmill",
+        "price": 30000,
+        "structure": "dungeons_arise:mushroom_mines",
         "max_uses": 1,
-        "villager_experience": 15
+        "villager_experience": 500
       },
       {
         "type": "numismatic-overhaul:sell_map",
-        "price": 10000,
-        "structure": "dungeons_arise:undead_pirate_ship",
+        "price": 30000,
+        "structure": "dnl:gallery_of_illusion",
         "max_uses": 1,
-        "villager_experience": 15
+        "villager_experience": 500
       },
       {
-      "type": "numismatic-overhaul:sell_map",
-      "price": 12000,
-      "structure": "dungeons_arise:illager_castle",
-      "max_uses": 1,
-      "villager_experience": 18
-    },
-    {
-      "type": "numismatic-overhaul:sell_map",
-      "price": 12000,
-      "structure": "dungeons_arise:illager_hall",
-      "max_uses": 1,
-      "villager_experience": 18
-    },
-    {
-      "type": "numismatic-overhaul:sell_map",
-      "price": 12000,
-      "structure": "dungeons_arise:mining_system",
-      "max_uses": 1,
-      "villager_experience": 18
-    },
-    {
-      "type": "numismatic-overhaul:sell_map",
-      "price": 12000,
-      "structure": "dungeons_arise:infested_temple",
-      "max_uses": 1,
-      "villager_experience": 18
-    }
+        "type": "numismatic-overhaul:sell_map",
+        "price": 30000,
+        "structure": "dungeons_arise:coliseum",
+        "max_uses": 1,
+        "villager_experience": 500
+      },
+      {
+        "type": "numismatic-overhaul:sell_map",
+        "price": 15000,
+        "structure": "dnl:sinkhole",
+        "max_uses": 1,
+        "villager_experience": 500
+      },
+      {
+        "type": "numismatic-overhaul:sell_map",
+        "price": 18000,
+        "structure": "dnl:temple_of_tears",
+        "max_uses": 1,
+        "villager_experience": 500
+      },
+      {
+        "type": "numismatic-overhaul:sell_map",
+        "price": 25000,
+        "structure": "dungeoncrawl:dungeon",
+        "max_uses": 1,
+        "villager_experience": 500
+      }
     ],
     "master": [
       {
         "type": "numismatic-overhaul:sell_map",
-        "price": 10000,
-        "structure": "dungeons_arise:mushroom_mines",
+        "price": 30000,
+        "structure": "dungeons_arise:infested_temple",
         "max_uses": 1,
-        "villager_experience": 15
+        "villager_experience": 500
       },
       {
         "type": "numismatic-overhaul:sell_map",
-        "price": 10000,
-        "structure": "dungeons_arise:coliseum",
-        "max_uses": 1,
-        "villager_experience": 15
-      },
-      {
-        "type": "numismatic-overhaul:sell_map",
-        "price": 10000,
+        "price": 50000,
         "structure": "dungeons_arise:shiraz_palace",
         "max_uses": 1,
-        "villager_experience": 15
+        "villager_experience": 500
       },
       {
         "type": "numismatic-overhaul:sell_map",
-        "price": 10000,
+        "price": 50000,
         "structure": "dungeons_arise:thornborn_towers",
         "max_uses": 1,
-        "villager_experience": 15
+        "villager_experience": 500
       },
       {
         "type": "numismatic-overhaul:sell_map",
-        "price": 10000,
+        "price": 50000,
         "structure": "dungeons_arise:foundry",
         "max_uses": 1,
-        "villager_experience": 15
+        "villager_experience": 500
       },
       {
         "type": "numismatic-overhaul:sell_map",
-        "price": 10000,
+        "price": 30000,
         "structure": "dungeons_arise:plague_asylum",
         "max_uses": 1,
-        "villager_experience": 15
+        "villager_experience": 500
       },
       {
         "type": "numismatic-overhaul:sell_map",
-        "price": 10000,
+        "price": 50000,
         "structure": "dungeons_arise:scorched_mines",
         "max_uses": 1,
-        "villager_experience": 15
+        "villager_experience": 500
       },
       {
         "type": "numismatic-overhaul:sell_map",
-        "price": 10000,
+        "price": 50000,
         "structure": "dungeons_arise:heavenly_challenger",
         "max_uses": 1,
-        "villager_experience": 15
+        "villager_experience": 500
       },
-       {
-      "type": "numismatic-overhaul:sell_map",
-      "price": 20000,
-      "structure": "dungeons_arise:typhon",
-      "max_uses": 1,
-      "villager_experience": 25
-    },
-    {
-      "type": "numismatic-overhaul:sell_map",
-      "price": 20000,
-      "structure": "dungeons_arise:ceryneian_hind",
-      "max_uses": 1,
-      "villager_experience": 25
-    },
-    {
-      "type": "numismatic-overhaul:sell_map",
-      "price": 15000,
-      "structure": "dungeons_arise:illager_corsair",
-      "max_uses": 1,
-      "villager_experience": 20
-    },
-    {
-      "type": "numismatic-overhaul:sell_map",
-      "price": 15000,
-      "structure": "dungeons_arise:illager_galley",
-      "max_uses": 1,
-      "villager_experience": 20
-    },
-    {
-      "type": "numismatic-overhaul:sell_map",
-      "price": 15000,
-      "structure": "dungeons_arise:keep_kayra",
-      "max_uses": 1,
-      "villager_experience": 20
-    },
-    {
-      "type": "numismatic-overhaul:sell_map",
-      "price": 15000,
-      "structure": "dungeons_arise:aviary",
-      "max_uses": 1,
-      "villager_experience": 20
-    },
-    {
-      "type": "numismatic-overhaul:sell_map",
-      "price": 15000,
-      "structure": "dungeons_arise:bandit_towers",
-      "max_uses": 1,
-      "villager_experience": 20
-    },
-    {
-      "type": "numismatic-overhaul:sell_map",
-      "price": 15000,
-      "structure": "dungeons_arise:bathhouse",
-      "max_uses": 1,
-      "villager_experience": 20
-    }
+      {
+        "type": "numismatic-overhaul:sell_map",
+        "price": 50000,
+        "structure": "dungeons_arise:aviary",
+        "max_uses": 1,
+        "villager_experience": 500
+      },
+      {
+        "type": "numismatic-overhaul:sell_map",
+        "price": 50000,
+        "structure": "dungeons_arise:bandit_towers",
+        "max_uses": 1,
+        "villager_experience": 500
+      }, 
+      {
+        "type": "numismatic-overhaul:sell_map",
+        "price": 50000,
+        "structure": "dnl:olympus",
+        "max_uses": 1,
+        "villager_experience": 500
+      }
     ]
   }
 }

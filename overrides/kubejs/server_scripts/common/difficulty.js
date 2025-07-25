@@ -11,7 +11,7 @@ onEvent('entity.hurt', event => {
 	let damage = event.getDamage()
 	let entity = event.getSource().getImmediate()
    
-	//event.server.runCommand(`say ${target.maxHealth - target.health}`)
+	//event.server.runCommand(`say ${target.type}`)
 	
 	if (target.player) {
 		let offItem = target.getHeldItem(OFF_HAND).id
