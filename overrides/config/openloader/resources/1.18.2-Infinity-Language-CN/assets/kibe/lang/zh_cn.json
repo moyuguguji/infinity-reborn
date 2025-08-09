@@ -67,5 +67,6 @@
   "screen.kibe.basalt_generator_mk4": "玄武岩刷石机 MK4",
   "screen.kibe.basalt_generator_mk5": "玄武岩刷石机 MK5",
 
-  "fluid.kibe.liquid_xp": "液体经验"
+  "fluid.kibe.liquid_xp": "液体经验",
+  "item.kibe.liquid_xp_bucket": "液体经验桶"
 }

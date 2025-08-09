@@ -783,7 +783,7 @@ onEvent('recipes', event => {
 		type: 'alloy_forgery:forging',
 		'inputs': [{
 			"item": 'minecraft:netherite_ingot',
-			"count": 1
+			"count": 2
 		},
 		{
 			"item": 'purpeille:preserved_dust',
@@ -796,12 +796,12 @@ onEvent('recipes', event => {
 	],
 		'output': {
 			'id': 'purpeille:purpeille_ingot',
-			'count': 1
+			'count': 2
 		},
 		'overrides': {
 			"5+": {
 				"id": 'purpeille:purpeille_ingot',
-				"count": 2
+				"count": 4
 			}
 		},
 		'min_forge_tier': 4,
@@ -813,7 +813,7 @@ onEvent('recipes', event => {
 		'inputs': [
 		{
 			"item": 'numismatic-overhaul:gold_coin',
-			"count": 2
+			"count": 1
 		},
 		{
 			"item": 'mythicmetals:hallowed_nugget',
@@ -824,7 +824,119 @@ onEvent('recipes', event => {
 			'id': 'kubejs:gold_coin',
 			'count': 1
 		},
+		'overrides': {
+			"3+": {
+				"id": 'kubejs:gold_coin',
+				"count": 2
+			},
+			"5+": {
+				"id": 'kubejs:gold_coin',
+				"count": 4
+			}
+		},
 		'min_forge_tier': 2,
 		'fuel_per_tick': 50
+	})
+
+	event.custom({
+		type: 'alloy_forgery:forging',
+		'inputs': [
+		{
+			"item": 'mythicmetals:platinum_ingot',
+			"count": 1
+		},
+		{
+			"item": 'minecraft:amethyst_shard',
+			"count": 4
+		}
+	    ],
+		'output': {
+			'id': 'mythicmetals:kyber_ingot',
+			'count': 1
+		},
+		'overrides': {
+			"3+": {
+				"id": 'mythicmetals:kyber_ingot',
+				"count": 2
+			},
+			"4+": {
+				"id": 'mythicmetals:kyber_ingot',
+				"count": 4
+			},
+			"5+": {
+				"id": 'mythicmetals:kyber_ingot',
+				"count": 6
+			}
+		},
+		'min_forge_tier': 1,
+		'fuel_per_tick': 20
+	})
+
+	event.custom({
+		type: 'alloy_forgery:forging',
+		'inputs': [
+		{
+			"item": 'mythicmetals:platinum_ore',
+			"count": 1
+		},
+		{
+			"item": 'minecraft:amethyst_shard',
+			"count": 4
+		}
+	    ],
+		'output': {
+			'id': 'mythicmetals:calcite_kyber_ore',
+			'count': 1
+		},
+		'overrides': {
+			"3+": {
+				"id": 'mythicmetals:calcite_kyber_ore',
+				"count": 2
+			},
+			"4+": {
+				"id": 'mythicmetals:calcite_kyber_ore',
+				"count": 4
+			},
+			"5+": {
+				"id": 'mythicmetals:calcite_kyber_ore',
+				"count": 6
+			}
+		},
+		'min_forge_tier': 1,
+		'fuel_per_tick': 20
+	})
+
+	event.custom({
+		type: 'alloy_forgery:forging',
+		'inputs': [
+		{
+			"item": 'mythicmetals:raw_platinum',
+			"count": 1
+		},
+		{
+			"item": 'minecraft:amethyst_shard',
+			"count": 4
+		}
+	    ],
+		'output': {
+			'id': 'mythicmetals:raw_kyber',
+			'count': 1
+		},
+		'overrides': {
+			"3+": {
+				"id": 'mythicmetals:raw_kyber',
+				"count": 2
+			},
+			"4+": {
+				"id": 'mythicmetals:raw_kyber',
+				"count": 4
+			},
+			"5+": {
+				"id": 'mythicmetals:raw_kyber',
+				"count": 6
+			}
+		},
+		'min_forge_tier': 1,
+		'fuel_per_tick': 20
 	})
 })

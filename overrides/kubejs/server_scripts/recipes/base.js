@@ -1,4 +1,14 @@
 onEvent('recipes', event => {
+	function primordial(item,input) {
+		event.shaped(item, [
+		' B ',
+		'BAB',
+		' B '
+	], {
+		A: input,
+		B: 'kubejs:primordial_shard'
+	})
+	}
 	event.shapeless('minecraft:flint', ['minecraft:gravel', 'minecraft:gravel', 'minecraft:gravel']) //燧石
 	event.shapeless('kibe:angel_ring', ['ringsofascension:ring_flight'])
 	event.shapeless('9x minecraft:nether_wart', ['minecraft:nether_wart_block'])
@@ -7,6 +17,8 @@ onEvent('recipes', event => {
 	event.shapeless('4x spectrum:citrine_shard', ['spectrum:citrine_block'])
 	event.shapeless('kubejs:jiushu_heart', ['4x kubejs:jiushu_heart_shard'])
 	event.shapeless('kubejs:jiushu_heart_shard', ['9x #c:crops'])
+	event.shapeless('xps:xp_bucket', ['kibe:liquid_xp_bucket'])
+	event.shapeless('kibe:liquid_xp_bucket', ['xps:xp_bucket'])
 	event.shapeless(Item.of('kibe:tank', '{BlockEntityTag:{amount:1296000L,variant:{fluid:"kibe:liquid_xp"}}}'), [Item.of('kibe:tank', '{BlockEntityTag:{amount:1296000L,variant:{fluid:"xps:xp_fluid"}}}')])
 	event.shapeless(Item.of('kibe:tank', '{BlockEntityTag:{amount:1296000L,variant:{fluid:"xps:xp_fluid"}}}'), [Item.of('kibe:tank', '{BlockEntityTag:{amount:1296000L,variant:{fluid:"kibe:liquid_xp"}}}')])
 	//event.smithing(Item.of('kubejs:infinity_sword').withNBT('{Unbreakable:1}') ,'kubejs:infinity_sword_a', 'kubejs:infinity_sword_b')
@@ -141,6 +153,18 @@ onEvent('recipes', event => {
 
 	multiSmelt('minecraft:netherite_scrap', 'treeaxe:netherite_treeaxe', true)
 
+	primordial('kubejs:primordial_ruoshui','mythicmetals:aquarium_pearl')
+	primordial('kubejs:primordial_yecao','gobber2:gobber2_staff_farmer')
+	primordial('kubejs:primordial_stone','adventurez:source_stone')
+	event.shaped('kubejs:primordial_qixing', [
+		'ABA',
+		'BCB',
+		'ABA'
+	], {
+		A: '#spectrum:shooting_stars',
+		B: 'kubejs:primordial_shard',
+		C: 'minecraft:nether_star'
+	})
 	event.shaped('morevillagers:purpur_altar', [
 		'ADA',
 		'BCB',

@@ -787,6 +787,56 @@ onEvent("lootjs", (event) => {
         .removeLoot('#spectrum:gemstone_buds')
         .removeLoot('#spectrum:pigments')
 
+        let primordial =["dungeons_arise:chests/bandit_towers/bandit_towers_treasure","dungeons_arise:chests/aviary/aviary_treasure","dungeons_arise:chests/aviary/aviary_normal","dungeons_arise:chests/heavenly_challenger/heavenly_challenger_supply","dungeons_arise:chests/heavenly_challenger/heavenly_challenger_treasure","dungeons_arise:chests/scorched_mines/scorched_mines_treasure","dungeons_arise:chests/plague_asylum/plague_asylum_treasure","dungeons_arise:chests/foundry/foundry_treasure","dungeons_arise:chests/thornborn_towers/thornborn_towers_top_treasure","dungeons_arise:chests/shiraz_palace/shiraz_palace_treasure","dungeons_arise:chests/shiraz_palace/shiraz_palace_elite","dungeons_arise:chests/infested_temple/infested_temple_top_treasure","dnl:structures/olympus/chests/common","dnl:structures/olympus/mobs/lord_of_olympus"]
+        primordial.forEach(element => {
+        event
+        .addLootTableModifier(element)
+        .randomChance(0.01)
+        .addLoot('kubejs:primordial_shard')
+        });
+
+        event
+        .addLootTableModifier("dungeons_arise:chests/infested_temple/infested_temple_top_treasure")
+        .randomChance(0.6) // 战利品表条件：添加掉落概率
+        .addWeightedLoot([5, 14], [
+            Item.of('mythicmetals:mythril_ingot').withChance(10),//秘银
+            Item.of('mythicmetals:quadrillum_ingot').withChance(50),//四层
+            Item.of('kubejs:crystal_tiered').withChance(50),//神铸
+            Item.of('mythicmetals:orichalcum_ingot').withChance(10),//山铜
+            Item.of('kubejs:ametrine_crystal').withChance(50),//紫金
+            Item.of('mythicmetals:carmot_ingot').withChance(15),//耀金
+            Item.of('numismatic-overhaul:money_bag', '{Combined:1b,Values:[L;0L,30L,0L]}')//钱
+        ])
+
+        event
+        .addLootTableModifier("dnl:structures/olympus/chests/common")
+        .randomChance(0.75) // 战利品表条件：添加掉落概率
+        .addWeightedLoot([8, 18], [
+            Item.of('mythicmetals:mythril_ingot').withChance(25),//秘银
+            Item.of('mythicmetals:quadrillum_ingot').withChance(55),//四层
+            Item.of('kubejs:crystal_tiered').withChance(50),//神铸
+            Item.of('mythicmetals:orichalcum_ingot').withChance(25),//山铜
+            Item.of('kubejs:ametrine_crystal').withChance(50),//紫金
+            Item.of('mythicmetals:carmot_ingot').withChance(25),//耀金
+            Item.of('mythicmetals:adamantite_ingot').withChance(20),//精金
+            Item.of('mythicmetals:kyber_ingot').withChance(5),//凯伯
+            Item.of('numismatic-overhaul:money_bag', '{Combined:1b,Values:[L;0L,40L,0L]}')//钱
+        ])
+
+        event
+        .addLootTableModifier("dnl:structures/olympus/mobs/lord_of_olympus")
+        .randomChance(1.0) // 战利品表条件：添加掉落概率
+        .addWeightedLoot([10, 25], [
+            Item.of('mythicmetals:mythril_ingot').withChance(30),//秘银
+            Item.of('kubejs:crystal_tiered').withChance(50),//神铸
+            Item.of('mythicmetals:orichalcum_ingot').withChance(30),//山铜
+            Item.of('kubejs:ametrine_crystal').withChance(50),//紫金
+            Item.of('mythicmetals:carmot_ingot').withChance(30),//耀金
+            Item.of('mythicmetals:adamantite_ingot').withChance(25),//精金
+            Item.of('mythicmetals:kyber_ingot').withChance(10),//凯伯
+            Item.of('numismatic-overhaul:money_bag', '{Combined:1b,Values:[L;0L,30L,1L]}')//钱
+        ])
+
         event
         .addLootTableModifier("dungeoncrawl:chests/stage_1")
         .randomChance(0.25) // 战利品表条件：添加掉落概率
@@ -850,6 +900,17 @@ onEvent("lootjs", (event) => {
             Item.of('mythicmetals:kyber_ingot').withChance(10),//凯伯
             Item.of('numismatic-overhaul:money_bag', '{Combined:1b,Values:[L;0L,50L,0L]}')//钱
         ])
+
+    event
+        .addLootTableModifier("dungeoncrawl:chests/stage_5")
+        .randomChance(0.01)
+        .addLoot('kubejs:primordial_shard')
+
+    event
+        .addLootTableModifier("minecraft:chests/end_city_treasure")
+        .randomChance(0.01)
+        .addLoot('kubejs:primordial_shard')
+
         event
         .addLootTableModifier("minecraft:chests/end_city_treasure")
         .randomChance(0.5) // 战利品表条件：添加掉落概率

@@ -101,6 +101,7 @@ onEvent('recipes', event =>{
     event.remove({output: 'kibe:diamond_spikes'})
     
     event.smelting('betteranimalsplus:fried_egg'/* 输出物品 */, '#forge:eggs'/* 输入物品 */)
+    event.smelting('xps:xp_dust'/* 输出物品 */, 'minecraft:enchanted_book'/* 输入物品 */)
 })
 
 
