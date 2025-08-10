@@ -320,7 +320,7 @@ const rightClickEventMainHand = {
 				Item.of('mcda:spelunker_armor_chestplate'),
 				Item.of('mcda:spelunker_armor_leggings'),
 				Item.of('mcda:spelunker_armor_boots'),
-				Item.of('inmis:frayed_backpack', '{Inventory:[{Slot:0,Stack:{Count:1b,id:"toms_storage:ts.inventory_connector"}},{Slot:1,Stack:{Count:1b,id:"toms_storage:ts.crafting_terminal"}},{Slot:2,Stack:{Count:3b,id:"expandedstorage:diamond_barrel"}},{Slot:3,Stack:{Count:1b,id:"mcdw:sword_iron_sword_var",tag:{Damage:0,swa3:{}}}},{Slot:4,Stack:{Count:16b,id:"things:recall_potion"}},{Slot:5,Stack:{Count:1b,id:"things:socks",tag:{}}},{Slot:6,Stack:{Count:1b,id:"waystones:warp_stone",tag:{Damage:0}}},{Slot:7,Stack:{Count:1b,id:"extraalchemy:potion_bag",tag:{}}},{Slot:8,Stack:{Count:8b,id:"minecraft:golden_apple"}}]}')
+				Item.of('inmis:bejeweled_backpack', '{Inventory:[{Slot:0,Stack:{Count:1b,id:"toms_storage:ts.inventory_connector"}},{Slot:1,Stack:{Count:1b,id:"toms_storage:ts.crafting_terminal"}},{Slot:2,Stack:{Count:3b,id:"expandedstorage:diamond_barrel"}},{Slot:3,Stack:{Count:1b,id:"mcdw:sword_iron_sword_var",tag:{Damage:0,swa3:{}}}},{Slot:4,Stack:{Count:16b,id:"things:recall_potion"}},{Slot:5,Stack:{Count:1b,id:"things:socks",tag:{}}},{Slot:6,Stack:{Count:1b,id:"waystones:warp_stone",tag:{Damage:0}}},{Slot:7,Stack:{Count:1b,id:"extraalchemy:potion_bag",tag:{}}},{Slot:8,Stack:{Count:8b,id:"minecraft:golden_apple"}}]}')
 			]
 			for (let index = 0; index < yonghen.length; index++) {
 				player.give(yonghen[index])

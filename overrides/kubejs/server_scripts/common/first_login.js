@@ -11,6 +11,7 @@ onEvent('player.logged_in', event => {
 	event.player.give(Item.of('2x kubejs:firecracker'))
 	event.player.give(Item.of('5x kubejs:red_packet'))
 	event.player.give(Item.of('10x kubejs:shi_lian'))
+	event.player.give(Item.of('nomadbooks:nomad_book', '{nomadbooks:{Height:3,InkGoal:8,InkProgress:0,Inked:1b,Structure:"nomadbooks:campfire3x1x3",VisitedBiomes:["Reference{ResourceKey[minecraft:worldgen/biome / minecraft:cold_ocean]=net.minecraft.class_1959@65fbb5f5}"],Width:3}}'))
 	event.player.give("kubejs:starter_bag")
 	event.player.give('dankstorage:dank_3')
 	event.server.runCommandSilent(`scoreboard players set choice nether 1`)
@@ -23,7 +24,7 @@ onEvent('player.logged_in', event => {
 	})
 	let playerName = event.player.profile.name
 
-	if (exclItemList[playerName]) {
+	if (exclItemList[playerName] && playerName!=null) {
 		exclItemList[playerName].forEach(item => {
 			event.player.give(item)
 		})
