@@ -95,6 +95,7 @@ onEvent('recipes', event =>{
     event.remove({output: 'purpeille:purpeille_ingot'})
     event.remove({output: 'purpeille:ancient_mechanical_bricks'})
     event.remove({output: 'purpeille:smoldered_purpeille_ingot'})
+    event.remove({output: 'purpeille:ultraviolet_prism'})
 
     event.remove({output: 'kibe:stone_spikes'})
     event.remove({output: 'kibe:gold_spikes'})

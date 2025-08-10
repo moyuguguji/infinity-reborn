@@ -339,6 +339,15 @@ onEvent('recipes', event => {
 		A: 'minecraft:compass',
 		B: 'the_bumblezone:pollen_puff',
 	})
+
+	event.shaped('victus:emerald_heart_aspect', [
+		'BBB',
+		'BAB',
+		'BBB'
+	], {
+		A: 'victus:blank_heart_aspect',
+		B: 'minecraft:emerald_block',
+	}).id('victus:emerald_heart_aspect')
 	event.shaped('terrarianslimes:slime_crown', [
 		' A ',
 		'CBC',
@@ -411,7 +420,7 @@ onEvent('recipes', event => {
 		'BCB',
 		'ABA'
 	], {
-		A: 'mythicmetals:adamantite_ingot',
+		A: 'mythicmetals:adamantite_nugget',
 		B: 'minecraft:gold_ingot',
 		C: 'minecraft:redstone_block'
 	})
@@ -453,6 +462,17 @@ onEvent('recipes', event => {
 		A: 'gobber2:gobber2_foo_end',
 		B: 'kubejs:coal_singularity',
 	}).keepIngredient('kubejs:coal_singularity')
+
+	event.shaped('kubejs:whip', [
+		'  C',
+		'BAD',
+		'ABD'
+	], {
+		A: 'minecraft:stick',
+		B: 'minecraft:iron_ingot',
+		C: 'minecraft:leather',
+		D: 'minecraft:string'
+	})
 
 	event.smithing('spikyspikes:netherite_spike',Item.of('spikyspikes:diamond_spike').ignoreNBT(),'minecraft:netherite_ingot').id('spikyspikes:netherite_spike')
 })

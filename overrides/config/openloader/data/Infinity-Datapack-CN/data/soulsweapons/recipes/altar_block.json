@@ -1,19 +1,19 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " D ",
+        "ADA",
         "OSO",
-        "I#I"
+        "III"
     ],
     "key": {
-        "#": {
-            "item": "mythicmetals:unobtainium_block"
-        },
         "I": {
-            "item": "mythicmetals:durasteel_anvil"
+            "item": "minecraft:crying_obsidian"
+        },
+        "A": {
+            "item": "minecraft:black_candle"
         },
         "S": {
-            "item": "soulsweapons:lord_soul_rose"
+            "item": "minecraft:wither_skeleton_skull"
         },
         "D": {
             "item": "soulsweapons:verglas"

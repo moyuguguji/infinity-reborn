@@ -7,12 +7,12 @@
         "type": "patchouli:spotlight",
         "item": "minecraft:anvil",
         "link_recipe": true,
-        "text": "在铁砧和植魔附魔台上可能会出现诅咒,附魔次数越多概率越高$(br)诅咒不会直接显示,shift或者提炼成附魔书可以看见,受诅咒的物品名字会变红"
+        "text": "诅咒不会直接显示,shift或者提炼成附魔书可以看见,受诅咒的物品名字会变红"
       },
       {
         "type": "patchouli:spotlight",
         "item": "minecraft:enchanted_book{Enchantments: [{id: \"x_enchant:remove_cursed\", lvl: 1s}]}",
-        "text":"物品在铁砧上用诅咒杀手可以消除一个诅咒,附魔书不行$(br)注意:这是有概率再次出诅咒的"
+        "text":"物品在铁砧上用诅咒杀手可以消除一个诅咒,附魔书不行"
       }
     ]
   }

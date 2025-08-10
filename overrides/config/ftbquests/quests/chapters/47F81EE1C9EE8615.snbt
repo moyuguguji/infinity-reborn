@@ -195,38 +195,23 @@
 			can_repeat: true
 			id: "1E65B98B6DD68122"
 			tasks: [{
-				id: "6AD0EE89F28314B7"
+				id: "20C114105140B135"
 				type: "item"
 				item: {
-					id: "numismatic-overhaul:gold_coin"
+					id: "numismatic-overhaul:silver_coin"
 					Count: 1b
 					tag: { }
 				}
+				count: 30L
 				consume_items: true
 			}]
-			rewards: [
-				{
-					id: "0AD97BB986FA0F33"
-					type: "choice"
-					icon: "toms_storage:ts.inventory_connector"
-					exclude_from_claim_all: true
-					table_id: 1893349678764882747L
-				}
-				{
-					id: "13913A3B68160EB4"
-					type: "choice"
-					icon: "minecraft:barrel"
-					exclude_from_claim_all: true
-					table_id: 1893349678764882747L
-				}
-				{
-					id: "39D382366791A930"
-					type: "choice"
-					icon: "toms_storage:ts.crafting_terminal"
-					exclude_from_claim_all: true
-					table_id: 1893349678764882747L
-				}
-			]
+			rewards: [{
+				id: "0AD97BB986FA0F33"
+				type: "choice"
+				icon: "toms_storage:ts.inventory_connector"
+				exclude_from_claim_all: true
+				table_id: 1893349678764882747L
+			}]
 		}
 		{
 			title: "{chapter.25.quest.5.title}"
@@ -396,7 +381,6 @@
 			x: -0.75d
 			y: 3.75d
 			shape: "square"
-			subtitle: "{chapter.25.quest.10.subtitle}"
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			size: 1.5d
@@ -640,6 +624,60 @@
 					tag: {
 						mana: 100000000
 						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "大范围游牧之书"
+			icon: {
+				id: "nomadbooks:nomad_book"
+				Count: 1b
+				tag: {
+					nomadbooks: {
+						Upgrades: ["fungi_support"]
+						Height: 13
+						Structure: "nomadbooks:campfire3x1x3"
+						Width: 13
+					}
+				}
+			}
+			disable_toast: true
+			x: -0.75d
+			y: 5.25d
+			subtitle: "可以用来收纳大型结构"
+			description: ["shift右键可以显示范围大小"]
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			size: 1.5d
+			can_repeat: true
+			id: "7FCE7142B7396E9D"
+			tasks: [{
+				id: "7F8817C235BF465B"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:gold_coin"
+					Count: 1b
+					tag: { }
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "721606E56ADE9864"
+				type: "item"
+				item: {
+					id: "nomadbooks:nomad_book"
+					Count: 1b
+					tag: {
+						nomadbooks: {
+							Upgrades: [
+								"fungi_support"
+								"aquatic_membrane"
+							]
+							Height: 8
+							Structure: "nomadbooks:campfire3x1x3"
+							Width: 13
+						}
 					}
 				}
 			}]

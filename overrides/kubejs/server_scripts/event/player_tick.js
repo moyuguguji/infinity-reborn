@@ -15,15 +15,6 @@ const playerTickEventMainHand = {
 	'kubejs:kreska': function(event) {
 		event.player.potionEffects.add("extraalchemy:detection", 25, 1, false, false)
 	},
-	'kubejs:infinity_sword': function(event) {
-		event.player.potionEffects.add("minecraft:resistance", 25, 4, false, false)
-	},
-	'kubejs:infinity_sword_a': function(event) {
-		event.player.potionEffects.add("minecraft:resistance", 25, 4, false, false)
-	},
-	'kubejs:infinity_sword_b': function(event) {
-		event.player.potionEffects.add('minecraft:instant_damage', 25, 0, false, false)
-	},
 	'kubejs:yecao_sword': function(event) {
 		let player = event.player
 		player.potionEffects.add('minecraft:fire_resistance', 25, 0, false, false)

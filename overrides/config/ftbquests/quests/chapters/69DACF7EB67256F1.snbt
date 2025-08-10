@@ -272,6 +272,18 @@
 				item: "kubejs:gold_coin"
 			}]
 		}
+		{
+			x: 4.0d
+			y: -2.5d
+			subtitle: "用于神器的专属品质制作"
+			dependencies: ["4E9D4C3243DC06D1"]
+			id: "690F8E8726A59E73"
+			tasks: [{
+				id: "296441C95DB03D43"
+				type: "item"
+				item: "kubejs:primordial_shard"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

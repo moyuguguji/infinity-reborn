@@ -660,10 +660,16 @@
 							swa3: { }
 							Unbreakable: 1b
 							HideFlags: 1
-							Enchantments: [{
-								lvl: 1
-								id: "extra_enchantments:incompatibility_curse"
-							}]
+							Enchantments: [
+								{
+									lvl: 1
+									id: "extra_enchantments:incompatibility_curse"
+								}
+								{
+									lvl: 10
+									id: "gobber2:smithblade"
+								}
+							]
 							display: {
 								Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"color\":\"gold\",\"text\":\"   锋利无比,坚不可摧\"}],\"text\":\"\"}"]
 								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"bold\":true,\"text\":\"给你的礼物\"}],\"text\":\"\"}"

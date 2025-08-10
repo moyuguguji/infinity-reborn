@@ -37,6 +37,13 @@ onEvent('entity.hurt', event => {
     let damage= event.getDamage()
     let mainItem
     let offItem
+    if (target.player) {
+        mainItem = target.getHeldItem(MAIN_HAND)
+        offItem = target.getHeldItem(OFF_HAND)
+        if (mainItem == 'kubejs:infinity_sword') {
+           event.cancel()
+        }
+    }
     if (player != null) {
         mainItem = player.getHeldItem(MAIN_HAND)
         offItem = player.getHeldItem(OFF_HAND)

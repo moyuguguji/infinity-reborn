@@ -140,8 +140,8 @@
 			}
 			x: 0.0d
 			y: -2.5d
-			subtitle: "如果你不想动一点光谱又想做无限剑的选择(冒险宝宝专供!)"
-			description: ["因为没有配方，所以只能ftb合成了"]
+			subtitle: "如果你不想动一点光谱又想做无限剑的选择(还剩一次!)"
+			description: ["由于没有配方,只能让任务充当合成台了()"]
 			dependencies: ["027AAA6A3553F7DB"]
 			hide: true
 			id: "6EB0899AF4B4F93A"
@@ -177,18 +177,6 @@
 					consume_items: true
 				}
 				{
-					id: "2A23A1E78634C21D"
-					type: "item"
-					item: {
-						id: "gobber2:gobber2_sword_end"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					consume_items: true
-				}
-				{
 					id: "7627BD252CD1C562"
 					type: "item"
 					item: "kubejs:sheng_jin"
@@ -211,6 +199,13 @@
 					id: "1ECEDEA14325B8EA"
 					type: "item"
 					item: "adventurez:stone_golem_heart"
+					consume_items: true
+				}
+				{
+					id: "1D7D20EFD588464D"
+					type: "item"
+					item: "mcda:glut_charm"
+					count: 2L
 					consume_items: true
 				}
 			]

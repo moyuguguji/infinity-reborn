@@ -900,24 +900,21 @@
 			}]
 		}
 		{
-			title: "{chapter.8.quest.34.title}"
-			icon: "minecraft:emerald"
+			title: "关于跑图"
+			icon: "minecraft:filled_map"
 			x: -7.0d
 			y: 2.0d
-			subtitle: "{chapter.8.quest.34.subtitle}"
-			description: ["{chapter.8.quest.34.description.1}"]
+			subtitle: "同一个村民卖的地图是同样的"
+			description: [
+				"你可以跟制图师交易结构地图,配置较差可能会卡顿较久"
+				"如果你不会或者不想看地图,可以把地图拿主手输入/kubejs hand指令,x和z后面的数字就是坐标点"
+			]
 			dependencies: ["2F0DF9C52403D984"]
-			optional: true
-			id: "6DF5ACDDAA1B087C"
+			id: "1103F2F0E787154A"
 			tasks: [{
-				id: "1CDA9DAA9A416786"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "6D411C9F1F6A670B"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 3342768205198891787L
+				id: "72EF77F4265E0560"
+				type: "item"
+				item: "minecraft:cartography_table"
 			}]
 		}
 	]

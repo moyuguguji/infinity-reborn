@@ -473,6 +473,7 @@
 		{
 			x: 2.0d
 			y: 10.0d
+			subtitle: "你需要获得竹子来解锁配方"
 			description: ["{chapter.19.quest.24.description.1}"]
 			id: "0EDDF9E0B7569322"
 			tasks: [{
@@ -1049,7 +1050,10 @@
 			x: 9.0d
 			y: 4.0d
 			subtitle: "新月锤(并不)"
-			description: ["潜行右键取下管道,右键可以将组件卸下"]
+			description: [
+				"潜行右键取下管道,右键可以将组件卸下"
+				"详细使用方法可以查看无限之书"
+			]
 			id: "5CC8D2A1F4AAF533"
 			tasks: [{
 				id: "17A1C2D4E78C3156"
@@ -1094,6 +1098,46 @@
 				id: "505B1AA725169936"
 				type: "item"
 				item: "moderndynamics:attractor"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 10.0d
+			subtitle: "好用的多功能工具"
+			description: ["shift右键可以打开升级界面"]
+			id: "051A5D23A86ABA2F"
+			tasks: [{
+				id: "4DB0A911A9105274"
+				type: "item"
+				item: {
+					id: "piercingpaxels:netherite_paxel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 10.0d
+			dependencies: ["051A5D23A86ABA2F"]
+			id: "204E9A0CF20B9F39"
+			tasks: [{
+				id: "7DF1B21A74D0E628"
+				type: "item"
+				item: "piercingpaxels:upgrade_unbreakable"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 9.0d
+			dependencies: ["051A5D23A86ABA2F"]
+			id: "4F549967913CAF0C"
+			tasks: [{
+				id: "13E404079EF4B8CF"
+				type: "item"
+				item: "piercingpaxels:passive_smelt"
 			}]
 		}
 	]

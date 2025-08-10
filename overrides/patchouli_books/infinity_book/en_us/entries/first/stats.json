@@ -1,0 +1,14 @@
+{
+  "name": "更好的统计信息",
+  "icon": "minecraft:writable_book",
+  "category": "patchouli:first",
+  "pages": [
+    {
+      "type":"patchouli:text",
+      "text":"现在ESC内的统计信息更好了,你可以用来查看你缺少的东西(比如种子和菜收集)"
+    },
+    {
+      "type": "patchouli:empty"
+    }
+  ]
+}

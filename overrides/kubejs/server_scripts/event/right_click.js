@@ -54,27 +54,8 @@ const rightClickEventInHand = {
 	},
 	'kubejs:x_nuohua': function(event) {
 		let player = event.player
-		switch (randomNum(1, 10)) {
-			case 1:
-				player.give('spectrum:shooting_star_colorful')
-				break;
-			case 2:
-				player.give('spectrum:shooting_star_glistering')
-				break;
-			case 3:
-				player.give('spectrum:shooting_star_fiery')
-				break;
-			case 4:
-				player.give('spectrum:shooting_star_pristine')
-				break;
-			case 5:
-				player.give('spectrum:shooting_star_gemstone')
-				break;
-			default:
-				player.give('5x spectrum:shooting_star')
-				break;
-		}
-		player.addItemCooldown('kubejs:x_nuohua', 2400)
+		event.server.runCommandSilent(`spectrum_spawn_shooting_star ${player}`)
+		player.addItemCooldown('kubejs:x_nuohua', 6000)
 	},
 	'kubejs:lce_tang': function(event) {
 		let player = event.player

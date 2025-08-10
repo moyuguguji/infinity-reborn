@@ -1,0 +1,51 @@
+{
+    "name": "游牧之书",
+    "icon": "nomadbooks:nomad_book",
+    "category": "patchouli:item",
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "recipe": "nomadbooks:craft_nomad_book",
+            "text": "基础的游牧之书,可以用来收纳建筑做到随身携带$(br)右键一块空间足够的位置来放置游牧之书,放置状态下shift右键可以显示范围大小$(br)与草原之页合成可以增加高度$(br)与恶魂之泪,木炭,蓝色染料合成可以获得流浪墨水来提高宽度$(br)每完成一次流浪墨水增加2格宽度,完成之后需要再次合成,每次需要的数量增加$(br)每到一个群系流浪墨水的进度+1,单次墨水的群系不可重复"
+        },
+        {
+            "type":"patchouli:multiblock",
+            "multiblock": {
+              "pattern": [ 
+                  ["BBB","B0B","BBB"]
+              ],
+              "mapping": {
+                  "B": "minecraft:lime_carpet",
+                  "0": "minecraft:campfire"
+              },
+              "symmetrical": true
+          },
+            "text":"展开的基础游牧之书"
+          }, 
+          {
+            "type":"patchouli:multiblock",
+            "multiblock": {
+              "pattern": [ 
+                  ["BBB","B0A","BBB"]
+              ],
+              "mapping": {
+                  "A": "toms_storage:ts.crafting_terminal",
+                  "B": "expandedstorage:diamond_barrel",
+                  "0": "toms_storage:ts.inventory_connector"
+              },
+              "symmetrical": true
+          },
+            "text":"一个移动仓库的例子"
+          },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "nomadbooks:aquatic_membrane_page",
+            "text": "与游牧之书合成可以在水中放置"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "nomadbooks:mycelium_page",
+            "text": "与游牧之书合成可以在底部没有方块时放置"
+        }
+    ]
+}

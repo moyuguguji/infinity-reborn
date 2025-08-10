@@ -67,7 +67,7 @@ onEvent('recipes', event => {
         "item": 'soulsweapons:demon_heart',
         "modifiers": [
           {
-           "flat_potency_bonus_negative_effects": 3.5,
+           "flat_potency_bonus_negative_effects": 3.0,
            "additional_random_negative_effect_count": 1.0,
           }
         ]
@@ -87,9 +87,9 @@ onEvent('recipes', event => {
         "item": 'bosses_of_mass_destruction:blazing_eye',
         "modifiers": [
           {
-        "flat_potency_bonus": 1.5,
-        "multiplicative_duration_modifier": 1.5,
-        "multiplicative_potency_modifier": 1.5
+        "flat_potency_bonus": 1.25,
+        "multiplicative_duration_modifier": 1.25,
+        "multiplicative_potency_modifier": 1.25
           }
         ]
       })
@@ -161,7 +161,7 @@ onEvent('recipes', event => {
         "item": 'adventurez:stone_golem_heart',
         "modifiers": [
           {
-           "additional_random_negative_effect_count": 5.0,
+           "additional_random_negative_effect_count": 2.8,
            'additional_random_positive_effect_count': 10.0,
            "flat_potency_bonus": 4.0,
            "negate_decreasing_duration": true,
@@ -177,7 +177,7 @@ onEvent('recipes', event => {
         "modifiers": [
           {
            'additional_random_positive_effect_count': 4.0,
-           "flat_potency_bonus": 1.0,
+           "flat_potency_bonus": 0.7,
           }
         ]
       })

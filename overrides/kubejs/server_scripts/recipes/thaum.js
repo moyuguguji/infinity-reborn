@@ -241,7 +241,7 @@ onEvent('recipes', event => {
       },
       {
         "item": 'kubejs:shenqi_ingot',
-        "count": 2
+        "count": 4
       }
     ],
     "result": {
@@ -285,7 +285,7 @@ onEvent('recipes', event => {
       },
       {
         "item": 'kubejs:shenqi_ingot',
-        "count": 3
+        "count": 5
       }
     ],
     "result": {
@@ -307,10 +307,6 @@ onEvent('recipes', event => {
     "experience": 2500.0,
     "fluid": "minecraft:lava",
     "ingredients": [
-      {
-        "item": 'gobber2:gobber2_sword_end',//太古合金剑
-        "count": 1
-      },
       {
         "item": 'kubejs:sheng_jin',//天体块
         "count": 1
@@ -358,7 +354,7 @@ onEvent('recipes', event => {
         "count": 1
       },
       {
-        "item": 'kibe:cursed_droplets',//闪耀之星
+        "item": 'xps:xp_dust',//闪耀之星
         "count": 1
       },
       {
@@ -839,7 +835,7 @@ onEvent('recipes', event => {
       },
       {
         "item": 'kubejs:shenqi_ingot',
-        "count": 5
+        "count": 8
       }
     ],
     "result": {
@@ -886,7 +882,7 @@ onEvent('recipes', event => {
       },
       {
         "item": 'kubejs:shenqi_ingot',
-        "count": 5
+        "count": 8
       }
     ],
     "result": {
@@ -1015,7 +1011,7 @@ onEvent('recipes', event => {
       },
       {
         "item": 'kubejs:shenqi_ingot',
-        "count": 5
+        "count": 4
       }
     ],
     "result": {
@@ -1099,7 +1095,7 @@ onEvent('recipes', event => {
       },
       {
         "item": 'kubejs:shenqi_ingot',
-        "count": 4
+        "count": 6
       }
     ],
     "result": {
@@ -1142,7 +1138,7 @@ onEvent('recipes', event => {
       },
       {
         "item": 'kubejs:shenqi_ingot',
-        "count": 5
+        "count": 8
       }
     ],
     "result": {

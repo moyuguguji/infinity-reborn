@@ -6,12 +6,12 @@ onEvent('recipes', event => {
 				"count": 1
 			},
 			{
-				"item": "mythicmetals:adamantite_block",
-				"count": 1
+				"item": "mythicmetals:adamantite_ingot",
+				"count": 4
 			},
 			{
 				"item": "twilightforest:fiery_ingot",
-				"count": 8
+				"count": 4
 			},
 		],
 		'output': {
@@ -36,17 +36,18 @@ onEvent('recipes', event => {
 	})
 	event.custom({
 		type: 'alloy_forgery:forging',
-		'inputs': [{
-				"item": "mythicmetals:carmot_nuke_core",
+		'inputs': [
+			{
+				"item": "fabric-furnaces:ethereal_furnace",
+				"count": 1
+			},
+			{
+				"item": "twilightforest:carminite_reactor",
 				"count": 1
 			},
 			{
 				"item": "mythicmetals:starrite",
 				"count": 8
-			},
-			{
-				"item": "fabric-furnaces:ethereal_furnace",
-				"count": 1
 			},
 			{
 				"item": "dragonloot:dragon_scale",
@@ -655,7 +656,7 @@ onEvent('recipes', event => {
 			},
 			{
 				"item": 'mythicmetals:midas_gold_ingot',
-				"count": 20
+				"count": 10
 			},
 			{
 				"item": 'things:gleaming_compound',
@@ -666,8 +667,8 @@ onEvent('recipes', event => {
 				"count": 5
 			},
 			{
-				"item": 'minecraft:netherite_ingot',
-				"count": 5
+				"item": 'purpeille:metallic_lightning',
+				"count": 2
 			},
 			{
 				"item": 'twilightforest:fiery_ingot',
@@ -681,6 +682,12 @@ onEvent('recipes', event => {
 		'output': {
 			'id': 'kubejs:sheng_jin',
 			'count': 1
+		},
+		'overrides': {
+			"5+": {
+				"id": 'kubejs:sheng_jin',
+				"count": 2
+			}
 		},
 		'min_forge_tier': 4,
 		'fuel_per_tick': 1000

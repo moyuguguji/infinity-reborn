@@ -523,6 +523,7 @@
 						"botania:elven_unlock": 1b
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [{
 				id: "7AD054DC29D11B33"

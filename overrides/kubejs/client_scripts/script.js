@@ -31,4 +31,5 @@ onEvent('rei.information', event => {
 	info('mcda:frost_crystal', '冰霜水晶', '挖掘蓝冰概率掉落')
 	info('soulsweapons:chaos_robes','混沌长袍','击杀混沌君主掉落')
 	info('adventurez:prime_eye','黄金之眼','击杀眼球掉落')
+	info('kubejs:primordial_shard','本源碎片','在高级建筑战利品箱内概率获得,如果你不知道什么是高级建筑,制图师满级卖的地图就是高级建筑')
   })

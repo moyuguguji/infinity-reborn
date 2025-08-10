@@ -1237,6 +1237,11 @@
 					item: "spectrum:moonstone_chiseled_calcite"
 					count: 64
 				}
+				{
+					id: "5432138768DA89BE"
+					type: "item"
+					item: "spectrum:moonstone_shard"
+				}
 			]
 		}
 		{
@@ -1959,6 +1964,7 @@
 		{
 			x: -1.5d
 			y: 2.0d
+			subtitle: "你可以在rei里对保护石按r查看在哪层生成多"
 			description: [
 				"{chapter.12.quest.53.description.1}"
 				"{image:kubejs:textures/ftbq/jiyan.png width:180 height:100 align:1}"
@@ -1975,6 +1981,7 @@
 			title: "{chapter.12.quest.54.title}"
 			x: 1.5d
 			y: -2.5d
+			subtitle: "你可以在rei里对保护石按r查看在哪层生成多"
 			description: [
 				"{chapter.12.quest.54.description.1}"
 				"{image:kubejs:textures/ftbq/tiaose.png width:196 height:126 align:1}"

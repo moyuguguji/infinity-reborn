@@ -829,91 +829,82 @@
 					criterion: ""
 				}
 			]
-			rewards: [
-				{
-					id: "3FA955DFAF3F6B90"
-					type: "item"
-					team_reward: false
-					auto: "invisible"
-					item: {
-						id: "dragonloot:dragon_hoe"
-						Count: 1b
-						tag: {
-							swa3: { }
-							HideFlags: 3
-							Enchantments: [
-								{
-									lvl: 1
-									id: "imperishableitems:imperishable"
-								}
-								{
-									lvl: 10
-									id: "charm:collection"
-								}
-								{
-									lvl: 40
-									id: "minecraft:fortune"
-								}
-								{
-									lvl: 1
-									id: "fabricenchantments:replenish"
-								}
-							]
-							display: {
-								Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"dark_red\",\"text\":\"总之他真的很神秘\"}],\"text\":\"\"}"]
-								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"神秘锄\"}],\"text\":\"\"}"
+			rewards: [{
+				id: "3FA955DFAF3F6B90"
+				type: "item"
+				team_reward: false
+				auto: "invisible"
+				item: {
+					id: "dragonloot:dragon_hoe"
+					Count: 1b
+					tag: {
+						swa3: { }
+						HideFlags: 3
+						Enchantments: [
+							{
+								lvl: 1
+								id: "imperishableitems:imperishable"
 							}
-							Damage: 0
-							AttributeModifiers: [
-								{
-									Slot: "mainhand"
-									AttributeName: "arcanus:mana_regen"
-									Operation: 0
-									UUID: [I;
-										877607416
-										-1283831843
-										-2054891866
-										335321575
-									]
-									Amount: 10.0d
-								}
-								{
-									Slot: "mainhand"
-									AttributeName: "playerex:constitution"
-									Operation: 0
-									UUID: [I;
-										-1936703278
-										1103774880
-										-1539563384
-										-166224112
-									]
-									Amount: 10.0d
-								}
-								{
-									Slot: "mainhand"
-									AttributeName: "minecraft:generic.movement_speed"
-									Operation: 1
-									UUID: [I;
-										1097049861
-										-1756870790
-										-1717572730
-										-1318738819
-									]
-									Amount: 1.5d
-								}
-							]
+							{
+								lvl: 10
+								id: "charm:collection"
+							}
+							{
+								lvl: 40
+								id: "minecraft:fortune"
+							}
+							{
+								lvl: 1
+								id: "fabricenchantments:replenish"
+							}
+						]
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"dark_red\",\"text\":\"总之他真的很神秘\"}],\"text\":\"\"}"]
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"神秘锄\"}],\"text\":\"\"}"
 						}
+						Damage: 0
+						AttributeModifiers: [
+							{
+								Slot: "mainhand"
+								AttributeName: "arcanus:mana_regen"
+								Operation: 0
+								UUID: [I;
+									877607416
+									-1283831843
+									-2054891866
+									335321575
+								]
+								Amount: 10.0d
+							}
+							{
+								Slot: "mainhand"
+								AttributeName: "playerex:constitution"
+								Operation: 0
+								UUID: [I;
+									-1936703278
+									1103774880
+									-1539563384
+									-166224112
+								]
+								Amount: 10.0d
+							}
+							{
+								Slot: "mainhand"
+								AttributeName: "minecraft:generic.movement_speed"
+								Operation: 1
+								UUID: [I;
+									1097049861
+									-1756870790
+									-1717572730
+									-1318738819
+								]
+								Amount: 1.5d
+							}
+						]
 					}
-					only_one: true
 				}
-				{
-					id: "634374DFA6824765"
-					type: "item"
-					team_reward: false
-					item: "spectrum:moonstruck_nectar"
-					count: 10
-				}
-			]
+				only_one: true
+			}]
 		}
 		{
 			title: "{chapter.24.quest.14.title}"
@@ -2600,7 +2591,7 @@
 				}
 			]
 			rewards: [{
-				id: "243E82761ED664A5"
+				id: "2F58D2DE151F5862"
 				type: "item"
 				item: {
 					id: "minecraft:golden_axe"
@@ -2632,10 +2623,7 @@
 							}
 						]
 						display: {
-							Lore: [
-								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"传说中金鸢尾兰帝国用来沙头的用具,据说砍了无数史官用来做京观\"}],\"text\":\"\"}"
-								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"dark_purple\",\"text\":\"其上仿佛还能听到史官的哀嚎\"}],\"text\":\"\"}"
-							]
+							Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"传说中金鸢尾兰帝国用来沙头的用具,据说砍了无数史官用来做京观\"}],\"text\":\"\"}"]
 							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"沙头斧\"}],\"text\":\"\"}"
 						}
 						Damage: 0

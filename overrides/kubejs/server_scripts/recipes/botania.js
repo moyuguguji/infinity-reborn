@@ -13,7 +13,7 @@ onEvent('recipes', event => {
 				"item": 'botania:mana_powder'
 			},
 			{
-				"item": 'kibe:cursed_droplets'
+				"item": 'xps:xp_dust'
 			},
 			{
 				"item": 'kubejs:spectral_silt'

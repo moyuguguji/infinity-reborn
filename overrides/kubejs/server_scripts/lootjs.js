@@ -34,7 +34,7 @@ onEvent("lootjs", (event) => {
         .removeLoot("artifacts:vampiric_glove")
     event
         .addEntityLootModifier('twilightforest:harbinger_cube')
-        .randomChance(0.02)
+        .randomChance(1.0)
         .addLoot('twilightforest:cube_talisman')
 
     event
@@ -118,10 +118,18 @@ onEvent("lootjs", (event) => {
             p.addLoot("endrem:undead_eye");
             p.limitCount([1, 1]);
         });
+
+    event
+        .addEntityLootModifier('adventurez:stone_golem')
+        .randomChance(0.75)
+        .pool((p) => {
+            p.addLoot("adventurez:stone_golem_heart");
+            p.limitCount([1, 1]);
+        });
     
    event
         .addEntityLootModifier('minecraft:elder_guardian')
-        .randomChance(0.25)
+        .randomChance(0.5)
         .pool((p) => {
             p.addLoot('endrem:guardian_eye');
             p.limitCount([1, 1]);
@@ -189,6 +197,7 @@ onEvent("lootjs", (event) => {
         .removeLoot("minecraft:gold_nugget")
         .removeLoot("minecraft:iron_nugget")
         .removeLoot("numismatic-overhaul:bronze_coin")
+        .removeLoot("nomadbooks:nomad_book")
 
     event
         .addLootTypeModifier(LootType.CHEST)
@@ -905,6 +914,29 @@ onEvent("lootjs", (event) => {
         .addLootTableModifier("dungeoncrawl:chests/stage_5")
         .randomChance(0.01)
         .addLoot('kubejs:primordial_shard')
+
+    event
+        .addLootTableModifier("minecraft:chests/bastion_hoglin_stable")
+        .randomChance(0.35)
+        .addLoot('adventurez:gilded_stone')
+
+    event
+        .addLootTableModifier("minecraft:chests/bastion_other")
+        .randomChance(0.35)
+        .addLoot('adventurez:gilded_stone')
+
+    event
+        .addLootTableModifier("minecraft:chests/bastion_other")
+        .randomChance(1.0) // 战利品表条件：添加掉落概率
+        .addWeightedLoot([6, 15], [
+            Item.of('mythicmetals:midas_gold_ingot').withChance(80),//米达斯
+            Item.of('mythicmetals:palladium_ingot').withChance(25),//钯金
+            Item.of('mythicmetals:stormyx_ingot').withChance(30),//风暴
+            Item.of('minecraft:crying_obsidian').withChance(40),//哭泣黑曜石
+            Item.of('minecraft:raw_gold_block').withChance(20),//金块
+            Item.of('minecraft:gold_ingot').withChance(40),//金
+            Item.of('numismatic-overhaul:money_bag', '{Combined:1b,Values:[L;0L,35L,0L]}')//钱
+        ])
 
     event
         .addLootTableModifier("minecraft:chests/end_city_treasure")
