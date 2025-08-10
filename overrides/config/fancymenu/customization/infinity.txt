@@ -199,7 +199,7 @@ customization {
   y = -12
   scale = 1.0
   alignment = left
-  value = Infinity-Reborn v3.0-Beta7
+  value = Infinity-Reborn v3.0-Beta14
 }
 
 customization {
