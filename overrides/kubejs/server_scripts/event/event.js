@@ -224,3 +224,19 @@ onEvent('block.right_click', event => {
         }
     }
 })
+
+onEvent('block.place', event => {
+    let block = event.getBlock()
+    if (block.id == 'moderndynamics:item_pipe') {
+        if (block.down == 'purpeille:ancient_oven' || block.up == 'purpeille:ancient_oven' || block.north == 'purpeille:ancient_oven' || block.south == 'purpeille:ancient_oven' || block.west == 'purpeille:ancient_oven' || block.east == 'purpeille:ancient_oven') {
+            event.server.tell(`§c§l不可与管道相连`)
+            event.cancel()
+        }
+    }
+    if (block.id == 'purpeille:ancient_oven') {
+        if (block.down == 'moderndynamics:item_pipe' || block.up == 'moderndynamics:item_pipe' || block.north == 'moderndynamics:item_pipe' || block.south == 'moderndynamics:item_pipe' || block.west == 'moderndynamics:item_pipe' || block.east == 'moderndynamics:item_pipe') {
+            event.server.tell(`§c§l不可与管道相连`)
+            event.cancel()
+        }
+    }
+})

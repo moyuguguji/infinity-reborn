@@ -19,22 +19,13 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
-          "name": "minecraft:redstone",
-          "functions": [
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
-            },
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 4,
-                "max": 5
-              }
-            }
-          ]
+          "weight": 15,
+          "name": "minecraft:diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:emerald"
         },
         {
           "type": "minecraft:item",
@@ -57,32 +48,13 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
-          "name": "minecraft:diamond"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:emerald"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "name": "minecraft:raw_gold"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 13,
-          "name": "minecraft:raw_iron"
-        },
-        {
-          "type": "minecraft:item",
           "name": "purpeille:impure_preserved_dust",
-          "conditions": [
-              {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.75
-              }
+          "functions": [
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
           ]
       },
       {

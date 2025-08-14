@@ -800,7 +800,7 @@ onEvent("lootjs", (event) => {
         primordial.forEach(element => {
         event
         .addLootTableModifier(element)
-        .randomChance(0.01)
+        .randomChance(0.05)
         .addLoot('kubejs:primordial_shard')
         });
 
@@ -940,7 +940,7 @@ onEvent("lootjs", (event) => {
 
     event
         .addLootTableModifier("minecraft:chests/end_city_treasure")
-        .randomChance(0.01)
+        .randomChance(0.03)
         .addLoot('kubejs:primordial_shard')
 
         event
