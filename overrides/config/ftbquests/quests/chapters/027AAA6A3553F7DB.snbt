@@ -261,6 +261,55 @@
 				}
 			]
 		}
+		{
+			title: "套装效果"
+			icon: {
+				id: "minecraft:netherite_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -4.0d
+			y: -1.0d
+			description: [
+				"当装备下有显示如图的信息即可按shift+ctrl查看套装效果"
+				"{image:kubejs:textures/ftbq/20250830211605.png width:200 height:43 align:1 fit:true}"
+			]
+			dependencies: ["6FD67E00C769E643"]
+			optional: true
+			id: "562449479CC3324A"
+			tasks: [{
+				id: "12337B8FD13FE1F8"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2172EA28BB5CD5E2"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3342768205198891787L
+			}]
+		}
+		{
+			title: "更好的统计信息"
+			icon: "minecraft:knowledge_book"
+			x: -4.0d
+			y: 1.0d
+			description: ["现在统计信息能显示更多东西了,你可以用这个来查漏补缺"]
+			dependencies: ["6FD67E00C769E643"]
+			optional: true
+			id: "10F0EF3196CB5AF1"
+			tasks: [{
+				id: "73BC8709361418C9"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4A0FDC53213E96D8"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3342768205198891787L
+			}]
+		}
 	]
 	quest_links: [ ]
 }

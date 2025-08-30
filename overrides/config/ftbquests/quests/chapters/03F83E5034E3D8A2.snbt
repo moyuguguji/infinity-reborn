@@ -135,7 +135,7 @@
 			title: "{chapter.2.quest.7.title}"
 			icon: "kubejs:shenqi_ingot"
 			x: -4.0d
-			y: 3.0d
+			y: 2.0d
 			description: ["{chapter.2.quest.7.description.1}"]
 			hide: true
 			id: "7207A57D8788AEF7"
@@ -239,7 +239,7 @@
 			title: "{chapter.2.quest.12.title}"
 			icon: "botania:cosmetic_questgiver_mark"
 			x: 4.0d
-			y: 3.0d
+			y: 0.0d
 			subtitle: "{chapter.2.quest.12.subtitle}"
 			id: "06799909DDB0627E"
 			tasks: [{
@@ -250,8 +250,8 @@
 		{
 			title: "{chapter.2.quest.13.title}"
 			icon: "adventurez:source_stone"
-			x: 0.0d
-			y: 4.5d
+			x: -3.0d
+			y: 2.0d
 			description: ["{chapter.2.quest.13.description.1}"]
 			id: "7E8B4BF9F76E1B28"
 			tasks: [{
@@ -308,25 +308,6 @@
 			}]
 		}
 		{
-			title: "{chapter.2.quest.16.title}"
-			icon: "minecraft:written_book"
-			x: -4.0d
-			y: 2.0d
-			description: ["{chapter.2.quest.16.description.1}"]
-			hide: true
-			id: "22046D0A7BEF99E6"
-			tasks: [{
-				id: "20C67BC212EB10D7"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "2D7D89990FEB3C7F"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 3342768205198891787L
-			}]
-		}
-		{
 			title: "{chapter.2.quest.17.title}"
 			icon: {
 				id: "minecraft:chainmail_chestplate"
@@ -368,34 +349,6 @@
 			}]
 			rewards: [{
 				id: "4F42B3DC8598DE0A"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 3342768205198891787L
-			}]
-		}
-		{
-			icon: {
-				id: "spectrum:bedrock_chestplate"
-				Count: 1b
-				tag: {
-					Enchantments: [{
-						lvl: 5s
-						id: "minecraft:protection"
-					}]
-				}
-			}
-			x: 4.0d
-			y: 0.0d
-			description: ["{chapter.2.quest.19.description.1}"]
-			hide: true
-			id: "221364DFA4B00CB4"
-			tasks: [{
-				id: "61D073ADBDCDD0A5"
-				type: "checkmark"
-				title: "{chapter.2.quest.19.task.1.title}"
-			}]
-			rewards: [{
-				id: "1DF6D14B39C0DA96"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 3342768205198891787L

@@ -52,6 +52,21 @@ onEvent('entity.death', event => {//死亡事件
     if(!isPlayerSource(source1)) return
     let player = event.getSource().getPlayer()
     if (player != null) {
+        if (entity.type == 'adventurez:void_shade') {
+                    let entitys = event.level.getEntities()
+                    entitys.forEach(element => {
+					//event.server.tell(`${element.type}`)
+					if (element.type == 'adventurez:void_shadow') {
+                        if (player.stages.has('difficulty_yonghen')) {
+                            if(element.health < element.maxHealth * 0.01) return
+                            element.attack(element.maxHealth * 0.01)
+                        }else{
+                           if(element.health < element.maxHealth * 0.05) return
+                            element.attack(element.maxHealth * 0.05)
+                        }
+					}
+				})
+                }
         if (player.stages.has('difficulty_yonghen')) {
             if (entity.animal || entity.watercreature || entity.type == 'minecraft:axolotl') {
                 player.potionEffects.add('minecraft:weakness', 100, 1)

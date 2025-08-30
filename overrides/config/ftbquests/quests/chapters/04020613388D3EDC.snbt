@@ -369,6 +369,85 @@
 				count: 20
 			}]
 		}
+		{
+			title: "Welcome to Valhalla"
+			x: -5.5d
+			y: -1.0d
+			subtitle: "酿造所有酒"
+			optional: true
+			invisible: true
+			id: "7749D4755A09A3AE"
+			tasks: [
+				{
+					id: "2DFED46A8DEC6EB5"
+					type: "item"
+					item: "spectrum:moonshine"
+					match_nbt: false
+				}
+				{
+					id: "34D0899E5F3B5D51"
+					type: "item"
+					item: {
+						id: "spectrum:chrysocolla"
+						Count: 1b
+						tag: {
+							Thickness: 1.0f
+							AgeDays: 100L
+							AlcPercent: 100
+						}
+					}
+					match_nbt: false
+				}
+				{
+					id: "3D5B13A837872582"
+					type: "item"
+					item: {
+						id: "spectrum:infused_beverage"
+						Count: 1b
+						tag: { }
+					}
+					match_nbt: false
+				}
+				{
+					id: "3A517DAD72970CAA"
+					type: "item"
+					item: {
+						id: "spectrum:pure_alcohol"
+						Count: 1b
+						tag: {
+							Thickness: 1.0f
+							AgeDays: 100L
+							AlcPercent: 100
+						}
+					}
+					match_nbt: false
+				}
+				{
+					id: "21E491E89535DDF0"
+					type: "item"
+					item: "spectrum:reprise"
+					match_nbt: false
+				}
+				{
+					id: "1F4727855D603E13"
+					type: "item"
+					item: "spectrum:suspicious_brew"
+					match_nbt: false
+				}
+				{
+					id: "53206F5F9F3F49EB"
+					type: "item"
+					item: "spectrum:jade_wine"
+					match_nbt: false
+				}
+				{
+					id: "099EB89BF6787CE4"
+					type: "item"
+					item: "spectrum:freigeist"
+					match_nbt: false
+				}
+			]
+		}
 	]
 	quest_links: [ ]
 }

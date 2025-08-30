@@ -2383,6 +2383,18 @@
 				criterion: ""
 			}]
 		}
+		{
+			x: 3.0d
+			y: -1.0d
+			description: ["当你获得棕色颜料后便可打开棕色孢子花的门拿到鎏金之书"]
+			dependencies: ["44F05BA1279FD750"]
+			id: "32949E1A7CEA3523"
+			tasks: [{
+				id: "747B29202DC7267F"
+				type: "item"
+				item: "spectrum:gilded_book"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

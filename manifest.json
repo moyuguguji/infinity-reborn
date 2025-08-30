@@ -10,8 +10,8 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "infinity-reborn-v3.0-Beta14",
-  "version": "v3.0-Beta14",
+  "name": "infinity-reborn-v3.0",
+  "version": "v3.0",
   "author": "infinity-reborn",
   "files": [
     {
@@ -337,6 +337,11 @@
     {
       "projectID": 482160,
       "fileID": 3551300,
+      "required": true
+    },
+    {
+      "projectID": 1320062,
+      "fileID": 6874342,
       "required": true
     },
     {

@@ -462,7 +462,7 @@ onEvent('entity.hurt', event => {
 						event.cancel()
 						target.tags.add('attacked')
 						target.tags.remove('easy')
-						target.setMaxHealth(target.maxHealth * (2.5))
+						target.setMaxHealth(target.maxHealth * (2.0))
 						target.heal(target.maxHealth * 0.9)
 						target.attack(target.maxHealth * 0.1)
 						if (result > 15 && !targetTypes.includes(target.type)) {
@@ -476,7 +476,7 @@ onEvent('entity.hurt', event => {
 						target.tags.remove('easy')
 						result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage get`)
 						event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result * 2.0}`)
-						target.setMaxHealth(target.maxHealth * (40))
+						target.setMaxHealth(target.maxHealth * (30))
 						target.heal(target.maxHealth * 0.9)
 						target.attack(target.maxHealth * 0.1)
 						if (result > 30 && !targetTypes.includes(target.type)) {
@@ -504,7 +504,7 @@ onEvent('entity.hurt', event => {
 						event.cancel()
 						target.tags.add('attacked')
 						target.tags.remove('easy')
-						target.setMaxHealth(target.maxHealth * (10))
+						target.setMaxHealth(target.maxHealth * (8))
 						target.heal(target.maxHealth * 0.9)
 						target.attack(target.maxHealth * 0.1)
 						if (result > 20 && !targetTypes.includes(target.type)) {
@@ -517,7 +517,7 @@ onEvent('entity.hurt', event => {
 						event.cancel()
 						target.tags.add('attacked')
 						target.tags.remove('easy')
-						target.setMaxHealth(target.maxHealth * (5))
+						target.setMaxHealth(target.maxHealth * (3.5))
 						target.heal(target.maxHealth * 0.9)
 						target.attack(target.maxHealth * 0.1)
 						if (result > 15 && !targetTypes.includes(target.type)) {
@@ -532,7 +532,7 @@ onEvent('entity.hurt', event => {
 						event.cancel()
 						target.tags.add('attacked')
 						target.tags.remove('easy')
-						target.setMaxHealth(target.maxHealth * (4.5))
+						target.setMaxHealth(target.maxHealth * (3.5))
 						target.heal(target.maxHealth * 0.9)
 						target.attack(target.maxHealth * 0.1)
 						if (result < 15 && targetTypes.includes(target.type) && target.type != "twilightforest:knight_phantom") {
@@ -542,7 +542,7 @@ onEvent('entity.hurt', event => {
 						event.cancel()
 						target.tags.add('attacked')
 						target.tags.remove('easy')
-						target.setMaxHealth(target.maxHealth * (60))
+						target.setMaxHealth(target.maxHealth * (40))
 						result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage get`)
 						event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result * 3.0}`)
 						target.heal(target.maxHealth * 0.9)
@@ -566,7 +566,7 @@ onEvent('entity.hurt', event => {
 						event.cancel()
 						target.tags.add('attacked')
 						target.tags.remove('easy')
-						target.setMaxHealth(target.maxHealth * (15))
+						target.setMaxHealth(target.maxHealth * (12))
 						target.heal(target.maxHealth * 0.9)
 						target.attack(target.maxHealth * 0.1)
 						if (result < 20 && targetTypes.includes(target.type) && target.type != "twilightforest:knight_phantom") {
@@ -576,7 +576,7 @@ onEvent('entity.hurt', event => {
 						event.cancel()
 						target.tags.add('attacked')
 						target.tags.remove('easy')
-						target.setMaxHealth(target.maxHealth * (10))
+						target.setMaxHealth(target.maxHealth * (5))
 						target.heal(target.maxHealth * 0.9)
 						target.attack(target.maxHealth * 0.1)
 						if (result < 18 && targetTypes.includes(target.type) && target.type != "twilightforest:knight_phantom") {

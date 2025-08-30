@@ -164,20 +164,6 @@
         "key": "key.wands.wand_menu",
         "releaseDelay": 25001
       }
-    },
-    "12": {
-      "name": "查看村民任务",
-      "icon": {
-        "iconItem": "minecraft:emerald",
-        "enchanted": false,
-        "skullOwner": "",
-        "customModelData": 0
-      },
-      "type": "keyselect",
-      "data": {
-        "key": "key.villagerquests.openquestscreen",
-        "releaseDelay": 25001
-      }
     }
   },
   "menuEntries": 13,

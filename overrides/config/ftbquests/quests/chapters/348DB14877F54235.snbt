@@ -1698,6 +1698,13 @@
 					advancement: "farmersdelight:main/master_chef"
 					criterion: ""
 				}
+				{
+					id: "76E7BB4C8133C6FD"
+					type: "advancement"
+					title: "制作并吃掉所有糕点"
+					advancement: "spectrum:eat_each_pastry"
+					criterion: ""
+				}
 			]
 			rewards: [
 				{

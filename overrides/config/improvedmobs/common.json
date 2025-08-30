@@ -954,7 +954,10 @@
       "#elementalenchantments",
       "#musuen",
       "mcda:death_barter",
-      "x_enchant:halo_effect_-_effect.extraalchemy.crumbling"
+      "x_enchant:halo_effect_-_effect.extraalchemy.crumbling",
+      "elementalenchantments:frost_aspect",
+      "extra_enchantments:freezing_aspect",
+      "extra_enchantments:freezing_thorns"
     ]
   },
   "Enchanting Whitelist": {

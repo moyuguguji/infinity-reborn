@@ -91,6 +91,7 @@ onEvent('recipes', event =>{
     event.remove({output: 'travelersbackpack:lapis'})
     event.remove({output: 'minecraft:bundle'})
     event.remove({output: 'spectrum:void_bundle'})
+    event.remove({output: 'numismatic-overhaul:shop'})
 
     event.remove({output: 'purpeille:purpeille_ingot'})
     event.remove({output: 'purpeille:ancient_mechanical_bricks'})

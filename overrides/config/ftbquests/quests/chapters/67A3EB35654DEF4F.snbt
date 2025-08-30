@@ -208,6 +208,12 @@
 					count: 2L
 					consume_items: true
 				}
+				{
+					id: "1658AB8B5163280F"
+					type: "item"
+					item: "adventurez:source_stone"
+					consume_items: true
+				}
 			]
 			rewards: [{
 				id: "2EA5CFC5A349CC2D"
