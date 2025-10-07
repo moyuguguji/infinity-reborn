@@ -68,6 +68,7 @@ onEvent('entity.death', event => {//死亡事件
 				})
                 }
         if (player.stages.has('difficulty_yonghen')) {
+            event.player.persistentData.putInt("hurttime", 0)
             if (entity.animal || entity.watercreature || entity.type == 'minecraft:axolotl') {
                 player.potionEffects.add('minecraft:weakness', 100, 1)
             }
