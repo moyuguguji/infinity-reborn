@@ -90,6 +90,59 @@ onEvent('recipes', event => {
     event.custom({
         "type": "purpeille:ancient_oven",
         "input": {
+            "item": "minecraft:ender_eye"
+        },
+        "damage": 10,
+        "cook_time": 20,
+        "result": [
+            {
+                "item": "endrem:black_eye"
+            },
+            {
+                "item": "endrem:cold_eye"
+            },
+            {
+                "item": "endrem:corrupted_eye"
+            },
+            {
+                "item": "endrem:lost_eye"
+            },
+            {
+                "item": "endrem:nether_eye"
+            },
+            {
+                "item": "endrem:old_eye"
+            },
+            {
+                "item": "endrem:rogue_eye"
+            },
+            {
+                "item": "endrem:cursed_eye"
+            },
+            {
+                "item": "endrem:evil_eye"
+            },
+            {
+                "item": "endrem:guardian_eye"
+            },
+            {
+                "item": "endrem:magical_eye"
+            },
+            {
+                "item": "endrem:wither_eye"
+            },
+            {
+                "item": "endrem:undead_eye"
+            },
+            {
+                "item": "endrem:exotic_eye"
+            }
+        ]
+    })
+
+    event.custom({
+        "type": "purpeille:ancient_oven",
+        "input": {
             "item": "terrarianslimes:gold_crown"
         },
         "damage": 30,

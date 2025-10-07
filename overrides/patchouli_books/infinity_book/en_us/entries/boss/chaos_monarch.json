@@ -1,0 +1,41 @@
+{
+  "name": "混沌君主",
+  "icon": "soulsweapons:lord_soul_rose",
+  "category": "patchouli:boss",
+  "pages": [
+    {
+      "type":"patchouli:spotlight",
+      "item":"soulsweapons:shard_of_uncertainty",
+      "text":"对黑石基座右键未知碎片即可召唤混沌君主。"
+    },
+    {
+      "type":"patchouli:entity",
+      "entity":"soulsweapons:chaos_monarch",
+      "text":"周围具有衰变领域,并且会释放多种法术。"
+    },
+    {
+      "type":"patchouli:spotlight",
+      "item":"soulsweapons:lord_soul_void",
+      "link_recipe":true,
+      "text":"击败将会掉落地狱之魂。"
+    },
+    {
+      "type":"patchouli:spotlight",
+      "item":"soulsweapons:withered_wabbajack",
+      "link_recipe":true,
+      "text":"击败将会掉落瓦巴杰克。"
+    },
+    {
+      "type":"patchouli:spotlight",
+      "item":"soulsweapons:chaos_robes",
+      "link_recipe":true,
+      "text":"击败将会掉落混沌长袍。"
+    },
+    {
+      "type":"patchouli:spotlight",
+      "item":"soulsweapons:chaos_crown",
+      "link_recipe":true,
+      "text":"击败将会掉落混沌之冠。"
+    }
+  ]
+}

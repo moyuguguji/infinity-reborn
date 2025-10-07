@@ -682,6 +682,86 @@ onEvent('recipes', event => {
       "nbt": "{StoredEnchantments: [{id: \"x_enchant:remove_cursed\", lvl: 1s}]}"
     }
   })
+
+  event.custom({
+    type: "spectrum:enchanter",
+    "time": 200,
+    "required_experience": 200,
+    "ingredients": [
+      {
+        "item": 'minecraft:book'
+      },
+      {
+        "item": 'mythicmetals:durasteel_ingot'//1
+      },
+      {
+        "item": 'mythicmetals:durasteel_ingot'//2
+      },
+      {
+        "item": 'minecraft:obsidian'//3
+      },
+      {
+        "item": 'minecraft:obsidian'//4
+      },
+      {
+        "item": 'mythicmetals:durasteel_ingot'//5
+      },
+      {
+        "item": 'mythicmetals:durasteel_ingot'//6
+      },
+      {
+        "item": 'minecraft:obsidian'//7
+      },
+      {
+        "item": 'minecraft:obsidian'//8
+      }
+    ],
+    "result": {
+      "item": "minecraft:enchanted_book",
+      "nbt": "{StoredEnchantments: [{id: \"imperishableitems:imperishable\", lvl: 1s}]}"
+    }
+  })
+
+event.custom({
+    type: "spectrum:enchanter",
+    "time": 600,
+    "required_experience": 1000,
+    "ingredients": [
+      {
+        "item": 'minecraft:book'
+      },
+      {
+        "item": 'spectrum:onyx_shard'//1
+      },
+      {
+        "item": 'mcda:upgrade_core_void'//2
+      },
+      {
+        "item": 'minecraft:amethyst_cluster'//3
+      },
+      {
+        "item": 'bosses_of_mass_destruction:void_thorn'//4
+      },
+      {
+        "item": 'spectrum:onyx_shard'//5
+      },
+      {
+        "item": 'mcda:upgrade_core_void'//6
+      },
+      {
+        "item": 'minecraft:amethyst_cluster'//7
+      },
+      {
+        "item": 'bosses_of_mass_destruction:void_thorn'//8
+      }
+    ],
+    "result": {
+      "item": "minecraft:enchanted_book",
+      "nbt": "{StoredEnchantments: [{id: \"mcdw:void_strike\", lvl: 1s}]}"
+    }
+  })
+
+
   event.custom({
   type: "spectrum:enchanter",
   "time": 300,

@@ -12,7 +12,7 @@
 			"attackDamageBoost": 0.04,
 			"attackSpeedBoost": 0.0,
 			"movementSpeedBoost": 0.025,
-			"durabilityMultiplier": -1
+			"durabilityMultiplier": 167
 		},
 		"HUNTER": {
 			"protection": {
@@ -54,7 +54,7 @@
 			"attackDamageBoost": 0.0,
 			"attackSpeedBoost": 0.04,
 			"movementSpeedBoost": 0.08,
-			"durabilityMultiplier": -1
+			"durabilityMultiplier": 167
 		},
 		"SPELUNKER": {
 			"protection": {
@@ -110,7 +110,7 @@
 			"attackDamageBoost": 0.025,
 			"attackSpeedBoost": 0.025,
 			"movementSpeedBoost": 0.0,
-			"durabilityMultiplier": -1
+			"durabilityMultiplier": 167
 		},
 		"FOX": {
 			"protection": {
@@ -138,7 +138,7 @@
 			"attackDamageBoost": 0.025,
 			"attackSpeedBoost": 0.0,
 			"movementSpeedBoost": 0.03,
-			"durabilityMultiplier": -1
+			"durabilityMultiplier": 167
 		},
 		"CLIMBING_GEAR": {
 			"protection": {
@@ -824,7 +824,7 @@
 			"attackDamageBoost": 0.075,
 			"attackSpeedBoost": 0.0375,
 			"movementSpeedBoost": 0.0,
-			"durabilityMultiplier": -1
+			"durabilityMultiplier": 167
 		},
 		"ROYAL": {
 			"protection": {
@@ -880,7 +880,7 @@
 			"attackDamageBoost": 0.15,
 			"attackSpeedBoost": 0.0,
 			"movementSpeedBoost": 0.0,
-			"durabilityMultiplier": -1
+			"durabilityMultiplier": 167
 		},
 		"BLUE_MYSTERY": {
 			"protection": {
@@ -894,7 +894,7 @@
 			"attackDamageBoost": 0.08,
 			"attackSpeedBoost": 0.0,
 			"movementSpeedBoost": 0.05,
-			"durabilityMultiplier": -1
+			"durabilityMultiplier": 167
 		},
 		"GREEN_MYSTERY": {
 			"protection": {
@@ -908,7 +908,7 @@
 			"attackDamageBoost": 0.05,
 			"attackSpeedBoost": 0.0,
 			"movementSpeedBoost": 0.0,
-			"durabilityMultiplier": -1
+			"durabilityMultiplier": 167
 		},
 		"PURPLE_MYSTERY": {
 			"protection": {
@@ -922,7 +922,7 @@
 			"attackDamageBoost": 0.1,
 			"attackSpeedBoost": 0.035,
 			"movementSpeedBoost": 0.02,
-			"durabilityMultiplier": -1
+			"durabilityMultiplier": 167
 		},
 		"RED_MYSTERY": {
 			"protection": {
@@ -936,7 +936,7 @@
 			"attackDamageBoost": 0.08,
 			"attackSpeedBoost": 0.1,
 			"movementSpeedBoost": 0.0,
-			"durabilityMultiplier": -1
+			"durabilityMultiplier": 167
 		},
 		"CHAMPION": {
 			"protection": {
@@ -964,7 +964,7 @@
 			"attackDamageBoost": 0.1,
 			"attackSpeedBoost": 0.05,
 			"movementSpeedBoost": 0.0,
-			"durabilityMultiplier": -1
+			"durabilityMultiplier": 167
 		},
 		"GILDED": {
 			"protection": {
@@ -978,7 +978,7 @@
 			"attackDamageBoost": 0.05,
 			"attackSpeedBoost": 0.05,
 			"movementSpeedBoost": 0.0,
-			"durabilityMultiplier": -1
+			"durabilityMultiplier": 167
 		},
 		"SHULKER": {
 			"protection": {
@@ -1006,7 +1006,7 @@
 			"attackDamageBoost": 0.15,
 			"attackSpeedBoost": -0.05,
 			"movementSpeedBoost": 0.0,
-			"durabilityMultiplier": -1
+			"durabilityMultiplier": 167
 		},
 		"CAULDRON": {
 			"protection": {
@@ -1034,7 +1034,7 @@
 			"attackDamageBoost": 0.08,
 			"attackSpeedBoost": 0.02,
 			"movementSpeedBoost": 0.02,
-			"durabilityMultiplier": -1
+			"durabilityMultiplier": 167
 		}
 	},
 	"setBonusTooltips": true,

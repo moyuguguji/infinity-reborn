@@ -3,6 +3,7 @@ onEvent('player.logged_in', event => {
 		event.player.stages.add('difficulty_easy')
 	}
 })
+		let time = 0
 onEvent('entity.hurt', event => {
 	let target = event.getEntity()
 	let source1 = event.getSource()
@@ -10,8 +11,6 @@ onEvent('entity.hurt', event => {
 	let source = event.getSource().getActual()
 	let damage = event.getDamage()
 	let entity = event.getSource().getImmediate()
-   
-	//event.server.runCommand(`say ${target.type}`)
 	
 	if (target.player) {
 		let offItem = target.getHeldItem(OFF_HAND).id
@@ -132,6 +131,31 @@ onEvent('entity.hurt', event => {
 				} else {
 					target.attack(damage_new * (1 - Math.min(20, Math.max(armor_result / 5, armor_result - damage_new / (2 + armor_toughness_result / 4))) / 25))
 				}
+				let stats = target.fullNBT.HurtByTimestamp
+				let hurttime = target.persistentData.getInt("hurttime")
+				if (source.monster) {
+					event.server.scheduleInTicks(1, schedule => {
+					//event.server.runCommand(`say ${stats}`)
+					//event.server.runCommand(`say ${time}`)
+					//event.server.runCommand(`say ${(stats - time)/20}`)
+					if ((stats - time) / 20 > 3) {
+					//let hurttime=target.persistentData.getInt("hurttime")
+					//event.server.runCommand(`say ${hurttime}`)
+					target.persistentData.putInt("hurttime", 0)
+						time = stats
+					}
+					else{
+						target.persistentData.putInt("hurttime", hurttime+=1)
+						time = stats
+					}
+					if (hurttime >= 5) {
+					target.potionEffects.add('soulsweapons:disable_heal', 100, 1)
+					}
+					if (target.potionEffects.isActive('soulsweapons:disable_heal')) {
+						target.potionEffects.add('spectrum:millenia_disease', 200, hurttime)
+					}
+					 })		
+					}
 				let zombie = [
 					'minecraft:zombie',
 					'minecraft:zombie_villager',
@@ -153,6 +177,7 @@ onEvent('entity.hurt', event => {
 				]
 				if (zombie.includes(source.type) || entity.type == 'minecraft:vex') {
 					target.potionEffects.add('soulsweapons:bleed', 80, 1)
+					return
 
 				} else if (!target.potionEffects.isActive('soulsweapons:bleed')) {
 					target.potionEffects.add('soulsweapons:bleed', 40, 0)
@@ -462,7 +487,7 @@ onEvent('entity.hurt', event => {
 						event.cancel()
 						target.tags.add('attacked')
 						target.tags.remove('easy')
-						target.setMaxHealth(target.maxHealth * (2.0))
+						target.setMaxHealth(target.maxHealth * (1.5))
 						target.heal(target.maxHealth * 0.9)
 						target.attack(target.maxHealth * 0.1)
 						if (result > 15 && !targetTypes.includes(target.type)) {
@@ -556,7 +581,7 @@ onEvent('entity.hurt', event => {
 						target.tags.remove('easy')
 						result = event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage get`)
 						event.server.runCommandSilent(`attribute ${target.id} minecraft:generic.attack_damage base set ${result * 2.0}`)
-						target.setMaxHealth(target.maxHealth * (20))
+						target.setMaxHealth(target.maxHealth * (25))
 						target.heal(target.maxHealth * 0.9)
 						target.attack(target.maxHealth * 0.1)
 						if (result < 25 && targetTypes.includes(target.type) && target.type != "twilightforest:knight_phantom") {
@@ -566,7 +591,7 @@ onEvent('entity.hurt', event => {
 						event.cancel()
 						target.tags.add('attacked')
 						target.tags.remove('easy')
-						target.setMaxHealth(target.maxHealth * (12))
+						target.setMaxHealth(target.maxHealth * (15))
 						target.heal(target.maxHealth * 0.9)
 						target.attack(target.maxHealth * 0.1)
 						if (result < 20 && targetTypes.includes(target.type) && target.type != "twilightforest:knight_phantom") {
@@ -576,7 +601,7 @@ onEvent('entity.hurt', event => {
 						event.cancel()
 						target.tags.add('attacked')
 						target.tags.remove('easy')
-						target.setMaxHealth(target.maxHealth * (5))
+						target.setMaxHealth(target.maxHealth * (6))
 						target.heal(target.maxHealth * 0.9)
 						target.attack(target.maxHealth * 0.1)
 						if (result < 18 && targetTypes.includes(target.type) && target.type != "twilightforest:knight_phantom") {

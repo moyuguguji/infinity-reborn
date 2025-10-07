@@ -10,7 +10,6 @@
     {
       "type":"patchouli:entity",
       "entity":"minecraft:ender_dragon"
-
     },
     {
       "type":"patchouli:spotlight",

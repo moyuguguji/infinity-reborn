@@ -1,0 +1,35 @@
+{
+  "name": "莫德凯撒",
+  "icon": "soulsweapons:lord_soul_rose",
+  "category": "patchouli:boss",
+  "pages": [
+    {
+      "type":"patchouli:spotlight",
+      "item":"soulsweapons:altar_block",
+      "text":"在大教堂中找到或者合成旧月祭坛用于召唤。$(br)用迷失的灵魂右键即可召唤莫德凯撒"
+    },
+    {
+      "type":"patchouli:entity",
+      "entity":"soulsweapons:returning_knight",
+      "text":"会召唤黑暗巫师和残魂助战,它的锤子能进行大范围打击。"
+    },
+    {
+      "type":"patchouli:spotlight",
+      "item":"soulsweapons:lord_soul_rose",
+      "link_recipe":true,
+      "text":"击败将会掉落骑士之魂。"
+    },
+    {
+      "type":"patchouli:spotlight",
+      "item":"soulsweapons:nightfall",
+      "link_recipe":true,
+      "text":"击败将会掉落夜陨。"
+    },
+    {
+      "type":"patchouli:spotlight",
+      "item":"soulsweapons:arkenstone",
+      "link_recipe":true,
+      "text":"击败将会掉落阿肯宝石。"
+    }
+  ]
+}

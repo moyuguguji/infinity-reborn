@@ -1,0 +1,23 @@
+{
+  "name": "月光圣骑",
+  "icon": "soulsweapons:lord_soul_white",
+  "category": "patchouli:boss",
+  "pages": [
+    {
+      "type":"patchouli:spotlight",
+      "item":"soulsweapons:altar_block",
+      "text":"在大教堂中找到或者合成旧月祭坛用于召唤。$(br)用日暮精粹右键即可召唤月光圣骑"
+    },
+    {
+      "type":"patchouli:entity",
+      "entity":"soulsweapons:moonknight",
+      "text":"月光圣骑拥有两个阶段,如果你在二阶段死亡它会重新回到一阶段。"
+    },
+    {
+      "type":"patchouli:spotlight",
+      "item":"soulsweapons:lord_soul_white",
+      "link_recipe":true,
+      "text":"击败将会掉落圣骑之魂。"
+    }
+  ]
+}

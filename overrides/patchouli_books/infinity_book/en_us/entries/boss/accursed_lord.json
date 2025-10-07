@@ -1,0 +1,41 @@
+{
+  "name": "亚托克斯",
+  "icon": "soulsweapons:lord_soul_red",
+  "category": "patchouli:boss",
+  "pages": [
+    {
+      "type":"patchouli:spotlight",
+      "item":"soulsweapons:boss_compass",
+      "text":"在地狱中它将指引你亚托克斯的方位"
+    },
+    {
+      "type":"patchouli:entity",
+      "entity":"soulsweapons:accursed_lord_boss",
+      "text":"注意高频大范围的攻击。"
+    },
+    {
+      "type":"patchouli:spotlight",
+      "item":"soulsweapons:lord_soul_red",
+      "link_recipe":true,
+      "text":"击败将会掉落剑魔之魂。"
+    },
+    {
+      "type":"patchouli:spotlight",
+      "item":"soulsweapons:darkin_blade",
+      "link_recipe":true,
+      "text":"击败将会掉落暗裔之刃。"
+    },
+    {
+      "type":"patchouli:spotlight",
+      "item":"soulsweapons:withered_demon_heart",
+      "link_recipe":true,
+      "text":"击败将会掉落凋零恶魔之心。"
+    },
+    {
+      "type":"patchouli:spotlight",
+      "item":"soulsweapons:blackstone_pedestal",
+      "link_recipe":true,
+      "text":"对黑石基座右键凋零恶魔之心即可再次召唤亚托克斯。"
+    }
+  ]
+}

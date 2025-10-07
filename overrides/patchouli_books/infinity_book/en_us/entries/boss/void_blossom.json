@@ -13,6 +13,12 @@
       "entity":"bosses_of_mass_destruction:void_blossom",
       "offset":-7.0,
       "text":"进入阶段后，它将吸收四周的花丛的能量来恢复生命值，你需要破坏这些花丛来阻止它恢复。"
+    },
+    {
+      "type":"patchouli:spotlight",
+      "item":"bosses_of_mass_destruction:void_thorn",
+      "link_recipe":true,
+      "text":"击败将会掉落虚空荆棘。"
     }
   ]
 }

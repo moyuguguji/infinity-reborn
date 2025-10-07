@@ -1,0 +1,23 @@
+{
+  "name": "暴虐之影",
+  "icon": "soulsweapons:lord_soul_dark",
+  "category": "patchouli:boss",
+  "pages": [
+    {
+      "type":"patchouli:entity",
+      "entity":"soulsweapons:night_shade",
+      "text":"穿墙,死亡之后会生成几个影子。"
+    },
+    {
+      "type":"patchouli:spotlight",
+      "item":"soulsweapons:lord_soul_dark",
+      "text":"击败第一只将会掉落勇者之魂。"
+    },
+    {
+      "type":"patchouli:spotlight",
+      "item":"soulsweapons:essence_of_eventide",
+      "link_recipe":true,
+      "text":"击败第一只将会掉落日暮精粹。"
+    }
+  ]
+}

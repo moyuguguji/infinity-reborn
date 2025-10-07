@@ -15,6 +15,12 @@
       "text":"下界之手具有多种攻击方式，注意躲过它的拳头。"
     },
     {
+      "type":"patchouli:spotlight",
+      "item":"bosses_of_mass_destruction:blazing_eye",
+      "link_recipe":true,
+      "text":"击败将会掉落炽热之眼。"
+    },
+    {
       "type": "patchouli:crafting",
       "recipe": "kubejs:kjs_7g2uqtf84q3aifjpztqyeicon",
       "text":"用于秒杀下界之手"

@@ -39,6 +39,27 @@ onEvent('recipes', event => {//光谱
             "item": 'spectrum:budding_moonstone'
         }
     })
+
+    event.custom({
+        type: "spectrum:fusion_shrine",
+        "time": 200,
+        "experience": 5000.0,
+        "fluid": "spectrum:liquid_crystal",
+        "ingredients": [
+            {
+                "item": 'spectrum:budding_moonstone',
+                "count": 1
+            },
+            {
+                "item": 'spectrum:moonstone_shard',
+                "count": 1
+            }
+        ],
+        "result": {
+            "item": 'spectrum:budding_moonstone',
+            "count": 2
+        }
+    })
 })
 onEvent('recipes', event => {//永恒
     event.shapeless('kubejs:yong_hen_star', ['kubejs:difficulty_changer'])

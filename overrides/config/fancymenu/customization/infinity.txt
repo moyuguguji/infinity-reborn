@@ -199,7 +199,7 @@ customization {
   y = -12
   scale = 1.0
   alignment = left
-  value = Infinity-Reborn v3.0旅途的终点
+  value = Infinity-Reborn v3.1旅途的终点
 }
 
 customization {

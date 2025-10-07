@@ -39,6 +39,12 @@
       "type": "patchouli:crafting",
       "recipe": "kubejs:kjs_ckyudzyur7hl16ny4g5gb1n1",
       "text":"或者通过物品召唤"
+    },
+    {
+      "type":"patchouli:spotlight",
+      "item":"adventurez:stone_golem_heart",
+      "link_recipe":true,
+      "text":"击败将会掉落黑石傀儡之心。"
     }
   ]
 }

@@ -12,6 +12,12 @@
       "type":"patchouli:entity",
       "entity":"bosses_of_mass_destruction:lich",
       "text":"它会召唤烦人的夜魅来扰乱你的攻击。"
+    },
+    {
+      "type":"patchouli:spotlight",
+      "item":"bosses_of_mass_destruction:ancient_anima",
+      "link_recipe":true,
+      "text":"击败将会掉落古老的灵魂。"
     }
   ]
 }

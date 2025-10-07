@@ -475,6 +475,14 @@ onEvent('recipes', event => {
 	})
 
 	event.smithing('spikyspikes:netherite_spike',Item.of('spikyspikes:diamond_spike').ignoreNBT(),'minecraft:netherite_ingot').id('spikyspikes:netherite_spike')
+	event.smithing('spectrum:budding_topaz',Item.of('minecraft:budding_amethyst').ignoreNBT(),Item.of('minecraft:budding_amethyst').ignoreNBT())
+	event.smithing('spectrum:budding_citrine',Item.of('minecraft:budding_amethyst').ignoreNBT(),Item.of('minecraft:budding_amethyst').ignoreNBT())
+
+	event.smithing('minecraft:budding_amethyst',Item.of('spectrum:budding_topaz').ignoreNBT(),Item.of('spectrum:budding_topaz').ignoreNBT())
+	event.smithing('spectrum:budding_citrine',Item.of('spectrum:budding_topaz').ignoreNBT(),Item.of('spectrum:budding_topaz').ignoreNBT())
+
+	event.smithing('minecraft:budding_amethyst',Item.of('spectrum:budding_citrine').ignoreNBT(),Item.of('spectrum:budding_citrine').ignoreNBT())
+	event.smithing('spectrum:budding_topaz',Item.of('spectrum:budding_citrine').ignoreNBT(),Item.of('spectrum:budding_citrine').ignoreNBT())
 })
 
 onEvent('recipes', event => {

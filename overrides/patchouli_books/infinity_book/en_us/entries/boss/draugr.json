@@ -1,0 +1,29 @@
+{
+  "name": "远古英雄",
+  "icon": "soulsweapons:lord_soul_dark",
+  "category": "patchouli:boss",
+  "pages": [
+    {
+      "type":"patchouli:spotlight",
+      "item":"soulsweapons:boss_compass",
+      "text":"它将指引你远古英雄的方位。一般会位于针叶林的山包内"
+    },
+    {
+      "type":"patchouli:entity",
+      "entity":"soulsweapons:draugr_boss",
+      "text":"死亡后会生成暴虐之影。"
+    },
+    {
+      "type":"patchouli:spotlight",
+      "item":"soulsweapons:draugr",
+      "link_recipe":true,
+      "text":"击败将会掉落德拉古尔。"
+    },
+    {
+      "type":"patchouli:spotlight",
+      "item":"soulsweapons:altar_block",
+      "link_recipe":true,
+      "text":"对旧月祭坛右键德拉古尔即可再次召唤远古英雄。"
+    }
+  ]
+}

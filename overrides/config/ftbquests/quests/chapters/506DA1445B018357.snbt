@@ -1746,6 +1746,7 @@
 			}
 			x: 1.5d
 			y: 0.5d
+			subtitle: "基岩装备无法重铸"
 			description: ["{chapter.12.quest.46.description.1}"]
 			dependencies: ["6CD923D48AF77852"]
 			id: "6CE26B24CB40E642"

@@ -1,5 +1,6 @@
 onEvent('player.logged_in', event => {
 	// 检测玩家是否有阶段
+	event.player.persistentData.putInt("hurttime", 0)
 	if (event.player.stages.has('nether')) return
 	// 没有则添加该阶段
 	event.player.stages.add('nether')
@@ -16,7 +17,7 @@ onEvent('player.logged_in', event => {
 	event.player.give('dankstorage:dank_3')
 	event.server.runCommandSilent(`scoreboard players set choice nether 1`)
 	event.server.scheduleInTicks(40, schedule => {
-		event.player.tell(`§e如果游玩过程中发现BUG请加群§c904252119`)
+		event.player.tell(`§e如果游玩过程中发现BUG请加群§c144825716`)
 		event.player.tell(`§e==================================`)
 		event.player.tell('§e建议在§c选择-语言§e里关闭§c强制显示Unicode字体')
 		event.player.tell(`§e==================================`)

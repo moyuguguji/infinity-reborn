@@ -832,7 +832,7 @@ onEvent('recipes', event => {
 			'count': 1
 		},
 		'overrides': {
-			"3+": {
+			"3": {
 				"id": 'kubejs:gold_coin',
 				"count": 2
 			},
@@ -862,11 +862,11 @@ onEvent('recipes', event => {
 			'count': 1
 		},
 		'overrides': {
-			"3+": {
+			"3": {
 				"id": 'mythicmetals:kyber_ingot',
 				"count": 2
 			},
-			"4+": {
+			"4": {
 				"id": 'mythicmetals:kyber_ingot',
 				"count": 4
 			},
@@ -896,11 +896,11 @@ onEvent('recipes', event => {
 			'count': 1
 		},
 		'overrides': {
-			"3+": {
+			"3": {
 				"id": 'mythicmetals:calcite_kyber_ore',
 				"count": 2
 			},
-			"4+": {
+			"4": {
 				"id": 'mythicmetals:calcite_kyber_ore',
 				"count": 4
 			},
@@ -930,11 +930,11 @@ onEvent('recipes', event => {
 			'count': 1
 		},
 		'overrides': {
-			"3+": {
+			"3": {
 				"id": 'mythicmetals:raw_kyber',
 				"count": 2
 			},
-			"4+": {
+			"4": {
 				"id": 'mythicmetals:raw_kyber',
 				"count": 4
 			},
