@@ -68,7 +68,6 @@ onEvent('entity.death', event => {//死亡事件
 				})
                 }
         if (player.stages.has('difficulty_yonghen')) {
-            player.persistentData.putInt("hurttime", 0)
             if (entity.animal || entity.watercreature || entity.type == 'minecraft:axolotl') {
                 player.potionEffects.add('minecraft:weakness', 100, 1)
             }
@@ -158,3 +157,14 @@ onEvent('entity.death', event => {//死亡事件
         }
     }
 })
+onEvent("entity.death", event => {
+  let entity = event.getEntity()
+  let player = event.getSource().getPlayer()
+  if (entity.player) {
+    player.persistentData.putInt("hurttime", 0)
+    if (entity.stages.has('difficulty_easy')) {
+      event.server.runCommandSilent(`improvedmobs difficulty player ${entity.profile.name} add -0.5`)
+    }
+  }
+})
+
