@@ -161,7 +161,6 @@ onEvent("entity.death", event => {
   let entity = event.getEntity()
   let player = event.getSource().getPlayer()
   if (entity.player) {
-    player.persistentData.putInt("hurttime", 0)
     if (entity.stages.has('difficulty_easy')) {
       event.server.runCommandSilent(`improvedmobs difficulty player ${entity.profile.name} add -0.5`)
     }

@@ -44,12 +44,27 @@
 					item: "soulsweapons:lost_soul"
 				}
 			]
-			rewards: [{
-				id: "5D72164B554B3A37"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 1005535573748960953L
-			}]
+			rewards: [
+				{
+					id: "5D72164B554B3A37"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1005535573748960953L
+				}
+				{
+					id: "60E9EA066880E7A6"
+					type: "item"
+					item: {
+						id: "botania:cosmetic_questgiver_mark"
+						Count: 1b
+						tag: {
+							display: {
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"dark_red\",\"text\":\"不要把魔力发射器对着地狱门!!!\"}],\"text\":\"\"}"
+							}
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "{chapter.10.quest.2.title}"
