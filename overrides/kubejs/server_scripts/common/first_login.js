@@ -40,19 +40,9 @@ onEvent('player.logged_in', event => {
 		"tiered:weak",
 		"tiered:zealous"
 	]
-	let tiertool = [
-		"tiered:broken",
-		"tiered:common_multi_tool",
-		"tiered:epic_multi_tool",
-		"tiered:legendary_multi_tool",
-		"tiered:mizar_multi_tool",
-		"tiered:rare_multi_tool",
-		"tiered:uncommon_multi_tool",
-		"tiered:unique_multi_tool",
-	]
 	event.player.give(Item.of('emerald_tools:copper_sword', `{Unbreakable:1b,swa3:{},Tiered:{Tier:"${tiermeide[randomNum(0,tiermeide.length)]}"}}`))
-	event.player.give(Item.of('treeaxe:copper_treeaxe', `{Unbreakable:1b,swa3:{},Tiered:{Tier:"${tiertool[randomNum(0,tiertool.length)]}"}}`))
-	event.player.give(Item.of('emerald_tools:copper_pickaxe', `{Unbreakable:1b,swa3:{},Tiered:{Tier:"${tiertool[randomNum(0,tiertool.length)]}"}}`))
+	event.player.give(Item.of('treeaxe:copper_treeaxe', '{Unbreakable:1b,swa3:{}}'))
+	event.player.give(Item.of('emerald_tools:copper_pickaxe', '{Unbreakable:1b,swa3:{}}'))
 	event.player.give(Item.of('kubejs:difficulty_changer'))
 	event.player.give(Item.of('20x kubejs:chinese_dumpling'))
 	event.player.give(Item.of('2x kubejs:firecracker'))
