@@ -199,7 +199,7 @@ customization {
   y = -12
   scale = 1.0
   alignment = left
-  value = Infinity-Reborn v3.1旅途的终点
+  value = Infinity-Reborn v3.2旅途的终点
 }
 
 customization {
@@ -215,7 +215,7 @@ customization {
   actionid = 9fe2030c-58ed-4bd8-b527-486503cf624f1739094772705
   action = addbutton
   y = 21
-  value = https://pan.quark.cn/s/4684f82f15c1#/list/share/c008d7c9e2554206b853f27225a6b75c-infinity*101reborn/d6faf2d3265644a8a0e6178a97fbb3f4-2.2%E7%89%88%E6%9C%AC%E4%BB%A5%E4%B8%8A%E9%80%9A%E7%94%A8%E8%A1%A5%E4%B8%81
+  value = https://pan.quark.cn/s/d6762f299f1f
   height = 20
 }
 

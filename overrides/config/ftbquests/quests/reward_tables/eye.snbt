@@ -1,0 +1,31 @@
+{
+	id: "26779909A144CFBC"
+	order_index: 13
+	title: "eye"
+	loot_size: 1
+	rewards: [
+		{ item: "endrem:black_eye" }
+		{ item: "endrem:cold_eye" }
+		{ item: "endrem:corrupted_eye" }
+		{ item: "endrem:lost_eye" }
+		{ item: "endrem:nether_eye" }
+		{ item: "endrem:old_eye" }
+		{ item: "endrem:rogue_eye" }
+		{ item: "endrem:cursed_eye" }
+		{ item: "endrem:evil_eye" }
+		{ item: "endrem:guardian_eye" }
+		{ item: "endrem:magical_eye" }
+		{ item: "endrem:wither_eye" }
+		{ item: "endrem:witch_eye" }
+		{ item: "endrem:undead_eye" }
+		{ item: "endrem:exotic_eye" }
+		{
+			item: {
+				id: "numismatic-overhaul:gold_coin"
+				Count: 1b
+				tag: { }
+			}
+			weight: 4
+		}
+	]
+}

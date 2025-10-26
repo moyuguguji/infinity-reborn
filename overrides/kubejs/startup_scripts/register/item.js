@@ -220,6 +220,13 @@ onEvent('item.registry', event => {
 		.food((food) => {
 			food.hunger(4).saturation(0.5).alwaysEdible(true).effect('minecraft:slow_falling', 100, 0, 1.0).effect('minecraft:levitation', 100, 0, 1.0)
 		})
+
+	event.create('bandage')
+		.displayName("绷带")
+		.tooltip("快速治愈流血")
+		.food((food) => {
+			food.hunger(1).saturation(0).alwaysEdible(true).fastToEat(true)
+		})
 	event.create('gold_coin')
 		.displayName("异界金币")
 		.tooltip(Text.translate('item.kubejs.gold_coin.tooltip'))

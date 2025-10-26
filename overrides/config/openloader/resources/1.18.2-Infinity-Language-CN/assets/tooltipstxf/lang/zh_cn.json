@@ -1,0 +1,16 @@
+{
+  "tooltipstxf.tooltip.nutrition": "饱食度：%s",
+  "tooltipstxf.tooltip.saturation": "饱和度：%s",
+  "tooltipstxf.tooltip.compostable": "可堆肥：%s",
+  "tooltipstxf.tooltip.burn_time": "燃烧时间：%s",
+  "tooltipstxf.tooltip.burn_time.seconds": "燃烧时间：%s秒",
+  "tooltipstxf.tooltip.use_cooldown": "使用冷却：%s",
+  "tooltipstxf.tooltip.use_cooldown.seconds": "使用冷却：%s秒",
+  "tooltipstxf.tooltip.enchantability": "附魔能力：%s",
+  "tooltipstxf.tooltip.repair_cost": "修复消耗：%s",
+  "tooltipstxf.tooltip.hardness": "硬度：%s",
+  "tooltipstxf.tooltip.resistance": "爆炸抗性：%s",
+  "tooltipstxf.tooltip.enchantment_power": "附魔能力：%s",
+  "tooltipstxf.tooltip.mining_level": "挖掘等级：%s",
+  "tooltipstxf.tooltip.mining_speed": "挖掘速度：%s"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "建筑手杖",
+  "icon": "staffofbuilding:diamond_builder_staff",
+  "category": "patchouli:item",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "staffofbuilding:diamond_builder_staff",
+      "title": "钻石建筑之杖",
+      "text": "除此之外，还有木制、石制等多种品质的建筑之杖可供选择。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "wands:diamond_wand",
+      "title": "钻石建筑手杖",
+      "text": "更贵但是功能更多的建筑手杖$(br2)按y或者长按r打开菜单"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "白色滑翔翼",
+  "icon": "kibe:white_glider",
+  "category": "patchouli:item",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "kibe:white_glider",
+      "text": "搭配火箭靴/史莱姆弹弓等使用更佳。"
+    }
+  ]
+}

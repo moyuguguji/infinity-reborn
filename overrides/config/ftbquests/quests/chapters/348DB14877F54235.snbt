@@ -2142,7 +2142,7 @@
 					id: "2E4002EEB6D2CCC7"
 					type: "xp_levels"
 					auto: "invisible"
-					xp_levels: 10000
+					xp_levels: 5000
 				}
 				{
 					id: "1C3FF8A93961890C"

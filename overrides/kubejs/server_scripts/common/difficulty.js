@@ -137,8 +137,8 @@ onEvent('entity.hurt', event => {
 					event.server.scheduleInTicks(1, schedule => {
 					//event.server.runCommand(`say ${stats}`)
 					//event.server.runCommand(`say ${time}`)
-					//event.server.runCommand(`say ${(stats - time)/20}`)
-					if ((stats - time) / 20 > 3) {
+					//event.server.runCommand(`say ${(stats - time)}`)
+					if ((stats - time) / 20 > 3 || stats - time < 0) {
 					//let hurttime=target.persistentData.getInt("hurttime")
 					//event.server.runCommand(`say ${hurttime}`)
 					target.persistentData.putInt("hurttime", 0)
@@ -148,11 +148,14 @@ onEvent('entity.hurt', event => {
 						target.persistentData.putInt("hurttime", hurttime+=1)
 						time = stats
 					}
-					if (hurttime >= 5) {
-					target.potionEffects.add('soulsweapons:disable_heal', 100, 1)
+					if (hurttime >= 100) {
+						target.persistentData.putInt("hurttime", 0)
 					}
 					if (target.potionEffects.isActive('soulsweapons:disable_heal')) {
-						target.potionEffects.add('spectrum:millenia_disease', 200, hurttime)
+						target.potionEffects.add('spectrum:millenia_disease', 200, hurttime / 2)
+					}
+					if (hurttime / 1.5 >= 5) {
+					target.potionEffects.add('soulsweapons:disable_heal', 100, 1)
 					}
 					 })		
 					}
@@ -341,15 +344,15 @@ onEvent('entity.hurt', event => {
 			} else if (random2 <= 10) {
 				event.cancel()
 			} else if (target.potionEffects.active.toString().includes('resistance x 2')) {
-				target.heal(damage * 0.6 * 0.5)
+				target.heal(damage * 0.6 * 0.4)
 			} else if (target.potionEffects.active.toString().includes('resistance x 3')) {
-				target.heal(damage * 0.4 * 0.5)
+				target.heal(damage * 0.4 * 0.4)
 			} else if (target.potionEffects.active.toString().includes('resistance x 4')) {
-				target.heal(damage * 0.2 * 0.5)
+				target.heal(damage * 0.2 * 0.4)
 			} else if (target.potionEffects.active.toString().includes('resistance x 5')) {} else if (target.potionEffects.active.toString().includes('resistance')) {
-				target.heal(damage * 0.8 * 0.5)
+				target.heal(damage * 0.8 * 0.4)
 			} else {
-				target.heal(damage * 0.5)
+				target.heal(damage * 0.4)
 			}
 		}
 	}
@@ -621,6 +624,9 @@ onEvent('entity.hurt', event => {
 					riding.kill()
 				}
 				//event.server.runCommand(`say ${riding}`)
+				if (target.potionEffects.isActive('soulsweapons:disable_heal')) {
+					event.server.runCommandSilent(`effect clear @e[type=!minecraft:player] soulsweapons:disable_heal`)
+				}
 				if (!target.tags.contains('banxue')) {
 					let random3 = randomNum(1, 100)
 					if (random3 <= 20) {
@@ -686,15 +692,11 @@ onEvent('block.break', event => {
 		if (player.stages.has('difficulty_yonghen')) {
 			let block = event.getBlock()
 			if (block.id == 'bosses_of_mass_destruction:obsidilith_rune') {
-				let entity = event.level.getEntities()
-				entity.forEach(element => {
-					//event.server.tell(`${element.type}`)
-					if (element.type == 'bosses_of_mass_destruction:obsidilith') {
-						element.heal(element.maxHealth * 0.05)
-					}
-				});
+					player.potionEffects.add('mcdar:stunned', 40, 0, false, false)
+					player.potionEffects.add('soulsweapons:posture_break', 80, 0, false, false)
+					player.attack(player.health * 0.25)
+				}
 			}
-
 		}
 	}
-})
+)

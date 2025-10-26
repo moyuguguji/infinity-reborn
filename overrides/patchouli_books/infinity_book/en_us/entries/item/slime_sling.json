@@ -1,0 +1,12 @@
+{
+  "name": "史莱姆弹弓",
+  "icon": "kibe:slime_sling",
+  "category": "patchouli:item",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "kibe:slime_sling",
+      "text": "倒着起飞，前期不错的赶路工具。弹弹弹，噗叽啪"
+    }
+  ]
+}

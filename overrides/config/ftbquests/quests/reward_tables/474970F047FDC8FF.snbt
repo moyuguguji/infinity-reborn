@@ -11,7 +11,7 @@
 		{ team_reward: false, item: "heartytrinkets:blue_heart", random_bonus: 4, weight: 2 }
 		{
 			team_reward: false
-			xp_levels: 30
+			xp_levels: 20
 			type: "xp_levels"
 			weight: 35
 		}

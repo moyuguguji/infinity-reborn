@@ -10,7 +10,7 @@
 	quests: [
 		{
 			title: "{chapter.25.quest.1.title}"
-			icon: "artifacts:feral_claws"
+			icon: "things:empty_agglomeration"
 			disable_toast: true
 			x: -2.0d
 			y: 0.0d
@@ -680,6 +680,38 @@
 						}
 					}
 				}
+			}]
+		}
+		{
+			title: "眼睛抽抽乐"
+			disable_toast: true
+			x: -7.5d
+			y: 5.25d
+			dependencies: ["027AAA6A3553F7DB"]
+			hide: true
+			size: 1.5d
+			optional: true
+			can_repeat: true
+			id: "5E3462E66C4DC774"
+			tasks: [{
+				id: "2F195B9EC9256ACA"
+				type: "item"
+				title: "提交一个眼睛"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "endrem:eye"
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7F31E85BC1336AB6"
+				type: "random"
+				team_reward: false
+				auto: "enabled"
+				table_id: 2771852362309226428L
 			}]
 		}
 	]

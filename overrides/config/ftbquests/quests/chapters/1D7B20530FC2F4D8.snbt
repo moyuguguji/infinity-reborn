@@ -184,7 +184,13 @@
 			}]
 		}
 		{
-			icon: "mcda:gourdian_armor_helmet"
+			icon: {
+				id: "mcda:gourdian_armor_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
 			disable_toast: true
 			x: 0.0d
 			y: -1.5d
@@ -199,7 +205,13 @@
 		}
 		{
 			title: "{chapter.16.quest.10.title}"
-			icon: "mcda:gilded_glory_helmet"
+			icon: {
+				id: "mcda:gilded_glory_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
 			x: -1.0d
 			y: -0.5d
 			subtitle: "{chapter.16.quest.10.subtitle}"
@@ -210,22 +222,46 @@
 				{
 					id: "37901DD1D6925C20"
 					type: "item"
-					item: "mcda:gilded_glory_helmet"
+					item: {
+						id: "mcda:gilded_glory_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "42937668DF618296"
 					type: "item"
-					item: "mcda:gilded_glory_chestplate"
+					item: {
+						id: "mcda:gilded_glory_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "0EFA955302358222"
 					type: "item"
-					item: "mcda:gilded_glory_leggings"
+					item: {
+						id: "mcda:gilded_glory_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "1870F5CBA273382F"
 					type: "item"
-					item: "mcda:gilded_glory_boots"
+					item: {
+						id: "mcda:gilded_glory_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
 			rewards: [{
@@ -237,7 +273,13 @@
 		}
 		{
 			title: "{chapter.16.quest.11.title}"
-			icon: "mcda:heros_armor_helmet"
+			icon: {
+				id: "mcda:heros_armor_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
 			x: 0.0d
 			y: 0.0d
 			subtitle: "{chapter.16.quest.11.subtitle}"
@@ -248,22 +290,46 @@
 				{
 					id: "60CDB5820F734820"
 					type: "item"
-					item: "mcda:heros_armor_helmet"
+					item: {
+						id: "mcda:heros_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "7CFF1588F1FF7DCF"
 					type: "item"
-					item: "mcda:heros_armor_chestplate"
+					item: {
+						id: "mcda:heros_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "421914C415B8C096"
 					type: "item"
-					item: "mcda:heros_armor_leggings"
+					item: {
+						id: "mcda:heros_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "01245D570BDE8395"
 					type: "item"
-					item: "mcda:heros_armor_boots"
+					item: {
+						id: "mcda:heros_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
 			rewards: [{
@@ -298,7 +364,13 @@
 		}
 		{
 			title: "{chapter.16.quest.13.title}"
-			icon: "mcda:gourdian_armor_helmet"
+			icon: {
+				id: "mcda:gourdian_armor_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
 			x: 0.0d
 			y: -2.5d
 			subtitle: "{chapter.16.quest.13.subtitle}"
@@ -313,6 +385,7 @@
 						id: "mcda:gourdian_armor_helmet"
 						Count: 1b
 						tag: {
+							Damage: 0
 							saa1: { }
 						}
 					}
@@ -324,6 +397,7 @@
 						id: "mcda:gourdian_armor_chestplate"
 						Count: 1b
 						tag: {
+							Damage: 0
 							saa1: { }
 						}
 					}
@@ -335,6 +409,7 @@
 						id: "mcda:gourdian_armor_leggings"
 						Count: 1b
 						tag: {
+							Damage: 0
 							saa1: { }
 						}
 					}
@@ -346,6 +421,7 @@
 						id: "mcda:gourdian_armor_boots"
 						Count: 1b
 						tag: {
+							Damage: 0
 							saa1: { }
 						}
 					}
@@ -360,7 +436,13 @@
 		}
 		{
 			title: "{chapter.16.quest.14.title}"
-			icon: "mcda:titans_shroud_helmet"
+			icon: {
+				id: "mcda:titans_shroud_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
 			x: 1.0d
 			y: -0.5d
 			subtitle: "{chapter.16.quest.14.subtitle}"
@@ -375,6 +457,7 @@
 						id: "mcda:titans_shroud_helmet"
 						Count: 1b
 						tag: {
+							Damage: 0
 							saa1: { }
 						}
 					}
@@ -386,6 +469,7 @@
 						id: "mcda:titans_shroud_chestplate"
 						Count: 1b
 						tag: {
+							Damage: 0
 							saa1: { }
 						}
 					}
@@ -397,6 +481,7 @@
 						id: "mcda:titans_shroud_leggings"
 						Count: 1b
 						tag: {
+							Damage: 0
 							saa1: { }
 						}
 					}
@@ -408,6 +493,7 @@
 						id: "mcda:titans_shroud_boots"
 						Count: 1b
 						tag: {
+							Damage: 0
 							saa1: { }
 						}
 					}
@@ -422,7 +508,13 @@
 		}
 		{
 			title: "{chapter.16.quest.15.title}"
-			icon: "mcda:sturdy_shulker_armor_helmet"
+			icon: {
+				id: "mcda:sturdy_shulker_armor_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
 			x: 0.0d
 			y: 1.0d
 			subtitle: "{chapter.16.quest.15.subtitle}"
@@ -437,6 +529,7 @@
 						id: "mcda:sturdy_shulker_armor_helmet"
 						Count: 1b
 						tag: {
+							Damage: 0
 							saa1: { }
 						}
 					}
@@ -448,6 +541,7 @@
 						id: "mcda:sturdy_shulker_armor_chestplate"
 						Count: 1b
 						tag: {
+							Damage: 0
 							saa1: { }
 						}
 					}
@@ -459,6 +553,7 @@
 						id: "mcda:sturdy_shulker_armor_leggings"
 						Count: 1b
 						tag: {
+							Damage: 0
 							saa1: { }
 						}
 					}
@@ -470,6 +565,7 @@
 						id: "mcda:sturdy_shulker_armor_boots"
 						Count: 1b
 						tag: {
+							Damage: 0
 							saa1: { }
 						}
 					}
@@ -488,6 +584,7 @@
 				id: "mcda:white_mystery_armor_helmet"
 				Count: 1b
 				tag: {
+					Damage: 0
 					saa1: { }
 				}
 			}
@@ -501,22 +598,46 @@
 				{
 					id: "307CCF163C7DEDCB"
 					type: "item"
-					item: "mcda:white_mystery_armor_helmet"
+					item: {
+						id: "mcda:white_mystery_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "3F567642A3566504"
 					type: "item"
-					item: "mcda:white_mystery_armor_chestplate"
+					item: {
+						id: "mcda:white_mystery_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "0684AF36DA132788"
 					type: "item"
-					item: "mcda:white_mystery_armor_leggings"
+					item: {
+						id: "mcda:white_mystery_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "73D3C1CC72D1FDA3"
 					type: "item"
-					item: "mcda:white_mystery_armor_boots"
+					item: {
+						id: "mcda:white_mystery_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
 			rewards: [{
@@ -532,6 +653,7 @@
 				id: "mcda:red_mystery_armor_helmet"
 				Count: 1b
 				tag: {
+					Damage: 0
 					saa1: { }
 				}
 			}
@@ -545,22 +667,46 @@
 				{
 					id: "3979F18964044ED3"
 					type: "item"
-					item: "mcda:red_mystery_armor_helmet"
+					item: {
+						id: "mcda:red_mystery_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "6FC27E39AC7C7D4D"
 					type: "item"
-					item: "mcda:red_mystery_armor_chestplate"
+					item: {
+						id: "mcda:red_mystery_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "537361877ECDFA04"
 					type: "item"
-					item: "mcda:red_mystery_armor_leggings"
+					item: {
+						id: "mcda:red_mystery_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "3CA086551647F09C"
 					type: "item"
-					item: "mcda:red_mystery_armor_boots"
+					item: {
+						id: "mcda:red_mystery_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
 			rewards: [{
@@ -576,6 +722,7 @@
 				id: "mcda:purple_mystery_armor_helmet"
 				Count: 1b
 				tag: {
+					Damage: 0
 					saa1: { }
 				}
 			}
@@ -589,22 +736,46 @@
 				{
 					id: "45850CB7DD5EBEEE"
 					type: "item"
-					item: "mcda:purple_mystery_armor_helmet"
+					item: {
+						id: "mcda:purple_mystery_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "1AEF054D31D98D62"
 					type: "item"
-					item: "mcda:purple_mystery_armor_chestplate"
+					item: {
+						id: "mcda:purple_mystery_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "7CE64A5E1C9AAE18"
 					type: "item"
-					item: "mcda:purple_mystery_armor_leggings"
+					item: {
+						id: "mcda:purple_mystery_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "7072BDC02D0472FC"
 					type: "item"
-					item: "mcda:purple_mystery_armor_boots"
+					item: {
+						id: "mcda:purple_mystery_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
 			rewards: [
@@ -628,6 +799,7 @@
 				id: "mcda:green_mystery_armor_helmet"
 				Count: 1b
 				tag: {
+					Damage: 0
 					saa1: { }
 				}
 			}
@@ -641,22 +813,46 @@
 				{
 					id: "40C91ED73FF0E4B8"
 					type: "item"
-					item: "mcda:green_mystery_armor_helmet"
+					item: {
+						id: "mcda:green_mystery_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "16E5AF1EDF9C8550"
 					type: "item"
-					item: "mcda:green_mystery_armor_chestplate"
+					item: {
+						id: "mcda:green_mystery_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "7C08F7347004EC0B"
 					type: "item"
-					item: "mcda:green_mystery_armor_leggings"
+					item: {
+						id: "mcda:green_mystery_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "4F4ADEE71D2F7758"
 					type: "item"
-					item: "mcda:green_mystery_armor_boots"
+					item: {
+						id: "mcda:green_mystery_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
 			rewards: [{
@@ -672,6 +868,7 @@
 				id: "mcda:blue_mystery_armor_helmet"
 				Count: 1b
 				tag: {
+					Damage: 0
 					saa1: { }
 				}
 			}
@@ -685,22 +882,46 @@
 				{
 					id: "0B85F1B5D74E8126"
 					type: "item"
-					item: "mcda:blue_mystery_armor_helmet"
+					item: {
+						id: "mcda:blue_mystery_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "491F4F153A2F8D0F"
 					type: "item"
-					item: "mcda:blue_mystery_armor_chestplate"
+					item: {
+						id: "mcda:blue_mystery_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "2732DD5BCF9FAAC1"
 					type: "item"
-					item: "mcda:blue_mystery_armor_leggings"
+					item: {
+						id: "mcda:blue_mystery_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "72FC00079E8060C2"
 					type: "item"
-					item: "mcda:blue_mystery_armor_boots"
+					item: {
+						id: "mcda:blue_mystery_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
 			rewards: [{
@@ -928,7 +1149,13 @@
 		}
 		{
 			title: "{chapter.16.quest.32.title}"
-			icon: "mcda:shadow_walker_armor_helmet"
+			icon: {
+				id: "mcda:shadow_walker_armor_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
 			x: -1.0d
 			y: -1.5d
 			subtitle: "{chapter.16.quest.32.subtitle}"
@@ -990,7 +1217,13 @@
 		}
 		{
 			title: "{chapter.16.quest.33.title}"
-			icon: "mcda:black_wolf_armor_helmet"
+			icon: {
+				id: "mcda:black_wolf_armor_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
 			x: 2.0d
 			y: -1.5d
 			subtitle: "{chapter.16.quest.33.subtitle}"
@@ -1052,7 +1285,13 @@
 		}
 		{
 			title: "{chapter.16.quest.34.title}"
-			icon: "mcda:arctic_fox_armor_helmet"
+			icon: {
+				id: "mcda:arctic_fox_armor_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
 			x: -2.0d
 			y: -1.5d
 			subtitle: "{chapter.16.quest.34.subtitle}"
@@ -1113,7 +1352,13 @@
 			}]
 		}
 		{
-			icon: "mcda:archers_helmet"
+			icon: {
+				id: "mcda:archers_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
 			x: 1.0d
 			y: -1.5d
 			subtitle: "{chapter.16.quest.35.subtitle}"
@@ -1124,22 +1369,46 @@
 				{
 					id: "40702130A492F0A8"
 					type: "item"
-					item: "mcda:archers_helmet"
+					item: {
+						id: "mcda:archers_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "0AFD67042F96D072"
 					type: "item"
-					item: "mcda:archers_chestplate"
+					item: {
+						id: "mcda:archers_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "4700855005CB5B79"
 					type: "item"
-					item: "mcda:archers_leggings"
+					item: {
+						id: "mcda:archers_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
 					id: "7D3D34CC04D7EA5E"
 					type: "item"
-					item: "mcda:archers_boots"
+					item: {
+						id: "mcda:archers_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
 			rewards: [{

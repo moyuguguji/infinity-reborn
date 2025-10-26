@@ -1,0 +1,37 @@
+{
+  "name": "储罐",
+  "icon": "kibe:tank",
+  "category": "patchouli:item",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "kibe:tank",
+      "title": "储罐",
+      "text": "可以存储一切液体，包括经验。且可以挖掉带有液体的储罐。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "kibe:entangled_tank",
+      "title": "纠缠储罐",
+      "text": "储罐的升级版，相当于流体版末影箱，与纠缠桶连接。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "kibe:entangled_bucket",
+      "title": "纠缠桶",
+      "text": "与纠缠储罐配套使用的桶。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "kibe:entangled_chest",
+      "title": "纠缠箱",
+      "text": "与末影箱功能类似，相同ID的纠缠箱储存的物品相同。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "kibe:light_gray_rune",
+      "title": "符文",
+      "text": "用来更改纠缠箱/桶/储罐的ID，对着上面那一圈白色使用。"
+    }
+  ]
+}

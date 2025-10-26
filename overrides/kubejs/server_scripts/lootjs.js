@@ -22,6 +22,7 @@ onEvent("lootjs", (event) => {
         .removeLoot("artifacts:vampiric_glove")
     event
         .addLootTypeModifier(LootType.ENTITY)
+        .removeLoot("artifacts:feral_claws")
         .removeLoot("@gofish")
     event
         .addLootTypeModifier(LootType.CHEST)
@@ -198,6 +199,7 @@ onEvent("lootjs", (event) => {
         .removeLoot("minecraft:iron_nugget")
         .removeLoot("numismatic-overhaul:bronze_coin")
         .removeLoot("nomadbooks:nomad_book")
+        .removeLoot("artifacts:feral_claws")
 
     event
         .addLootTypeModifier(LootType.CHEST)

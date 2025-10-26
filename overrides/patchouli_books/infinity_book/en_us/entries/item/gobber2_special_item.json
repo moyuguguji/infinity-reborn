@@ -1,0 +1,12 @@
+{
+  "name": "戈伯传送团",
+  "icon": "gobber2:gobber2_special_item",
+  "category": "patchouli:item",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "gobber2:gobber2_special_item",
+      "text": "使用后可以随机传送，范围极大，相当于一次性的哆啦A梦任意门，中后期探索开图很有用。"
+    }
+  ]
+}

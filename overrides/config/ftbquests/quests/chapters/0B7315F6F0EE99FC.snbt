@@ -2187,6 +2187,7 @@
 		{
 			x: -2.5d
 			y: -1.5d
+			subtitle: "已ban"
 			optional: true
 			id: "49DE46D73DB69B92"
 			tasks: [{

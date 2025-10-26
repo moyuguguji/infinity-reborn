@@ -295,4 +295,12 @@ onEvent('tags.items', event => {
 			[element] // 获取该模组所有物品
 		  )
     });
+
+	Ingredient.of('@endrem').getItemIds().forEach(element => {
+		if(!element.includes("eye")) return
+        event.add(
+			'endrem:eye', // 标签名称（格式为 namespace:tag_name）
+			[element] // 获取该模组所有物品
+		  )
+    });
   })

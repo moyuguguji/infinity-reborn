@@ -16,7 +16,7 @@
 	// Bonus Max Health attribute config
 	"maxHealthConfig": {
 		// Chance for an armor item to add bonus max health [0 = never, 1 = always] [default = 0.05]
-		"attributeChance": 0.08,
+		"attributeChance": 0,
 		/* Set to true to round bonus health to a whole number, so hearts are filled up nicely on the HUD [default = true]
 		   This means bonus health of +2.3 would round to just +2, or bonus health of +2.7 would round to +3
 		*/
@@ -45,7 +45,7 @@
 		"attributeChance": 0.33,
 		// Minimum damage percentage [default = 2.5]
 		"minDmgReduction": 2.5,
-		// Maximum damage percentage] [default = 90]
+		// Maximum damage percentage [default = 90]
 		"maxDmgReduction": 10.0,
 		/* True if damage reduction should be calculated using a Gaussian distribution, else it will be a linearly random
 		   value between the minDmgReduction and maxDmgReduction [default = true]
@@ -83,7 +83,7 @@
 		   Knockback Resistance is a rate from 0 to 1, where 1 means 100% knockback resistance, 0.5 means 50%.
 		   Note: The tooltip will show knockbackResistance * 100, so it looks like a nicer integer value.
 		*/
-		"attributeChance": 0.00,
+		"attributeChance": 0.0,
 		// Minimum knockback resistance (this is a rate from 0 to 1) [default = 0.01]
 		"minKnockbackResistance": 0.01,
 		// Maximum knockback resistance (this is a rate from 0 to 1) [default = 0.25]

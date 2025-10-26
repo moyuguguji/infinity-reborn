@@ -151,7 +151,7 @@
 #This is an opinionated feature that changes core gameplay and so is disabled by default.
 "RespawnAnchorInTheEnd Enabled" = false
 #An item's repair cost is shown in their tooltip when looking at the anvil screen.
-"ShowRepairCost Enabled" = true
+"ShowRepairCost Enabled" = false
 #Drag and drop items into a shulkerbox from within your inventory.
 "ShulkerBoxDragDrop Enabled" = true
 #A shulker box's contents is shown in the item tooltip when hovering over.

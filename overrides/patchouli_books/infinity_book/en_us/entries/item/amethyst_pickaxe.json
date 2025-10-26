@@ -1,0 +1,12 @@
+{
+  "name": "紫水晶镐",
+  "icon": "emerald_tools:amethyst_pickaxe",
+  "category": "patchouli:item",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "emerald_tools:amethyst_pickaxe",
+      "text": "君子动手不动口。$(br2)一把实用的挖掘工具，使用紫水晶制作而成。"
+    }
+  ]
+}

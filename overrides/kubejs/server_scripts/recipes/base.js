@@ -240,6 +240,24 @@ onEvent('recipes', event => {
 		B: 'minecraft:stick'
 	})
 
+	event.shaped('2x kubejs:bandage', [
+		'AAA',
+		'AAA',
+		'   '
+	], {
+		A: 'minecraft:string'
+	})
+
+	event.shaped('victus:blank_heart_aspect', [
+		'ABA',
+		'BCB',
+		'ABA'
+	], {
+		A: 'minecraft:gold_nugget',
+		B: 'minecraft:glass_pane',
+		C: 'minecraft:light_gray_stained_glass_pane'
+	})
+
 	event.shaped(Item.of('kubejs:crude_axe', '{Damage:0}'), [
 		' AA',
 		' BA',

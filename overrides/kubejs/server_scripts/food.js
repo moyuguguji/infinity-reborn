@@ -15,4 +15,8 @@ onEvent('item.food_eaten', event => {
                 break;
         }
     }
+    if (event.item.id == 'kubejs:bandage') {
+        event.server.runCommandSilent(`effect clear ${event.player.profile.name} soulsweapons:bleed`)
+        event.player.heal(2)
+    }
 })

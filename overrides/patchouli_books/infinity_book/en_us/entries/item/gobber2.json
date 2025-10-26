@@ -1,0 +1,25 @@
+{
+  "name": "戈伯工具",
+  "icon": "gobber2:gobber2_staff_ensnarement",
+  "category": "patchouli:item",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "gobber2:gobber2_staff_ensnarement",
+      "title": "捕捉法杖",
+      "text": "抓住他们"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "gobber2:gobber2_staff_hostile_ensnarement",
+      "title": "敌对捕捉法杖",
+      "text": "抓住所有人！"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "gobber2:gobber2_staff_transformation",
+      "title": "转换之杖",
+      "text": "获取某些资源的更好方式。"
+    }
+  ]
+}

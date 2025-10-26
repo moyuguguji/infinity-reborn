@@ -1,0 +1,25 @@
+{
+  "name": "多功能工具",
+  "icon": "piercingpaxels:netherite_paxel",
+  "category": "patchouli:item",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "piercingpaxels:netherite_paxel",
+      "title": "下界合金多功能工具",
+      "text": "好用的多功能工具$(br2)shift右键可以打开升级界面"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "piercingpaxels:upgrade_unbreakable",
+      "title": "无限耐久升级",
+      "text": "使工具变得不可破坏"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "piercingpaxels:passive_smelt",
+      "title": "自动熔炼升级",
+      "text": "自动熔炼挖掘的物品"
+    }
+  ]
+}

@@ -16,6 +16,20 @@ onEvent('recipes', event => {
     event.custom({
         "type": "purpeille:ancient_oven",
         "input": {
+            "item": "purpeille:purpeille_ingot"
+        },
+        "damage": 10,
+        "cook_time": 20,
+        "result": [
+            {
+                "item": "purpeille:encased_core"
+            }
+        ]
+    })
+
+     event.custom({
+        "type": "purpeille:ancient_oven",
+        "input": {
             "item": "mythicmetals:celestium_ingot"
         },
         "damage": 100,
