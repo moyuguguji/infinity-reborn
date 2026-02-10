@@ -10,7 +10,7 @@ onEvent('player.logged_in', event => {
 	event.player.give(Item.of('kubejs:difficulty_changer'))
 	event.player.give(Item.of('20x kubejs:chinese_dumpling'))
 	event.player.give(Item.of('2x kubejs:firecracker'))
-	event.player.give(Item.of('5x kubejs:red_packet'))
+	event.player.give(Item.of('6x kubejs:red_packet'))
 	event.player.give(Item.of('10x kubejs:shi_lian'))
 	event.player.give(Item.of('nomadbooks:nomad_book', '{nomadbooks:{Height:3,InkGoal:8,InkProgress:0,Inked:1b,Structure:"nomadbooks:campfire3x1x3",VisitedBiomes:["Reference{ResourceKey[minecraft:worldgen/biome / minecraft:cold_ocean]=net.minecraft.class_1959@65fbb5f5}"],Width:3}}'))
 	event.player.give("kubejs:starter_bag")
