@@ -43,5 +43,29 @@ onEvent('recipes', event => {
             }
           }    
       )
+
+      event.custom({
+        "type": "spectrum:liquid_crystal_converting",
+            "ingredient": {
+              "item": "kubejs:infinity_sword"
+            },
+            "result" : {
+              "item": "kubejs:copper_sword",
+              "count": 1
+            }
+          }    
+      )
+
+      event.custom({
+        "type": "spectrum:liquid_crystal_converting",
+            "ingredient": {
+              "item": "kubejs:copper_sword"
+            },
+            "result" : {
+              "item": "kubejs:infinity_sword",
+              "count": 1
+            }
+          }    
+      )
 }
 )
