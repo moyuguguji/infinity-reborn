@@ -1,0 +1,29 @@
+{
+  "name": "暮色森林",
+  "icon": "twilightforest:twilight_portal_miniature_structure",
+  "category": "patchouli:dimension",
+  "pages": [
+    {
+      "type":"patchouli:spotlight",
+      "item":"gobber2:gobber2_ingot",
+      "text":"现在你需要使用戈伯锭而不是钻石来开启暮色传送门"
+    },
+    {
+      "type":"patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+         ["CCCC","C  C","C  C","CCCC"],
+         ["AAAA","ABBA","A0BA","AAAA"]
+        ],
+        "mapping": {
+            "A": "#minecraft:dirt",
+            "0": "minecraft:water",
+            "B": "minecraft:water",
+            "C": "#twilightforest:portal/decoration"
+        },
+        "symmetrical": true
+    },
+      "text":"将戈伯锭丢入水中激活"
+    }
+  ]
+}

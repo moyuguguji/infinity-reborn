@@ -25,9 +25,7 @@ onEvent('recipes', event => {
 		"result": {
 			"item": 'infinity:special_handlingof_glowing_obsidian'
 		}
-
-
-	})
+	}).id('kubejs:obsidian1')
 
 	event.custom({
 		type: "botania:terra_plate",

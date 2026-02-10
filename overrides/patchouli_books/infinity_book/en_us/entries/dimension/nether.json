@@ -1,0 +1,52 @@
+{
+  "name": "下界",
+  "icon": "infinity:special_handlingof_glowing_obsidian",
+  "category": "patchouli:dimension",
+  "pages": [
+    {
+      "type":"patchouli:spotlight",
+      "item":"minecraft:obsidian",
+      "text":"现在你无法用黑曜石来搭建下界传送门,需要用一些手段来获取特殊的黑曜石来搭建传送门"
+    },
+    {
+      "type":"patchouli:spotlight",
+      "item":"soulsweapons:crimson_obsidian",
+      "text":"闪电击中黑曜石即可转换成这种黑曜石"
+    },
+    {
+      "type": "spectrum:fusion_shrine_crafting",
+      "recipe": "kubejs:obsidian",
+      "text": "光谱世界的合成方式,可以一次合成多个"
+
+    },
+    {
+      "type": "patchouli:terrasteel",
+      "recipe": "kubejs:obsidian1",
+      "text": "植物魔法的合成方式,只能一个个合"
+    },
+    {
+      "type":"patchouli:spotlight",
+      "item":"soulsweapons:lost_soul",
+      "text":"右键已经搭好的下界传送门即可开启传送门"
+    },
+    {
+      "type":"patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+         ["    "," AA ","    "],
+         ["    ","ABBA","    "],
+         ["    ","ABBA","    "],
+         ["    ","ABBA","    "],
+         ["    "," 0A ","    "]
+        ],
+        "mapping": {
+            "A": "infinity:special_handlingof_glowing_obsidian",
+            "0": "infinity:special_handlingof_glowing_obsidian",
+            "B": "customportalapi:customportalblock"
+        },
+        "symmetrical": true
+    },
+      "text":"用迷失的灵魂右键框架即可打开传送门"
+    }
+  ]
+}

@@ -265,7 +265,9 @@ onEvent('entity.hurt', event => {
 	if (source1.toString().includes('EntityDamageSource (Fake')) return
 	let play = event.getSource().getPlayer()
 	let damage = event.getDamage()
+	//event.server.runCommandSilent(`say ${damage}`)
 	if (play != null) {
+		if (play.getHeldItem('botania:terra_sword') && damage <= 7) return
 		if (play.stages.has('difficulty_normal')) {
 			//生物在未满血的状态下受到的玩家伤害减少10%
 			//target.heal(damage * 0.1)

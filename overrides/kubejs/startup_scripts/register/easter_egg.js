@@ -48,13 +48,13 @@ onEvent('item.registry', event => {
 		.displayName("§4Dream_Promise")
 		.maxStackSize(1)
 		.rarity('Epic')
-		.tooltip('§4服务器首个完成击杀100凋零任务群友')
+		.tooltip('§4首个完成击杀100凋零任务群友')
 
 	event.create('gandi')
 		.displayName("§4he will return")
 		.maxStackSize(1)
 		.rarity('Epic')
-		.tooltip('§4服务器首个完成全部挖矿任务群友')
+		.tooltip('§4首个完成全部挖矿任务群友')
 
 	event.create('tu_kuai')
 		.displayName("很脏的块")

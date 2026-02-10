@@ -25,7 +25,8 @@
 				Count: 1b
 				tag: { }
 			}
-			weight: 4
+			count: 2
+			weight: 15
 		}
 	]
 }

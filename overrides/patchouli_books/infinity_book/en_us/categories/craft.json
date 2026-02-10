@@ -2,5 +2,5 @@
     "name": "合成方式",
     "description": "一些高级的合成方式。",
     "icon": "alloy_forgery:deepslate_bricks_forge_controller",
-    "sortnum": 2
+    "sortnum": 4
   }

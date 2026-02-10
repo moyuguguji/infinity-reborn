@@ -373,7 +373,7 @@ onEvent('recipes', event => {
     "result": {
       "item": 'infinity:special_handlingof_glowing_obsidian'
     }
-  })
+  }).id('kubejs:obsidian')
 
   event.custom({
     type: "spectrum:fusion_shrine",

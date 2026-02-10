@@ -1,0 +1,28 @@
+{
+  "attributes": {
+    "attack_range": 20.0,
+    "category": "flysword",
+    "attacks": [
+      {
+        "hitbox": "FORWARD_BOX",
+        "damage_multiplier": 999999,
+        "angle": 0,
+        "upswing": 0.6,
+        "animation": "bettercombat:one_handed_slash_fly_right",
+        "swing_sound": {
+          "id": "bettercombat:axe_slash"
+        }
+      },
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 999999,
+        "angle": 120,
+        "upswing": 0.6,
+        "animation": "bettercombat:one_handed_slash_fly_left",
+        "swing_sound": {
+          "id": "bettercombat:axe_slash"
+        }
+      }
+    ]
+  }
+}

@@ -170,6 +170,15 @@
 		.rarity(Rarity.UNCOMMON)
 		.tooltip('\u00A77游戏结束')
 		.tooltip('\u00A7e潜行使用/kill攻击')
+
+	event.create('copper_sword', 'sword')
+		.tier('infinity')
+		.attackDamageBonus(663)
+		.maxStackSize(1)
+		.speedBaseline(-2)
+		.maxDamage(1000000)
+		.rarity(Rarity.UNCOMMON)
+		.tooltip('\u00A77包含99%的力量!')
 	
 	event.create('snowstormcane', 'sword')
 		.displayName("风雪手杖")
@@ -177,8 +186,6 @@
 		.maxStackSize(1)
 		.speedBaseline(-1.1)
 		.maxDamage(1000)
-		.tooltip('§b尽管这十余年来我得到了很多，但我却再也没能够找回我那朦胧的过去与记忆')
-		.tooltip('-[OA]风雪的遗孤')
 		.tooltip('§5归乡')
 		.tooltip('-手持时获得速度3')
 
@@ -189,5 +196,4 @@
 		.speedBaseline(-0.8)
 		.maxDamage(100)
 		.tooltip('攻击生物造成1点真实伤害,使其获得速度3急迫3')
-		//.tooltip('-[OA]风雪的遗孤')
 })

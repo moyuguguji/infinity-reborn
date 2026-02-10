@@ -4,45 +4,9 @@ onEvent('player.logged_in', event => {
 	if (event.player.stages.has('nether')) return
 	// 没有则添加该阶段
 	event.player.stages.add('nether')
-	let tiermeide = [
-		"tiered:meide_qianxun",
-		"tiered:meide_qinfen",
-		"tiered:pointy",
-		"tiered:savage",
-		"tiered:shameful",
-		"tiered:sharp",
-		"tiered:sins_envy_melee",
-		"tiered:sins_greed_melee",
-		"tiered:sins_lust_melee",
-		"tiered:sins_wrath_melee",
-		"tiered:small",
-		"tiered:terrible",
-		"tiered:tiny",
-		"tiered:unhappy",
-		"tiered:bulky",
-		"tiered:dangerous",
-		"tiered:dull",
-		"tiered:heavy", "tiered:meide_jiezhi",
-		"tiered:legendary",
-		"tiered:light",
-		"tiered:massive",
-		"tiered:large",
-		"tiered:broken_weapon",
-		"tiered:damaged",
-		"tiered:demonic",
-		"tiered:forceful",
-		"tiered:godly",
-		"tiered:hurtful",
-		"tiered:ruthless",
-		"tiered:shoddy",
-		"tiered:strong",
-		"tiered:superior",
-		"tiered:weak",
-		"tiered:zealous"
-	]
-	event.player.give(Item.of('emerald_tools:copper_sword', `{Unbreakable:1b,swa3:{},Tiered:{Tier:"${tiermeide[randomNum(0,tiermeide.length)]}"}}`))
-	event.player.give(Item.of('treeaxe:copper_treeaxe', '{Unbreakable:1b,swa3:{}}'))
-	event.player.give(Item.of('emerald_tools:copper_pickaxe', '{Unbreakable:1b,swa3:{}}'))
+	event.player.give(Item.of('emerald_tools:copper_sword', `{Unbreakable:1b,swa3:{}}`))
+	event.player.give(Item.of('treeaxe:copper_treeaxe', `{Unbreakable:1b,swa3:{}}`))
+	event.player.give(Item.of('emerald_tools:copper_pickaxe', `{Unbreakable:1b,swa3:{}}`))
 	event.player.give(Item.of('kubejs:difficulty_changer'))
 	event.player.give(Item.of('20x kubejs:chinese_dumpling'))
 	event.player.give(Item.of('2x kubejs:firecracker'))
@@ -52,7 +16,7 @@ onEvent('player.logged_in', event => {
 	event.player.give("kubejs:starter_bag")
 	event.player.give('dankstorage:dank_3')
 	event.server.runCommandSilent(`scoreboard players set choice nether 1`)
-	event.server.scheduleInTicks(40, schedule => {
+	event.server.scheduleInTicks(100, schedule => {
 		event.player.tell(`§e如果游玩过程中发现BUG请加群§c144825716`)
 		event.player.tell(`§e==================================`)
 		event.player.tell('§e建议在§c选择-语言§e里关闭§c强制显示Unicode字体')
